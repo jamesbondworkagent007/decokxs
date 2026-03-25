@@ -1,0 +1,14 @@
+package com.amplifyframework.auth.result.step;
+
+/* JADX INFO: loaded from: classes14.dex */
+public enum AuthSignInStep {
+    CONFIRM_SIGN_IN_WITH_SMS_MFA_CODE,
+    CONFIRM_SIGN_IN_WITH_CUSTOM_CHALLENGE,
+    CONFIRM_SIGN_IN_WITH_NEW_PASSWORD,
+    RESET_PASSWORD,
+    CONFIRM_SIGN_UP,
+    CONTINUE_SIGN_IN_WITH_TOTP_SETUP,
+    CONTINUE_SIGN_IN_WITH_MFA_SELECTION,
+    CONFIRM_SIGN_IN_WITH_TOTP_CODE,
+    DONE
+}
