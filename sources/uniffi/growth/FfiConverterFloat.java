@@ -1,0 +1,14 @@
+package uniffi.growth;
+
+import o.ANQ;
+import uniffi.BaseFfiConverterFloat;
+
+/* JADX INFO: loaded from: classes25.dex */
+public final class FfiConverterFloat extends BaseFfiConverterFloat {
+    public static final int $stable = 0;
+    public static final FfiConverterFloat INSTANCE = new FfiConverterFloat();
+
+    private FfiConverterFloat() {
+        super(ANQ.uniffiRustBuffer);
+    }
+}
