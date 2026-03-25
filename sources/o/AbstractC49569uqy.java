@@ -1,0 +1,108 @@
+package o;
+
+import androidx.cardview.widget.CardView;
+import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.databinding.ViewDataBinding;
+import androidx.recyclerview.widget.RecyclerView;
+import com.okinc.uilab.reminder.OKReminder;
+
+/* JADX INFO: renamed from: o.uqy, reason: case insensitive filesystem */
+/* JADX INFO: loaded from: classes11.dex */
+public abstract class AbstractC49569uqy extends ViewDataBinding {
+    public final ConstraintLayout AEQbTJ;
+    public final android.widget.TextView AYXKKw;
+    public final C55320xhi AhwBna;
+    public final android.widget.TextView AkhnZx;
+    public final android.widget.ImageView AuCTel;
+    public final android.widget.TextView AuCTelauCTel;
+    public final CardView AubY;
+    public final android.widget.TextView AwvSrB;
+    public final android.widget.TextView AxsJAY;
+    public final android.widget.TextView DTwDnp;
+    public final android.widget.TextView DbNXlk;
+    public final android.view.View EZpvd;
+    public final android.widget.LinearLayout KWHzl;
+    public final android.widget.TextView OLrzqt;
+    public final android.widget.TextView ORxRYg;
+    public final android.widget.TextView OcIXYQ;
+    public final android.widget.TextView QKVWgx;
+    public final android.widget.LinearLayout QOLQEE;
+    public final android.widget.TextView QUSxYX;
+    public final android.widget.TextView QVAiDq;
+    public final OKReminder QbewEr;
+    public final C55230xfy QfsBiF;
+    public final android.widget.TextView RJOkX;
+    public final android.widget.TextView copydefault;
+    public final android.widget.LinearLayout dNCPSb;
+    public final C55249xgQ djBIcL;
+    public final android.widget.TextView ejfBZ;
+    public final android.widget.TextView fARcdN;
+    public final android.widget.ImageView fIwbmz;
+    public final android.widget.LinearLayout fJNWhG;
+    public final android.widget.TextView fetchVPNInfo;
+    public final C52794wYp gEmmrt;
+    public final android.widget.LinearLayout gHZMYf;
+    public final android.widget.TextView getFieldNames;
+    public final android.widget.LinearLayout getNewProxyInstance;
+    public final android.widget.LinearLayout hDKMBd;
+    public final android.widget.TextView isConnected;
+    public final android.widget.TextView iwGUEr;
+    public final android.widget.LinearLayout sSMYrx;
+    public final android.widget.TextView uzCIH;
+    public final android.widget.TextView valueOf;
+    public final C55001xbh values;
+    public final CardView wlaJM;
+    public final android.widget.LinearLayout zLjUOn;
+    public final android.widget.TextView zsXlph;
+    public final RecyclerView zuBGHE;
+
+    public AbstractC49569uqy(java.lang.Object obj, android.view.View view, int i, android.widget.LinearLayout linearLayout, android.widget.TextView textView, android.widget.TextView textView2, ConstraintLayout constraintLayout, android.view.View view2, C55320xhi c55320xhi, android.widget.TextView textView3, C52794wYp c52794wYp, C55249xgQ c55249xgQ, android.widget.TextView textView4, android.widget.TextView textView5, android.widget.TextView textView6, C55001xbh c55001xbh, android.widget.TextView textView7, android.widget.TextView textView8, android.widget.ImageView imageView, android.widget.ImageView imageView2, android.widget.TextView textView9, android.widget.LinearLayout linearLayout2, android.widget.TextView textView10, android.widget.TextView textView11, android.widget.LinearLayout linearLayout3, android.widget.LinearLayout linearLayout4, android.widget.TextView textView12, android.widget.TextView textView13, android.widget.LinearLayout linearLayout5, android.widget.TextView textView14, android.widget.TextView textView15, CardView cardView, CardView cardView2, RecyclerView recyclerView, android.widget.LinearLayout linearLayout6, android.widget.TextView textView16, android.widget.TextView textView17, android.widget.LinearLayout linearLayout7, android.widget.TextView textView18, android.widget.TextView textView19, android.widget.TextView textView20, android.widget.LinearLayout linearLayout8, android.widget.TextView textView21, android.widget.TextView textView22, OKReminder oKReminder, android.widget.TextView textView23, android.widget.TextView textView24, C55230xfy c55230xfy, android.widget.LinearLayout linearLayout9) {
+        super(obj, view, i);
+        this.KWHzl = linearLayout;
+        this.OLrzqt = textView;
+        this.copydefault = textView2;
+        this.AEQbTJ = constraintLayout;
+        this.EZpvd = view2;
+        this.AhwBna = c55320xhi;
+        this.valueOf = textView3;
+        this.gEmmrt = c52794wYp;
+        this.djBIcL = c55249xgQ;
+        this.AYXKKw = textView4;
+        this.AkhnZx = textView5;
+        this.fetchVPNInfo = textView6;
+        this.values = c55001xbh;
+        this.isConnected = textView7;
+        this.DbNXlk = textView8;
+        this.fIwbmz = imageView;
+        this.AuCTel = imageView2;
+        this.fARcdN = textView9;
+        this.fJNWhG = linearLayout2;
+        this.ejfBZ = textView10;
+        this.uzCIH = textView11;
+        this.hDKMBd = linearLayout3;
+        this.getNewProxyInstance = linearLayout4;
+        this.iwGUEr = textView12;
+        this.getFieldNames = textView13;
+        this.zLjUOn = linearLayout5;
+        this.AuCTelauCTel = textView14;
+        this.zsXlph = textView15;
+        this.wlaJM = cardView;
+        this.AubY = cardView2;
+        this.zuBGHE = recyclerView;
+        this.sSMYrx = linearLayout6;
+        this.AwvSrB = textView16;
+        this.AxsJAY = textView17;
+        this.gHZMYf = linearLayout7;
+        this.OcIXYQ = textView18;
+        this.ORxRYg = textView19;
+        this.DTwDnp = textView20;
+        this.QOLQEE = linearLayout8;
+        this.QKVWgx = textView21;
+        this.RJOkX = textView22;
+        this.QbewEr = oKReminder;
+        this.QUSxYX = textView23;
+        this.QVAiDq = textView24;
+        this.QfsBiF = c55230xfy;
+        this.dNCPSb = linearLayout9;
+    }
+}

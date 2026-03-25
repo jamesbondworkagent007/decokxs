@@ -1,0 +1,94 @@
+package o;
+
+import androidx.appcompat.widget.LinearLayoutCompat;
+import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.constraintlayout.widget.Group;
+import androidx.databinding.ViewDataBinding;
+import androidx.recyclerview.widget.RecyclerView;
+import com.okinc.tradingbot.impl.strategy.view.TickerIconView;
+
+/* JADX INFO: loaded from: classes11.dex */
+public abstract class uPG extends ViewDataBinding {
+    public final LinearLayoutCompat AEQbTJ;
+    public final C55173xeu AYXKKw;
+    public final android.widget.TextView AhwBna;
+    public final android.view.View AkhnZx;
+    public final LinearLayoutCompat AuCTel;
+    public final android.widget.TextView AuCTelauCTel;
+    public final RecyclerView AubY;
+    public final android.widget.TextView AwvSrB;
+    public final LinearLayoutCompat AxsJAY;
+    public final android.widget.TextView DbNXlk;
+    public final android.widget.TextView EZpvd;
+    public final android.widget.TextView KWHzl;
+    public final ConstraintLayout OLrzqt;
+    public final android.view.View ORxRYg;
+    public final android.widget.TextView OcIXYQ;
+    public final android.widget.TextView QKVWgx;
+    public final android.widget.TextView QOLQEE;
+    public final android.widget.TextView copydefault;
+    public final ConstraintLayout djBIcL;
+    public final LinearLayoutCompat ejfBZ;
+    public final RecyclerView fARcdN;
+    public final LinearLayoutCompat fIwbmz;
+    public final LinearLayoutCompat fJNWhG;
+    public final android.widget.TextView fetchVPNInfo;
+    public final ConstraintLayout gEmmrt;
+    public final Group gHZMYf;
+    public final LinearLayoutCompat getFieldNames;
+    public final ConstraintLayout getNewProxyInstance;
+    public final TickerIconView hDKMBd;
+    public final C55173xeu isConnected;
+    public final C55258xgZ iwGUEr;
+    public final android.widget.TextView sSMYrx;
+    public final C55258xgZ uzCIH;
+    public final ConstraintLayout valueOf;
+    public final android.widget.TextView values;
+    public final android.widget.TextView wlaJM;
+    public final android.view.View zLjUOn;
+    public final LinearLayoutCompat zsXlph;
+    public final android.widget.TextView zuBGHE;
+
+    public uPG(java.lang.Object obj, android.view.View view, int i, android.widget.TextView textView, android.widget.TextView textView2, LinearLayoutCompat linearLayoutCompat, ConstraintLayout constraintLayout, android.widget.TextView textView3, ConstraintLayout constraintLayout2, ConstraintLayout constraintLayout3, ConstraintLayout constraintLayout4, android.widget.TextView textView4, C55173xeu c55173xeu, C55173xeu c55173xeu2, android.view.View view2, android.widget.TextView textView5, android.widget.TextView textView6, android.widget.TextView textView7, RecyclerView recyclerView, LinearLayoutCompat linearLayoutCompat2, LinearLayoutCompat linearLayoutCompat3, LinearLayoutCompat linearLayoutCompat4, LinearLayoutCompat linearLayoutCompat5, LinearLayoutCompat linearLayoutCompat6, C55258xgZ c55258xgZ, C55258xgZ c55258xgZ2, ConstraintLayout constraintLayout5, TickerIconView tickerIconView, RecyclerView recyclerView2, android.view.View view3, android.widget.TextView textView8, LinearLayoutCompat linearLayoutCompat7, android.widget.TextView textView9, android.widget.TextView textView10, LinearLayoutCompat linearLayoutCompat8, android.widget.TextView textView11, android.widget.TextView textView12, Group group, android.widget.TextView textView13, android.widget.TextView textView14, android.widget.TextView textView15, android.view.View view4) {
+        super(obj, view, i);
+        this.copydefault = textView;
+        this.EZpvd = textView2;
+        this.AEQbTJ = linearLayoutCompat;
+        this.OLrzqt = constraintLayout;
+        this.KWHzl = textView3;
+        this.valueOf = constraintLayout2;
+        this.djBIcL = constraintLayout3;
+        this.gEmmrt = constraintLayout4;
+        this.AhwBna = textView4;
+        this.AYXKKw = c55173xeu;
+        this.isConnected = c55173xeu2;
+        this.AkhnZx = view2;
+        this.DbNXlk = textView5;
+        this.values = textView6;
+        this.fetchVPNInfo = textView7;
+        this.fARcdN = recyclerView;
+        this.ejfBZ = linearLayoutCompat2;
+        this.fIwbmz = linearLayoutCompat3;
+        this.fJNWhG = linearLayoutCompat4;
+        this.AuCTel = linearLayoutCompat5;
+        this.getFieldNames = linearLayoutCompat6;
+        this.uzCIH = c55258xgZ;
+        this.iwGUEr = c55258xgZ2;
+        this.getNewProxyInstance = constraintLayout5;
+        this.hDKMBd = tickerIconView;
+        this.AubY = recyclerView2;
+        this.zLjUOn = view3;
+        this.AuCTelauCTel = textView8;
+        this.zsXlph = linearLayoutCompat7;
+        this.wlaJM = textView9;
+        this.zuBGHE = textView10;
+        this.AxsJAY = linearLayoutCompat8;
+        this.AwvSrB = textView11;
+        this.sSMYrx = textView12;
+        this.gHZMYf = group;
+        this.QKVWgx = textView13;
+        this.QOLQEE = textView14;
+        this.OcIXYQ = textView15;
+        this.ORxRYg = view4;
+    }
+}

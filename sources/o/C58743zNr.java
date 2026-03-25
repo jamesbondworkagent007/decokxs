@@ -1,0 +1,107 @@
+package o;
+
+import kotlin.Unit;
+import kotlin.jvm.functions.Function1;
+import kotlin.jvm.functions.Function2;
+import kotlin.jvm.internal.Intrinsics;
+import org.jetbrains.annotations.NotNull;
+import uniffi.UniffiRustCallStatus;
+import uniffi.account.FfiConverterTypeNewDeviceSingleOtpState;
+import uniffi.account.UniffiLib;
+
+/* JADX INFO: renamed from: o.zNr, reason: case insensitive filesystem */
+/* JADX INFO: loaded from: classes25.dex */
+public class C58743zNr extends AbstractC60182zxs implements InterfaceC58745zNt {
+    public static final int $stable = 0;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public C58743zNr(@NotNull C60184zxu c60184zxu, long j) {
+        super(j, UniffiLib.INSTANCE.OLrzqt(), C60230zyn.uniffiRustBuffer, new Function2() { // from class: o.zNx
+            /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+            @Override // kotlin.jvm.functions.Function2
+            public final java.lang.Object invoke(java.lang.Object obj, java.lang.Object obj2) {
+                return C58743zNr.AEQbTJ(((java.lang.Long) obj).longValue(), (UniffiRustCallStatus) obj2);
+            }
+        }, new Function2() { // from class: o.zNy
+            /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+            @Override // kotlin.jvm.functions.Function2
+            public final java.lang.Object invoke(java.lang.Object obj, java.lang.Object obj2) {
+                return java.lang.Long.valueOf(C58743zNr.copydefault(((java.lang.Long) obj).longValue(), (UniffiRustCallStatus) obj2));
+            }
+        });
+        Intrinsics.checkNotNullParameter(c60184zxu, "");
+    }
+
+    /* JADX INFO: Access modifiers changed from: private */
+    public static final Unit AEQbTJ(long j, UniffiRustCallStatus uniffiRustCallStatus) {
+        Intrinsics.checkNotNullParameter(uniffiRustCallStatus, "");
+        UniffiLib.INSTANCE.uniffi_account_fn_free_newdevicesingleotpstatecallback(j, uniffiRustCallStatus);
+        return Unit.INSTANCE;
+    }
+
+    /* JADX INFO: Access modifiers changed from: private */
+    public static final long copydefault(long j, UniffiRustCallStatus uniffiRustCallStatus) {
+        Intrinsics.checkNotNullParameter(uniffiRustCallStatus, "");
+        return UniffiLib.INSTANCE.uniffi_account_fn_clone_newdevicesingleotpstatecallback(j, uniffiRustCallStatus);
+    }
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public C58743zNr(@NotNull C60168zxe c60168zxe) {
+        super(0L, UniffiLib.INSTANCE.OLrzqt(), C60230zyn.uniffiRustBuffer, new Function2() { // from class: o.zNs
+            /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+            @Override // kotlin.jvm.functions.Function2
+            public final java.lang.Object invoke(java.lang.Object obj, java.lang.Object obj2) {
+                return C58743zNr.EZpvd(((java.lang.Long) obj).longValue(), (UniffiRustCallStatus) obj2);
+            }
+        }, new Function2() { // from class: o.zNq
+            /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+            @Override // kotlin.jvm.functions.Function2
+            public final java.lang.Object invoke(java.lang.Object obj, java.lang.Object obj2) {
+                return java.lang.Long.valueOf(C58743zNr.OLrzqt(((java.lang.Long) obj).longValue(), (UniffiRustCallStatus) obj2));
+            }
+        });
+        Intrinsics.checkNotNullParameter(c60168zxe, "");
+    }
+
+    /* JADX INFO: Access modifiers changed from: private */
+    public static final Unit EZpvd(long j, UniffiRustCallStatus uniffiRustCallStatus) {
+        Intrinsics.checkNotNullParameter(uniffiRustCallStatus, "");
+        UniffiLib.INSTANCE.uniffi_account_fn_free_newdevicesingleotpstatecallback(j, uniffiRustCallStatus);
+        return Unit.INSTANCE;
+    }
+
+    /* JADX INFO: Access modifiers changed from: private */
+    public static final long OLrzqt(long j, UniffiRustCallStatus uniffiRustCallStatus) {
+        Intrinsics.checkNotNullParameter(uniffiRustCallStatus, "");
+        return UniffiLib.INSTANCE.uniffi_account_fn_clone_newdevicesingleotpstatecallback(j, uniffiRustCallStatus);
+    }
+
+    @Override // o.InterfaceC58745zNt
+    public void OLrzqt(@NotNull final C58738zNm c58738zNm) {
+        Intrinsics.checkNotNullParameter(c58738zNm, "");
+        callWithHandle$OKCore_deploy(new Function1() { // from class: o.zNw
+            /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+            @Override // kotlin.jvm.functions.Function1
+            public final java.lang.Object invoke(java.lang.Object obj) {
+                return C58743zNr.onChanged$lambda$5(c58738zNm, ((java.lang.Long) obj).longValue());
+            }
+        });
+    }
+
+    public static final Unit onChanged$lambda$5(final C58738zNm c58738zNm, final long j) {
+        C60173zxj.uniffiRustCall(C60230zyn.uniffiRustBuffer, new Function1() { // from class: o.zNv
+            /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+            @Override // kotlin.jvm.functions.Function1
+            public final java.lang.Object invoke(java.lang.Object obj) {
+                return C58743zNr.onChanged$lambda$5$lambda$4(j, c58738zNm, (UniffiRustCallStatus) obj);
+            }
+        });
+        return Unit.INSTANCE;
+    }
+
+    public static final Unit onChanged$lambda$5$lambda$4(long j, C58738zNm c58738zNm, UniffiRustCallStatus uniffiRustCallStatus) {
+        Intrinsics.checkNotNullParameter(uniffiRustCallStatus, "");
+        UniffiLib.INSTANCE.uniffi_account_fn_method_newdevicesingleotpstatecallback_on_changed(j, FfiConverterTypeNewDeviceSingleOtpState.INSTANCE.lower2((java.lang.Object) c58738zNm), uniffiRustCallStatus);
+        return Unit.INSTANCE;
+    }
+}

@@ -1,0 +1,87 @@
+package o;
+
+import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.databinding.DataBindingComponent;
+import androidx.databinding.ViewDataBinding;
+import o.C48033uCm;
+
+/* JADX INFO: renamed from: o.vaH, reason: case insensitive filesystem */
+/* JADX INFO: loaded from: classes11.dex */
+public class C50759vaH extends AbstractC50752vaA {
+    public static final ViewDataBinding.IncludedLayouts AuCTelauCTel = null;
+    public static final android.util.SparseIntArray zLjUOn;
+    public long zsXlph;
+
+    @Override // androidx.databinding.ViewDataBinding
+    public boolean onFieldChange(int i, java.lang.Object obj, int i2) {
+        return false;
+    }
+
+    @Override // androidx.databinding.ViewDataBinding
+    public boolean setVariable(int i, @androidx.annotation.Nullable java.lang.Object obj) {
+        return true;
+    }
+
+    static {
+        android.util.SparseIntArray sparseIntArray = new android.util.SparseIntArray();
+        zLjUOn = sparseIntArray;
+        sparseIntArray.put(C48033uCm.Application.ActionBarDrawerToggleFrameworkActionBarDelegate, 1);
+        sparseIntArray.put(C48033uCm.Application.UrRBLY, 2);
+        sparseIntArray.put(C48033uCm.Application.fHqPtx, 3);
+        sparseIntArray.put(C48033uCm.Application.WorkerThread, 4);
+        sparseIntArray.put(C48033uCm.Application.Rattr, 5);
+        sparseIntArray.put(C48033uCm.Application.ICustomTabsCallbackStub, 6);
+        sparseIntArray.put(C48033uCm.Application.XmlRes, 7);
+        sparseIntArray.put(C48033uCm.Application.Experimental, 8);
+        sparseIntArray.put(C48033uCm.Application.ExperimentalLevel, 9);
+        sparseIntArray.put(C48033uCm.Application.hcetpZ, 10);
+        sparseIntArray.put(C48033uCm.Application.dSJNDS, 11);
+        sparseIntArray.put(C48033uCm.Application.HJWChPHhYHK, 12);
+        sparseIntArray.put(C48033uCm.Application.prepareFromUri, 13);
+        sparseIntArray.put(C48033uCm.Application.prepareFromMediaId, 14);
+        sparseIntArray.put(C48033uCm.Application.prepare, 15);
+        sparseIntArray.put(C48033uCm.Application.DDDCac, 16);
+        sparseIntArray.put(C48033uCm.Application.hCLrkq, 17);
+        sparseIntArray.put(C48033uCm.Application.onProgressUpdate, 18);
+        sparseIntArray.put(C48033uCm.Application.MediaMetadataCompatBitmapKey, 19);
+        sparseIntArray.put(C48033uCm.Application.newView, 20);
+        sparseIntArray.put(C48033uCm.Application.getLegacyAudioStream, 21);
+        sparseIntArray.put(C48033uCm.Application.getMinimumWidth, 22);
+        sparseIntArray.put(C48033uCm.Application.iwGUEr, 23);
+        sparseIntArray.put(C48033uCm.Application.setupContent, 24);
+    }
+
+    public C50759vaH(@androidx.annotation.Nullable DataBindingComponent dataBindingComponent, @androidx.annotation.NonNull android.view.View view) {
+        this(dataBindingComponent, view, ViewDataBinding.mapBindings(dataBindingComponent, view, 25, AuCTelauCTel, zLjUOn));
+    }
+
+    public C50759vaH(DataBindingComponent dataBindingComponent, android.view.View view, java.lang.Object[] objArr) {
+        super(dataBindingComponent, view, 0, (C53314wjE) objArr[23], (C53513wms) objArr[3], (android.widget.FrameLayout) objArr[2], (C53539wnR) objArr[17], (android.widget.TextView) objArr[12], (ConstraintLayout) objArr[10], (android.widget.TextView) objArr[11], (android.widget.TextView) objArr[16], (ConstraintLayout) objArr[0], (C55258xgZ) objArr[6], (android.widget.LinearLayout) objArr[18], (wYK) objArr[19], (android.widget.TextView) objArr[15], (android.widget.TextView) objArr[14], (ConstraintLayout) objArr[13], (android.widget.TextView) objArr[21], (C47988uAv) objArr[7], (C47988uAv) objArr[9], (C47988uAv) objArr[4], (C47988uAv) objArr[8], (C47988uAv) objArr[5], (C55258xgZ) objArr[1], (android.widget.TextView) objArr[24], (C55258xgZ) objArr[20], (C54154wyx) objArr[22]);
+        this.zsXlph = -1L;
+        this.AhwBna.setTag(null);
+        setRootTag(view);
+        invalidateAll();
+    }
+
+    @Override // androidx.databinding.ViewDataBinding
+    public void invalidateAll() {
+        synchronized (this) {
+            this.zsXlph = 1L;
+        }
+        requestRebind();
+    }
+
+    @Override // androidx.databinding.ViewDataBinding
+    public boolean hasPendingBindings() {
+        synchronized (this) {
+            return this.zsXlph != 0;
+        }
+    }
+
+    @Override // androidx.databinding.ViewDataBinding
+    public void executeBindings() {
+        synchronized (this) {
+            this.zsXlph = 0L;
+        }
+    }
+}

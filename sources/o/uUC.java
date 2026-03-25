@@ -1,0 +1,79 @@
+package o;
+
+import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.databinding.DataBindingComponent;
+import androidx.databinding.ViewDataBinding;
+import o.C48033uCm;
+
+/* JADX INFO: loaded from: classes11.dex */
+public class uUC extends uUE {
+    public static final ViewDataBinding.IncludedLayouts DbNXlk = null;
+    public static final android.util.SparseIntArray fJNWhG;
+    public long ejfBZ;
+    public final ConstraintLayout fARcdN;
+
+    @Override // androidx.databinding.ViewDataBinding
+    public boolean onFieldChange(int i, java.lang.Object obj, int i2) {
+        return false;
+    }
+
+    @Override // androidx.databinding.ViewDataBinding
+    public boolean setVariable(int i, @androidx.annotation.Nullable java.lang.Object obj) {
+        return true;
+    }
+
+    static {
+        android.util.SparseIntArray sparseIntArray = new android.util.SparseIntArray();
+        fJNWhG = sparseIntArray;
+        sparseIntArray.put(C48033uCm.Application.onResult, 1);
+        sparseIntArray.put(C48033uCm.Application.setExtraBinder, 2);
+        sparseIntArray.put(C48033uCm.Application.RcXXUw, 3);
+        sparseIntArray.put(C48033uCm.Application.MediaSessionCompatCallback, 4);
+        sparseIntArray.put(C48033uCm.Application.setPlaybackToRemote, 5);
+        sparseIntArray.put(C48033uCm.Application.onMediaButtonEvent, 6);
+        sparseIntArray.put(C48033uCm.Application.onPlayFromMediaId, 7);
+        sparseIntArray.put(C48033uCm.Application.setSessionActivity, 8);
+        sparseIntArray.put(C48033uCm.Application.onFastForward, 9);
+        sparseIntArray.put(C48033uCm.Application.MediaSessionCompat1, 10);
+        sparseIntArray.put(C48033uCm.Application.removeOnActiveChangeListener, 11);
+        sparseIntArray.put(C48033uCm.Application.setMetadata, 12);
+        sparseIntArray.put(C48033uCm.Application.setFlags, 13);
+        sparseIntArray.put(C48033uCm.Application.setCallback, 14);
+    }
+
+    public uUC(@androidx.annotation.Nullable DataBindingComponent dataBindingComponent, @androidx.annotation.NonNull android.view.View view) {
+        this(dataBindingComponent, view, ViewDataBinding.mapBindings(dataBindingComponent, view, 15, DbNXlk, fJNWhG));
+    }
+
+    public uUC(DataBindingComponent dataBindingComponent, android.view.View view, java.lang.Object[] objArr) {
+        super(dataBindingComponent, view, 0, (android.widget.TextView) objArr[3], (android.view.View) objArr[1], (android.widget.TextView) objArr[11], (android.widget.TextView) objArr[12], (android.widget.TextView) objArr[13], (android.widget.TextView) objArr[14], (android.widget.TextView) objArr[5], (android.widget.TextView) objArr[8], (android.widget.TextView) objArr[10], (android.widget.TextView) objArr[4], (android.widget.TextView) objArr[6], (android.widget.TextView) objArr[7], (android.widget.TextView) objArr[9], (android.widget.TextView) objArr[2]);
+        this.ejfBZ = -1L;
+        ConstraintLayout constraintLayout = (ConstraintLayout) objArr[0];
+        this.fARcdN = constraintLayout;
+        constraintLayout.setTag(null);
+        setRootTag(view);
+        invalidateAll();
+    }
+
+    @Override // androidx.databinding.ViewDataBinding
+    public void invalidateAll() {
+        synchronized (this) {
+            this.ejfBZ = 1L;
+        }
+        requestRebind();
+    }
+
+    @Override // androidx.databinding.ViewDataBinding
+    public boolean hasPendingBindings() {
+        synchronized (this) {
+            return this.ejfBZ != 0;
+        }
+    }
+
+    @Override // androidx.databinding.ViewDataBinding
+    public void executeBindings() {
+        synchronized (this) {
+            this.ejfBZ = 0L;
+        }
+    }
+}

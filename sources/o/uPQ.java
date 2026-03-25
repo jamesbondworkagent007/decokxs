@@ -1,0 +1,95 @@
+package o;
+
+import androidx.appcompat.widget.LinearLayoutCompat;
+import androidx.constraintlayout.widget.Barrier;
+import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.constraintlayout.widget.Guideline;
+import androidx.databinding.ViewDataBinding;
+
+/* JADX INFO: loaded from: classes11.dex */
+public abstract class uPQ extends ViewDataBinding {
+    public final C47988uAv AEQbTJ;
+    public final android.widget.TextView AYXKKw;
+    public final Barrier AhwBna;
+    public final android.widget.TextView AkhnZx;
+    public final C47988uAv AuCTel;
+    public final android.widget.TextView AuCTelauCTel;
+    public final wYK AubY;
+    public final android.widget.TextView AwvSrB;
+    public final LinearLayoutCompat AxsJAY;
+    public final C55251xgS DTwDnp;
+    public final android.widget.TextView DbNXlk;
+    public final C53605woe EZpvd;
+    public final C53513wms KWHzl;
+    public final android.widget.FrameLayout OLrzqt;
+    public final android.widget.TextView ORxRYg;
+    public final C54154wyx OcIXYQ;
+    public final C55258xgZ QKVWgx;
+    public final C55113xdn QOLQEE;
+    public final C50553vSr copydefault;
+    public final android.widget.TextView djBIcL;
+    public final ConstraintLayout ejfBZ;
+    public final Guideline fARcdN;
+    public final wPX fIwbmz;
+    public final C55258xgZ fJNWhG;
+    public final android.widget.TextView fetchVPNInfo;
+    public final android.widget.TextView gEmmrt;
+    public final C55258xgZ gHZMYf;
+    public final android.widget.TextView getFieldNames;
+    public final C47988uAv getNewProxyInstance;
+    public final ConstraintLayout hDKMBd;
+    public final ConstraintLayout isConnected;
+    public final C47988uAv iwGUEr;
+    public final C55258xgZ sSMYrx;
+    public final android.widget.TextView uzCIH;
+    public final ConstraintLayout valueOf;
+    public final C55258xgZ values;
+    public final C47988uAv wlaJM;
+    public final wYX zLjUOn;
+    public final C53605woe zsXlph;
+    public final vSK zuBGHE;
+
+    public uPQ(java.lang.Object obj, android.view.View view, int i, C50553vSr c50553vSr, C53513wms c53513wms, android.widget.FrameLayout frameLayout, C47988uAv c47988uAv, C53605woe c53605woe, Barrier barrier, android.widget.TextView textView, ConstraintLayout constraintLayout, android.widget.TextView textView2, android.widget.TextView textView3, C55258xgZ c55258xgZ, android.widget.TextView textView4, android.widget.TextView textView5, android.widget.TextView textView6, ConstraintLayout constraintLayout2, C55258xgZ c55258xgZ2, C47988uAv c47988uAv2, ConstraintLayout constraintLayout3, Guideline guideline, wPX wpx, android.widget.TextView textView7, C47988uAv c47988uAv3, ConstraintLayout constraintLayout4, C47988uAv c47988uAv4, android.widget.TextView textView8, android.widget.TextView textView9, wYX wyx, C47988uAv c47988uAv5, C53605woe c53605woe2, wYK wyk, LinearLayoutCompat linearLayoutCompat, C55258xgZ c55258xgZ3, vSK vsk, C55258xgZ c55258xgZ4, android.widget.TextView textView10, C55251xgS c55251xgS, android.widget.TextView textView11, C55258xgZ c55258xgZ5, C55113xdn c55113xdn, C54154wyx c54154wyx) {
+        super(obj, view, i);
+        this.copydefault = c50553vSr;
+        this.KWHzl = c53513wms;
+        this.OLrzqt = frameLayout;
+        this.AEQbTJ = c47988uAv;
+        this.EZpvd = c53605woe;
+        this.AhwBna = barrier;
+        this.gEmmrt = textView;
+        this.valueOf = constraintLayout;
+        this.AYXKKw = textView2;
+        this.djBIcL = textView3;
+        this.values = c55258xgZ;
+        this.AkhnZx = textView4;
+        this.DbNXlk = textView5;
+        this.fetchVPNInfo = textView6;
+        this.isConnected = constraintLayout2;
+        this.fJNWhG = c55258xgZ2;
+        this.AuCTel = c47988uAv2;
+        this.ejfBZ = constraintLayout3;
+        this.fARcdN = guideline;
+        this.fIwbmz = wpx;
+        this.uzCIH = textView7;
+        this.iwGUEr = c47988uAv3;
+        this.hDKMBd = constraintLayout4;
+        this.getNewProxyInstance = c47988uAv4;
+        this.getFieldNames = textView8;
+        this.AuCTelauCTel = textView9;
+        this.zLjUOn = wyx;
+        this.wlaJM = c47988uAv5;
+        this.zsXlph = c53605woe2;
+        this.AubY = wyk;
+        this.AxsJAY = linearLayoutCompat;
+        this.gHZMYf = c55258xgZ3;
+        this.zuBGHE = vsk;
+        this.sSMYrx = c55258xgZ4;
+        this.AwvSrB = textView10;
+        this.DTwDnp = c55251xgS;
+        this.ORxRYg = textView11;
+        this.QKVWgx = c55258xgZ5;
+        this.QOLQEE = c55113xdn;
+        this.OcIXYQ = c54154wyx;
+    }
+}

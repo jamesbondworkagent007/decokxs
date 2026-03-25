@@ -1,0 +1,10 @@
+package o;
+
+import com.okinc.okimcore.model.im.inhouseim.ws.SiteMeta;
+
+/* JADX INFO: loaded from: classes16.dex */
+public final class sII extends AbstractC44244sIq<SiteMeta> {
+    public sII() {
+        super(SiteMeta.Companion.serializer());
+    }
+}

@@ -1,0 +1,63 @@
+package o;
+
+import androidx.databinding.DataBindingComponent;
+import androidx.databinding.ViewDataBinding;
+import o.C35399nuc;
+
+/* JADX INFO: loaded from: classes8.dex */
+public class nLG extends nLJ {
+    public static final ViewDataBinding.IncludedLayouts AEQbTJ = null;
+    public static final android.util.SparseIntArray copydefault;
+    public long AYXKKw;
+
+    @Override // androidx.databinding.ViewDataBinding
+    public boolean onFieldChange(int i, java.lang.Object obj, int i2) {
+        return false;
+    }
+
+    @Override // androidx.databinding.ViewDataBinding
+    public boolean setVariable(int i, @androidx.annotation.Nullable java.lang.Object obj) {
+        return true;
+    }
+
+    static {
+        android.util.SparseIntArray sparseIntArray = new android.util.SparseIntArray();
+        copydefault = sparseIntArray;
+        sparseIntArray.put(C35399nuc.StateListAnimator.invokespecialsiEkQe, 1);
+        sparseIntArray.put(C35399nuc.StateListAnimator.fdazkH, 2);
+    }
+
+    public nLG(@androidx.annotation.Nullable DataBindingComponent dataBindingComponent, @androidx.annotation.NonNull android.view.View view) {
+        this(dataBindingComponent, view, ViewDataBinding.mapBindings(dataBindingComponent, view, 3, AEQbTJ, copydefault));
+    }
+
+    public nLG(DataBindingComponent dataBindingComponent, android.view.View view, java.lang.Object[] objArr) {
+        super(dataBindingComponent, view, 0, (android.widget.LinearLayout) objArr[0], (android.widget.ImageView) objArr[1], (android.widget.TextView) objArr[2]);
+        this.AYXKKw = -1L;
+        this.KWHzl.setTag(null);
+        setRootTag(view);
+        invalidateAll();
+    }
+
+    @Override // androidx.databinding.ViewDataBinding
+    public void invalidateAll() {
+        synchronized (this) {
+            this.AYXKKw = 1L;
+        }
+        requestRebind();
+    }
+
+    @Override // androidx.databinding.ViewDataBinding
+    public boolean hasPendingBindings() {
+        synchronized (this) {
+            return this.AYXKKw != 0;
+        }
+    }
+
+    @Override // androidx.databinding.ViewDataBinding
+    public void executeBindings() {
+        synchronized (this) {
+            this.AYXKKw = 0L;
+        }
+    }
+}

@@ -1,0 +1,45 @@
+package o;
+
+import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
+import o.C25493ixk;
+
+/* JADX INFO: loaded from: classes18.dex */
+public final class iMX implements ViewBinding {
+    public final android.widget.TextView EZpvd;
+    public final android.widget.TextView OLrzqt;
+    public final android.view.View copydefault;
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    @Override // androidx.viewbinding.ViewBinding
+    public android.view.View getRoot() {
+        return this.copydefault;
+    }
+
+    public iMX(@androidx.annotation.NonNull android.view.View view, @androidx.annotation.NonNull android.widget.TextView textView, @androidx.annotation.NonNull android.widget.TextView textView2) {
+        this.copydefault = view;
+        this.EZpvd = textView;
+        this.OLrzqt = textView2;
+    }
+
+    public static iMX OLrzqt(@androidx.annotation.NonNull android.view.LayoutInflater layoutInflater, @androidx.annotation.NonNull android.view.ViewGroup viewGroup) {
+        if (viewGroup == null) {
+            throw new java.lang.NullPointerException("parent");
+        }
+        layoutInflater.inflate(C25493ixk.Activity.invokespecialsiEkQe, viewGroup);
+        return AEQbTJ(viewGroup);
+    }
+
+    public static iMX AEQbTJ(@androidx.annotation.NonNull android.view.View view) {
+        int i = C25493ixk.ActionBar.DbvGUJ;
+        android.widget.TextView textView = (android.widget.TextView) ViewBindings.findChildViewById(view, i);
+        if (textView != null) {
+            i = C25493ixk.ActionBar.dHAKvv;
+            android.widget.TextView textView2 = (android.widget.TextView) ViewBindings.findChildViewById(view, i);
+            if (textView2 != null) {
+                return new iMX(view, textView, textView2);
+            }
+        }
+        throw new java.lang.NullPointerException("Missing required view with ID: ".concat(view.getResources().getResourceName(i)));
+    }
+}

@@ -1,0 +1,16 @@
+package o;
+
+import com.okinc.network.okg.cor.SubdomainStrategy;
+import kotlin.jvm.internal.Intrinsics;
+import okhttp3.Interceptor;
+import okhttp3.Response;
+import org.jetbrains.annotations.NotNull;
+
+/* JADX INFO: loaded from: classes12.dex */
+public final class xYR implements Interceptor {
+    @Override // okhttp3.Interceptor
+    public Response intercept(@NotNull Interceptor.Chain chain) {
+        Intrinsics.checkNotNullParameter(chain, "");
+        return chain.proceed(chain.request().newBuilder().header("Subdomain-Strategy", SubdomainStrategy.Global.INSTANCE.toString()).build());
+    }
+}

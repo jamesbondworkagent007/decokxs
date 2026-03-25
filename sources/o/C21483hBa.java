@@ -1,0 +1,109 @@
+package o;
+
+import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
+import o.C23274hvD;
+
+/* JADX INFO: renamed from: o.hBa, reason: case insensitive filesystem */
+/* JADX INFO: loaded from: classes23.dex */
+public final class C21483hBa implements ViewBinding {
+    public final android.widget.LinearLayout AEQbTJ;
+    public final android.widget.TextView AYXKKw;
+    public final android.widget.TextView AhwBna;
+    public final C24484ieh DbNXlk;
+    public final C28067kNr EZpvd;
+    public final android.widget.ImageView KWHzl;
+    public final android.widget.FrameLayout OLrzqt;
+    public final android.widget.LinearLayout copydefault;
+    public final android.widget.TextView djBIcL;
+    public final ConstraintLayout gEmmrt;
+    public final android.widget.TextView isConnected;
+    public final android.widget.TextView valueOf;
+    public final android.widget.TextView values;
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    /* JADX DEBUG: Method merged with bridge method: getRoot()Landroid/view/View; */
+    @Override // androidx.viewbinding.ViewBinding
+    /* JADX INFO: renamed from: AEQbTJ, reason: merged with bridge method [inline-methods] */
+    public ConstraintLayout getRoot() {
+        return this.gEmmrt;
+    }
+
+    public C21483hBa(@androidx.annotation.NonNull ConstraintLayout constraintLayout, @androidx.annotation.NonNull C28067kNr c28067kNr, @androidx.annotation.NonNull android.widget.FrameLayout frameLayout, @androidx.annotation.NonNull android.widget.ImageView imageView, @androidx.annotation.NonNull android.widget.LinearLayout linearLayout, @androidx.annotation.NonNull android.widget.LinearLayout linearLayout2, @androidx.annotation.NonNull android.widget.TextView textView, @androidx.annotation.NonNull android.widget.TextView textView2, @androidx.annotation.NonNull android.widget.TextView textView3, @androidx.annotation.NonNull android.widget.TextView textView4, @androidx.annotation.NonNull android.widget.TextView textView5, @androidx.annotation.NonNull android.widget.TextView textView6, @androidx.annotation.NonNull C24484ieh c24484ieh) {
+        this.gEmmrt = constraintLayout;
+        this.EZpvd = c28067kNr;
+        this.OLrzqt = frameLayout;
+        this.KWHzl = imageView;
+        this.AEQbTJ = linearLayout;
+        this.copydefault = linearLayout2;
+        this.djBIcL = textView;
+        this.AhwBna = textView2;
+        this.valueOf = textView3;
+        this.AYXKKw = textView4;
+        this.values = textView5;
+        this.isConnected = textView6;
+        this.DbNXlk = c24484ieh;
+    }
+
+    public static C21483hBa OLrzqt(@androidx.annotation.NonNull android.view.LayoutInflater layoutInflater, @androidx.annotation.Nullable android.view.ViewGroup viewGroup, boolean z) {
+        android.view.View viewInflate = layoutInflater.inflate(C23274hvD.Activity.DSiOMJ, viewGroup, false);
+        if (z) {
+            viewGroup.addView(viewInflate);
+        }
+        return OLrzqt(viewInflate);
+    }
+
+    public static C21483hBa OLrzqt(@androidx.annotation.NonNull android.view.View view) {
+        int i = C23274hvD.Application.gAnGwV;
+        C28067kNr c28067kNr = (C28067kNr) ViewBindings.findChildViewById(view, i);
+        if (c28067kNr != null) {
+            i = C23274hvD.Application.IYdWPz;
+            android.widget.FrameLayout frameLayout = (android.widget.FrameLayout) ViewBindings.findChildViewById(view, i);
+            if (frameLayout != null) {
+                i = C23274hvD.Application.getServiceComponent;
+                android.widget.ImageView imageView = (android.widget.ImageView) ViewBindings.findChildViewById(view, i);
+                if (imageView != null) {
+                    i = C23274hvD.Application.MediaControllerCompatMediaControllerImplApi21ExtraBinderRequestResultReceiver;
+                    android.widget.LinearLayout linearLayout = (android.widget.LinearLayout) ViewBindings.findChildViewById(view, i);
+                    if (linearLayout != null) {
+                        i = C23274hvD.Application.MediaSessionCompatApi21QueueItem;
+                        android.widget.LinearLayout linearLayout2 = (android.widget.LinearLayout) ViewBindings.findChildViewById(view, i);
+                        if (linearLayout2 != null) {
+                            i = C23274hvD.Application.applyFrozenState;
+                            android.widget.TextView textView = (android.widget.TextView) ViewBindings.findChildViewById(view, i);
+                            if (textView != null) {
+                                i = C23274hvD.Application.setTintList;
+                                android.widget.TextView textView2 = (android.widget.TextView) ViewBindings.findChildViewById(view, i);
+                                if (textView2 != null) {
+                                    i = C23274hvD.Application.start;
+                                    android.widget.TextView textView3 = (android.widget.TextView) ViewBindings.findChildViewById(view, i);
+                                    if (textView3 != null) {
+                                        i = C23274hvD.Application.getKeyframeIdAt;
+                                        android.widget.TextView textView4 = (android.widget.TextView) ViewBindings.findChildViewById(view, i);
+                                        if (textView4 != null) {
+                                            i = C23274hvD.Application.indexOfTransition;
+                                            android.widget.TextView textView5 = (android.widget.TextView) ViewBindings.findChildViewById(view, i);
+                                            if (textView5 != null) {
+                                                i = C23274hvD.Application.addStateSet;
+                                                android.widget.TextView textView6 = (android.widget.TextView) ViewBindings.findChildViewById(view, i);
+                                                if (textView6 != null) {
+                                                    i = C23274hvD.Application.setIntent;
+                                                    C24484ieh c24484ieh = (C24484ieh) ViewBindings.findChildViewById(view, i);
+                                                    if (c24484ieh != null) {
+                                                        return new C21483hBa((ConstraintLayout) view, c28067kNr, frameLayout, imageView, linearLayout, linearLayout2, textView, textView2, textView3, textView4, textView5, textView6, c24484ieh);
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        throw new java.lang.NullPointerException("Missing required view with ID: ".concat(view.getResources().getResourceName(i)));
+    }
+}

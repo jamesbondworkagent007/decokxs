@@ -1,0 +1,62 @@
+package o;
+
+import com.okinc.business.market.features.vibes.domain.FetchVibesTreemapUseCase$invoke$1;
+import com.okinc.business.market.features.vibes.domain.FetchVibesTreemapUseCase$invoke$2;
+import com.okinc.business.market.features.vibes.domain.VibesSortType;
+import com.okinc.business.market.features.vibes.domain.VibesTimeRange;
+import kotlin.Result;
+import kotlin.coroutines.Continuation;
+import kotlin.jvm.internal.Intrinsics;
+import kotlinx.coroutines.BuildersKt;
+import kotlinx.coroutines.CoroutineDispatcher;
+import org.jetbrains.annotations.NotNull;
+
+/* JADX INFO: loaded from: classes7.dex */
+public final class kAH {
+    public final CoroutineDispatcher AEQbTJ;
+    public final kAP OLrzqt;
+
+    public kAH(@NotNull kAP kap, @NotNull CoroutineDispatcher coroutineDispatcher) {
+        Intrinsics.checkNotNullParameter(kap, "");
+        Intrinsics.checkNotNullParameter(coroutineDispatcher, "");
+        this.OLrzqt = kap;
+        this.AEQbTJ = coroutineDispatcher;
+    }
+
+    /* JADX WARN: Removed duplicated region for block: B:7:0x0016  */
+    /*
+        Code decompiled incorrectly, please refer to instructions dump.
+    */
+    public final java.lang.Object OLrzqt(@NotNull java.lang.String str, @NotNull java.lang.String str2, @NotNull VibesSortType vibesSortType, @NotNull VibesTimeRange vibesTimeRange, @NotNull Continuation<? super Result<? extends java.util.List<kBC>>> continuation) {
+        FetchVibesTreemapUseCase$invoke$1 fetchVibesTreemapUseCase$invoke$1;
+        if (continuation instanceof FetchVibesTreemapUseCase$invoke$1) {
+            fetchVibesTreemapUseCase$invoke$1 = (FetchVibesTreemapUseCase$invoke$1) continuation;
+            int i = fetchVibesTreemapUseCase$invoke$1.label;
+            if ((i & Integer.MIN_VALUE) != 0) {
+                fetchVibesTreemapUseCase$invoke$1.label = i - Integer.MIN_VALUE;
+            } else {
+                fetchVibesTreemapUseCase$invoke$1 = new FetchVibesTreemapUseCase$invoke$1(this, continuation);
+            }
+        }
+        FetchVibesTreemapUseCase$invoke$1 fetchVibesTreemapUseCase$invoke$12 = fetchVibesTreemapUseCase$invoke$1;
+        java.lang.Object objWithContext = fetchVibesTreemapUseCase$invoke$12.result;
+        java.lang.Object objCopydefault = C56442yFn.copydefault();
+        int i2 = fetchVibesTreemapUseCase$invoke$12.label;
+        if (i2 == 0) {
+            C56391yDq.AEQbTJ(objWithContext);
+            CoroutineDispatcher coroutineDispatcher = this.AEQbTJ;
+            FetchVibesTreemapUseCase$invoke$2 fetchVibesTreemapUseCase$invoke$2 = new FetchVibesTreemapUseCase$invoke$2(this, str, str2, vibesSortType, vibesTimeRange, null);
+            fetchVibesTreemapUseCase$invoke$12.label = 1;
+            objWithContext = BuildersKt.withContext(coroutineDispatcher, fetchVibesTreemapUseCase$invoke$2, fetchVibesTreemapUseCase$invoke$12);
+            if (objWithContext == objCopydefault) {
+                return objCopydefault;
+            }
+        } else {
+            if (i2 != 1) {
+                throw new java.lang.IllegalStateException("call to 'resume' before 'invoke' with coroutine");
+            }
+            C56391yDq.AEQbTJ(objWithContext);
+        }
+        return ((Result) objWithContext).m7386unboximpl();
+    }
+}
