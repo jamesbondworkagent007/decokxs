@@ -1,0 +1,102 @@
+package com.okinc.business.invest_biz.data.bean.response;
+
+import com.google.firebase.analytics.FirebaseAnalytics;
+import com.okinc.business.invest_biz.data.contants.HealthRateLevel;
+import kotlin.jvm.internal.Intrinsics;
+import kotlinx.serialization.KSerializer;
+import kotlinx.serialization.UnknownFieldException;
+import kotlinx.serialization.descriptors.SerialDescriptor;
+import kotlinx.serialization.encoding.CompositeDecoder;
+import kotlinx.serialization.encoding.CompositeEncoder;
+import kotlinx.serialization.encoding.Decoder;
+import kotlinx.serialization.encoding.Encoder;
+import kotlinx.serialization.internal.GeneratedSerializer;
+import kotlinx.serialization.internal.PluginGeneratedSerialDescriptor;
+import kotlinx.serialization.internal.SerializationConstructorMarker;
+import kotlinx.serialization.internal.StringSerializer;
+import org.jetbrains.annotations.NotNull;
+
+/* JADX INFO: loaded from: classes6.dex */
+public final /* synthetic */ class HealthRate$$serializer implements GeneratedSerializer<HealthRate> {
+    public static final int $stable;
+    public static final HealthRate$$serializer INSTANCE;
+    private static final SerialDescriptor descriptor;
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    private HealthRate$$serializer() {
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    @Override // kotlinx.serialization.KSerializer, kotlinx.serialization.SerializationStrategy, kotlinx.serialization.DeserializationStrategy
+    public final SerialDescriptor getDescriptor() {
+        return descriptor;
+    }
+
+    static {
+        HealthRate$$serializer healthRate$$serializer = new HealthRate$$serializer();
+        INSTANCE = healthRate$$serializer;
+        $stable = 8;
+        PluginGeneratedSerialDescriptor pluginGeneratedSerialDescriptor = new PluginGeneratedSerialDescriptor("com.okinc.business.invest_biz.data.bean.response.HealthRate", healthRate$$serializer, 2);
+        pluginGeneratedSerialDescriptor.addElement(FirebaseAnalytics.Param.LEVEL, true);
+        pluginGeneratedSerialDescriptor.addElement("rate", true);
+        descriptor = pluginGeneratedSerialDescriptor;
+    }
+
+    @Override // kotlinx.serialization.internal.GeneratedSerializer
+    public final KSerializer<?>[] childSerializers() {
+        return new KSerializer[]{HealthRate.$childSerializers[0], StringSerializer.INSTANCE};
+    }
+
+    /* JADX DEBUG: Method merged with bridge method: deserialize(Lkotlinx/serialization/encoding/Decoder;)Ljava/lang/Object; */
+    @Override // kotlinx.serialization.DeserializationStrategy
+    public final HealthRate deserialize(@NotNull Decoder decoder) {
+        HealthRateLevel healthRateLevel;
+        String strDecodeStringElement;
+        int i;
+        Intrinsics.checkNotNullParameter(decoder, "");
+        SerialDescriptor serialDescriptor = descriptor;
+        CompositeDecoder compositeDecoderBeginStructure = decoder.beginStructure(serialDescriptor);
+        KSerializer[] kSerializerArr = HealthRate.$childSerializers;
+        if (compositeDecoderBeginStructure.decodeSequentially()) {
+            healthRateLevel = (HealthRateLevel) compositeDecoderBeginStructure.decodeSerializableElement(serialDescriptor, 0, kSerializerArr[0], null);
+            strDecodeStringElement = compositeDecoderBeginStructure.decodeStringElement(serialDescriptor, 1);
+            i = 3;
+        } else {
+            HealthRateLevel healthRateLevel2 = null;
+            String strDecodeStringElement2 = null;
+            boolean z = true;
+            int i2 = 0;
+            while (z) {
+                int iDecodeElementIndex = compositeDecoderBeginStructure.decodeElementIndex(serialDescriptor);
+                if (iDecodeElementIndex == -1) {
+                    z = false;
+                } else if (iDecodeElementIndex == 0) {
+                    healthRateLevel2 = (HealthRateLevel) compositeDecoderBeginStructure.decodeSerializableElement(serialDescriptor, 0, kSerializerArr[0], healthRateLevel2);
+                    i2 |= 1;
+                } else {
+                    if (iDecodeElementIndex != 1) {
+                        throw new UnknownFieldException(iDecodeElementIndex);
+                    }
+                    strDecodeStringElement2 = compositeDecoderBeginStructure.decodeStringElement(serialDescriptor, 1);
+                    i2 |= 2;
+                }
+            }
+            healthRateLevel = healthRateLevel2;
+            strDecodeStringElement = strDecodeStringElement2;
+            i = i2;
+        }
+        compositeDecoderBeginStructure.endStructure(serialDescriptor);
+        return new HealthRate(i, healthRateLevel, strDecodeStringElement, (SerializationConstructorMarker) null);
+    }
+
+    /* JADX DEBUG: Method merged with bridge method: serialize(Lkotlinx/serialization/encoding/Encoder;Ljava/lang/Object;)V */
+    @Override // kotlinx.serialization.SerializationStrategy
+    public final void serialize(@NotNull Encoder encoder, @NotNull HealthRate healthRate) {
+        Intrinsics.checkNotNullParameter(encoder, "");
+        Intrinsics.checkNotNullParameter(healthRate, "");
+        SerialDescriptor serialDescriptor = descriptor;
+        CompositeEncoder compositeEncoderBeginStructure = encoder.beginStructure(serialDescriptor);
+        HealthRate.copydefault(healthRate, compositeEncoderBeginStructure, serialDescriptor);
+        compositeEncoderBeginStructure.endStructure(serialDescriptor);
+    }
+}

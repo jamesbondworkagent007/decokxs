@@ -1,0 +1,189 @@
+package com.okinc.business.defi.biz.net.bean;
+
+import com.alibaba.sdk.android.oss.common.RequestParameters;
+import java.util.Map;
+import kotlin.jvm.internal.Intrinsics;
+import kotlinx.serialization.KSerializer;
+import kotlinx.serialization.UnknownFieldException;
+import kotlinx.serialization.descriptors.SerialDescriptor;
+import kotlinx.serialization.encoding.CompositeDecoder;
+import kotlinx.serialization.encoding.CompositeEncoder;
+import kotlinx.serialization.encoding.Decoder;
+import kotlinx.serialization.encoding.Encoder;
+import kotlinx.serialization.internal.BooleanSerializer;
+import kotlinx.serialization.internal.GeneratedSerializer;
+import kotlinx.serialization.internal.IntSerializer;
+import kotlinx.serialization.internal.LongSerializer;
+import kotlinx.serialization.internal.PluginGeneratedSerialDescriptor;
+import kotlinx.serialization.internal.StringSerializer;
+import org.jetbrains.annotations.NotNull;
+
+/* JADX INFO: loaded from: classes14.dex */
+public final /* synthetic */ class ReferralBindReportV2Req$$serializer implements GeneratedSerializer<ReferralBindReportV2Req> {
+    public static final int $stable;
+    public static final ReferralBindReportV2Req$$serializer INSTANCE;
+    private static final SerialDescriptor descriptor;
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    private ReferralBindReportV2Req$$serializer() {
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    @Override // kotlinx.serialization.KSerializer, kotlinx.serialization.SerializationStrategy, kotlinx.serialization.DeserializationStrategy
+    public final SerialDescriptor getDescriptor() {
+        return descriptor;
+    }
+
+    static {
+        ReferralBindReportV2Req$$serializer referralBindReportV2Req$$serializer = new ReferralBindReportV2Req$$serializer();
+        INSTANCE = referralBindReportV2Req$$serializer;
+        $stable = 8;
+        PluginGeneratedSerialDescriptor pluginGeneratedSerialDescriptor = new PluginGeneratedSerialDescriptor("com.okinc.business.defi.biz.net.bean.ReferralBindReportV2Req", referralBindReportV2Req$$serializer, 9);
+        pluginGeneratedSerialDescriptor.addElement("code", false);
+        pluginGeneratedSerialDescriptor.addElement("signMsg", false);
+        pluginGeneratedSerialDescriptor.addElement("signature", false);
+        pluginGeneratedSerialDescriptor.addElement("signAddress", false);
+        pluginGeneratedSerialDescriptor.addElement("accountId", false);
+        pluginGeneratedSerialDescriptor.addElement("walletType", false);
+        pluginGeneratedSerialDescriptor.addElement("timestamp", false);
+        pluginGeneratedSerialDescriptor.addElement("source", false);
+        pluginGeneratedSerialDescriptor.addElement(RequestParameters.X_OSS_RESTORE, false);
+        descriptor = pluginGeneratedSerialDescriptor;
+    }
+
+    @Override // kotlinx.serialization.internal.GeneratedSerializer
+    public final KSerializer<?>[] childSerializers() {
+        KSerializer<?>[] kSerializerArr = ReferralBindReportV2Req.$childSerializers;
+        StringSerializer stringSerializer = StringSerializer.INSTANCE;
+        return new KSerializer[]{stringSerializer, stringSerializer, stringSerializer, kSerializerArr[3], stringSerializer, stringSerializer, LongSerializer.INSTANCE, IntSerializer.INSTANCE, BooleanSerializer.INSTANCE};
+    }
+
+    /* JADX DEBUG: Method merged with bridge method: deserialize(Lkotlinx/serialization/encoding/Decoder;)Ljava/lang/Object; */
+    @Override // kotlinx.serialization.DeserializationStrategy
+    public final ReferralBindReportV2Req deserialize(@NotNull Decoder decoder) {
+        boolean zDecodeBooleanElement;
+        long j;
+        int iDecodeIntElement;
+        Map map;
+        int i;
+        String str;
+        String str2;
+        String str3;
+        String str4;
+        String str5;
+        int i2;
+        Intrinsics.checkNotNullParameter(decoder, "");
+        SerialDescriptor serialDescriptor = descriptor;
+        CompositeDecoder compositeDecoderBeginStructure = decoder.beginStructure(serialDescriptor);
+        KSerializer[] kSerializerArr = ReferralBindReportV2Req.$childSerializers;
+        int i3 = 7;
+        if (compositeDecoderBeginStructure.decodeSequentially()) {
+            String strDecodeStringElement = compositeDecoderBeginStructure.decodeStringElement(serialDescriptor, 0);
+            String strDecodeStringElement2 = compositeDecoderBeginStructure.decodeStringElement(serialDescriptor, 1);
+            String strDecodeStringElement3 = compositeDecoderBeginStructure.decodeStringElement(serialDescriptor, 2);
+            Map map2 = (Map) compositeDecoderBeginStructure.decodeSerializableElement(serialDescriptor, 3, kSerializerArr[3], null);
+            String strDecodeStringElement4 = compositeDecoderBeginStructure.decodeStringElement(serialDescriptor, 4);
+            String strDecodeStringElement5 = compositeDecoderBeginStructure.decodeStringElement(serialDescriptor, 5);
+            long jDecodeLongElement = compositeDecoderBeginStructure.decodeLongElement(serialDescriptor, 6);
+            map = map2;
+            iDecodeIntElement = compositeDecoderBeginStructure.decodeIntElement(serialDescriptor, 7);
+            zDecodeBooleanElement = compositeDecoderBeginStructure.decodeBooleanElement(serialDescriptor, 8);
+            str2 = strDecodeStringElement5;
+            str5 = strDecodeStringElement4;
+            str3 = strDecodeStringElement3;
+            j = jDecodeLongElement;
+            str = strDecodeStringElement;
+            str4 = strDecodeStringElement2;
+            i = 511;
+        } else {
+            String strDecodeStringElement6 = null;
+            String strDecodeStringElement7 = null;
+            String strDecodeStringElement8 = null;
+            int iDecodeIntElement2 = 0;
+            boolean z = true;
+            long jDecodeLongElement2 = 0;
+            String strDecodeStringElement9 = null;
+            String strDecodeStringElement10 = null;
+            boolean zDecodeBooleanElement2 = false;
+            int i4 = 0;
+            Map map3 = null;
+            while (z) {
+                int iDecodeElementIndex = compositeDecoderBeginStructure.decodeElementIndex(serialDescriptor);
+                switch (iDecodeElementIndex) {
+                    case -1:
+                        z = false;
+                        i3 = 7;
+                        break;
+                    case 0:
+                        strDecodeStringElement8 = compositeDecoderBeginStructure.decodeStringElement(serialDescriptor, 0);
+                        i4 |= 1;
+                        i3 = 7;
+                        break;
+                    case 1:
+                        strDecodeStringElement7 = compositeDecoderBeginStructure.decodeStringElement(serialDescriptor, 1);
+                        i4 |= 2;
+                        i3 = 7;
+                        break;
+                    case 2:
+                        strDecodeStringElement9 = compositeDecoderBeginStructure.decodeStringElement(serialDescriptor, 2);
+                        i4 |= 4;
+                        break;
+                    case 3:
+                        i4 |= 8;
+                        map3 = (Map) compositeDecoderBeginStructure.decodeSerializableElement(serialDescriptor, 3, kSerializerArr[3], map3);
+                        break;
+                    case 4:
+                        i4 |= 16;
+                        strDecodeStringElement10 = compositeDecoderBeginStructure.decodeStringElement(serialDescriptor, 4);
+                        break;
+                    case 5:
+                        i4 |= 32;
+                        strDecodeStringElement6 = compositeDecoderBeginStructure.decodeStringElement(serialDescriptor, 5);
+                        break;
+                    case 6:
+                        jDecodeLongElement2 = compositeDecoderBeginStructure.decodeLongElement(serialDescriptor, 6);
+                        i2 = i4 | 64;
+                        i4 = i2;
+                        break;
+                    case 7:
+                        iDecodeIntElement2 = compositeDecoderBeginStructure.decodeIntElement(serialDescriptor, i3);
+                        i2 = i4 | 128;
+                        i4 = i2;
+                        break;
+                    case 8:
+                        zDecodeBooleanElement2 = compositeDecoderBeginStructure.decodeBooleanElement(serialDescriptor, 8);
+                        i2 = i4 | 256;
+                        i4 = i2;
+                        break;
+                    default:
+                        throw new UnknownFieldException(iDecodeElementIndex);
+                }
+            }
+            zDecodeBooleanElement = zDecodeBooleanElement2;
+            j = jDecodeLongElement2;
+            iDecodeIntElement = iDecodeIntElement2;
+            String str6 = strDecodeStringElement6;
+            map = map3;
+            i = i4;
+            str = strDecodeStringElement8;
+            str2 = str6;
+            String str7 = strDecodeStringElement10;
+            str3 = strDecodeStringElement9;
+            str4 = strDecodeStringElement7;
+            str5 = str7;
+        }
+        compositeDecoderBeginStructure.endStructure(serialDescriptor);
+        return new ReferralBindReportV2Req(i, str, str4, str3, map, str5, str2, j, iDecodeIntElement, zDecodeBooleanElement, null);
+    }
+
+    /* JADX DEBUG: Method merged with bridge method: serialize(Lkotlinx/serialization/encoding/Encoder;Ljava/lang/Object;)V */
+    @Override // kotlinx.serialization.SerializationStrategy
+    public final void serialize(@NotNull Encoder encoder, @NotNull ReferralBindReportV2Req referralBindReportV2Req) {
+        Intrinsics.checkNotNullParameter(encoder, "");
+        Intrinsics.checkNotNullParameter(referralBindReportV2Req, "");
+        SerialDescriptor serialDescriptor = descriptor;
+        CompositeEncoder compositeEncoderBeginStructure = encoder.beginStructure(serialDescriptor);
+        ReferralBindReportV2Req.write$Self$OKWallet_wallet_impl(referralBindReportV2Req, compositeEncoderBeginStructure, serialDescriptor);
+        compositeEncoderBeginStructure.endStructure(serialDescriptor);
+    }
+}

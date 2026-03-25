@@ -1,0 +1,87 @@
+package com.okinc.business.invest_biz.data.usecase;
+
+import com.okinc.business.invest_biz.data.bean.SearchHeaderInfoResponse;
+import com.okinc.network.okg.response.ResponseData;
+import java.util.concurrent.CancellationException;
+import kotlin.Result;
+import kotlin.Unit;
+import kotlin.coroutines.Continuation;
+import kotlin.coroutines.jvm.internal.SuspendLambda;
+import kotlin.jvm.functions.Function2;
+import kotlin.jvm.internal.Intrinsics;
+import kotlinx.coroutines.CoroutineScope;
+import o.C23723iGy;
+import o.C56391yDq;
+import o.C56442yFn;
+import o.InterfaceC25472ixP;
+import o.iBL;
+
+/* JADX INFO: loaded from: classes6.dex */
+public final class SearchHeaderUseCaseImpl$invoke$2 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Result<? extends SearchHeaderInfoResponse>>, Object> {
+    final /* synthetic */ String $keyword;
+    int label;
+    final /* synthetic */ C23723iGy this$0;
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public SearchHeaderUseCaseImpl$invoke$2(C23723iGy c23723iGy, String str, Continuation<? super SearchHeaderUseCaseImpl$invoke$2> continuation) {
+        super(2, continuation);
+        this.this$0 = c23723iGy;
+        this.$keyword = str;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    @Override // kotlin.coroutines.jvm.internal.BaseContinuationImpl
+    public final Continuation<Unit> create(Object obj, Continuation<?> continuation) {
+        return new SearchHeaderUseCaseImpl$invoke$2(this.this$0, this.$keyword, continuation);
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    /* JADX DEBUG: Method arguments types fixed to match base method, original types: [java.lang.Object, java.lang.Object] */
+    @Override // kotlin.jvm.functions.Function2
+    public /* bridge */ /* synthetic */ Object invoke(CoroutineScope coroutineScope, Continuation<? super Result<? extends SearchHeaderInfoResponse>> continuation) {
+        return invoke2(coroutineScope, (Continuation<? super Result<SearchHeaderInfoResponse>>) continuation);
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    /* JADX INFO: renamed from: invoke, reason: avoid collision after fix types in other method */
+    public final Object invoke2(CoroutineScope coroutineScope, Continuation<? super Result<SearchHeaderInfoResponse>> continuation) {
+        return ((SearchHeaderUseCaseImpl$invoke$2) create(coroutineScope, continuation)).invokeSuspend(Unit.INSTANCE);
+    }
+
+    @Override // kotlin.coroutines.jvm.internal.BaseContinuationImpl
+    public final Object invokeSuspend(Object obj) throws Throwable {
+        Object objM7377constructorimpl;
+        Object objCopydefault = C56442yFn.copydefault();
+        int i = this.label;
+        try {
+            if (i == 0) {
+                C56391yDq.AEQbTJ(obj);
+                C23723iGy c23723iGy = this.this$0;
+                String str = this.$keyword;
+                Result.Application application = Result.Companion;
+                String strCopydefault = c23723iGy.OLrzqt().copydefault();
+                InterfaceC25472ixP interfaceC25472ixPOLrzqt = c23723iGy.AEQbTJ().OLrzqt();
+                this.label = 1;
+                obj = interfaceC25472ixPOLrzqt.KWHzl(strCopydefault, str, this);
+                if (obj == objCopydefault) {
+                    return objCopydefault;
+                }
+            } else {
+                if (i != 1) {
+                    throw new IllegalStateException("call to 'resume' before 'invoke' with coroutine");
+                }
+                C56391yDq.AEQbTJ(obj);
+            }
+            Object objUnwrapResponseData$default = iBL.unwrapResponseData$default((ResponseData) obj, null, 1, null);
+            Intrinsics.copydefault(objUnwrapResponseData$default);
+            objM7377constructorimpl = Result.m7377constructorimpl((SearchHeaderInfoResponse) objUnwrapResponseData$default);
+        } catch (CancellationException e) {
+            throw e;
+        } catch (Throwable th) {
+            Result.Application application2 = Result.Companion;
+            objM7377constructorimpl = Result.m7377constructorimpl(C56391yDq.EZpvd(th));
+        }
+        return Result.m7376boximpl(objM7377constructorimpl);
+    }
+}

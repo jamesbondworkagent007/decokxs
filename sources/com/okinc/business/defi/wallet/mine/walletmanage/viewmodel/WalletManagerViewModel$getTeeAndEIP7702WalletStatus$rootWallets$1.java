@@ -1,0 +1,58 @@
+package com.okinc.business.defi.wallet.mine.walletmanage.viewmodel;
+
+import java.util.List;
+import kotlin.Unit;
+import kotlin.coroutines.Continuation;
+import kotlin.coroutines.jvm.internal.SuspendLambda;
+import kotlin.jvm.functions.Function2;
+import kotlinx.coroutines.CoroutineScope;
+import kotlinx.coroutines.rx2.RxAwaitKt;
+import o.AbstractC12784ctX;
+import o.AbstractC58260yxt;
+import o.C12827cuN;
+import o.C56391yDq;
+import o.C56442yFn;
+
+/* JADX INFO: loaded from: classes5.dex */
+public final class WalletManagerViewModel$getTeeAndEIP7702WalletStatus$rootWallets$1 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super List<? extends AbstractC12784ctX>>, Object> {
+    int label;
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public WalletManagerViewModel$getTeeAndEIP7702WalletStatus$rootWallets$1(Continuation<? super WalletManagerViewModel$getTeeAndEIP7702WalletStatus$rootWallets$1> continuation) {
+        super(2, continuation);
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    @Override // kotlin.coroutines.jvm.internal.BaseContinuationImpl
+    public final Continuation<Unit> create(Object obj, Continuation<?> continuation) {
+        return new WalletManagerViewModel$getTeeAndEIP7702WalletStatus$rootWallets$1(continuation);
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    /* JADX DEBUG: Method merged with bridge method: invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; */
+    @Override // kotlin.jvm.functions.Function2
+    public final Object invoke(CoroutineScope coroutineScope, Continuation<? super List<? extends AbstractC12784ctX>> continuation) {
+        return ((WalletManagerViewModel$getTeeAndEIP7702WalletStatus$rootWallets$1) create(coroutineScope, continuation)).invokeSuspend(Unit.INSTANCE);
+    }
+
+    @Override // kotlin.coroutines.jvm.internal.BaseContinuationImpl
+    public final Object invokeSuspend(Object obj) throws Throwable {
+        Object objCopydefault = C56442yFn.copydefault();
+        int i = this.label;
+        if (i == 0) {
+            C56391yDq.AEQbTJ(obj);
+            AbstractC58260yxt<List<AbstractC12784ctX>> abstractC58260yxtEZpvd = C12827cuN.Application.getInstance$default(C12827cuN.Companion, null, 1, null).EZpvd(true, true);
+            this.label = 1;
+            obj = RxAwaitKt.await(abstractC58260yxtEZpvd, this);
+            if (obj == objCopydefault) {
+                return objCopydefault;
+            }
+        } else {
+            if (i != 1) {
+                throw new IllegalStateException("call to 'resume' before 'invoke' with coroutine");
+            }
+            C56391yDq.AEQbTJ(obj);
+        }
+        return obj;
+    }
+}

@@ -1,0 +1,122 @@
+package com.okinc.business.defi.wallet.home.bean;
+
+import java.util.List;
+import kotlin.jvm.internal.Intrinsics;
+import kotlinx.serialization.KSerializer;
+import kotlinx.serialization.UnknownFieldException;
+import kotlinx.serialization.descriptors.SerialDescriptor;
+import kotlinx.serialization.encoding.CompositeDecoder;
+import kotlinx.serialization.encoding.CompositeEncoder;
+import kotlinx.serialization.encoding.Decoder;
+import kotlinx.serialization.encoding.Encoder;
+import kotlinx.serialization.internal.GeneratedSerializer;
+import kotlinx.serialization.internal.IntSerializer;
+import kotlinx.serialization.internal.PluginGeneratedSerialDescriptor;
+import kotlinx.serialization.internal.StringSerializer;
+import org.jetbrains.annotations.NotNull;
+
+/* JADX INFO: loaded from: classes15.dex */
+public final /* synthetic */ class NotificationInfo$$serializer implements GeneratedSerializer<NotificationInfo> {
+    public static final int $stable;
+    public static final NotificationInfo$$serializer INSTANCE;
+    private static final SerialDescriptor descriptor;
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    private NotificationInfo$$serializer() {
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    @Override // kotlinx.serialization.KSerializer, kotlinx.serialization.SerializationStrategy, kotlinx.serialization.DeserializationStrategy
+    public final SerialDescriptor getDescriptor() {
+        return descriptor;
+    }
+
+    static {
+        NotificationInfo$$serializer notificationInfo$$serializer = new NotificationInfo$$serializer();
+        INSTANCE = notificationInfo$$serializer;
+        $stable = 8;
+        PluginGeneratedSerialDescriptor pluginGeneratedSerialDescriptor = new PluginGeneratedSerialDescriptor("com.okinc.business.defi.wallet.home.bean.NotificationInfo", notificationInfo$$serializer, 4);
+        pluginGeneratedSerialDescriptor.addElement("collectAddress", false);
+        pluginGeneratedSerialDescriptor.addElement("devId", false);
+        pluginGeneratedSerialDescriptor.addElement("notifyType", false);
+        pluginGeneratedSerialDescriptor.addElement("userActionTypeList", false);
+        descriptor = pluginGeneratedSerialDescriptor;
+    }
+
+    @Override // kotlinx.serialization.internal.GeneratedSerializer
+    public final KSerializer<?>[] childSerializers() {
+        KSerializer<?>[] kSerializerArr = NotificationInfo.$childSerializers;
+        StringSerializer stringSerializer = StringSerializer.INSTANCE;
+        return new KSerializer[]{stringSerializer, stringSerializer, IntSerializer.INSTANCE, kSerializerArr[3]};
+    }
+
+    /* JADX DEBUG: Method merged with bridge method: deserialize(Lkotlinx/serialization/encoding/Decoder;)Ljava/lang/Object; */
+    @Override // kotlinx.serialization.DeserializationStrategy
+    public final NotificationInfo deserialize(@NotNull Decoder decoder) {
+        String str;
+        int i;
+        List list;
+        String str2;
+        int i2;
+        Intrinsics.checkNotNullParameter(decoder, "");
+        SerialDescriptor serialDescriptor = descriptor;
+        CompositeDecoder compositeDecoderBeginStructure = decoder.beginStructure(serialDescriptor);
+        KSerializer[] kSerializerArr = NotificationInfo.$childSerializers;
+        if (compositeDecoderBeginStructure.decodeSequentially()) {
+            String strDecodeStringElement = compositeDecoderBeginStructure.decodeStringElement(serialDescriptor, 0);
+            String strDecodeStringElement2 = compositeDecoderBeginStructure.decodeStringElement(serialDescriptor, 1);
+            int iDecodeIntElement = compositeDecoderBeginStructure.decodeIntElement(serialDescriptor, 2);
+            list = (List) compositeDecoderBeginStructure.decodeSerializableElement(serialDescriptor, 3, kSerializerArr[3], null);
+            str2 = strDecodeStringElement;
+            i = 15;
+            i2 = iDecodeIntElement;
+            str = strDecodeStringElement2;
+        } else {
+            String strDecodeStringElement3 = null;
+            List list2 = null;
+            String strDecodeStringElement4 = null;
+            int i3 = 0;
+            int iDecodeIntElement2 = 0;
+            boolean z = true;
+            while (z) {
+                int iDecodeElementIndex = compositeDecoderBeginStructure.decodeElementIndex(serialDescriptor);
+                if (iDecodeElementIndex == -1) {
+                    z = false;
+                } else if (iDecodeElementIndex == 0) {
+                    strDecodeStringElement4 = compositeDecoderBeginStructure.decodeStringElement(serialDescriptor, 0);
+                    i3 |= 1;
+                } else if (iDecodeElementIndex == 1) {
+                    strDecodeStringElement3 = compositeDecoderBeginStructure.decodeStringElement(serialDescriptor, 1);
+                    i3 |= 2;
+                } else if (iDecodeElementIndex == 2) {
+                    iDecodeIntElement2 = compositeDecoderBeginStructure.decodeIntElement(serialDescriptor, 2);
+                    i3 |= 4;
+                } else {
+                    if (iDecodeElementIndex != 3) {
+                        throw new UnknownFieldException(iDecodeElementIndex);
+                    }
+                    list2 = (List) compositeDecoderBeginStructure.decodeSerializableElement(serialDescriptor, 3, kSerializerArr[3], list2);
+                    i3 |= 8;
+                }
+            }
+            str = strDecodeStringElement3;
+            i = i3;
+            list = list2;
+            str2 = strDecodeStringElement4;
+            i2 = iDecodeIntElement2;
+        }
+        compositeDecoderBeginStructure.endStructure(serialDescriptor);
+        return new NotificationInfo(i, str2, str, i2, list, null);
+    }
+
+    /* JADX DEBUG: Method merged with bridge method: serialize(Lkotlinx/serialization/encoding/Encoder;Ljava/lang/Object;)V */
+    @Override // kotlinx.serialization.SerializationStrategy
+    public final void serialize(@NotNull Encoder encoder, @NotNull NotificationInfo notificationInfo) {
+        Intrinsics.checkNotNullParameter(encoder, "");
+        Intrinsics.checkNotNullParameter(notificationInfo, "");
+        SerialDescriptor serialDescriptor = descriptor;
+        CompositeEncoder compositeEncoderBeginStructure = encoder.beginStructure(serialDescriptor);
+        NotificationInfo.copydefault(notificationInfo, compositeEncoderBeginStructure, serialDescriptor);
+        compositeEncoderBeginStructure.endStructure(serialDescriptor);
+    }
+}

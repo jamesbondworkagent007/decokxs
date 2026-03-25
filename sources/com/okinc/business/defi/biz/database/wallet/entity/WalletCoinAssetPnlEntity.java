@@ -1,0 +1,195 @@
+package com.okinc.business.defi.biz.database.wallet.entity;
+
+import kotlin.jvm.internal.DefaultConstructorMarker;
+import kotlin.jvm.internal.Intrinsics;
+import org.jetbrains.annotations.NotNull;
+
+/* JADX INFO: loaded from: classes4.dex */
+public final class WalletCoinAssetPnlEntity {
+    public static final int $stable = 8;
+    private String address;
+    private long coinId;
+    private String holdAvgPrice;
+    private String spotBalance;
+    private String unPnl;
+    private String unPnlYield;
+    private String walletId;
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public WalletCoinAssetPnlEntity() {
+        this(null, 0L, null, null, null, null, null, 127, null);
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final String component1() {
+        return this.walletId;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final long component2() {
+        return this.coinId;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final String component3() {
+        return this.address;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final String component4() {
+        return this.unPnl;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final String component5() {
+        return this.unPnlYield;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final String component6() {
+        return this.spotBalance;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final String component7() {
+        return this.holdAvgPrice;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final WalletCoinAssetPnlEntity copy(@NotNull String str, long j, @NotNull String str2, @NotNull String str3, @NotNull String str4, @NotNull String str5, @NotNull String str6) {
+        Intrinsics.checkNotNullParameter(str, "");
+        Intrinsics.checkNotNullParameter(str2, "");
+        Intrinsics.checkNotNullParameter(str3, "");
+        Intrinsics.checkNotNullParameter(str4, "");
+        Intrinsics.checkNotNullParameter(str5, "");
+        Intrinsics.checkNotNullParameter(str6, "");
+        return new WalletCoinAssetPnlEntity(str, j, str2, str3, str4, str5, str6);
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (!(obj instanceof WalletCoinAssetPnlEntity)) {
+            return false;
+        }
+        WalletCoinAssetPnlEntity walletCoinAssetPnlEntity = (WalletCoinAssetPnlEntity) obj;
+        return Intrinsics.EZpvd((Object) this.walletId, (Object) walletCoinAssetPnlEntity.walletId) && this.coinId == walletCoinAssetPnlEntity.coinId && Intrinsics.EZpvd((Object) this.address, (Object) walletCoinAssetPnlEntity.address) && Intrinsics.EZpvd((Object) this.unPnl, (Object) walletCoinAssetPnlEntity.unPnl) && Intrinsics.EZpvd((Object) this.unPnlYield, (Object) walletCoinAssetPnlEntity.unPnlYield) && Intrinsics.EZpvd((Object) this.spotBalance, (Object) walletCoinAssetPnlEntity.spotBalance) && Intrinsics.EZpvd((Object) this.holdAvgPrice, (Object) walletCoinAssetPnlEntity.holdAvgPrice);
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final String getAddress() {
+        return this.address;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final long getCoinId() {
+        return this.coinId;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final String getHoldAvgPrice() {
+        return this.holdAvgPrice;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final String getSpotBalance() {
+        return this.spotBalance;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final String getUnPnl() {
+        return this.unPnl;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final String getUnPnlYield() {
+        return this.unPnlYield;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final String getWalletId() {
+        return this.walletId;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public int hashCode() {
+        return (((((((((((this.walletId.hashCode() * 31) + Long.hashCode(this.coinId)) * 31) + this.address.hashCode()) * 31) + this.unPnl.hashCode()) * 31) + this.unPnlYield.hashCode()) * 31) + this.spotBalance.hashCode()) * 31) + this.holdAvgPrice.hashCode();
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final void setAddress(@NotNull String str) {
+        Intrinsics.checkNotNullParameter(str, "");
+        this.address = str;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final void setCoinId(long j) {
+        this.coinId = j;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final void setHoldAvgPrice(@NotNull String str) {
+        Intrinsics.checkNotNullParameter(str, "");
+        this.holdAvgPrice = str;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final void setSpotBalance(@NotNull String str) {
+        Intrinsics.checkNotNullParameter(str, "");
+        this.spotBalance = str;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final void setUnPnl(@NotNull String str) {
+        Intrinsics.checkNotNullParameter(str, "");
+        this.unPnl = str;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final void setUnPnlYield(@NotNull String str) {
+        Intrinsics.checkNotNullParameter(str, "");
+        this.unPnlYield = str;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final void setWalletId(@NotNull String str) {
+        Intrinsics.checkNotNullParameter(str, "");
+        this.walletId = str;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public String toString() {
+        return "WalletCoinAssetPnlEntity(walletId=" + this.walletId + ", coinId=" + this.coinId + ", address=" + this.address + ", unPnl=" + this.unPnl + ", unPnlYield=" + this.unPnlYield + ", spotBalance=" + this.spotBalance + ", holdAvgPrice=" + this.holdAvgPrice + ")";
+    }
+
+    public WalletCoinAssetPnlEntity(@NotNull String str, long j, @NotNull String str2, @NotNull String str3, @NotNull String str4, @NotNull String str5, @NotNull String str6) {
+        Intrinsics.checkNotNullParameter(str, "");
+        Intrinsics.checkNotNullParameter(str2, "");
+        Intrinsics.checkNotNullParameter(str3, "");
+        Intrinsics.checkNotNullParameter(str4, "");
+        Intrinsics.checkNotNullParameter(str5, "");
+        Intrinsics.checkNotNullParameter(str6, "");
+        this.walletId = str;
+        this.coinId = j;
+        this.address = str2;
+        this.unPnl = str3;
+        this.unPnlYield = str4;
+        this.spotBalance = str5;
+        this.holdAvgPrice = str6;
+    }
+
+    /* JADX DEBUG: Can't inline method, not implemented redirect type for insn: 0x0040: CONSTRUCTOR 
+  (wrap:java.lang.String:?: TERNARY null = ((wrap:int:0x0000: ARITH (r18v0 int) & (1 int) A[WRAPPED]) != (0 int)) ? ("") : (r10v0 java.lang.String))
+  (wrap:long:?: TERNARY null = ((wrap:int:0x0009: ARITH (r18v0 int) & (2 int) A[WRAPPED]) != (0 int)) ? (0 long) : (r11v0 long))
+  (wrap:java.lang.String:?: TERNARY null = ((wrap:int:0x0011: ARITH (r18v0 int) & (4 int) A[WRAPPED]) != (0 int)) ? ("") : (r13v0 java.lang.String))
+  (wrap:java.lang.String:?: TERNARY null = ((wrap:int:0x0018: ARITH (r18v0 int) & (8 int) A[WRAPPED]) != (0 int)) ? ("") : (r14v0 java.lang.String))
+  (wrap:java.lang.String:?: TERNARY null = ((wrap:int:0x001f: ARITH (r18v0 int) & (16 int) A[WRAPPED]) != (0 int)) ? ("") : (r15v0 java.lang.String))
+  (wrap:java.lang.String:?: TERNARY null = ((wrap:int:0x0026: ARITH (r18v0 int) & (32 int) A[WRAPPED]) != (0 int)) ? ("") : (r16v0 java.lang.String))
+  (wrap:java.lang.String:?: TERNARY null = ((wrap:int:0x002e: ARITH (r18v0 int) & (64 int) A[WRAPPED]) == (0 int)) ? (r17v0 java.lang.String) : (""))
+ A[MD:(java.lang.String, long, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String):void (m)] (LINE:64) call: com.okinc.business.defi.biz.database.wallet.entity.WalletCoinAssetPnlEntity.<init>(java.lang.String, long, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String):void type: THIS */
+    public /* synthetic */ WalletCoinAssetPnlEntity(String str, long j, String str2, String str3, String str4, String str5, String str6, int i, DefaultConstructorMarker defaultConstructorMarker) {
+        this((i & 1) != 0 ? "" : str, (i & 2) != 0 ? 0L : j, (i & 4) != 0 ? "" : str2, (i & 8) != 0 ? "" : str3, (i & 16) != 0 ? "" : str4, (i & 32) != 0 ? "" : str5, (i & 64) == 0 ? str6 : "");
+    }
+}

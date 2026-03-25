@@ -1,0 +1,588 @@
+package com.okinc.business.dexlogic.bean;
+
+import android.os.Parcel;
+import android.os.Parcelable;
+import kotlin.jvm.internal.DefaultConstructorMarker;
+import kotlin.jvm.internal.Intrinsics;
+import kotlinx.serialization.KSerializer;
+import kotlinx.serialization.Serializable;
+import kotlinx.serialization.descriptors.SerialDescriptor;
+import kotlinx.serialization.encoding.CompositeEncoder;
+import kotlinx.serialization.internal.SerializationConstructorMarker;
+import org.jetbrains.annotations.NotNull;
+
+/* JADX INFO: loaded from: classes5.dex */
+@Serializable
+public final class MevInfoBean implements Parcelable {
+    public static final int $stable = 0;
+    private final String baseFee;
+    private final String baseFeeUsd;
+    private final String fastFee;
+    private final String fastFeeUsd;
+    private final String fastGasPrice;
+    private final String fastMaxFeeUsd;
+    private final String fastPriority;
+    private final boolean isDefault;
+    private final String marketFee;
+    private final String marketFeeUsd;
+    private final String marketGasPrice;
+    private final String marketMaxFeeUsd;
+    private final String marketPriority;
+    private final String maxBaseFee;
+    private final String name;
+    private final String turboFee;
+    private final String turboFeeUsd;
+    private final String turboGasPrice;
+    private final String turboMaxFeeUsd;
+    private final String turboPriority;
+    public static final Companion Companion = new Companion(null);
+    public static final Parcelable.Creator<MevInfoBean> CREATOR = new Creator();
+
+    public static final class Creator implements Parcelable.Creator<MevInfoBean> {
+        /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+        /* JADX DEBUG: Method merged with bridge method: createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object; */
+        /* JADX WARN: Can't rename method to resolve collision */
+        @Override // android.os.Parcelable.Creator
+        public final MevInfoBean createFromParcel(Parcel parcel) {
+            Intrinsics.checkNotNullParameter(parcel, "");
+            return new MevInfoBean(parcel.readString(), parcel.readString(), parcel.readString(), parcel.readString(), parcel.readString(), parcel.readString(), parcel.readInt() != 0, parcel.readString(), parcel.readString(), parcel.readString(), parcel.readString(), parcel.readString(), parcel.readString(), parcel.readString(), parcel.readString(), parcel.readString(), parcel.readString(), parcel.readString(), parcel.readString(), parcel.readString());
+        }
+
+        /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+        /* JADX DEBUG: Method merged with bridge method: newArray(I)[Ljava/lang/Object; */
+        /* JADX WARN: Can't rename method to resolve collision */
+        @Override // android.os.Parcelable.Creator
+        public final MevInfoBean[] newArray(int i) {
+            return new MevInfoBean[i];
+        }
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public MevInfoBean() {
+        this((String) null, (String) null, (String) null, (String) null, (String) null, (String) null, false, (String) null, (String) null, (String) null, (String) null, (String) null, (String) null, (String) null, (String) null, (String) null, (String) null, (String) null, (String) null, (String) null, 1048575, (DefaultConstructorMarker) null);
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final String component1() {
+        return this.baseFee;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final String component10() {
+        return this.marketMaxFeeUsd;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final String component11() {
+        return this.marketPriority;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final String component12() {
+        return this.name;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final String component13() {
+        return this.turboFee;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final String component14() {
+        return this.turboFeeUsd;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final String component15() {
+        return this.turboMaxFeeUsd;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final String component16() {
+        return this.turboPriority;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final String component17() {
+        return this.marketGasPrice;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final String component18() {
+        return this.fastGasPrice;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final String component19() {
+        return this.turboGasPrice;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final String component2() {
+        return this.baseFeeUsd;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final String component20() {
+        return this.maxBaseFee;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final String component3() {
+        return this.fastFee;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final String component4() {
+        return this.fastFeeUsd;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final String component5() {
+        return this.fastMaxFeeUsd;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final String component6() {
+        return this.fastPriority;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final boolean component7() {
+        return this.isDefault;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final String component8() {
+        return this.marketFee;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final String component9() {
+        return this.marketFeeUsd;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final MevInfoBean copy(@NotNull String str, @NotNull String str2, @NotNull String str3, @NotNull String str4, @NotNull String str5, @NotNull String str6, boolean z, @NotNull String str7, @NotNull String str8, @NotNull String str9, @NotNull String str10, @NotNull String str11, @NotNull String str12, @NotNull String str13, @NotNull String str14, @NotNull String str15, @NotNull String str16, @NotNull String str17, @NotNull String str18, @NotNull String str19) {
+        Intrinsics.checkNotNullParameter(str, "");
+        Intrinsics.checkNotNullParameter(str2, "");
+        Intrinsics.checkNotNullParameter(str3, "");
+        Intrinsics.checkNotNullParameter(str4, "");
+        Intrinsics.checkNotNullParameter(str5, "");
+        Intrinsics.checkNotNullParameter(str6, "");
+        Intrinsics.checkNotNullParameter(str7, "");
+        Intrinsics.checkNotNullParameter(str8, "");
+        Intrinsics.checkNotNullParameter(str9, "");
+        Intrinsics.checkNotNullParameter(str10, "");
+        Intrinsics.checkNotNullParameter(str11, "");
+        Intrinsics.checkNotNullParameter(str12, "");
+        Intrinsics.checkNotNullParameter(str13, "");
+        Intrinsics.checkNotNullParameter(str14, "");
+        Intrinsics.checkNotNullParameter(str15, "");
+        Intrinsics.checkNotNullParameter(str16, "");
+        Intrinsics.checkNotNullParameter(str17, "");
+        Intrinsics.checkNotNullParameter(str18, "");
+        Intrinsics.checkNotNullParameter(str19, "");
+        return new MevInfoBean(str, str2, str3, str4, str5, str6, z, str7, str8, str9, str10, str11, str12, str13, str14, str15, str16, str17, str18, str19);
+    }
+
+    @Override // android.os.Parcelable
+    public final int describeContents() {
+        return 0;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (!(obj instanceof MevInfoBean)) {
+            return false;
+        }
+        MevInfoBean mevInfoBean = (MevInfoBean) obj;
+        return Intrinsics.EZpvd((Object) this.baseFee, (Object) mevInfoBean.baseFee) && Intrinsics.EZpvd((Object) this.baseFeeUsd, (Object) mevInfoBean.baseFeeUsd) && Intrinsics.EZpvd((Object) this.fastFee, (Object) mevInfoBean.fastFee) && Intrinsics.EZpvd((Object) this.fastFeeUsd, (Object) mevInfoBean.fastFeeUsd) && Intrinsics.EZpvd((Object) this.fastMaxFeeUsd, (Object) mevInfoBean.fastMaxFeeUsd) && Intrinsics.EZpvd((Object) this.fastPriority, (Object) mevInfoBean.fastPriority) && this.isDefault == mevInfoBean.isDefault && Intrinsics.EZpvd((Object) this.marketFee, (Object) mevInfoBean.marketFee) && Intrinsics.EZpvd((Object) this.marketFeeUsd, (Object) mevInfoBean.marketFeeUsd) && Intrinsics.EZpvd((Object) this.marketMaxFeeUsd, (Object) mevInfoBean.marketMaxFeeUsd) && Intrinsics.EZpvd((Object) this.marketPriority, (Object) mevInfoBean.marketPriority) && Intrinsics.EZpvd((Object) this.name, (Object) mevInfoBean.name) && Intrinsics.EZpvd((Object) this.turboFee, (Object) mevInfoBean.turboFee) && Intrinsics.EZpvd((Object) this.turboFeeUsd, (Object) mevInfoBean.turboFeeUsd) && Intrinsics.EZpvd((Object) this.turboMaxFeeUsd, (Object) mevInfoBean.turboMaxFeeUsd) && Intrinsics.EZpvd((Object) this.turboPriority, (Object) mevInfoBean.turboPriority) && Intrinsics.EZpvd((Object) this.marketGasPrice, (Object) mevInfoBean.marketGasPrice) && Intrinsics.EZpvd((Object) this.fastGasPrice, (Object) mevInfoBean.fastGasPrice) && Intrinsics.EZpvd((Object) this.turboGasPrice, (Object) mevInfoBean.turboGasPrice) && Intrinsics.EZpvd((Object) this.maxBaseFee, (Object) mevInfoBean.maxBaseFee);
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final String getBaseFee() {
+        return this.baseFee;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final String getBaseFeeUsd() {
+        return this.baseFeeUsd;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final String getFastFee() {
+        return this.fastFee;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final String getFastFeeUsd() {
+        return this.fastFeeUsd;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final String getFastGasPrice() {
+        return this.fastGasPrice;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final String getFastMaxFeeUsd() {
+        return this.fastMaxFeeUsd;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final String getFastPriority() {
+        return this.fastPriority;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final String getMarketFee() {
+        return this.marketFee;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final String getMarketFeeUsd() {
+        return this.marketFeeUsd;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final String getMarketGasPrice() {
+        return this.marketGasPrice;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final String getMarketMaxFeeUsd() {
+        return this.marketMaxFeeUsd;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final String getMarketPriority() {
+        return this.marketPriority;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final String getMaxBaseFee() {
+        return this.maxBaseFee;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final String getName() {
+        return this.name;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final String getTurboFee() {
+        return this.turboFee;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final String getTurboFeeUsd() {
+        return this.turboFeeUsd;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final String getTurboGasPrice() {
+        return this.turboGasPrice;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final String getTurboMaxFeeUsd() {
+        return this.turboMaxFeeUsd;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final String getTurboPriority() {
+        return this.turboPriority;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public int hashCode() {
+        return (((((((((((((((((((((((((((((((((((((this.baseFee.hashCode() * 31) + this.baseFeeUsd.hashCode()) * 31) + this.fastFee.hashCode()) * 31) + this.fastFeeUsd.hashCode()) * 31) + this.fastMaxFeeUsd.hashCode()) * 31) + this.fastPriority.hashCode()) * 31) + Boolean.hashCode(this.isDefault)) * 31) + this.marketFee.hashCode()) * 31) + this.marketFeeUsd.hashCode()) * 31) + this.marketMaxFeeUsd.hashCode()) * 31) + this.marketPriority.hashCode()) * 31) + this.name.hashCode()) * 31) + this.turboFee.hashCode()) * 31) + this.turboFeeUsd.hashCode()) * 31) + this.turboMaxFeeUsd.hashCode()) * 31) + this.turboPriority.hashCode()) * 31) + this.marketGasPrice.hashCode()) * 31) + this.fastGasPrice.hashCode()) * 31) + this.turboGasPrice.hashCode()) * 31) + this.maxBaseFee.hashCode();
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final boolean isDefault() {
+        return this.isDefault;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public String toString() {
+        return "MevInfoBean(baseFee=" + this.baseFee + ", baseFeeUsd=" + this.baseFeeUsd + ", fastFee=" + this.fastFee + ", fastFeeUsd=" + this.fastFeeUsd + ", fastMaxFeeUsd=" + this.fastMaxFeeUsd + ", fastPriority=" + this.fastPriority + ", isDefault=" + this.isDefault + ", marketFee=" + this.marketFee + ", marketFeeUsd=" + this.marketFeeUsd + ", marketMaxFeeUsd=" + this.marketMaxFeeUsd + ", marketPriority=" + this.marketPriority + ", name=" + this.name + ", turboFee=" + this.turboFee + ", turboFeeUsd=" + this.turboFeeUsd + ", turboMaxFeeUsd=" + this.turboMaxFeeUsd + ", turboPriority=" + this.turboPriority + ", marketGasPrice=" + this.marketGasPrice + ", fastGasPrice=" + this.fastGasPrice + ", turboGasPrice=" + this.turboGasPrice + ", maxBaseFee=" + this.maxBaseFee + ")";
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    @Override // android.os.Parcelable
+    public final void writeToParcel(@NotNull Parcel parcel, int i) {
+        Intrinsics.checkNotNullParameter(parcel, "");
+        parcel.writeString(this.baseFee);
+        parcel.writeString(this.baseFeeUsd);
+        parcel.writeString(this.fastFee);
+        parcel.writeString(this.fastFeeUsd);
+        parcel.writeString(this.fastMaxFeeUsd);
+        parcel.writeString(this.fastPriority);
+        parcel.writeInt(this.isDefault ? 1 : 0);
+        parcel.writeString(this.marketFee);
+        parcel.writeString(this.marketFeeUsd);
+        parcel.writeString(this.marketMaxFeeUsd);
+        parcel.writeString(this.marketPriority);
+        parcel.writeString(this.name);
+        parcel.writeString(this.turboFee);
+        parcel.writeString(this.turboFeeUsd);
+        parcel.writeString(this.turboMaxFeeUsd);
+        parcel.writeString(this.turboPriority);
+        parcel.writeString(this.marketGasPrice);
+        parcel.writeString(this.fastGasPrice);
+        parcel.writeString(this.turboGasPrice);
+        parcel.writeString(this.maxBaseFee);
+    }
+
+    public static final class Companion {
+        /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+        private Companion() {
+        }
+
+        /* JADX DEBUG: Can't inline method, not implemented redirect type for insn: 0x0000: CONSTRUCTOR  A[MD:():void (m)] call: com.okinc.business.dexlogic.bean.MevInfoBean.Companion.<init>():void type: THIS */
+        /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+        public /* synthetic */ Companion(DefaultConstructorMarker defaultConstructorMarker) {
+            this();
+        }
+
+        public final KSerializer<MevInfoBean> serializer() {
+            return MevInfoBean$$serializer.INSTANCE;
+        }
+    }
+
+    public /* synthetic */ MevInfoBean(int i, String str, String str2, String str3, String str4, String str5, String str6, boolean z, String str7, String str8, String str9, String str10, String str11, String str12, String str13, String str14, String str15, String str16, String str17, String str18, String str19, SerializationConstructorMarker serializationConstructorMarker) {
+        if ((i & 1) == 0) {
+            this.baseFee = "";
+        } else {
+            this.baseFee = str;
+        }
+        if ((i & 2) == 0) {
+            this.baseFeeUsd = "";
+        } else {
+            this.baseFeeUsd = str2;
+        }
+        if ((i & 4) == 0) {
+            this.fastFee = "";
+        } else {
+            this.fastFee = str3;
+        }
+        if ((i & 8) == 0) {
+            this.fastFeeUsd = "";
+        } else {
+            this.fastFeeUsd = str4;
+        }
+        if ((i & 16) == 0) {
+            this.fastMaxFeeUsd = "";
+        } else {
+            this.fastMaxFeeUsd = str5;
+        }
+        if ((i & 32) == 0) {
+            this.fastPriority = "";
+        } else {
+            this.fastPriority = str6;
+        }
+        this.isDefault = (i & 64) == 0 ? false : z;
+        if ((i & 128) == 0) {
+            this.marketFee = "";
+        } else {
+            this.marketFee = str7;
+        }
+        if ((i & 256) == 0) {
+            this.marketFeeUsd = "";
+        } else {
+            this.marketFeeUsd = str8;
+        }
+        if ((i & 512) == 0) {
+            this.marketMaxFeeUsd = "";
+        } else {
+            this.marketMaxFeeUsd = str9;
+        }
+        if ((i & 1024) == 0) {
+            this.marketPriority = "";
+        } else {
+            this.marketPriority = str10;
+        }
+        if ((i & 2048) == 0) {
+            this.name = "";
+        } else {
+            this.name = str11;
+        }
+        if ((i & 4096) == 0) {
+            this.turboFee = "";
+        } else {
+            this.turboFee = str12;
+        }
+        if ((i & 8192) == 0) {
+            this.turboFeeUsd = "";
+        } else {
+            this.turboFeeUsd = str13;
+        }
+        if ((i & 16384) == 0) {
+            this.turboMaxFeeUsd = "";
+        } else {
+            this.turboMaxFeeUsd = str14;
+        }
+        if ((32768 & i) == 0) {
+            this.turboPriority = "";
+        } else {
+            this.turboPriority = str15;
+        }
+        if ((65536 & i) == 0) {
+            this.marketGasPrice = "";
+        } else {
+            this.marketGasPrice = str16;
+        }
+        if ((131072 & i) == 0) {
+            this.fastGasPrice = "";
+        } else {
+            this.fastGasPrice = str17;
+        }
+        if ((262144 & i) == 0) {
+            this.turboGasPrice = "";
+        } else {
+            this.turboGasPrice = str18;
+        }
+        if ((i & 524288) == 0) {
+            this.maxBaseFee = "";
+        } else {
+            this.maxBaseFee = str19;
+        }
+    }
+
+    public static final /* synthetic */ void write$Self$OKDex_dex_impl(MevInfoBean mevInfoBean, CompositeEncoder compositeEncoder, SerialDescriptor serialDescriptor) {
+        if (compositeEncoder.shouldEncodeElementDefault(serialDescriptor, 0) || !Intrinsics.EZpvd((Object) mevInfoBean.baseFee, (Object) "")) {
+            compositeEncoder.encodeStringElement(serialDescriptor, 0, mevInfoBean.baseFee);
+        }
+        if (compositeEncoder.shouldEncodeElementDefault(serialDescriptor, 1) || !Intrinsics.EZpvd((Object) mevInfoBean.baseFeeUsd, (Object) "")) {
+            compositeEncoder.encodeStringElement(serialDescriptor, 1, mevInfoBean.baseFeeUsd);
+        }
+        if (compositeEncoder.shouldEncodeElementDefault(serialDescriptor, 2) || !Intrinsics.EZpvd((Object) mevInfoBean.fastFee, (Object) "")) {
+            compositeEncoder.encodeStringElement(serialDescriptor, 2, mevInfoBean.fastFee);
+        }
+        if (compositeEncoder.shouldEncodeElementDefault(serialDescriptor, 3) || !Intrinsics.EZpvd((Object) mevInfoBean.fastFeeUsd, (Object) "")) {
+            compositeEncoder.encodeStringElement(serialDescriptor, 3, mevInfoBean.fastFeeUsd);
+        }
+        if (compositeEncoder.shouldEncodeElementDefault(serialDescriptor, 4) || !Intrinsics.EZpvd((Object) mevInfoBean.fastMaxFeeUsd, (Object) "")) {
+            compositeEncoder.encodeStringElement(serialDescriptor, 4, mevInfoBean.fastMaxFeeUsd);
+        }
+        if (compositeEncoder.shouldEncodeElementDefault(serialDescriptor, 5) || !Intrinsics.EZpvd((Object) mevInfoBean.fastPriority, (Object) "")) {
+            compositeEncoder.encodeStringElement(serialDescriptor, 5, mevInfoBean.fastPriority);
+        }
+        if (compositeEncoder.shouldEncodeElementDefault(serialDescriptor, 6) || mevInfoBean.isDefault) {
+            compositeEncoder.encodeBooleanElement(serialDescriptor, 6, mevInfoBean.isDefault);
+        }
+        if (compositeEncoder.shouldEncodeElementDefault(serialDescriptor, 7) || !Intrinsics.EZpvd((Object) mevInfoBean.marketFee, (Object) "")) {
+            compositeEncoder.encodeStringElement(serialDescriptor, 7, mevInfoBean.marketFee);
+        }
+        if (compositeEncoder.shouldEncodeElementDefault(serialDescriptor, 8) || !Intrinsics.EZpvd((Object) mevInfoBean.marketFeeUsd, (Object) "")) {
+            compositeEncoder.encodeStringElement(serialDescriptor, 8, mevInfoBean.marketFeeUsd);
+        }
+        if (compositeEncoder.shouldEncodeElementDefault(serialDescriptor, 9) || !Intrinsics.EZpvd((Object) mevInfoBean.marketMaxFeeUsd, (Object) "")) {
+            compositeEncoder.encodeStringElement(serialDescriptor, 9, mevInfoBean.marketMaxFeeUsd);
+        }
+        if (compositeEncoder.shouldEncodeElementDefault(serialDescriptor, 10) || !Intrinsics.EZpvd((Object) mevInfoBean.marketPriority, (Object) "")) {
+            compositeEncoder.encodeStringElement(serialDescriptor, 10, mevInfoBean.marketPriority);
+        }
+        if (compositeEncoder.shouldEncodeElementDefault(serialDescriptor, 11) || !Intrinsics.EZpvd((Object) mevInfoBean.name, (Object) "")) {
+            compositeEncoder.encodeStringElement(serialDescriptor, 11, mevInfoBean.name);
+        }
+        if (compositeEncoder.shouldEncodeElementDefault(serialDescriptor, 12) || !Intrinsics.EZpvd((Object) mevInfoBean.turboFee, (Object) "")) {
+            compositeEncoder.encodeStringElement(serialDescriptor, 12, mevInfoBean.turboFee);
+        }
+        if (compositeEncoder.shouldEncodeElementDefault(serialDescriptor, 13) || !Intrinsics.EZpvd((Object) mevInfoBean.turboFeeUsd, (Object) "")) {
+            compositeEncoder.encodeStringElement(serialDescriptor, 13, mevInfoBean.turboFeeUsd);
+        }
+        if (compositeEncoder.shouldEncodeElementDefault(serialDescriptor, 14) || !Intrinsics.EZpvd((Object) mevInfoBean.turboMaxFeeUsd, (Object) "")) {
+            compositeEncoder.encodeStringElement(serialDescriptor, 14, mevInfoBean.turboMaxFeeUsd);
+        }
+        if (compositeEncoder.shouldEncodeElementDefault(serialDescriptor, 15) || !Intrinsics.EZpvd((Object) mevInfoBean.turboPriority, (Object) "")) {
+            compositeEncoder.encodeStringElement(serialDescriptor, 15, mevInfoBean.turboPriority);
+        }
+        if (compositeEncoder.shouldEncodeElementDefault(serialDescriptor, 16) || !Intrinsics.EZpvd((Object) mevInfoBean.marketGasPrice, (Object) "")) {
+            compositeEncoder.encodeStringElement(serialDescriptor, 16, mevInfoBean.marketGasPrice);
+        }
+        if (compositeEncoder.shouldEncodeElementDefault(serialDescriptor, 17) || !Intrinsics.EZpvd((Object) mevInfoBean.fastGasPrice, (Object) "")) {
+            compositeEncoder.encodeStringElement(serialDescriptor, 17, mevInfoBean.fastGasPrice);
+        }
+        if (compositeEncoder.shouldEncodeElementDefault(serialDescriptor, 18) || !Intrinsics.EZpvd((Object) mevInfoBean.turboGasPrice, (Object) "")) {
+            compositeEncoder.encodeStringElement(serialDescriptor, 18, mevInfoBean.turboGasPrice);
+        }
+        if (!compositeEncoder.shouldEncodeElementDefault(serialDescriptor, 19) && Intrinsics.EZpvd((Object) mevInfoBean.maxBaseFee, (Object) "")) {
+            return;
+        }
+        compositeEncoder.encodeStringElement(serialDescriptor, 19, mevInfoBean.maxBaseFee);
+    }
+
+    public MevInfoBean(@NotNull String str, @NotNull String str2, @NotNull String str3, @NotNull String str4, @NotNull String str5, @NotNull String str6, boolean z, @NotNull String str7, @NotNull String str8, @NotNull String str9, @NotNull String str10, @NotNull String str11, @NotNull String str12, @NotNull String str13, @NotNull String str14, @NotNull String str15, @NotNull String str16, @NotNull String str17, @NotNull String str18, @NotNull String str19) {
+        Intrinsics.checkNotNullParameter(str, "");
+        Intrinsics.checkNotNullParameter(str2, "");
+        Intrinsics.checkNotNullParameter(str3, "");
+        Intrinsics.checkNotNullParameter(str4, "");
+        Intrinsics.checkNotNullParameter(str5, "");
+        Intrinsics.checkNotNullParameter(str6, "");
+        Intrinsics.checkNotNullParameter(str7, "");
+        Intrinsics.checkNotNullParameter(str8, "");
+        Intrinsics.checkNotNullParameter(str9, "");
+        Intrinsics.checkNotNullParameter(str10, "");
+        Intrinsics.checkNotNullParameter(str11, "");
+        Intrinsics.checkNotNullParameter(str12, "");
+        Intrinsics.checkNotNullParameter(str13, "");
+        Intrinsics.checkNotNullParameter(str14, "");
+        Intrinsics.checkNotNullParameter(str15, "");
+        Intrinsics.checkNotNullParameter(str16, "");
+        Intrinsics.checkNotNullParameter(str17, "");
+        Intrinsics.checkNotNullParameter(str18, "");
+        Intrinsics.checkNotNullParameter(str19, "");
+        this.baseFee = str;
+        this.baseFeeUsd = str2;
+        this.fastFee = str3;
+        this.fastFeeUsd = str4;
+        this.fastMaxFeeUsd = str5;
+        this.fastPriority = str6;
+        this.isDefault = z;
+        this.marketFee = str7;
+        this.marketFeeUsd = str8;
+        this.marketMaxFeeUsd = str9;
+        this.marketPriority = str10;
+        this.name = str11;
+        this.turboFee = str12;
+        this.turboFeeUsd = str13;
+        this.turboMaxFeeUsd = str14;
+        this.turboPriority = str15;
+        this.marketGasPrice = str16;
+        this.fastGasPrice = str17;
+        this.turboGasPrice = str18;
+        this.maxBaseFee = str19;
+    }
+
+    /* JADX DEBUG: Can't inline method, not implemented redirect type for insn: 0x00e1: CONSTRUCTOR 
+  (wrap:java.lang.String:?: TERNARY null = ((wrap:int:0x0002: ARITH (r42v0 int) & (1 int) A[WRAPPED]) != (0 int)) ? ("") : (r22v0 java.lang.String))
+  (wrap:java.lang.String:?: TERNARY null = ((wrap:int:0x000c: ARITH (r42v0 int) & (2 int) A[WRAPPED]) != (0 int)) ? ("") : (r23v0 java.lang.String))
+  (wrap:java.lang.String:?: TERNARY null = ((wrap:int:0x0014: ARITH (r42v0 int) & (4 int) A[WRAPPED]) != (0 int)) ? ("") : (r24v0 java.lang.String))
+  (wrap:java.lang.String:?: TERNARY null = ((wrap:int:0x001c: ARITH (r42v0 int) & (8 int) A[WRAPPED]) != (0 int)) ? ("") : (r25v0 java.lang.String))
+  (wrap:java.lang.String:?: TERNARY null = ((wrap:int:0x0024: ARITH (r42v0 int) & (16 int) A[WRAPPED]) != (0 int)) ? ("") : (r26v0 java.lang.String))
+  (wrap:java.lang.String:?: TERNARY null = ((wrap:int:0x002c: ARITH (r42v0 int) & (32 int) A[WRAPPED]) != (0 int)) ? ("") : (r27v0 java.lang.String))
+  (wrap:boolean:?: TERNARY null = ((wrap:int:0x0034: ARITH (r42v0 int) & (64 int) A[WRAPPED]) != (0 int)) ? false : (r28v0 boolean))
+  (wrap:java.lang.String:?: TERNARY null = ((wrap:int:0x003c: ARITH (r42v0 int) & (128 int) A[WRAPPED]) != (0 int)) ? ("") : (r29v0 java.lang.String))
+  (wrap:java.lang.String:?: TERNARY null = ((wrap:int:0x0044: ARITH (r42v0 int) & (256 int) A[WRAPPED]) != (0 int)) ? ("") : (r30v0 java.lang.String))
+  (wrap:java.lang.String:?: TERNARY null = ((wrap:int:0x004c: ARITH (r42v0 int) & (512 int) A[WRAPPED]) != (0 int)) ? ("") : (r31v0 java.lang.String))
+  (wrap:java.lang.String:?: TERNARY null = ((wrap:int:0x0054: ARITH (r42v0 int) & (1024 int) A[WRAPPED]) != (0 int)) ? ("") : (r32v0 java.lang.String))
+  (wrap:java.lang.String:?: TERNARY null = ((wrap:int:0x005c: ARITH (r42v0 int) & (2048 int) A[WRAPPED]) != (0 int)) ? ("") : (r33v0 java.lang.String))
+  (wrap:java.lang.String:?: TERNARY null = ((wrap:int:0x0064: ARITH (r42v0 int) & (4096 int) A[WRAPPED]) != (0 int)) ? ("") : (r34v0 java.lang.String))
+  (wrap:java.lang.String:?: TERNARY null = ((wrap:int:0x006c: ARITH (r42v0 int) & (8192 int) A[WRAPPED]) != (0 int)) ? ("") : (r35v0 java.lang.String))
+  (wrap:java.lang.String:?: TERNARY null = ((wrap:int:0x0076: ARITH (r42v0 int) & (16384 int) A[WRAPPED]) != (0 int)) ? ("") : (r36v0 java.lang.String))
+  (wrap:java.lang.String:?: TERNARY null = ((wrap:int:0x0082: ARITH (r42v0 int) & (32768 int) A[WRAPPED]) != (0 int)) ? ("") : (r37v0 java.lang.String))
+  (wrap:java.lang.String:?: TERNARY null = ((wrap:int:0x008d: ARITH (r42v0 int) & (65536 int) A[WRAPPED]) != (0 int)) ? ("") : (r38v0 java.lang.String))
+  (wrap:java.lang.String:?: TERNARY null = ((wrap:int:0x0098: ARITH (r42v0 int) & (131072 int) A[WRAPPED]) != (0 int)) ? ("") : (r39v0 java.lang.String))
+  (wrap:java.lang.String:?: TERNARY null = ((wrap:int:0x00a3: ARITH (r42v0 int) & (262144 int) A[WRAPPED]) != (0 int)) ? ("") : (r40v0 java.lang.String))
+  (wrap:java.lang.String:?: TERNARY null = ((wrap:int:0x00ae: ARITH (r42v0 int) & (524288 int) A[WRAPPED]) != (0 int)) ? ("") : (r41v0 java.lang.String))
+ A[MD:(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String):void (m)] (LINE:198) call: com.okinc.business.dexlogic.bean.MevInfoBean.<init>(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String):void type: THIS */
+    public /* synthetic */ MevInfoBean(String str, String str2, String str3, String str4, String str5, String str6, boolean z, String str7, String str8, String str9, String str10, String str11, String str12, String str13, String str14, String str15, String str16, String str17, String str18, String str19, int i, DefaultConstructorMarker defaultConstructorMarker) {
+        this((i & 1) != 0 ? "" : str, (i & 2) != 0 ? "" : str2, (i & 4) != 0 ? "" : str3, (i & 8) != 0 ? "" : str4, (i & 16) != 0 ? "" : str5, (i & 32) != 0 ? "" : str6, (i & 64) != 0 ? false : z, (i & 128) != 0 ? "" : str7, (i & 256) != 0 ? "" : str8, (i & 512) != 0 ? "" : str9, (i & 1024) != 0 ? "" : str10, (i & 2048) != 0 ? "" : str11, (i & 4096) != 0 ? "" : str12, (i & 8192) != 0 ? "" : str13, (i & 16384) != 0 ? "" : str14, (i & 32768) != 0 ? "" : str15, (i & 65536) != 0 ? "" : str16, (i & 131072) != 0 ? "" : str17, (i & 262144) != 0 ? "" : str18, (i & 524288) != 0 ? "" : str19);
+    }
+}

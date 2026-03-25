@@ -1,0 +1,128 @@
+package com.okinc.business.defi.dapp.webview;
+
+import android.content.Context;
+import android.webkit.ValueCallback;
+import com.okinc.business.defi.dapp.webview.DappWebView$loadBtc$1$1;
+import kotlin.Unit;
+import kotlin.coroutines.Continuation;
+import kotlin.coroutines.jvm.internal.SuspendLambda;
+import kotlin.jvm.functions.Function2;
+import kotlin.jvm.internal.Intrinsics;
+import kotlinx.coroutines.BuildersKt;
+import kotlinx.coroutines.CoroutineScope;
+import kotlinx.coroutines.Dispatchers;
+import kotlinx.coroutines.MainCoroutineDispatcher;
+import o.C13241dEa;
+import o.C56391yDq;
+import o.C56442yFn;
+import o.InterfaceC9738bbJ;
+import o.dDN;
+
+/* JADX INFO: loaded from: classes4.dex */
+public final class DappWebView$loadBtc$1$1 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
+    int label;
+    final /* synthetic */ C13241dEa this$0;
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public DappWebView$loadBtc$1$1(C13241dEa c13241dEa, Continuation<? super DappWebView$loadBtc$1$1> continuation) {
+        super(2, continuation);
+        this.this$0 = c13241dEa;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    @Override // kotlin.coroutines.jvm.internal.BaseContinuationImpl
+    public final Continuation<Unit> create(Object obj, Continuation<?> continuation) {
+        return new DappWebView$loadBtc$1$1(this.this$0, continuation);
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    /* JADX DEBUG: Method merged with bridge method: invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; */
+    @Override // kotlin.jvm.functions.Function2
+    public final Object invoke(CoroutineScope coroutineScope, Continuation<? super Unit> continuation) {
+        return ((DappWebView$loadBtc$1$1) create(coroutineScope, continuation)).invokeSuspend(Unit.INSTANCE);
+    }
+
+    @Override // kotlin.coroutines.jvm.internal.BaseContinuationImpl
+    public final Object invokeSuspend(Object obj) throws Throwable {
+        Object objCopydefault = C56442yFn.copydefault();
+        int i = this.label;
+        if (i == 0) {
+            C56391yDq.AEQbTJ(obj);
+            dDN ddn = dDN.copydefault;
+            Context context = this.this$0.getContext();
+            Intrinsics.checkNotNullExpressionValue(context, "");
+            String strEZpvd = ddn.EZpvd(context);
+            MainCoroutineDispatcher main = Dispatchers.getMain();
+            AnonymousClass1 anonymousClass1 = new AnonymousClass1(this.this$0, strEZpvd, null);
+            this.label = 1;
+            if (BuildersKt.withContext(main, anonymousClass1, this) == objCopydefault) {
+                return objCopydefault;
+            }
+        } else {
+            if (i != 1) {
+                throw new IllegalStateException("call to 'resume' before 'invoke' with coroutine");
+            }
+            C56391yDq.AEQbTJ(obj);
+        }
+        return Unit.INSTANCE;
+    }
+
+    /* JADX INFO: renamed from: com.okinc.business.defi.dapp.webview.DappWebView$loadBtc$1$1$1, reason: invalid class name */
+    public static final class AnonymousClass1 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
+        final /* synthetic */ String $jsContent;
+        int label;
+        final /* synthetic */ C13241dEa this$0;
+
+        /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+        /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+        public AnonymousClass1(C13241dEa c13241dEa, String str, Continuation<? super AnonymousClass1> continuation) {
+            super(2, continuation);
+            this.this$0 = c13241dEa;
+            this.$jsContent = str;
+        }
+
+        /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+        @Override // kotlin.coroutines.jvm.internal.BaseContinuationImpl
+        public final Continuation<Unit> create(Object obj, Continuation<?> continuation) {
+            return new AnonymousClass1(this.this$0, this.$jsContent, continuation);
+        }
+
+        /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+        /* JADX DEBUG: Method merged with bridge method: invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; */
+        @Override // kotlin.jvm.functions.Function2
+        public final Object invoke(CoroutineScope coroutineScope, Continuation<? super Unit> continuation) {
+            return ((AnonymousClass1) create(coroutineScope, continuation)).invokeSuspend(Unit.INSTANCE);
+        }
+
+        @Override // kotlin.coroutines.jvm.internal.BaseContinuationImpl
+        public final Object invokeSuspend(Object obj) throws Throwable {
+            C56442yFn.copydefault();
+            if (this.label == 0) {
+                C56391yDq.AEQbTJ(obj);
+                final C13241dEa c13241dEa = this.this$0;
+                c13241dEa.evaluateJavascript(this.$jsContent, new ValueCallback() { // from class: o.dEI
+                    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+                    @Override // android.webkit.ValueCallback
+                    public final void onReceiveValue(java.lang.Object obj2) {
+                        DappWebView$loadBtc$1$1.AnonymousClass1.invokeSuspend$lambda$0(c13241dEa, (java.lang.String) obj2);
+                    }
+                });
+                return Unit.INSTANCE;
+            }
+            throw new IllegalStateException("call to 'resume' before 'invoke' with coroutine");
+        }
+
+        /* JADX INFO: Access modifiers changed from: private */
+        public static final void invokeSuspend$lambda$0(C13241dEa c13241dEa, String str) {
+            Long lValueOf = c13241dEa.valueOf();
+            if (c13241dEa.values() == null || c13241dEa.AkhnZx() != 7 || lValueOf == null) {
+                return;
+            }
+            dDN ddn = dDN.copydefault;
+            InterfaceC9738bbJ interfaceC9738bbJValues = c13241dEa.values();
+            Intrinsics.copydefault(interfaceC9738bbJValues);
+            c13241dEa.evaluateJavascript(ddn.EZpvd(interfaceC9738bbJValues, lValueOf.longValue()), null);
+        }
+    }
+}

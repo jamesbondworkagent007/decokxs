@@ -1,0 +1,79 @@
+package com.okinc.business.defi.wallet.switchComponent.viewmodel;
+
+import java.util.concurrent.CancellationException;
+import kotlin.Result;
+import kotlin.Unit;
+import kotlin.coroutines.Continuation;
+import kotlin.coroutines.jvm.internal.SuspendLambda;
+import kotlin.jvm.functions.Function1;
+import kotlin.jvm.functions.Function2;
+import kotlinx.coroutines.CoroutineScope;
+import o.C56391yDq;
+import o.C56442yFn;
+import o.pUU;
+
+/* JADX INFO: loaded from: classes5.dex */
+public final class WalletSwitchViewModel$suspendCatchingLaunch$1 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
+    final /* synthetic */ Function1<Continuation<? super Unit>, Object> $block;
+    int label;
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    /* JADX DEBUG: Multi-variable search result rejected for r1v0, resolved type: kotlin.jvm.functions.Function1<? super kotlin.coroutines.Continuation<? super kotlin.Unit>, ? extends java.lang.Object> */
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    /* JADX WARN: Multi-variable type inference failed */
+    public WalletSwitchViewModel$suspendCatchingLaunch$1(Function1<? super Continuation<? super Unit>, ? extends Object> function1, Continuation<? super WalletSwitchViewModel$suspendCatchingLaunch$1> continuation) {
+        super(2, continuation);
+        this.$block = function1;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    @Override // kotlin.coroutines.jvm.internal.BaseContinuationImpl
+    public final Continuation<Unit> create(Object obj, Continuation<?> continuation) {
+        return new WalletSwitchViewModel$suspendCatchingLaunch$1(this.$block, continuation);
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    /* JADX DEBUG: Method merged with bridge method: invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; */
+    @Override // kotlin.jvm.functions.Function2
+    public final Object invoke(CoroutineScope coroutineScope, Continuation<? super Unit> continuation) {
+        return ((WalletSwitchViewModel$suspendCatchingLaunch$1) create(coroutineScope, continuation)).invokeSuspend(Unit.INSTANCE);
+    }
+
+    @Override // kotlin.coroutines.jvm.internal.BaseContinuationImpl
+    public final Object invokeSuspend(Object obj) throws Throwable {
+        Object objM7377constructorimpl;
+        Object objCopydefault = C56442yFn.copydefault();
+        int i = this.label;
+        try {
+            if (i == 0) {
+                C56391yDq.AEQbTJ(obj);
+                Function1<Continuation<? super Unit>, Object> function1 = this.$block;
+                Result.Application application = Result.Companion;
+                this.label = 1;
+                if (function1.invoke(this) == objCopydefault) {
+                    return objCopydefault;
+                }
+            } else {
+                if (i != 1) {
+                    throw new IllegalStateException("call to 'resume' before 'invoke' with coroutine");
+                }
+                C56391yDq.AEQbTJ(obj);
+            }
+            objM7377constructorimpl = Result.m7377constructorimpl(Unit.INSTANCE);
+        } catch (CancellationException e) {
+            throw e;
+        } catch (Throwable th) {
+            Result.Application application2 = Result.Companion;
+            objM7377constructorimpl = Result.m7377constructorimpl(C56391yDq.EZpvd(th));
+        }
+        Throwable thM7380exceptionOrNullimpl = Result.m7380exceptionOrNullimpl(objM7377constructorimpl);
+        if (thM7380exceptionOrNullimpl != null) {
+            String localizedMessage = thM7380exceptionOrNullimpl.getLocalizedMessage();
+            if (localizedMessage == null) {
+                localizedMessage = "";
+            }
+            pUU.AEQbTJ("WalletSwitchViewModel", localizedMessage, thM7380exceptionOrNullimpl);
+        }
+        return Unit.INSTANCE;
+    }
+}

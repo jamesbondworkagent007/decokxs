@@ -1,0 +1,41 @@
+package com.okinc.cruilib.compose.library.reorderable;
+
+import kotlin.Unit;
+import kotlin.coroutines.Continuation;
+import kotlin.coroutines.jvm.internal.SuspendLambda;
+import kotlinx.coroutines.CoroutineScope;
+import o.C56391yDq;
+import o.C56442yFn;
+import o.yHO;
+
+/* JADX INFO: loaded from: classes23.dex */
+public final class ReorderableScope$draggableHandle$2 extends SuspendLambda implements yHO<CoroutineScope, Float, Continuation<? super Unit>, Object> {
+    int label;
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public ReorderableScope$draggableHandle$2(Continuation<? super ReorderableScope$draggableHandle$2> continuation) {
+        super(3, continuation);
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    /* JADX DEBUG: Method arguments types fixed to match base method, original types: [java.lang.Object, java.lang.Object, java.lang.Object] */
+    @Override // o.yHO
+    public /* synthetic */ Object invoke(CoroutineScope coroutineScope, Float f, Continuation<? super Unit> continuation) {
+        return invoke(coroutineScope, f.floatValue(), continuation);
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final Object invoke(CoroutineScope coroutineScope, float f, Continuation<? super Unit> continuation) {
+        return new ReorderableScope$draggableHandle$2(continuation).invokeSuspend(Unit.INSTANCE);
+    }
+
+    @Override // kotlin.coroutines.jvm.internal.BaseContinuationImpl
+    public final Object invokeSuspend(Object obj) throws Throwable {
+        C56442yFn.copydefault();
+        if (this.label != 0) {
+            throw new IllegalStateException("call to 'resume' before 'invoke' with coroutine");
+        }
+        C56391yDq.AEQbTJ(obj);
+        return Unit.INSTANCE;
+    }
+}
