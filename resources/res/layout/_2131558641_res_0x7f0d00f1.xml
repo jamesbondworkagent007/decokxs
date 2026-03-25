@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/activity_paid_group_transaction_summary_0"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C33537myN
+        id="@+id/appbar"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x5="@string/pr_message_paid_group_header_payment_history"
+        NOT_FOUND_0x6="true"
+        NOT_FOUND_0x7="@drawable/_2131232348_res_0x7f08065c"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="true"/>
+    <FrameLayout
+        id="@+id/container"
+        layout_width="-1"
+        android:layout_height="0dp"
+        layout_marginTop="@dimen/margin_16dp"
+        NOT_FOUND_0x8="0"
+        NOT_FOUND_0x9="@+id/appbar"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

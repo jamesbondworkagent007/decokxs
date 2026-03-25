@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/market_discover_root"
+    paddingTop="@dimen/dp_114"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C41387qpp
+        tag="PAGER_WRAPPER_MARKETS"
+        layout_width="-1"
+        android:layout_height="match_parent"
+        NOT_FOUND_0xa="@string/appbar_scrolling_view_behavior">
+        <androidx.viewpager2.widget.ViewPager2
+            id="@+id/viewpager"
+            tag="PAGER_MARKETS"
+            layout_width="-1"
+            android:layout_height="match_parent"
+            overScrollMode="2"/>
+    </o.C41387qpp>
+    <com.google.android.material.appbar.AppBarLayout
+        id="@+id/market_discover_app_bar"
+        background="@color/BasePrimary"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        stateListAnimator="@null"
+        NOT_FOUND_0x9="0dp">
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            id="@+id/market_discover_toolbar_layout"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            animateLayoutChanges="true"
+            NOT_FOUND_0xb="0x13"
+            NOT_FOUND_0xe="0"/>
+        <o.C55244xgL
+            id="@+id/tabs"
+            layout_width="-1"
+            android:layout_height="@dimen/dp_48"
+            NOT_FOUND_0xc="1"
+            NOT_FOUND_0xd="-5"/>
+    </com.google.android.material.appbar.AppBarLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

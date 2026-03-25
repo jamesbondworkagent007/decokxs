@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <TextView
+        textSize="12sp"
+        textColor="@color/ContentTertiary"
+        gravity="0x10"
+        id="@+id/text"
+        background="@drawable/_2131231054_res_0x7f08014e"
+        padding="16dp"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        drawablePadding="12dp"
+        NOT_FOUND_0xa="@drawable/_2131232317_res_0x7f08063d"
+        style="@style/Label_3_Regular"/>
+</LinearLayout>

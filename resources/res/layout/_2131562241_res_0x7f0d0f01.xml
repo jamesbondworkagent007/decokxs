@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    tag="layout/signal_multi_coin_select_fragment_0"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/recyclerView"
+        layout_width="-1"
+        android:layout_height="0dp"
+        layout_marginLeft="@dimen/margin_default"
+        layout_marginRight="@dimen/margin_default"
+        layout_marginBottom="12dp"
+        layout_weight="1"
+        overScrollMode="2"
+        layout_marginHorizontal="@dimen/margin_default"/>
+    <o.wYF
+        id="@+id/btnBox"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0xb="@string/pr_marketplace_filter_btn_set"
+        NOT_FOUND_0xc="@string/pr_marketplace_filter_btn_reset"
+        NOT_FOUND_0xd="44"
+        NOT_FOUND_0xe="14"/>
+</LinearLayout>

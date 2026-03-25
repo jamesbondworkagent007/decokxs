@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    gravity="0x11"
+    orientation="0"
+    layout_width="-2"
+    android:layout_height="25dp">
+    <View
+        id="@+id/view_line_style"
+        background="@drawable/_2131233890_res_0x7f080c62"
+        layout_width="@dimen/width_16dp"
+        android:layout_height="match_parent"
+        layout_marginLeft="@dimen/margin_8dp"
+        layout_marginRight="@dimen/margin_8dp"
+        layout_marginHorizontal="@dimen/margin_8dp"/>
+    <TextView
+        textSize="@dimen/text_size_10sp"
+        textColor="@color/selector_selected_gray_10_blue1"
+        id="@+id/tv"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        text="@string/pr_trade_drawings_dotted_line"
+        layout_marginEnd="@dimen/margin_8dp"/>
+</LinearLayout>

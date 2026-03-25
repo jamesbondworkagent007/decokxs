@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/trade_ui_dialog_futures_ticker_info_explain_0"
+    paddingLeft="@dimen/trade_margin_default"
+    paddingRight="@dimen/trade_margin_default"
+    paddingBottom="@dimen/dp24"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingHorizontal="@dimen/trade_margin_default">
+    <TextView
+        textAppearance="@style/TextAppearance.Text.14SP"
+        textColor="@color/ContentTertiary"
+        id="@+id/priceTitle"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/dp_8"
+        layout_marginEnd="@dimen/ok_dp_16"
+        NOT_FOUND_0xf="@+id/price"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x12="0"/>
+    <TextView
+        textAppearance="@style/TextAppearance.Text.14SP.Medium"
+        textColor="@color/ContentPrimary"
+        id="@+id/price"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0xd="@+id/priceTitle"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0x12="@+id/priceTitle"/>
+    <View
+        id="@+id/line"
+        background="@color/BorderPrimary"
+        layout_width="-1"
+        android:layout_height="0.5dp"
+        layout_marginTop="@dimen/ok_dp_16"
+        NOT_FOUND_0x11="@+id/priceTitle"/>
+    <TextView
+        textAppearance="@style/TextAppearance.Text.12SP"
+        textColor="@color/ContentContrast"
+        id="@+id/explainTv"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/ok_dp_16"
+        NOT_FOUND_0x11="@+id/line"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

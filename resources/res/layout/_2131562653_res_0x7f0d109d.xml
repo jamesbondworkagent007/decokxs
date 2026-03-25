@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o.C55312xha xmlns:android="http://schemas.android.com/apk/res/android"
+    layout_width="-2"
+    android:layout_height="wrap_content">
+    <o.C55320xhi
+        id="@+id/tv_underline"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_centerVertical="true"
+        fontFamily="@font/font_alpha_regular"/>
+    <o.C55318xhg
+        id="@+id/rv_second"
+        layout_width="-2"
+        android:layout_height="wrap_content"/>
+</o.C55312xha>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-2"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatTextView
+        id="@+id/moreModule"
+        visibility="2"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        text="@string/pr_commonall_modal_btn_more"
+        contentDescription="coinMoreButton"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="0"
+        style="@style/TextAppearance.Text.14SP"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/img_change_mode"
+        layout_width="@dimen/dp_36"
+        android:layout_height="@dimen/dp_24"
+        src="@drawable/_2131232098_res_0x7f080562"
+        scaleType="7"
+        contentDescription="navSwitchButton"
+        paddingEnd="@dimen/dp_12"
+        layout_marginStart="@dimen/margin_8dp"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="@+id/moreModule"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="0dp"
+        NOT_FOUND_0x10="@color/grey_g400"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

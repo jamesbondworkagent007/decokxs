@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x11"
+    orientation="0"
+    id="@+id/resource"
+    tag="layout/item_coin_info_resource_0"
+    background="@drawable/_2131231411_res_0x7f0802b3"
+    padding="8dp"
+    layout_width="-2"
+    android:layout_height="wrap_content">
+    <ImageView
+        id="@+id/ivResource"
+        layout_width="@dimen/width_16dp"
+        android:layout_height="@dimen/width_16dp"
+        NOT_FOUND_0xc="@color/ContentPrimary"/>
+    <TextView
+        textAppearance="@style/TextAppearance.Title"
+        textSize="12sp"
+        id="@+id/tvResource"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        includeFontPadding="false"
+        layout_marginStart="6dp"/>
+</LinearLayout>

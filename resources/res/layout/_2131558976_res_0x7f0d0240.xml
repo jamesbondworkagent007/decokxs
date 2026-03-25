@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o.C8126awp xmlns:android="http://schemas.android.com/apk/res/android"
+    clipChildren="false"
+    layout_width="160dp"
+    android:layout_height="160dp">
+    <TextView
+        textSize="12sp"
+        textColor="#ffffff"
+        gravity="0x11"
+        id="@+id/tv_add"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginBottom="24dp"
+        text="@string/add_floating_window"
+        layout_alignParentBottom="true"
+        layout_centerHorizontal="true"
+        paddingStart="26dp"/>
+    <ImageView
+        id="@+id/iv_add"
+        layout_width="70dp"
+        android:layout_height="44dp"
+        layout_marginBottom="6dp"
+        src="@drawable/_2131230878_res_0x7f08009e"
+        layout_above="@+id/tv_add"
+        layout_centerHorizontal="true"
+        paddingStart="26dp"/>
+</o.C8126awp>

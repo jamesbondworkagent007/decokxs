@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/trade_impl_fragment_signal_subs_confirm_0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <androidx.core.widget.NestedScrollView
+        id="@+id/confirm_scroll_view"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x9="@+id/button_box"
+        NOT_FOUND_0xb="0">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            layout_marginLeft="@dimen/margin_16dp"
+            layout_marginRight="@dimen/margin_16dp"
+            layout_marginHorizontal="@dimen/margin_16dp">
+            <androidx.recyclerview.widget.RecyclerView
+                id="@+id/confirm_recycler_view"
+                layout_width="-1"
+                android:layout_height="wrap_content"
+                layout_marginTop="@dimen/margin_20dp"
+                overScrollMode="2"
+                NOT_FOUND_0xb="0"/>
+            <o.C51969vwz
+                id="@+id/checkBox"
+                layout_width="-1"
+                android:layout_height="wrap_content"
+                layout_marginTop="@dimen/margin_40dp"
+                NOT_FOUND_0xa="@+id/confirm_recycler_view"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+    <o.wYF
+        id="@+id/button_box"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0xa="@+id/confirm_scroll_view"
+        NOT_FOUND_0xc="@string/pr_common_btn_confirm"
+        NOT_FOUND_0xd="@string/pr_trade_common_btn_cancel"
+        NOT_FOUND_0xe="52"
+        NOT_FOUND_0xf="14"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

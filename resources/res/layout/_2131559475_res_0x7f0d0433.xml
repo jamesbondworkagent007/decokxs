@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    gravity="0x800003"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatTextView
+        textAppearance="@style/TextAppearance.Text.14SP.Regular"
+        textColor="@color/ContentSecondary"
+        gravity="0x800003"
+        id="@+id/top_content"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        lineSpacingExtra="2.5dp"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        textAppearance="@style/TextAppearance.Text.14SP.Regular"
+        textColor="@color/ContentSecondary"
+        gravity="0x800003"
+        id="@+id/sub_content"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_20dp"
+        lineSpacingExtra="2.5dp"/>
+    <o.wYK
+        textAppearance="@style/TextAppearance.Text.12SP.Regular"
+        textColor="@color/ContentSecondary"
+        gravity="0x800003"
+        id="@+id/select_checkbox"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_16dp"
+        text="@string/pr_swaptrade_modal_checkbox_dont_show_again"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

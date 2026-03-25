@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape shape="0">
+            <corners radius="99dp"/>
+            <gradient
+                startColor="@color/market_future_analysis_bg_start"
+                endColor="@color/market_future_analysis_bg_end"
+                angle="0"
+                type="0"/>
+        </shape>
+    </item>
+    <item
+        left="1dp"
+        top="1dp"
+        right="1dp"
+        bottom="1dp">
+        <shape shape="0">
+            <corners radius="99dp"/>
+            <solid color="@color/BasePrimary_Dark"/>
+        </shape>
+    </item>
+</layer-list>

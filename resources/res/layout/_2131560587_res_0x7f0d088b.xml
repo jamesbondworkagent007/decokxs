@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.flexbox.FlexboxLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/reactionsContainer"
+    layout_width="-2"
+    android:layout_height="wrap_content"
+    NOT_FOUND_0x4="@drawable/_2131233497_res_0x7f080ad9"
+    NOT_FOUND_0x5="@drawable/_2131233497_res_0x7f080ad9"
+    NOT_FOUND_0x6="1"
+    NOT_FOUND_0x7="0x2"
+    NOT_FOUND_0x8="0x2">
+    <include
+        id="@+id/emoji0"
+        visibility="2"
+        layout_width="-2"
+        android:layout_height="24dp"
+        layout="@layout/_2131560505_res_0x7f0d0839"/>
+    <include
+        id="@+id/emoji1"
+        visibility="2"
+        layout_width="-2"
+        android:layout_height="24dp"
+        layout="@layout/_2131560505_res_0x7f0d0839"/>
+    <include
+        id="@+id/emoji2"
+        visibility="2"
+        layout_width="-2"
+        android:layout_height="24dp"
+        layout="@layout/_2131560505_res_0x7f0d0839"/>
+    <include
+        id="@+id/extraEmoji"
+        visibility="2"
+        layout_width="-2"
+        android:layout_height="24dp"
+        layout="@layout/_2131560734_res_0x7f0d091e"/>
+</com.google.android.flexbox.FlexboxLayout>

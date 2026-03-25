@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x10"
+    orientation="0"
+    paddingLeft="@dimen/margin_default"
+    paddingTop="@dimen/ok_dp_16"
+    paddingRight="@dimen/margin_default"
+    paddingBottom="@dimen/ok_dp_16"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingHorizontal="@dimen/margin_default"
+    paddingVertical="@dimen/ok_dp_16">
+    <ImageView
+        id="@+id/iv_icon"
+        layout_width="@dimen/dp24"
+        android:layout_height="@dimen/dp24"
+        scaleType="6"
+        layout_marginEnd="@dimen/ok_dp_12"
+        NOT_FOUND_0x13="@color/ContentPrimary"/>
+    <TextView
+        textColor="@color/ContentPrimary"
+        ellipsize="3"
+        gravity="0x10"
+        id="@+id/tv_selection_title"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        maxLines="2"
+        layout_weight="1"
+        style="@style/Label_1_Regular"/>
+    <ImageView
+        id="@+id/iv_selection_check"
+        layout_width="@dimen/dp24"
+        android:layout_height="@dimen/dp24"
+        src="@drawable/_2131233852_res_0x7f080c3c"
+        layout_marginStart="@dimen/ok_dp_12"
+        NOT_FOUND_0x13="@color/ContentPrimary"/>
+</LinearLayout>

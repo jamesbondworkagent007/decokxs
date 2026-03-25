@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <com.okinc.uilab.reminder.OKReminder
+        id="@+id/reminder"
+        paddingLeft="@dimen/padding_24dp"
+        paddingRight="@dimen/padding_24dp"
+        paddingBottom="@dimen/padding_16dp"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        paddingHorizontal="@dimen/padding_24dp"
+        NOT_FOUND_0x8="@color/ContentPrimary"
+        NOT_FOUND_0x9="12sp"
+        style="@style/Label_3_Regular"/>
+</LinearLayout>

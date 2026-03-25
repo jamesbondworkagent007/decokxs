@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    background="@drawable/_2131231258_res_0x7f08021a"
+    layout_width="20dp"
+    android:layout_height="20dp">
+    <TextView
+        textColor="@color/okTradeG900"
+        gravity="0x11"
+        layout_gravity="0x11"
+        id="@+id/tvStackCount"
+        background="@drawable/_2131233978_res_0x7f080cba"
+        layout_width="@dimen/ok_dp_16"
+        android:layout_height="@dimen/ok_dp_16"
+        style="@style/TextAppearance.Text.10SP"/>
+</FrameLayout>

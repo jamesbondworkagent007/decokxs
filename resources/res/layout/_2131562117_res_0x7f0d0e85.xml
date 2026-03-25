@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginTop="21dp"
+    layout_marginBottom="21dp"
+    layout_marginVertical="21dp">
+    <LinearLayout
+        gravity="0x10"
+        orientation="0"
+        id="@+id/dataView"
+        paddingLeft="@dimen/margin_default"
+        paddingRight="@dimen/margin_default"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        paddingHorizontal="@dimen/margin_default">
+        <o.C46500tWq
+            id="@+id/chart"
+            layout_width="160dp"
+            android:layout_height="160dp"/>
+        <o.tUN
+            id="@+id/recyclerView"
+            clipToPadding="false"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            layout_marginStart="27dp"/>
+    </LinearLayout>
+    <o.C46471tVo
+        id="@+id/emptyView"
+        paddingLeft="@dimen/margin_default"
+        paddingRight="@dimen/margin_default"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        paddingHorizontal="@dimen/margin_default"/>
+    <o.C55113xdn
+        id="@+id/loadingView"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0xe="true"
+        NOT_FOUND_0xf="@raw/_2131886152_res_0x7f120048"/>
+</FrameLayout>

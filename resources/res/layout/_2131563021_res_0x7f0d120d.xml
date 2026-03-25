@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-2"
+    android:layout_height="wrap_content">
+    <ImageView
+        layout_gravity="0x11"
+        id="@+id/iv_invest_risk_icon"
+        layout_width="@dimen/ok_dp_16"
+        android:layout_height="@dimen/ok_dp_16"
+        src="@drawable/_2131232629_res_0x7f080775"
+        NOT_FOUND_0x6="@color/BrandPrimaryAlternative"/>
+    <o.C55251xgS
+        id="@+id/risk_tag_view"
+        visibility="2"
+        layout_width="-2"
+        android:layout_height="wrap_content"/>
+</merge>

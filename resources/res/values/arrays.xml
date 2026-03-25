@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="assume_strong_biometrics_models">
+        <item>Pixel 4</item>
+        <item>Pixel 4 XL</item>
+    </array>
+    <array name="crypto_fingerprint_fallback_prefixes">
+    </array>
+    <array name="crypto_fingerprint_fallback_vendors">
+        <item>samsung</item>
+    </array>
+    <array name="defi_tab_names">
+        <item>@string/pr_metax_dapps_tab_all</item>
+        <item>@string/pr_metax_wallet_home_card_receive_duplicate</item>
+        <item>@string/pr_metax_wallet_btn_send</item>
+    </array>
+    <array name="delay_showing_prompt_models">
+        <item>Pixel 4</item>
+        <item>Pixel 4 XL</item>
+    </array>
+    <array name="exo_playback_speeds">
+        <item>0.25x</item>
+        <item>0.5x</item>
+        <item>0.75x</item>
+        <item>@string/exo_controls_playback_speed_normal</item>
+        <item>1.25x</item>
+        <item>1.5x</item>
+        <item>2x</item>
+    </array>
+    <array name="exo_speed_multiplied_by_100">
+        <item>25</item>
+        <item>50</item>
+        <item>75</item>
+        <item>100</item>
+        <item>125</item>
+        <item>150</item>
+        <item>200</item>
+    </array>
+    <array name="footer_view_themes">
+        <item>Follow App</item>
+        <item>Fixed Light</item>
+        <item>Fixed Dark</item>
+        <item>Fixed VIP</item>
+    </array>
+    <array name="futures_rank1">
+        <item>Stay humble, even with your lambo.</item>
+        <item>Great kid! Don\'t get cocky.</item>
+        <item>Great kid! Don\'t get cocky.</item>
+    </array>
+    <array name="futures_rank2">
+        <item>To the moooooooon we go!</item>
+        <item>Stay cool in the hot wave.</item>
+        <item>To the moooooooon we go!</item>
+        <item>Stay cool in the hot wave.</item>
+        <item>To the moooooooon we go!</item>
+    </array>
+    <array name="futures_rank3">
+        <item>Happy ending comes after ups and downs.</item>
+        <item>Weather the storm, see the sunshine.</item>
+    </array>
+    <array name="futures_rank4">
+        <item>I eat obstacles for breakfast!</item>
+        <item>Dance the night away!</item>
+        <item>I eat obstacles for breakfast!</item>
+        <item>Dance the night away!</item>
+    </array>
+    <array name="futures_rank5">
+        <item>What doesn\'t kill me makes me stronger.</item>
+        <item>The darkest hour is just before the dawn.</item>
+        <item>What doesn\'t kill me makes me stronger.</item>
+        <item>The darkest hour is just before the dawn.</item>
+        <item>What doesn\'t kill me makes me stronger.</item>
+    </array>
+    <array name="hide_fingerprint_instantly_prefixes">
+        <item>SM-A50</item>
+        <item>SM-G973</item>
+        <item>SM-G975</item>
+        <item>SM-G977</item>
+        <item>SM-G770</item>
+        <item>SM-N970</item>
+        <item>SM-N971</item>
+        <item>SM-N975</item>
+        <item>SM-N976</item>
+        <item>SM-N770</item>
+        <item>SC-03L</item>
+        <item>SC-04L</item>
+        <item>SC-05L</item>
+        <item>SC-01M</item>
+        <item>SCV41</item>
+        <item>SCV42</item>
+        <item>SCV45</item>
+    </array>
+    <array name="isoCode">
+        <item>zh-CN</item>
+        <item>zh-TW</item>
+        <item>en-US</item>
+        <item>vi-VN</item>
+        <item>ru-RU</item>
+        <item>tr-TR</item>
+        <item>pt-BR</item>
+        <item>es-419</item>
+        <item>id-ID</item>
+        <item>fr-FR</item>
+        <item>de-DE</item>
+        <item>it-IT</item>
+        <item>pl-PL</item>
+        <item>cs-CZ</item>
+        <item>ro-RO</item>
+        <item>pt-PT</item>
+        <item>uk-UA</item>
+        <item>es-ES</item>
+        <item>en-IN</item>
+        <item>hi-IN</item>
+        <item>nl-NL</item>
+        <item>ar-EH</item>
+    </array>
+    <array name="localizationName">
+        <item>简体中文</item>
+        <item>繁體中文</item>
+        <item>English</item>
+        <item>Tiếng việt</item>
+        <item>Русский</item>
+        <item>Türkçe</item>
+        <item>Português (Brasil)</item>
+        <item>Español (Latinoamérica)</item>
+        <item>Bahasa Indonesia</item>
+        <item>Français (Afrique)</item>
+        <item>Deutsch</item>
+        <item>Italiano</item>
+        <item>Polski</item>
+        <item>Čeština</item>
+        <item>Română</item>
+        <item>Português (Portugal)</item>
+        <item>Українська</item>
+        <item>Español (España)</item>
+        <item>English (India)</item>
+        <item>हिन्दी</item>
+        <item>Nederlands</item>
+        <item>العربية</item>
+    </array>
+</resources>

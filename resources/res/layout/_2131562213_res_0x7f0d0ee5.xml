@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginLeft="@dimen/sm"
+    layout_marginRight="@dimen/sm"
+    layout_marginHorizontal="@dimen/sm">
+    <TextView
+        textColor="@color/ContentPrimary"
+        id="@+id/token_header_title"
+        paddingTop="@dimen/xxsm"
+        paddingBottom="@dimen/xxsm"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        paddingVertical="@dimen/xxsm"
+        style="@style/Title_2_Bold"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

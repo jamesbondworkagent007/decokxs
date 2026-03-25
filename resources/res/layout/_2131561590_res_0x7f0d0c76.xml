@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    paddingLeft="@dimen/sm"
+    paddingTop="@dimen/xxsm"
+    paddingRight="@dimen/sm"
+    paddingBottom="@dimen/xxsm"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingHorizontal="@dimen/sm"
+    paddingVertical="@dimen/xxsm">
+    <include
+        id="@+id/relation_basic_info"
+        layout="@layout/_2131560284_res_0x7f0d075c"/>
+</FrameLayout>

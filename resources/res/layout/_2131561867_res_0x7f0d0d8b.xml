@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="0"
+    layout_width="-2"
+    android:layout_height="wrap_content">
+    <TextView
+        gravity="0x11"
+        id="@+id/tvTag"
+        background="@drawable/_2131233195_res_0x7f0809ab"
+        paddingLeft="@dimen/dp_4"
+        paddingRight="@dimen/dp_4"
+        visibility="0"
+        layout_width="-2"
+        android:layout_height="18dp"
+        maxLines="1"
+        includeFontPadding="false"
+        paddingHorizontal="@dimen/dp_4"
+        style="@style/Label_4_Regular"/>
+    <TextView
+        textColor="@color/TagStatusPendingContent"
+        gravity="0x11"
+        id="@+id/tvTag2"
+        background="@drawable/_2131233195_res_0x7f0809ab"
+        paddingLeft="@dimen/dp_4"
+        paddingRight="@dimen/dp_4"
+        visibility="0"
+        layout_width="-2"
+        android:layout_height="match_parent"
+        text="@string/pr_trade_function_label_pre"
+        maxLines="1"
+        includeFontPadding="false"
+        layout_marginStart="@dimen/dp_4"
+        paddingHorizontal="@dimen/dp_4"
+        style="@style/Label_4_Regular"/>
+</LinearLayout>

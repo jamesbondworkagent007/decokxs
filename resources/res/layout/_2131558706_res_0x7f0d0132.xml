@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    id="@+id/root_layout"
+    tag="layout/activity_support_center_search_0"
+    background="@color/BasePrimary"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C55230xfy
+        id="@+id/search_bar"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginLeft="@dimen/xsm"
+        layout_marginTop="@dimen/xxxsm"
+        layout_marginRight="@dimen/xsm"
+        layout_marginBottom="@dimen/xsm"
+        layout_marginHorizontal="@dimen/xsm"
+        NOT_FOUND_0xc="true"
+        NOT_FOUND_0xd="true"
+        NOT_FOUND_0xe="-3"/>
+    <FrameLayout
+        id="@+id/search_contents_container"
+        layout_width="-1"
+        android:layout_height="0dp"
+        layout_weight="1"/>
+</LinearLayout>

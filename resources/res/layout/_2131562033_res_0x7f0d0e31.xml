@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x10"
+    orientation="0"
+    id="@+id/rc_conversation_item"
+    background="@color/BasePrimary"
+    paddingLeft="@dimen/im_page_margin"
+    paddingTop="@dimen/padding_16dp"
+    paddingRight="@dimen/im_page_margin"
+    paddingBottom="@dimen/padding_16dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    foreground="?attr/selectableItemBackgroundBorderless"
+    paddingHorizontal="@dimen/im_page_margin"
+    paddingVertical="@dimen/padding_16dp">
+    <o.C55230xfy
+        id="@+id/btn_enter_search"
+        layout_width="-1"
+        android:layout_height="40dp"
+        hint="@string/pr_message_input_search_text"
+        NOT_FOUND_0xe="@+id/announcement_banner"
+        NOT_FOUND_0xf="false"
+        NOT_FOUND_0x10="false"
+        NOT_FOUND_0x11="-3"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    id="@+id/container"
+    background="@color/transparent"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <FrameLayout
+        id="@+id/header"
+        background="@drawable/_2131231265_res_0x7f080221"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        minHeight="8dp">
+        <ImageView
+            layout_gravity="0x800035"
+            id="@+id/close"
+            layout_width="24dp"
+            android:layout_height="24dp"
+            layout_marginTop="18dp"
+            src="@drawable/_2131231675_res_0x7f0803bb"
+            layout_marginEnd="14dp"/>
+    </FrameLayout>
+    <FrameLayout
+        id="@+id/fragmentContainer"
+        layout_width="-1"
+        android:layout_height="0dp"
+        layout_weight="1"/>
+</LinearLayout>

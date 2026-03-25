@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    paddingLeft="@dimen/margin_default"
+    paddingRight="@dimen/margin_default"
+    paddingBottom="@dimen/xsm"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingHorizontal="@dimen/margin_default">
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/labels_rv"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        src="@drawable/_2131231912_res_0x7f0804a8"
+        NOT_FOUND_0xe="LinearLayoutManager"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x11="0"
+        NOT_FOUND_0x12="0"
+        NOT_FOUND_0x16="@color/ContentPrimary"/>
+    <o.C55173xeu
+        layout_gravity="0x11"
+        id="@+id/empty_container"
+        padding="@dimen/sm"
+        focusable="true"
+        visibility="2"
+        clickable="true"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0xd="6"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x11="0"
+        NOT_FOUND_0x12="0"/>
+    <o.C55113xdn
+        id="@+id/loading_view"
+        visibility="2"
+        layout_width="60dp"
+        android:layout_height="60dp"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x11="0"
+        NOT_FOUND_0x12="0"
+        NOT_FOUND_0x13="0.4"
+        NOT_FOUND_0x14="true"
+        NOT_FOUND_0x15="@raw/_2131886126_res_0x7f12002e"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    gravity="0x1"
+    orientation="1"
+    id="@+id/footer_container"
+    tag="layout/layout_footer_0"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginLeft="?attr/pageMargin"
+    layout_marginRight="?attr/pageMargin"
+    layout_marginHorizontal="?attr/pageMargin"/>

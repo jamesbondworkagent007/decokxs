@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    paddingLeft="@dimen/sm"
+    paddingRight="@dimen/sm"
+    paddingBottom="@dimen/padding_20dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingHorizontal="@dimen/sm">
+    <TextView
+        textColor="@color/ContentContrast"
+        id="@+id/tvCurrentPriceTitle"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        text="@string/pr_investdetails_top_title_current_price"
+        NOT_FOUND_0xb="1"
+        NOT_FOUND_0xc="0"
+        style="@style/Label_2_Regular"/>
+    <TextView
+        textColor="@color/ContentContrast"
+        id="@+id/tvCurrentPriceContent"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/xxxsm"
+        NOT_FOUND_0xb="1"
+        NOT_FOUND_0xc="0"
+        style="@style/Label_2_Regular"/>
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <TextView
+        textSize="@dimen/text_size_12sp"
+        textColor="@color/okTradeG400"
+        id="@+id/tv_time"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_12dp"
+        layout_marginBottom="@dimen/margin_12dp"
+        text="2023-03-10  16:56:23"
+        layout_marginStart="@dimen/margin_default"
+        style="@style/TextAppearance"/>
+    <LinearLayout
+        gravity="0x10"
+        orientation="0"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_12dp"
+        layout_marginBottom="@dimen/margin_12dp">
+        <ImageView
+            layout_gravity="0x10"
+            id="@+id/user_avatar"
+            layout_width="36dp"
+            android:layout_height="36dp"
+            layout_marginStart="@dimen/margin_default"/>
+        <TextView
+            textSize="@dimen/text_size_14sp"
+            textColor="@color/okTradeG900"
+            id="@+id/tv_number"
+            layout_width="0dp"
+            android:layout_height="wrap_content"
+            text="13825345643"
+            layout_weight="1"
+            layout_marginStart="@dimen/margin_8dp"
+            style="@style/TextAppearance.Text.Bold"/>
+        <TextView
+            textSize="@dimen/text_size_14sp"
+            textColor="@color/okTradeG900"
+            id="@+id/tv_asset"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            text="150,03 USDT"
+            layout_marginStart="@dimen/margin_8dp"
+            layout_marginEnd="@dimen/margin_default"
+            style="@style/TextAppearance"/>
+    </LinearLayout>
+</LinearLayout>

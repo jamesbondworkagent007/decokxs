@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    id="@+id/llParent"
+    paddingLeft="@dimen/padding_16dp"
+    paddingRight="@dimen/padding_16dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingHorizontal="@dimen/padding_16dp">
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/rv_event"
+        layout_width="-1"
+        android:layout_height="0dp"
+        layout_weight="1"
+        overScrollMode="2"/>
+    <o.C55320xhi
+        textSize="@dimen/font_14"
+        textColor="@color/ContentPrimary"
+        id="@+id/setting"
+        paddingTop="@dimen/dp_8"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_28dp"
+        text="@string/pr_trade_mid_label_econ_calendar_settings"
+        fontFamily="@font/font_alpha_regular"
+        NOT_FOUND_0xf="true"
+        NOT_FOUND_0x10="@color/ContentPrimary"
+        NOT_FOUND_0x11="1"/>
+</LinearLayout>

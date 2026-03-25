@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    paddingLeft="@dimen/sm"
+    paddingTop="@dimen/padding_16dp"
+    paddingRight="@dimen/sm"
+    paddingBottom="@dimen/padding_16dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingHorizontal="@dimen/sm"
+    paddingVertical="@dimen/padding_16dp">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        id="@+id/card_container"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x11="0">
+        <o.C27335jtJ
+            id="@+id/commonItemWidget"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            NOT_FOUND_0xe="0"
+            NOT_FOUND_0xf="0"
+            NOT_FOUND_0x11="0"/>
+        <androidx.recyclerview.widget.RecyclerView
+            orientation="0"
+            id="@+id/points_rv"
+            paddingTop="@dimen/xsm"
+            visibility="2"
+            fadingEdge="0x1000"
+            fadingEdgeLength="15dp"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            requiresFadingEdge="0x1000"
+            NOT_FOUND_0xe="0"
+            NOT_FOUND_0xf="0"
+            NOT_FOUND_0x10="@+id/commonItemWidget"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

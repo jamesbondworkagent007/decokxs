@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.AppCompatTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    enabled="false"
+    textColor="@color/market_selector_text_operation_primary"
+    gravity="0x11"
+    id="@+id/btn"
+    background="@drawable/_2131233476_res_0x7f080ac4"
+    layout_width="-1"
+    android:layout_height="@dimen/dp_36"
+    style="@style/Label_2_Regular"/>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    paddingTop="16dp"
+    paddingBottom="16dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingVertical="16dp">
+    <View
+        id="@+id/view_line"
+        background="@color/BorderPrimary"
+        layout_width="-1"
+        android:layout_height="0.5dp"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xd="0"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        textAppearance="@style/Label_3_Regular"
+        textColor="@color/SemanticNotice"
+        id="@+id/tv_title"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="20dp"
+        NOT_FOUND_0xc="@+id/view_line"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

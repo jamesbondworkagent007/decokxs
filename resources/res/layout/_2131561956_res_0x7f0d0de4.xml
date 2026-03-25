@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/material_timepicker_container"
+    layout_width="-2"
+    android:layout_height="wrap_content">
+    <include
+        id="@+id/material_clock_display"
+        layout="@layout/_2131561946_res_0x7f0d0dda"/>
+    <include
+        id="@+id/material_clock_period_toggle"
+        layout="@layout/_2131561948_res_0x7f0d0ddc"/>
+    <com.google.android.material.timepicker.ClockFaceView
+        layout_gravity="0x11"
+        id="@+id/material_clock_face"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="36dp"
+        NOT_FOUND_0x5="0"
+        NOT_FOUND_0x6="0"
+        NOT_FOUND_0x7="@+id/material_clock_display"/>
+</merge>

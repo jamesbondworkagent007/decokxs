@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item state_enabled="false">
+        <layer-list>
+            <item>
+                <shape shape="0">
+                    <stroke
+                        width="1dp"
+                        color="@color/widget_disable_color"/>
+                    <corners radius="4dp"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>

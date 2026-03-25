@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <TextView
+        textSize="16sp"
+        textColor="@color/grey_g900"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_12dp"
+        text="@string/pr_trade_bot_title_setail_separtiona"
+        layout_marginStart="@dimen/margin_16dp"
+        style="@style/TextAppearance"/>
+    <View
+        id="@+id/v_divder"
+        layout_marginTop="@dimen/ok_dp_12"
+        layout_marginStart="@dimen/margin_16dp"
+        layout_marginEnd="@dimen/margin_16dp"
+        style="@style/WidgetDivisionLine"/>
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/botUserListRv"
+        layout_width="-1"
+        android:layout_height="match_parent"
+        overScrollMode="2"/>
+</LinearLayout>

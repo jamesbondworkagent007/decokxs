@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android" color="@android:color/transparent">
+    <item id="@android:id/mask">
+        <shape shape="0">
+            <corners radius="@dimen/btn_default_radius"/>
+            <solid color="@color/widget_ripple_color"/>
+            <stroke
+                width="@dimen/btn_outline_stroke_width"
+                color="@android:color/transparent"/>
+        </shape>
+    </item>
+    <item drawable="@drawable/_2131231552_res_0x7f080340"/>
+</ripple>

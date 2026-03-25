@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <View
+        background="@drawable/_2131231379_res_0x7f080293"
+        layout_width="-1"
+        android:layout_height="@dimen/height_72dp"/>
+    <FrameLayout
+        background="@color/black"
+        layout_width="-1"
+        android:layout_height="wrap_content">
+        <TextView
+            textColor="@color/ContentPrimary"
+            gravity="0x11"
+            layout_gravity="0x1"
+            id="@+id/tv_share_text"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            layout_marginTop="@dimen/margin_12dp"
+            layout_marginBottom="@dimen/margin_12dp"
+            text="@string/pr_trade_sharingcard_scan_qr_code_keep_reading"
+            drawableRight="@drawable/_2131233692_res_0x7f080b9c"
+            layout_marginVertical="@dimen/margin_12dp"
+            style="@style/Label_1_Medium"/>
+    </FrameLayout>
+</LinearLayout>

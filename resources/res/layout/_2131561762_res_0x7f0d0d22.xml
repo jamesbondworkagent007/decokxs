@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    textAppearance="@style/TextAppearance.Text.14SP"
+    gravity="0x10"
+    id="@+id/moreModule"
+    visibility="2"
+    layout_width="-2"
+    android:layout_height="match_parent"
+    text="@string/pr_commonall_modal_btn_more"
+    layout_marginEnd="@dimen/dp_12"/>

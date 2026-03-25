@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    paddingLeft="24dp"
+    paddingRight="24dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingHorizontal="24dp">
+    <o.C55173xeu
+        layout_gravity="0x11"
+        id="@+id/emptyView"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="60dp"
+        layout_marginBottom="60dp"
+        NOT_FOUND_0x9="7"
+        NOT_FOUND_0xa="@string/pr_metax_wallet_text_no_result"/>
+</FrameLayout>

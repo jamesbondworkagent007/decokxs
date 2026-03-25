@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        state_selected="true"
+        state_pressed="true">
+        <shape>
+            <corners radius="12dp"/>
+            <stroke
+                width="2dp"
+                color="?attr/tradeRiseHighlightsContent"/>
+            <solid color="?attr/tradeRiseHighlightsFill"/>
+        </shape>
+    </item>
+    <item state_selected="true">
+        <shape>
+            <corners radius="12dp"/>
+            <stroke
+                width="2dp"
+                color="?attr/tradeRiseHighlightsContent"/>
+            <solid color="@color/SurfacePrimary"/>
+        </shape>
+    </item>
+    <item state_pressed="true">
+        <shape>
+            <corners radius="12dp"/>
+            <solid color="?attr/tradeRiseHighlightsInteractive"/>
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <corners radius="12dp"/>
+            <solid color="@color/SurfacePrimary"/>
+        </shape>
+    </item>
+</selector>

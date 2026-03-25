@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    paddingTop="8dp"
+    paddingBottom="16dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginLeft="@dimen/margin_default"
+    layout_marginRight="@dimen/margin_default"
+    layout_marginHorizontal="@dimen/margin_default">
+    <ImageView
+        id="@+id/bellIcon"
+        layout_width="56dp"
+        android:layout_height="56dp"
+        src="@drawable/_2131230975_res_0x7f0800ff"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xf="0"/>
+    <TextView
+        gravity="0x11"
+        id="@+id/title"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="8dp"
+        text="@string/pr_message_notification_bttmsheet_title_notifications_off"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="@+id/bellIcon"
+        style="@style/Title_2_Bold"/>
+    <TextView
+        gravity="0x11"
+        id="@+id/description"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="8dp"
+        text="@string/pr_message_notification_bttmsheet_desc_turn_on_notif"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="@+id/title"
+        style="@style/Body_3_Regular"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

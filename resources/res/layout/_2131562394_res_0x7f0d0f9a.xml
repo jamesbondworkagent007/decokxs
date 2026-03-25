@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    gravity="0x11"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <TextView
+        textAppearance="@style/LiteTextAppearance.Medium"
+        textSize="12sp"
+        textColor="@color/grey_g400"
+        gravity="0x1"
+        id="@+id/textView"
+        paddingTop="7dp"
+        paddingBottom="7dp"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        paddingVertical="7dp"/>
+</RelativeLayout>

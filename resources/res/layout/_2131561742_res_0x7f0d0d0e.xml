@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o.C40499qYc xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    paddingLeft="@dimen/dp_14"
+    paddingTop="@dimen/padding_8dp"
+    paddingRight="@dimen/dp_14"
+    paddingBottom="@dimen/dp_10"
+    visibility="2"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingHorizontal="@dimen/dp_14">
+    <o.C48917uei
+        id="@+id/history_view"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="@+id/img_clear"/>
+</o.C40499qYc>

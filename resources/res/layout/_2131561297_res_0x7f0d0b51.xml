@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o.C55118xds xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    id="@+id/container"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <androidx.core.widget.NestedScrollView
+        layout_width="-1"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            orientation="1"
+            layout_width="-1"
+            android:layout_height="wrap_content">
+            <TextView
+                textSize="14sp"
+                textColor="@color/ContentSecondary"
+                id="@+id/tv_message"
+                layout_width="-2"
+                android:layout_height="wrap_content"
+                layout_marginTop="@dimen/margin_8dp"
+                lineSpacingExtra="6sp"/>
+            <TextView
+                textAppearance="@style/TextAppearance.Text.10SP.Regular"
+                textSize="14sp"
+                textColor="@color/ContentContrast"
+                id="@+id/tv_schedule"
+                layout_width="-1"
+                android:layout_height="wrap_content"
+                layout_marginTop="@dimen/margin_8dp"
+                lineSpacingExtra="6sp"
+                NOT_FOUND_0x9="0"
+                NOT_FOUND_0xa="@+id/tv_amount"/>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</o.C55118xds>

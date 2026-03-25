@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    tag="layout/fragment_select_coin_search_0"
+    background="@color/BasePrimaryAlternative"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C55237xgE
+        id="@+id/stateful_layout"
+        layout_width="-1"
+        android:layout_height="match_parent"
+        NOT_FOUND_0x7="0"
+        NOT_FOUND_0x8="0"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xa="@layout/_2131562226_res_0x7f0d0ef2"
+        NOT_FOUND_0xb="@layout/_2131561536_res_0x7f0d0c40"
+        style="@style/StatefulLayout.Common">
+        <o.C33546myW
+            id="@+id/smartRefreshView"
+            layout_width="-1"
+            android:layout_height="match_parent">
+            <androidx.recyclerview.widget.RecyclerView
+                id="@+id/recyclerView"
+                layout_width="-1"
+                android:layout_height="match_parent"
+                overScrollMode="2"/>
+            <o.C33604mzb
+                layout_width="-1"
+                android:layout_height="wrap_content"/>
+        </o.C33546myW>
+    </o.C55237xgE>
+</androidx.constraintlayout.widget.ConstraintLayout>

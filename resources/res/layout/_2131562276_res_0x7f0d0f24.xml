@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    textColor="@color/ContentTertiary"
+    gravity="0x11"
+    id="@+id/crypto_list_header"
+    tag="layout/template_footer_text_0"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginLeft="@dimen/dp_24"
+    layout_marginTop="@dimen/dp_8"
+    layout_marginRight="@dimen/dp_24"
+    layout_marginBottom="@dimen/dp_16"
+    text="@string/lt_unipay_magic_spend_default_search_discover"
+    layout_marginHorizontal="@dimen/dp_24"
+    style="@style/Label_2_Regular"/>

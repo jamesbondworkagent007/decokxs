@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/frameLayout"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <com.github.mmin18.widget.RealtimeBlurView
+        id="@+id/background"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x6="0dp"
+        NOT_FOUND_0x7="@color/Opacity050"/>
+    <LinearLayout
+        orientation="1"
+        id="@+id/contentContainer"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_margin="16dp"
+        maxWidth="200dp"/>
+</FrameLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C35298nsg
+        id="@+id/cameraView"
+        layout_width="-1"
+        android:layout_height="match_parent"
+        NOT_FOUND_0x3="@drawable/_2131233589_res_0x7f080b35"
+        NOT_FOUND_0x4="@drawable/_2131233590_res_0x7f080b36"/>
+</RelativeLayout>

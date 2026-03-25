@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    paddingTop="@dimen/md"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C55173xeu
+        layout_gravity="0x31"
+        id="@+id/place_holder"
+        layout_width="-2"
+        android:layout_height="wrap_content"/>
+</FrameLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.C55258xgZ
+        textColor="@color/ContentContrast"
+        id="@+id/tv_title_service_fee_order_info"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        text="@string/pr_swaptrade_trade_dialog_title_service_fee"
+        NOT_FOUND_0xa="2"
+        style="@style/Label_2_Regular"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        textAppearance="@style/Label_1_Regular"
+        textColor="@color/ContentPrimary"
+        ellipsize="3"
+        id="@+id/tv_service_fee_value"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_4dp"
+        maxLines="1"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

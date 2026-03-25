@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    gravity="0x10"
+    paddingLeft="@dimen/vip_badge_padding_h"
+    paddingRight="@dimen/vip_badge_padding_h"
+    layout_width="-2"
+    android:layout_height="@dimen/vip_badge_height"
+    paddingHorizontal="@dimen/vip_badge_padding_h">
+    <ImageView
+        layout_width="@dimen/vip_badge_icon"
+        android:layout_height="@dimen/vip_badge_icon"
+        src="@drawable/_2131231513_res_0x7f080319"
+        contentDescription="@null"/>
+    <TextView
+        id="@+id/vipText"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        includeFontPadding="false"
+        layout_marginStart="@dimen/vip_badge_gap"
+        style="@style/Label_3_Bold"/>
+</LinearLayout>

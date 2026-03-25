@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        orientation="1"
+        id="@+id/ll_content"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="wrap_content">
+        <o.C28057kNh
+            id="@+id/sort_module"
+            paddingLeft="@dimen/margin_default"
+            paddingTop="@dimen/dp_4"
+            paddingRight="@dimen/margin_default"
+            paddingBottom="@dimen/dp_4"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            paddingHorizontal="@dimen/margin_default"
+            paddingVertical="@dimen/dp_4"/>
+        <androidx.recyclerview.widget.RecyclerView
+            id="@+id/rv_modules"
+            layout_width="-1"
+            android:layout_height="0dp"
+            layout_weight="1"
+            NOT_FOUND_0xe="@string/appbar_scrolling_view_behavior"/>
+    </LinearLayout>
+    <o.C55173xeu
+        id="@+id/error_layout"
+        background="@color/BasePrimary"
+        paddingTop="96dp"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="match_parent"/>
+    <o.C55113xdn
+        layout_gravity="0x30"
+        id="@+id/loading_view"
+        background="@color/BasePrimary"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="match_parent"
+        NOT_FOUND_0xf="true"/>
+</FrameLayout>

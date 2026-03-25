@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    tag="layout/view_doh_info_item_0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        orientation="0"
+        layout_width="-1"
+        android:layout_height="wrap_content">
+        <TextView
+            textAppearance="@style/TextAppearance.Title.14SP"
+            gravity="0x10"
+            id="@+id/tv_http"
+            layout_width="0dp"
+            android:layout_height="wrap_content"
+            minHeight="40dp"
+            hint="http"
+            layout_weight="1"
+            textIsSelectable="true"/>
+        <TextView
+            textAppearance="@style/TextAppearance.Title.14SP"
+            gravity="0x10"
+            id="@+id/iv_http"
+            layout_width="-2"
+            android:layout_height="match_parent"
+            text="--.--ms"
+            NOT_FOUND_0xd="@drawable/_2131232354_res_0x7f080662"/>
+    </LinearLayout>
+    <View
+        background="@color/list_divider_color"
+        layout_width="-1"
+        android:layout_height="1dp"/>
+</LinearLayout>

@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pr_account_cedefi_tab_desc_network">
+        <item quantity="one">Activat pe {num} rețea</item>
+        <item quantity="few">Activat pe {num} rețele</item>
+        <item quantity="other">Activat pe {num} de rețele</item>
+    </plurals>
+    <plurals name="pr_compliance_global_poa_label_files_uploaded">
+        <item quantity="one">{number} fișier încărcat</item>
+        <item quantity="few">{number} fișiere încărcate</item>
+        <item quantity="other">{number} de fișiere încărcate</item>
+    </plurals>
+    <plurals name="pr_dcdbot_placeorder_toast_found_num_bot">
+        <item quantity="one">S-a găsit {number} produs pentru dumneavoastră</item>
+        <item quantity="few">S-au găsit {number} produse pentru dumneavoastră</item>
+        <item quantity="other">S-au găsit {number} de produse pentru dumneavoastră</item>
+    </plurals>
+    <plurals name="pr_im_invite_user_dialog_text_upgrade_find_out_single_error">
+        <item quantity="one">Am făcut câteva schimbări. Actualizați-vă aplicația ca să aflați de ce nu au putut fi adăugate.</item>
+        <item quantity="few">Am făcut câteva schimbări. Actualizați-vă aplicația ca să aflați de ce nu au putut fi adăugate.</item>
+        <item quantity="other">Am făcut câteva schimbări. Actualizați-vă aplicația ca să aflați de ce nu au putut fi adăugate.</item>
+    </plurals>
+    <plurals name="pr_invest_smartmoney_mid_alert_day">
+        <item quantity="one">{num} zi</item>
+        <item quantity="few">{num} zile</item>
+        <item quantity="other">{num} de zile</item>
+    </plurals>
+    <plurals name="pr_invest_smartmoney_mid_alert_hour">
+        <item quantity="one">{num} oră</item>
+        <item quantity="few">{num} ore</item>
+        <item quantity="other">{num} de ore</item>
+    </plurals>
+    <plurals name="pr_invest_smartmoney_mid_alert_minute">
+        <item quantity="one">{num} minut</item>
+        <item quantity="few">{num} minute</item>
+        <item quantity="other">{num} de minute</item>
+    </plurals>
+    <plurals name="pr_invest_smartmoney_mid_alert_second">
+        <item quantity="one">{num} secundă</item>
+        <item quantity="few">{num} secunde</item>
+        <item quantity="other">{num} de secunde</item>
+    </plurals>
+    <plurals name="pr_investutxo_bot_textarea_desc_potential_risk">
+        <item quantity="one">Ați selectat 1 UTXO de deblocat. Acest lucru va adăuga {numToken}, dar va duce și la pierderea activelor din acest UTXO. Confirmați-vă activele înainte să deblocați.</item>
+        <item quantity="few">Ați selectat {num} UTXO-uri de deblocat. Acest lucru va adăuga {numToken}, dar va duce și la pierderea activelor din aceste UTXO-uri. Confirmați-vă activele înainte să deblocați.</item>
+        <item quantity="other">Ați selectat {num} de UTXO-uri de deblocat. Acest lucru va adăuga {numToken}, dar va duce și la pierderea activelor din aceste UTXO-uri. Confirmați-vă activele înainte să deblocați.</item>
+    </plurals>
+    <plurals name="pr_message_call_text_user_others_v2">
+        <item quantity="one">{user1}, {user2} și încă {num} persoană</item>
+        <item quantity="few">{user1}, {user2} și încă {num} persoane</item>
+        <item quantity="other">{user1}, {user2} și încă {num} de persoane</item>
+    </plurals>
+    <plurals name="pr_message_chat_header_num_reactions">
+        <item quantity="one">{num} reacție</item>
+        <item quantity="few">{num} reacții</item>
+        <item quantity="other">{num} de reacții</item>
+    </plurals>
+    <plurals name="pr_message_chat_label_unread_message_pl">
+        <item quantity="one">Mesaj necitit</item>
+        <item quantity="few">Mesaje necitite</item>
+        <item quantity="other">De mesaje necitite</item>
+    </plurals>
+    <plurals name="pr_message_competition_textarea_climbed_var_pl">
+        <item quantity="one">a urcat cu {num} loc</item>
+        <item quantity="few">a urcat cu {num} locuri</item>
+        <item quantity="other">a urcat cu {num} de locuri</item>
+    </plurals>
+    <plurals name="pr_message_competition_textarea_dropped_var_pl">
+        <item quantity="one">a coborât cu {num} loc</item>
+        <item quantity="few">a coborât cu {num} locuri</item>
+        <item quantity="other">a coborât cu {num} de locuri</item>
+    </plurals>
+    <plurals name="pr_message_competition_textarea_ends_in_num_days_var_pl">
+        <item quantity="one">{num} zi</item>
+        <item quantity="few">{num} zile</item>
+        <item quantity="other">{num} de zile</item>
+    </plurals>
+    <plurals name="pr_message_competition_user_others_left">
+        <item quantity="one">{user} și încă {number} persoană au părăsit echipa.</item>
+        <item quantity="few">{user} și încă {number} persoane au părăsit echipa.</item>
+        <item quantity="other">{user} și încă {number} de persoane au părăsit echipa.</item>
+    </plurals>
+    <plurals name="pr_message_group_admin_bulk_add_to_group_pl">
+        <item quantity="one">{user1} a adăugat utilizatorul {user2} și încă {number} altă persoană în grup.</item>
+        <item quantity="few">{user1} a adăugat utilizatorul {user2} și încă {number} alte persoane în grup.</item>
+        <item quantity="other">{user1} a adăugat utilizatorul {user2} și încă {number} de alte persoane în grup.</item>
+    </plurals>
+    <plurals name="pr_message_group_alertbanner_review_plural_key">
+        <item quantity="one">Examinați {num} solicitare de alăturare</item>
+        <item quantity="few">Examinați {num} solicitări de alăturare</item>
+        <item quantity="other">Examinați {num} de solicitări de alăturare</item>
+    </plurals>
+    <plurals name="pr_message_group_bulk_add_admin_var_pl">
+        <item quantity="one">{admin} a adăugat {members} și încă {number} altă persoană ca administratori.</item>
+        <item quantity="few">{admin} a adăugat {members} și încă {number} alte persoane ca administratori.</item>
+        <item quantity="other">{admin} a adăugat {members} și încă {number} de alte persoane ca administratori.</item>
+    </plurals>
+    <plurals name="pr_message_group_bulk_add_admin_you_pl">
+        <item quantity="one">{admin} v-a adăugat pe dvs. și încă {number} persoană ca administratori.</item>
+        <item quantity="few">{admin} v-a adăugat pe dvs. și încă {number} persoane ca administratori.</item>
+        <item quantity="other">{admin} v-a adăugat pe dvs. și încă {number} de persoane ca administratori.</item>
+    </plurals>
+    <plurals name="pr_message_group_bulk_remove_admin_you_pl">
+        <item quantity="one">{admin1} v-a eliminat pe dvs. și încă {number} persoană ca administratori.</item>
+        <item quantity="few">{admin1} v-a eliminat pe dvs. și încă {number} persoane ca administratori.</item>
+        <item quantity="other">{admin1} v-a eliminat pe dvs. și încă {number} de persoane ca administratori.</item>
+    </plurals>
+    <plurals name="pr_message_group_chat_removed_from_group_pl">
+        <item quantity="one">Ai eliminat utilizatorul {user} și încă {number} persoană din grup.</item>
+        <item quantity="few">Ai eliminat utilizatorul {user} și încă {number} persoane din grup.</item>
+        <item quantity="other">Ai eliminat utilizatorul {user} și încă {number} de persoane din grup.</item>
+    </plurals>
+    <plurals name="pr_message_group_chat_removed_from_group_pl_var">
+        <item quantity="one">{admin} a eliminat utilizatorul {user} și încă {number} persoană din grup.</item>
+        <item quantity="few">{admin} a eliminat utilizatorul {user} și încă {number} persoane din grup.</item>
+        <item quantity="other">{admin} a eliminat utilizatorul {user} și încă {number} de persoane din grup.</item>
+    </plurals>
+    <plurals name="pr_message_group_dialog_header_remove_member_pl">
+        <item quantity="one">Eliminați acest membru?</item>
+        <item quantity="few">Eliminați membrii selectați?</item>
+        <item quantity="other">Eliminați membrii selectați?</item>
+    </plurals>
+    <plurals name="pr_message_group_label_num_already_here_pl">
+        <item quantity="one">{num} dintre persoanele dvs. de contact este deja aici</item>
+        <item quantity="few">{num} dintre persoanele dvs. de contact sunt deja aici</item>
+        <item quantity="other">{num} dintre persoanele dvs. de contact sunt deja aici</item>
+    </plurals>
+    <plurals name="pr_message_group_textarea_bulk_remove_admin_var_pl">
+        <item quantity="one">{admin1} a eliminat utilizatorul {admin2} și încă {number} altă persoană ca administratori.</item>
+        <item quantity="few">{admin1} a eliminat utilizatorul {admin2} și încă {number} alte persoane ca administratori.</item>
+        <item quantity="other">{admin1} a eliminat utilizatorul {admin2} și încă {number} de alte persoane ca administratori.</item>
+    </plurals>
+    <plurals name="pr_message_group_you_bulk_add_admin_pl">
+        <item quantity="one">Ați adăugat {members} și încă {number} persoană ca administratori.</item>
+        <item quantity="few">Ați adăugat {members} și încă {number} persoane ca administratori.</item>
+        <item quantity="other">Ați adăugat {members} și încă {number} de persoane ca administratori.</item>
+    </plurals>
+    <plurals name="pr_message_group_you_bulk_add_to_group_pl">
+        <item quantity="one">Ați adăugat {users} și încă {number} persoană la grup.</item>
+        <item quantity="few">Ați adăugat {users} și încă {number} persoane la grup.</item>
+        <item quantity="other">Ați adăugat {users} și încă {number} de persoane la grup.</item>
+    </plurals>
+    <plurals name="pr_message_group_you_bulk_remove_admin_pl">
+        <item quantity="one">Ați eliminat {admins} și încă {number} persoană din funcția de administrator.</item>
+        <item quantity="few">Ați eliminat {admins} și încă {number} persoane din funcția de administrator.</item>
+        <item quantity="other">Ați eliminat {admins} și încă {number} de persoane din funcția de administrator.</item>
+    </plurals>
+    <plurals name="pr_message_info_text_read_by_num_members">
+        <item quantity="one">Citit de {num} membru</item>
+        <item quantity="few">Citit de {num} membri</item>
+        <item quantity="other">Citit de {num} de membri</item>
+    </plurals>
+    <plurals name="pr_message_invite_user_dialog_text_cant_add_to_group_plural">
+        <item quantity="one">Aceștia ar putea avea setările de confidențialitate activate, sau nu v-au adăugat înapoi. În schimb v-am trimis o invitație.</item>
+        <item quantity="few">Aceștia ar putea avea setările de confidențialitate activate, sau nu v-au adăugat înapoi. În schimb le-am trimis o invitație.</item>
+        <item quantity="other">Aceștia ar putea avea setările de confidențialitate activate, sau nu v-au adăugat înapoi. În schimb le-am trimis o invitație.</item>
+    </plurals>
+    <plurals name="pr_message_notice_dialog_header_remove_num_notices_pl">
+        <item quantity="one">Elimini {num} notificare?</item>
+        <item quantity="few">Elimini {num} notificări?</item>
+        <item quantity="other">Elimini {num} de notificări?</item>
+    </plurals>
+    <plurals name="pr_message_notice_textarea_removed_notice_pl">
+        <item quantity="one">Ați eliminat o notificare.</item>
+        <item quantity="few">Ați eliminat unele notificări.</item>
+        <item quantity="other">Ați eliminat câteva notificări.</item>
+    </plurals>
+    <plurals name="pr_message_notice_textarea_removed_notice_pl_var">
+        <item quantity="one">{user} a eliminat o notificare.</item>
+        <item quantity="few">{user} au eliminat unele notificări.</item>
+        <item quantity="other">{user} a eliminat câteva notificări.</item>
+    </plurals>
+    <plurals name="pr_message_notice_toast_notice_removed_pl">
+        <item quantity="one">Notificare eliminată</item>
+        <item quantity="few">Notificări eliminate</item>
+        <item quantity="other">Notificări eliminate</item>
+    </plurals>
+    <plurals name="pr_message_paid_group_bttmsheet_title_add_admin_pl">
+        <item quantity="one">Adăugați administrator nou?</item>
+        <item quantity="few">Adăugați administratori noi?</item>
+        <item quantity="other">Adăugați de administratori noi?</item>
+    </plurals>
+    <plurals name="pr_message_planet_label_num_members_pl">
+        <item quantity="one">{num} membru</item>
+        <item quantity="few">{num} membri</item>
+        <item quantity="other">{num} de membri</item>
+    </plurals>
+    <plurals name="pr_message_share_desc_msg_cant_send_pl">
+        <item quantity="one">Chatul pe care l-ați selectat nu vă poate primi mesajul din următorul motiv:</item>
+        <item quantity="few">Chaturile pe care le-ați selectat nu vă pot primi mesajul din următoarele motive:</item>
+        <item quantity="other">Chaturile pe care le-ați selectat nu vă pot primi mesajul din următoarele motive:</item>
+    </plurals>
+    <plurals name="pr_message_share_desc_some_cant_share_pl">
+        <item quantity="one">Totuși, un chat nu v-a putut primi mesajul din următorul motiv:</item>
+        <item quantity="few">Totuși, unele chaturi nu au putut primi mesajul din următoarele motive:</item>
+        <item quantity="other">Totuși, unele chaturi nu au putut primi mesajul din următoarele motive:</item>
+    </plurals>
+    <plurals name="pr_message_sticker_toast_sticker_removed_pl">
+        <item quantity="one">Autocolant eliminat</item>
+        <item quantity="few">Autocolante eliminate</item>
+        <item quantity="other">De autocolante eliminate</item>
+    </plurals>
+    <plurals name="pr_orbit_profile_label_followers_pl">
+        <item quantity="one">urmăritor</item>
+        <item quantity="few">urmăritori</item>
+        <item quantity="other">de urmăritori</item>
+    </plurals>
+    <plurals name="pr_orbit_profile_livestream_text_num_views">
+        <item quantity="one">{num} vizualizare</item>
+        <item quantity="few">{num} vizualizări</item>
+        <item quantity="other">{num} de vizualizări</item>
+    </plurals>
+    <plurals name="pr_orbit_profile_selectioncard_label_num_groups_pl">
+        <item quantity="one">{num} grup</item>
+        <item quantity="few">{num} grupuri</item>
+        <item quantity="other">{num} de grupuri</item>
+    </plurals>
+    <plurals name="pr_social_marketplace_feeds_num_followers">
+        <item quantity="one">{num} urmăritor</item>
+        <item quantity="few">{num} urmăritori</item>
+        <item quantity="other">{num} de urmăritori</item>
+    </plurals>
+    <plurals name="pr_supportcenter_card_desc_open_tickets">
+        <item quantity="one">Un tichet deschis</item>
+        <item quantity="few">{number} tichete deschise</item>
+        <item quantity="other">{number} de tichete deschise</item>
+    </plurals>
+    <plurals name="pr_supportcenter_landing_recommendation_cards_plu">
+        <item quantity="one">Urmăriți acest aspect</item>
+        <item quantity="few">{number} aspecte de urmărit</item>
+        <item quantity="other">{number} de aspecte de urmărit</item>
+    </plurals>
+    <plurals name="pr_supportcenter_landing_tag_issue_count">
+        <item quantity="one">{number} problemă</item>
+        <item quantity="few">{number} probleme</item>
+        <item quantity="other">{number} de probleme</item>
+    </plurals>
+    <plurals name="pr_swaptrade_1swap_notification_selected_pools_reselect">
+        <item quantity="one">Fondul {num} selectat nu dispune în prezent de lichiditate. Selectați alte fonduri de pe OKX DEX pentru a obține cotații.</item>
+        <item quantity="few">Cele {num} fonduri selectate nu dispun în prezent de lichiditate. Selectați alte fonduri de pe OKX DEX pentru a obține cotații.</item>
+        <item quantity="other">Cele {num} de fonduri selectate nu dispun în prezent de lichiditate. Selectați alte fonduri de pe OKX DEX pentru a obține cotații.</item>
+    </plurals>
+    <plurals name="pr_swaptrade_address_number">
+        <item quantity="one">{num} adresă</item>
+        <item quantity="few">{num} adrese</item>
+        <item quantity="other">{num} de adrese</item>
+    </plurals>
+    <plurals name="pr_swaptrade_alert_toast_turned_off">
+        <item quantity="one">Alertă ștearsă pentru {num} adresă</item>
+        <item quantity="few">Alerte șterse pentru {num} adrese</item>
+        <item quantity="other">Alerte șterse pentru {num} de adrese</item>
+    </plurals>
+    <plurals name="pr_swaptrade_alert_toast_turned_on">
+        <item quantity="one">Alertă adăugată pentru {num} adresă</item>
+        <item quantity="few">Alerte adăugate pentru {num} adrese</item>
+        <item quantity="other">Alerte adăugate pentru {num} de adrese</item>
+    </plurals>
+    <plurals name="pr_swaptrade_bridge_dialog_this_transaction_requires_sign">
+        <item quantity="one">Această tranzacție necesită {num} semnătură:</item>
+        <item quantity="few">Această tranzacție necesită {num} semnături:</item>
+        <item quantity="other">Această tranzacție necesită {num} de semnături:</item>
+    </plurals>
+    <plurals name="pr_swaptrade_copytrade_30_days">
+        <item quantity="one">{num} zi</item>
+        <item quantity="few">{num} zile</item>
+        <item quantity="other">{num} de zile</item>
+    </plurals>
+    <plurals name="pr_swaptrade_copytrade_reminder_renew_or_suspend_plural">
+        <item quantity="one">Contractul inteligent expiră în {numDays} zi. Reînnoiți și evitați întreruperea tranz.</item>
+        <item quantity="few">Contractul inteligent expiră în {numDays} zile. Reînnoiți - evitați întreruperea tranz.</item>
+        <item quantity="other">Contractul inteligent expiră în {numDays} de zile. Reînnoiți, evitați întrerup. tranz.</item>
+    </plurals>
+    <plurals name="pr_swaptrade_copytrade_status_hrs">
+        <item quantity="one">{num} oră</item>
+        <item quantity="few">{num} ore</item>
+        <item quantity="other">{num} de ore</item>
+    </plurals>
+    <plurals name="pr_swaptrade_copytrade_status_mins">
+        <item quantity="one">{num} minut</item>
+        <item quantity="few">{num} minute</item>
+        <item quantity="other">{num} de minute</item>
+    </plurals>
+    <plurals name="pr_swaptrade_header_sources_selected">
+        <item quantity="one">{num} sursă</item>
+        <item quantity="few">{num} surse</item>
+        <item quantity="other">{num} de surse</item>
+    </plurals>
+    <plurals name="pr_swaptrade_market_title_confirm_unfollow_all_tab_case">
+        <item quantity="one">Sigur doriți să anulați urmărirea pentru {num} adresă din toate grupurile?</item>
+        <item quantity="few">Sigur doriți să anulați urmărirea pentru {num} adrese din toate grupurile?</item>
+        <item quantity="other">Sigur doriți să anulați urmărirea pentru {num} de adrese din toate grupurile?</item>
+    </plurals>
+    <plurals name="pr_swaptrade_market_title_total_tokens">
+        <item quantity="one">{num} token în total</item>
+        <item quantity="few">{num} tokenuri în total</item>
+        <item quantity="other">{num} de tokenuri în total</item>
+    </plurals>
+    <plurals name="pr_swaptrade_market_title_unfollow_message">
+        <item quantity="one">Sigur anulezi urmărirea pentru {num} adresă din acest grup?</item>
+        <item quantity="few">Sigur anulezi urmărirea pentru {num} adrese din acest grup?</item>
+        <item quantity="other">Sigur anulezi urmărirea pentru {num} de adrese din acest grup?</item>
+    </plurals>
+    <plurals name="pr_swaptrade_smart_account_reminder_desc_renew_smart_account_days">
+        <item quantity="one">Contul inteligent va expira în {num} zi. Ordinele active vor fi suspendate după ce expiră.</item>
+        <item quantity="few">Contul inteligent va expira în {num} zile. Ordinele active vor fi suspendate după ce expiră.</item>
+        <item quantity="other">Contul inteligent va expira în {num} de zile. Ordinele active vor fi suspendate după ce expiră.</item>
+    </plurals>
+    <plurals name="pr_swaptrade_successfully_added_toast">
+        <item quantity="one">Mutarea a reușit pentru {num} grup</item>
+        <item quantity="few">Mutarea a reușit pentru {num} grupuri</item>
+        <item quantity="other">Mutarea a reușit pentru {num} de grupuri</item>
+    </plurals>
+    <plurals name="pr_swaptrade_toast_no_liquidity_provider_alert_pool">
+        <item quantity="one">Ați fost comutat la un furnizor terț deoarece fondul selectat nu are lichiditate. Selectați din nou un fond pentru a tranzacționa prin intermediul agregatorului OKX DEX.</item>
+        <item quantity="few">Ați fost comutat la un furnizor terț deoarece {num} fonduri selectate nu au lichiditate. Selectați din nou fondurile pentru a tranzacționa prin intermediul agregatorului OKX DEX.</item>
+        <item quantity="other">Ați fost comutat la un furnizor terț deoarece {num} de fonduri selectate nu au lichiditate. Selectați din nou fondurile pentru a tranzacționa prin intermediul agregatorului OKX DEX.</item>
+    </plurals>
+    <plurals name="pr_swaptrade_token_detail_label_num_txn">
+        <item quantity="one">{num} txn</item>
+        <item quantity="few">{num} txns</item>
+        <item quantity="other">{num} de txns</item>
+    </plurals>
+    <plurals name="pr_swaptrade_tracker_textarea_activity">
+        <item quantity="one"># activitate nouă</item>
+        <item quantity="few"># activități noi</item>
+        <item quantity="other"># de activități noi</item>
+    </plurals>
+    <plurals name="pr_trade_analysis_header_numd_pnl">
+        <item quantity="one">PnL {num} Z</item>
+        <item quantity="few">PnL {num} Z</item>
+        <item quantity="other">PnL {num} Z</item>
+    </plurals>
+    <plurals name="pr_trade_card_title_cumulative_perpetual_pnl_last">
+        <item quantity="one">PnL perpetuu cumulat (ultima {number} zi)</item>
+        <item quantity="few">PnL perpetuu cumulat (ultimele {number} zile)</item>
+        <item quantity="other">PnL perpetuu cumulat (ultimele {number} de zile)</item>
+    </plurals>
+    <plurals name="pr_trade_card_title_top_3_contracts_last_number_days">
+        <item quantity="one">Primele 3 contracte la termen (ultima {number} zi)</item>
+        <item quantity="few">Primele 3 contracte la termen (ultimele {number} zile)</item>
+        <item quantity="other">Primele 3 contracte la termen (ultimele {number} de zile)</item>
+    </plurals>
+    <plurals name="pr_trade_card_title_top_3_long_last_number_days">
+        <item quantity="one">Primele 3 contracte la termen long (ultima {number} zi)</item>
+        <item quantity="few">Primele 3 contracte la termen long (ultimele {number} zile)</item>
+        <item quantity="other">Primele 3 contracte la termen long (ultimele {number} de zile)</item>
+    </plurals>
+    <plurals name="pr_trade_card_title_top_3_short_last_number_days">
+        <item quantity="one">Primele 3 contracte la termen short (ultima {number} zi)</item>
+        <item quantity="few">Primele 3 contracte la termen short (ultimele {number} zile)</item>
+        <item quantity="other">Primele 3 contracte la termen short (ultimele {number} de zile)</item>
+    </plurals>
+    <plurals name="pr_trade_charts_num_bars">
+        <item quantity="one">{num} bară</item>
+        <item quantity="few">{num} bare</item>
+        <item quantity="other">{num} de bare</item>
+    </plurals>
+    <plurals name="pr_trade_discover_numd_ago">
+        <item quantity="one">{num} z în urmă</item>
+        <item quantity="few">{num} z în urmă</item>
+        <item quantity="other">{num} z în urmă</item>
+    </plurals>
+    <plurals name="pr_trade_discover_numh_ago">
+        <item quantity="one">{num} h în urmă</item>
+        <item quantity="few">{num} h în urmă</item>
+        <item quantity="other">{num} h în urmă</item>
+    </plurals>
+    <plurals name="pr_trade_discover_numm_ago">
+        <item quantity="one">{num} m în urmă</item>
+        <item quantity="few">{num} m în urmă</item>
+        <item quantity="other">{num} m în urmă</item>
+    </plurals>
+    <plurals name="pr_trade_discover_nums_ago">
+        <item quantity="one">{num} s în urmă</item>
+        <item quantity="few">{num} s în urmă</item>
+        <item quantity="other">{num} s în urmă</item>
+    </plurals>
+    <plurals name="pr_trade_feed_num_answered">
+        <item quantity="one">{num} a votat</item>
+        <item quantity="few">{num} au votat</item>
+        <item quantity="other">{num} au votat</item>
+    </plurals>
+    <plurals name="pr_trade_general_timeframe_days_variable">
+        <item quantity="one">{num} zi</item>
+        <item quantity="few">{num} zile</item>
+        <item quantity="other">{num} de zile</item>
+    </plurals>
+    <plurals name="pr_trade_general_timeframe_days_variable_tian">
+        <item quantity="one">{num} zi</item>
+        <item quantity="few">{num} zile</item>
+        <item quantity="other">{num} de zile</item>
+    </plurals>
+    <plurals name="pr_trade_general_timeframe_hours_update">
+        <item quantity="one">{num} oră</item>
+        <item quantity="few">{num} ore</item>
+        <item quantity="other">{num} de ore</item>
+    </plurals>
+    <plurals name="pr_trade_general_timeframe_minutes_update">
+        <item quantity="one">{num} minut</item>
+        <item quantity="few">{num} minute</item>
+        <item quantity="other">{num} de minute</item>
+    </plurals>
+    <plurals name="pr_trade_home_desc_num_hours">
+        <item quantity="one">{num} oră</item>
+        <item quantity="few">{num} ore</item>
+        <item quantity="other">{num} de ore</item>
+    </plurals>
+    <plurals name="pr_trade_marketevents_header_num_related_posts">
+        <item quantity="one">{num} postare similară</item>
+        <item quantity="few">{num} postări similare</item>
+        <item quantity="other">{num} de postări similare</item>
+    </plurals>
+    <plurals name="pr_trade_marketevents_label_num_posts">
+        <item quantity="one">{num} postare</item>
+        <item quantity="few">{num} postări</item>
+        <item quantity="other">{num} de postări</item>
+    </plurals>
+    <plurals name="pr_trade_orbit_title_num_days">
+        <item quantity="one">{num} zi</item>
+        <item quantity="few">{num} zile</item>
+        <item quantity="other">{num} de zile</item>
+    </plurals>
+    <plurals name="pr_trade_orbit_title_num_years">
+        <item quantity="one">{num} an</item>
+        <item quantity="few">{num} ani</item>
+        <item quantity="other">{num} de ani</item>
+    </plurals>
+    <plurals name="pr_trade_tokenunlocks_countdown_numd">
+        <item quantity="one">{num}Z</item>
+        <item quantity="few">{num}Z</item>
+        <item quantity="other">{num}Z</item>
+    </plurals>
+    <plurals name="pr_trade_tokenunlocks_num_days_ago">
+        <item quantity="one">Acum {num} zi</item>
+        <item quantity="few">Acum {num} de zile</item>
+        <item quantity="other">Acum {num} de zile</item>
+    </plurals>
+    <plurals name="pr_wallet_approval_alert_subtitle_num_risk_new">
+        <item quantity="one">{count} aprobare riscantă</item>
+        <item quantity="few">{count} aprobări riscante</item>
+        <item quantity="other">{count} aprobări riscante</item>
+    </plurals>
+    <plurals name="pr_wallet_approval_textbtn_hide_num_approval">
+        <item quantity="one">Afișează mai puține</item>
+        <item quantity="few">Afișează mai puține</item>
+        <item quantity="other">Afișează mai puține</item>
+    </plurals>
+    <plurals name="pr_wallet_approve_alert_risky_approvals">
+        <item quantity="one">{num} aprobare riscantă</item>
+        <item quantity="few">{num} aprobări riscante</item>
+        <item quantity="other">{num} de aprobări riscante</item>
+    </plurals>
+    <plurals name="pr_wallet_connection_text_num_network">
+        <item quantity="one">1 rețea</item>
+        <item quantity="few">{num} rețele</item>
+        <item quantity="other">{num} de rețele</item>
+    </plurals>
+    <plurals name="pr_wallet_connection_title_connected_to_num_networks">
+        <item quantity="one">Conectat la o rețea</item>
+        <item quantity="few">Conectate la {num} rețele</item>
+        <item quantity="other">Conectate la {num} rețele</item>
+    </plurals>
+    <plurals name="pr_wallet_function_emptystate_num_unavailable_hidden">
+        <item quantity="one">Nu se poate converti {num} token.</item>
+        <item quantity="few">Nu se pot converti {num} tokenuri.</item>
+        <item quantity="other">Nu se pot converti {num} de tokenuri.</item>
+    </plurals>
+    <plurals name="pr_wallet_function_label_num_swaps">
+        <item quantity="one">{num} token</item>
+        <item quantity="few">{num} tokenuri</item>
+        <item quantity="other">{num} de tokenuri</item>
+    </plurals>
+    <plurals name="pr_wallet_function_notification_num_tokens_noquote">
+        <item quantity="one">Nu se poate converti {num} token fără cotații.</item>
+        <item quantity="few">Nu se pot converti {num} tokenuri fără cotații.</item>
+        <item quantity="other">Nu se pot converti {num} de tokenuri fără cotații.</item>
+    </plurals>
+    <plurals name="pr_wallet_function_notification_title_num_tokens_converted">
+        <item quantity="one">{num} token convertit</item>
+        <item quantity="few">{num} tokenuri convertite</item>
+        <item quantity="other">{num} de tokenuri convertite</item>
+    </plurals>
+    <plurals name="pr_wallet_function_title_converting_num_tokens">
+        <item quantity="one">Se convertește {num} token</item>
+        <item quantity="few">Se convertesc {num} tokenuri</item>
+        <item quantity="other">Se convertesc {num} de tokenuri</item>
+    </plurals>
+    <plurals name="pr_wallet_multisend_alertbanner_desc_num_address_confirm">
+        <item quantity="one">Aveți {num} adresă de destinație de verificat</item>
+        <item quantity="few">Aveți {num} adrese de destinație de verificat</item>
+        <item quantity="other">Aveți {num} de adrese de destinație de verificat</item>
+    </plurals>
+    <plurals name="pr_wallet_multisend_input_num_transaction">
+        <item quantity="one">Include {num} tranzacție</item>
+        <item quantity="few">Include {num} tranzacții</item>
+        <item quantity="other">Include {num} de tranzacții</item>
+    </plurals>
+    <plurals name="pr_wallet_multisend_reminder_desc_current_scenario">
+        <item quantity="one">{num} portofel neacceptat a fost ascuns.</item>
+        <item quantity="few">{num} portofele neacceptate au fost ascunse.</item>
+        <item quantity="other">{num} de portofele neacceptate au fost ascunse.</item>
+    </plurals>
+    <plurals name="pr_wallet_search_desc_num_assets">
+        <item quantity="one">{num} activ</item>
+        <item quantity="few">{num} active</item>
+        <item quantity="other">{num} de active</item>
+    </plurals>
+    <plurals name="pr_wallet_settings_reminder_desc_fail_check">
+        <item quantity="one">La scanare s-a găsit {num} risc pe dispozitivul dvs.</item>
+        <item quantity="few">La scanare s-au găsit {num} riscuri pe dispozitivul dvs.</item>
+        <item quantity="other">La scanare s-au găsit {num} de riscuri pe dispozitivul dvs.</item>
+    </plurals>
+    <plurals name="pr_wallet_subtitle_non_interactive_address">
+        <item quantity="one">{count} DApp neinteractiv</item>
+        <item quantity="few">{count} DApp-uri neinteractive</item>
+        <item quantity="other">{count} de DApp-uri neinteractive</item>
+    </plurals>
+</resources>

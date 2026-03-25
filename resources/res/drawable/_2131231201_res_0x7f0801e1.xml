@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item state_selected="true">
+        <shape shape="0">
+            <stroke
+                width="0.5dp"
+                color="@color/blue_lv1"/>
+            <solid color="@color/okTradeBgLv1"/>
+            <corners radius="4dp"/>
+        </shape>
+    </item>
+    <item state_selected="false">
+        <shape shape="0">
+            <stroke
+                width="0.5dp"
+                color="@color/okTradeG100"/>
+            <solid color="@color/okTradeBgLv1"/>
+            <corners radius="4dp"/>
+        </shape>
+    </item>
+</selector>

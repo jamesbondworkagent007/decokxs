@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o.C40503qYg xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="match_parent"
+    NOT_FOUND_0x4="120dp">
+    <o.qIH
+        id="@+id/period_filter_view"
+        layout_width="-1"
+        android:layout_height="wrap_content"/>
+    <o.qIM
+        id="@+id/strike_filter_view"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x7="@+id/period_filter_view"/>
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/recycler_view"
+        layout_width="-1"
+        android:layout_height="0dp"
+        layout_marginTop="6dp"
+        NOT_FOUND_0x5="com.okinc.okmarket.ui.market.quote.WrapContentLinearLayoutManager"
+        NOT_FOUND_0x6="0"
+        NOT_FOUND_0x7="@+id/strike_filter_view"/>
+</o.C40503qYg>

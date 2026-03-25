@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    background="@color/transparent"
+    focusable="true"
+    clickable="true"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C55113xdn
+        layout_gravity="0x11"
+        id="@+id/loading_view"
+        visibility="0"
+        layout_width="@dimen/width_60dp"
+        android:layout_height="@dimen/width_60dp"
+        NOT_FOUND_0x8="false"
+        NOT_FOUND_0x9="true"
+        NOT_FOUND_0xa="@raw/_2131886123_res_0x7f12002b"/>
+</FrameLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/footer_layout"
+    tag="layout/layout_support_text_footer_0"
+    paddingLeft="@dimen/sm"
+    paddingTop="@dimen/xsm"
+    paddingRight="@dimen/sm"
+    paddingBottom="@dimen/xsm"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingHorizontal="@dimen/sm"
+    paddingVertical="@dimen/xsm">
+    <TextView
+        textColor="@color/ContentPrimary"
+        gravity="0x11"
+        layout_gravity="0x11"
+        id="@+id/tv_load_more"
+        background="?attr/selectableItemRoundBackground"
+        paddingLeft="@dimen/sm"
+        paddingTop="@dimen/xxsm"
+        paddingRight="@dimen/sm"
+        paddingBottom="@dimen/xxsm"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        drawablePadding="@dimen/xxxxsm"
+        paddingHorizontal="@dimen/sm"
+        paddingVertical="@dimen/xxsm"
+        NOT_FOUND_0xf="@drawable/_2131231639_res_0x7f080397"
+        NOT_FOUND_0x10="@color/ContentPrimary"
+        style="@style/Label_2_Medium"/>
+</FrameLayout>

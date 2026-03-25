@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/root_layout"
+    tag="layout/fragment_container_0"
+    clipChildren="false"
+    clipToPadding="false"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <com.google.android.material.appbar.AppBarLayout
+        orientation="1"
+        id="@+id/appbar_layout"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        elevation="0dp"
+        NOT_FOUND_0xb="0dp">
+        <androidx.appcompat.widget.Toolbar
+            id="@+id/toolbar"
+            tag="binding_1"
+            background="@color/window_background_color"
+            layout_width="-1"
+            android:layout_height="?attr/actionBarSize"
+            NOT_FOUND_0xc="@style/ThemeOverlay.AppCompat.Light">
+            <TextView
+                gravity="0x11"
+                layout_gravity="0x11"
+                id="@+id/toolbar_title"
+                layout_width="-2"
+                android:layout_height="wrap_content"
+                style="@style/TextAppearance.Title.18SP.Medium"/>
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+    <FrameLayout
+        id="@+id/fragment_container"
+        tag="binding_2"
+        clipChildren="false"
+        clipToPadding="false"
+        layout_width="-1"
+        android:layout_height="match_parent"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

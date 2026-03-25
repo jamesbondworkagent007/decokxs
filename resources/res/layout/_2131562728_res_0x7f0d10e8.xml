@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <View
+        id="@+id/bottomSpace"
+        background="@color/BasePrimary"
+        layout_width="-1"
+        android:layout_height="@dimen/height_24dp"
+        NOT_FOUND_0x8="0"/>
+    <FrameLayout
+        id="@+id/bottomExtendClick"
+        background="@drawable/_2131233691_res_0x7f080b9b"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x9="@+id/bottomSpace"
+        NOT_FOUND_0xa="0">
+        <androidx.appcompat.widget.AppCompatImageView
+            layout_gravity="0x1"
+            id="@+id/bottomExtendIcon"
+            layout_width="@dimen/height_24dp"
+            android:layout_height="@dimen/height_24dp"
+            layout_marginTop="36dp"
+            layout_marginBottom="8dp"
+            src="@drawable/_2131231654_res_0x7f0803a6"
+            NOT_FOUND_0xb="@color/ContentContrast"/>
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

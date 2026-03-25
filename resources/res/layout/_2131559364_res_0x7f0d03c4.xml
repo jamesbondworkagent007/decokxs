@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    textColor="@color/ContentPrimary"
+    gravity="0x10"
+    id="@+id/item_name"
+    paddingTop="@dimen/padding_8dp"
+    paddingBottom="@dimen/padding_8dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    singleLine="true"
+    drawablePadding="@dimen/padding_8dp"
+    paddingVertical="@dimen/padding_8dp"
+    NOT_FOUND_0xa="@drawable/_2131234035_res_0x7f080cf3"
+    NOT_FOUND_0xb="@color/ContentPrimary"
+    style="@style/Body_2_Regular"/>

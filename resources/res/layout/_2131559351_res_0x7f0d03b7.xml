@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatTextView
+        textColor="@color/ContentPrimary"
+        gravity="0x800003"
+        id="@+id/liquidityPoolFirstTv"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_16dp"
+        layout_marginBottom="@dimen/margin_16dp"
+        maxLines="1"
+        layout_weight="1"
+        layout_marginStart="@dimen/margin_8dp"
+        style="@style/TextAppearance.Text.14SP"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        textColor="@color/ContentPrimary"
+        gravity="0x800005"
+        id="@+id/liquidityPoolSecondTv"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_16dp"
+        layout_marginBottom="@dimen/margin_16dp"
+        maxLines="1"
+        layout_weight="1"
+        layout_marginEnd="@dimen/margin_8dp"
+        style="@style/TextAppearance.Text.14SP.Medium"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

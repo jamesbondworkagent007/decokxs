@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/container"
+    tag="layout/bottomsheet_bsc_recurring_buy_0"
+    padding="@dimen/dp_16"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <TextView
+        textColor="@color/ContentPrimary"
+        gravity="0x11"
+        id="@+id/title"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        text="@string/lt_unipay_recurring_drawer_title_howoften"
+        NOT_FOUND_0xc="@+id/list"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0x10="0"
+        style="@style/Label_1_Bold"/>
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/list"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/dp_16"
+        overScrollMode="2"
+        nestedScrollingEnabled="false"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="@+id/title"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

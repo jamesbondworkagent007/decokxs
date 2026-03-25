@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x11"
+    orientation="0"
+    paddingTop="@dimen/padding_18dp"
+    paddingBottom="@dimen/padding_18dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingVertical="@dimen/padding_18dp">
+    <o.C55258xgZ
+        id="@+id/enter_title"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_weight="1"
+        layout_marginEnd="@dimen/margin_14dp"
+        NOT_FOUND_0xf="@color/ContentPrimary"
+        NOT_FOUND_0x10="@dimen/text_size_16sp"
+        NOT_FOUND_0x11="@style/TextAppearance.Text"
+        NOT_FOUND_0x12="400"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        textAppearance="@style/TextAppearance.Text.14SP.Regular"
+        textColor="@color/ContentContrast"
+        gravity="0x800015"
+        id="@+id/enter_text"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        drawablePadding="@dimen/padding_4dp"
+        layout_weight="1"
+        drawableEnd="@drawable/_2131231647_res_0x7f08039f"
+        drawableTint="@color/ContentContrast"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

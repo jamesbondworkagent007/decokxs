@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    paddingTop="20dp"
+    paddingBottom="20dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingStart="24dp"
+    paddingEnd="0dp"
+    paddingVertical="20dp">
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/iv_chain_icon"
+        layout_width="32dp"
+        android:layout_height="32dp"
+        src="@drawable/_2131231958_res_0x7f0804d6"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x11="0"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        textAppearance="@style/Label_1_Medium"
+        id="@+id/tv_chain_name"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginStart="12dp"
+        NOT_FOUND_0xd="@+id/iv_chain_icon"
+        NOT_FOUND_0xf="@+id/iv_chain_icon"
+        NOT_FOUND_0x11="@+id/iv_chain_icon"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/iv_check"
+        visibility="2"
+        layout_width="24dp"
+        android:layout_height="24dp"
+        src="@drawable/_2131232885_res_0x7f080875"
+        tint="@color/ContentPrimary"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0x11="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

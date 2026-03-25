@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    textAppearance="@style/Title_1_Bold"
+    gravity="0x10"
+    id="@+id/title"
+    paddingLeft="@dimen/ok_dp_16"
+    paddingRight="@dimen/ok_dp_16"
+    layout_width="-1"
+    android:layout_height="52dp"
+    layout_marginTop="@dimen/height_32dp"
+    paddingHorizontal="@dimen/ok_dp_16"/>

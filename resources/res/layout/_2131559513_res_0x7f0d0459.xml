@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-2"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/iv_token_coin_chain_view"
+        layout_width="22dp"
+        android:layout_height="22dp"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="0"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        layout_gravity="0x800055"
+        id="@+id/iv_chain_coin_chain_view"
+        background="@drawable/_2131231867_res_0x7f08047b"
+        layout_width="11dp"
+        android:layout_height="11dp"
+        NOT_FOUND_0x5="0"
+        NOT_FOUND_0x6="@+id/iv_token_coin_chain_view"
+        NOT_FOUND_0x7="135"
+        NOT_FOUND_0x8="11dp"
+        NOT_FOUND_0x9="0"/>
+</merge>

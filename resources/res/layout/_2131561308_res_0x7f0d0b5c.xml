@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    tag="layout/layout_invest_subscription_gains_more_dialog_0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <ScrollView
+        scrollbars="horizontal"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="16dp"
+        layout_marginBottom="16dp">
+        <LinearLayout
+            orientation="1"
+            id="@+id/tv_investgains_content"
+            background="@drawable/_2131233965_res_0x7f080cad"
+            paddingLeft="@dimen/padding_16dp"
+            paddingTop="@dimen/padding_24dp"
+            paddingRight="@dimen/padding_16dp"
+            paddingBottom="@dimen/padding_24dp"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            layout_marginLeft="@dimen/margin_16dp"
+            layout_marginRight="@dimen/margin_16dp"
+            divider="@drawable/_2131231218_res_0x7f0801f2"
+            showDividers="middle"
+            layout_marginHorizontal="@dimen/margin_16dp"
+            paddingHorizontal="@dimen/padding_16dp"
+            paddingVertical="@dimen/padding_24dp"/>
+    </ScrollView>
+</LinearLayout>

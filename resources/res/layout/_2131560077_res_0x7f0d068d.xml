@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/fragment_ocr_verify_loading_0"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C55113xdn
+        id="@+id/upload_lottie_icon"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x5="0"
+        NOT_FOUND_0x6="0"
+        NOT_FOUND_0x7="0"
+        NOT_FOUND_0x8="0"
+        NOT_FOUND_0x9="2"
+        NOT_FOUND_0xa="true"/>
+    <include
+        id="@+id/layout_failed"
+        visibility="2"
+        layout="@layout/_2131561167_res_0x7f0d0acf"/>
+    <include
+        id="@+id/layout_network_error"
+        visibility="2"
+        layout="@layout/_2131561403_res_0x7f0d0bbb"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

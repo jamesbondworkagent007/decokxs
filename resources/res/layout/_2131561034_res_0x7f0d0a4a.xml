@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/rv_change_list"
+        layout_width="-1"
+        android:layout_height="match_parent"/>
+    <androidx.core.widget.NestedScrollView
+        layout_width="-1"
+        android:layout_height="match_parent">
+        <FrameLayout
+            layout_width="-1"
+            android:layout_height="match_parent">
+            <o.C55113xdn
+                layout_gravity="0x1"
+                id="@+id/loading_view"
+                visibility="2"
+                layout_width="-2"
+                android:layout_height="wrap_content"
+                layout_marginTop="60dp"
+                NOT_FOUND_0x7="true"
+                NOT_FOUND_0x8="true"
+                NOT_FOUND_0x9="@raw/_2131886122_res_0x7f12002a"/>
+            <o.C55173xeu
+                layout_gravity="0x1"
+                id="@+id/error_view"
+                visibility="2"
+                layout_width="-2"
+                android:layout_height="wrap_content"
+                layout_marginTop="@dimen/md"/>
+        </FrameLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.appcompat.widget.LinearLayoutCompat>

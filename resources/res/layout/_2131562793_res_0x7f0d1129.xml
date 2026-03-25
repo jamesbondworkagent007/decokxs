@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        id="@+id/container"
+        tag="layout/view_feedback_input_0"
+        background="@drawable/_2131232216_res_0x7f0805d8"
+        padding="@dimen/xxsm"
+        layout_width="-1"
+        android:layout_height="wrap_content">
+        <com.okinc.uilab.edit.OKEditText
+            textColor="@color/ContentPrimary"
+            textColorHint="@color/ContentDisabled"
+            gravity="0x800033"
+            id="@+id/feedbackInputField"
+            background="@null"
+            scrollbars="0x200"
+            layout_width="-1"
+            android:layout_height="112dp"
+            inputType="0x20001"
+            importantForAutofill="0x2"
+            NOT_FOUND_0xd="@+id/feedbackInputTextCounter"
+            NOT_FOUND_0x10="0"
+            style="@style/Body_3_Regular"/>
+        <TextView
+            textColor="@color/ContentContrast"
+            id="@+id/feedbackInputTextCounter"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            NOT_FOUND_0xc="0"
+            NOT_FOUND_0xe="0"
+            NOT_FOUND_0xf="@+id/feedbackInputField"
+            style="@style/Label_3_Regular"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</merge>

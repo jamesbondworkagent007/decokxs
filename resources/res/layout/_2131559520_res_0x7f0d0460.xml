@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o.C55008xbo xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/tv_amount_item"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    inputType="0x2002"
+    layout_marginStart="@dimen/xxxsm"
+    NOT_FOUND_0x5="40"
+    NOT_FOUND_0x6="1"/>

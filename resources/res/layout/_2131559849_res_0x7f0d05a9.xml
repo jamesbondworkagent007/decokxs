@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.okinc.uilab.list.OKAnchorSelection xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    theme="@style/OKUITheme.Alternative.Web3"
+    id="@+id/anchorSelection"
+    layout_width="-1"
+    android:layout_height="match_parent"
+    NOT_FOUND_0x4="@layout/_2131560378_res_0x7f0d07ba"/>

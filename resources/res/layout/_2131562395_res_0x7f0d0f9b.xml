@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/trade_impl_nmp_bot_suqare_guide_item_0"
+    background="@drawable/_2131231162_res_0x7f0801ba"
+    padding="@dimen/padding_16dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginTop="@dimen/margin_16dp"
+    layout_marginBottom="@dimen/margin_8dp"
+    backgroundTint="@color/SurfacePrimary">
+    <androidx.appcompat.widget.AppCompatTextView
+        textAppearance="@style/TextAppearance.Title.14SP.Bold"
+        textColor="@color/ContentPrimary"
+        id="@+id/guide_title"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0xf="@+id/guide_desc"
+        NOT_FOUND_0x11="0"
+        NOT_FOUND_0x13="0"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        textAppearance="@style/TextAppearance.Text.12SP.Regular"
+        textColor="@color/ContentContrast"
+        id="@+id/guide_desc"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_8dp"
+        layout_marginEnd="@dimen/margin_12dp"
+        lineHeight="18dp"
+        NOT_FOUND_0x10="@+id/guide_icon"
+        NOT_FOUND_0x11="@+id/guide_title"
+        NOT_FOUND_0x12="@+id/guide_title"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/guide_icon"
+        layout_width="20dp"
+        android:layout_height="20dp"
+        src="@drawable/_2131231647_res_0x7f08039f"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x13="0"
+        NOT_FOUND_0x14="@color/ContentTertiary"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

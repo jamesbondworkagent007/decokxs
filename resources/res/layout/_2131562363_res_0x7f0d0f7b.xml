@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x1"
+    orientation="1"
+    tag="layout/trade_impl_fragment_single_coin_select_0"
+    layout_width="-1"
+    android:layout_height="match_parent"
+    layout_marginLeft="@dimen/margin_default"
+    layout_marginRight="@dimen/margin_default"
+    layout_marginHorizontal="@dimen/margin_default">
+    <o.C55230xfy
+        textAppearance="@style/TextAppearance.Text.14SP"
+        textSize="@dimen/text_size_14sp"
+        textColor="@color/title_color"
+        textColorHint="@color/okTradeG300"
+        id="@+id/et_search"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_8dp"
+        hint="@string/pr_trade_bots_recurring_modal_search"
+        NOT_FOUND_0x13="true"
+        NOT_FOUND_0x16="-3"/>
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/rcv_content"
+        layout_width="-1"
+        android:layout_height="0dp"
+        layout_marginTop="8dp"
+        layout_marginBottom="12dp"
+        layout_weight="1"
+        overScrollMode="2"/>
+    <o.wYF
+        id="@+id/btnBox"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x12="@string/pr_trade_bots_recurring_modal_btn_confirm"
+        NOT_FOUND_0x14="44"
+        NOT_FOUND_0x15="5"/>
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/fragment_wallet_trade_history_0"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C54989xbV
+        id="@+id/filterTXType"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_12dp"
+        layout_marginStart="@dimen/margin_24dp"
+        NOT_FOUND_0xa="true"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="@string/pr_wallet_history_selection_all_types"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x11="-20"
+        NOT_FOUND_0x12="@color/ContentPrimary"/>
+    <o.C33546myW
+        id="@+id/smart_refresh"
+        layout_width="-1"
+        android:layout_height="0dp"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xf="@+id/filterTXType">
+        <o.C33603mza
+            id="@+id/refreshLottieLoader"
+            background="@color/BasePrimaryAlternative"
+            layout_width="-1"
+            android:layout_height="wrap_content"/>
+        <androidx.recyclerview.widget.RecyclerView
+            id="@+id/list"
+            paddingBottom="16dp"
+            clipToPadding="false"
+            layout_width="-1"
+            android:layout_height="match_parent"/>
+        <o.C33604mzb
+            layout_width="-1"
+            android:layout_height="wrap_content"/>
+    </o.C33546myW>
+    <include
+        id="@+id/loadingView"
+        visibility="2"
+        layout="@layout/_2131561536_res_0x7f0d0c40"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

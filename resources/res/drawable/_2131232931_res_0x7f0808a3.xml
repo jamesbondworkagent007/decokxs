@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="48dp"
+    android:width="49dp"
+    android:autoMirrored="true"
+    android:viewportWidth="49"
+    android:viewportHeight="48">
+    <path
+        android:fillColor="@color/home_shortcut_background"
+        android:pathData="M24.5 0a24 24 0 0 1 24 24 24 24 0 0 1-24 24 24 24 0 0 1-24-24 24 24 0 0 1 24-24z"/>
+    <path
+        android:pathData="M14 21.5h21M16 22v9.5c0 0.552 0.448 1 1 1h15c0.552 0 1-0.448 1-1V22m-8.5 10.5V18.25m0 0c0-1.795-1.455-3.25-3.25-3.25S18 16.455 18 18.25v3.25h6m0.5-3.25c0-1.795 1.455-3.25 3.25-3.25S31 16.455 31 18.25v3.25h-6"
+        android:strokeColor="@color/selector_g900_g300_disable"
+        android:strokeWidth="1.35"
+        android:strokeLineCap="round"/>
+</vector>

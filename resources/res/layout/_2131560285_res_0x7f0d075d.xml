@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/search_layout"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C55230xfy
+        id="@+id/et_input"
+        paddingBottom="16dp"
+        layout_width="-1"
+        android:layout_height="match_parent"
+        layout_marginLeft="@dimen/im_page_margin"
+        layout_marginTop="8dp"
+        layout_marginRight="@dimen/im_page_margin"
+        hint="@string/pr_message_input_search_text"
+        layout_marginHorizontal="@dimen/im_page_margin"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="-3"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="0"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginTop="@dimen/xxxxsm"
+    layout_marginBottom="@dimen/xxxxsm"
+    layout_marginVertical="@dimen/xxxxsm">
+    <androidx.appcompat.widget.AppCompatTextView
+        textAppearance="@style/TextAppearance.Text.14SP.Regular"
+        textColor="@color/ContentPrimary"
+        ellipsize="3"
+        gravity="0x11"
+        id="@+id/btn_fixed"
+        background="@drawable/_2131231824_res_0x7f080450"
+        layout_width="-1"
+        android:layout_height="36dp"
+        maxLines="1"/>
+</LinearLayout>

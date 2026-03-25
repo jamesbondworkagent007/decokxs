@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    gravity="0x10"
+    orientation="0"
+    background="?attr/selectableItemBackground"
+    paddingLeft="24dp"
+    paddingRight="24dp"
+    layout_width="-1"
+    android:layout_height="56dp"
+    paddingHorizontal="24dp">
+    <androidx.appcompat.widget.AppCompatImageView
+        visibility="2"
+        layout_width="32dp"
+        android:layout_height="32dp"
+        tint="@color/SurfaceBrand"
+        layout_marginEnd="@dimen/margin_12dp"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        textAppearance="@style/TextAppearance.Text.16SP.Regular"
+        textColor="@color/ContentPrimary"
+        ellipsize="3"
+        id="@+id/tv_filter"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        maxLines="1"
+        layout_weight="1"
+        layout_marginEnd="32dp"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/iv_filter_check"
+        layout_width="24dp"
+        android:layout_height="24dp"
+        src="@drawable/_2131232885_res_0x7f080875"
+        tint="@color/ContentPrimary"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

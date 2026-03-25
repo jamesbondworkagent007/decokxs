@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    drawable="@drawable/_2131232044_res_0x7f08052c"
+    insetLeft="6dp"
+    insetRight="6dp"
+    insetTop="6dp"
+    insetBottom="6dp"/>

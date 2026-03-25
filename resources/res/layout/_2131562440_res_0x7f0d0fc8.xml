@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="0"
+    tag="layout/trade_impl_view_expand_helper_label_0"
+    layout_width="-2"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatTextView
+        textAppearance="@style/TextAppearance.Text.14SP.Regular"
+        textColor="@color/grey_g400"
+        layout_gravity="0x50"
+        id="@+id/ellipsis"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginBottom="2dp"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        layout_gravity="0x11"
+        id="@+id/expand_arrow"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_1dp"
+        src="@drawable/_2131233922_res_0x7f080c82"
+        layout_marginStart="@dimen/margin_4dp"/>
+</LinearLayout>

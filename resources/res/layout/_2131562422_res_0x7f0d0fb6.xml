@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    tag="layout/trade_impl_spot_grid_reserve_funds_tips_dialog_0"
+    paddingBottom="@dimen/height_24dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginLeft="16dp"
+    layout_marginRight="16dp"
+    layout_marginHorizontal="16dp">
+    <TextView
+        textAppearance="@style/OKTextFont.Bold"
+        textSize="16sp"
+        textColor="@color/ContentPrimary"
+        ellipsize="3"
+        gravity="0x800003"
+        id="@+id/titleTextView"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="8dp"
+        text="@string/pr_dcabot_placeorder_checkbox_reserve_sufficient_funds"/>
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/reserveFundRcv"
+        layout_width="-1"
+        android:layout_height="match_parent"
+        overScrollMode="2"/>
+</LinearLayout>

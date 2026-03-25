@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-2"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatImageView
+        focusable="false"
+        focusableInTouchMode="false"
+        layout_width="16dp"
+        android:layout_height="16dp"
+        src="@drawable/_2131232074_res_0x7f08054a"
+        layout_marginStart="@dimen/margin_4dp"
+        layout_marginEnd="0dp"
+        NOT_FOUND_0x7="@color/ContentDisabled"/>
+</FrameLayout>

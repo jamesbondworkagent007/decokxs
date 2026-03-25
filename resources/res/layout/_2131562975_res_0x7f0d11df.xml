@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.C27211jqs
+        id="@+id/base_start"
+        tag="layout/widget_custom_double_view_0"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_weight="1"
+        layout_marginEnd="8dp"/>
+    <o.C27211jqs
+        id="@+id/base_end"
+        tag="layout/widget_custom_double_view_1"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_weight="1"
+        layout_marginStart="8dp"/>
+</merge>

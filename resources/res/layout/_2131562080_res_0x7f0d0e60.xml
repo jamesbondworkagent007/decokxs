@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x11"
+    orientation="0"
+    id="@+id/pay_button_view"
+    background="?attr/payButtonGenericBackground"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    minWidth="@dimen/pay_button_generic_min_width"
+    minHeight="@dimen/pay_button_generic_min_height">
+    <ImageView
+        id="@+id/pay_button_logo"
+        layout_width="@dimen/pay_image_generic_width"
+        android:layout_height="@dimen/pay_image_generic_height"
+        src="?attr/payButtonGenericLogoImage"
+        importantForAccessibility="2"/>
+</LinearLayout>

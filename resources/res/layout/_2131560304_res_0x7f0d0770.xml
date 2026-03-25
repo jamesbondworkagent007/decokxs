@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/item_add_new_network_0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <ImageView
+        id="@+id/icon"
+        layout_width="32dp"
+        android:layout_height="32dp"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x12="@color/ContentPrimary"/>
+    <TextView
+        textColor="@color/ContentPrimary"
+        id="@+id/title"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_marginTop="16dp"
+        layout_marginBottom="2dp"
+        layout_marginStart="12dp"
+        NOT_FOUND_0xa="@+id/content"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="@+id/icon"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x10="2"
+        style="@style/TextAppearance.Title.16SP.Semibold"/>
+    <TextView
+        textSize="@dimen/text_size_14sp"
+        textColor="@color/ContentDisabled"
+        id="@+id/content"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_marginTop="2dp"
+        layout_marginBottom="16dp"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xb="@+id/title"
+        NOT_FOUND_0xd="@+id/title"
+        NOT_FOUND_0xe="@+id/title"
+        NOT_FOUND_0x11="2dp"
+        style="@style/TextAppearance"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

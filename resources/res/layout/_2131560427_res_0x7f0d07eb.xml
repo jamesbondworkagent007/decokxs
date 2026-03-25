@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    id="@+id/fl_container"
+    tag="layout/item_cta_list_0"
+    background="@drawable/_2131231410_res_0x7f0802b2"
+    visibility="0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.C31695mAm
+        id="@+id/rv_cta_list"
+        padding="@dimen/dp24"
+        layout_width="-1"
+        android:layout_height="wrap_content"/>
+</FrameLayout>

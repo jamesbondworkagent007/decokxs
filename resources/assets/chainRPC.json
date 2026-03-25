@@ -1,0 +1,438 @@
+[
+  {
+    "chainId": 0,
+    "rpcSendPath": "/nodeone/btc/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 1,
+    "rpcSendPath": "/nodeone/eth/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 61,
+    "rpcSendPath": "/nodeone/etc/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 195,
+    "rpcSendPath": "/fullnode/tron/discover/rpc"
+  },
+  {
+    "chainId": 501,
+    "rpcSendPath": "/nodeone/solana/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 56,
+    "rpcSendPath": "/nodeone/bsc/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 137,
+    "rpcSendPath": "/nodeone/poly/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 43114,
+    "rpcSendPath": "/nodeone/avaxc/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e/ext/C/rpc"
+  },
+  {
+    "chainId": 250,
+    "rpcSendPath": "/nodeone/fantom/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 42161,
+    "rpcSendPath": "/nodeone/arbitrumnitro/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 10,
+    "rpcSendPath": "/nodeone/opbedrock/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 25,
+    "rpcSendPath": "/nodeone/cronos/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 8217,
+    "rpcSendPath": "/nodeone/klay/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 321,
+    "rpcSendPath": "/nodeone/kcc/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 1088,
+    "rpcSendPath": "/nodeone/metis/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 288,
+    "rpcSendPath": "/nodeone/boba/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 100,
+    "rpcSendPath": "/nodeone/xdai/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 1313161554,
+    "rpcSendPath": "/nodeone/aurora/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 2020,
+    "rpcSendPath": "/nodeone/ronin/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 1284,
+    "rpcSendPath": "/nodeone/moonbeam/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 1285,
+    "rpcSendPath": "/nodeone/moonriver/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 10001,
+    "rpcSendPath": "/nodeone/ethw/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 637,
+    "rpcSendPath": "/nodeone/aptos/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e/v1"
+  },
+  {
+    "chainId": 42220,
+    "rpcSendPath": "/nodeone/celo/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 324,
+    "rpcSendPath": "/nodeone/zkera/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 14,
+    "rpcSendPath": "/nodeone/flr/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e/ext/C/rpc"
+  },
+  {
+    "chainId": 784,
+    "rpcSendPath": "/nodeone/sui/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 3,
+    "rpcSendPath": "/fullnode/doge/discover/rpc"
+  },
+  {
+    "chainId": 1116,
+    "rpcSendPath": "/nodeone/core/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 42170,
+    "rpcSendPath": "/nodeone/arbitrumnova/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 314,
+    "rpcSendPath": "/nodeone/fil/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e/rpc/v1"
+  },
+  {
+    "chainId": 1030,
+    "rpcSendPath": "/nodeone/cfx/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 1101,
+    "rpcSendPath": "/nodeone/zkevm/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 5757,
+    "rpcSendPath": "/nodeone/stx/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 648,
+    "rpcSendPath": "/nodeone/ace/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 2222,
+    "rpcSendPath": "/nodeone/kava/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 369,
+    "rpcSendPath": "/nodeone/pulse/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 5000,
+    "rpcSendPath": "/nodeone/mantle/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 708,
+    "rpcSendPath": "/nodeone/wax/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 59144,
+    "rpcSendPath": "/nodeone/linea/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 8453,
+    "rpcSendPath": "/nodeone/base/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 204,
+    "rpcSendPath": "/nodeone/opbnb/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 9004,
+    "rpcSendPath": "/priapi/v1/wallet/rpc/send?chainId=9004"
+  },
+  {
+    "chainId": 11155111,
+    "rpcSendPath": "/nodeone/ethsepolia/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 11235,
+    "rpcSendPath": "/nodeone/haqq/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 534352,
+    "rpcSendPath": "/nodeone/scroll/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 70000041,
+    "rpcSendPath": "/nodeone/injective/mainnet/v1/rest/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 70000042,
+    "rpcSendPath": "/nodeone/dydx/mainnet/v1/rest/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 70000037,
+    "rpcSendPath": "/nodeone/celestia/mainnet/v1/rest/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 169,
+    "rpcSendPath": "/nodeone/manta/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 1111,
+    "rpcSendPath": "/nodeone/wemix/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 196,
+    "rpcSendPath": "/fullnode/xlayer/discover/rpc/ro"
+  },
+  {
+    "chainId": 7000,
+    "rpcSendPath": "/nodeone/zeta/mainnet/v1/evmrpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 1100,
+    "rpcSendPath": "/nodeone/dym/mainnet/v1/evmrpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 34443,
+    "rpcSendPath": "/nodeone/mode/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 4200,
+    "rpcSendPath": "/nodeone/merlin/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 81457,
+    "rpcSendPath": "/nodeone/blast/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 421614,
+    "rpcSendPath": "/nodeone/arbitrumsepolia/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 94168,
+    "rpcSendPath": "/nodeone/lumi/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 13371,
+    "rpcSendPath": "/nodeone/imxzkevm/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 810180,
+    "rpcSendPath": "/nodeone/zklink/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 223,
+    "rpcSendPath": "/nodeone/b2/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 200901,
+    "rpcSendPath": "/nodeone/bitlayer/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 88888,
+    "rpcSendPath": "/nodeone/chz/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 4689,
+    "rpcSendPath": "/nodeone/iotx/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 60808,
+    "rpcSendPath": "/nodeone/bob/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 167000,
+    "rpcSendPath": "/nodeone/taiko/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 7777777,
+    "rpcSendPath": "/nodeone/zora/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 54176,
+    "rpcSendPath": "/nodeone/over/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 698,
+    "rpcSendPath": "/nodeone/mat/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 1329,
+    "rpcSendPath": "/nodeone/sei/mainnet/v1/evmrpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 1625,
+    "rpcSendPath": "/nodeone/gravity/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 33139,
+    "rpcSendPath": "/nodeone/ape/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 30,
+    "rpcSendPath": "/nodeone/rootstock/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 2741,
+    "rpcSendPath": "/nodeone/abstract/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 70000063,
+    "rpcSendPath": "/nodeone/reya/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 48900,
+    "rpcSendPath": "/nodeone/zircuit/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 70000064,
+    "rpcSendPath": "/nodeone/shentu/mainnet/v1/rest/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 5545,
+    "rpcSendPath": "/nodeone/duck/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 177,
+    "rpcSendPath": "/nodeone/hashkey/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 185,
+    "rpcSendPath": "/nodeone/mint/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 70000067,
+    "rpcSendPath": "/fullnode/soontestnet/discover/rpc/soon-testnet"
+  },
+  {
+    "chainId": 146,
+    "rpcSendPath": "/nodeone/sonicevm/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 70000068,
+    "rpcSendPath": "/nodeone/eclipse/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 70000069,
+    "rpcSendPath": "/nodeone/soon/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 1868,
+    "rpcSendPath": "/nodeone/soneium/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 70000073,
+    "rpcSendPath": "/sonic/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 88899,
+    "rpcSendPath": "/nodeone/unite/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 10143,
+    "rpcSendPath": "/nodeone/monad/testnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 1514,
+    "rpcSendPath": "/nodeone/story/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 80094,
+    "rpcSendPath": "/nodeone/bera/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 130,
+    "rpcSendPath": "/nodeone/uni/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 70000075,
+    "rpcSendPath": "/nodeone/svmbnb/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 313313,
+    "rpcSendPath": "/nodeone/sahara/testnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 98866,
+    "rpcSendPath": "/nodeone/plume/mainnet/v2/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 70000077,
+    "rpcSendPath": "/nodeone/babylon/mainnet/v1/rest/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 1125,
+    "rpcSendPath": "/nodeone/taker/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 70000078,
+    "rpcSendPath": "/nodeone/initia/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 320,
+    "rpcSendPath": "/nodeone/zkcandy/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 1689,
+    "rpcSendPath": "/nodeone/nero/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 31612,
+    "rpcSendPath": "/nodeone/mezo/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 3637,
+    "rpcSendPath": "/nodeone/botanix/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 2345,
+    "rpcSendPath": "/nodeone/goat/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 747474,
+    "rpcSendPath": "/nodeone/katana/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 2818,
+    "rpcSendPath": "/nodeone/morph/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 9745,
+    "rpcSendPath": "/nodeone/plasma/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 70000080,
+    "rpcSendPath": "/nodeone/hyper/mainnet/v1/evmrpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 16661,
+    "rpcSendPath": "/nodeone/0g/mainnet/v1/rpc/637f042f38a0a64dd59c954b8e6bd63de26d3e2e"
+  },
+  {
+    "chainId": 143,
+    "rpcSendPath": "/fullnode/monad/discover/rpc"
+  }
+]

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.C55008xbo
+        theme="@style/OKUITheme.Alternative.Web3"
+        id="@+id/alias_input"
+        paddingLeft="@dimen/padding_24dp"
+        paddingRight="@dimen/padding_24dp"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        paddingHorizontal="@dimen/padding_24dp"
+        NOT_FOUND_0x9="44"/>
+    <o.wYF
+        id="@+id/buttonGroup"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginBottom="16dp"
+        NOT_FOUND_0xa="14"/>
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    gravity="0x10"
+    orientation="0"
+    background="@drawable/_2131233419_res_0x7f080a8b"
+    paddingTop="@dimen/padding_6dp"
+    paddingBottom="@dimen/padding_6dp"
+    layout_width="-2"
+    android:layout_height="wrap_content"
+    paddingStart="@dimen/padding_6dp"
+    paddingEnd="@dimen/padding_8dp"
+    paddingVertical="@dimen/padding_6dp">
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/iv_coin"
+        layout_width="@dimen/width_20dp"
+        android:layout_height="@dimen/width_20dp"
+        src="@drawable/_2131231677_res_0x7f0803bd"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        textColor="@color/ContentPrimary"
+        id="@+id/tv_coin"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginStart="@dimen/margin_4dp"
+        style="@style/Label_2_Regular"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/iv_clear"
+        visibility="2"
+        layout_width="19dp"
+        android:layout_height="19dp"
+        src="@drawable/_2131232524_res_0x7f08070c"
+        tint="@color/ContentContrast"
+        paddingStart="@dimen/margin_4dp"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <TextView
+        textAppearance="@style/TextAppearance.Text.16SP"
+        textColor="@color/ContentContrast"
+        id="@+id/tv_rate_title"
+        tag="layout/widget_invest_exchange_rate_0"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        text="@string/pr_invest_mid_text_invest_exchangerate"
+        includeFontPadding="false"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="0"/>
+    <TextView
+        textAppearance="@style/TextAppearance.Text.16SP.Medium"
+        textColor="@color/ContentPrimary"
+        gravity="0x800015"
+        id="@+id/tv_rate"
+        tag="layout/widget_invest_exchange_rate_1"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        includeFontPadding="false"
+        layout_marginStart="@dimen/margin_16dp"
+        NOT_FOUND_0xa="true"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="@+id/tv_rate_title"
+        NOT_FOUND_0xf="0"/>
+</merge>

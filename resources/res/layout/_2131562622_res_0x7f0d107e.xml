@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    background="@color/BasePrimary"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <LinearLayout
+        orientation="1"
+        id="@+id/llContent"
+        layout_width="-1"
+        android:layout_height="wrap_content">
+        <o.C55230xfy
+            id="@+id/search_bar"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            layout_marginLeft="?attr/horizontalPaddingDimension"
+            layout_marginTop="8dp"
+            layout_marginRight="?attr/horizontalPaddingDimension"
+            layout_marginHorizontal="?attr/horizontalPaddingDimension"
+            NOT_FOUND_0x9="true"
+            NOT_FOUND_0xa="true"/>
+        <o.C55187xfH
+            id="@+id/searchHistory"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            layout_marginLeft="?attr/horizontalPaddingDimension"
+            layout_marginTop="20dp"
+            layout_marginRight="?attr/horizontalPaddingDimension"
+            layout_marginHorizontal="?attr/horizontalPaddingDimension"/>
+        <FrameLayout
+            id="@+id/customView"
+            layout_width="-1"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+</FrameLayout>

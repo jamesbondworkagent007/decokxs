@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        orientation="0"
+        id="@+id/ll_auto_sell_cb_and_label"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0xd="0">
+        <o.wYK
+            id="@+id/cb_auto_sell"
+            layout_width="@dimen/dp_18"
+            android:layout_height="@dimen/dp_18"
+            contentDescription="web3_dex_advance_autosell_toggle"
+            NOT_FOUND_0x10="-5"/>
+        <o.C55258xgZ
+            textAppearance="@style/Body_4"
+            textColor="@color/ContentSecondary"
+            id="@+id/hl_auto_sell"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            text="@string/pr_swaptrade_tee_checkbox_auto_sell"
+            maxLines="1"
+            layout_marginStart="@dimen/dp_4"
+            NOT_FOUND_0xf="2"/>
+    </LinearLayout>
+    <ImageView
+        id="@+id/iv_edit"
+        visibility="2"
+        layout_width="@dimen/width_16dp"
+        android:layout_height="@dimen/height_16dp"
+        contentDescription="web3_dex_advance_autosell_edit"
+        NOT_FOUND_0xb="@+id/cb_auto_sell"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xe="@+id/cb_auto_sell"
+        NOT_FOUND_0x11="@drawable/_2131231647_res_0x7f08039f"
+        NOT_FOUND_0x12="@color/ContentPrimary"/>
+</merge>

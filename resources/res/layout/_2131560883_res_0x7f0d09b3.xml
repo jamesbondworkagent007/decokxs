@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <com.okinc.uilab.item.OKRegularCell
+        id="@+id/regular_cell"
+        background="@color/background_lv1"
+        paddingTop="8dp"
+        paddingBottom="8dp"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        minHeight="48dp"
+        paddingStart="16dp"
+        paddingEnd="16dp"
+        NOT_FOUND_0xf="0">
+        <androidx.appcompat.widget.AppCompatImageView
+            layout_gravity="0x10"
+            id="@+id/chevron_icon"
+            layout_width="24dp"
+            android:layout_height="24dp"
+            src="@drawable/_2131231651_res_0x7f0803a3"
+            NOT_FOUND_0x10="@color/grey_g400"/>
+    </com.okinc.uilab.item.OKRegularCell>
+    <View
+        id="@+id/bottom_border"
+        background="@color/grey_g100"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="1dp"
+        layout_marginStart="16dp"
+        layout_marginEnd="16dp"/>
+</LinearLayout>

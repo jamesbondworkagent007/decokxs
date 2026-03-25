@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o.C33546myW xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/refresh_view"
+    layout_width="-1"
+    android:layout_height="match_parent"
+    NOT_FOUND_0x8="false"
+    NOT_FOUND_0x9="false"
+    NOT_FOUND_0xa="true"
+    NOT_FOUND_0xb="false">
+    <o.C33603mza
+        id="@+id/refresh_header"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        overScrollMode="2"/>
+    <FrameLayout
+        layout_width="-1"
+        android:layout_height="match_parent">
+        <androidx.recyclerview.widget.RecyclerView
+            id="@+id/rv_order"
+            layout_width="-1"
+            android:layout_height="match_parent"/>
+        <o.C55113xdn
+            layout_gravity="0x1"
+            id="@+id/loading_view"
+            visibility="2"
+            layout_width="60dp"
+            android:layout_height="60dp"
+            layout_marginTop="80dp"
+            NOT_FOUND_0x7="@raw/_2131886126_res_0x7f12002e"/>
+    </FrameLayout>
+    <o.C33604mzb
+        id="@+id/rvFooter"
+        layout_width="-1"
+        android:layout_height="wrap_content"/>
+</o.C33546myW>

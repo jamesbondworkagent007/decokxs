@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="0"
+    id="@+id/stepLy"
+    tag="layout/item_personal_warning_step_0"
+    paddingBottom="20dp"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <TextView
+        textColor="@color/primary_black"
+        gravity="0x11"
+        id="@+id/tv_step_num"
+        background="@drawable/_2131234013_res_0x7f080cdd"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        style="@style/LiteTextAppearance.TextWhite.16SP.Medium"/>
+    <TextView
+        textColor="@color/grey_g900"
+        id="@+id/tv_step_desc"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginStart="@dimen/dp_8"
+        style="@style/TextAppearance.Text.14SP"/>
+</LinearLayout>

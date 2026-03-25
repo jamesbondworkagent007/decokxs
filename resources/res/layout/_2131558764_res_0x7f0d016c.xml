@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x10"
+    orientation="0"
+    id="@+id/ll_approved_amount"
+    paddingTop="@dimen/margin_8dp"
+    paddingBottom="@dimen/margin_8dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingVertical="@dimen/margin_8dp">
+    <androidx.appcompat.widget.AppCompatTextView
+        textColor="@color/ContentPrimary"
+        id="@+id/token_symbol_text"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        style="@style/Label_1_Regular"/>
+    <o.C52794wYp
+        id="@+id/unlimited_button"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        text="@string/pr_swaptrade_confirm_bot_approve_amt_unlimited"
+        layout_marginStart="@dimen/margin_8dp"
+        NOT_FOUND_0xb="-1"
+        NOT_FOUND_0xc="28"
+        NOT_FOUND_0xd="0x104"/>
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o.C40505qYi xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C55254xgV
+        id="@+id/tabs"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x6="true"
+        NOT_FOUND_0x7="44"/>
+    <androidx.viewpager.widget.ViewPager
+        id="@+id/viewpager"
+        scrollbars="horizontal"
+        layout_width="-1"
+        android:layout_height="match_parent"
+        overScrollMode="2"/>
+</o.C40505qYi>

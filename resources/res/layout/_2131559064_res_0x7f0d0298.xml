@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    paddingLeft="@dimen/common_page_edge_space"
+    paddingTop="8dp"
+    paddingRight="@dimen/common_page_edge_space"
+    paddingBottom="@dimen/common_page_edge_space"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingHorizontal="@dimen/common_page_edge_space"/>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    id="@+id/container"
+    tag="layout/fragment_dbox_commonservice_0"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C55018xby
+        id="@+id/select_service_key"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginLeft="@dimen/xsm"
+        layout_marginTop="@dimen/xxxsm"
+        layout_marginRight="@dimen/xsm"
+        layout_marginBottom="@dimen/xxxsm"
+        layout_marginHorizontal="@dimen/xsm"
+        layout_marginVertical="@dimen/xxxsm"
+        NOT_FOUND_0xd="CommonServiceKey"
+        NOT_FOUND_0xf="40"/>
+    <o.C55008xbo
+        id="@+id/input_service_action_data"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginLeft="@dimen/xsm"
+        layout_marginTop="@dimen/xxxsm"
+        layout_marginRight="@dimen/xsm"
+        layout_marginBottom="@dimen/xxxsm"
+        layout_marginHorizontal="@dimen/xsm"
+        layout_marginVertical="@dimen/xxxsm"
+        NOT_FOUND_0xd="Data (optional)"
+        NOT_FOUND_0xe="2"/>
+    <TextView
+        id="@+id/lbl_action_data_note"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginLeft="@dimen/xsm"
+        layout_marginTop="@dimen/xxxsm"
+        layout_marginRight="@dimen/xsm"
+        layout_marginBottom="@dimen/xsm"
+        text="(Only String data is supported for debugging at the moment. Check Logcat for action handler progress.)"
+        layout_marginHorizontal="@dimen/xsm"/>
+    <o.C52794wYp
+        id="@+id/btn_service_action"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginLeft="@dimen/xsm"
+        layout_marginTop="@dimen/xxxsm"
+        layout_marginRight="@dimen/xsm"
+        layout_marginBottom="@dimen/xxxsm"
+        text="Trigger CommonService Action"
+        textAllCaps="false"
+        layout_marginHorizontal="@dimen/xsm"
+        layout_marginVertical="@dimen/xxxsm"
+        NOT_FOUND_0x10="52"
+        NOT_FOUND_0x11="0x102"/>
+</LinearLayout>

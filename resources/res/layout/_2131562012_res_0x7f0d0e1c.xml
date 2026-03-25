@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="0"
+    id="@+id/status_bar_latest_event_content"
+    layout_width="-1"
+    android:layout_height="64dp">
+    <include
+        layout_width="@dimen/notification_large_icon_width"
+        android:layout_height="@dimen/notification_large_icon_height"
+        layout="@layout/_2131562010_res_0x7f0d0e1a"/>
+    <include
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_weight="1"
+        layout="@layout/_2131562011_res_0x7f0d0e1b"/>
+    <LinearLayout
+        layout_gravity="0x800015"
+        orientation="0"
+        id="@+id/media_actions"
+        layout_width="-2"
+        android:layout_height="match_parent"
+        layoutDirection="0"/>
+    <include
+        layout_width="48dp"
+        android:layout_height="match_parent"
+        layout_marginRight="6dp"
+        layout_marginEnd="6dp"
+        layout="@layout/_2131562003_res_0x7f0d0e13"/>
+    <ImageView
+        id="@+id/end_padder"
+        layout_width="6dp"
+        android:layout_height="match_parent"/>
+</LinearLayout>

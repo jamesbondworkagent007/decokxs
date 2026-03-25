@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.gQD
+        id="@+id/filter_order_type"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="14dp"
+        NOT_FOUND_0x6="@string/pr_swaptrade_tee_label_order_type"/>
+    <o.gQD
+        id="@+id/filter_status"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="30dp"
+        layout_marginBottom="24dp"
+        NOT_FOUND_0x6="@string/pr_swaptrade_history_title_status"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.AppCompatTextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    textAppearance="@style/Body_2_Regular"
+    textSize="@dimen/text_size_18sp"
+    gravity="0x10"
+    id="@+id/tv_duration"
+    tag="layout/item_im_voice_receive_message_0"
+    paddingLeft="12dp"
+    paddingRight="12dp"
+    layout_width="-1"
+    android:layout_height="match_parent"
+    layout_marginTop="@dimen/margin_8dp"
+    layout_marginBottom="@dimen/margin_8dp"
+    minWidth="140dp"
+    layout_marginVertical="@dimen/margin_8dp"
+    paddingHorizontal="12dp"
+    NOT_FOUND_0xe="@color/okim_message_receive_voice_icon_tint_color"/>

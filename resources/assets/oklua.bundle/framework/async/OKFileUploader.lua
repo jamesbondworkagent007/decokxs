@@ -1,0 +1,1 @@
+OKFileUploader={}function OKFileUploader.uploadFile(a,b,c,d,e,f)if OKMediaUploader.uploadFileToTargetUrl then OKMediaUploader:uploadFileToTargetUrl(a,b,c,d,function(g,h,i,j)if e then e(g,h,i,j)end end,function(k,l,m)if f then f(TableFromUserData(l),TableFromUserData(m))end end)end end

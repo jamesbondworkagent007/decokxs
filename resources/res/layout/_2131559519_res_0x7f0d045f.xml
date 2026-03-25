@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatImageView
+        layout_gravity="0x1"
+        id="@+id/iv_jwt"
+        layout_width="-1"
+        android:layout_height="148dp"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        textAppearance="@style/Headline_5_Medium"
+        id="@+id/tv_title"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="24dp"
+        text="@string/pr_swaptrade_copytrade_emptystate_title_authentication_required"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        textAppearance="@style/Label_2_Regular"
+        id="@+id/tv_content"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="12dp"/>
+    <o.C52794wYp
+        id="@+id/btn_auth"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="24dp"
+        text="@string/pr_swaptrade_copytrade_reminder_tab_verify_ownership"
+        contentDescription="web3_dex_transaction_records_authenticate"
+        NOT_FOUND_0x9="52"
+        NOT_FOUND_0xa="0x101"/>
+</merge>

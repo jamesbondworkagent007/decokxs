@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <TextView
+        textSize="@dimen/text_size_18sp"
+        textColor="@color/grey_g900"
+        gravity="0x10"
+        id="@+id/close"
+        layout_width="-1"
+        android:layout_height="44dp"
+        text="@string/pr_discover_tutorials_text_risk_warning"
+        drawablePadding="@dimen/margin_4dp"
+        paddingStart="@dimen/padding_14dp"
+        NOT_FOUND_0xc="@drawable/_2131232347_res_0x7f08065b"
+        style="@style/TextAppearance.Title.Bold"/>
+    <androidx.core.widget.NestedScrollView
+        layout_width="-1"
+        android:layout_height="wrap_content">
+        <TextView
+            textSize="@dimen/text_size_14sp"
+            textColor="@color/grey_g900"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            layout_margin="@dimen/ok_dp_16"
+            text="@string/pr_discover_toast_text_riskwarning"
+            lineHeight="@dimen/width_20dp"
+            style="@style/TextAppearance.Title"/>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

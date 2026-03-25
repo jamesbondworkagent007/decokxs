@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    tag="layout/widget_redeem_single_token_display_0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        gravity="0x10"
+        orientation="0"
+        layout_width="-2"
+        android:layout_height="wrap_content">
+        <TextView
+            textColor="@color/ContentPrimary"
+            id="@+id/tv_token_amount"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            style="@style/Display_4_Bold"/>
+        <TextView
+            textColor="@color/ContentDisabled"
+            id="@+id/tv_token_symbol"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            layout_marginStart="@dimen/margin_4dp"
+            style="@style/Display_4_Bold"/>
+    </LinearLayout>
+    <TextView
+        textColor="@color/ContentContrast"
+        id="@+id/tv_token_fiat"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_16dp"
+        style="@style/Label_1_Medium"/>
+</LinearLayout>

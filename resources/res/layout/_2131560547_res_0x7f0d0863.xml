@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x11"
+    orientation="0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <TextView
+        textAppearance="@style/TextAppearance.Text.14SP.Regular"
+        textColor="@color/ContentPrimary"
+        id="@+id/tv_arrow_title"
+        visibility="2"
+        layout_width="-2"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        id="@+id/iv_arrow_down_icon"
+        layout_width="16dp"
+        android:layout_height="16dp"
+        src="@drawable/_2131231637_res_0x7f080395"
+        layout_marginStart="10dp"
+        NOT_FOUND_0xa="@color/ContentPrimary"/>
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/dev_menu_nav_graph"
+    NOT_FOUND_0x4="@+id/main_fragment">
+    <fragment
+        label="@string/menu_title"
+        name="com.amplifyframework.devmenu.DevMenuMainFragment"
+        id="@+id/main_fragment">
+        <action
+            id="@+id/show_file_issue"
+            NOT_FOUND_0x3="@+id/file_issue_fragment"/>
+        <action
+            id="@+id/show_env_info"
+            NOT_FOUND_0x3="@+id/environment_fragment"/>
+        <action
+            id="@+id/show_device_info"
+            NOT_FOUND_0x3="@+id/device_fragment"/>
+        <action
+            id="@+id/show_logs"
+            NOT_FOUND_0x3="@+id/logs_fragment"/>
+    </fragment>
+    <fragment
+        label="@string/env_view_title"
+        name="com.amplifyframework.devmenu.DevMenuEnvironmentFragment"
+        id="@+id/environment_fragment"/>
+    <fragment
+        label="@string/device_view_title"
+        name="com.amplifyframework.devmenu.DevMenuDeviceFragment"
+        id="@+id/device_fragment"/>
+    <fragment
+        label="@string/logs_view_title"
+        name="com.amplifyframework.devmenu.DevMenuLogsFragment"
+        id="@+id/logs_fragment"/>
+    <fragment
+        label="@string/file_issue_view_title"
+        name="com.amplifyframework.devmenu.DevMenuFileIssueFragment"
+        id="@+id/file_issue_fragment"/>
+</navigation>

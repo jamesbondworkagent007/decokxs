@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.AppCompatTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    textAppearance="@style/TextAppearance.Title.16SP.Medium"
+    textSize="16sp"
+    textColor="@color/ContentPrimary"
+    ellipsize="3"
+    gravity="0x10"
+    id="@+id/tv_content"
+    background="?attr/selectableItemBackground"
+    paddingLeft="@dimen/dp_16"
+    paddingRight="@dimen/dp_16"
+    layout_width="-1"
+    android:layout_height="50dp"
+    maxLines="2"
+    includeFontPadding="false"
+    paddingHorizontal="@dimen/dp_16"/>

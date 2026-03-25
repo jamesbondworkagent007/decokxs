@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o.C46001tEd xmlns:android="http://schemas.android.com/apk/res/android"
+    id="@+id/spotCard"
+    tag="layout/plugin_spot_item_0"
+    layout_width="-1"
+    android:layout_height="wrap_content"/>

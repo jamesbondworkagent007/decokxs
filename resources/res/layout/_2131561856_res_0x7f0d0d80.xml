@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    padding="16dp"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <Button
+        id="@+id/btn_page_hub_item"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        text="Button"
+        NOT_FOUND_0x5="0"
+        NOT_FOUND_0x6="0"
+        NOT_FOUND_0x7="0"
+        NOT_FOUND_0x8="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

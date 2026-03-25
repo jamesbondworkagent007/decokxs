@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    tag="layout/layout_translation_row_0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <TextView
+        textSize="@dimen/text_size_12sp"
+        textColor="@color/ContentContrast"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        text="@string/pr_supportcenter_video_call_label_agent"
+        fontFamily="@font/harmony_sans_regular"/>
+    <TextView
+        textSize="@dimen/text_size_14sp"
+        textColor="@color/ContentPrimary_Dark"
+        tag="binding_1"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        fontFamily="@font/harmony_sans_regular"/>
+</LinearLayout>

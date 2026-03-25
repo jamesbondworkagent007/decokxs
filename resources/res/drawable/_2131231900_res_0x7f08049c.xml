@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="12dp"
+    android:width="13dp"
+    android:viewportWidth="13"
+    android:viewportHeight="12">
+    <path
+        android:fillColor="?attr/defaultProfit"
+        android:pathData="M6.5,6m-5.5,0a5.5,5.5 0,1 1,11 0a5.5,5.5 0,1 1,-11 0"
+        android:strokeColor="?attr/defaultProfit"
+        android:strokeWidth="1"/>
+    <path
+        android:fillColor="@color/BrandContentContrast"
+        android:pathData="M10.5,6C10.5,8.209 8.709,10 6.5,10C4.291,10 2.5,8.209 2.5,6C2.5,5.655 2.544,5.32 2.626,5H10.374C10.456,5.32 10.5,5.655 10.5,6ZM0.583,5H0.583C0.528,5.325 0.5,5.659 0.5,6C0.5,7.093 0.792,8.117 1.303,9C0.792,8.117 0.5,7.093 0.5,6C0.5,5.659 0.528,5.325 0.583,5Z"
+        android:fillAlpha="0.5"
+        android:fillType="evenOdd"/>
+</vector>

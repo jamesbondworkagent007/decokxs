@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <androidx.core.widget.NestedScrollView
+        tag="layout/trade_ui_dialog_dcd_disclaimer_0"
+        layout_width="-1"
+        android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatTextView
+            textAppearance="@style/OKTextFont.Regular"
+            textSize="16sp"
+            textColor="@color/text_secondary"
+            id="@+id/content"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            layout_marginLeft="?attr/horizontalPaddingDimension"
+            layout_marginTop="@dimen/ok_dp_16"
+            layout_marginRight="?attr/horizontalPaddingDimension"
+            text="@string/pr_dcdbot_placeorder_dialog_desc_dcd_bot_agreement_desc"
+            layout_marginHorizontal="?attr/horizontalPaddingDimension"
+            NOT_FOUND_0xc="24sp"/>
+    </androidx.core.widget.NestedScrollView>
+</merge>

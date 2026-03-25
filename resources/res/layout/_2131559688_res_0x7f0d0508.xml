@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="0"
+    background="?android:attr/selectableItemBackground"
+    layout_width="-2"
+    android:layout_height="wrap_content"
+    minWidth="@dimen/exo_setting_width"
+    minHeight="@dimen/exo_settings_height">
+    <ImageView
+        id="@+id/exo_check"
+        visibility="1"
+        layout_width="@dimen/exo_settings_icon_size"
+        android:layout_height="@dimen/exo_settings_icon_size"
+        layout_marginLeft="8dp"
+        layout_marginTop="12dp"
+        layout_marginRight="8dp"
+        src="@drawable/_2131232162_res_0x7f0805a2"/>
+    <TextView
+        textSize="@dimen/exo_settings_main_text_size"
+        textColor="@color/exo_white"
+        gravity="0x800013"
+        id="@+id/exo_text"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginRight="4dp"
+        minHeight="@dimen/exo_settings_height"
+        layout_marginEnd="4dp"/>
+</LinearLayout>

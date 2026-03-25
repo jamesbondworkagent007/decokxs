@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    paddingLeft="24dp"
+    paddingRight="24dp"
+    layout_width="-1"
+    android:layout_height="match_parent"
+    paddingHorizontal="24dp">
+    <o.wYK
+        textAppearance="@style/Label_3_Regular"
+        textColor="@color/ContentSecondary"
+        id="@+id/cb_show_only_current_token"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="10dp"
+        text="@string/pr_swaptrade_checkbox_current_symbol"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x11="-5"/>
+    <o.C22227hbQ
+        id="@+id/btn_right_action"
+        visibility="2"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0xb="@+id/cb_show_only_current_token"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xf="@+id/cb_show_only_current_token"/>
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/rv_order_list"
+        layout_width="-1"
+        android:layout_height="0dp"
+        layout_marginTop="@dimen/xxxsm"
+        NOT_FOUND_0xe="@+id/cb_show_only_current_token"/>
+    <o.C55113xdn
+        id="@+id/loading_view"
+        visibility="2"
+        layout_width="60dp"
+        android:layout_height="60dp"
+        layout_marginTop="60dp"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xf="@+id/rv_order_list"
+        NOT_FOUND_0x10="@raw/_2131886126_res_0x7f12002e"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

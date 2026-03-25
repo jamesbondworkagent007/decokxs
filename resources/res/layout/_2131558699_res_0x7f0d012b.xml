@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C33537myN
+        id="@+id/app_bar"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x4="true"/>
+    <o.C55178xez
+        id="@+id/result_page"
+        layout_width="-1"
+        android:layout_height="match_parent"
+        NOT_FOUND_0x5="0"/>
+</LinearLayout>

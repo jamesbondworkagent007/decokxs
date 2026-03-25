@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.okinc.uilab.item.OKRegularCell xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/cell"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    NOT_FOUND_0x6="0"
+    NOT_FOUND_0x7="-4">
+    <ImageView
+        layout_gravity="0x11"
+        id="@+id/iv_check"
+        visibility="0"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        src="@drawable/_2131232407_res_0x7f080697"/>
+</com.okinc.uilab.item.OKRegularCell>

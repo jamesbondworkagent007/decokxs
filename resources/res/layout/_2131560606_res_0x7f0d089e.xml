@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/rc_message"
+    tag="layout/item_im_video_message_0"
+    layout_width="-2"
+    android:layout_height="wrap_content">
+    <com.google.android.material.imageview.ShapeableImageView
+        id="@+id/rc_sight_thumb"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        scaleType="6"
+        tint="#1e000000"
+        NOT_FOUND_0xc="@color/BorderPrimary"
+        NOT_FOUND_0xd="@dimen/dp_1"/>
+    <ImageView
+        layout_gravity="0x11"
+        id="@+id/rc_sight_tag"
+        layout_width="@dimen/height_32dp"
+        android:layout_height="@dimen/height_32dp"
+        src="@drawable/_2131233680_res_0x7f080b90"
+        scaleType="6"
+        importantForAccessibility="2"
+        NOT_FOUND_0xe="@color/ContentPrimary_Dark"/>
+    <TextView
+        textColor="@color/ContentPrimary_Dark"
+        layout_gravity="0x800055"
+        id="@+id/rc_sight_duration"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginBottom="@dimen/xxxsm"
+        layout_marginEnd="@dimen/xxsm"
+        style="@style/Label_3_Regular"/>
+</FrameLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o.C40499qYc xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/iv_information"
+        visibility="2"
+        layout_width="16dp"
+        android:layout_height="16dp"
+        layout_marginTop="16dp"
+        src="@drawable/_2131233141_res_0x7f080975"
+        tint="@color/ContentContrast"
+        layout_marginStart="24dp"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0x10="0"/>
+    <TextView
+        textSize="@dimen/sp_12"
+        id="@+id/tv_information"
+        visibility="2"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_marginTop="16dp"
+        text="@string/pr_trade_search_desc_enter_dex_trade_tokens"
+        layout_marginStart="@dimen/dp_10"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="@+id/iv_information"
+        NOT_FOUND_0x10="0"/>
+    <o.qIE
+        id="@+id/sort_view"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0xf="@+id/tv_information"/>
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/recycler_view"
+        layout_width="-1"
+        android:layout_height="0dp"
+        NOT_FOUND_0xa="com.okinc.okmarket.ui.market.quote.WrapContentLinearLayoutManager"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xf="@+id/sort_view"/>
+    <include layout="@layout/_2131561872_res_0x7f0d0d90"/>
+</o.C40499qYc>

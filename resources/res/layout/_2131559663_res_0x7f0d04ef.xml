@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <TextView
+        textSize="@dimen/text_size_16sp"
+        textStyle="0x1"
+        textColor="@color/grey_g900"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginBottom="@dimen/margin_8dp"
+        text="@string/pr_trade_cedefi_dialog_header_dex_token_risk"/>
+    <TextView
+        textSize="14sp"
+        textColor="@color/grey_g700"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        text="@string/pr_trade_cedefi_dialog_desc_dex_token_risk"/>
+    <o.wYK
+        id="@+id/cb"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_12dp"
+        text="@string/pr_trade_cedefi_dialog_checkbox_dont_show_me_again"
+        NOT_FOUND_0xa="-4"/>
+</LinearLayout>

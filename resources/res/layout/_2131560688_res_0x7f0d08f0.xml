@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/item_keystone_select_account_header_0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatTextView
+        textAppearance="@style/TextAppearance.Title.BoldMedium"
+        textSize="@dimen/text_size_24sp"
+        gravity="0x10"
+        id="@+id/title"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="10dp"
+        text="@string/pr_metax_header_title_select_account"
+        drawablePadding="@dimen/padding_6dp"
+        NOT_FOUND_0xa="@drawable/_2131232810_res_0x7f08082a"
+        NOT_FOUND_0xb="@color/text_amplified"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xe="0"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        textAppearance="@style/TextAppearance.Text.14SP"
+        gravity="0x800003"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="5dp"
+        text="@string/pr_metax_header_subtitle_account_net"
+        NOT_FOUND_0xd="@+id/title"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

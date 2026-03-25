@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    paddingLeft="@dimen/margin_default"
+    paddingTop="8dp"
+    paddingRight="@dimen/margin_default"
+    paddingBottom="24dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingHorizontal="@dimen/margin_default">
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/recyclerView"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        overScrollMode="2"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

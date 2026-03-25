@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    id="@+id/headerLayout"
+    tag="layout/dfragment_grid_record_detail_content_0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/rcv_content"
+        paddingBottom="@dimen/padding_12dp"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        overScrollMode="2"/>
+</LinearLayout>

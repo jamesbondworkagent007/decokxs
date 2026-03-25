@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    background="@color/background_lv1"
+    fitsSystemWindows="true"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <com.google.android.material.appbar.MaterialToolbar
+        id="@+id/toolbar"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x13="0"
+        NOT_FOUND_0x14="@drawable/_2131231595_res_0x7f08036b"/>
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/steps_recycler"
+        background="@color/transparent"
+        paddingLeft="@dimen/padding_24dp"
+        paddingRight="@dimen/padding_24dp"
+        layout_width="-1"
+        android:layout_height="0dp"
+        minHeight="@dimen/height_150dp"
+        paddingHorizontal="@dimen/padding_24dp"
+        NOT_FOUND_0x11="@+id/bottom_bar"
+        NOT_FOUND_0x12="@+id/toolbar"/>
+    <androidx.cardview.widget.CardView
+        id="@+id/bottom_bar"
+        paddingBottom="@dimen/height_36dp"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x10="0">
+        <o.C52794wYp
+            id="@+id/verify_button"
+            layout_width="-1"
+            android:layout_height="@dimen/height_56dp"
+            layout_marginLeft="@dimen/margin_24dp"
+            layout_marginTop="@dimen/margin_16dp"
+            layout_marginRight="@dimen/margin_24dp"
+            layout_marginBottom="@dimen/margin_16dp"
+            layout_marginHorizontal="@dimen/margin_24dp"
+            layout_marginVertical="@dimen/margin_16dp"
+            NOT_FOUND_0x15="-1"
+            NOT_FOUND_0x16="48"
+            NOT_FOUND_0x17="0x101"/>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

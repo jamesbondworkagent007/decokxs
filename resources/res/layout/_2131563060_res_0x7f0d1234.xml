@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    paddingLeft="@dimen/padding_12dp"
+    paddingRight="@dimen/padding_12dp"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.C55097xdX
+        id="@+id/ok_notification"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_16dp"
+        layout_marginBottom="@dimen/margin_16dp"/>
+    <TextView
+        textAppearance="@style/TextAppearance.Text.12SP"
+        textColor="@color/cell_description_color"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        text="Login Status"/>
+    <RadioGroup
+        id="@+id/rbtn_group"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_8dp">
+        <RadioButton
+            textAppearance="@style/OKTextFont.Regular"
+            textSize="16sp"
+            textColor="@color/cell_title_color"
+            id="@+id/ok_rbtn_login"
+            background="@android:color/transparent"
+            paddingTop="@dimen/padding_8dp"
+            paddingBottom="@dimen/padding_8dp"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            checked="false"
+            button="@null"
+            text="Simulation login"
+            drawableRight="@drawable/_2131232409_res_0x7f080699"/>
+        <RadioButton
+            textAppearance="@style/OKTextFont.Regular"
+            textSize="16sp"
+            textColor="@color/cell_title_color"
+            id="@+id/ok_rbtn_logout"
+            background="@android:color/transparent"
+            paddingTop="@dimen/padding_8dp"
+            paddingBottom="@dimen/padding_8dp"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            checked="false"
+            button="@null"
+            text="Simulation not login"
+            drawableRight="@drawable/_2131232409_res_0x7f080699"/>
+    </RadioGroup>
+    <View
+        id="@+id/v_divider"
+        background="@color/okTradeG100"
+        layout_width="-1"
+        android:layout_height="1px"
+        layout_marginTop="@dimen/margin_8dp"/>
+    <TextView
+        textAppearance="@style/TextAppearance.Text.12SP"
+        textColor="@color/cell_description_color"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_16dp"
+        text="Country/Region"/>
+</LinearLayout>

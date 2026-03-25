@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="14dp"
+    android:width="14dp"
+    android:viewportWidth="14"
+    android:viewportHeight="14">
+    <path
+        android:fillColor="@color/TradeRise"
+        android:pathData="M11.859 4.002L7.257 1.808c-0.162-0.077-0.352-0.077-0.514 0L2.141 4.002c-0.457 0.218-0.457 0.87 0 1.088l4.602 2.194c0.162 0.078 0.352 0.078 0.514 0l4.602-2.194c0.457-0.218 0.457-0.87 0-1.088z"/>
+    <path
+        android:fillColor="@color/TradeRise"
+        android:pathData="M7 8.554L1.961 6.297C1.862 6.252 1.75 6.325 1.75 6.434v0.927c0 0.119 0.07 0.227 0.179 0.275l4.95 2.183c0.077 0.034 0.165 0.034 0.242 0l4.95-2.183C12.18 7.588 12.25 7.48 12.25 7.361V6.434c0-0.109-0.112-0.182-0.211-0.137L7 8.554z"/>
+    <path
+        android:fillColor="@color/TradeRise"
+        android:pathData="M7 10.96L1.961 8.702C1.862 8.658 1.75 8.731 1.75 8.84v0.926c0 0.12 0.07 0.228 0.179 0.276l4.95 2.183c0.077 0.034 0.165 0.034 0.242 0l4.95-2.183c0.109-0.048 0.179-0.156 0.179-0.276V8.84c0-0.109-0.112-0.182-0.211-0.138L7 10.96z"/>
+</vector>

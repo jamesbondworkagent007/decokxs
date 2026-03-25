@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C37995pIi
+        layout_width="-1"
+        android:layout_height="match_parent">
+        <HorizontalScrollView
+            scrollbars="horizontal"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            layout_marginLeft="4dp"
+            layout_marginTop="12dp"
+            layout_marginRight="4dp"
+            layout_marginHorizontal="4dp">
+            <androidx.recyclerview.widget.RecyclerView
+                orientation="0"
+                id="@+id/rv_table"
+                layout_width="-2"
+                android:layout_height="match_parent"
+                overScrollMode="2"
+                nestedScrollingEnabled="false"/>
+        </HorizontalScrollView>
+    </o.C37995pIi>
+</FrameLayout>

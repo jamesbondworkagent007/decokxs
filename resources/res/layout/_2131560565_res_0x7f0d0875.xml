@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    textAppearance="@style/TextAppearance.Title.18SP"
+    textColor="@color/ContentPrimary_Dark"
+    id="@+id/tv_content"
+    tag="layout/item_im_audio_call_send_message_0"
+    background="@drawable/_2131231370_res_0x7f08028a"
+    paddingTop="8dp"
+    paddingBottom="8dp"
+    layout_width="-2"
+    android:layout_height="wrap_content"
+    maxWidth="240dp"
+    paddingStart="12dp"
+    paddingEnd="12dp"
+    NOT_FOUND_0xc="@color/ContentPrimary_Dark"/>

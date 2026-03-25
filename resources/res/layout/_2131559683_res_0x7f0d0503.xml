@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    gravity="0x11"
+    orientation="0"
+    visibility="0"
+    layout_width="-2"
+    android:layout_height="wrap_content">
+    <ImageButton
+        id="@+id/exo_prev"
+        style="@style/ExoStyledControls.Button.Center.Previous"/>
+    <Button
+        id="@+id/exo_rew_with_amount"
+        style="@style/ExoStyledControls.Button.Center.RewWithAmount"/>
+    <ImageButton
+        id="@+id/exo_play_pause"
+        style="@style/ExoStyledControls.Button.Center.PlayPause"/>
+    <Button
+        id="@+id/exo_ffwd_with_amount"
+        style="@style/ExoStyledControls.Button.Center.FfwdWithAmount"/>
+    <ImageButton
+        id="@+id/exo_next"
+        style="@style/ExoStyledControls.Button.Center.Next"/>
+</LinearLayout>

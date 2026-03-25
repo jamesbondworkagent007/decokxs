@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    layout_width="-1"
+    android:layout_height="24dp">
+    <TextView
+        textSize="10sp"
+        textColor="@color/tab_text_color"
+        ellipsize="2"
+        id="@+id/mTvIndex"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        maxLines="1"
+        singleLine="true"
+        layout_centerInParent="true"/>
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    tag="layout/trade_impl_fragment_signal_bot_position_0"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/pos_recyclerview"
+        background="@color/BasePrimary"
+        layout_width="-1"
+        android:layout_height="match_parent"
+        overScrollMode="2"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o.C55371xig xmlns:android="http://schemas.android.com/apk/res/android"
+    id="@+id/selectionCard"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginTop="16dp"/>

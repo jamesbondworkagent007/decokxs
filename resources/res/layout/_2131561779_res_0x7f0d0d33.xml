@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o.C33546myW xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/refresh_layout"
+    layout_width="-1"
+    android:layout_height="match_parent"
+    NOT_FOUND_0xc="false"
+    NOT_FOUND_0xd="true"
+    NOT_FOUND_0xe="true">
+    <o.C33603mza
+        layout_width="-1"
+        android:layout_height="wrap_content"/>
+    <o.C40499qYc
+        layout_width="-1"
+        android:layout_height="match_parent">
+        <o.C41820qxy
+            id="@+id/sort_view"
+            layout_width="-1"
+            android:layout_height="wrap_content"/>
+        <androidx.recyclerview.widget.RecyclerView
+            id="@+id/recycler_view"
+            layout_width="-1"
+            android:layout_height="0dp"
+            contentDescription="rankingList"
+            NOT_FOUND_0x7="com.okinc.okmarket.ui.market.quote.WrapContentLinearLayoutManager"
+            NOT_FOUND_0x8="0"
+            NOT_FOUND_0xb="@+id/sort_view"/>
+        <o.C55173xeu
+            id="@+id/error_view"
+            visibility="2"
+            layout_width="-1"
+            android:layout_height="372dp"
+            layout_marginTop="@dimen/dp24"
+            NOT_FOUND_0x6="8"
+            NOT_FOUND_0x9="0"
+            NOT_FOUND_0xa="0"
+            NOT_FOUND_0xb="@+id/sort_view"
+            NOT_FOUND_0xf="@string/pr_trade_mid_emptystate_desc_cant_load_desc"
+            NOT_FOUND_0x10="@string/pr_trade_mid_emptystate_btn_reload"
+            NOT_FOUND_0x11="@string/pr_trade_header_emptystate_title_something_wrong"/>
+        <FrameLayout
+            id="@+id/anim"
+            layout_width="-1"
+            android:layout_height="match_parent"/>
+    </o.C40499qYc>
+</o.C33546myW>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x1"
+    orientation="0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <ImageView
+        id="@+id/btn_holder_following"
+        background="@drawable/_2131231860_res_0x7f080474"
+        padding="12dp"
+        layout_width="40dp"
+        android:layout_height="40dp"
+        src="@drawable/_2131233323_res_0x7f080a2b"
+        layout_marginEnd="@dimen/xxsm"/>
+    <ImageView
+        id="@+id/btn_holder_edit"
+        background="@drawable/_2131231860_res_0x7f080474"
+        padding="12dp"
+        layout_width="40dp"
+        android:layout_height="40dp"
+        src="@drawable/_2131232049_res_0x7f080531"
+        layout_marginEnd="@dimen/xxsm"
+        NOT_FOUND_0xc="@color/ContentPrimary"/>
+    <o.C52794wYp
+        id="@+id/btn_holder_portfolio"
+        layout_width="-1"
+        android:layout_height="40dp"
+        text="@string/pr_swaptrade_market_token_details_btn_go_to_portfolio"
+        NOT_FOUND_0xa="44"
+        NOT_FOUND_0xb="0x104"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

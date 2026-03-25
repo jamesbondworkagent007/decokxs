@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    background="@drawable/_2131234202_res_0x7f080d9a"
+    padding="16dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginBottom="12dp"
+    layout_marginEnd="@dimen/margin_12dp">
+    <TextView
+        textAppearance="@style/TextAppearance.Text.12SP"
+        id="@+id/tv_type"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        text=""/>
+    <TextView
+        textAppearance="@style/LiteTextAppearance.Green.16SP.Bold"
+        id="@+id/tv_ratio"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="2dp"
+        text=""/>
+</LinearLayout>

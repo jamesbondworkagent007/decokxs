@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o.C55375xik xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    NOT_FOUND_0xa="12dp"
+    NOT_FOUND_0xb="false">
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/popoverRecyclerView"
+        background="@drawable/_2131231302_res_0x7f080246"
+        paddingLeft="20dp"
+        paddingTop="@dimen/xsm"
+        paddingRight="20dp"
+        paddingBottom="@dimen/xsm"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        paddingHorizontal="20dp"
+        paddingVertical="@dimen/xsm"/>
+</o.C55375xik>

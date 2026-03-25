@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="match_parent"
+    fillViewport="true">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        layout_width="-1"
+        android:layout_height="match_parent">
+        <com.google.android.material.appbar.AppBarLayout
+            orientation="1"
+            id="@+id/appbar_layout"
+            background="@color/transparent"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            NOT_FOUND_0xf="0dp">
+            <FrameLayout
+                id="@+id/container_buy_sell"
+                layout_width="-1"
+                android:layout_height="wrap_content"
+                NOT_FOUND_0x11="0x5"/>
+        </com.google.android.material.appbar.AppBarLayout>
+        <androidx.appcompat.widget.LinearLayoutCompat
+            orientation="1"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            NOT_FOUND_0x10="@string/appbar_scrolling_view_behavior">
+            <androidx.appcompat.widget.AppCompatTextView
+                textAppearance="@style/TextAppearance.Text.18SP.Bold"
+                paddingTop="8dp"
+                paddingBottom="8dp"
+                layout_width="-2"
+                android:layout_height="wrap_content"
+                layout_marginLeft="24dp"
+                layout_marginTop="24dp"
+                layout_marginRight="24dp"
+                text="@string/pr_swaptrade_meme_order_title_my_positions"
+                layout_marginHorizontal="24dp"
+                paddingVertical="8dp"/>
+            <FrameLayout
+                id="@+id/container_my_positions"
+                layout_width="-1"
+                android:layout_height="wrap_content"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

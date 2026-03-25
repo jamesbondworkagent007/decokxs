@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        textAppearance="@style/Label_1_Regular"
+        textColor="@color/grey_g700"
+        gravity="0x800003"
+        id="@+id/sub_title"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginLeft="16dp"
+        layout_marginTop="16dp"
+        layout_marginRight="16dp"
+        layout_marginBottom="@dimen/margin_16dp"
+        text="@string/pr_wallet_restore_subtitle_cloud_servicenote"
+        textAlignment="5"
+        layout_marginHorizontal="16dp"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x11="0"/>
+</merge>

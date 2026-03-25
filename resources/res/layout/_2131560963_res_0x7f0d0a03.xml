@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    tag="layout/item_upload_log_dropdown_0"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginLeft="@dimen/margin_default"
+    layout_marginRight="@dimen/margin_default"
+    layout_marginHorizontal="@dimen/margin_default">
+    <TextView
+        id="@+id/lbl_dropdown_title"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x9="0"
+        style="@style/Label_2_Medium"/>
+    <o.C55018xby
+        id="@+id/input_dropdown"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/xxxsm"
+        NOT_FOUND_0xa="1"
+        NOT_FOUND_0xb="48"
+        NOT_FOUND_0xc="0"/>
+</LinearLayout>

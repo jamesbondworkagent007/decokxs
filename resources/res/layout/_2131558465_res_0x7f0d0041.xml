@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    tag="layout/activity_backup_wallet_list_0"
+    background="@color/BasePrimaryAlternative"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C33537myN
+        id="@+id/app_bar"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x9="@string/pr_metax_wallet_item_backup_wallet"
+        NOT_FOUND_0xa="@color/BasePrimaryAlternative"
+        NOT_FOUND_0xc="@color/BasePrimaryAlternative"/>
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/recycler_view"
+        paddingTop="@dimen/common_page_edge_space"
+        paddingBottom="@dimen/common_page_edge_space"
+        layout_width="-1"
+        android:layout_height="match_parent"
+        overScrollMode="2"
+        NOT_FOUND_0xb="androidx.recyclerview.widget.LinearLayoutManager"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

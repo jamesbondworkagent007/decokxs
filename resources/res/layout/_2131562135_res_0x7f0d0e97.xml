@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    gravity="0x1"
+    orientation="1"
+    layout_width="-2"
+    android:layout_height="wrap_content">
+    <FrameLayout
+        background="@drawable/_2131233670_res_0x7f080b86"
+        layout_width="60dp"
+        android:layout_height="60dp">
+        <ImageView
+            layout_gravity="0x11"
+            layout_width="24dp"
+            android:layout_height="24dp"
+            src="@drawable/_2131233513_res_0x7f080ae9"
+            contentDescription="@null"/>
+    </FrameLayout>
+    <TextView
+        textAppearance="@style/Label_3_Regular"
+        textColor="@color/ContentSecondary"
+        ellipsize="3"
+        gravity="0x11"
+        layout_width="60dp"
+        android:layout_height="wrap_content"
+        layout_marginTop="8dp"
+        text="@string/pr_orbit_following_btn_view_all"
+        maxLines="1"/>
+</LinearLayout>

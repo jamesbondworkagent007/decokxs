@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x10"
+    id="@+id/item_layout"
+    tag="layout/trade_impl_smart_arbitrage_sub_info_0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.C55258xgZ
+        gravity="0x800003"
+        id="@+id/leftTv"
+        layout_width="-2"
+        android:layout_height="@dimen/margin_20dp"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="2"
+        NOT_FOUND_0xe="@color/ContentContrast"
+        NOT_FOUND_0xf="@dimen/text_size_12sp"
+        NOT_FOUND_0x10=""
+        NOT_FOUND_0x11="400"/>
+    <LinearLayout
+        gravity="0x800015"
+        orientation="0"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xc="@+id/leftTv">
+        <o.C55258xgZ
+            id="@+id/rightTv"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            NOT_FOUND_0xd="2"
+            NOT_FOUND_0xe="@color/ContentPrimary"
+            NOT_FOUND_0xf="@dimen/text_size_14sp"
+            NOT_FOUND_0x11="500"/>
+        <androidx.appcompat.widget.AppCompatImageView
+            layout_gravity="0x10"
+            id="@+id/arrowIcon"
+            visibility="2"
+            layout_width="@dimen/margin_18dp"
+            android:layout_height="wrap_content"
+            src="@drawable/_2131231649_res_0x7f0803a1"
+            layout_marginStart="-4dp"
+            NOT_FOUND_0x12="@color/ContentPrimary"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

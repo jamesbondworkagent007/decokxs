@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="40dp"
+    android:layout_height="40dp">
+    <ImageView
+        id="@+id/logo"
+        layout_width="32dp"
+        android:layout_height="32dp"
+        NOT_FOUND_0x4="0"
+        NOT_FOUND_0x5="0"
+        NOT_FOUND_0x6="0"
+        NOT_FOUND_0x7="0"/>
+    <ImageView
+        id="@+id/right_top_token"
+        visibility="2"
+        layout_width="16dp"
+        android:layout_height="16dp"
+        NOT_FOUND_0x5="0"
+        NOT_FOUND_0x7="0"/>
+    <ImageView
+        id="@+id/right_bottom_token"
+        visibility="2"
+        layout_width="16dp"
+        android:layout_height="16dp"
+        NOT_FOUND_0x4="0"
+        NOT_FOUND_0x5="0"/>
+    <ImageView
+        id="@+id/left_top_token"
+        visibility="2"
+        layout_width="16dp"
+        android:layout_height="16dp"
+        NOT_FOUND_0x6="0"
+        NOT_FOUND_0x7="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

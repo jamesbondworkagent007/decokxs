@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    background="@drawable/_2131231468_res_0x7f0802ec"
+    paddingTop="@dimen/padding_16dp"
+    paddingBottom="@dimen/padding_16dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginTop="@dimen/margin_12dp"
+    paddingStart="@dimen/padding_16dp"
+    paddingEnd="@dimen/padding_20dp"
+    paddingVertical="@dimen/padding_16dp">
+    <ImageView
+        id="@+id/ivSelect"
+        layout_width="@dimen/width_18dp"
+        android:layout_height="18dp"
+        src="@drawable/_2131233917_res_0x7f080c7d"
+        NOT_FOUND_0x11="0"
+        NOT_FOUND_0x14="0"
+        NOT_FOUND_0x15="0"/>
+    <TextView
+        textAppearance="@style/TextAppearance.Text.15SP"
+        textColor="@color/grey_g900"
+        id="@+id/text"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        text="@string/pr_metax_wallet_phrase_text_do_not_reveal"
+        lineSpacingMultiplier="1.2"
+        layout_marginStart="@dimen/margin_12dp"
+        NOT_FOUND_0x10="true"
+        NOT_FOUND_0x11="0"
+        NOT_FOUND_0x12="0"
+        NOT_FOUND_0x13="@+id/ivSelect"
+        NOT_FOUND_0x15="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

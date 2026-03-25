@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    tag="layout/dex_contract_transaction_swap_detail_info_0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.C57464yis
+        id="@+id/dexSwapDetailsInfo"
+        layout_width="-1"
+        android:layout_height="wrap_content">
+        <TextView
+            textAppearance="@style/TextAppearance.Text.14SP.Regular"
+            textColor="@color/grey_g400"
+            id="@+id/tv_data_title"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            layout_marginLeft="24dp"
+            layout_marginRight="24dp"
+            layout_marginBottom="@dimen/margin_8dp"
+            text="@string/pr_swaptrade_transfer_textarea_data"
+            layout_marginHorizontal="24dp"/>
+        <androidx.appcompat.widget.AppCompatTextView
+            textAppearance="@style/TextAppearance.Text.14SP.Regular"
+            textColor="@color/grey_g900"
+            id="@+id/tv_address"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            layout_marginLeft="24dp"
+            layout_marginRight="24dp"
+            layout_marginHorizontal="24dp"/>
+    </o.C57464yis>
+</LinearLayout>

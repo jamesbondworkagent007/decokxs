@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <TextView
+        textColor="@color/ContentPrimary"
+        id="@+id/tvSectionTitle"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginLeft="@dimen/margin_default"
+        layout_marginTop="16dp"
+        layout_marginRight="@dimen/margin_default"
+        layout_marginBottom="12dp"
+        text="@string/pr_orbit_profile_livestream_title_replays"
+        layout_marginHorizontal="@dimen/margin_default"
+        style="@style/Title_2_Bold"/>
+</FrameLayout>

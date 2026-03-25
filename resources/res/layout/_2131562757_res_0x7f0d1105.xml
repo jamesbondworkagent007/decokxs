@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.C42434rSs
+        id="@+id/select_content"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginLeft="@dimen/dp24"
+        layout_marginTop="@dimen/dp24"
+        layout_marginRight="@dimen/dp24"
+        layout_marginBottom="@dimen/dp24"
+        minHeight="@dimen/height_150dp"
+        layout_marginHorizontal="@dimen/dp24"
+        layout_marginVertical="@dimen/dp24"/>
+    <o.wYF
+        id="@+id/button_box"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0xb="@string/pr_compliance_common_btn_continue"
+        NOT_FOUND_0xc="52"
+        NOT_FOUND_0xd="6"/>
+</LinearLayout>

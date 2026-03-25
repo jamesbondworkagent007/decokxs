@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.AppCompatTextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    textColor="@color/ContentPrimary"
+    gravity="0x10"
+    id="@+id/tv_chain"
+    background="@drawable/_2131233415_res_0x7f080a87"
+    paddingLeft="@dimen/dp_16"
+    paddingRight="@dimen/dp_16"
+    layout_width="-1"
+    android:layout_height="56dp"
+    foreground="?attr/selectableItemBackground"
+    text="@string/pr_trade_list_text_crypto_options_chain"
+    drawablePadding="@dimen/dp_12"
+    drawableStart="@drawable/_2131234182_res_0x7f080d86"
+    paddingHorizontal="@dimen/dp_16"
+    NOT_FOUND_0xd="0"
+    style="@style/Label_1_Regular"/>

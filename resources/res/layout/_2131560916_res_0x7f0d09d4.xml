@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    id="@+id/prompt_sync_contact_layout"
+    tag="layout/item_sync_phone_relations_0"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    baselineAligned="false">
+    <com.okinc.uilab.reminder.OKReminder
+        id="@+id/prompt_reminder_tips_layout"
+        visibility="0"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginBottom="@dimen/margin_12dp"
+        minHeight="44dp"
+        layout_marginStart="@dimen/dp24"
+        layout_marginEnd="@dimen/dp24"/>
+</LinearLayout>

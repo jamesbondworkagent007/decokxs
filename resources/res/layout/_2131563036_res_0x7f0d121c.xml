@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <TextView
+        textColor="@color/ContentContrast"
+        id="@+id/tvCurrentPriceTitle"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x5="0"
+        NOT_FOUND_0x7="0"
+        style="@style/Label_2_Regular"/>
+    <TextView
+        textColor="@color/ContentPrimary"
+        id="@+id/tvCurrentPriceText"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/xxxsm"
+        NOT_FOUND_0x5="@+id/tvCurrentPriceTitle"
+        NOT_FOUND_0x6="@+id/tvCurrentPriceTitle"
+        style="@style/Label_2_Regular"/>
+</merge>

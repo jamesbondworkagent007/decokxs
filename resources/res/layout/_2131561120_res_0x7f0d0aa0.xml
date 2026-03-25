@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    id="@+id/kline_open_position_limit"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <TextView
+        textAppearance="@style/TextAppearance.Text.14SP"
+        textColor="@color/ContentSecondary"
+        id="@+id/tvMaxPercent"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x6="22dp"/>
+    <TextView
+        textAppearance="@style/TextAppearance.Text.14SP"
+        textColor="@color/ContentSecondary"
+        id="@+id/tvMaxValue"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x6="22dp"/>
+    <TextView
+        textAppearance="@style/TextAppearance.Text.14SP"
+        textColor="@color/ContentSecondary"
+        id="@+id/tvMaxTotalValue"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x6="22dp"/>
+</LinearLayout>

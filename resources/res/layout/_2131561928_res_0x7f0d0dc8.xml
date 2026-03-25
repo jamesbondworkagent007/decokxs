@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="0"
+    layout_width="-2"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        layout_width="-2"
+        android:layout_height="match_parent">
+        <TextView
+            textSize="18sp"
+            textStyle="0x1"
+            textColor="@color/color_tab_appv1"
+            gravity="0x11"
+            id="@+id/tv_title"
+            layout_width="-2"
+            android:layout_height="match_parent"
+            text=""
+            paddingStart="8dp"
+            paddingEnd="8dp"
+            style="@style/TextAppearance.Silka.Semibold"/>
+        <androidx.appcompat.widget.AppCompatImageView
+            id="@+id/iv_no_read"
+            visibility="2"
+            layout_width="@dimen/margin_9dp"
+            android:layout_height="@dimen/margin_9dp"
+            src="@drawable/_2131231010_res_0x7f080122"
+            layout_alignParentTop="@+id/tv_title"
+            layout_alignEnd="@+id/tv_title"
+            NOT_FOUND_0xf="#db4355"/>
+    </RelativeLayout>
+</LinearLayout>

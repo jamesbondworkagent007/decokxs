@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.okinc.uilab.item.OKRegularCell xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/skylab_title"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.C55068xcv
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x3="@drawable/_2131232356_res_0x7f080664"/>
+</com.okinc.uilab.item.OKRegularCell>

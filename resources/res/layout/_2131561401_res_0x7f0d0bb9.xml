@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    tag="layout/layout_multi_transfer_result_0"
+    background="@color/BasePrimaryAlternative"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <TextView
+        textAppearance="@style/TextAppearance.Text.12SP"
+        textColor="@color/ContentPrimary"
+        id="@+id/title"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="28dp"/>
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/recycler_view"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        overScrollMode="2"
+        NOT_FOUND_0xa="androidx.recyclerview.widget.LinearLayoutManager"/>
+</LinearLayout>

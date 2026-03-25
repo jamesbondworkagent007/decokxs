@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <TextView
+        textAppearance="@style/TextAppearance.Silka.MeDium"
+        textSize="14sp"
+        textColor="@color/okTradeG900"
+        id="@+id/tv_title"
+        tag="layout/view_tactics_profit_chart_view_0"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        text="@string/pr_trade_history_title_detail_profitchange"
+        NOT_FOUND_0xa="0"/>
+    <o.wPT
+        id="@+id/chartView"
+        tag="layout/view_tactics_profit_chart_view_1"
+        layout_width="-1"
+        android:layout_height="300dp"
+        layout_marginTop="12dp"
+        NOT_FOUND_0xb="@+id/tv_title"/>
+    <o.C55173xeu
+        id="@+id/empty_layout"
+        tag="layout/view_tactics_profit_chart_view_2"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="56dp"
+        NOT_FOUND_0x9="6"
+        NOT_FOUND_0xb="@+id/tv_title"
+        NOT_FOUND_0xc="@string/pr_options_charts_alert_no_data"/>
+</merge>

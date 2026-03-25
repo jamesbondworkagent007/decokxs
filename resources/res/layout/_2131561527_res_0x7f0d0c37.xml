@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <com.okinc.web3.security.features.importing.widget.DisableAutofillEditText
+        theme="@style/OKUITheme.Alternative.Web3"
+        textAppearance="@style/TextAppearance.Text.18SP"
+        textColor="@color/text_amplified"
+        textColorHint="@color/grey_g300"
+        gravity="0x800033"
+        id="@+id/private_key"
+        background="@color/transparent"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        includeFontPadding="false"
+        inputType="0xa0091"
+        importantForAutofill="0x2"
+        NOT_FOUND_0x18="0"
+        NOT_FOUND_0x19="@dimen/text_size_24sp"/>
+    <androidx.recyclerview.widget.RecyclerView
+        orientation="0"
+        id="@+id/word_list"
+        scrollbars="horizontal"
+        clipChildren="false"
+        layout_width="0dp"
+        android:layout_height="0dp"
+        layout_marginTop="-16dp"
+        minHeight="62dp"
+        overScrollMode="2"
+        layout_marginStart="-12dp"
+        nestedScrollingEnabled="false"
+        NOT_FOUND_0x14="com.google.android.flexbox.FlexboxLayoutManager"
+        NOT_FOUND_0x15="0"
+        NOT_FOUND_0x16="-4"
+        NOT_FOUND_0x17="0"
+        NOT_FOUND_0x18="0"/>
+</merge>

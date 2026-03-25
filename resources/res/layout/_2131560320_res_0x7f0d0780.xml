@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    paddingBottom="@dimen/xsm"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        orientation="0"
+        id="@+id/section_container"
+        layout_width="-1"
+        android:layout_height="wrap_content">
+        <TextView
+            id="@+id/tv_section_title"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            layout_marginEnd="@dimen/xxxxsm"/>
+        <o.C55251xgS
+            id="@+id/tv_section_tag"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            singleLine="true"
+            NOT_FOUND_0x10="-3"
+            NOT_FOUND_0x11="6"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        orientation="1"
+        id="@+id/ll_asset_container"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/xxxsm"
+        layout_marginBottom="@dimen/xxxsm"
+        layout_marginVertical="@dimen/xxxsm"/>
+    <o.C52794wYp
+        gravity="0x11"
+        layout_gravity="0x800005"
+        id="@+id/btn_action"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        text="@string/pr_commonall_modal_btn_claim"
+        NOT_FOUND_0xe="36"
+        NOT_FOUND_0xf="0x104"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

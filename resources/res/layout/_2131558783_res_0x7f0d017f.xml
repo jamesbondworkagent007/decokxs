@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    textAppearance="@style/TextAppearance.Text.14SP.Regular"
+    textColor="@color/title_color"
+    textColorHighlight="@color/hint_color"
+    gravity="0x11"
+    id="@+id/txt_region"
+    layout_width="-2"
+    android:layout_height="@dimen/dp_44"
+    text="@string/pr_selfprofile_security_field_bind_phone_region"
+    textDirection="3"
+    paddingStart="@dimen/padding_12dp"
+    NOT_FOUND_0xa="@drawable/_2131231588_res_0x7f080364"/>

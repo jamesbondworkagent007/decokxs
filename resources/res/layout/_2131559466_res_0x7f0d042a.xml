@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.C22147hZq
+        id="@+id/from_bridge_to_expand_view"
+        visibility="0"
+        layout_width="-1"
+        android:layout_height="wrap_content"/>
+    <o.hZD
+        id="@+id/from_bridge_to_packup_view"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>

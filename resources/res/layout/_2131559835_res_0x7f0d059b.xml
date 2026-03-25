@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/fragment_bsc_select_payment_method_v3_0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.C55113xdn
+        layout_gravity="0x11"
+        id="@+id/loading_icon"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="@dimen/dp_270"
+        scaleType="6"
+        NOT_FOUND_0x11="true"
+        NOT_FOUND_0x12="true"
+        NOT_FOUND_0x13="@raw/_2131886092_res_0x7f12000c"/>
+    <LinearLayout
+        orientation="1"
+        id="@+id/content_layout"
+        layout_width="-1"
+        android:layout_height="wrap_content">
+        <androidx.recyclerview.widget.RecyclerView
+            id="@+id/rv_container"
+            paddingLeft="@dimen/dp_8"
+            paddingRight="@dimen/dp_8"
+            layout_width="-1"
+            android:layout_height="0dp"
+            layout_weight="1"
+            paddingHorizontal="@dimen/dp_8"/>
+        <o.C52794wYp
+            id="@+id/add_payment_button"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            layout_marginTop="@dimen/dp_16"
+            layout_marginBottom="@dimen/dp_16"
+            text="@string/lt_unipay_paymentmethod_btn_addmethod"
+            layout_marginStart="@dimen/margin_8dp"
+            layout_marginEnd="@dimen/margin_8dp"
+            NOT_FOUND_0x14="52"
+            NOT_FOUND_0x15="0x102"/>
+    </LinearLayout>
+</FrameLayout>

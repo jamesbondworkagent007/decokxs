@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/trade_ui_item_dcd_product_0"
+    paddingTop="20dp"
+    paddingBottom="20dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingVertical="20dp">
+    <TextView
+        textAppearance="@style/TextAppearance.Text.16SP.Medium"
+        textColor="@color/ContentPrimary"
+        id="@+id/price"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xe="@+id/term"
+        NOT_FOUND_0xf="4"
+        NOT_FOUND_0x11="0"
+        NOT_FOUND_0x12="0"/>
+    <TextView
+        textAppearance="@style/TextAppearance.Text.16SP.Medium"
+        textColor="@color/ContentPrimary"
+        id="@+id/term"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xe="@+id/apr"
+        NOT_FOUND_0xf="3"
+        NOT_FOUND_0x10="@+id/price"
+        NOT_FOUND_0x12="0"/>
+    <TextView
+        textAppearance="@style/TextAppearance.Text.16SP.Medium"
+        textColor="@color/ContentPrimary"
+        gravity="0x800015"
+        id="@+id/apr"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        drawablePadding="2dp"
+        NOT_FOUND_0xb="@drawable/_2131231647_res_0x7f08039f"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xf="4"
+        NOT_FOUND_0x10="@+id/term"
+        NOT_FOUND_0x12="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

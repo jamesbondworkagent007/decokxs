@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/item_btc_multi_sign_0"
+    paddingLeft="24dp"
+    paddingRight="24dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingHorizontal="24dp">
+    <TextView
+        textAppearance="@style/TextAppearance.Regular"
+        textSize="14sp"
+        textColor="@color/ContentContrast"
+        id="@+id/tv_title"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0x10="0"/>
+    <TextView
+        textAppearance="@style/TextAppearance.Regular"
+        textSize="16sp"
+        textColor="@color/ContentPrimary"
+        id="@+id/tv_subtitle"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="6dp"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="@+id/tv_title"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        layout_width="16dp"
+        android:layout_height="16dp"
+        src="@drawable/_2131232351_res_0x7f08065f"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x11="@color/ContentContrast"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    id="@+id/item_layout"
+    tag="layout/item_grid_member_avatar_0"
+    layout_width="-2"
+    android:layout_height="wrap_content"
+    layout_marginTop="@dimen/margin_12dp"
+    layout_marginBottom="@dimen/margin_12dp"
+    layout_marginStart="@dimen/margin_12dp">
+    <o.C35893oHp
+        layout_gravity="0x11"
+        id="@+id/iv_avatar"
+        layout_width="36dp"
+        android:layout_height="36dp"
+        foreground="@drawable/_2131231168_res_0x7f0801c0"
+        foregroundGravity="0x77"/>
+</FrameLayout>

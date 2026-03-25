@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    id="@+id/splash_container"
+    layout_width="-1"
+    android:layout_height="match_parent"
+    contentDescription="OKLaunchAnimation">
+    <TextView
+        textSize="@dimen/text_size_14sp"
+        textColor="@color/white_w200"
+        layout_gravity="0x51"
+        id="@+id/app_version_text"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginBottom="@dimen/margin_26dp"/>
+</FrameLayout>

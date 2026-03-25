@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatTextView
+        textAppearance="@style/Label_2_Medium"
+        textColor="@color/TextAmplifed"
+        id="@+id/tvRewardsTitle"
+        layout_width="-2"
+        android:layout_height="wrap_content"/>
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/rvRewards"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="12dp"
+        overScrollMode="2"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

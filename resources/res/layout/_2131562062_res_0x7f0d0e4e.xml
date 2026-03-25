@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    layout_width="-2"
+    android:layout_height="64dp">
+    <RelativeLayout
+        id="@+id/os_bgimage_notif_bgimage_align_layout"
+        paddingLeft="0dp"
+        paddingRight="-2000dp"
+        layout_width="-2"
+        android:layout_height="64dp"
+        layoutDirection="0">
+        <ImageView
+            id="@+id/os_bgimage_notif_bgimage"
+            layout_width="-1"
+            android:layout_height="64dp"
+            scaleType="fillEnd"
+            adjustViewBounds="false"
+            cropToPadding="false"/>
+        <ImageView
+            id="@+id/os_bgimage_notif_bgimage_right_aligned"
+            visibility="2"
+            layout_width="-1"
+            android:layout_height="64dp"
+            scaleType="fitCenter"
+            adjustViewBounds="false"
+            cropToPadding="false"/>
+    </RelativeLayout>
+    <LinearLayout
+        orientation="1"
+        layout_width="-1"
+        android:layout_height="64dp"
+        layout_marginLeft="@android:dimen/notification_large_icon_width"
+        textDirection="5">
+        <TextView
+            textAppearance="@android:style/TextAppearance.StatusBar.EventContent.Title"
+            ellipsize="4"
+            id="@+id/os_bgimage_notif_title"
+            paddingTop="8dp"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            text="Medium Text"
+            singleLine="true"
+            paddingStart="4dp"/>
+        <TextView
+            textAppearance="@android:style/TextAppearance.StatusBar.EventContent"
+            ellipsize="4"
+            id="@+id/os_bgimage_notif_body"
+            fadingEdge="0x1000"
+            layout_width="-1"
+            android:layout_height="0dp"
+            text="Small Text"
+            singleLine="true"
+            layout_weight="1"
+            paddingStart="4dp"/>
+    </LinearLayout>
+</RelativeLayout>

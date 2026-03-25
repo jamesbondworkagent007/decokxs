@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatTextView
+        textAppearance="@style/Label_1_Bold"
+        id="@+id/tv_title_arbitrage_record"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        text="@string/pr_smartarb_list_tips_arbitrage_profit"/>
+    <LinearLayout
+        orientation="0"
+        background="@drawable/_2131231413_res_0x7f0802b5"
+        paddingLeft="12dp"
+        paddingTop="16dp"
+        paddingRight="12dp"
+        paddingBottom="16dp"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="12dp"
+        paddingHorizontal="12dp"
+        paddingVertical="16dp">
+        <o.C55320xhi
+            textAppearance="@style/Label_2_Medium"
+            id="@+id/tv_grid_profit_title"
+            layout_width="0dp"
+            android:layout_height="wrap_content"
+            text="@string/pr_trade_history_item_grid_profit"
+            layout_weight="1"
+            NOT_FOUND_0xf="true"/>
+        <androidx.appcompat.widget.AppCompatTextView
+            textAppearance="@style/Label_2_Medium"
+            id="@+id/tv_grid_profit_content"
+            layout_width="-2"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>

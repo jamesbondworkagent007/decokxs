@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginBottom="@dimen/padding_24dp">
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/rv_trending_groups"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        overScrollMode="2"
+        nestedScrollingEnabled="false"/>
+</LinearLayout>

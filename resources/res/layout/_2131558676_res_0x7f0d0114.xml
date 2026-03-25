@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/activity_report_detail_0"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <com.google.android.material.appbar.MaterialToolbar
+        id="@+id/toolbar"
+        layout_width="-1"
+        android:layout_height="?android:attr/actionBarSize"
+        NOT_FOUND_0x7="0"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xa="@drawable/_2131232347_res_0x7f08065b"
+        NOT_FOUND_0xb="Report detail"
+        NOT_FOUND_0xc="@style/TextAppearance.Title.20SP.Medium"/>
+    <FrameLayout
+        id="@+id/json_view_container"
+        layout_width="-1"
+        android:layout_height="0dp"
+        layout_margin="@dimen/margin_8dp"
+        NOT_FOUND_0x5="0"
+        NOT_FOUND_0x6="0"
+        NOT_FOUND_0x7="0"
+        NOT_FOUND_0x8="@+id/toolbar"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

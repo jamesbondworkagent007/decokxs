@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x10"
+    orientation="0"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginLeft="@dimen/margin_24dp"
+    layout_marginRight="@dimen/margin_24dp"
+    layout_marginBottom="@dimen/margin_16dp"
+    layout_marginHorizontal="@dimen/margin_24dp">
+    <ImageView
+        id="@+id/left_icon"
+        visibility="2"
+        layout_width="6dp"
+        android:layout_height="6dp"
+        layout_marginEnd="8dp"/>
+    <o.C55258xgZ
+        textSize="@dimen/text_size_14sp"
+        textColor="@color/ContentPrimary"
+        id="@+id/left_title"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0xf="0"
+        style="@style/Label_2_Regular"/>
+    <Space
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_weight="1"/>
+    <TextView
+        textSize="@dimen/text_size_14sp"
+        textColor="@color/ContentPrimary"
+        gravity="0x800005"
+        id="@+id/right_title"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        textAlignment="6"
+        style="@style/Label_2_Regular"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

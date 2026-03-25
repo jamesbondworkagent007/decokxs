@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/rating_section"
+    tag="layout/item_campaign_0"
+    background="@drawable/_2131231019_res_0x7f08012b"
+    padding="@dimen/xsm"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <TextView
+        id="@+id/title"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_marginEnd="@dimen/xxxsm"
+        NOT_FOUND_0xb="@+id/chevron"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xe="0"
+        style="@style/Label_1_Bold"/>
+    <TextView
+        id="@+id/description"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/xxxxsm"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xc="@+id/title"
+        NOT_FOUND_0xd="@+id/title"
+        style="@style/Label_2_Regular"/>
+    <ImageView
+        id="@+id/chevron"
+        layout_width="24dp"
+        android:layout_height="24dp"
+        src="@drawable/_2131231647_res_0x7f08039f"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xe="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

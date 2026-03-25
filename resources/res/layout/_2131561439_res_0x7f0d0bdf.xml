@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o.C55375xik xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/popWin_shadow"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        orientation="1"
+        background="@drawable/_2131233703_res_0x7f080ba7"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="4dp">
+        <androidx.recyclerview.widget.RecyclerView
+            id="@+id/popWin_rv"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            NOT_FOUND_0x6="0"
+            NOT_FOUND_0x7="0"
+            NOT_FOUND_0x8="@dimen/popupwindow_max_height"
+            NOT_FOUND_0x9="0"
+            NOT_FOUND_0xa="0"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</o.C55375xik>

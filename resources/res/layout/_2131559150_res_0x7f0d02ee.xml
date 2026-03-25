@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    paddingLeft="24dp"
+    paddingRight="24dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingHorizontal="24dp">
+    <o.C22117hYn
+        id="@+id/view_child_order_multi"
+        layout_width="-1"
+        android:layout_height="wrap_content"/>
+    <FrameLayout
+        id="@+id/child_order_view"
+        layout_width="-1"
+        android:layout_height="wrap_content">
+        <o.C22141hZk
+            id="@+id/single_step_view"
+            visibility="2"
+            layout_width="-1"
+            android:layout_height="wrap_content"/>
+        <o.hZI
+            id="@+id/single_bridge_to_view"
+            visibility="2"
+            layout_width="-1"
+            android:layout_height="wrap_content"/>
+        <o.C24278ian
+            id="@+id/two_step_view"
+            visibility="2"
+            layout_width="-1"
+            android:layout_height="wrap_content"/>
+    </FrameLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

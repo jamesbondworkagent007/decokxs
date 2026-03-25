@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/fragment_bot_kline_layout_0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/rv"
+        clipChildren="false"
+        clipToPadding="false"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        overScrollMode="2"/>
+    <o.C55173xeu
+        gravity="0x11"
+        layout_gravity="0x11"
+        id="@+id/errorLayout"
+        background="@color/ContentInverse"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="match_parent"
+        NOT_FOUND_0xb="8"
+        NOT_FOUND_0xc="@string/pr_home_mid_toast_network_wrong_wait"
+        NOT_FOUND_0xd="@string/pr_common_error_btn_reload"
+        NOT_FOUND_0xe="@string/pr_trade_empty_title_error"/>
+</FrameLayout>

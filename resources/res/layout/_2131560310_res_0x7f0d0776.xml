@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginTop="@dimen/xsm">
+    <androidx.appcompat.widget.AppCompatTextView
+        textColor="@color/ContentPrimary"
+        id="@+id/item_title"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        style="@style/Label_2_Bold"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        textColor="@color/ContentTertiary"
+        id="@+id/item_subtitle"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/xxxxsm"
+        style="@style/Body_3_Regular"/>
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <com.okinc.uilab.edit.OKEditText
+        theme="@style/OKUITheme.Alternative.Web3"
+        textSize="@dimen/text_size_18sp"
+        textColor="@color/text_amplified"
+        textColorHint="@color/ContentContrast"
+        gravity="0x800033"
+        id="@+id/single_address"
+        background="@color/transparent"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        hint="@string/pr_wallet_multisend_placeholder_wallet_address"
+        includeFontPadding="false"
+        inputType="0xa0001"
+        importantForAutofill="0x2"
+        NOT_FOUND_0x18="0"
+        NOT_FOUND_0x19="@dimen/text_size_24sp"
+        NOT_FOUND_0x1a="1"
+        style="@style/Title_2_Medium"/>
+    <androidx.recyclerview.widget.RecyclerView
+        orientation="1"
+        id="@+id/address_list"
+        scrollbars="horizontal"
+        clipChildren="false"
+        layout_width="0dp"
+        android:layout_height="0dp"
+        layout_marginTop="-12dp"
+        minHeight="62dp"
+        overScrollMode="2"
+        layout_marginStart="-12dp"
+        nestedScrollingEnabled="true"
+        NOT_FOUND_0x15="0"
+        NOT_FOUND_0x16="-4"
+        NOT_FOUND_0x17="0"
+        NOT_FOUND_0x18="0"/>
+</merge>

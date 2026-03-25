@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x11"
+    orientation="0"
+    layout_width="-2"
+    android:layout_height="match_parent"
+    paddingStart="16dp"
+    paddingEnd="4dp">
+    <TextView
+        textSize="14sp"
+        textColor="@color/color_tab_appv1"
+        id="@+id/mItemTvName"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        text="Orders"
+        style="@style/TextAppearance.Silka.MeDium"/>
+</LinearLayout>

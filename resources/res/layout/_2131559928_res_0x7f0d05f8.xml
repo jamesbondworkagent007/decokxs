@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <LinearLayout
+        orientation="1"
+        id="@+id/categoryTitleContainer"
+        layout_width="-1"
+        android:layout_height="wrap_content">
+        <o.C55254xgV
+            id="@+id/category_title"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            NOT_FOUND_0x5="false"
+            NOT_FOUND_0x6="-5"
+            NOT_FOUND_0x7="5"/>
+    </LinearLayout>
+    <o.C33542myS
+        id="@+id/category_pager"
+        layout_width="-1"
+        android:layout_height="0dp"
+        layout_weight="1"/>
+</LinearLayout>

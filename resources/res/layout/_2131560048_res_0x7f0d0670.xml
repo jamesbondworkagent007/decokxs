@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/fragment_message_list_0"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C33546myW
+        id="@+id/refresh_layout"
+        layout_width="-1"
+        android:layout_height="match_parent"
+        NOT_FOUND_0x18="true"
+        NOT_FOUND_0x19="true">
+        <o.C33603mza
+            id="@+id/refresh_header"
+            layout_width="-1"
+            android:layout_height="wrap_content"/>
+        <androidx.recyclerview.widget.RecyclerView
+            id="@+id/message_list"
+            clipChildren="false"
+            clipToPadding="false"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            overScrollMode="2"
+            NOT_FOUND_0x15="androidx.recyclerview.widget.LinearLayoutManager"
+            NOT_FOUND_0x1a="true"/>
+        <o.C35887oHj
+            id="@+id/refresh_footer"
+            layout_width="-1"
+            android:layout_height="wrap_content"/>
+    </o.C33546myW>
+    <FrameLayout
+        id="@+id/bottom_scroll_btn"
+        background="@drawable/_2131233831_res_0x7f080c27"
+        paddingLeft="8dp"
+        paddingRight="72dp"
+        focusable="true"
+        visibility="1"
+        clickable="true"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginRight="-120dp"
+        layout_marginBottom="20dp"
+        alpha="0"
+        elevation="4dp"
+        NOT_FOUND_0x16="0"
+        NOT_FOUND_0x17="0">
+        <ImageView
+            layout_width="16dp"
+            android:layout_height="16dp"
+            layout_marginLeft="12dp"
+            layout_marginTop="12dp"
+            layout_marginRight="72dp"
+            layout_marginBottom="12dp"
+            src="@drawable/_2131233692_res_0x7f080b9c"
+            contentDescription="Scroll to Bottom"
+            NOT_FOUND_0x1b="@color/ContentPrimary"/>
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

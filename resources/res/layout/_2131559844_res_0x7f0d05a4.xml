@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <androidx.fragment.app.FragmentContainerView
+        id="@+id/cedefi_kline_content"
+        layout_width="-1"
+        android:layout_height="match_parent"/>
+    <com.okinc.uilab.reminder.OKReminder
+        id="@+id/reminder"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginLeft="25dp"
+        layout_marginRight="25dp"
+        layout_marginBottom="82dp"
+        layout_alignParentBottom="true"
+        layout_marginHorizontal="25dp"/>
+    <FrameLayout
+        id="@+id/loadingParent"
+        background="@color/BasePrimary"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="match_parent">
+        <o.C55113xdn
+            layout_gravity="0x11"
+            id="@+id/loading_view"
+            visibility="2"
+            layout_width="60dp"
+            android:layout_height="60dp"
+            layout_marginBottom="12dp"
+            NOT_FOUND_0xb="true"
+            NOT_FOUND_0xc="true"
+            NOT_FOUND_0xd="@raw/_2131886123_res_0x7f12002b"/>
+    </FrameLayout>
+</RelativeLayout>

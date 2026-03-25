@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x10"
+    layout_gravity="0x10"
+    id="@+id/view_container_accelerate"
+    layout_width="-2"
+    android:layout_height="wrap_content">
+    <o.C52794wYp
+        id="@+id/dex_view_accelerate_transaction"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        text="@string/pr_swaptrade_list_tag_speed_up"
+        NOT_FOUND_0x7="0"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xb="0x101"/>
+    <o.C52794wYp
+        id="@+id/dex_view_cancel_transaction"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        text="@string/pr_swaptrade_list_tag_cancel_transaction"
+        layout_marginEnd="12dp"
+        NOT_FOUND_0x8="@+id/dex_view_accelerate_transaction"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xa="0dp"
+        NOT_FOUND_0xb="0x104"/>
+    <o.C52794wYp
+        id="@+id/dex_view_accelerate_cancel_transaction"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        text="@string/pr_swaptrade_list_tag_speedup_cancellation"
+        layout_marginEnd="12dp"
+        NOT_FOUND_0x8="@+id/dex_view_cancel_transaction"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xa="0dp"
+        NOT_FOUND_0xb="0x104"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

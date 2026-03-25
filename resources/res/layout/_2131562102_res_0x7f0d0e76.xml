@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o.C46465tVi xmlns:android="http://schemas.android.com/apk/res/android"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <FrameLayout
+        id="@+id/planet_feed_container"
+        layout_width="-1"
+        android:layout_height="match_parent"/>
+</o.C46465tVi>

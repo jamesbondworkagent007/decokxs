@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    tag="layout/fragment_aa_network_fee_select_crypto_0"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C21286gwr
+        id="@+id/recycler_view"
+        paddingTop="@dimen/padding_8dp"
+        paddingBottom="@dimen/padding_8dp"
+        scrollbars="horizontal"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginLeft="16dp"
+        layout_marginTop="8dp"
+        layout_marginRight="16dp"
+        overScrollMode="2"
+        layout_marginHorizontal="16dp"
+        paddingVertical="@dimen/padding_8dp"/>
+</LinearLayout>

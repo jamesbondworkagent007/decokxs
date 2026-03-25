@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    paddingLeft="@dimen/margin_default"
+    paddingTop="16dp"
+    paddingRight="@dimen/margin_default"
+    paddingBottom="16dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginTop="8dp"
+    layout_marginBottom="@dimen/margin_default"
+    paddingHorizontal="@dimen/margin_default"
+    paddingVertical="16dp">
+    <TextView
+        textColor="@color/ContentPrimary"
+        id="@+id/tv_desc"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        text="@string/pr_swaptrade_bottomsheet_hide_stablecoins_native_tokens"
+        layout_marginEnd="16dp"
+        NOT_FOUND_0x10="@+id/hide_small_switch"
+        NOT_FOUND_0x11="0"
+        NOT_FOUND_0x12="0"
+        style="@style/Label_1_Regular"/>
+    <o.C55239xgG
+        id="@+id/hide_small_switch"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x12="0"
+        NOT_FOUND_0x13="-4"
+        NOT_FOUND_0x14="@color/Neutral20"
+        NOT_FOUND_0x15="@color/Neutral20"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

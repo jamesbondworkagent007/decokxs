@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    id="@+id/kline_futures_order_rule_layout"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <TextView
+        textAppearance="@style/TextAppearance.Text.14SP.Medium"
+        textColor="@color/grey_g500"
+        id="@+id/limit_order_tv"
+        layout_width="-1"
+        android:layout_height="wrap_content"/>
+    <TextView
+        textAppearance="@style/TextAppearance.Text.14SP.Medium"
+        textColor="@color/grey_g500"
+        id="@+id/market_order_tv"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_4dp"/>
+    <TextView
+        textAppearance="@style/TextAppearance.Text.12SP.Regular"
+        textColor="@color/grey_g400"
+        id="@+id/tips_tv"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_8dp"
+        text="@string/pr_trade_rules_subtitle_adjust_without_anncmnt"/>
+</LinearLayout>

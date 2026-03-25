@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    gravity="0x11"
+    orientation="1"
+    background="@drawable/_2131233436_res_0x7f080a9c"
+    layout_width="48dp"
+    android:layout_height="48dp">
+    <TextView
+        textSize="18dp"
+        textColor="@color/ContentSecondary"
+        id="@+id/dayValue"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        style="@style/Title_2_Medium"/>
+    <TextView
+        textSize="12dp"
+        textColor="@color/ContentSecondary"
+        id="@+id/weekValue"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        style="@style/Label_3_Regular"/>
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <TextView
+        textColor="@color/ContentPrimary"
+        gravity="0x11"
+        id="@+id/gallery_down_load"
+        paddingLeft="80dp"
+        paddingTop="15dp"
+        paddingRight="80dp"
+        paddingBottom="15dp"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        text="@string/pr_referral_share_btn_save"
+        drawablePadding="8dp"
+        drawableStart="@drawable/_2131232047_res_0x7f08052f"
+        paddingHorizontal="80dp"
+        paddingVertical="15dp"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x11="0"
+        style="@style/Label_1_Medium"/>
+</merge>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    gravity="0x10"
+    paddingLeft="@dimen/padding_16dp"
+    paddingRight="@dimen/padding_16dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingHorizontal="@dimen/padding_16dp">
+    <View
+        textColor="@color/list_divider_color"
+        id="@+id/line_view"
+        layout_width="-1"
+        android:layout_height="0.5dp"
+        layout_marginTop="16dp"/>
+</FrameLayout>

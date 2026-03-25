@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    textAppearance="@style/TextAppearance.Title.16SP.Medium"
+    gravity="0x800013"
+    id="@+id/content"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    minHeight="50dp"
+    paddingStart="@dimen/common_page_edge_space"
+    paddingEnd="@dimen/common_page_edge_space"/>

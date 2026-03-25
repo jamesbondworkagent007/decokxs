@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    tag="layout/view_filter_order_type_0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <TextView
+        textAppearance="@style/TextAppearance.Text.16SP.Medium"
+        textColor="@color/okTradeW900"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        text="@string/lt_unipay_orderhistory_drawer_label_type"/>
+    <LinearLayout
+        paddingBottom="@dimen/padding_12dp"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_10dp"
+        weightSum="1">
+        <o.C52794wYp
+            id="@+id/buyTab"
+            tag="buy"
+            layout_width="@dimen/width_0dp"
+            android:layout_height="match_parent"
+            text="@string/lt_unipay_orderhistory_chip_buy"
+            layout_weight="0.333"
+            layout_marginEnd="@dimen/margin_8dp"
+            NOT_FOUND_0xd="32"
+            NOT_FOUND_0xe="0x102"/>
+        <o.C52794wYp
+            id="@+id/sellTab"
+            tag="sell"
+            layout_width="@dimen/width_0dp"
+            android:layout_height="match_parent"
+            text="@string/lt_unipay_orderhistory_chip_sell"
+            layout_weight="0.333"
+            layout_marginEnd="23dp"
+            NOT_FOUND_0xd="32"
+            NOT_FOUND_0xe="0x102"/>
+    </LinearLayout>
+</LinearLayout>

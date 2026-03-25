@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    background="@color/BasePrimary"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <FrameLayout
+        id="@+id/Kline_content"
+        layout_width="-1"
+        android:layout_height="match_parent"/>
+    <RelativeLayout
+        orientation="1"
+        id="@+id/rl_error"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="match_parent">
+        <o.C33537myN
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            NOT_FOUND_0x8="@color/oktemp_title_color"
+            NOT_FOUND_0x9="@drawable/_2131231642_res_0x7f08039a"
+            NOT_FOUND_0xa="@color/oktemp_white_background_color"
+            NOT_FOUND_0xd="@color/oktemp_white_background_color"/>
+        <o.C55173xeu
+            id="@+id/empty_view"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            layout_centerInParent="true"
+            NOT_FOUND_0xb="8"
+            NOT_FOUND_0xe="@string/pr_home_mid_toast_network_wrong_wait"
+            NOT_FOUND_0xf="@string/pr_trade_empty_title_error"/>
+    </RelativeLayout>
+    <o.C55237xgE
+        id="@+id/statefulLayout"
+        background="@color/BasePrimary"
+        layout_width="-1"
+        android:layout_height="match_parent"
+        NOT_FOUND_0xc="true">
+        <TextView
+            layout_gravity="0x11"
+            id="@+id/contentView"
+            layout_width="-2"
+            android:layout_height="wrap_content"/>
+    </o.C55237xgE>
+</RelativeLayout>

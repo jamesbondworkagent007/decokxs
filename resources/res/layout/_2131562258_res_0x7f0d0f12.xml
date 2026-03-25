@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    gravity="0x11"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="match_parent"
+    baselineAligned="false">
+    <TextView
+        textAppearance="@style/TextAppearance.Text.14SP"
+        id="@+id/empty_text"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginStart="@dimen/common_page_edge_space"
+        layout_marginEnd="@dimen/common_page_edge_space"/>
+</LinearLayout>

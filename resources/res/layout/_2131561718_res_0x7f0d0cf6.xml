@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o.C40499qYc xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.qIE
+        id="@+id/sort_view"
+        layout_width="-1"
+        android:layout_height="wrap_content"/>
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/recycler_view"
+        layout_width="-1"
+        android:layout_height="0dp"
+        NOT_FOUND_0x6="com.okinc.okmarket.ui.market.quote.WrapContentLinearLayoutManager"
+        NOT_FOUND_0x7="0"
+        NOT_FOUND_0x8="@+id/sort_view"/>
+    <o.C55173xeu
+        layout_gravity="0x11"
+        id="@+id/empty_view"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x5="7"
+        NOT_FOUND_0x7="0"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xa="@string/pr_rewards_text_empty_no_date"/>
+</o.C40499qYc>

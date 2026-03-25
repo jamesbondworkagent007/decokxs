@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x11"
+    orientation="0"
+    paddingTop="@dimen/padding_18dp"
+    paddingBottom="@dimen/padding_18dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingVertical="@dimen/padding_18dp">
+    <o.C55258xgZ
+        id="@+id/enter_title"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_weight="1"
+        layout_marginEnd="@dimen/margin_14dp"
+        NOT_FOUND_0xb="@color/ContentPrimary"
+        NOT_FOUND_0xc="@dimen/text_size_16sp"
+        NOT_FOUND_0xd="@style/TextAppearance.Text"
+        NOT_FOUND_0xe="400"/>
+    <LinearLayout
+        gravity="0x800015"
+        orientation="0"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_weight="1">
+        <ImageView
+            id="@+id/iv_icon"
+            layout_width="@dimen/dp24"
+            android:layout_height="@dimen/dp24"
+            layout_marginEnd="@dimen/dp_4"/>
+        <ImageView
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            src="@drawable/_2131231647_res_0x7f08039f"
+            NOT_FOUND_0xf="@color/ContentContrast"/>
+    </LinearLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    textSize="@dimen/text_size_14sp"
+    textColor="@color/selector_color_g900_g700"
+    gravity="0x11"
+    id="@+id/type"
+    layout_width="-2"
+    android:layout_height="16sp"
+    paddingStart="@dimen/padding_12dp"
+    paddingEnd="@dimen/padding_12dp"
+    style="@style/TextAppearance.Silka.MeDium"/>

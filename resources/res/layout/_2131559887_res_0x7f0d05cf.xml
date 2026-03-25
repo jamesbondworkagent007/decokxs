@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <androidx.recyclerview.widget.RecyclerView
+        orientation="1"
+        id="@+id/recyclerView"
+        paddingLeft="@dimen/dp24"
+        paddingRight="@dimen/dp24"
+        scrollbars="horizontal"
+        layout_width="-1"
+        android:layout_height="match_parent"
+        contentDescription="web3_defi_dashboard_list"
+        overScrollMode="2"
+        paddingHorizontal="@dimen/dp24"
+        NOT_FOUND_0x11="androidx.recyclerview.widget.LinearLayoutManager"/>
+    <androidx.core.widget.NestedScrollView
+        id="@+id/statusScrollView"
+        background="@color/BasePrimary"
+        scrollbars="horizontal"
+        layout_width="-1"
+        android:layout_height="match_parent"
+        fillViewport="true">
+        <FrameLayout
+            layout_width="-1"
+            android:layout_height="match_parent">
+            <o.C55173xeu
+                id="@+id/emptyView"
+                visibility="2"
+                layout_width="-1"
+                android:layout_height="match_parent"
+                layout_marginTop="96dp"
+                NOT_FOUND_0x10="6"
+                NOT_FOUND_0x14="@string/pr_investpositionplatform_mid_btn_explore_invest"/>
+            <o.C55113xdn
+                layout_gravity="0x1"
+                id="@+id/loadingView"
+                visibility="2"
+                layout_width="-1"
+                android:layout_height="800dp"
+                scaleType="fillCenter"
+                NOT_FOUND_0x12="true"
+                NOT_FOUND_0x13="true"/>
+        </FrameLayout>
+    </androidx.core.widget.NestedScrollView>
+</FrameLayout>

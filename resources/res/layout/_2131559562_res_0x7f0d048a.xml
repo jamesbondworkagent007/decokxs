@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/logo_group"
+    layout_width="-2"
+    android:layout_height="wrap_content"
+    layout_centerVertical="true"
+    layout_alignParentStart="true"
+    NOT_FOUND_0xa="@+id/tag_type"
+    NOT_FOUND_0xc="0"
+    NOT_FOUND_0xd="@+id/tv_token_symbol">
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/iv_from_token"
+        visibility="2"
+        layout_width="32dp"
+        android:layout_height="32dp"
+        scaleType="7"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="0dp"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/bg_to_token"
+        layout_width="32dp"
+        android:layout_height="32dp"
+        scaleType="7"
+        layout_marginStart="@dimen/xsm"
+        NOT_FOUND_0xc="@+id/iv_from_token"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="0dp"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/iv_to_token"
+        layout_width="32dp"
+        android:layout_height="32dp"
+        scaleType="7"
+        layout_marginStart="@dimen/xsm"
+        NOT_FOUND_0xc="@+id/iv_from_token"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="0dp"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        layout_gravity="0x800055"
+        id="@+id/iv_chain"
+        background="@drawable/_2131231867_res_0x7f08047b"
+        layout_width="14dp"
+        android:layout_height="14dp"
+        scaleType="7"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

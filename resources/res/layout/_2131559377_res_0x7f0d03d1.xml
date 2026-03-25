@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/nested_scroll_view_preset"
+    paddingLeft="@dimen/padding_24dp"
+    paddingRight="@dimen/padding_24dp"
+    clipToPadding="false"
+    layout_width="-1"
+    android:layout_height="match_parent"
+    layout_marginTop="@dimen/margin_12dp"
+    paddingHorizontal="@dimen/padding_24dp"
+    NOT_FOUND_0xb="0"
+    NOT_FOUND_0xc="0"
+    NOT_FOUND_0xd="0"
+    NOT_FOUND_0xe="0">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        orientation="1"
+        id="@+id/container_preset_edit"
+        visibility="1"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="12dp"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="0">
+        <o.C55249xgQ
+            id="@+id/segmented_control_preset"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            NOT_FOUND_0xf="true"
+            NOT_FOUND_0x10="-2"
+            NOT_FOUND_0x11="-4"
+            NOT_FOUND_0x12="@color/tab_preset_select_text_color_buy"/>
+        <androidx.viewpager2.widget.ViewPager2
+            id="@+id/pager_preset_tab"
+            layout_width="-1"
+            android:layout_height="0dp"
+            layout_marginTop="16dp"
+            layout_weight="1"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.core.widget.NestedScrollView>

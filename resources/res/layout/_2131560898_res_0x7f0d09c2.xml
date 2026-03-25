@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    tag="layout/item_strategy_order_confirm_0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <TextView
+        textAppearance="@style/TextAppearance.Silka"
+        textSize="14sp"
+        textColor="@color/okTradeG400"
+        id="@+id/title"
+        tag="binding_1"
+        layout_width="-1"
+        android:layout_height="wrap_content"/>
+    <TextView
+        textAppearance="@style/TextAppearance.Silka.MeDium"
+        textSize="14sp"
+        textColor="@color/okTradeG900"
+        id="@+id/content"
+        tag="binding_2"
+        layout_width="-1"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

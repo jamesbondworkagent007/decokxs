@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    tag="layout/item_approve_token_group_0"
+    paddingTop="16dp"
+    paddingBottom="16dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingVertical="16dp">
+    <TextView
+        textAppearance="@style/Body_2_Regular"
+        textSize="14sp"
+        textColor="@color/ContentContrast"
+        id="@+id/tv_title"
+        paddingLeft="24dp"
+        paddingRight="24dp"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        paddingHorizontal="24dp"/>
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/recycler"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0xe="androidx.recyclerview.widget.LinearLayoutManager"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

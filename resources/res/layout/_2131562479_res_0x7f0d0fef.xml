@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <androidx.appcompat.widget.AppCompatTextView
+        gravity="0x11"
+        id="@+id/recommend_title"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/dp24"
+        text="@string/pr_trade_status_text_no_bots"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xd="0"
+        style="@style/Label_1_Medium"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        gravity="0x11"
+        id="@+id/recommend_sub_title"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/dp_8"
+        text="@string/pr_marketplace_home_emptystate_desc_recommend_more_quality_bots"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="@+id/recommend_title"
+        style="@style/Body_3_Regular"/>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        background="@drawable/_2131231027_res_0x7f080133"
+        padding="@dimen/ok_dp_16"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_16dp"
+        layout_marginBottom="@dimen/margin_8dp"
+        NOT_FOUND_0xc="@+id/recommend_sub_title">
+        <androidx.recyclerview.widget.RecyclerView
+            id="@+id/recommend_list"
+            scrollbars="horizontal"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            NOT_FOUND_0xb="0"
+            NOT_FOUND_0xd="0"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

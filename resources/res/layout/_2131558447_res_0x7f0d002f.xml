@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    id="@+id/rootView"
+    background="@color/background_lv1"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C33537myN
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0xe="@string/pr_debug_abtest_debug"/>
+    <TextView
+        textColor="@color/grey_g500"
+        paddingTop="10dp"
+        paddingBottom="10dp"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="15dp"
+        text="更改完设置后,需重启App后生效(After setting change, it takes effect after restarting the app)"
+        paddingStart="15dp"
+        paddingEnd="15dp"
+        style="@style/TextAppearance.Text.12SP"/>
+    <o.C55059xcm
+        id="@+id/skylab_section"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x10="Skylab Config"/>
+    <o.C55059xcm
+        id="@+id/okgray_manager_section"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x10="OKGrayManager Config">
+        <com.okinc.uilab.item.OKRegularCell
+            id="@+id/display_config"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            NOT_FOUND_0x10="查看配置数据(View Config Data)">
+            <o.C55068xcv
+                layout_width="-2"
+                android:layout_height="wrap_content"
+                NOT_FOUND_0xf="@drawable/_2131232356_res_0x7f080664"/>
+        </com.okinc.uilab.item.OKRegularCell>
+        <com.okinc.uilab.item.OKRegularCell
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            NOT_FOUND_0x10="控制灰度(Control ABTest)">
+            <o.C55239xgG
+                layout_gravity="0x10"
+                id="@+id/switch_gray"
+                layout_width="-2"
+                android:layout_height="wrap_content"/>
+        </com.okinc.uilab.item.OKRegularCell>
+    </o.C55059xcm>
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/recycler_view"
+        layout_width="-1"
+        android:layout_height="match_parent"
+        layout_marginTop="15dp"
+        overScrollMode="2"
+        paddingStart="@dimen/sixteen"
+        paddingEnd="@dimen/sixteen"/>
+</LinearLayout>

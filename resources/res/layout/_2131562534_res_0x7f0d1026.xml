@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <TextView
+        textAppearance="@style/TextAppearance.Text.Regular"
+        textSize="@dimen/text_size_12sp"
+        textColor="@color/ContentContrast"
+        gravity="0x11"
+        id="@+id/tvDesc"
+        paddingLeft="@dimen/width_0dp"
+        paddingRight="@dimen/width_0dp"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginLeft="@dimen/margin_16dp"
+        layout_marginTop="48dp"
+        layout_marginRight="@dimen/margin_16dp"
+        layout_marginBottom="@dimen/margin_48dp"
+        text="@string/pr_trade_text_bots_empty_caption_guide"
+        includeFontPadding="false"
+        layout_marginHorizontal="@dimen/margin_16dp"
+        paddingHorizontal="@dimen/width_0dp"/>
+</LinearLayout>

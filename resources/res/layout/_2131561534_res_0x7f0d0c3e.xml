@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <View
+        layout_gravity="0x800003"
+        id="@+id/line_view"
+        background="@drawable/_2131231477_res_0x7f0802f5"
+        layout_width="2dp"
+        android:layout_height="20dp"
+        layout_marginTop="@dimen/margin_8dp"
+        layout_marginBottom="@dimen/margin_8dp"
+        layout_marginStart="15dp"
+        layout_marginVertical="@dimen/margin_8dp"/>
+</merge>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.C55246xgN
+        id="@+id/tabLayout"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_toStartOf="@+id/ll_function"/>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        id="@+id/staticLayout"
+        visibility="0"
+        layout_width="-1"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        gravity="0x10"
+        orientation="0"
+        id="@+id/ll_function"
+        visibility="2"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_centerVertical="true"
+        layout_marginEnd="?attr/horizontalPaddingDimension"
+        layout_alignParentEnd="true"/>
+</merge>

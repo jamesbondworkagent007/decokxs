@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <FrameLayout
+        layout_width="-1"
+        android:layout_height="match_parent">
+        <androidx.fragment.app.FragmentContainerView
+            id="@+id/rvPositions"
+            visibility="2"
+            layout_width="-1"
+            android:layout_height="match_parent"/>
+        <o.C55113xdn
+            layout_gravity="0x1"
+            id="@+id/loading_view"
+            visibility="2"
+            layout_width="60dp"
+            android:layout_height="60dp"
+            layout_marginTop="@dimen/dp_60"
+            NOT_FOUND_0xc="true"
+            NOT_FOUND_0xd="true"
+            NOT_FOUND_0xe="@raw/_2131886123_res_0x7f12002b"/>
+        <o.C55173xeu
+            layout_gravity="0x1"
+            id="@+id/error_view"
+            visibility="2"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            layout_marginTop="@dimen/dp_60"
+            layout_marginBottom="@dimen/dp_60"
+            layout_marginVertical="@dimen/dp_60"
+            NOT_FOUND_0x8="7"
+            NOT_FOUND_0x9="0"
+            NOT_FOUND_0xa="0"
+            NOT_FOUND_0xb="0"
+            NOT_FOUND_0xf="@string/pr_swaptrade_common_btn_clear_filters"/>
+    </FrameLayout>
+</androidx.core.widget.NestedScrollView>

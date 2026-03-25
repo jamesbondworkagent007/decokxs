@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    background="@drawable/_2131231171_res_0x7f0801c3"
+    padding="@dimen/xsm"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    minHeight="128dp">
+    <ImageView
+        id="@+id/img_icon"
+        layout_width="@dimen/dp24"
+        android:layout_height="@dimen/dp24"
+        importantForAccessibility="2"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xc="0"/>
+    <TextView
+        textColor="@color/ContentPrimary"
+        id="@+id/txt_title"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/height_32dp"
+        NOT_FOUND_0x9="@+id/txt_description"
+        NOT_FOUND_0xb="@+id/img_icon"
+        style="@style/Label_1_Medium"/>
+    <TextView
+        textColor="@color/ContentContrast"
+        id="@+id/txt_description"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/xxxxsm"
+        NOT_FOUND_0xb="@+id/txt_title"
+        style="@style/Label_2_Regular"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

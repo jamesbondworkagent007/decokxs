@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    gravity="0x800013"
+    id="@+id/ll_selection"
+    background="@drawable/_2131233753_res_0x7f080bd9"
+    padding="@dimen/xxsm"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginLeft="6dp"
+    layout_marginRight="6dp"
+    layout_marginHorizontal="6dp">
+    <ImageView
+        id="@+id/iv_protocol_icon"
+        layout_width="@dimen/xsm"
+        android:layout_height="@dimen/xsm"
+        src="@drawable/_2131231958_res_0x7f0804d6"
+        layout_marginEnd="@dimen/xxxxsm"/>
+    <TextView
+        ellipsize="3"
+        id="@+id/tv_protocol_name"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        maxLines="1"
+        layout_weight="1"
+        style="@style/Label_2_Medium"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

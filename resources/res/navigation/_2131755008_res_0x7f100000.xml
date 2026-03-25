@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/reset_mfa_graph"
+    NOT_FOUND_0x4="@+id/resetMfaLandingHost">
+    <fragment
+        name="o.aSH"
+        id="@+id/resetMfaLandingHost"/>
+    <action
+        id="@+id/toResetMfaSelection"
+        NOT_FOUND_0x3="@+id/resetMfaOptionList"/>
+    <fragment
+        name="o.aTj"
+        id="@+id/resetMfaOptionList">
+        <argument
+            name="entryPoint"
+            NOT_FOUND_0x2="com.okinc.auth.api.reset2fa.RebindMfaEntryPoint"/>
+    </fragment>
+    <action
+        id="@+id/toBindNewMfa"
+        NOT_FOUND_0x3="@+id/bindNewMfa"/>
+    <fragment
+        name="o.aST"
+        id="@+id/bindNewMfa"/>
+    <action
+        id="@+id/toResetSuccess"
+        NOT_FOUND_0x3="@+id/ResetSuccess"/>
+    <fragment
+        name="o.aSq"
+        id="@+id/ResetSuccess"/>
+</navigation>

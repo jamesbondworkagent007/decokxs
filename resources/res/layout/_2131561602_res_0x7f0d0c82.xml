@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    gravity="0x11"
+    layout_gravity="0x11"
+    orientation="0"
+    layout_width="-2"
+    android:layout_height="100dp">
+    <o.C7950atW
+        layout_gravity="0x10"
+        id="@+id/lv_default_load_view"
+        background="@drawable/_2131233380_res_0x7f080a64"
+        layout_width="35dp"
+        android:layout_height="35dp"/>
+    <TextView
+        textSize="16sp"
+        textColor="@color/loading_text_color"
+        layout_gravity="0x10"
+        id="@+id/lv_default_load_tv"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        text="正在加载"
+        layout_marginStart="7dp"/>
+</LinearLayout>

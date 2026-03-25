@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/view_defi_history_view_more_layout_0"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginTop="@dimen/margin_16dp">
+    <o.C52794wYp
+        textAppearance="@style/Label_2_Medium"
+        textColor="@color/ContentSecondary"
+        layout_gravity="0x1"
+        paddingTop="@dimen/padding_10dp"
+        paddingBottom="@dimen/padding_10dp"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="8dp"
+        layout_marginBottom="13dp"
+        text="@string/pr_wallet_details_btn_view_more"
+        paddingStart="@dimen/padding_16dp"
+        paddingEnd="@dimen/padding_16dp"
+        NOT_FOUND_0xd="0x104"/>
+</FrameLayout>

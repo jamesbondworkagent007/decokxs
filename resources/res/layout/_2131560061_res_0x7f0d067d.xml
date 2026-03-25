@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    tag="layout/fragment_multi_coin_approve_0"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/recycler_view"
+        paddingLeft="16dp"
+        paddingRight="16dp"
+        layout_width="-1"
+        android:layout_height="0dp"
+        layout_weight="1"
+        paddingHorizontal="16dp"/>
+    <o.C52794wYp
+        textAppearance="@style/TextAppearance.Text.Medium"
+        gravity="0x11"
+        id="@+id/saveBtm"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginLeft="16dp"
+        layout_marginRight="16dp"
+        layout_marginBottom="20dp"
+        minHeight="48dp"
+        text="@string/pr_metax_btn_gas_fee_save"
+        layout_marginHorizontal="16dp"
+        NOT_FOUND_0x11="52"
+        NOT_FOUND_0x12="0x101"/>
+</LinearLayout>

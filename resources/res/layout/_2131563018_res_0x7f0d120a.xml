@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    textAppearance="@style/Label_3_Regular"
+    textColor="@color/SemanticNotice"
+    ellipsize="3"
+    id="@+id/tv_message"
+    tag="layout/widget_invest_redeem_warning_message_item_0"
+    layout_width="-2"
+    android:layout_height="wrap_content"
+    maxLines="1"/>

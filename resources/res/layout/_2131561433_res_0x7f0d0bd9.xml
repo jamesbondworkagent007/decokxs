@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C46471tVo
+        id="@+id/empty"
+        paddingLeft="@dimen/margin_default"
+        paddingRight="@dimen/margin_default"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        paddingHorizontal="@dimen/margin_default"/>
+</FrameLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-2"
+    android:layout_height="wrap_content">
+    <o.C55425xjh
+        id="@+id/hyperlinkUnderlineTextView"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        drawablePadding="@dimen/margin_4dp"
+        NOT_FOUND_0x4="true"
+        NOT_FOUND_0x5="1"
+        style="@style/OKTextFont.Regular"/>
+</FrameLayout>

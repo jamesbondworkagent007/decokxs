@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    id="@+id/adBanner_layout"
+    tag="layout/item_ad_banner_0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <FrameLayout
+        id="@+id/adBanner_container"
+        layout_width="-1"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C55254xgV
+        theme="@style/OKUITheme.Alternative.Web3"
+        id="@+id/filterTabs"
+        fadingEdge="0x0"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        elevation="0dp"
+        NOT_FOUND_0x7="true"
+        NOT_FOUND_0x8="44"
+        NOT_FOUND_0x9="2"
+        NOT_FOUND_0xa="@dimen/height_2dp"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="24dp"
+        NOT_FOUND_0xd="24dp"
+        NOT_FOUND_0xe="@style/TextAppearance.Title.14SP.Medium"/>
+    <androidx.viewpager2.widget.ViewPager2
+        id="@+id/filterViewPager"
+        layout_width="-1"
+        android:layout_height="match_parent"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

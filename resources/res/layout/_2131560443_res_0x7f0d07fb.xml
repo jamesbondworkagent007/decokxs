@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.okinc.uilab.item.OKRegularCell xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/regular_cell"
+    background="@color/background_lv1"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    minHeight="56dp"
+    paddingStart="16dp"
+    paddingEnd="16dp"
+    NOT_FOUND_0x9="0">
+    <androidx.appcompat.widget.AppCompatImageView
+        layout_gravity="0x10"
+        id="@+id/chevron_icon"
+        layout_width="24dp"
+        android:layout_height="24dp"
+        src="@drawable/_2131231651_res_0x7f0803a3"
+        NOT_FOUND_0xa="@color/grey_g400"/>
+</com.okinc.uilab.item.OKRegularCell>

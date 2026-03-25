@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <TextView
+        textSize="14sp"
+        textColor="@color/ContentPrimary"
+        id="@+id/label"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        text="网络名称"
+        layout_marginStart="24dp"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x11="0"
+        style="@style/LiteTextAppearance.ArrakisTan.14SP.Medium"/>
+    <ImageView
+        id="@+id/tip_icon"
+        layout_width="16dp"
+        android:layout_height="16dp"
+        src="@drawable/_2131233141_res_0x7f080975"
+        layout_marginStart="2dp"
+        NOT_FOUND_0xc="@+id/label"
+        NOT_FOUND_0xe="@+id/label"
+        NOT_FOUND_0x11="@+id/label"
+        NOT_FOUND_0x13="@color/ContentContrast"/>
+    <o.C55008xbo
+        theme="@style/OKUITheme.Alternative.Web3"
+        id="@+id/input_field"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/dp_8"
+        hint="@string/pr_metax_addnetwork_input_typing"
+        layout_marginStart="24dp"
+        layout_marginEnd="24dp"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x10="@+id/label"
+        NOT_FOUND_0x12="40"/>
+</merge>

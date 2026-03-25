@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x11"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <TextView
+        textColor="@color/ContentContrast"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        text="@string/pr_aitradingbot_placeorder_botsheet_target_crypto"
+        layout_weight="1"
+        style="@style/Label_1_Regular"/>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        gravity="0x800015"
+        id="@+id/rightContainer"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_weight="1">
+        <o.C51601vqB
+            id="@+id/coinStackView"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            NOT_FOUND_0x9="@color/okTradeBackground1"
+            NOT_FOUND_0xa="3dp"
+            NOT_FOUND_0xb="@color/SurfacePrimary"
+            NOT_FOUND_0xc="20dp"
+            NOT_FOUND_0xd="@color/ContentPrimary"
+            NOT_FOUND_0xe="2"/>
+        <ImageView
+            id="@+id/showAll"
+            layout_width="16dp"
+            android:layout_height="16dp"
+            src="@drawable/_2131231649_res_0x7f0803a1"
+            contentDescription="@null"
+            NOT_FOUND_0xf="@color/ContentPrimary"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>

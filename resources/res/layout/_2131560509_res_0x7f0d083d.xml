@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <View
+        id="@+id/line_history"
+        background="@color/grey_g100"
+        layout_width="0dp"
+        android:layout_height="0.5dp"
+        NOT_FOUND_0x8="0"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xb="0"/>
+    <o.C52794wYp
+        id="@+id/btn_explorer"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/sm"
+        layout_marginBottom="@dimen/xxxsm"
+        singleLine="true"
+        NOT_FOUND_0x7="0"
+        NOT_FOUND_0x8="0"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xa="@+id/line_history"
+        NOT_FOUND_0xc="36"
+        NOT_FOUND_0xd="0x102"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

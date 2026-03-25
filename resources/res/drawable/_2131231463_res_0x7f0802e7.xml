@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item state_pressed="true">
+        <shape shape="1">
+            <solid color="@color/SurfacePressed"/>
+            <size
+                height="56dp"
+                width="56dp"/>
+        </shape>
+    </item>
+    <item state_selected="true">
+        <shape shape="1">
+            <solid color="@color/color_surface_danger_subtle"/>
+            <size
+                height="56dp"
+                width="56dp"/>
+        </shape>
+    </item>
+    <item state_enabled="false">
+        <shape shape="1">
+            <solid color="@color/SurfaceDisabled"/>
+            <size
+                height="56dp"
+                width="56dp"/>
+        </shape>
+    </item>
+    <item>
+        <shape shape="1">
+            <solid color="@color/color_surface_interactive_default"/>
+            <size
+                height="56dp"
+                width="56dp"/>
+        </shape>
+    </item>
+</selector>

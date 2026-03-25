@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="16dp"
+    android:width="28dp"
+    android:autoMirrored="true"
+    android:viewportWidth="28"
+    android:viewportHeight="16">
+    <path
+        android:fillColor="@color/PreferenceProfitModern"
+        android:pathData="M8 0h12a8 8 0 0 1 8 8 8 8 0 0 1-8 8H8a8 8 0 0 1-8-8 8 8 0 0 1 8-8z"/>
+    <path
+        android:fillColor="@color/SurfacePrimary"
+        android:pathData="M20 14c3.314 0 6-2.686 6-6s-2.686-6-6-6-6 2.686-6 6 2.686 6 6 6z"
+        android:fillType="evenOdd"/>
+</vector>

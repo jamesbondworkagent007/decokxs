@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    background="@drawable/_2131231236_res_0x7f080204"
+    padding="@dimen/padding_1dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_margin="@dimen/dp_8"
+    layout_marginBottom="@dimen/margin_16dp">
+    <ImageView
+        id="@+id/pdfSinglePageImageView"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        importantForAccessibility="2"/>
+</FrameLayout>

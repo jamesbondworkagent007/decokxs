@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_margin="@dimen/dp_8"
+    NOT_FOUND_0xb="@dimen/dp_8"
+    NOT_FOUND_0xc="@dimen/dp_4">
+    <LinearLayout
+        orientation="1"
+        padding="@dimen/ok_dp_16"
+        layout_width="-1"
+        android:layout_height="wrap_content">
+        <TextView
+            textSize="16sp"
+            textStyle="0x1"
+            id="@+id/chunkName"
+            layout_width="-1"
+            android:layout_height="wrap_content"/>
+        <TextView
+            textSize="14sp"
+            id="@+id/chunkSize"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            layout_marginTop="@dimen/dp_4"/>
+        <TextView
+            textSize="14sp"
+            id="@+id/chunkTime"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            layout_marginTop="@dimen/dp_4"/>
+        <o.C52794wYp
+            layout_gravity="0x11"
+            id="@+id/playButton"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            layout_marginTop="@dimen/dp_8"
+            text="播放"
+            NOT_FOUND_0xd="-2"
+            NOT_FOUND_0xe="44"
+            NOT_FOUND_0xf="0x104"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

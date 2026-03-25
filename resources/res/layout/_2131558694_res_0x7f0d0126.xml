@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    tag="layout/activity_select_withdrawal_network_0"
+    background="@color/BasePrimaryAlternative"
+    paddingBottom="@dimen/margin_16dp"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C33537myN
+        id="@+id/app_bar"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x12="true"
+        NOT_FOUND_0x13="@color/BasePrimaryAlternative"
+        NOT_FOUND_0x17="@color/BasePrimaryAlternative"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        textAppearance="@style/Headline_5_Bold"
+        textSize="28sp"
+        textColor="@color/ContentPrimary"
+        id="@+id/tv_real_title"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginLeft="@dimen/margin_24dp"
+        layout_marginTop="@dimen/margin_16dp"
+        layout_marginRight="@dimen/margin_24dp"
+        text="@string/pr_wallet_menu_title_select_network"
+        maxLines="2"
+        layout_marginHorizontal="@dimen/margin_24dp"
+        NOT_FOUND_0x16="@+id/app_bar"/>
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/rv_coins_network"
+        scrollbars="horizontal"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        overScrollMode="2"
+        NOT_FOUND_0x14="0"
+        NOT_FOUND_0x15="0"/>
+</LinearLayout>

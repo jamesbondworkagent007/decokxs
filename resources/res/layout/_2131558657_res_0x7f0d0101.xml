@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.tUD
+        id="@+id/navBar"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x5="@string/pr_social_my_profile_header_more_positions"
+        NOT_FOUND_0x6="@drawable/_2131231642_res_0x7f08039a"/>
+    <o.C55254xgV
+        id="@+id/tabs"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x7="true"
+        NOT_FOUND_0x8="44"/>
+    <androidx.viewpager2.widget.ViewPager2
+        id="@+id/viewPager"
+        layout_width="-1"
+        android:layout_height="match_parent"
+        overScrollMode="2"/>
+</LinearLayout>

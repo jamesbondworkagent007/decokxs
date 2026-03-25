@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    tag="layout/view_meeting_room_button_0"
+    background="@drawable/_2131231272_res_0x7f080228"
+    padding="12dp"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <ImageView
+        id="@+id/image"
+        layout_width="-1"
+        android:layout_height="match_parent"
+        scaleType="fitStart"
+        contentDescription="@null"/>
+</LinearLayout>

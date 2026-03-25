@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    textAppearance="@style/Label_3_Regular"
+    textColor="@color/ContentContrast"
+    gravity="0x10"
+    id="@+id/txTime"
+    tag="layout/item_coin_tx_history_header_0"
+    background="@color/BasePrimaryAlternative"
+    paddingTop="4dp"
+    paddingBottom="4dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    text="Oct 21 2021"
+    paddingStart="24dp"
+    paddingEnd="24dp"
+    paddingVertical="4dp"/>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    id="@+id/stateQrCode"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginLeft="24dp"
+    layout_marginRight="24dp"
+    layout_marginHorizontal="24dp">
+    <TextView
+        textAppearance="@style/Headline_4_Bold"
+        textColor="@color/ContentPrimary"
+        layout_gravity="0x1"
+        id="@+id/title"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="16dp"
+        text="@string/pr_account_security_mfa_passkey_title_scan_qr_code"/>
+    <TextView
+        textAppearance="@style/Label_1_Regular"
+        textColor="@color/color_content_static_default"
+        id="@+id/desc"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="8dp"
+        text="@string/pr_account_security_mfa_passkey_desc_scan_qr_code"/>
+    <ImageView
+        layout_gravity="0x11"
+        id="@+id/qrCode"
+        layout_width="256dp"
+        android:layout_height="256dp"
+        layout_marginTop="@dimen/margin_24dp"
+        layout_marginBottom="@dimen/margin_48dp"
+        contentDescription="QR Code"/>
+    <LinearLayout
+        gravity="0x11"
+        orientation="0"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="8dp"
+        layout_marginBottom="8dp"
+        layout_marginVertical="8dp">
+        <ImageView
+            layout_width="@dimen/width_16dp"
+            android:layout_height="@dimen/height_16dp"
+            src="@drawable/_2131233145_res_0x7f080979"
+            NOT_FOUND_0x12="@color/color_content_static_subtler"/>
+        <TextView
+            textAppearance="@style/Label_2_Regular"
+            textColor="@color/color_content_static_subtler"
+            id="@+id/appVersionRequirement"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            text="@string/pr_account_security_mfa_passkey_label_app_version"
+            layout_marginStart="@dimen/margin_8dp"/>
+    </LinearLayout>
+</LinearLayout>

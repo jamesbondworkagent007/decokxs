@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    background="?attr/selectableItemBackground"
+    paddingLeft="@dimen/dp24"
+    paddingTop="16dp"
+    paddingRight="@dimen/dp24"
+    paddingBottom="16dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingHorizontal="@dimen/dp24"
+    paddingVertical="16dp">
+    <ImageView
+        id="@+id/img_icon"
+        layout_width="32dp"
+        android:layout_height="32dp"
+        src="@drawable/_2131231677_res_0x7f0803bd"
+        NOT_FOUND_0x13="0"
+        NOT_FOUND_0x17="0"
+        NOT_FOUND_0x18="0"/>
+    <o.C40358qSx
+        id="@+id/crypto_layout"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_marginStart="@dimen/margin_12dp"
+        layout_marginEnd="12dp"
+        NOT_FOUND_0x13="0"
+        NOT_FOUND_0x15="@+id/checkbox"
+        NOT_FOUND_0x16="@+id/img_icon"
+        NOT_FOUND_0x18="0"
+        NOT_FOUND_0x19="0dp"
+        NOT_FOUND_0x1a="0dp"/>
+    <o.C33545myV
+        gravity="0x11"
+        id="@+id/checkbox"
+        focusable="false"
+        clickable="false"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        button="@drawable/_2131233427_res_0x7f080a93"
+        layout_centerVertical="true"
+        buttonTint="@null"
+        NOT_FOUND_0x13="0"
+        NOT_FOUND_0x14="0"
+        NOT_FOUND_0x18="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

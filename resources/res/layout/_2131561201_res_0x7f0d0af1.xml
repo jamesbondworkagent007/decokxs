@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/layout_dapp_network_info_bottomsheet_0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <ImageView
+        id="@+id/iv_icon"
+        visibility="0"
+        layout_width="95dp"
+        android:layout_height="95dp"
+        layout_marginTop="20dp"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x11="0"/>
+    <TextView
+        textAppearance="@style/Headline_5_Bold"
+        textColor="@color/ContentPrimary"
+        gravity="0x11"
+        id="@+id/tv_title"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_marginTop="12dp"
+        layout_marginBottom="12dp"
+        text="@string/pr_nft_explore_bttmsheet_title_wrong_dapp_network"
+        layout_marginStart="24dp"
+        layout_marginEnd="24dp"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x10="@+id/iv_icon"/>
+    <TextView
+        textAppearance="@style/Label_1_Regular"
+        textColor="@color/ContentTertiary"
+        gravity="0x800003"
+        id="@+id/tv_description"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_marginTop="24dp"
+        layout_marginBottom="20dp"
+        text="@string/pr_nft_explore_bttmsheet_desc_wrong_dapp_network"
+        layout_marginStart="24dp"
+        layout_marginEnd="24dp"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x10="@+id/tv_title"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        layout_width="-1"
+        android:layout_height="291dp">
+        <include layout="@layout/_2131561123_res_0x7f0d0aa3"/>
+        <o.C34888nku
+            id="@+id/spotGapChart"
+            layout_width="-1"
+            android:layout_height="291dp"/>
+    </RelativeLayout>
+</FrameLayout>

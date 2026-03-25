@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatTextView
+        textAppearance="@style/TextAppearance.Text.14SP.Regular"
+        textColor="@color/grey_g400"
+        id="@+id/inner_title"
+        tag="layout/trade_impl_inner_item_view_0"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="0.4"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        textAppearance="@style/TextAppearance.Text.Medium"
+        textSize="@dimen/text_size_14sp"
+        textColor="@color/grey_g900"
+        gravity="0x800005"
+        id="@+id/inner_content"
+        tag="layout/trade_impl_inner_item_view_1"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_marginStart="@dimen/margin_16dp"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xa="@+id/inner_title"
+        NOT_FOUND_0xc="0"/>
+</merge>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/kline_dex_item_sniper_icon_layout"
+    layout_width="@dimen/width_24dp"
+    android:layout_height="@dimen/height_24dp"
+    layout_marginBottom="@dimen/xxsm">
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/iv_sniper_icon"
+        layout_width="22dp"
+        android:layout_height="22dp"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="0"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        layout_gravity="0x800055"
+        id="@+id/iv_tag"
+        background="@drawable/_2131231867_res_0x7f08047b"
+        layout_width="11dp"
+        android:layout_height="11dp"
+        NOT_FOUND_0x6="0"
+        NOT_FOUND_0x7="@+id/iv_sniper_icon"
+        NOT_FOUND_0x8="135"
+        NOT_FOUND_0x9="11dp"
+        NOT_FOUND_0xa="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

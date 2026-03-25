@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    background="@color/BasePrimary"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C33537myN
+        id="@+id/appBar"
+        visibility="0"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x8="@string/pr_trade_premkt_header_premarket_trading"
+        NOT_FOUND_0xd="true"/>
+    <o.C55237xgE
+        id="@+id/stateResult"
+        layout_width="-1"
+        android:layout_height="match_parent"
+        NOT_FOUND_0x9="true">
+        <o.C33546myW
+            id="@+id/smart_refresh"
+            layout_width="-1"
+            android:layout_height="match_parent"
+            NOT_FOUND_0xa="true"
+            NOT_FOUND_0xb="true"
+            NOT_FOUND_0xc="true">
+            <o.C33603mza
+                layout_width="-1"
+                android:layout_height="wrap_content"/>
+            <androidx.recyclerview.widget.RecyclerView
+                id="@+id/rcv"
+                background="@color/BasePrimary"
+                descendantFocusability="0"
+                layout_width="-1"
+                android:layout_height="match_parent"
+                overScrollMode="2"/>
+            <o.C33604mzb
+                layout_width="-1"
+                android:layout_height="wrap_content"/>
+        </o.C33546myW>
+    </o.C55237xgE>
+</LinearLayout>

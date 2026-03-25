@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x11"
+    orientation="1"
+    background="@drawable/_2131231872_res_0x7f080480"
+    layout_width="66dp"
+    android:layout_height="58dp"
+    contentDescription="web3_dex_swap_provider_sub_route_row">
+    <RelativeLayout
+        layout_width="-2"
+        android:layout_height="wrap_content">
+        <ImageView
+            id="@+id/token_image"
+            layout_width="24dp"
+            android:layout_height="24dp"
+            scaleType="7"/>
+    </RelativeLayout>
+    <o.C55390xiz
+        enabled="true"
+        textSize="@dimen/text_size_12sp"
+        textColor="@color/okTradeG700"
+        gravity="0x11"
+        id="@+id/token_desc"
+        paddingLeft="4dp"
+        paddingRight="4dp"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="4dp"
+        text="@string/pr_metax_trade_title_from"
+        maxLines="1"
+        fontFamily="@font/font_alpha_regular"
+        paddingHorizontal="4dp"
+        NOT_FOUND_0x12="1"/>
+</LinearLayout>

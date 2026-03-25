@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    id="@+id/stateConnecting"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginLeft="24dp"
+    layout_marginRight="24dp"
+    layout_marginHorizontal="24dp">
+    <TextView
+        textAppearance="@style/Headline_4_Bold"
+        textColor="@color/ContentPrimary"
+        id="@+id/title"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="16dp"
+        text="@string/pr_account_security_mfa_passkey_title_connecting_device"/>
+    <o.C55113xdn
+        layout_gravity="0x11"
+        id="@+id/loadingView"
+        layout_width="188dp"
+        android:layout_height="188dp"
+        layout_marginTop="77dp"
+        layout_marginBottom="77dp"
+        layout_marginVertical="77dp"
+        NOT_FOUND_0xe="true"
+        NOT_FOUND_0xf="true"
+        NOT_FOUND_0x10="@raw/_2131886137_res_0x7f120039"/>
+</LinearLayout>

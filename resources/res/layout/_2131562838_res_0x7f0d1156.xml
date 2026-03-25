@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="0"
+    id="@+id/menu"
+    layout_width="-2"
+    android:layout_height="wrap_content"
+    layout_marginEnd="6dp"
+    NOT_FOUND_0xd="0"
+    NOT_FOUND_0xe="@+id/status_bar">
+    <o.wYB
+        id="@+id/more"
+        visibility="2"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginLeft="6dp"
+        layout_marginRight="6dp"
+        src="@drawable/_2131233513_res_0x7f080ae9"
+        layout_marginHorizontal="6dp"
+        NOT_FOUND_0xa="@color/ContentDisabled"
+        NOT_FOUND_0xb="@color/ContentPrimary"
+        NOT_FOUND_0xc="@color/ContentPrimary"
+        NOT_FOUND_0xf="-5"/>
+    <o.wYB
+        id="@+id/close"
+        visibility="2"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginLeft="6dp"
+        layout_marginRight="6dp"
+        src="@drawable/_2131231675_res_0x7f0803bb"
+        layout_marginHorizontal="6dp"
+        NOT_FOUND_0xa="@color/ContentDisabled"
+        NOT_FOUND_0xb="@color/ContentPrimary"
+        NOT_FOUND_0xc="@color/ContentPrimary"
+        NOT_FOUND_0xf="-5"/>
+</merge>

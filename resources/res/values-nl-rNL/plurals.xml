@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pr_account_cedefi_tab_desc_network">
+        <item quantity="one">Geactiveerd op {num} netwerk</item>
+        <item quantity="other">Geactiveerd op {num} netwerken</item>
+    </plurals>
+    <plurals name="pr_compliance_global_poa_label_files_uploaded">
+        <item quantity="one">{number} bestand geüpload</item>
+        <item quantity="other">{number} bestanden geüpload</item>
+    </plurals>
+    <plurals name="pr_dcdbot_placeorder_toast_found_num_bot">
+        <item quantity="one">Heeft {number} product voor jou gevonden</item>
+        <item quantity="other">Heeft {number} producten voor jou gevonden</item>
+    </plurals>
+    <plurals name="pr_im_invite_user_dialog_text_upgrade_find_out_single_error">
+        <item quantity="one">We hebben een aantal wijzigingen doorgevoerd. Update je app om te zien waarom deze gebruikers niet toegevoegd konden worden.</item>
+        <item quantity="other">We hebben een aantal wijzigingen doorgevoerd. Update je app om te zien waarom deze gebruikers niet toegevoegd konden worden.</item>
+    </plurals>
+    <plurals name="pr_invest_smartmoney_mid_alert_day">
+        <item quantity="one">{num} dag</item>
+        <item quantity="other">{num} dagen</item>
+    </plurals>
+    <plurals name="pr_invest_smartmoney_mid_alert_hour">
+        <item quantity="one">{num} uur</item>
+        <item quantity="other">{num} uur</item>
+    </plurals>
+    <plurals name="pr_invest_smartmoney_mid_alert_minute">
+        <item quantity="one">{num} minuut</item>
+        <item quantity="other">{num} minuten</item>
+    </plurals>
+    <plurals name="pr_invest_smartmoney_mid_alert_second">
+        <item quantity="one">{num} seconde</item>
+        <item quantity="other">{num} seconden</item>
+    </plurals>
+    <plurals name="pr_investutxo_bot_textarea_desc_potential_risk">
+        <item quantity="one">Je hebt 1 UTXO geselecteerd om te ontgrendelen. Hierdoor ga je {numToken} toevoegen, maar ook verlies van bezittingen veroorzaken in deze UTXO. Bevestig je bezittingen voordat je ze ontgrendelt.</item>
+        <item quantity="other">Je hebt {num} UTXO&apos;s geselecteerd om te ontgrendelen. Hierdoor ga je {numToken} toevoegen, maar veroorzaakt ook verlies van bezit in deze UTXO. Bevestig je bezittingen voordat je ze ontgrendelt.</item>
+    </plurals>
+    <plurals name="pr_message_call_text_user_others_v2">
+        <item quantity="one">{user1}, {user2} en nog {num} andere</item>
+        <item quantity="other">{user1}, {user2} en nog {num} anderen</item>
+    </plurals>
+    <plurals name="pr_message_chat_header_num_reactions">
+        <item quantity="one">{num} reactie</item>
+        <item quantity="other">{num} reacties</item>
+    </plurals>
+    <plurals name="pr_message_chat_label_unread_message_pl">
+        <item quantity="one">Ongelezen bericht</item>
+        <item quantity="other">Niet gelezen berichten</item>
+    </plurals>
+    <plurals name="pr_message_competition_textarea_climbed_var_pl">
+        <item quantity="one">steeg {num} plaats</item>
+        <item quantity="other">steeg {num} plaatsen</item>
+    </plurals>
+    <plurals name="pr_message_competition_textarea_dropped_var_pl">
+        <item quantity="one">{num} plaats gedaald</item>
+        <item quantity="other">{num} plaatsen gedaald</item>
+    </plurals>
+    <plurals name="pr_message_competition_textarea_ends_in_num_days_var_pl">
+        <item quantity="one">{num} dag</item>
+        <item quantity="other">{num} dagen</item>
+    </plurals>
+    <plurals name="pr_message_competition_user_others_left">
+        <item quantity="one">{user} en {number} andere hebben het team verlaten.</item>
+        <item quantity="other">{user} en {number} anderen hebben het team verlaten.</item>
+    </plurals>
+    <plurals name="pr_message_group_admin_bulk_add_to_group_pl">
+        <item quantity="one">{user1} heeft {user2} en {number} andere persoon toegevoegd aan de groep.</item>
+        <item quantity="other">{user1} heeft {user2} en {number} andere personen toegevoegd aan de groep.</item>
+    </plurals>
+    <plurals name="pr_message_group_alertbanner_review_plural_key">
+        <item quantity="one">Bekijk {num} deelnameverzoek</item>
+        <item quantity="other">Bekijk {num} deelnameverzoeken</item>
+    </plurals>
+    <plurals name="pr_message_group_bulk_add_admin_var_pl">
+        <item quantity="one">{admin} heeft {members} en nog {number} andere persoon als beheerders toegevoegd.</item>
+        <item quantity="other">{admin} heeft {members} en nog {number} andere personen als beheerders toegevoegd.</item>
+    </plurals>
+    <plurals name="pr_message_group_bulk_add_admin_you_pl">
+        <item quantity="one">{admin} heeft jou en {number} andere persoon als beheerders toegevoegd.</item>
+        <item quantity="other">{admin} heeft jou en {number} andere personen als beheerders toegevoegd.</item>
+    </plurals>
+    <plurals name="pr_message_group_bulk_remove_admin_you_pl">
+        <item quantity="one">{admin1} heeft jou en nog {number} andere persoon als beheerder verwijderd.</item>
+        <item quantity="other">{admin1} heeft jou en nog {number} andere personen als beheerder verwijderd.</item>
+    </plurals>
+    <plurals name="pr_message_group_chat_removed_from_group_pl">
+        <item quantity="one">Je hebt {user} en {number} andere persoon uit de groep verwijderd.</item>
+        <item quantity="other">Je hebt {user} en {number} anderen uit de groep verwijderd.</item>
+    </plurals>
+    <plurals name="pr_message_group_chat_removed_from_group_pl_var">
+        <item quantity="one">{admin} heeft {user} en {number} andere persoon uit de groep verwijderd.</item>
+        <item quantity="other">{admin} heeft {user} en {number} anderen verwijderd uit de groep.</item>
+    </plurals>
+    <plurals name="pr_message_group_dialog_header_remove_member_pl">
+        <item quantity="one">Dit lid verwijderen?</item>
+        <item quantity="other">Geselecteerde leden verwijderen?</item>
+    </plurals>
+    <plurals name="pr_message_group_label_num_already_here_pl">
+        <item quantity="one">{num} van je contacten is al hier</item>
+        <item quantity="other">{num} van je contacten zijn hier al</item>
+    </plurals>
+    <plurals name="pr_message_group_textarea_bulk_remove_admin_var_pl">
+        <item quantity="one">{admin1} heeft {admin2} en nog {number} andere persoon als beheerder verwijderd.</item>
+        <item quantity="other">{admin1} heeft {admin2} en nog {number} andere personen als beheerder verwijderd.</item>
+    </plurals>
+    <plurals name="pr_message_group_you_bulk_add_admin_pl">
+        <item quantity="one">Je hebt {members} en nog {number} andere persoon toegevoegd als beheerders.</item>
+        <item quantity="other">Je hebt {members} en nog {number} andere personen toegevoegd als beheerders.</item>
+    </plurals>
+    <plurals name="pr_message_group_you_bulk_add_to_group_pl">
+        <item quantity="one">Je hebt {users} en nog {number} andere persoon aan de groep toegevoegd.</item>
+        <item quantity="other">Je hebt {users} en nog {number} andere personen aan de groep toegevoegd.</item>
+    </plurals>
+    <plurals name="pr_message_group_you_bulk_remove_admin_pl">
+        <item quantity="one">Je hebt {admins} en nog {number} andere personen verwijderd als beheerder.</item>
+        <item quantity="other">Je hebt {admins} en nog {number} andere personen verwijderd als beheerder.</item>
+    </plurals>
+    <plurals name="pr_message_info_text_read_by_num_members">
+        <item quantity="one">Gelezen door {num} lid</item>
+        <item quantity="other">Gelezen door {num} leden</item>
+    </plurals>
+    <plurals name="pr_message_invite_user_dialog_text_cant_add_to_group_plural">
+        <item quantity="one">Mogelijk hebben ze privacy-instellingen ingeschakeld of jou niet toegevoegd. We hebben ze in plaats daarvan een uitnodiging gestuurd.</item>
+        <item quantity="other">Mogelijk hebben ze privacy-instellingen ingeschakeld of jou niet toegevoegd. We hebben ze in plaats daarvan een uitnodiging gestuurd.</item>
+    </plurals>
+    <plurals name="pr_message_notice_dialog_header_remove_num_notices_pl">
+        <item quantity="one">{num} bericht verwijderen?</item>
+        <item quantity="other">{num} berichten verwijderen?</item>
+    </plurals>
+    <plurals name="pr_message_notice_textarea_removed_notice_pl">
+        <item quantity="one">Je hebt een bericht verwijderd.</item>
+        <item quantity="other">Je hebt enkele berichten verwijderd.</item>
+    </plurals>
+    <plurals name="pr_message_notice_textarea_removed_notice_pl_var">
+        <item quantity="one">{user} heeft een bericht verwijderd.</item>
+        <item quantity="other">{user} heeft enkele berichten verwijderd.</item>
+    </plurals>
+    <plurals name="pr_message_notice_toast_notice_removed_pl">
+        <item quantity="one">Bericht verwijderd</item>
+        <item quantity="other">Berichten verwijderd</item>
+    </plurals>
+    <plurals name="pr_message_paid_group_bttmsheet_title_add_admin_pl">
+        <item quantity="one">Nieuwe beheerder toevoegen?</item>
+        <item quantity="other">Nieuwe beheerders toevoegen?</item>
+    </plurals>
+    <plurals name="pr_message_planet_label_num_members_pl">
+        <item quantity="one">{num} lid</item>
+        <item quantity="other">{num} leden</item>
+    </plurals>
+    <plurals name="pr_message_share_desc_msg_cant_send_pl">
+        <item quantity="one">De chat die je hebt geselecteerd kan je bericht niet ontvangen om de volgende reden:</item>
+        <item quantity="other">De chats die je hebt geselecteerd kan je bericht niet ontvangen om de volgende reden:</item>
+    </plurals>
+    <plurals name="pr_message_share_desc_some_cant_share_pl">
+        <item quantity="one">Een chat kon je bericht echter om de volgende reden niet ontvangen:</item>
+        <item quantity="other">Sommige chats konden je bericht echter om de volgende redenen niet ontvangen:</item>
+    </plurals>
+    <plurals name="pr_message_sticker_toast_sticker_removed_pl">
+        <item quantity="one">Sticker verwijderd</item>
+        <item quantity="other">Stickers verwijderd</item>
+    </plurals>
+    <plurals name="pr_orbit_profile_label_followers_pl">
+        <item quantity="one">volger</item>
+        <item quantity="other">volgers</item>
+    </plurals>
+    <plurals name="pr_orbit_profile_livestream_text_num_views">
+        <item quantity="one">{num} weergave</item>
+        <item quantity="other">{num} weergaven</item>
+    </plurals>
+    <plurals name="pr_orbit_profile_selectioncard_label_num_groups_pl">
+        <item quantity="one">{num} groep</item>
+        <item quantity="other">{num} groepen</item>
+    </plurals>
+    <plurals name="pr_social_marketplace_feeds_num_followers">
+        <item quantity="one">{num} volger</item>
+        <item quantity="other">{num} volgers</item>
+    </plurals>
+    <plurals name="pr_supportcenter_card_desc_open_tickets">
+        <item quantity="one">Eén openstaand ticket</item>
+        <item quantity="other">{number} openstaande tickets</item>
+    </plurals>
+    <plurals name="pr_supportcenter_landing_recommendation_cards_plu">
+        <item quantity="one">Houd dit in de gaten</item>
+        <item quantity="other">{number} dingen om in de gaten te houden</item>
+    </plurals>
+    <plurals name="pr_supportcenter_landing_tag_issue_count">
+        <item quantity="one">{number} probleem</item>
+        <item quantity="other">{number} problemen</item>
+    </plurals>
+    <plurals name="pr_swaptrade_1swap_notification_selected_pools_reselect">
+        <item quantity="one">De {num} pool die je hebt geselecteerd heeft momenteel geen liquiditeit. Selecteer meer pools van OKX DEX om prijzen te zien.</item>
+        <item quantity="other">De {num} pools die je hebt geselecteerd hebben momenteel geen liquiditeit. Selecteer meer pools van OKX DEX om prijzen te zien.</item>
+    </plurals>
+    <plurals name="pr_swaptrade_address_number">
+        <item quantity="one">{num} adres</item>
+        <item quantity="other">{num} adressen</item>
+    </plurals>
+    <plurals name="pr_swaptrade_alert_toast_turned_off">
+        <item quantity="one">Waarschuwing verwijderd voor {num} adres</item>
+        <item quantity="other">Waarschuwingen verwijderd voor {num} adressen</item>
+    </plurals>
+    <plurals name="pr_swaptrade_alert_toast_turned_on">
+        <item quantity="one">Waarschuwing toegevoegd voor {num} adres</item>
+        <item quantity="other">Waarschuwingen toegevoegd voor {num} adressen</item>
+    </plurals>
+    <plurals name="pr_swaptrade_bridge_dialog_this_transaction_requires_sign">
+        <item quantity="one">Deze transactie vereist {num} handtekening:</item>
+        <item quantity="other">Deze transactie vereist {num} handtekeningen:</item>
+    </plurals>
+    <plurals name="pr_swaptrade_copytrade_30_days">
+        <item quantity="one">{num} dag</item>
+        <item quantity="other">{num} dagen</item>
+    </plurals>
+    <plurals name="pr_swaptrade_copytrade_reminder_renew_or_suspend_plural">
+        <item quantity="one">Smart account vervalt over {numDays} dag. Verleng en voorkom handelsonderbrekingen.</item>
+        <item quantity="other">Smart account vervalt over {numDays} dagen. Verleng en voorkom handelsonderbrekingen.</item>
+    </plurals>
+    <plurals name="pr_swaptrade_copytrade_status_hrs">
+        <item quantity="one">{num} uur</item>
+        <item quantity="other">{num} uur</item>
+    </plurals>
+    <plurals name="pr_swaptrade_copytrade_status_mins">
+        <item quantity="one">{num} minuut</item>
+        <item quantity="other">{num} minuten</item>
+    </plurals>
+    <plurals name="pr_swaptrade_header_sources_selected">
+        <item quantity="one">{num} bron</item>
+        <item quantity="other">{num} bronnen</item>
+    </plurals>
+    <plurals name="pr_swaptrade_market_title_confirm_unfollow_all_tab_case">
+        <item quantity="one">Weet je zeker dat je {num} adres uit alle groepen wilt ontvolgen?</item>
+        <item quantity="other">Weet je zeker dat je {num} adressen uit alle groepen wilt ontvolgen?</item>
+    </plurals>
+    <plurals name="pr_swaptrade_market_title_total_tokens">
+        <item quantity="one">In totaal {num} token</item>
+        <item quantity="other">In totaal {num} tokens</item>
+    </plurals>
+    <plurals name="pr_swaptrade_market_title_unfollow_message">
+        <item quantity="one">Weet je zeker dat je {num} adres uit deze groep wilt ontvolgen?</item>
+        <item quantity="other">Weet je zeker dat je {num} adressen uit deze groep wilt ontvolgen?</item>
+    </plurals>
+    <plurals name="pr_swaptrade_smart_account_reminder_desc_renew_smart_account_days">
+        <item quantity="one">Smart account vervalt over {num} dag. Openstaande orders worden onderbroken zodra het account is verlopen.</item>
+        <item quantity="other">Smart account vervalt over {num} dagen. Openstaande orders worden onderbroken zodra het account is verlopen.</item>
+    </plurals>
+    <plurals name="pr_swaptrade_successfully_added_toast">
+        <item quantity="one">Verplaatst naar {num} groep</item>
+        <item quantity="other">Verplaatst naar {num} groepen</item>
+    </plurals>
+    <plurals name="pr_swaptrade_toast_no_liquidity_provider_alert_pool">
+        <item quantity="one">Je bent overgeplaatst naar een derde partij aanbieder omdat de geselecteerde pool geen liquiditeit heeft. Selecteer opnieuw de pool om via de OKX DEX Aggregator te handelen.</item>
+        <item quantity="other">Je bent overgeplaatst naar een derde partij aanbieder omdat {num} geselecteerde pools geen liquiditeit hebben. Selecteer opnieuw de pools om via de OKX DEX Aggregator te handelen.</item>
+    </plurals>
+    <plurals name="pr_swaptrade_token_detail_label_num_txn">
+        <item quantity="one">{num} txn</item>
+        <item quantity="other">{num} txns</item>
+    </plurals>
+    <plurals name="pr_swaptrade_tracker_textarea_activity">
+        <item quantity="one"># nieuwe activiteit</item>
+        <item quantity="other"># nieuwe activiteiten</item>
+    </plurals>
+    <plurals name="pr_trade_analysis_header_numd_pnl">
+        <item quantity="one">{num} d PnL</item>
+        <item quantity="other">{num} d PnL</item>
+    </plurals>
+    <plurals name="pr_trade_card_title_cumulative_perpetual_pnl_last">
+        <item quantity="one">Cumulatieve perpetual PnL (laatste {number} dag)</item>
+        <item quantity="other">Cumulatieve perpetual PnL (laatste {number} dagen)</item>
+    </plurals>
+    <plurals name="pr_trade_card_title_top_3_contracts_last_number_days">
+        <item quantity="one">Top 3 futures (de afgelopen {number} dag)</item>
+        <item quantity="other">Top 3 futures (de afgelopen {number} dagen)</item>
+    </plurals>
+    <plurals name="pr_trade_card_title_top_3_long_last_number_days">
+        <item quantity="one">Top 3 long futures (de afgelopen {number} dag)</item>
+        <item quantity="other">Top 3 long futures (de afgelopen {number} dagen)</item>
+    </plurals>
+    <plurals name="pr_trade_card_title_top_3_short_last_number_days">
+        <item quantity="one">Top 3 short futures (de afgelopen {number} dag)</item>
+        <item quantity="other">Top 3 short futures (de afgelopen {number} dagen)</item>
+    </plurals>
+    <plurals name="pr_trade_charts_num_bars">
+        <item quantity="one">{num} kaars</item>
+        <item quantity="other">{num} kaarsen</item>
+    </plurals>
+    <plurals name="pr_trade_discover_numd_ago">
+        <item quantity="one">{num} d geleden</item>
+        <item quantity="other">{num} d geleden</item>
+    </plurals>
+    <plurals name="pr_trade_discover_numh_ago">
+        <item quantity="one">{num} u geleden</item>
+        <item quantity="other">{num} u geleden</item>
+    </plurals>
+    <plurals name="pr_trade_discover_numm_ago">
+        <item quantity="one">{num} m geleden</item>
+        <item quantity="other">{num} m geleden</item>
+    </plurals>
+    <plurals name="pr_trade_discover_nums_ago">
+        <item quantity="one">{num} s geleden</item>
+        <item quantity="other">{num} s geleden</item>
+    </plurals>
+    <plurals name="pr_trade_feed_num_answered">
+        <item quantity="one">{num} heeft gestemd</item>
+        <item quantity="other">{num} hebben gestemd</item>
+    </plurals>
+    <plurals name="pr_trade_general_timeframe_days_variable">
+        <item quantity="one">{num} dag</item>
+        <item quantity="other">{num} dagen</item>
+    </plurals>
+    <plurals name="pr_trade_general_timeframe_days_variable_tian">
+        <item quantity="one">{num} dag</item>
+        <item quantity="other">{num} dagen</item>
+    </plurals>
+    <plurals name="pr_trade_general_timeframe_hours_update">
+        <item quantity="one">{num} uur</item>
+        <item quantity="other">{num} uur</item>
+    </plurals>
+    <plurals name="pr_trade_general_timeframe_minutes_update">
+        <item quantity="one">{num} minuut</item>
+        <item quantity="other">{num} minuten</item>
+    </plurals>
+    <plurals name="pr_trade_home_desc_num_hours">
+        <item quantity="one">{num} uur</item>
+        <item quantity="other">{num} uur</item>
+    </plurals>
+    <plurals name="pr_trade_marketevents_header_num_related_posts">
+        <item quantity="one">{num} gerelateerd bericht</item>
+        <item quantity="other">{num} gerelateerde berichten</item>
+    </plurals>
+    <plurals name="pr_trade_marketevents_label_num_posts">
+        <item quantity="one">{num} bericht</item>
+        <item quantity="other">{num} berichten</item>
+    </plurals>
+    <plurals name="pr_trade_orbit_title_num_days">
+        <item quantity="one">{num} dag</item>
+        <item quantity="other">{num} dagen</item>
+    </plurals>
+    <plurals name="pr_trade_orbit_title_num_years">
+        <item quantity="one">{num} jaar</item>
+        <item quantity="other">{num} jaar</item>
+    </plurals>
+    <plurals name="pr_trade_tokenunlocks_countdown_numd">
+        <item quantity="one">{num}d</item>
+        <item quantity="other">{num}d</item>
+    </plurals>
+    <plurals name="pr_trade_tokenunlocks_num_days_ago">
+        <item quantity="one">{num} dag geleden</item>
+        <item quantity="other">{num} dagen geleden</item>
+    </plurals>
+    <plurals name="pr_wallet_approval_alert_subtitle_num_risk_new">
+        <item quantity="one">{count}riskante goedkeuring</item>
+        <item quantity="other">{count}riskante goedkeuringen</item>
+    </plurals>
+    <plurals name="pr_wallet_approval_textbtn_hide_num_approval">
+        <item quantity="one">Minder weergeven</item>
+        <item quantity="other">Minder weergeven</item>
+    </plurals>
+    <plurals name="pr_wallet_approve_alert_risky_approvals">
+        <item quantity="one">{num}riskante goedkeuring</item>
+        <item quantity="other">{num}riskante goedkeuringen</item>
+    </plurals>
+    <plurals name="pr_wallet_connection_text_num_network">
+        <item quantity="one">1 netwerk</item>
+        <item quantity="other">{num} netwerken</item>
+    </plurals>
+    <plurals name="pr_wallet_connection_title_connected_to_num_networks">
+        <item quantity="one">Verbonden met één netwerk</item>
+        <item quantity="other">Verbonden met {num} netwerken</item>
+    </plurals>
+    <plurals name="pr_wallet_function_emptystate_num_unavailable_hidden">
+        <item quantity="one">Kan {num} token niet converteren.</item>
+        <item quantity="other">Kan {num} tokens niet converteren.</item>
+    </plurals>
+    <plurals name="pr_wallet_function_label_num_swaps">
+        <item quantity="one">{num} token</item>
+        <item quantity="other">{num} tokens</item>
+    </plurals>
+    <plurals name="pr_wallet_function_notification_num_tokens_noquote">
+        <item quantity="one">Kan {num} token niet converteren zonder koers.</item>
+        <item quantity="other">Kan {num} tokens niet converteren zonder koers.</item>
+    </plurals>
+    <plurals name="pr_wallet_function_notification_title_num_tokens_converted">
+        <item quantity="one">{num} token geconverteerd</item>
+        <item quantity="other">{num} tokens geconverteerd</item>
+    </plurals>
+    <plurals name="pr_wallet_function_title_converting_num_tokens">
+        <item quantity="one">Bezig met converteren van {num} token</item>
+        <item quantity="other">Bezig met converteren van {num} tokens</item>
+    </plurals>
+    <plurals name="pr_wallet_multisend_alertbanner_desc_num_address_confirm">
+        <item quantity="one">Je moet {num} ontvangstadres controleren</item>
+        <item quantity="other">Je moet {num} ontvangstadressen controleren</item>
+    </plurals>
+    <plurals name="pr_wallet_multisend_input_num_transaction">
+        <item quantity="one">Inclusief {num} transactie</item>
+        <item quantity="other">Inclusief {num} transacties</item>
+    </plurals>
+    <plurals name="pr_wallet_multisend_reminder_desc_current_scenario">
+        <item quantity="one">{num} niet-ondersteunde wallet is verborgen.</item>
+        <item quantity="other">{num} niet-ondersteunde wallets zijn verborgen.</item>
+    </plurals>
+    <plurals name="pr_wallet_search_desc_num_assets">
+        <item quantity="one">{num} bezit</item>
+        <item quantity="other">{num} bezittingen</item>
+    </plurals>
+    <plurals name="pr_wallet_settings_reminder_desc_fail_check">
+        <item quantity="one">De scan heeft {num} risico gevonden op je apparaat.</item>
+        <item quantity="other">De scan heeft {num} risico&apos;s gevonden op je apparaat.</item>
+    </plurals>
+    <plurals name="pr_wallet_subtitle_non_interactive_address">
+        <item quantity="one">{count}niet-interactieve DApp</item>
+        <item quantity="other">{count}niet-interactieve DApps</item>
+    </plurals>
+</resources>

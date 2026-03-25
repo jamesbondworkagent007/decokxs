@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    textAppearance="@style/TextAppearance"
+    textColor="@color/white_w900"
+    gravity="0x800013"
+    id="@+id/tv_tips_message"
+    background="@drawable/_2131234138_res_0x7f080d5a"
+    paddingLeft="@dimen/padding_12dp"
+    paddingTop="@dimen/padding_8dp"
+    paddingRight="@dimen/padding_12dp"
+    paddingBottom="@dimen/padding_8dp"
+    layout_width="-2"
+    android:layout_height="wrap_content"
+    paddingHorizontal="@dimen/padding_12dp"
+    paddingVertical="@dimen/padding_8dp"/>

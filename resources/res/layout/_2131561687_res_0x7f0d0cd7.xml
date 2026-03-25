@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    background="@color/BasePrimary"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C41002qib
+        id="@+id/appBarView"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x8="true"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="@drawable/_2131231588_res_0x7f080364"/>
+    <androidx.viewpager2.widget.ViewPager2
+        id="@+id/viewPager2"
+        paddingLeft="24dp"
+        paddingRight="24dp"
+        layout_width="0dp"
+        android:layout_height="0dp"
+        layout_marginTop="12dp"
+        paddingHorizontal="24dp"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="@+id/appBarView"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

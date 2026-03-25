@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/container"
+    tag="layout/item_header_0"
+    paddingBottom="28dp"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <TextView
+        textColor="@color/ContentPrimary"
+        id="@+id/header_title_line1"
+        visibility="2"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xd="0"
+        style="@style/Headline_4_Bold"/>
+    <TextView
+        textColor="@color/ContentPrimary"
+        id="@+id/header_title_line2"
+        visibility="2"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_marginTop="8dp"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="@+id/header_title_line1"
+        style="@style/Headline_4_Bold"/>
+    <TextView
+        textSize="16sp"
+        textColor="?attr/headerSubtitleTextColor"
+        id="@+id/header_subtitle"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_8dp"
+        lineSpacingExtra="?attr/headerSubtitleLineSpacingExtra"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="@+id/header_title_line2"
+        style="@style/Body_2_Regular"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

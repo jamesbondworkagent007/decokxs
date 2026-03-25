@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.C52794wYp
+        textSize="@dimen/text_size_16sp"
+        ellipsize="3"
+        gravity="0x11"
+        id="@+id/btn_approve"
+        visibility="0"
+        layout_width="@dimen/width_0dp"
+        android:layout_height="wrap_content"
+        text="@string/pr_metax_trade_btn_approve"
+        maxLines="2"
+        layout_weight="1"
+        NOT_FOUND_0xb="52"
+        NOT_FOUND_0xc="0x103"
+        NOT_FOUND_0xd="-2"/>
+    <o.C52794wYp
+        textSize="@dimen/text_size_16sp"
+        ellipsize="3"
+        gravity="0x11"
+        id="@+id/btn_ok"
+        visibility="0"
+        layout_width="@dimen/width_0dp"
+        android:layout_height="wrap_content"
+        maxLines="2"
+        layout_weight="1"
+        NOT_FOUND_0xb="52"
+        NOT_FOUND_0xc="0x103"
+        NOT_FOUND_0xd="-2"/>
+</merge>

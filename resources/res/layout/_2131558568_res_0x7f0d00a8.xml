@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    fitsSystemWindows="true"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <ImageView
+        id="@+id/iv_back"
+        layout_width="24dp"
+        android:layout_height="24dp"
+        layout_margin="@dimen/margin_5dp"
+        layout_marginLeft="16dp"
+        layout_marginRight="16dp"
+        src="@drawable/_2131232347_res_0x7f08065b"
+        layout_marginHorizontal="16dp"
+        NOT_FOUND_0xf="@+id/title"
+        NOT_FOUND_0x12="0"
+        NOT_FOUND_0x14="0"
+        NOT_FOUND_0x17="@color/grey_5"/>
+    <TextView
+        textSize="@dimen/text_size_18sp"
+        textStyle="0x1"
+        textColor="@color/grey_g900"
+        id="@+id/title"
+        padding="@dimen/dp_10"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        text="H5 Applink Debugger"
+        NOT_FOUND_0x11="0"
+        NOT_FOUND_0x12="0"
+        NOT_FOUND_0x14="0"/>
+    <o.C55230xfy
+        id="@+id/search_bar"
+        padding="@dimen/dp_10"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x11="0"
+        NOT_FOUND_0x12="0"
+        NOT_FOUND_0x13="@+id/title"/>
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/h5_applink_recycler"
+        layout_width="-1"
+        android:layout_height="0dp"
+        layout_marginBottom="@dimen/dp_10"
+        NOT_FOUND_0x10="@+id/manually_h5_webview"
+        NOT_FOUND_0x11="0"
+        NOT_FOUND_0x12="0"
+        NOT_FOUND_0x13="@+id/search_bar"/>
+    <o.C52794wYp
+        id="@+id/manually_h5_webview"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_margin="@dimen/dp_10"
+        text="Trigger H5 Manually in webview"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x11="0"
+        NOT_FOUND_0x12="0"
+        NOT_FOUND_0x15="44"
+        NOT_FOUND_0x16="0x101"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

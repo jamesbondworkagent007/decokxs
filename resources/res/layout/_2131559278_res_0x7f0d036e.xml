@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x10"
+    orientation="0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.C55008xbo
+        id="@+id/et_price_change_percentage"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_weight="1"
+        NOT_FOUND_0x7="48"
+        NOT_FOUND_0x8="0"
+        NOT_FOUND_0x9="1"
+        NOT_FOUND_0xa="0"/>
+    <o.C55008xbo
+        id="@+id/et_sell_percentage"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_weight="1"
+        layout_marginStart="@dimen/margin_8dp"
+        NOT_FOUND_0x7="48"
+        NOT_FOUND_0x8="0"
+        NOT_FOUND_0x9="1"
+        NOT_FOUND_0xa="0"/>
+    <ImageView
+        id="@+id/iv_remove"
+        layout_width="@dimen/width_20dp"
+        android:layout_height="@dimen/height_20dp"
+        layout_marginStart="7dp"
+        NOT_FOUND_0xb="@drawable/_2131233151_res_0x7f08097f"
+        NOT_FOUND_0xc="@color/ContentContrast"/>
+</merge>

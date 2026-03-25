@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    id="@+id/relative_layout"
+    tag="layout/fragment_arbitrage_search_root_0"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C55230xfy
+        textAppearance="@style/TextAppearance.Text.14SP"
+        textSize="@dimen/text_size_14sp"
+        textColor="@color/title_color"
+        textColorHint="@color/okTradeG300"
+        id="@+id/et_search"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginLeft="@dimen/common_page_edge_space"
+        layout_marginTop="@dimen/margin_8dp"
+        layout_marginRight="@dimen/common_page_edge_space"
+        layout_marginBottom="@dimen/margin_8dp"
+        hint="@string/pr_trade_bot_arbitrage_input_search"
+        layout_marginHorizontal="@dimen/common_page_edge_space"
+        layout_marginVertical="@dimen/margin_8dp"
+        NOT_FOUND_0x11="true"
+        NOT_FOUND_0x12="-3"/>
+    <o.C55254xgV
+        id="@+id/mTlSearchTab"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x13="44"/>
+    <androidx.viewpager2.widget.ViewPager2
+        id="@+id/mVpSearch"
+        layout_width="-1"
+        android:layout_height="match_parent"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x10"
+    orientation="0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <com.okinc.uilab.item.OKRegularCell
+        id="@+id/item_title"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0xb="@null"
+        NOT_FOUND_0xc="@color/ContentPrimary">
+        <androidx.appcompat.widget.LinearLayoutCompat
+            gravity="0x800015"
+            orientation="0"
+            layout_width="0dp"
+            android:layout_height="wrap_content"
+            layout_weight="1">
+            <androidx.appcompat.widget.AppCompatTextView
+                textAppearance="@style/TextAppearance.Text.14SP.Regular"
+                ellipsize="3"
+                gravity="0x800005"
+                id="@+id/tv_value"
+                layout_width="0dp"
+                android:layout_height="wrap_content"
+                maxLines="2"
+                layout_weight="1"/>
+            <ImageView
+                layout_gravity="0x800015"
+                layout_width="20dp"
+                android:layout_height="20dp"
+                src="@drawable/_2131231647_res_0x7f08039f"
+                NOT_FOUND_0xd="@color/ContentContrast"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </com.okinc.uilab.item.OKRegularCell>
+</androidx.appcompat.widget.LinearLayoutCompat>

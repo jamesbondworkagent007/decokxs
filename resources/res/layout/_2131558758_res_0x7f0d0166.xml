@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    gravity="0x800003"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <TextView
+        textAppearance="@style/TextAppearance.Text.14SP.Regular"
+        textColor="@color/ContentSecondary"
+        gravity="0x800003"
+        id="@+id/dialogContent"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        lineSpacingExtra="2.5dp"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

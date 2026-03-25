@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x10"
+    orientation="0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <com.okinc.uilab.item.OKRegularCell
+        id="@+id/okcell"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x9="Label">
+        <ImageView
+            layout_gravity="0x10"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            src="@drawable/_2131231647_res_0x7f08039f"
+            layout_marginStart="4dp"
+            NOT_FOUND_0x8="@color/cell_description_color"/>
+    </com.okinc.uilab.item.OKRegularCell>
+</LinearLayout>

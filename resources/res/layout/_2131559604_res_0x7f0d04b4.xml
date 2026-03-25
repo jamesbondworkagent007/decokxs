@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/dfragment_mpc_escape_success_item_0"
+    paddingTop="@dimen/margin_16dp"
+    paddingBottom="@dimen/margin_16dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingVertical="@dimen/margin_16dp">
+    <o.wYK
+        id="@+id/checkbox"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        checked="false"
+        layout_marginEnd="@dimen/margin_16dp"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x11="@drawable/_2131233900_res_0x7f080c6c"
+        NOT_FOUND_0x12="-5"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        textAppearance="@style/TextAppearance.Title.14SP.Medium"
+        textColor="@color/grey_g700"
+        id="@+id/reason_content"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_marginStart="@dimen/margin_16dp"
+        layout_marginEnd="32dp"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xe="@+id/checkbox"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x10="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatTextView
+        textAppearance="@style/TextAppearance.Text.14SP.Medium"
+        textColor="@color/ContentPrimary"
+        id="@+id/category_name"
+        tag="layout/trade_impl_view_mp_category_parent_0"
+        paddingTop="@dimen/padding_4dp"
+        paddingBottom="@dimen/padding_20dp"
+        layout_width="-1"
+        android:layout_height="wrap_content"/>
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/category_recycler_view"
+        tag="layout/trade_impl_view_mp_category_parent_1"
+        clipChildren="false"
+        clipToPadding="false"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_below="@+id/category_name"
+        overScrollMode="2"/>
+</merge>

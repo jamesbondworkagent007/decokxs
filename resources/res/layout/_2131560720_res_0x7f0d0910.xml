@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    textSize="@dimen/text_size_12sp"
+    textColor="@color/selector_color_g900_g700"
+    gravity="0x11"
+    id="@+id/type"
+    background="@drawable/_2131233896_res_0x7f080c68"
+    paddingTop="@dimen/padding_6dp"
+    paddingBottom="@dimen/padding_6dp"
+    layout_width="-2"
+    android:layout_height="wrap_content"
+    fontFamily="@font/font_alpha_regular"
+    paddingStart="@dimen/padding_8dp"
+    paddingEnd="@dimen/padding_8dp"/>

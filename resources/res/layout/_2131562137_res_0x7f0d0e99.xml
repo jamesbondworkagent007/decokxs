@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginStart="22dp">
+    <o.C55251xgS
+        id="@+id/side"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="-4"
+        NOT_FOUND_0xe="1"
+        NOT_FOUND_0xf="13"/>
+    <TextView
+        textAppearance="@style/Body_3_Regular"
+        textColor="@color/ContentContrast"
+        id="@+id/title"
+        paddingBottom="24dp"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_marginTop="4dp"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="@+id/side"/>
+    <TextView
+        textAppearance="@style/Body_4"
+        textColor="@color/ContentContrast"
+        id="@+id/time"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x8="@+id/side"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xc="@+id/side"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

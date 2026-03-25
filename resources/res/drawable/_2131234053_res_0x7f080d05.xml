@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape shape="0">
+            <gradient
+                startColor="@color/appupdate_indicator_gradient_start"
+                endColor="@color/appupdate_indicator_gradient_end"
+                angle="-180"/>
+            <corners radius="200dp"/>
+        </shape>
+    </item>
+</layer-list>

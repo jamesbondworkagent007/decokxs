@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    gravity="0x10"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginBottom="24dp">
+    <ImageView
+        layout_width="24dp"
+        android:layout_height="1dp"
+        src="@drawable/_2131231747_res_0x7f080403"
+        scaleType="fitEnd"
+        contentDescription="@null"/>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        gravity="0x10"
+        id="@+id/bgLayout"
+        background="@drawable/_2131231320_res_0x7f080258"
+        padding="8dp"
+        layout_width="-2"
+        android:layout_height="wrap_content">
+        <TextView
+            id="@+id/titleTv"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            style="@style/TextAppearance.Text.12SP.Medium"/>
+        <TextView
+            id="@+id/valueTv"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            layout_marginStart="4dp"
+            style="@style/Label_3_Bold"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>

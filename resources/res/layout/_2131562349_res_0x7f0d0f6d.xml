@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/trade_impl_fragment_bot_home_selected_0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.C55254xgV
+        id="@+id/category_tab_layout"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_4dp"
+        layout_marginBottom="@dimen/margin_4dp"
+        layout_marginVertical="@dimen/margin_4dp"
+        NOT_FOUND_0x9="true"
+        NOT_FOUND_0xa="44"/>
+    <androidx.viewpager2.widget.ViewPager2
+        id="@+id/category_vp2"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_below="@+id/category_tab_layout"
+        overScrollMode="2"/>
+</RelativeLayout>

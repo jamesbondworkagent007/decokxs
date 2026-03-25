@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    paddingLeft="@dimen/sm"
+    paddingRight="@dimen/sm"
+    paddingBottom="@dimen/padding_20dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingHorizontal="@dimen/sm">
+    <o.C27206jqn
+        id="@+id/detail_view"
+        focusable="true"
+        clickable="true"
+        layout_width="-1"
+        android:layout_height="wrap_content"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

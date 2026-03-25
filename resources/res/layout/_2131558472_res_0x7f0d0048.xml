@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/activity_brc20_send_0"
+    background="@color/BasePrimaryAlternative"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C33537myN
+        id="@+id/appBar"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x5="send"
+        NOT_FOUND_0x6="@color/grey_g900"
+        NOT_FOUND_0x7="@color/BasePrimaryAlternative"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="@color/BasePrimaryAlternative"/>
+    <FrameLayout
+        id="@+id/fragment"
+        layout_width="0dp"
+        android:layout_height="0dp"
+        NOT_FOUND_0x8="0"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="@+id/appBar"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

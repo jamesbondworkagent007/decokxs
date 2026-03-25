@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C55173xeu
+        id="@+id/error"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="32dp"
+        NOT_FOUND_0x4="8"
+        NOT_FOUND_0x5="@string/pr_home_mid_toast_network_wrong_wait"
+        NOT_FOUND_0x6="@string/pr_kyc_guide_btn_complete_next"/>
+</FrameLayout>

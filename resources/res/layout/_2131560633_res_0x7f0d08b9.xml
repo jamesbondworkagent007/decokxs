@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    tag="layout/item_input_choice_item_0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <View
+        id="@+id/line"
+        layout_width="-1"
+        android:layout_height="10dp"/>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        gravity="0x10"
+        orientation="1"
+        id="@+id/choice_ly"
+        background="@drawable/_2131231183_res_0x7f0801cf"
+        padding="20dp"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        minHeight="@dimen/height_48dp">
+        <TextView
+            textColor="@color/grey_g900"
+            id="@+id/choice"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            lineSpacingExtra="5sp"
+            style="@style/TextAppearance.Text.16SP"/>
+        <TextView
+            textColor="@color/grey_g400"
+            id="@+id/choice_content"
+            visibility="2"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            layout_marginTop="4dp"
+            style="@style/TextAppearance.Text.14SP"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.C27231jrL
+        id="@+id/univ3_redeem_info_layout"
+        paddingLeft="@dimen/padding_16dp"
+        paddingRight="@dimen/padding_16dp"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_20dp"
+        paddingHorizontal="@dimen/padding_16dp"/>
+    <View
+        id="@+id/univ3_redeem_info_content_line"
+        background="@color/grey_g100"
+        layout_width="-1"
+        android:layout_height="0.5dp"
+        layout_marginTop="@dimen/margin_20dp"/>
+</merge>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x10"
+    orientation="0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <TextView
+        textAppearance="@style/TextAppearance.Text.14SP.Medium"
+        textColor="@color/okTradeG900"
+        gravity="0x10"
+        id="@+id/instIdTv"
+        layout_width="-2"
+        android:layout_height="wrap_content"/>
+    <TextView
+        textAppearance="@style/TextAppearance.Text.14SP.Medium"
+        textColor="@color/positive"
+        gravity="0x800003"
+        id="@+id/ticker"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_weight="1"
+        layout_marginStart="8dp"/>
+    <ImageView
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        src="@drawable/_2131232353_res_0x7f080661"
+        NOT_FOUND_0xa="@color/grey_g400"/>
+</merge>

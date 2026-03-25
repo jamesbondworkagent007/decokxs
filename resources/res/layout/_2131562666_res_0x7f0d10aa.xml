@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <View
+        id="@+id/underline"
+        background="@color/BorderPrimary"
+        layout_width="-1"
+        android:layout_height="0.5dp"
+        layout_alignParentBottom="true"/>
+    <o.C55247xgO
+        id="@+id/tabLayout"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_toStartOf="@+id/ll_function"
+        NOT_FOUND_0xe="false"
+        NOT_FOUND_0xf="2000dp"/>
+    <LinearLayout
+        orientation="0"
+        id="@+id/ll_function"
+        visibility="2"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_centerVertical="true"
+        layout_marginStart="12dp"
+        layout_marginEnd="12dp"
+        layout_alignParentEnd="true"/>
+    <View
+        id="@+id/startFadingEdge"
+        background="@drawable/_2131231418_res_0x7f0802ba"
+        layout_width="8dp"
+        android:layout_height="match_parent"
+        layout_alignParentStart="true"/>
+    <View
+        id="@+id/endFadingEdge"
+        background="@drawable/_2131231417_res_0x7f0802b9"
+        layout_width="8dp"
+        android:layout_height="match_parent"
+        layout_alignEnd="@+id/tabLayout"/>
+</merge>

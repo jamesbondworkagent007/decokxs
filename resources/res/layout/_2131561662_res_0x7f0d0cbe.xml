@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o.C42922rfZ xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.C41303qoK
+        orientation="1"
+        id="@+id/content"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        animateLayoutChanges="true">
+        <FrameLayout
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            layout_marginTop="@dimen/dp_4"
+            NOT_FOUND_0x8="0"
+            NOT_FOUND_0x9="0">
+            <androidx.recyclerview.widget.RecyclerView
+                id="@+id/recycler_view"
+                clipToPadding="false"
+                layout_width="-1"
+                android:layout_height="wrap_content"
+                contentDescription="futures"/>
+        </FrameLayout>
+    </o.C41303qoK>
+</o.C42922rfZ>

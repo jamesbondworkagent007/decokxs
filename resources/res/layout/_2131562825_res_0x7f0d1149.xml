@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    textColor="@color/ContentContrast"
+    ellipsize="3"
+    gravity="0x11"
+    id="@+id/tv_stream_status"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    style="@style/Label_2_Medium"/>

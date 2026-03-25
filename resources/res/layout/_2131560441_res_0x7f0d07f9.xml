@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x11"
+    paddingLeft="@dimen/sm"
+    paddingTop="@dimen/xxsm"
+    paddingRight="@dimen/sm"
+    paddingBottom="@dimen/xxsm"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingHorizontal="@dimen/sm"
+    paddingVertical="@dimen/xxsm">
+    <TextView
+        textColor="@color/ContentPrimary"
+        id="@+id/tvViewAll"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        textAlignment="4"
+        style="@style/Label_2_Regular"/>
+    <ImageView
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        src="@drawable/_2131231649_res_0x7f0803a1"
+        layout_marginStart="@dimen/xxxxxsm"
+        NOT_FOUND_0xe="@color/ContentPrimary"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

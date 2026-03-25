@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    id="@+id/container"
+    tag="layout/item_accordion_0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        gravity="0x10"
+        orientation="0"
+        id="@+id/title_container"
+        layout_width="-1"
+        android:layout_height="wrap_content">
+        <TextView
+            textAppearance="@android:style/TextAppearance"
+            textSize="14sp"
+            textColor="#000000"
+            ellipsize="3"
+            id="@+id/title"
+            layout_width="0dp"
+            android:layout_height="wrap_content"
+            text="Title"
+            maxLines="1"
+            includeFontPadding="false"
+            layout_weight="1"
+            lineSpacingExtra="0dp"
+            fontFamily="sans-serif"/>
+        <ImageView
+            id="@+id/arrow"
+            layout_width="24dp"
+            android:layout_height="24dp"
+            src="@drawable/_2131231637_res_0x7f080395"
+            contentDescription="Toggle content"/>
+    </LinearLayout>
+    <LinearLayout
+        orientation="1"
+        id="@+id/content_container"
+        paddingTop="8dp"
+        visibility="0"
+        layout_width="-1"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

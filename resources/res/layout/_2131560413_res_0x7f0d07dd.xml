@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    textAppearance="@style/TextAppearance.Subtitle.12SP.Medium"
+    gravity="0x10"
+    id="@+id/tv_name"
+    tag="layout/item_contact_section_0"
+    paddingTop="4dp"
+    paddingBottom="4dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingStart="@dimen/common_page_edge_space"
+    paddingEnd="@dimen/common_page_edge_space"/>

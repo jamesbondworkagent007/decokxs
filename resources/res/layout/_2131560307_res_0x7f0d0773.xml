@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    gravity="0x10"
+    orientation="0"
+    id="@+id/ll_address_search"
+    tag="layout/item_address_search_content_0"
+    background="@drawable/_2131231077_res_0x7f080165"
+    visibility="0"
+    layout_width="-1"
+    android:layout_height="40dp">
+    <ImageView
+        id="@+id/iv_content"
+        layout_width="20dp"
+        android:layout_height="20dp"
+        src="@drawable/_2131232841_res_0x7f080849"
+        layout_marginStart="12dp"
+        layout_marginEnd="8dp"/>
+    <TextView
+        textAppearance="@style/TextAppearance.Text.14SP"
+        textColor="@color/ContentContrast"
+        ellipsize="3"
+        id="@+id/tv_content"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        maxLines="1"
+        layout_marginEnd="6dp"/>
+</LinearLayout>

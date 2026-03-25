@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape shape="1">
+            <solid color="@color/ContentBrand"/>
+            <size
+                height="10dp"
+                width="10dp"/>
+            <padding
+                left="@dimen/padding_2dp"
+                top="@dimen/padding_2dp"
+                right="@dimen/padding_2dp"
+                bottom="@dimen/padding_2dp"/>
+        </shape>
+    </item>
+    <item>
+        <shape shape="1">
+            <solid color="?attr/preferenceLossAlternative"/>
+            <size
+                height="4dp"
+                width="4dp"/>
+        </shape>
+    </item>
+</layer-list>

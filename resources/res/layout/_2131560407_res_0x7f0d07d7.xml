@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    id="@+id/ll_custom"
+    paddingTop="16dp"
+    paddingBottom="16dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingStart="24dp"
+    paddingEnd="24dp">
+    <TextView
+        textAppearance="@style/TextAppearance.Title.16SP"
+        textColor="@color/ContentPrimary"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        text="@string/pr_compliance_global_kyc_poa_search_address_not_found"/>
+    <LinearLayout
+        gravity="0x10"
+        orientation="0"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="4dp">
+        <TextView
+            textAppearance="@style/TextAppearance.Title.16SP"
+            textColor="@color/LinkContent"
+            id="@+id/tv_custom"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            text="@string/pr_compliance_global_kyc_poa_search_btn_use_info_entered"/>
+        <ImageView
+            layout_width="20dp"
+            android:layout_height="20dp"
+            src="@drawable/_2131231647_res_0x7f08039f"
+            NOT_FOUND_0xe="@color/LinkContent"/>
+    </LinearLayout>
+</LinearLayout>

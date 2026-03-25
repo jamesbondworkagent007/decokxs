@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o.qXZ xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C55173xeu
+        id="@+id/empty_view"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="64dp"
+        NOT_FOUND_0x5="7"
+        NOT_FOUND_0x6="@string/pr_rewards_text_empty_no_date"/>
+</o.qXZ>

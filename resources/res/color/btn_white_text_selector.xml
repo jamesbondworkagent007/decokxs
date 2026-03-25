@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        state_enabled="false"
+        color="@color/color_content_interactive_disabled"/>
+    <item color="@color/color_global_fixed_alwaysLight"/>
+</selector>

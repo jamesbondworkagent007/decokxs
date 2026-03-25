@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    tag="layout/view_market_place_copy_divider_view_0"
+    background="@color/BorderContrast"
+    layout_width="-1"
+    android:layout_height="8dp">
+    <View
+        layout_gravity="0x11"
+        id="@+id/line"
+        background="@color/BorderContrast"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="0.5dp"/>
+</FrameLayout>

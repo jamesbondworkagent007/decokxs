@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    contentDescription="web3_dex_market_simple_chart_view">
+    <com.okinc.business.dexui.main.market.detail.widget.KLineSimpleView
+        id="@+id/view_k_line_container"
+        layout_width="-1"
+        android:layout_height="wrap_content"/>
+</FrameLayout>

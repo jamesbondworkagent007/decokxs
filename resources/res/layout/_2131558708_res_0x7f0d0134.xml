@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    tag="layout/activity_support_full_self_tools_0"
+    paddingLeft="@dimen/sm"
+    paddingTop="@dimen/xsm"
+    paddingRight="@dimen/sm"
+    paddingBottom="@dimen/xsm"
+    layout_width="-1"
+    android:layout_height="match_parent"
+    paddingHorizontal="@dimen/sm"
+    paddingVertical="@dimen/xsm">
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/rv_all_tools"
+        clipToPadding="false"
+        layout_width="-1"
+        android:layout_height="match_parent"
+        overScrollMode="2"/>
+</FrameLayout>

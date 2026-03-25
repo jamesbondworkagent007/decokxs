@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/scroll_content"
+    scrollbars="horizontal"
+    layout_width="-1"
+    android:layout_height="match_parent"
+    fillViewport="true"
+    overScrollMode="2">
+    <LinearLayout
+        orientation="1"
+        layout_width="-1"
+        android:layout_height="wrap_content">
+        <o.C47625tte
+            id="@+id/text_input_view"
+            layout_width="-1"
+            android:layout_height="wrap_content"/>
+        <include
+            id="@+id/campaign_card_view"
+            visibility="2"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            layout_marginBottom="@dimen/padding_16dp"
+            layout_marginStart="@dimen/padding_24dp"
+            layout_marginEnd="@dimen/padding_24dp"
+            layout="@layout/_2131562165_res_0x7f0d0eb5"/>
+        <androidx.recyclerview.widget.RecyclerView
+            orientation="0"
+            id="@+id/image_recycler_view"
+            paddingBottom="@dimen/padding_16dp"
+            clipToPadding="false"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            overScrollMode="2"
+            paddingStart="@dimen/padding_24dp"
+            paddingEnd="@dimen/padding_16dp"/>
+        <o.C47735tvi
+            id="@+id/plugin_card_view"
+            paddingLeft="@dimen/padding_24dp"
+            paddingRight="@dimen/padding_24dp"
+            paddingBottom="@dimen/padding_16dp"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            paddingHorizontal="@dimen/padding_24dp"/>
+    </LinearLayout>
+</ScrollView>

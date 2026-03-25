@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <com.okinc.uilab.list.OKAnchorSelection
+        id="@+id/content_container"
+        layout_width="-1"
+        android:layout_height="match_parent"
+        NOT_FOUND_0x5="1"/>
+    <o.C55113xdn
+        layout_gravity="0x11"
+        id="@+id/loading_container"
+        visibility="2"
+        layout_width="-2"
+        android:layout_height="wrap_content"/>
+</FrameLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item state_checked="true">
+        <shape shape="1">
+            <stroke
+                width="3dp"
+                color="@color/kline_selector_price_float_radio_check_color"/>
+            <solid color="@color/transparent"/>
+            <size
+                height="16dp"
+                width="16dp"/>
+        </shape>
+    </item>
+    <item state_checked="false">
+        <shape shape="1">
+            <stroke
+                width="1dp"
+                color="@color/kline_selector_price_float_radio_uncheck_color"/>
+            <solid color="@color/transparent"/>
+            <size
+                height="16dp"
+                width="16dp"/>
+        </shape>
+    </item>
+</selector>

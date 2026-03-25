@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x10"
+    orientation="1"
+    tag="layout/dex_item_order_detail_boost_0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.C55258xgZ
+        textColor="@color/ContentContrast"
+        id="@+id/tv_boost_title"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        text="@string/pr_trade_mid_confirmation_pg_boost_earned"
+        NOT_FOUND_0x10="0"
+        style="@style/TextAppearance.Text.14SP.Regular"/>
+    <LinearLayout
+        gravity="0x10"
+        orientation="0"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_4dp">
+        <androidx.appcompat.widget.AppCompatTextView
+            textColor="@color/ContentPrimary"
+            id="@+id/tv_boost_volume"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            style="@style/TextAppearance.Text.16SP.Regular"/>
+        <o.C55251xgS
+            id="@+id/tag_boost_weight"
+            paddingLeft="@dimen/xxxxsm"
+            paddingTop="@dimen/xxxxxsm"
+            paddingRight="@dimen/xxxxsm"
+            paddingBottom="@dimen/xxxxxsm"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            layout_marginStart="@dimen/xxxxsm"
+            paddingHorizontal="@dimen/xxxxsm"
+            paddingVertical="@dimen/xxxxxsm"
+            NOT_FOUND_0x11="@drawable/_2131232967_res_0x7f0808c7"
+            NOT_FOUND_0x12="0"
+            NOT_FOUND_0x13="true"
+            NOT_FOUND_0x14="14"/>
+    </LinearLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

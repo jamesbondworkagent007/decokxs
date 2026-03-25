@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o.C35934oJc xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/input_panel"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    hint="@string/pr_im_broadcast_placeholder_write_message"
+    NOT_FOUND_0x4="true"
+    NOT_FOUND_0x5="false"/>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    paddingBottom="@dimen/padding_24dp"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <com.okinc.uilab.item.OKRegularCell
+        id="@+id/cell_view_account_details"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x5="@string/pr_nft_binding_pop_desc_view_address_details"
+        NOT_FOUND_0x6="@drawable/_2131230924_res_0x7f0800cc"
+        NOT_FOUND_0x7="@string/pr_nft_binding_pop_title_view_all_address">
+        <o.C55068xcv
+            layout_width="-2"
+            android:layout_height="wrap_content"/>
+    </com.okinc.uilab.item.OKRegularCell>
+    <com.okinc.uilab.item.OKRegularCell
+        id="@+id/cell_unlink_from_account"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x5="@string/pr_account_smartlink_pop_desc_remove_wallet_from_acct"
+        NOT_FOUND_0x6="@drawable/_2131234257_res_0x7f080dd1"
+        NOT_FOUND_0x7="@string/pr_account_smartlink_pop_title_unlink_from_acct">
+        <o.C55068xcv
+            layout_width="-2"
+            android:layout_height="wrap_content"/>
+    </com.okinc.uilab.item.OKRegularCell>
+</LinearLayout>

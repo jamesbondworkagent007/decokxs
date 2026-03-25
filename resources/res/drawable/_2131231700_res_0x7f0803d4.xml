@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item gravity="0x77">
+        <color color="?attr/windowSplashScreenBackground"/>
+    </item>
+    <item
+        gravity="0x11"
+        height="@dimen/splashscreen_icon_size_with_background"
+        width="@dimen/splashscreen_icon_size_with_background"
+        drawable="@drawable/_2131232965_res_0x7f0808c5"/>
+    <item
+        gravity="0x11"
+        height="@dimen/splashscreen_icon_size_with_background"
+        width="@dimen/splashscreen_icon_size_with_background"
+        drawable="?attr/windowSplashScreenAnimatedIcon"/>
+    <item
+        gravity="0x11"
+        height="@dimen/splashscreen_icon_mask_size_with_background"
+        width="@dimen/splashscreen_icon_mask_size_with_background">
+        <shape shape="1">
+            <solid color="@android:color/transparent"/>
+            <stroke
+                width="@dimen/splashscreen_icon_mask_stroke_with_background"
+                color="?attr/windowSplashScreenBackground"/>
+        </shape>
+    </item>
+</layer-list>

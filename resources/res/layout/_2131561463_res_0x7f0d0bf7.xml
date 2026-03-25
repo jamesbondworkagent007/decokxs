@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    tag="layout/layout_select_dialog_0"
+    paddingLeft="?attr/dialogPageMargin"
+    paddingRight="?attr/dialogPageMargin"
+    paddingBottom="30dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingHorizontal="?attr/dialogPageMargin">
+    <TextView
+        textColor="@color/ContentSecondary"
+        id="@+id/confirmation_content"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_12dp"
+        lineSpacingExtra="?attr/contentLineSpacingExtra"
+        style="@style/TextAppearance.Title.16SP"/>
+    <o.C31695mAm
+        id="@+id/content_rv"
+        scrollbars="horizontal"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="24dp"/>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    gravity="0x11"
+    orientation="1"
+    id="@+id/video_quality_wrapper_area"
+    background="#88000000"
+    paddingTop="10dp"
+    paddingBottom="16dp"
+    layout_width="240dp"
+    android:layout_height="match_parent"/>

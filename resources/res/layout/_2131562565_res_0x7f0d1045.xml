@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x10"
+    orientation="0"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginTop="2dp">
+    <TextView
+        textAppearance="@style/TextAppearance.Text.12SP"
+        id="@+id/tv_left"
+        layout_width="-2"
+        android:layout_height="wrap_content"/>
+    <Space
+        layout_width="0dp"
+        android:layout_height="1px"
+        layout_weight="1"/>
+    <TextView
+        textAppearance="@style/TextAppearance.Title.12SP"
+        id="@+id/tv_right"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        drawablePadding="4dp"/>
+</LinearLayout>

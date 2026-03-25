@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    textAppearance="@style/Label_1_Medium"
+    id="@+id/crypto_list_header"
+    tag="layout/view_legacy_crypto_list_item_header_0"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginLeft="@dimen/dp_16"
+    layout_marginTop="@dimen/margin_8dp"
+    layout_marginRight="@dimen/dp_16"
+    layout_marginBottom="@dimen/margin_8dp"
+    layout_marginHorizontal="@dimen/dp_16"
+    layout_marginVertical="@dimen/margin_8dp"/>

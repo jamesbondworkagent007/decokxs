@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    gravity="0x11"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="match_parent"
+    layout_margin="15dp">
+    <Button
+        id="@+id/env_button"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        text="@string/env_button_title"
+        textAllCaps="false"/>
+    <Button
+        id="@+id/device_button"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        text="@string/device_button_title"
+        textAllCaps="false"/>
+    <Button
+        id="@+id/logs_button"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        text="@string/logs_button_title"
+        textAllCaps="false"/>
+    <Button
+        id="@+id/file_issue_button"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        text="@string/file_issue_button_title"
+        textAllCaps="false"/>
+</LinearLayout>

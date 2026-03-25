@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o.C32976mnj xmlns:android="http://schemas.android.com/apk/res/android"
+    id="@+id/cbLoopViewPager"
+    layout_width="-1"
+    android:layout_height="match_parent"/>

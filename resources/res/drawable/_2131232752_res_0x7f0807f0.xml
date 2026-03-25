@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="90dp"
+    android:width="91dp"
+    android:viewportWidth="91"
+    android:viewportHeight="90">
+    <group>
+        <clip-path android:pathData="M12.5,0L78.5,0A12,12 0,0 1,90.5 12L90.5,78A12,12 0,0 1,78.5 90L12.5,90A12,12 0,0 1,0.5 78L0.5,12A12,12 0,0 1,12.5 0z"/>
+        <path
+            android:fillColor="@color/primary_white"
+            android:pathData="M0.5,0h90v90h-90z"/>
+        <path
+            android:fillColor="@color/primary_black"
+            android:pathData="M53.225,36.094H37.788C37.132,36.094 36.6,36.625 36.6,37.281V52.719C36.6,53.375 37.132,53.906 37.788,53.906H53.225C53.881,53.906 54.413,53.375 54.413,52.719V37.281C54.413,36.625 53.881,36.094 53.225,36.094Z"/>
+        <path
+            android:fillColor="@color/primary_black"
+            android:pathData="M35.406,18.281H19.969C19.313,18.281 18.781,18.813 18.781,19.469V34.906C18.781,35.562 19.313,36.094 19.969,36.094H35.406C36.062,36.094 36.594,35.562 36.594,34.906V19.469C36.594,18.813 36.062,18.281 35.406,18.281Z"/>
+        <path
+            android:fillColor="@color/primary_black"
+            android:pathData="M71.031,18.281H55.594C54.938,18.281 54.406,18.813 54.406,19.469V34.906C54.406,35.562 54.938,36.094 55.594,36.094H71.031C71.687,36.094 72.219,35.562 72.219,34.906V19.469C72.219,18.813 71.687,18.281 71.031,18.281Z"/>
+        <path
+            android:fillColor="@color/primary_black"
+            android:pathData="M35.406,53.906H19.969C19.313,53.906 18.781,54.438 18.781,55.094V70.531C18.781,71.187 19.313,71.719 19.969,71.719H35.406C36.062,71.719 36.594,71.187 36.594,70.531V55.094C36.594,54.438 36.062,53.906 35.406,53.906Z"/>
+        <path
+            android:fillColor="@color/primary_black"
+            android:pathData="M71.031,53.906H55.594C54.938,53.906 54.406,54.438 54.406,55.094V70.531C54.406,71.187 54.938,71.719 55.594,71.719H71.031C71.687,71.719 72.219,71.187 72.219,70.531V55.094C72.219,54.438 71.687,53.906 71.031,53.906Z"/>
+    </group>
+</vector>

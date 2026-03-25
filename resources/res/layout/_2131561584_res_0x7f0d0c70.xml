@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <TextView
+        textColor="@color/ContentPrimary"
+        id="@+id/txt_description_label"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginLeft="@dimen/sm"
+        layout_marginRight="@dimen/sm"
+        layout_marginBottom="@dimen/margin_8dp"
+        text="@string/pr_message_planet_label_group_name"
+        layout_marginHorizontal="@dimen/sm"
+        style="@style/Label_2_Medium"/>
+    <com.okinc.uilab.edit.OKEditText
+        textColorHint="@color/ContentContrast"
+        id="@+id/input_group_name"
+        background="@drawable/_2131233594_res_0x7f080b3a"
+        padding="@dimen/xxsm"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginLeft="@dimen/sm"
+        layout_marginRight="@dimen/sm"
+        minHeight="44dp"
+        hint="@string/pr_message_group_input_group_name"
+        lines="1"
+        singleLine="true"
+        layout_marginHorizontal="@dimen/sm"
+        style="@style/Body_2"/>
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    paddingTop="5dp"
+    paddingBottom="5dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginStart="@dimen/margin_default"
+    layout_marginEnd="8dp"
+    paddingVertical="5dp">
+    <TextView
+        id="@+id/index_number_tv"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="0"
+        style="@style/TextAppearance.Title.12SP.Semibold"/>
+    <TextView
+        id="@+id/order_price"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_marginLeft="@dimen/margin_6dp"
+        layout_marginRight="@dimen/margin_6dp"
+        layout_marginHorizontal="@dimen/margin_6dp"
+        NOT_FOUND_0xd="@+id/index_number_tv"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x10="0.4"
+        style="@style/TextAppearance.Title.12SP"/>
+    <TextView
+        gravity="0x800005"
+        id="@+id/order_price_rate"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_marginStart="@dimen/margin_6dp"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="@+id/order_price"
+        NOT_FOUND_0xf="0"
+        style="@style/TextAppearance.Title.12SP"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

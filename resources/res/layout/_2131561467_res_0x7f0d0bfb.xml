@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    tag="layout/layout_select_wallet_item_0"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingEnd="8dp">
+    <TextView
+        textSize="@dimen/text_size_18sp"
+        textColor="?attr/st_color_g900"
+        id="@+id/walletName"
+        paddingBottom="12dp"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="21dp"
+        layout_marginStart="16dp"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xd="0"
+        style="@style/TextAppearance.Title.18SP.Semibold"/>
+    <FrameLayout
+        id="@+id/ic_notice_fl"
+        tag="binding_1"
+        paddingBottom="12dp"
+        layout_width="-1"
+        android:layout_height="wrap_content">
+        <include
+            id="@+id/ic_notice"
+            layout="@layout/_2131561468_res_0x7f0d0bfc"/>
+    </FrameLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/accountListRv"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0xc="@+id/walletName"/>
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    id="@+id/content_constraint_layout"
+    tag="layout/item_editable_list_0"
+    visibility="0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        orientation="1"
+        id="@+id/editable_list_container"
+        layout_width="-1"
+        android:layout_height="wrap_content"/>
+    <TextView
+        textAppearance="@style/TextAppearance.Text.14SP.Medium"
+        textColor="@color/ContentSecondary"
+        gravity="0x10"
+        id="@+id/add_more"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        drawableLeft="@drawable/_2131233688_res_0x7f080b98"
+        drawablePadding="8dp"/>
+</LinearLayout>

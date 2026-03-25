@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        orientation="1"
+        id="@+id/container_time_out_dec"
+        layout_width="-1"
+        android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatTextView
+            textAppearance="@style/TextAppearance.Text.12SP.Regular"
+            textColor="@color/grey_g500"
+            id="@+id/tv_dec_time_out"
+            layout_width="0dp"
+            android:layout_height="wrap_content"
+            lineSpacingExtra="4dp"
+            NOT_FOUND_0x8="0"
+            NOT_FOUND_0x9="0"
+            NOT_FOUND_0xb="0"/>
+        <o.C24328ibk
+            id="@+id/view_acc_dec_time_out"
+            layout_width="0dp"
+            android:layout_height="wrap_content"
+            layout_marginTop="12dp"
+            NOT_FOUND_0x8="0"
+            NOT_FOUND_0x9="0"
+            NOT_FOUND_0xa="@+id/tv_dec_time_out"
+            NOT_FOUND_0xc="0dp"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</merge>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <ViewStub
+        id="@+id/viewStub_limitFrg"
+        layout="@layout/_2131559344_res_0x7f0d03b0"
+        layout_width="-1"
+        android:layout_height="match_parent"/>
+    <o.C55173xeu
+        layout_gravity="0x1"
+        id="@+id/error_view"
+        background="@color/BasePrimary"
+        paddingTop="96dp"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="match_parent"/>
+    <FrameLayout
+        layout_gravity="0x30"
+        id="@+id/loading_view"
+        background="@color/BasePrimary"
+        paddingLeft="@dimen/padding_24dp"
+        paddingRight="@dimen/padding_24dp"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_default"
+        paddingHorizontal="@dimen/padding_24dp"/>
+</FrameLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="0"
+    background="@color/background_lv2"
+    layout_width="-1"
+    android:layout_height="32dp">
+    <TextView
+        textAppearance="@style/TextAppearance.Title.12SP"
+        textColor="@color/g700_g500"
+        layout_gravity="0x10"
+        id="@+id/tv_title"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        maxLines="1"
+        layout_weight="1"
+        paddingStart="16dp"/>
+    <ImageView
+        layout_gravity="0x10"
+        id="@+id/iv_arrow"
+        layout_width="16dp"
+        android:layout_height="16dp"
+        layout_marginEnd="16dp"/>
+</LinearLayout>

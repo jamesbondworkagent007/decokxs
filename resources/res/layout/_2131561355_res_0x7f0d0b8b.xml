@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    textAppearance="@style/TextStyle.Body"
+    textSize="@dimen/text_size_14sp"
+    textColor="@color/grey_g400"
+    id="@+id/tvReceiveAddressTitle"
+    paddingLeft="@dimen/padding_24dp"
+    paddingTop="@dimen/padding_8dp"
+    paddingRight="@dimen/padding_24dp"
+    paddingBottom="@dimen/padding_8dp"
+    layout_width="-2"
+    android:layout_height="wrap_content"
+    paddingHorizontal="@dimen/padding_24dp"
+    paddingVertical="@dimen/padding_8dp"/>

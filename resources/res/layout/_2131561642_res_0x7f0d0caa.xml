@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginLeft="@dimen/dp_24"
+        layout_marginRight="@dimen/dp_24"
+        contentDescription="marketsFavoriteTypeFilterSheet"
+        layout_marginHorizontal="@dimen/dp_24">
+        <TextView
+            textColor="@color/ContentPrimary"
+            gravity="0x10"
+            id="@+id/tv_title"
+            paddingTop="@dimen/margin_4dp"
+            paddingBottom="@dimen/margin_4dp"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            text="@string/pr_favourites_tab_header_favourites"
+            paddingVertical="@dimen/margin_4dp"
+            NOT_FOUND_0x15="0"
+            NOT_FOUND_0x16="0"
+            style="@style/Title_2_Bold"/>
+        <androidx.appcompat.widget.AppCompatImageView
+            id="@+id/iv_manager"
+            layout_width="@dimen/width_24dp"
+            android:layout_height="@dimen/height_24dp"
+            src="@drawable/_2131232292_res_0x7f080624"
+            contentDescription="marketsFavoriteTypeFilterEditButton"
+            NOT_FOUND_0x13="@+id/tv_title"
+            NOT_FOUND_0x14="0"
+            NOT_FOUND_0x16="@+id/tv_title"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/rv"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="20dp"
+        layout_marginBottom="@dimen/margin_24dp"
+        overScrollMode="2"
+        NOT_FOUND_0x12="androidx.recyclerview.widget.LinearLayoutManager"/>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_gravity="0x10"
+    focusable="false"
+    focusableInTouchMode="false"
+    layout_width="16dp"
+    android:layout_height="16dp"
+    src="@drawable/_2131234479_res_0x7f080eaf"
+    contentDescription="@null"
+    layout_marginStart="2dp"
+    NOT_FOUND_0x8="@color/ContentPrimary"/>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/filter_chip_layout"
+    layout_width="-2"
+    android:layout_height="wrap_content">
+    <ImageView
+        id="@android:id/icon"
+        visibility="2"
+        layout_width="@dimen/width_16dp"
+        android:layout_height="@dimen/height_16dp"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="0"/>
+    <TextView
+        textColor="@color/cell_title_color"
+        gravity="0x11"
+        id="@android:id/text1"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        maxLines="1"
+        singleLine="true"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="@android:id/icon"
+        NOT_FOUND_0xd="0"
+        style="@style/OKTextFont.Regular"/>
+    <o.C55380xip
+        id="@+id/numberBadge"
+        visibility="2"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginStart="@dimen/xxxxxsm"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="@android:id/text1"
+        NOT_FOUND_0xd="0"/>
+    <ImageView
+        id="@+id/select_icon"
+        visibility="0"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        src="@drawable/_2131231589_res_0x7f080365"
+        layout_marginStart="@dimen/xxxxxsm"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="@+id/numberBadge"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="@dimen/margin_none"
+        NOT_FOUND_0xf="@color/cell_title_color"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/fragment_coin_filter_search_0"
+    background="@drawable/_2131234467_res_0x7f080ea3"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C51609vqJ
+        id="@+id/search_filter_view"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginLeft="@dimen/margin_16dp"
+        layout_marginRight="@dimen/margin_16dp"
+        layout_marginHorizontal="@dimen/margin_16dp"/>
+</FrameLayout>

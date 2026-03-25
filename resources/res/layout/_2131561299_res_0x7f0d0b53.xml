@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    paddingLeft="@dimen/sm"
+    paddingRight="@dimen/sm"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingHorizontal="@dimen/sm">
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/rv_list"
+        paddingBottom="@dimen/xxsm"
+        clipToPadding="false"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="4dp"
+        NOT_FOUND_0x9="androidx.recyclerview.widget.LinearLayoutManager"/>
+</FrameLayout>

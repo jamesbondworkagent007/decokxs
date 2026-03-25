@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    id="@+id/item_layout"
+    tag="layout/item_section_divider_0"
+    paddingTop="12dp"
+    paddingBottom="12dp"
+    layout_width="-1"
+    android:layout_height="32dp"
+    src="@drawable/_2131231360_res_0x7f080280"
+    scaleType="fillCenter"/>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    tag="layout/dex_contract_transaction_recyclerview_interval_0"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginTop="16dp"
+    layout_marginBottom="16dp"
+    layout_marginVertical="16dp">
+    <View
+        id="@+id/line"
+        background="@color/line_light"
+        layout_width="-1"
+        android:layout_height="@dimen/height_0.5dp"/>
+</LinearLayout>

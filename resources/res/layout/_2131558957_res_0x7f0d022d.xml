@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o.C52794wYp xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x1"
+    id="@+id/button"
+    tag="layout/cta_button_0"
+    layout_width="-2"
+    android:layout_height="wrap_content"
+    singleLine="true"
+    NOT_FOUND_0x6="32"
+    NOT_FOUND_0x7="0x101"
+    NOT_FOUND_0x8="-2"/>

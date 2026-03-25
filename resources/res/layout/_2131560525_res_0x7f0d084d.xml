@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    layout_width="-2"
+    android:layout_height="wrap_content">
+    <TextView
+        textAppearance="@style/TextAppearance.Text.12SP.Regular"
+        textSize="12sp"
+        textColor="@color/okTradeW900"
+        id="@+id/tv_tag"
+        background="@drawable/_2131231308_res_0x7f08024c"
+        paddingLeft="4dp"
+        paddingTop="2dp"
+        paddingRight="4dp"
+        paddingBottom="2dp"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        text="@string/pr_wallet_send_label_recommended"
+        layout_marginStart="8dp"
+        paddingHorizontal="4dp"
+        paddingVertical="2dp"/>
+</FrameLayout>

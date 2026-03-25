@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <TextView
+        textColor="@color/ContentContrast"
+        id="@+id/time"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_weight="1"
+        style="@style/Label_2_Regular"/>
+    <TextView
+        gravity="0x800005"
+        id="@+id/value"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_weight="1"
+        style="@style/Label_2_Bold"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

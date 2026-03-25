@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient
+        startColor="@color/dex_linear_gradient_side_color"
+        endColor="@color/dex_linear_gradient_side_color"
+        angle="0"
+        type="0"
+        centerX="50%"
+        gradientRadius="90"
+        centerColor="@color/dex_linear_gradient_middle_color"/>
+</shape>

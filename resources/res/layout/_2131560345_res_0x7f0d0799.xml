@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    id="@+id/item_root_layout"
+    tag="layout/item_broadcast_system_message_0"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    baselineAligned="false">
+    <TextView
+        textAppearance="@style/TextAppearance.Text.12SP"
+        layout_gravity="0x1"
+        id="@+id/tv_message_interval_time"
+        visibility="0"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="12dp"
+        layout_marginBottom="8dp"
+        layout_marginStart="@dimen/common_page_edge_space"
+        layout_marginEnd="@dimen/common_page_edge_space"/>
+    <TextView
+        textAppearance="@style/TextAppearance.Text.12SP"
+        gravity="0x11"
+        id="@+id/tv_message"
+        paddingTop="8dp"
+        paddingBottom="8dp"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        includeFontPadding="false"
+        paddingStart="@dimen/common_page_edge_space"
+        paddingEnd="@dimen/common_page_edge_space"
+        breakStrategy="0"/>
+</LinearLayout>

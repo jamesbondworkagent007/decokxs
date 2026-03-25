@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    tag="layout/trade_ui_activity_signal_bot_create_sign_0"
+    background="@color/BasePrimary"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C33537myN
+        id="@+id/title"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0xa="@string/pr_signalbot_placeorder_title_new_tv_signal"
+        NOT_FOUND_0xb="true"
+        NOT_FOUND_0xc="@color/grey_g900"
+        NOT_FOUND_0xd="false"
+        NOT_FOUND_0xe="@drawable/_2131232489_res_0x7f0806e9"
+        NOT_FOUND_0xf="true"
+        NOT_FOUND_0x10="true"/>
+    <o.C55172xet
+        id="@+id/indicator"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginLeft="16dp"
+        layout_marginTop="8dp"
+        layout_marginRight="16dp"
+        layout_marginHorizontal="16dp"
+        NOT_FOUND_0x11="2"
+        NOT_FOUND_0x12="0"
+        NOT_FOUND_0x13="3dp"/>
+    <androidx.viewpager2.widget.ViewPager2
+        id="@+id/vp"
+        layout_width="-1"
+        android:layout_height="match_parent"/>
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o.C41381qpj xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C40776qeN
+        id="@+id/options_filter_sorter_view"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        translationZ="1dp"
+        NOT_FOUND_0x8="@+id/tabs_period_View"/>
+    <o.C33546myW
+        id="@+id/refresh_layout"
+        layout_width="0dp"
+        android:layout_height="0dp"
+        NOT_FOUND_0x5="0"
+        NOT_FOUND_0x6="0"
+        NOT_FOUND_0x7="0"
+        NOT_FOUND_0x8="@+id/options_filter_sorter_view"
+        NOT_FOUND_0x9="false"
+        NOT_FOUND_0xa="false"
+        NOT_FOUND_0xb="true"
+        NOT_FOUND_0xc="false"
+        NOT_FOUND_0xd="true">
+        <o.C33603mza
+            layout_width="-1"
+            android:layout_height="wrap_content"/>
+        <androidx.recyclerview.widget.RecyclerView
+            id="@+id/recycler_view"
+            layout_width="-1"
+            android:layout_height="match_parent"
+            NOT_FOUND_0x4="com.okinc.okmarket.ui.market.quote.WrapContentLinearLayoutManager"/>
+    </o.C33546myW>
+</o.C41381qpj>

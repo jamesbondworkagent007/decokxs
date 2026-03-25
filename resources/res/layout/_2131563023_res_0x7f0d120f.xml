@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/layout_risk_type_title"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        layout_gravity="0x11"
+        orientation="0"
+        layout_width="-2"
+        android:layout_height="wrap_content">
+        <TextView
+            textSize="@dimen/font_12"
+            textColor="@color/ContentPrimary"
+            layout_gravity="0x11"
+            id="@+id/tv_risk_type_title"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            style="@style/Label_3_Medium"/>
+        <ImageView
+            layout_gravity="0x11"
+            id="@+id/iv_risk_type_title"
+            layout_width="16dp"
+            android:layout_height="16dp"
+            src="@drawable/_2131232629_res_0x7f080775"
+            importantForAccessibility="2"
+            layout_marginStart="2dp"
+            NOT_FOUND_0xa="@color/BrandPrimaryAlternative"/>
+    </LinearLayout>
+</FrameLayout>

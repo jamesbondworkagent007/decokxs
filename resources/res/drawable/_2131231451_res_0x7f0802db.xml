@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape shape="0">
+            <solid color="@color/transparent"/>
+            <padding
+                left="1dp"
+                right="1dp"/>
+        </shape>
+    </item>
+    <item>
+        <shape shape="0">
+            <corners radius="8dp"/>
+            <stroke
+                width="1.5dp"
+                color="@color/BorderSelected"/>
+        </shape>
+    </item>
+</layer-list>

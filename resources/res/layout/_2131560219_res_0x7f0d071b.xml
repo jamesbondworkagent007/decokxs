@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    visibility="2"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <View
+        background="@color/list_divider_color"
+        layout_width="-1"
+        android:layout_height="0.5dp"/>
+    <TextView
+        textSize="@dimen/ok_dp_12"
+        textColor="@color/ContentSecondary"
+        gravity="0x11"
+        id="@+id/you_have_blocked_user_title"
+        focusable="true"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="12dp"
+        layout_marginBottom="8dp"
+        fontFamily="@font/harmony_sans_regular"/>
+    <o.C52794wYp
+        layout_gravity="0x11"
+        id="@+id/unblock_button"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="8dp"
+        layout_marginBottom="16dp"
+        text="@string/pr_message_contact_dialog_btn_unblock"
+        layout_marginStart="16dp"
+        layout_marginEnd="16dp"
+        NOT_FOUND_0x11="-1"
+        NOT_FOUND_0x12="52"
+        NOT_FOUND_0x13="0x101"/>
+</LinearLayout>

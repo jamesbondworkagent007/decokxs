@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Theme.SplashScreen" parent="@android:style/Theme.DeviceDefault.DayNight">
+        <item name="android:windowLayoutInDisplayCutoutMode">1</item>
+        <item name="android:enforceStatusBarContrast">false</item>
+        <item name="android:enforceNavigationBarContrast">false</item>
+    </style>
+    <style name="Base.Theme.SplashScreen.Light" parent="@style/Base.Theme.SplashScreen">
+    </style>
+    <style name="OKTheme" parent="@style/OKUITheme">
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:forceDarkAllowed">false</item>
+        <item name="actionMenuTextAppearance">@style/ActionMenuTextAppearance</item>
+        <item name="actionMenuTextColor">@color/blue_text_color</item>
+        <item name="alertDialogTheme">@style/OKAlertDialogTheme</item>
+        <item name="checkableItemBackground">@drawable/_2131231612_res_0x7f08037c</item>
+        <item name="colorAccent">@color/primary_blue_color</item>
+        <item name="colorPrimaryDark">@color/primary_blue_color</item>
+        <item name="dialogTheme">@style/OKDialogTheme</item>
+        <item name="homeAsUpIndicator">@drawable/_2131232369_res_0x7f080671</item>
+        <item name="loadingResource">@raw/_2131886122_res_0x7f12002a</item>
+        <item name="navigationBackImage">@drawable/_2131232347_res_0x7f08065b</item>
+        <item name="navigationBackMargin">16dp</item>
+        <item name="navigationBarHeight">@dimen/appbar_height</item>
+        <item name="sectionItemBackground">@color/window_background_color</item>
+        <item name="sectionItemWhiteBackground">@android:color/white</item>
+        <item name="selectableItemRoundBackground">@drawable/_2131233848_res_0x7f080c38</item>
+        <item name="selectableItemWhiteBackground">@drawable/_2131233849_res_0x7f080c39</item>
+        <item name="selectableItemWhiteBackgroundWithDivider">@drawable/_2131233850_res_0x7f080c3a</item>
+        <item name="selectableItemWhiteBackgroundWithPaddingStartDivider">@drawable/_2131233851_res_0x7f080c3b</item>
+        <item name="toast_common_bg_style">@drawable/_2131234139_res_0x7f080d5b</item>
+        <item name="toast_common_textAppearance">@style/TextAppearance.White.14SP</item>
+        <item name="toast_icon_bg_style">@drawable/_2131234139_res_0x7f080d5b</item>
+        <item name="toast_icon_textAppearance">@style/TextAppearance.White.14SP</item>
+        <item name="toolbarStyle">@style/Widget.MaterialComponents.Toolbar</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>

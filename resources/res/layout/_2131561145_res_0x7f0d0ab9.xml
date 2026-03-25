@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x11"
+    orientation="0"
+    tag="layout/layout_batch_create_account_count_0"
+    layout_width="-2"
+    android:layout_height="wrap_content">
+    <TextView
+        textAppearance="@style/Label_2_Regular"
+        textColor="@color/grey_g400"
+        id="@+id/tv_available_count"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        text="Available: 1"/>
+    <View
+        background="@color/grey_g200"
+        layout_width="1dp"
+        android:layout_height="14dp"
+        layout_marginLeft="@dimen/padding_6dp"
+        layout_marginRight="@dimen/padding_6dp"
+        layout_marginHorizontal="@dimen/padding_6dp"/>
+    <o.C52794wYp
+        textAppearance="@style/TextAppearance.Text.Medium"
+        id="@+id/btn_max"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        text="@string/pr_wallet_bulk_textbtn_max"
+        NOT_FOUND_0xd="28"
+        NOT_FOUND_0xe="0x104"/>
+</LinearLayout>

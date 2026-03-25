@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="0"
+    layout_width="-2"
+    android:layout_height="wrap_content">
+    <ImageView
+        layout_gravity="0x10"
+        id="@+id/status_icon"
+        visibility="2"
+        layout_width="12dp"
+        android:layout_height="12dp"/>
+    <ProgressBar
+        layout_gravity="0x10"
+        id="@+id/status_animation"
+        visibility="2"
+        layout_width="12dp"
+        android:layout_height="12dp"
+        indeterminateDrawable="@drawable/_2131230916_res_0x7f0800c4"
+        indeterminateTint="@color/SemanticNotice"/>
+    <TextView
+        textAppearance="@style/Label_4_Regular"
+        gravity="0x11"
+        layout_gravity="0x11"
+        id="@+id/status_text"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginStart="2dp"/>
+</merge>

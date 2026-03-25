@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o.C40499qYc xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/recycler_view"
+        paddingTop="@dimen/dp_16"
+        clipChildren="false"
+        clipToPadding="false"
+        layout_width="-1"
+        android:layout_height="0dp"
+        NOT_FOUND_0x6="com.okinc.okmarket.ui.market.quote.WrapContentLinearLayoutManager"
+        NOT_FOUND_0x7="0"
+        NOT_FOUND_0x8="0"/>
+    <include layout="@layout/_2131561872_res_0x7f0d0d90"/>
+</o.C40499qYc>

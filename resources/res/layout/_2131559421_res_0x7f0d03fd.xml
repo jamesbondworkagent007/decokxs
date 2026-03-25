@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="match_parent"
+    contentDescription="web3_dex_market_signal_activity_filter_bottom_sheet">
+    <o.C55254xgV
+        id="@+id/filterTabs"
+        layout_width="-1"
+        android:layout_height="wrap_content"/>
+    <androidx.viewpager2.widget.ViewPager2
+        id="@+id/filterViewPager"
+        layout_width="-1"
+        android:layout_height="match_parent"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

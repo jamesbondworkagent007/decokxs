@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o.C50042uzu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/select_content"
+    tag="layout/fragment_recurring_cycle_step2_0"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        paddingLeft="@dimen/padding_16dp"
+        paddingRight="@dimen/padding_16dp"
+        paddingBottom="@dimen/padding_24dp"
+        layout_width="-1"
+        android:layout_height="match_parent"
+        paddingHorizontal="@dimen/padding_16dp">
+        <View
+            background="@drawable/_2131233753_res_0x7f080bd9"
+            layout_width="-1"
+            android:layout_height="52dp"
+            layout_marginTop="52dp"
+            backgroundTint="@color/SurfacePrimary"
+            NOT_FOUND_0x13="0"/>
+        <androidx.recyclerview.widget.RecyclerView
+            orientation="1"
+            id="@+id/time_recycler1"
+            layout_width="0dp"
+            android:layout_height="wrap_content"
+            overScrollMode="2"
+            NOT_FOUND_0xe="androidx.recyclerview.widget.LinearLayoutManager"
+            NOT_FOUND_0x10="@+id/time_recycler2"
+            NOT_FOUND_0x12="0"
+            NOT_FOUND_0x13="0"/>
+        <androidx.recyclerview.widget.RecyclerView
+            orientation="1"
+            id="@+id/time_recycler2"
+            visibility="2"
+            layout_width="0dp"
+            android:layout_height="wrap_content"
+            overScrollMode="2"
+            NOT_FOUND_0xe="androidx.recyclerview.widget.LinearLayoutManager"
+            NOT_FOUND_0xf="0"
+            NOT_FOUND_0x11="@+id/time_recycler1"
+            NOT_FOUND_0x13="0"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</o.C50042uzu>

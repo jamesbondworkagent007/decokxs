@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    paddingLeft="24dp"
+    paddingRight="24dp"
+    layout_width="-1"
+    android:layout_height="match_parent"
+    paddingHorizontal="24dp">
+    <o.C55113xdn
+        layout_gravity="0x11"
+        id="@+id/loading"
+        visibility="2"
+        layout_width="32dp"
+        android:layout_height="32dp"/>
+    <LinearLayout
+        orientation="1"
+        id="@+id/dataLy"
+        layout_width="-1"
+        android:layout_height="wrap_content">
+        <o.C54989xbV
+            id="@+id/chip"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            layout_marginBottom="24dp"
+            NOT_FOUND_0xb="true"
+            NOT_FOUND_0xc="true"
+            NOT_FOUND_0xd="1"
+            NOT_FOUND_0xe="-5"/>
+        <androidx.recyclerview.widget.RecyclerView
+            id="@+id/rv_spot"
+            layout_width="-1"
+            android:layout_height="match_parent"
+            overScrollMode="2"/>
+    </LinearLayout>
+    <include
+        id="@+id/layout_network_error"
+        visibility="2"
+        layout="@layout/_2131561436_res_0x7f0d0bdc"/>
+    <include
+        id="@+id/no_date"
+        visibility="2"
+        layout="@layout/_2131561437_res_0x7f0d0bdd"/>
+</FrameLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    id="@+id/rootView"
+    background="@color/background_lv1"
+    padding="8dp"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C33537myN
+        id="@+id/app_bar"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0xc="@string/pr_debug_abtest_debug"/>
+    <TextView
+        textSize="18sp"
+        textStyle="0x1"
+        id="@+id/tvFlag"
+        padding="8dp"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        text="flag"/>
+    <TextView
+        textSize="18sp"
+        textStyle="0x1"
+        id="@+id/tvValue"
+        padding="8dp"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        text="Value"/>
+    <TextView
+        textSize="18sp"
+        textStyle="0x1"
+        id="@+id/tvPayload"
+        padding="8dp"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        text="tvPayload"/>
+    <TextView
+        textSize="18sp"
+        textStyle="0x1"
+        id="@+id/tvOverride"
+        padding="8dp"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        text="Override Value:"/>
+    <EditText
+        textSize="16sp"
+        textColorHint="@color/hint_color"
+        id="@+id/etOverride"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        hint="Enter new override value"
+        inputType="0x20001"/>
+    <TextView
+        textSize="18sp"
+        textStyle="0x1"
+        id="@+id/tvOverridePayload"
+        padding="8dp"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        text="Override Payload:"/>
+    <EditText
+        textSize="16sp"
+        textColorHint="@color/hint_color"
+        id="@+id/etOverridePayload"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        hint="Enter new override Payload"
+        inputType="0x20001"/>
+</LinearLayout>

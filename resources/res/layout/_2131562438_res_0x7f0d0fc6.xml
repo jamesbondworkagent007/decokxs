@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.C55258xgZ
+        id="@+id/title"
+        tag="layout/trade_impl_view_coin_distribution_0"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0xc="2"
+        NOT_FOUND_0xd="@color/ContentPrimary"
+        NOT_FOUND_0xe="@dimen/text_size_18sp"
+        NOT_FOUND_0x10="700"/>
+    <o.C55258xgZ
+        gravity="0x11"
+        layout_gravity="0x11"
+        id="@+id/emptyView"
+        tag="layout/trade_impl_view_coin_distribution_1"
+        visibility="2"
+        layout_width="-2"
+        android:layout_height="132dp"
+        NOT_FOUND_0xc="2"
+        NOT_FOUND_0xd="@color/ContentContrast"
+        NOT_FOUND_0xe="@dimen/text_size_14sp"
+        NOT_FOUND_0xf="@string/pr_options_charts_alert_no_data"/>
+    <LinearLayout
+        gravity="0x10"
+        orientation="0"
+        id="@+id/llCoinAllocation"
+        tag="layout/trade_impl_view_coin_distribution_2"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="12dp">
+        <com.github.mikephil.charting.charts.PieChart
+            id="@+id/coinPieChart"
+            layout_width="0dp"
+            android:layout_height="132dp"
+            layout_weight="1"/>
+        <androidx.recyclerview.widget.RecyclerView
+            id="@+id/rcvCoinAllocation"
+            layout_width="0dp"
+            android:layout_height="wrap_content"
+            layout_weight="1"
+            overScrollMode="2"
+            layout_marginStart="24dp"/>
+    </LinearLayout>
+</merge>

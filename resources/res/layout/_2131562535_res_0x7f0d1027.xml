@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <ImageView
+        id="@+id/iv_icon"
+        layout_width="25dp"
+        android:layout_height="25dp"
+        layout_marginTop="@dimen/margin_12dp"
+        layout_marginBottom="@dimen/margin_12dp"
+        layout_marginVertical="@dimen/margin_12dp"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="0"/>
+    <TextView
+        textAppearance="@style/TextAppearance.Text.16SP.Medium"
+        textColor="@color/grey_g900"
+        id="@+id/tv_coin_name"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginStart="@dimen/margin_12dp"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xd="@+id/iv_icon"
+        NOT_FOUND_0xf="0"/>
+    <o.C57682ymy
+        id="@+id/iv_item_select"
+        visibility="2"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        src="@drawable/_2131232885_res_0x7f080875"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xf="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

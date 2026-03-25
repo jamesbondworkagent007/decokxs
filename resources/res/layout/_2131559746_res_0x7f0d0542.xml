@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    layout_width="-2"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        gravity="0x10"
+        orientation="0"
+        id="@+id/layout_coin_hot"
+        layout_width="-2"
+        android:layout_height="wrap_content">
+        <ImageView
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            src="@drawable/_2131232240_res_0x7f0805f0"
+            NOT_FOUND_0xc="#ffb117"/>
+        <TextView
+            textSize="10sp"
+            textColor="#ffb117"
+            gravity="0x10"
+            id="@+id/tv_coin_hot"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            text="No.2"
+            fontFamily="@font/font_alpha_regular"
+            layout_marginStart="@dimen/margin_2dp"/>
+        <TextView
+            textSize="10sp"
+            textColor="#ffb117"
+            id="@+id/tv_slide"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            text="|"
+            fontFamily="@font/font_alpha_regular"
+            layout_marginStart="6dp"
+            layout_marginEnd="6dp"/>
+    </LinearLayout>
+</LinearLayout>

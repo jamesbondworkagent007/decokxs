@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="0"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginLeft="@dimen/margin_24dp"
+    layout_marginRight="@dimen/margin_24dp"
+    layout_marginBottom="@dimen/margin_12dp"
+    layout_marginHorizontal="@dimen/margin_24dp">
+    <LinearLayout
+        orientation="0"
+        layout_width="@dimen/width_0dp"
+        android:layout_height="wrap_content"
+        layout_weight="1">
+        <TextView
+            textSize="14sp"
+            textColor="@color/ContentContrast"
+            id="@+id/tv_index"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            layout_marginEnd="@dimen/margin_8dp"
+            style="@style/Body_3_Medium_Invest"/>
+        <TextView
+            textSize="14sp"
+            textColor="@color/ContentSecondary"
+            id="@+id/tv_text"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            textAlignment="5"
+            style="@style/Body_3_Regular"/>
+    </LinearLayout>
+    <ImageView
+        layout_gravity="0x11"
+        id="@+id/ic_view_more"
+        visibility="2"
+        layout_width="@dimen/xsm"
+        android:layout_height="@dimen/xsm"
+        src="@drawable/_2131231647_res_0x7f08039f"
+        contentDescription="web3_defi_bonus_tip_view_more"
+        layout_marginStart="@dimen/xxxxsm"
+        NOT_FOUND_0x12="@color/ContentPrimary"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

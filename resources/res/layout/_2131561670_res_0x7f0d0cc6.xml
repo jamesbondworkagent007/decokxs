@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o.C41381qpj xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="match_parent"
+    animateLayoutChanges="true">
+    <FrameLayout
+        id="@+id/favorites_recommend_layout"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="match_parent"/>
+    <androidx.fragment.app.FragmentContainerView
+        name="com.okinc.market.discover.features.markets.sub.favorites.MarketDiscoverFavoritesListFragmentV2"
+        id="@+id/favorites_list_layout"
+        layout_width="-1"
+        android:layout_height="match_parent"/>
+</o.C41381qpj>

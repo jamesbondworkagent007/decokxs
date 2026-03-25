@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x10"
+    orientation="0"
+    id="@+id/header"
+    tag="layout/plugin_future_tags_0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.C55251xgS
+        id="@+id/tag"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginStart="6dp"
+        NOT_FOUND_0x8="-5"
+        NOT_FOUND_0x9="6"/>
+    <o.C55251xgS
+        id="@+id/leverage"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginStart="4dp"
+        NOT_FOUND_0x8="-5"
+        NOT_FOUND_0x9="6"/>
+    <o.C55251xgS
+        id="@+id/shareType"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginStart="4dp"
+        NOT_FOUND_0x8="-5"
+        NOT_FOUND_0x9="14"/>
+    <o.C55251xgS
+        id="@+id/tvCurrentHolding"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        text="@string/pr_social_planet_selectioncard_post_pnl"
+        layout_marginStart="4dp"
+        NOT_FOUND_0x8="-5"
+        NOT_FOUND_0x9="12"/>
+</LinearLayout>

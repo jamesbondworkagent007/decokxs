@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <TextView
+        textColor="@color/ContentPrimary"
+        id="@+id/title"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        style="@style/Label_1_Medium"/>
+    <TextView
+        textColor="@color/ContentTertiary"
+        id="@+id/description"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/xxxsm"
+        style="@style/Body_3_Regular"/>
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.C55320xhi
+        textAppearance="@style/TextAppearance.Text.Regular"
+        textSize="12sp"
+        id="@+id/tv_label"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        includeFontPadding="false"
+        NOT_FOUND_0x8="0"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="0"/>
+    <TextView
+        textAppearance="@style/TextAppearance.Text.Medium"
+        textSize="12sp"
+        id="@+id/tv_value"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        includeFontPadding="false"
+        textAlignment="6"
+        layout_marginStart="8dp"
+        NOT_FOUND_0x8="0"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xa="1"
+        NOT_FOUND_0xb="@+id/tv_label"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="-4"/>
+</merge>

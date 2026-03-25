@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    name="com.okinc.business.dexui.main.limitorder.question.QuestionFragment"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/list"
+        paddingLeft="16dp"
+        paddingRight="16dp"
+        layout_width="-1"
+        android:layout_height="match_parent"
+        paddingHorizontal="16dp"
+        NOT_FOUND_0xa="LinearLayoutManager"/>
+    <o.C55173xeu
+        id="@+id/error_view_faq"
+        paddingTop="96dp"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x9="8"
+        NOT_FOUND_0xb="@string/pr_metax_trade_pricechart_text_net_errror"
+        NOT_FOUND_0xc="@string/pr_trade_empty_title_error"/>
+</FrameLayout>

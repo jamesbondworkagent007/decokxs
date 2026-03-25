@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    background="@color/ContainerSecondary"
+    visibility="2"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <View
+        id="@+id/start_line"
+        background="@color/ContentPrimary"
+        layout_width="@dimen/xxxxsm"
+        android:layout_height="match_parent"/>
+    <o.C35886oHi
+        id="@+id/reference_layout"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/padding_12dp"
+        layout_marginBottom="@dimen/padding_12dp"
+        layout_weight="1"
+        layout_marginStart="@dimen/xxsm"
+        layout_marginVertical="@dimen/padding_12dp"/>
+    <ImageView
+        id="@+id/reference_cancel"
+        paddingTop="@dimen/xxsm"
+        layout_width="@dimen/margin_20dp"
+        android:layout_height="wrap_content"
+        src="@drawable/_2131231675_res_0x7f0803bb"
+        scaleType="fitStart"
+        contentDescription="@string/pr_commonall_text_btn_cancel"
+        layout_marginStart="@dimen/xxxxsm"
+        layout_marginEnd="@dimen/xxsm"
+        NOT_FOUND_0xf="@color/ContentPrimary"/>
+</LinearLayout>

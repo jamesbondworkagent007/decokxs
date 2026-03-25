@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    tag="layout/pair_input_number_item_0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.C55008xbo
+        id="@+id/input"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x6="72"
+        NOT_FOUND_0x7="true"/>
+    <o.C55008xbo
+        id="@+id/subInput"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="32dp"
+        NOT_FOUND_0x6="72"
+        NOT_FOUND_0x7="true"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item state_enabled="false">
+        <layer-list>
+            <item>
+                <shape shape="0">
+                    <solid color="@color/white_background_color"/>
+                    <size
+                        height="40dp"
+                        width="360dp"/>
+                </shape>
+            </item>
+            <item
+                gravity="0x50"
+                start="@dimen/common_page_edge_space">
+                <shape shape="0">
+                    <solid color="@color/widget_disable_color"/>
+                    <size
+                        height="0x7f0703c9"
+                        width="360dp"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item state_focused="true">
+        <layer-list>
+            <item>
+                <shape shape="0">
+                    <solid color="@color/white_background_color"/>
+                    <size
+                        height="40dp"
+                        width="360dp"/>
+                </shape>
+            </item>
+            <item
+                gravity="0x50"
+                start="@dimen/common_page_edge_space">
+                <shape shape="0">
+                    <solid color="@color/primary_blue_color"/>
+                    <size
+                        height="0x7f0703c9"
+                        width="360dp"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item state_selected="true">
+        <layer-list>
+            <item>
+                <shape shape="0">
+                    <solid color="@color/white_background_color"/>
+                    <size
+                        height="40dp"
+                        width="360dp"/>
+                </shape>
+            </item>
+            <item
+                gravity="0x50"
+                start="@dimen/common_page_edge_space">
+                <shape shape="0">
+                    <solid color="@color/primary_blue_color"/>
+                    <size
+                        height="0x7f0703c9"
+                        width="360dp"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item>
+        <layer-list>
+            <item>
+                <shape shape="0">
+                    <solid color="@color/white_background_color"/>
+                    <size
+                        height="40dp"
+                        width="360dp"/>
+                </shape>
+            </item>
+            <item
+                gravity="0x50"
+                start="@dimen/common_page_edge_space">
+                <shape shape="0">
+                    <solid color="@color/list_divider_color"/>
+                    <size
+                        height="0x7f0703c9"
+                        width="360dp"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>

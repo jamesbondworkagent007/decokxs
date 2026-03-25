@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    id="@+id/line_layout"
+    layout_width="-2"
+    android:layout_height="match_parent">
+    <View
+        layout_gravity="0x1"
+        id="@+id/default_line"
+        background="@color/grey_g300"
+        layout_width="1dp"
+        android:layout_height="match_parent"/>
+    <FrameLayout
+        id="@+id/progress_layout"
+        layout_width="-2"
+        android:layout_height="wrap_content">
+        <View
+            layout_gravity="0x1"
+            id="@+id/child_progress_bar_view"
+            background="@color/grey_g500"
+            visibility="2"
+            layout_width="2dp"
+            android:layout_height="wrap_content"/>
+    </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/activity_backup_show_mnemonic_0"
+    background="@color/BasePrimaryAlternative"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C33537myN
+        id="@+id/appBar"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x9="true"
+        NOT_FOUND_0xa="@color/BasePrimaryAlternative"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x11="@color/BasePrimaryAlternative"/>
+    <FrameLayout
+        id="@+id/container"
+        layout_width="-1"
+        android:layout_height="match_parent"
+        NOT_FOUND_0xb="true"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="@+id/appBar"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/ivTip"
+        padding="4dp"
+        visibility="2"
+        layout_width="32dp"
+        android:layout_height="32dp"
+        src="@drawable/_2131233739_res_0x7f080bcb"
+        layout_marginEnd="@dimen/margin_20dp"
+        NOT_FOUND_0xc="@+id/appBar"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0x10="@+id/appBar"
+        NOT_FOUND_0x12="@color/ContentPrimary"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

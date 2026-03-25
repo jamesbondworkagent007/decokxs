@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    tag="layout/view_signal_bot_set_tp_sl_0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.C53420wlE
+        id="@+id/tpSlSet"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x9="@string/pr_trade_bot_tab_profit_and_loss"/>
+    <o.C53526wnE
+        id="@+id/typeSelect"
+        layout_width="-1"
+        android:layout_height="match_parent"
+        layout_marginLeft="@dimen/margin_16dp"
+        layout_marginRight="@dimen/margin_16dp"
+        layout_marginHorizontal="@dimen/margin_16dp"/>
+    <o.C47988uAv
+        id="@+id/tpInput"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginLeft="@dimen/margin_16dp"
+        layout_marginTop="@dimen/margin_8dp"
+        layout_marginRight="@dimen/margin_16dp"
+        layout_marginHorizontal="@dimen/margin_16dp"
+        style="@style/OKTInputLayoutStyle_Bot"/>
+    <o.C47988uAv
+        id="@+id/slInput"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginLeft="@dimen/margin_16dp"
+        layout_marginTop="@dimen/margin_8dp"
+        layout_marginRight="@dimen/margin_16dp"
+        layout_marginHorizontal="@dimen/margin_16dp"
+        style="@style/OKTInputLayoutStyle_Bot"/>
+</LinearLayout>

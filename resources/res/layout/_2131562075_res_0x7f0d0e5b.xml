@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginTop="12dp">
+    <o.C55258xgZ
+        theme="@style/OKTheme"
+        id="@+id/titleTv"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginEnd="16dp"
+        NOT_FOUND_0x8="2"
+        NOT_FOUND_0x9="@color/ContentContrast"
+        NOT_FOUND_0xa="14sp"/>
+    <TextView
+        gravity="0x800005"
+        id="@+id/valueTv"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_weight="1"
+        style="@style/Label_2_Medium"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

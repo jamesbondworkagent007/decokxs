@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x10"
+    orientation="1"
+    tag="layout/publisher_draft_item_0"
+    paddingLeft="24dp"
+    paddingTop="16dp"
+    paddingRight="24dp"
+    paddingBottom="16dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingHorizontal="24dp"
+    paddingVertical="16dp">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        orientation="0"
+        layout_width="-1"
+        android:layout_height="wrap_content">
+        <TextView
+            textColor="@color/ContentSecondary"
+            ellipsize="3"
+            id="@+id/tv_content"
+            layout_width="0dp"
+            android:layout_height="wrap_content"
+            maxLines="3"
+            layout_weight="1"
+            style="@style/Label_1_Regular"/>
+        <ImageView
+            id="@+id/thumbnail"
+            visibility="2"
+            layout_width="60dp"
+            android:layout_height="60dp"
+            scaleType="fitStart"
+            layout_marginStart="12dp"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <TextView
+        textColor="@color/color_content_static_subtle"
+        id="@+id/tv_time"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="4dp"
+        style="@style/Label_2_Regular"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

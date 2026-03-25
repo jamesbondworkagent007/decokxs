@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    gravity="0x11"
+    paddingTop="@dimen/xxxxxsm"
+    paddingBottom="@dimen/xxxxxsm"
+    layout_width="-2"
+    android:layout_height="wrap_content"
+    layout_marginEnd="@dimen/xxxsm"
+    paddingVertical="@dimen/xxxxxsm">
+    <ImageView
+        id="@+id/iv_tag_icon"
+        layout_width="@dimen/height_14dp"
+        android:layout_height="@dimen/height_14dp"/>
+    <TextView
+        textColor="@color/TradeRise"
+        id="@+id/tv_tag_metrics"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        includeFontPadding="false"
+        style="@style/Label_3_Regular"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

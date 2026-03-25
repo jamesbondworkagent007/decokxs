@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    id="@+id/tv_content"
+    paddingTop="10dp"
+    paddingBottom="10dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    minHeight="40dp"
+    paddingStart="16dp"
+    paddingEnd="16dp"/>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C30681lfj
+        orientation="1"
+        id="@+id/chart_layout"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="0">
+        <include
+            id="@+id/ll_chart_timeline"
+            layout="@layout/_2131562705_res_0x7f0d10d1"/>
+        <o.C36250oUv
+            id="@+id/chart_view"
+            layout_width="-1"
+            android:layout_height="match_parent"
+            NOT_FOUND_0xa="1"
+            NOT_FOUND_0xb="true"/>
+    </o.C30681lfj>
+    <o.C55173xeu
+        layout_gravity="0x11"
+        id="@+id/empty_container"
+        focusable="true"
+        visibility="2"
+        clickable="true"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/dp_28"
+        NOT_FOUND_0x9="8"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

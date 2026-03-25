@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" shape="2">
+    <stroke
+        width="1dp"
+        color="@color/okTradeG300"
+        dashWidth="4dp"
+        dashGap="4dp"/>
+    <size height="1dp"/>
+</shape>

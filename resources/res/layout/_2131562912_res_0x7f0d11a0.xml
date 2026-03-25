@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    paddingTop="@dimen/padding_8dp"
+    paddingBottom="@dimen/padding_8dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingVertical="@dimen/padding_8dp">
+    <o.wYC
+        layout_gravity="0x1"
+        id="@+id/toggleIcon"
+        layout_width="@dimen/height_24dp"
+        android:layout_height="@dimen/height_24dp"
+        layout_marginTop="8dp"
+        src="@drawable/_2131231654_res_0x7f0803a6"
+        tint="@color/ContentContrast"/>
+</FrameLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    background="@color/BasePrimary"
+    layout_width="-1"
+    android:layout_height="match_parent"
+    contentDescription="web3_discover_web_page_manager_container">
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/tab_list"
+        background="@color/BasePrimary"
+        paddingTop="@dimen/margin_13dp"
+        layout_width="-1"
+        android:layout_height="0dp"
+        paddingStart="@dimen/ok_dp_16"
+        paddingEnd="@dimen/ok_dp_16"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xe="0"/>
+    <o.C55173xeu
+        id="@+id/empty"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="123dp"
+        NOT_FOUND_0xa="@drawable/_2131233558_res_0x7f080b16"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="@string/pr_discover_tab_emptystate_desc_click_to_open"
+        NOT_FOUND_0x10="@string/pr_discover_tab_emptystate_title_no_tabs"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

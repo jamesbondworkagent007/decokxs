@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    visibility="2"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <TextView
+        textAppearance="@style/TextAppearance.Text.16SP"
+        gravity="0x11"
+        background="@drawable/_2131231293_res_0x7f08023d"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="12dp"
+        layout_marginBottom="12dp"
+        minHeight="44dp"
+        text="@string/pr_message_bot_modal_muted"
+        layout_marginStart="20dp"
+        layout_marginEnd="20dp"/>
+</android.widget.LinearLayout>

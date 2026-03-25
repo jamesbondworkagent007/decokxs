@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    textAppearance="?attr/toast_common_textAppearance"
+    gravity="0x11"
+    id="@+id/tv_text"
+    background="?attr/toast_common_bg_style"
+    paddingLeft="16dp"
+    paddingTop="12dp"
+    paddingRight="16dp"
+    paddingBottom="12dp"
+    layout_width="-2"
+    android:layout_height="wrap_content"
+    maxWidth="225dp"
+    minWidth="96dp"
+    includeFontPadding="false"
+    lineSpacingExtra="2dp"
+    paddingHorizontal="16dp"
+    paddingVertical="12dp"/>

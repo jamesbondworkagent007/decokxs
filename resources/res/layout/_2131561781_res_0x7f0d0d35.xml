@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C55244xgL
+        id="@+id/chip_tabs"
+        layout_width="-1"
+        android:layout_height="@dimen/dp_40"
+        NOT_FOUND_0x4="2"
+        NOT_FOUND_0x5="1"
+        NOT_FOUND_0x6="-6"/>
+    <o.C40498qYb
+        id="@+id/viewpager_wrapper"
+        layout_width="-1"
+        android:layout_height="match_parent">
+        <androidx.viewpager2.widget.ViewPager2
+            id="@+id/viewpager"
+            layout_width="-1"
+            android:layout_height="match_parent"/>
+    </o.C40498qYb>
+</androidx.appcompat.widget.LinearLayoutCompat>

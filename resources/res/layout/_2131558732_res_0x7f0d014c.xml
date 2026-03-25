@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/activity_wallet_edit_0"
+    background="@color/BasePrimaryAlternative"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C33537myN
+        id="@+id/appbar"
+        background="@color/BasePrimaryAlternative"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x8="@string/pr_wallet_newtip_coach_mark_wallet_management"
+        NOT_FOUND_0x9="@color/BasePrimaryAlternative"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x11="@color/BasePrimaryAlternative"/>
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/recycle"
+        paddingTop="@dimen/padding_16dp"
+        paddingBottom="@dimen/padding_24dp"
+        clipToPadding="false"
+        layout_width="-1"
+        android:layout_height="match_parent"
+        NOT_FOUND_0xa="true"
+        NOT_FOUND_0xb="true"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="@+id/appbar"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

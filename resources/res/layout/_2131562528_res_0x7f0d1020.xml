@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/signParamsLay"
+    tag="layout/trade_ui_fragment_signal_bot_sign_params_content_0"
+    background="@drawable/_2131233964_res_0x7f080cac"
+    paddingLeft="12dp"
+    paddingTop="10dp"
+    paddingRight="12dp"
+    paddingBottom="10dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginTop="12dp"
+    paddingHorizontal="12dp"
+    paddingVertical="10dp">
+    <TextView
+        textAppearance="@style/TextAppearance.Text.14SP.Medium"
+        textColor="@color/okTradeG900"
+        layout_gravity="0x10"
+        id="@+id/signParams"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        lineSpacingExtra="2dp"/>
+    <ImageView
+        layout_gravity="0x800005"
+        id="@+id/copyParams"
+        layout_width="24dp"
+        android:layout_height="24dp"
+        src="@drawable/_2131231720_res_0x7f0803e8"
+        NOT_FOUND_0x11="@color/ContentPrimary"/>
+</FrameLayout>

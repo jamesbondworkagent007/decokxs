@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <ProgressBar
+        layout_gravity="0x11"
+        id="@+id/pb_loading"
+        visibility="2"
+        layout_width="-2"
+        android:layout_height="wrap_content"/>
+    <ScrollView
+        id="@+id/scrollViewResult"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="match_parent">
+        <LinearLayout
+            orientation="1"
+            padding="@dimen/ok_dp_16"
+            layout_width="-1"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                orientation="1"
+                id="@+id/llPredictionPreview"
+                layout_width="-1"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    orientation="0"
+                    layout_width="-1"
+                    android:layout_height="180dp">
+                    <VideoView
+                        layout_gravity="0x11"
+                        id="@+id/videoView"
+                        layout_width="0dp"
+                        android:layout_height="match_parent"
+                        layout_weight="1"/>
+                    <ImageView
+                        id="@+id/imgViewFirstRefFrame"
+                        layout_width="0dp"
+                        android:layout_height="match_parent"
+                        layout_weight="1"
+                        layout_marginStart="5dp"/>
+                    <ImageView
+                        id="@+id/imgViewLastRefFrame"
+                        layout_width="0dp"
+                        android:layout_height="match_parent"
+                        layout_weight="1"
+                        layout_marginStart="5dp"/>
+                </LinearLayout>
+                <TextView
+                    layout_gravity="0x1"
+                    layout_width="-2"
+                    android:layout_height="wrap_content"
+                    text="Prediction Results"
+                    style="@style/TextAppearance.AppCompat.Caption"/>
+            </LinearLayout>
+            <LinearLayout
+                orientation="1"
+                id="@+id/llJwstPreview"
+                layout_width="-1"
+                android:layout_height="wrap_content">
+                <VideoView
+                    layout_gravity="0x11"
+                    id="@+id/jwstVideoView"
+                    layout_width="-2"
+                    android:layout_height="200dp"/>
+                <TextView
+                    layout_gravity="0x1"
+                    layout_width="-2"
+                    android:layout_height="wrap_content"
+                    text="JWST Results"
+                    style="@style/TextAppearance.AppCompat.Caption"/>
+            </LinearLayout>
+            <TableLayout
+                layout_width="-1"
+                android:layout_height="wrap_content"
+                layout_marginTop="@dimen/ok_dp_16"
+                stretchColumns="1"
+                shrinkColumns="1">
+                <com.google.android.material.divider.MaterialDivider layout_marginTop="@dimen/dp_8"/>
+                <TableRow layout_marginTop="@dimen/ok_dp_16">
+                    <TextView
+                        textStyle="0x1"
+                        text="Overall Liveness Result"
+                        style="@style/TextAppearance.Title.20SP"/>
+                    <TextView
+                        textStyle="0x1"
+                        gravity="0x800005"
+                        id="@+id/tvOverallResult"
+                        style="@style/TextAppearance.Title.20SP"/>
+                </TableRow>
+                <com.google.android.material.divider.MaterialDivider layout_marginTop="@dimen/dp_8"/>
+                <TableRow layout_marginTop="@dimen/dp_8">
+                    <TextView
+                        text="Device Security Check"
+                        style="@style/TextAppearance.Subtitle.18SP"/>
+                    <TextView
+                        gravity="0x800005"
+                        id="@+id/tvDeviceSecurity"
+                        style="@style/TextAppearance.Subtitle.18SP"/>
+                </TableRow>
+                <com.google.android.material.divider.MaterialDivider layout_marginTop="@dimen/dp_8"/>
+                <TableRow layout_marginTop="@dimen/dp_8">
+                    <TextView
+                        text="Same Person Check"
+                        style="@style/TextAppearance.Subtitle.18SP"/>
+                    <TextView
+                        gravity="0x800005"
+                        id="@+id/tvSamePerson"
+                        style="@style/TextAppearance.Subtitle.18SP"/>
+                </TableRow>
+                <com.google.android.material.divider.MaterialDivider layout_marginTop="@dimen/dp_8"/>
+                <TableRow layout_marginTop="@dimen/dp_8">
+                    <TextView
+                        text="FaceQC Check"
+                        style="@style/TextAppearance.Subtitle.18SP"/>
+                    <TextView
+                        gravity="0x800005"
+                        id="@+id/tvFaceQC"
+                        style="@style/TextAppearance.Subtitle.18SP"/>
+                </TableRow>
+                <com.google.android.material.divider.MaterialDivider layout_marginTop="@dimen/dp_8"/>
+                <TableRow layout_marginTop="@dimen/dp_8">
+                    <TextView
+                        text="Glasses Prediction"
+                        style="@style/TextAppearance.Subtitle.18SP"/>
+                    <TextView
+                        gravity="0x800005"
+                        id="@+id/tvGlasses"
+                        style="@style/TextAppearance.Subtitle.18SP"/>
+                </TableRow>
+                <com.google.android.material.divider.MaterialDivider layout_marginTop="@dimen/dp_8"/>
+                <TableRow layout_marginTop="@dimen/dp_8">
+                    <TextView
+                        text="Grimace Prediction"
+                        style="@style/TextAppearance.Subtitle.18SP"/>
+                    <TextView
+                        gravity="0x800005"
+                        id="@+id/tvGrimace"
+                        style="@style/TextAppearance.Subtitle.18SP"/>
+                </TableRow>
+                <com.google.android.material.divider.MaterialDivider layout_marginTop="@dimen/dp_8"/>
+                <TableRow layout_marginTop="@dimen/dp_8">
+                    <TextView
+                        text="PAD Check"
+                        style="@style/TextAppearance.Subtitle.18SP"/>
+                    <TextView
+                        gravity="0x800005"
+                        id="@+id/tvPadCheck"
+                        style="@style/TextAppearance.Subtitle.18SP"/>
+                </TableRow>
+                <com.google.android.material.divider.MaterialDivider layout_marginTop="@dimen/dp_8"/>
+                <TableRow layout_marginTop="@dimen/dp_8">
+                    <TextView
+                        text="Good Lighting Check"
+                        style="@style/TextAppearance.Subtitle.18SP"/>
+                    <TextView
+                        gravity="0x800005"
+                        id="@+id/tvLightingCheck"
+                        style="@style/TextAppearance.Subtitle.18SP"/>
+                </TableRow>
+                <com.google.android.material.divider.MaterialDivider layout_marginTop="@dimen/dp_8"/>
+                <TableRow layout_marginTop="@dimen/dp_8">
+                    <TextView
+                        text="Border Check"
+                        style="@style/TextAppearance.Subtitle.18SP"/>
+                    <TextView
+                        gravity="0x800005"
+                        id="@+id/tvBorderCheck"
+                        style="@style/TextAppearance.Subtitle.18SP"/>
+                </TableRow>
+                <com.google.android.material.divider.MaterialDivider layout_marginTop="@dimen/dp_8"/>
+                <TableRow layout_marginTop="@dimen/dp_8">
+                    <TextView
+                        text="Light Sequence Check"
+                        style="@style/TextAppearance.Subtitle.18SP"/>
+                    <TextView
+                        gravity="0x800005"
+                        id="@+id/tvSequenceCheck"
+                        style="@style/TextAppearance.Subtitle.18SP"/>
+                </TableRow>
+                <com.google.android.material.divider.MaterialDivider layout_marginTop="@dimen/dp_8"/>
+                <TableRow layout_marginTop="@dimen/dp_8">
+                    <TextView
+                        text="Color Challenge Result"
+                        style="@style/TextAppearance.Subtitle.18SP"/>
+                    <TextView
+                        gravity="0x800005"
+                        id="@+id/tvColorChallengeResult"
+                        style="@style/TextAppearance.Subtitle.18SP"/>
+                </TableRow>
+            </TableLayout>
+            <LinearLayout
+                orientation="1"
+                id="@+id/llChallengeColors"
+                layout_width="-1"
+                android:layout_height="wrap_content"
+                layout_marginTop="@dimen/dp_8"
+                style="@style/TextAppearance.Subtitle.18SP"/>
+            <TableLayout
+                layout_width="-1"
+                android:layout_height="wrap_content"
+                layout_marginTop="@dimen/ok_dp_16"
+                stretchColumns="1"
+                shrinkColumns="1">
+                <TableRow layout_marginTop="@dimen/ok_dp_16">
+                    <TextView
+                        textStyle="0x1"
+                        text="Dev Parameters"
+                        style="@style/TextAppearance.Title.20SP"/>
+                </TableRow>
+                <com.google.android.material.divider.MaterialDivider layout_marginTop="@dimen/dp_8"/>
+                <TableRow layout_marginTop="@dimen/dp_8">
+                    <TextView
+                        layout_width="-2"
+                        android:layout_height="wrap_content"
+                        text="采集到视频编码器"
+                        style="@style/TextAppearance.Subtitle.18SP"/>
+                    <TextView
+                        gravity="0x5"
+                        id="@+id/tvVideoCodec"
+                        layout_width="-2"
+                        android:layout_height="wrap_content"
+                        style="@style/TextAppearance.Subtitle.18SP"/>
+                </TableRow>
+                <TableRow layout_marginTop="@dimen/dp_8">
+                    <TextView
+                        layout_width="-2"
+                        android:layout_height="wrap_content"
+                        text="视频大小"
+                        style="@style/TextAppearance.Subtitle.18SP"/>
+                    <TextView
+                        gravity="0x5"
+                        id="@+id/tvVideoSize"
+                        layout_width="-2"
+                        android:layout_height="wrap_content"
+                        style="@style/TextAppearance.Subtitle.18SP"/>
+                </TableRow>
+                <TableRow layout_marginTop="@dimen/dp_8">
+                    <TextView
+                        layout_width="-2"
+                        android:layout_height="wrap_content"
+                        text="视频长度"
+                        style="@style/TextAppearance.Subtitle.18SP"/>
+                    <TextView
+                        gravity="0x5"
+                        id="@+id/tvVideoDuration"
+                        layout_width="-2"
+                        android:layout_height="wrap_content"
+                        style="@style/TextAppearance.Subtitle.18SP"/>
+                </TableRow>
+                <com.google.android.material.divider.MaterialDivider layout_marginTop="@dimen/dp_8"/>
+                <TableRow
+                    id="@+id/trRefId"
+                    layout_marginTop="@dimen/dp_8">
+                    <TextView
+                        text="Ref ID"
+                        style="@style/TextAppearance.Subtitle.18SP"/>
+                    <TextView
+                        gravity="0x800005"
+                        id="@+id/tvRefId"
+                        style="@style/TextAppearance.Subtitle.18SP"/>
+                </TableRow>
+                <com.google.android.material.divider.MaterialDivider layout_marginTop="@dimen/dp_8"/>
+            </TableLayout>
+            <LinearLayout
+                orientation="0"
+                layout_width="-1"
+                android:layout_height="wrap_content"
+                layout_marginTop="@dimen/ok_dp_16">
+                <o.C52794wYp
+                    textSize="16sp"
+                    id="@+id/btnSaveVideoToGallery"
+                    layout_width="-1"
+                    android:layout_height="wrap_content"
+                    text="保存视频"
+                    layout_weight="1"
+                    layout_marginEnd="@dimen/ok_dp_16"
+                    NOT_FOUND_0x11="44"
+                    NOT_FOUND_0x12="0x104"
+                    NOT_FOUND_0x13="-2"/>
+                <o.C52794wYp
+                    textSize="16sp"
+                    id="@+id/btnShareVideo"
+                    layout_width="-1"
+                    android:layout_height="wrap_content"
+                    text="分享视频"
+                    layout_weight="1"
+                    layout_marginStart="@dimen/ok_dp_16"
+                    NOT_FOUND_0x11="44"
+                    NOT_FOUND_0x12="0x104"
+                    NOT_FOUND_0x13="-2"/>
+            </LinearLayout>
+            <o.C52794wYp
+                textSize="16sp"
+                id="@+id/btnCheckChunkFiles"
+                layout_width="-1"
+                android:layout_height="wrap_content"
+                layout_marginTop="@dimen/ok_dp_16"
+                text="查看分块视频"
+                NOT_FOUND_0x11="44"
+                NOT_FOUND_0x12="0x104"
+                NOT_FOUND_0x13="-2"/>
+            <LinearLayout
+                orientation="0"
+                layout_width="-1"
+                android:layout_height="wrap_content">
+                <o.C52794wYp
+                    id="@+id/btnJsonRequest"
+                    layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    layout_marginTop="@dimen/ok_dp_16"
+                    text="Request JSON"
+                    layout_weight="1"
+                    NOT_FOUND_0x11="44"
+                    NOT_FOUND_0x12="0x101"
+                    NOT_FOUND_0x13="-2"/>
+                <o.C52794wYp
+                    id="@+id/btnJsonResponse"
+                    layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    layout_marginTop="@dimen/ok_dp_16"
+                    text="Response JSON"
+                    layout_weight="1"
+                    layout_marginStart="@dimen/ok_dp_16"
+                    NOT_FOUND_0x11="44"
+                    NOT_FOUND_0x12="0x101"
+                    NOT_FOUND_0x13="-2"/>
+            </LinearLayout>
+            <o.C52794wYp
+                id="@+id/btnFrameScoreResult"
+                layout_width="-1"
+                android:layout_height="wrap_content"
+                layout_marginTop="@dimen/ok_dp_16"
+                text="Frame QC Score"
+                NOT_FOUND_0x11="44"
+                NOT_FOUND_0x12="0x101"
+                NOT_FOUND_0x13="-2"/>
+        </LinearLayout>
+    </ScrollView>
+    <TextView
+        layout_gravity="0x11"
+        id="@+id/tvCentreResult"
+        padding="@dimen/dp_8"
+        visibility="2"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        style="@style/TextAppearance.Title.20SP"/>
+</FrameLayout>

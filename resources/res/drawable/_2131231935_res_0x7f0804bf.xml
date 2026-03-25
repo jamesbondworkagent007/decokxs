@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="48dp"
+    android:width="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <path
+        android:fillColor="@color/SemanticNotice"
+        android:pathData="M13,10.5C13,8.015 15.015,6 17.5,6C19.985,6 22,8.015 22,10.5V14.5C22,16.985 19.985,19 17.5,19C15.015,19 13,16.985 13,14.5V10.5Z"/>
+    <path
+        android:fillColor="@color/SemanticNotice"
+        android:pathData="M26,10.5C26,8.015 28.015,6 30.5,6C32.985,6 35,8.015 35,10.5V14.5C35,16.985 32.985,19 30.5,19C28.015,19 26,16.985 26,14.5V10.5Z"/>
+    <path
+        android:fillColor="@color/SemanticNotice"
+        android:pathData="M9.5,18C7.567,18 6,19.567 6,21.5V23.5C6,25.433 7.567,27 9.5,27C11.433,27 13,25.433 13,23.5V21.5C13,19.567 11.433,18 9.5,18Z"/>
+    <path
+        android:fillColor="@color/SemanticNotice"
+        android:pathData="M35,21.5C35,19.567 36.567,18 38.5,18C40.433,18 42,19.567 42,21.5V23.5C42,25.433 40.433,27 38.5,27C36.567,27 35,25.433 35,23.5V21.5Z"/>
+    <path
+        android:fillColor="@color/SemanticNotice"
+        android:pathData="M34.606,29.086L34.607,29.083L34.608,29.079L26.767,22.953C25.141,21.683 22.858,21.683 21.231,22.953L13.391,29.079C13.389,29.08 13.39,29.083 13.392,29.083C13.394,29.083 13.395,29.086 13.393,29.087C11.77,30.425 10.735,32.452 10.735,34.72C10.735,38.749 14.002,42.016 18.031,42.016H29.969C33.999,42.016 37.265,38.749 37.265,34.72C37.265,32.451 36.23,30.424 34.606,29.086Z"/>
+</vector>

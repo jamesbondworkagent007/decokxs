@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o.C54979xbL xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/expand_layout"
+    layout_width="-1"
+    android:layout_height="292dp"
+    NOT_FOUND_0x6="300"
+    NOT_FOUND_0x7="false"
+    NOT_FOUND_0x8="0">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        orientation="1"
+        id="@+id/fl_asset_line_container"
+        layout_width="-1"
+        android:layout_height="match_parent">
+        <o.C51722vsQ
+            id="@+id/big_chart_view"
+            layout_width="-1"
+            android:layout_height="240dp"/>
+        <o.C51717vsL
+            id="@+id/chart_status_view"
+            visibility="2"
+            layout_width="-1"
+            android:layout_height="240dp"/>
+        <o.C51730vsY
+            id="@+id/select_view"
+            layout_width="-1"
+            android:layout_height="40dp"
+            layout_marginTop="@dimen/margin_12dp"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</o.C54979xbL>

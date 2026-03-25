@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    textAppearance="@style/TextAppearance.Text.14SP.Medium"
+    textColor="@color/grey_g400"
+    gravity="0x10"
+    background="@color/background_lv1"
+    paddingLeft="16dp"
+    paddingTop="8dp"
+    paddingRight="16dp"
+    paddingBottom="8dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingHorizontal="16dp"
+    paddingVertical="8dp"/>

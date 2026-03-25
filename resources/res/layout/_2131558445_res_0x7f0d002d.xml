@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C33537myN
+        id="@+id/appbar"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x4="@string/pr_selfprofile_acct_list_privavy"
+        NOT_FOUND_0x5="true"
+        NOT_FOUND_0x6="@drawable/_2131232348_res_0x7f08065c"/>
+    <androidx.fragment.app.FragmentContainerView
+        id="@+id/fragment_container"
+        layout_width="-1"
+        android:layout_height="match_parent"/>
+</LinearLayout>

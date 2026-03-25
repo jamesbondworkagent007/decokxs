@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    paddingLeft="@dimen/padding_24dp"
+    paddingRight="@dimen/padding_24dp"
+    paddingBottom="16dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingHorizontal="@dimen/padding_24dp">
+    <o.C14775drn
+        theme="@style/OKUITheme.Alternative.Web3"
+        id="@+id/okif_password"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_8dp"
+        contentDescription="inputPassword"
+        NOT_FOUND_0x15="44"
+        NOT_FOUND_0x16="@string/pr_wallet_home_input_password"
+        NOT_FOUND_0x17="@string/pr_metax_wallet_input_password_2"/>
+    <TextView
+        textAppearance="@style/Label_2_Regular"
+        textColor="@color/ContentPrimary"
+        gravity="0x10"
+        layout_gravity="0x800003"
+        id="@+id/tv_forgot_password"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_8dp"
+        text="@string/pr_wallet_function_input_btn_forgot_password"
+        drawablePadding="@dimen/padding_2dp"
+        drawableEnd="@drawable/_2131233696_res_0x7f080ba0"
+        NOT_FOUND_0x14="@color/ContentPrimary"/>
+    <o.C52794wYp
+        enabled="false"
+        textColor="@drawable/_2131233869_res_0x7f080c4d"
+        gravity="0x11"
+        id="@+id/btn_confirm"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="24dp"
+        text="@string/pr_metax_dapps_modal_textbtn_confirm"
+        contentDescription="btnConfirm"
+        textAllCaps="false"
+        NOT_FOUND_0x18="52"
+        NOT_FOUND_0x19="0x101"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

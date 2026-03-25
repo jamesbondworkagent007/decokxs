@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C55113xdn
+        id="@+id/loading_web3"
+        saveEnabled="false"
+        layout_width="@dimen/width_60dp"
+        android:layout_height="60dp"
+        layout_centerInParent="true"
+        NOT_FOUND_0x5="true"
+        NOT_FOUND_0x6="true"
+        NOT_FOUND_0x7="@raw/_2131886126_res_0x7f12002e"/>
+</RelativeLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    layout_width="-2"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        orientation="1"
+        layout_width="-1"
+        android:layout_height="wrap_content">
+        <TextView
+            textAppearance="@style/OKTextFont.Regular"
+            textSize="@dimen/text_size_14sp"
+            textColor="@color/ContentSecondary"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            text="@string/pr_trade_home_dialog_desc_spot_borrowing"/>
+        <o.wYK
+            textAppearance="@style/OKTextFont.Regular"
+            textSize="@dimen/text_size_14sp"
+            textColor="@color/ContentSecondary"
+            id="@+id/trade_agreement_cb"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            layout_marginTop="@dimen/margin_16dp"/>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

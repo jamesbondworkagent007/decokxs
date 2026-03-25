@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    id="@+id/container"
+    background="@color/background_lv1"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C33537myN
+        id="@+id/app_bar"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0xb="Debug Tools (调试工具)"/>
+    <o.C55230xfy
+        id="@+id/search_bar"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="8dp"
+        layout_marginBottom="8dp"
+        hint="Search (搜索)"
+        layout_marginStart="@dimen/sixteen"
+        layout_marginEnd="@dimen/sixteen"
+        NOT_FOUND_0xc="true"
+        NOT_FOUND_0xd="false"/>
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/recycler_view"
+        background="@color/background_lv2"
+        layout_width="-1"
+        android:layout_height="match_parent"
+        overScrollMode="2"/>
+</LinearLayout>

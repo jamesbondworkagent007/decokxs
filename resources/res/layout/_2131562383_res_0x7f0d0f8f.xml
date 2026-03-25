@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.C55258xgZ
+        id="@+id/left_title"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x6="0"
+        NOT_FOUND_0x7="0"
+        NOT_FOUND_0x8="0.5"
+        NOT_FOUND_0x9="@color/grey_g400"
+        NOT_FOUND_0xa="@dimen/text_size_14sp"/>
+    <com.okinc.tradingbot.impl.strategy.view.TickerIconView
+        id="@+id/right_content"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_marginStart="@dimen/margin_16dp"
+        NOT_FOUND_0x4="0"
+        NOT_FOUND_0x5="@+id/left_title"
+        NOT_FOUND_0x7="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

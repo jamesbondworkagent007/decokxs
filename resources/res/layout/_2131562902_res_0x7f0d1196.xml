@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        gravity="0x10"
+        orientation="0"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_18dp"
+        layout_marginStart="@dimen/margin_16dp"
+        layout_marginEnd="@dimen/margin_16dp">
+        <TextView
+            textSize="@dimen/text_size_16sp"
+            textColor="@color/grey_g900"
+            layout_width="0dp"
+            android:layout_height="wrap_content"
+            text="@string/pr_marketplace_search_title_search_history"
+            layout_weight="1"
+            style="@style/TextAppearance.Text.16SP.Medium"/>
+        <androidx.appcompat.widget.AppCompatImageView
+            id="@+id/searchClear"
+            layout_width="@dimen/margin_20dp"
+            android:layout_height="@dimen/margin_20dp"
+            NOT_FOUND_0xc="@drawable/_2131234234_res_0x7f080dba"
+            NOT_FOUND_0xd="@color/grey_g400"/>
+    </LinearLayout>
+    <o.C51806vtv
+        id="@+id/mStrategyAgentFlowLayout"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_6dp"
+        layout_marginStart="@dimen/margin_10dp"
+        layout_marginEnd="@dimen/margin_16dp"/>
+</LinearLayout>

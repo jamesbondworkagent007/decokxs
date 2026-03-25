@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x10"
+    background="@color/BasePrimary"
+    paddingLeft="@dimen/margin_default"
+    paddingTop="@dimen/xxsm"
+    paddingRight="@dimen/margin_default"
+    paddingBottom="@dimen/xxsm"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingHorizontal="@dimen/margin_default"
+    paddingVertical="@dimen/xxsm">
+    <ImageView
+        id="@+id/iv_group_icon"
+        visibility="2"
+        layout_width="@dimen/sm"
+        android:layout_height="@dimen/sm"
+        src="@drawable/_2131234144_res_0x7f080d60"
+        contentDescription="group_icon"
+        layout_marginEnd="@dimen/xxsm"
+        NOT_FOUND_0x14="@color/ContentPrimary"/>
+    <TextView
+        textSize="@dimen/font_14"
+        textColor="@color/ContentPrimary"
+        id="@+id/tv_group_name"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_weight="1"
+        fontFamily="?attr/okMediumFont"
+        style="@style/Body_3"/>
+    <ImageView
+        id="@+id/iv_more"
+        layout_width="20dp"
+        android:layout_height="20dp"
+        src="@drawable/_2131233513_res_0x7f080ae9"
+        contentDescription="icon_more"
+        NOT_FOUND_0x14="@color/ContentPrimary"/>
+    <ImageView
+        id="@+id/iv_drag"
+        layout_width="20dp"
+        android:layout_height="20dp"
+        src="@drawable/_2131232291_res_0x7f080623"
+        contentDescription="icon_drag"
+        layout_marginStart="@dimen/xsm"
+        NOT_FOUND_0x14="@color/ContentPrimary"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

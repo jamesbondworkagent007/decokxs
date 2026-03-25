@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    tag="layout/activity_rating_submit_full_page_0"
+    background="@color/BasePrimary"
+    fitsSystemWindows="true"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.wYC
+        layout_gravity="0x800005"
+        id="@+id/close"
+        paddingLeft="@dimen/sm"
+        paddingTop="@dimen/sm"
+        paddingRight="@dimen/sm"
+        paddingBottom="@dimen/xxsm"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        src="@drawable/_2131232489_res_0x7f0806e9"
+        tint="@color/ContentContrast"
+        paddingHorizontal="@dimen/sm"/>
+    <FrameLayout
+        id="@+id/contentFrame"
+        layout_width="-1"
+        android:layout_height="0dp"
+        layout_weight="1"/>
+    <FrameLayout
+        id="@+id/footerFrame"
+        layout_width="-1"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.AppCompatTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    textColor="@color/ContentPrimary"
+    id="@+id/tv_title"
+    tag="layout/trade_ui_market_place_featured_title_item_0"
+    paddingTop="@dimen/padding_24dp"
+    paddingBottom="@dimen/padding_4dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    style="@style/TextAppearance.Title.Bold.18SP"/>

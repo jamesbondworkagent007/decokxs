@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.C55258xgZ
+        id="@+id/initial_assets"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_weight="1"
+        NOT_FOUND_0xc="@color/grey_g400"
+        NOT_FOUND_0xd="@dimen/text_size_14sp"/>
+    <Space
+        id="@+id/space_view"
+        layout_width="@dimen/ok_dp_16"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        gravity="0x800015"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_weight="1">
+        <FrameLayout
+            id="@+id/avatarLay"
+            background="@drawable/_2131231267_res_0x7f080223"
+            visibility="2"
+            layout_width="20dp"
+            android:layout_height="20dp"
+            layout_marginEnd="@dimen/dp_4">
+            <ImageView
+                id="@+id/avatarImg"
+                layout_width="-1"
+                android:layout_height="match_parent"
+                scaleType="6"/>
+        </FrameLayout>
+        <o.C55258xgZ
+            textAppearance="@style/TextAppearance.Text.14SP.Medium"
+            id="@+id/initial_assets_number"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            layout_marginStart="4dp"
+            NOT_FOUND_0xc="@color/grey_g900"
+            NOT_FOUND_0xd="@dimen/text_size_14sp"/>
+    </LinearLayout>
+</LinearLayout>

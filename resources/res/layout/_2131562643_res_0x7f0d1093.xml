@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    gravity="0x11"
+    orientation="1"
+    layout_width="-2"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        gravity="0x11"
+        id="@+id/iconContainer"
+        layout_width="36dp"
+        android:layout_height="36dp">
+        <ImageView
+            id="@+id/icon"
+            layout_width="-2"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <TextView
+        textAppearance="@style/OKTextFont.Medium"
+        textSize="12sp"
+        gravity="0x11"
+        id="@+id/textView"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="4dp"/>
+</merge>

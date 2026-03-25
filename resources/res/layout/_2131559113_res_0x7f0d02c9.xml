@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <FrameLayout
+        orientation="1"
+        layout_width="-1"
+        android:layout_height="match_parent">
+        <androidx.recyclerview.widget.RecyclerView
+            id="@+id/rw_route_select"
+            paddingBottom="40dp"
+            layout_width="-1"
+            android:layout_height="match_parent"/>
+        <RelativeLayout
+            id="@+id/container_error"
+            visibility="2"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            minHeight="346dp">
+            <o.C55173xeu
+                layout_gravity="0x10"
+                id="@+id/error_view"
+                layout_width="-1"
+                android:layout_height="wrap_content"
+                layout_centerInParent="true"
+                NOT_FOUND_0x9="2"
+                NOT_FOUND_0xa="@string/pr_metax_trade_alert_text_fetching_error_desc"
+                NOT_FOUND_0xb="@string/pr_metax_trade_alert_title_fetching_quote"/>
+        </RelativeLayout>
+    </FrameLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

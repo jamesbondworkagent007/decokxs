@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/flImageMessageContainer"
+    tag="layout/item_im_image_send_message_content_0"
+    layout_width="-2"
+    android:layout_height="wrap_content">
+    <com.google.android.material.imageview.ShapeableImageView
+        id="@+id/iv_image"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        scaleType="6"
+        NOT_FOUND_0x9="@color/BorderPrimary"
+        NOT_FOUND_0xa="@dimen/dp_1"/>
+    <ImageView
+        layout_gravity="0x11"
+        id="@+id/iv_download_icon"
+        visibility="2"
+        layout_width="32dp"
+        android:layout_height="32dp"
+        src="@drawable/_2131232590_res_0x7f08074e"/>
+    <ImageView
+        layout_gravity="0x11"
+        id="@+id/iv_close_icon"
+        visibility="2"
+        layout_width="16dp"
+        android:layout_height="16dp"
+        src="@drawable/_2131232586_res_0x7f08074a"
+        elevation="4dp"/>
+    <o.C55113xdn
+        layout_gravity="0x11"
+        id="@+id/loading_view"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="match_parent"
+        elevation="5dp"/>
+</FrameLayout>

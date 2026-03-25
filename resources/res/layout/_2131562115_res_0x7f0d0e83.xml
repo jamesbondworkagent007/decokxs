@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x10"
+    background="@color/BasePrimary"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    minHeight="130dp">
+    <com.google.android.material.divider.MaterialDivider
+        id="@+id/divider"
+        layout_width="-1"
+        android:layout_height="@dimen/dp_0.5"
+        NOT_FOUND_0xb="@color/BorderPrimary"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x10="0"/>
+    <androidx.recyclerview.widget.RecyclerView
+        orientation="0"
+        id="@+id/plugin_recycler_view"
+        padding="@dimen/padding_24dp"
+        clipToPadding="false"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        overScrollMode="2"
+        nestedScrollingEnabled="false"
+        NOT_FOUND_0xc="androidx.recyclerview.widget.GridLayoutManager"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x11="4"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

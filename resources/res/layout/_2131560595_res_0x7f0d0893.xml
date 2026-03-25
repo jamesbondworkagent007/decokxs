@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    id="@+id/item_layout"
+    tag="layout/item_im_setting_item_0"
+    background="?attr/selectableItemBackground"
+    paddingLeft="@dimen/margin_default"
+    paddingRight="@dimen/margin_default"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    minHeight="@dimen/margin_38dp"
+    paddingHorizontal="@dimen/margin_default">
+    <TextView
+        textColor="@color/ContentContrast"
+        layout_gravity="0x10"
+        id="@+id/tv_title"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        style="@style/Body_3"/>
+</FrameLayout>

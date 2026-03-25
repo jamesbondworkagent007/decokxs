@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    gravity="0x11"
+    orientation="1"
+    layout_width="56dp"
+    android:layout_height="76dp"
+    layout_marginEnd="16dp">
+    <View
+        tag="radius_13"
+        layout_width="-1"
+        android:layout_height="56dp"
+        layout_marginBottom="4dp"/>
+    <View
+        tag="radius_4"
+        layout_width="-1"
+        android:layout_height="16dp"/>
+</LinearLayout>

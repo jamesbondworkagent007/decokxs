@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.recyclerview.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/rv_order_types"
+    layout_width="-1"
+    android:layout_height="match_parent"
+    NOT_FOUND_0x3="androidx.recyclerview.widget.LinearLayoutManager"/>

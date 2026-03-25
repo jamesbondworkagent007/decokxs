@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x10"
+    orientation="0"
+    tag="layout/trade_item_trade_switch_biz_setting_0"
+    paddingTop="@dimen/ok_dp_16"
+    paddingBottom="@dimen/ok_dp_16"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingVertical="@dimen/ok_dp_16">
+    <o.C55258xgZ
+        textColor="@color/ContentPrimary"
+        id="@+id/tvTitle"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0xe="2"
+        NOT_FOUND_0xf="@dimen/text_size_16sp"
+        NOT_FOUND_0x10="@style/TextAppearance.Title.16SP"/>
+    <View
+        layout_width="0dp"
+        android:layout_height="1dp"
+        layout_weight="1"/>
+    <o.C55239xgG
+        id="@+id/btnSwitch"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginEnd="@dimen/dp24"
+        NOT_FOUND_0x11="-3"/>
+    <ImageView
+        id="@+id/btnSort"
+        background="?attr/selectableItemBackgroundBorderless"
+        layout_width="24dp"
+        android:layout_height="24dp"
+        src="@drawable/_2131232291_res_0x7f080623"
+        NOT_FOUND_0x12="@color/ContentPrimary"/>
+</LinearLayout>

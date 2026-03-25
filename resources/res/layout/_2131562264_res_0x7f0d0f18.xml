@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="0"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <TextView
+        textColor="@color/color_tab_appv1"
+        gravity="0x11"
+        id="@+id/tv_title"
+        layout_width="-2"
+        android:layout_height="match_parent"
+        paddingStart="8dp"
+        paddingEnd="8dp"
+        style="@style/TextAppearance.Title.18SP.Medium"/>
+</LinearLayout>

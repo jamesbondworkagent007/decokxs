@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.C55258xgZ
+        id="@+id/tvTitle"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        maxLines="2"
+        NOT_FOUND_0x8="@+id/tvContent"
+        NOT_FOUND_0x9="1"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xe="@color/ContentContrast"
+        NOT_FOUND_0xf="14sp"
+        NOT_FOUND_0x10="@style/Label_2_Regular"
+        NOT_FOUND_0x11="400"
+        NOT_FOUND_0x12="@color/ContentContrast"/>
+    <o.C55258xgZ
+        gravity="0x800005"
+        id="@+id/tvContent"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        maxLines="1"
+        layout_marginStart="8dp"
+        NOT_FOUND_0x7="0"
+        NOT_FOUND_0x9="1"
+        NOT_FOUND_0xa="@+id/tvTitle"
+        NOT_FOUND_0xc="@+id/tvTitle"
+        NOT_FOUND_0xd="2"
+        NOT_FOUND_0xe="@color/ContentPrimary"
+        NOT_FOUND_0xf="14sp"
+        NOT_FOUND_0x10="@style/Label_2_Medium"
+        NOT_FOUND_0x11="500"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

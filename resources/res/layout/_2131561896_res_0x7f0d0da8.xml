@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.wYK
+        theme="@style/OKUITheme"
+        id="@+id/confirmCheck"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="32dp"
+        layout_marginBottom="8dp"
+        src="@drawable/_2131233846_res_0x7f080c36"
+        text="@string/pr_options_alert_not_tips"
+        NOT_FOUND_0x9="-4"/>
+</LinearLayout>

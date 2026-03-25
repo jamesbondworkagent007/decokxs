@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    tag="layout/trade_impl_view_select_rsi_input_0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.C53420wlE
+        id="@+id/item_select"
+        layout_width="-1"
+        android:layout_height="wrap_content"/>
+    <include
+        id="@+id/rsi_layout"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginLeft="@dimen/margin_24dp"
+        layout_marginTop="@dimen/margin_6dp"
+        layout_marginRight="@dimen/margin_24dp"
+        layout_marginHorizontal="@dimen/margin_24dp"
+        layout="@layout/_2131562400_res_0x7f0d0fa0"/>
+    <o.C47988uAv
+        id="@+id/other_input"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginLeft="@dimen/margin_24dp"
+        layout_marginTop="@dimen/margin_16dp"
+        layout_marginRight="@dimen/margin_24dp"
+        layout_marginBottom="@dimen/margin_14dp"
+        layout_marginHorizontal="@dimen/margin_24dp"
+        style="@style/OKTInputLayoutStyle_Bot"/>
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.C55317xhf
+        layout_gravity="0x1"
+        id="@+id/tvPrinciple"
+        tag="layout/trade_ui_view_dcd_basic_create_button_0"
+        visibility="2"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0xe="@color/ContentPrimary"
+        NOT_FOUND_0xf="@string/pr_dcdbot_placeorder_dialog_header_how_works"
+        NOT_FOUND_0x10="500"
+        NOT_FOUND_0x11="-5"/>
+    <o.C53518wmx
+        textAppearance="@style/TextAppearance.Text.16SP.Medium"
+        gravity="0x11"
+        id="@+id/btnFindProduct"
+        tag="layout/trade_ui_view_dcd_basic_create_button_1"
+        layout_width="-1"
+        android:layout_height="52dp"
+        layout_marginTop="@dimen/margin_16dp"
+        layout_marginBottom="@dimen/margin_24dp"
+        text="@string/pr_dcdbot_placeorder_btn_find_products"
+        NOT_FOUND_0xc="52"
+        NOT_FOUND_0xd="0x103"/>
+</merge>

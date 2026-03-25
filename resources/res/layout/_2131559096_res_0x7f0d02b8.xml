@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="0"
+    paddingLeft="@dimen/padding_24dp"
+    paddingTop="@dimen/xxxsm"
+    paddingRight="@dimen/padding_24dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingHorizontal="@dimen/padding_24dp">
+    <o.C55008xbo
+        id="@+id/et_token_contract_address"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_weight="1"
+        inputType="0x20001"
+        NOT_FOUND_0xc="false"
+        NOT_FOUND_0xd="@string/pr_swaptrade_copytrade_input_title_token_contract_address"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/iv_remove"
+        background="?attr/selectableItemBackgroundBorderless"
+        layout_width="@dimen/width_20dp"
+        android:layout_height="@dimen/height_20dp"
+        layout_marginStart="@dimen/margin_8dp"
+        NOT_FOUND_0xe="@drawable/_2131233151_res_0x7f08097f"
+        NOT_FOUND_0xf="@color/ContentDisabled"/>
+</merge>

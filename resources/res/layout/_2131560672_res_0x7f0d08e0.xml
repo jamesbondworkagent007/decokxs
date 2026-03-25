@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    textColor="@color/critical"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginLeft="@dimen/margin_16dp"
+    layout_marginTop="@dimen/margin_8dp"
+    layout_marginRight="@dimen/margin_16dp"
+    layout_marginBottom="@dimen/margin_8dp"
+    layout_marginHorizontal="@dimen/margin_16dp"
+    layout_marginVertical="@dimen/margin_8dp"
+    style="@style/TextAppearance.Text.12SP"/>

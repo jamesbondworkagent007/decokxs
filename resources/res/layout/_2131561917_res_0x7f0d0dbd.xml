@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    background="?attr/selectableItemBackground"
+    paddingLeft="@dimen/dp24"
+    paddingTop="@dimen/dp_16"
+    paddingRight="@dimen/dp24"
+    paddingBottom="@dimen/dp_16"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingHorizontal="@dimen/dp24"
+    paddingVertical="@dimen/dp_16">
+    <ImageView
+        id="@+id/icon"
+        layout_width="@dimen/dp_32"
+        android:layout_height="@dimen/dp_32"
+        src="@drawable/_2131231677_res_0x7f0803bd"
+        NOT_FOUND_0x12="0"
+        NOT_FOUND_0x13="0"/>
+    <ImageView
+        layout_gravity="0x800055"
+        id="@+id/chain_icon"
+        background="@drawable/_2131233431_res_0x7f080a97"
+        layout_width="@dimen/dp_16"
+        android:layout_height="@dimen/dp_16"
+        src="@drawable/_2131231603_res_0x7f080373"
+        translationX="2dp"
+        translationY="2dp"
+        NOT_FOUND_0xf="@+id/icon"
+        NOT_FOUND_0x10="@+id/icon"/>
+    <o.C42950rgA
+        id="@+id/crypto_layout"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_marginStart="16dp"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x11="@+id/icon"
+        NOT_FOUND_0x13="@+id/icon"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

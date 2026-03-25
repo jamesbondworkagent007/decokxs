@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.C52794wYp
+        id="@+id/view_history_btn"
+        background="@drawable/_2131231344_res_0x7f080270"
+        paddingLeft="@dimen/dp_12"
+        paddingTop="@dimen/dp_8"
+        paddingRight="@dimen/dp_12"
+        paddingBottom="@dimen/dp_8"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/dp_6"
+        text="@string/lt_trade_activity_btn_viewhistory"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="-1"
+        NOT_FOUND_0xe="36"
+        NOT_FOUND_0xf="0x104"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

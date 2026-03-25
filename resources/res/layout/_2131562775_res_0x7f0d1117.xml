@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-2"
+    android:layout_height="match_parent">
+    <ImageView
+        id="@+id/dexVerifiedIcon"
+        layout_width="16dp"
+        android:layout_height="16dp"
+        src="@drawable/_2131234401_res_0x7f080e61"
+        scaleType="7"
+        layout_marginStart="@dimen/margin_4dp"
+        NOT_FOUND_0x6="0"
+        NOT_FOUND_0x7="0"
+        NOT_FOUND_0x8="0"
+        NOT_FOUND_0x9="0"/>
+</merge>

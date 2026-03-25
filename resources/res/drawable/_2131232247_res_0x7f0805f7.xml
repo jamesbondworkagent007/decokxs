@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners radius="2dp"/>
+    <stroke
+        width="1dp"
+        color="@color/okTradeBlue700"/>
+    <padding
+        left="2dp"
+        top="1dp"
+        right="2dp"
+        bottom="1dp"/>
+</shape>

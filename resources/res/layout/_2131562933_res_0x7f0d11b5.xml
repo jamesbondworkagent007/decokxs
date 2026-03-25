@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    id="@+id/bg_container"
+    tag="layout/view_waiting_room_button_0"
+    background="@drawable/_2131231463_res_0x7f0802e7"
+    layout_width="56dp"
+    android:layout_height="56dp">
+    <ImageView
+        layout_gravity="0x11"
+        id="@+id/iv_icon"
+        layout_width="24dp"
+        android:layout_height="24dp"/>
+</FrameLayout>

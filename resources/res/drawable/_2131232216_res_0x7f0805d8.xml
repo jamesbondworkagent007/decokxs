@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item state_selected="true">
+        <shape>
+            <corners radius="@dimen/dp_8"/>
+            <solid color="@color/BasePrimary"/>
+            <stroke
+                width="1.5dp"
+                color="@color/BorderSelected"/>
+        </shape>
+    </item>
+    <item state_focused="true">
+        <shape>
+            <corners radius="@dimen/dp_8"/>
+            <solid color="@color/BasePrimary"/>
+            <stroke
+                width="1.5dp"
+                color="@color/BorderSelected"/>
+        </shape>
+    </item>
+    <item state_focused="false">
+        <shape>
+            <corners radius="@dimen/dp_8"/>
+            <solid color="@color/BasePrimary"/>
+            <stroke
+                width="1.5dp"
+                color="@color/BorderPrimary"/>
+        </shape>
+    </item>
+</selector>

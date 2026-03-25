@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <TextView
+        textAppearance="@style/Label_1_Bold"
+        textColor="@color/ContentPrimary"
+        id="@+id/tv_title"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginLeft="@dimen/margin_16dp"
+        layout_marginRight="@dimen/margin_16dp"
+        layout_marginBottom="@dimen/margin_12dp"
+        text="@string/pr_metax_top_title_all_network"
+        layout_marginHorizontal="@dimen/margin_16dp"/>
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/rv_networks"
+        paddingTop="@dimen/padding_16dp"
+        clipToPadding="false"
+        layout_width="-1"
+        android:layout_height="match_parent"
+        NOT_FOUND_0xd="androidx.recyclerview.widget.LinearLayoutManager"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

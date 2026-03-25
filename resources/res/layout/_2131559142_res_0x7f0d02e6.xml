@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    layout_width="-2"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        gravity="0x11"
+        orientation="0"
+        id="@+id/ll_button_panel"
+        background="@drawable/_2131232014_res_0x7f08050e"
+        paddingLeft="@dimen/padding_6dp"
+        paddingTop="@dimen/dp_8"
+        paddingRight="@dimen/padding_6dp"
+        paddingBottom="@dimen/dp_8"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        backgroundTint="@color/Neutral140"
+        paddingHorizontal="@dimen/padding_6dp"
+        paddingVertical="@dimen/dp_8"/>
+    <ImageView
+        layout_gravity="0x1"
+        id="@+id/container"
+        layout_width="14dp"
+        android:layout_height="5dp"
+        src="@drawable/_2131231977_res_0x7f0804e9"
+        NOT_FOUND_0xf="@color/Neutral140"/>
+</LinearLayout>

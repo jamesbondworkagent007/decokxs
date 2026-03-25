@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x1"
+    orientation="1"
+    id="@+id/main"
+    tag="layout/activity_pdf_test_0"
+    paddingLeft="20dp"
+    paddingRight="20dp"
+    layout_width="-1"
+    android:layout_height="match_parent"
+    paddingHorizontal="20dp">
+    <com.okinc.uilab.edit.OKEditText
+        gravity="0x11"
+        id="@+id/input_text_path"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="40dp"
+        text="/storage/emulated/0/Android/data/com.okx.tr/files/pdf_test/test.pdf"/>
+    <com.okinc.uilab.edit.OKEditText
+        gravity="0x11"
+        id="@+id/input_text_password"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="10dp"
+        text="123456"/>
+    <o.C52794wYp
+        id="@+id/btn_test_1"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="40dp"
+        text="是否是加密pdf"
+        NOT_FOUND_0xb="32"
+        NOT_FOUND_0xc="0x101"
+        NOT_FOUND_0xd="-2"/>
+    <o.C52794wYp
+        id="@+id/btn_test_2"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="40dp"
+        text="解密pdf"
+        NOT_FOUND_0xb="32"
+        NOT_FOUND_0xc="0x101"
+        NOT_FOUND_0xd="-2"/>
+</LinearLayout>

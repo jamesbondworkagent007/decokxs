@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    gravity="0x10"
+    orientation="0"
+    paddingTop="@dimen/xxxsm"
+    paddingBottom="@dimen/xxxsm"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingVertical="@dimen/xxxsm">
+    <TextView
+        textColor="@color/ContentSecondary"
+        id="@+id/tvLeftLabel"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        style="@style/Label_3_Regular"/>
+    <o.C27127jpN
+        id="@+id/healthRateBadgeView"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginStart="@dimen/xxxxsm"
+        layout_marginEnd="@dimen/xsm"/>
+    <View
+        layout_width="0dp"
+        android:layout_height="1dp"
+        layout_weight="1"/>
+    <TextView
+        textColor="@color/ContentSecondary"
+        id="@+id/tvRightLabel"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        style="@style/Label_3_Regular"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

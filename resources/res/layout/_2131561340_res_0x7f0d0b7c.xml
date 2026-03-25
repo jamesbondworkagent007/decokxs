@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/layout_item_defi_wallet_tx_detail_content_copy_0"
+    paddingBottom="@dimen/padding_32dp"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <TextView
+        textSize="@dimen/text_size_14sp"
+        textColor="@color/ContentContrast"
+        id="@+id/tv_name"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        text="@string/pr_wallet_mid_text_time"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x11="0"
+        style="@style/Label_2_Regular"/>
+    <LinearLayout
+        orientation="0"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_4dp"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x10="@+id/tv_name">
+        <TextView
+            textSize="@dimen/text_size_16sp"
+            textColor="@color/ContentPrimary"
+            layout_gravity="0x10"
+            id="@+id/tv_content"
+            layout_width="0dp"
+            android:layout_height="wrap_content"
+            layout_weight="1"
+            style="@style/Label_1_Regular"/>
+        <ImageView
+            layout_gravity="0x10"
+            id="@+id/iv_copy"
+            visibility="2"
+            layout_width="20dp"
+            android:layout_height="20dp"
+            src="@drawable/_2131234345_res_0x7f080e29"
+            layout_marginStart="@dimen/margin_8dp"
+            NOT_FOUND_0x12="@color/ContentContrast"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

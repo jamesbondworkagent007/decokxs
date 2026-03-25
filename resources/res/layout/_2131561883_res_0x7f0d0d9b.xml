@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="52dp">
+    <TextView
+        textAppearance="@style/TextAppearance.Title.16SP.Medium"
+        textSize="16sp"
+        id="@+id/trade_group_name"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        text="aa"
+        layout_centerVertical="true"
+        paddingStart="16dp"
+        paddingEnd="16dp"
+        layout_alignParentStart="true"/>
+    <o.C57682ymy
+        id="@+id/select_iv"
+        visibility="2"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        src="@drawable/_2131232885_res_0x7f080875"
+        layout_centerVertical="true"
+        paddingEnd="16dp"
+        layout_alignParentEnd="true"/>
+</RelativeLayout>

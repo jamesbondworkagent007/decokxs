@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <com.okinc.core.widget.OKSlidingTabLayout
+        id="@+id/nft_mediapicker_tab"
+        padding="@dimen/padding_2dp"
+        layout_width="-1"
+        android:layout_height="32dp"
+        layout_marginLeft="@dimen/margin_16dp"
+        layout_marginTop="@dimen/margin_16dp"
+        layout_marginRight="@dimen/margin_16dp"
+        NOT_FOUND_0xa="0dp"
+        NOT_FOUND_0xb="false"
+        NOT_FOUND_0xc="true"
+        NOT_FOUND_0xd="11"
+        NOT_FOUND_0xe="@color/grey_g900"
+        NOT_FOUND_0xf="@color/grey_g500"
+        NOT_FOUND_0x10="@dimen/text_size_14sp"/>
+    <o.C33542myS
+        id="@+id/nft_mediapicker_viewpager"
+        layout_width="-1"
+        android:layout_height="match_parent"
+        layout_marginTop="@dimen/margin_16dp"
+        layout_marginBottom="@dimen/margin_16dp"
+        overScrollMode="2"/>
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    paddingTop="@dimen/padding_16dp"
+    paddingBottom="@dimen/padding_32dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginLeft="16dp"
+    layout_marginRight="16dp"
+    layout_marginHorizontal="16dp">
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/recycler_selection"
+        layout_width="-1"
+        android:layout_height="match_parent"
+        NOT_FOUND_0xd="androidx.recyclerview.widget.GridLayoutManager"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x11="0"
+        NOT_FOUND_0x12="3"/>
+    <TextView
+        textAppearance="@style/Label_2_Regular"
+        textColor="@color/SemanticNegative"
+        id="@+id/tv_error_message"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/xxxxsm"
+        text="@string/pr_swaptrade_meme_input_error_no_zero"
+        NOT_FOUND_0x10="@+id/recycler_selection"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

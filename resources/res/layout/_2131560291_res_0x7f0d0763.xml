@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    paddingBottom="@dimen/height_80dp"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <TextView
+        textSize="@dimen/text_size_12sp"
+        textColor="@color/ContentContrast"
+        layout_gravity="0x10"
+        id="@+id/tv_text"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/ok_dp_24"
+        text="@string/pr_trade_intro_reminder_tips_relief"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0x10="0"/>
+    <TextView
+        textSize="@dimen/text_size_12sp"
+        textColor="@color/ContentPrimary"
+        gravity="0x10"
+        id="@+id/tv_learn_more"
+        layout_width="-2"
+        android:layout_height="@dimen/height_32dp"
+        text="@string/pr_commonall_text_btn_learn_more"
+        drawablePadding="@dimen/dp_4"
+        NOT_FOUND_0xb="@drawable/_2131231648_res_0x7f0803a0"
+        NOT_FOUND_0xc="@color/ContentPrimary"
+        NOT_FOUND_0xe="@+id/tv_text"
+        NOT_FOUND_0xf="@+id/tv_text"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

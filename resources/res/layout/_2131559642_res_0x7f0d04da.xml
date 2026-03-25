@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <TextView
+        textAppearance="@style/TextAppearance.Title.BoldMedium"
+        textSize="@dimen/text_size_18sp"
+        textColor="@color/grey_g900"
+        gravity="0x31"
+        id="@+id/tv_header"
+        layout_width="-1"
+        android:layout_height="48dp"
+        layout_marginLeft="64dp"
+        layout_marginTop="@dimen/margin_24dp"
+        layout_marginRight="64dp"
+        layout_marginHorizontal="64dp"
+        NOT_FOUND_0x11="0"
+        NOT_FOUND_0x12="0"
+        NOT_FOUND_0x14="0"/>
+    <ImageView
+        id="@+id/iv_close"
+        layout_width="20dp"
+        android:layout_height="20dp"
+        layout_marginTop="@dimen/margin_12dp"
+        src="@drawable/_2131232489_res_0x7f0806e9"
+        layout_marginEnd="@dimen/margin_16dp"
+        NOT_FOUND_0x11="0"
+        NOT_FOUND_0x14="0"
+        NOT_FOUND_0x15="@color/grey_g400"/>
+    <ImageView
+        id="@+id/iv_hint"
+        layout_width="-1"
+        android:layout_height="0dp"
+        layout_marginLeft="40dp"
+        layout_marginTop="@dimen/margin_24dp"
+        layout_marginRight="40dp"
+        layout_marginBottom="70dp"
+        scaleType="7"
+        layout_marginHorizontal="40dp"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x10="294:203"
+        NOT_FOUND_0x11="0"
+        NOT_FOUND_0x12="0"
+        NOT_FOUND_0x13="@+id/tv_header"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

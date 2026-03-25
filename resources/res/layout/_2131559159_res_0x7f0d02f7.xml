@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o.C22088hXl xmlns:android="http://schemas.android.com/apk/res/android"
+    id="@+id/order_item_txHash_view"
+    layout_width="-1"
+    android:layout_height="wrap_content"/>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View xmlns:android="http://schemas.android.com/apk/res/android"
+    tag="layout/item_im_divider_group_setting_item_0"
+    background="@color/BorderPrimary"
+    layout_width="-1"
+    android:layout_height="0.5dp"
+    layout_marginTop="@dimen/xxxsm"
+    layout_marginBottom="@dimen/xxxsm"
+    layout_marginVertical="@dimen/xxxsm"/>

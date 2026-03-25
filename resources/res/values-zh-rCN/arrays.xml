@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="futures_rank1">
+        <item>钱途似海，来日方长</item>
+        <item>少追涨，勿杀跌，获利总在无意间</item>
+        <item>善猎者必善于等待</item>
+    </array>
+    <array name="futures_rank2">
+        <item>一顿操作猛如虎，安能辨我是多空</item>
+        <item>让收益再飞会儿</item>
+        <item>市熊人不熊，保持好心情</item>
+        <item>泡面吃出鲍鱼的味道</item>
+        <item>点点建仓，步步为营</item>
+    </array>
+    <array name="futures_rank3">
+        <item>有输有赢，总有一赢</item>
+        <item>他强任他强 我是陪跑王</item>
+    </array>
+    <array name="futures_rank4">
+        <item>逆势死扛，再创辉煌</item>
+        <item>寂寞而执着的面“币”者</item>
+        <item>我欲清仓归去，又恐迅速反转，踏空不胜寒</item>
+        <item>万水千山总是情，再suo一把行不行</item>
+    </array>
+    <array name="futures_rank5">
+        <item>让敌方做最后的挣扎</item>
+        <item>白天不懂夜的黑，没人能懂我伤悲</item>
+        <item>哥保证金管够</item>
+        <item>鲍鱼吃出了泡面的味道</item>
+    </array>
+</resources>

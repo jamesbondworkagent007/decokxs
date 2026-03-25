@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    id="@+id/tactics_inside_item_lly"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.C55320xhi
+        textAppearance="@style/TextAppearance.Text.12SP.Regular"
+        textSize="@dimen/text_size_12sp"
+        textColor="@color/grey_g400"
+        ellipsize="3"
+        id="@+id/tv_helper"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        maxLines="5"/>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        orientation="0"
+        layout_width="-2"
+        android:layout_height="wrap_content">
+        <o.C55258xgZ
+            id="@+id/tactics_inside_item_text"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            NOT_FOUND_0xf="2"
+            NOT_FOUND_0x10="@color/grey_g900"
+            NOT_FOUND_0x11="@dimen/text_size_14sp"
+            NOT_FOUND_0x12="500"/>
+        <o.wYD
+            enabled="false"
+            layout_gravity="0x10"
+            id="@+id/circleOutlineSmDisabledIconBtn"
+            visibility="2"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            layout_marginStart="@dimen/margin_2dp"
+            NOT_FOUND_0xd="@drawable/_2131234035_res_0x7f080cf3"
+            NOT_FOUND_0xe="2"
+            NOT_FOUND_0x13="-4"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</LinearLayout>

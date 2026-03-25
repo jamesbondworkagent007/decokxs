@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="0"
+    id="@+id/address_layout"
+    tag="layout/item_compliance_address_china_0"
+    paddingTop="14dp"
+    paddingBottom="14dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingStart="24dp"
+    paddingEnd="24dp">
+    <TextView
+        textAppearance="@style/Label_2_Regular"
+        textSize="16sp"
+        textColor="@color/ContentTertiary"
+        ellipsize="3"
+        id="@+id/item_tv"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        maxLines="1"
+        layout_weight="1"/>
+    <ImageView
+        layout_gravity="0x10"
+        id="@+id/selected_icon"
+        visibility="2"
+        layout_width="24dp"
+        android:layout_height="24dp"
+        src="@drawable/_2131232680_res_0x7f0807a8"
+        layout_marginStart="@dimen/margin_16dp"/>
+</LinearLayout>

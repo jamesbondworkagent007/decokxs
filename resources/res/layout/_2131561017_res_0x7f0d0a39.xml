@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    background="@color/BasePrimary"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C33537myN
+        id="@+id/title"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0xb="@string/pr_chart_settingmenu_title_chart_settings"
+        NOT_FOUND_0xc="@color/ContentPrimary"
+        NOT_FOUND_0xd="@drawable/_2131231642_res_0x7f08039a"/>
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/setting_recycler_view"
+        scrollbars="horizontal"
+        layout_width="-1"
+        android:layout_height="match_parent"
+        layout_marginLeft="@dimen/margin_24dp"
+        layout_marginRight="@dimen/margin_24dp"
+        layout_marginBottom="@dimen/margin_24dp"
+        overScrollMode="2"
+        layout_marginHorizontal="@dimen/margin_24dp"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

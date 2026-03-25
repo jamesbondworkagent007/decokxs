@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    paddingTop="6dp"
+    paddingBottom="6dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingVertical="6dp">
+    <TextView
+        textAppearance="@style/TextAppearance.Text.14SP.Regular"
+        textColor="@color/grey_g400"
+        id="@+id/coinConfigTitle"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        paddingEnd="@dimen/padding_16dp"
+        NOT_FOUND_0x13="@+id/coinStackView"
+        NOT_FOUND_0x14="0"
+        NOT_FOUND_0x15="0"/>
+    <o.C51601vqB
+        layout_gravity="0x800005"
+        id="@+id/coinStackView"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0xc="@color/okTradeBackground1"
+        NOT_FOUND_0xd="3dp"
+        NOT_FOUND_0xe="@color/okTradeBgLv3"
+        NOT_FOUND_0xf="@dimen/padding_16dp"
+        NOT_FOUND_0x10="@color/grey_g900"
+        NOT_FOUND_0x11="@+id/coinConfigTitle"
+        NOT_FOUND_0x13="@+id/showAll"
+        NOT_FOUND_0x15="@+id/coinConfigTitle"/>
+    <ImageView
+        id="@+id/showAll"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        src="@drawable/_2131231648_res_0x7f0803a0"
+        layout_marginStart="@dimen/margin_4dp"
+        NOT_FOUND_0x11="@+id/coinConfigTitle"
+        NOT_FOUND_0x12="0"
+        NOT_FOUND_0x15="@+id/coinConfigTitle"
+        NOT_FOUND_0x16="@color/ContentDisabled"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

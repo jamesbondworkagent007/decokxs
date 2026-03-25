@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    background="@drawable/_2131231826_res_0x7f080452"
+    padding="24dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginLeft="24dp"
+    layout_marginTop="16dp"
+    layout_marginRight="24dp"
+    layout_marginHorizontal="24dp">
+    <o.gWH
+        id="@+id/view_trader_gain"
+        layout_width="-1"
+        android:layout_height="wrap_content"/>
+    <View
+        id="@+id/view_line"
+        layout_width="-1"
+        layout_marginTop="24dp"
+        style="@style/WidgetDivisionLine"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        layout_gravity="0x1"
+        id="@+id/iv_empty"
+        layout_width="-1"
+        android:layout_height="148dp"
+        layout_marginTop="24dp"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        textAppearance="@style/Title_1_Medium"
+        id="@+id/tv_title"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="24dp"
+        text="@string/pr_swaptrade_sa_copy_top_traders"/>
+    <o.C52794wYp
+        id="@+id/btn_ok"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="24dp"
+        text="@string/pr_swaptrade_sa_tab_explore_feature"
+        NOT_FOUND_0xd="52"
+        NOT_FOUND_0xe="0x101"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

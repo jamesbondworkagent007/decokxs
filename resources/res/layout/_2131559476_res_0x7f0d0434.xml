@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x10"
+    orientation="0"
+    background="@color/white_background_color"
+    layout_width="-2"
+    android:layout_height="wrap_content">
+    <o.C55113xdn
+        gravity="0x10"
+        id="@+id/iv_state"
+        visibility="2"
+        layout_width="18dp"
+        android:layout_height="18dp"
+        NOT_FOUND_0x16="true"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        textAppearance="@style/TextAppearance.Title.14SP.Bold"
+        textStyle="0x1"
+        textColor="@color/grey_g900"
+        ellipsize="3"
+        gravity="0x10"
+        layout_gravity="0x800015"
+        id="@+id/tv_content"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        maxLines="1"
+        includeFontPadding="false"
+        drawablePadding="4dp"
+        textAlignment="1"
+        layout_marginStart="4dp"
+        breakStrategy="0"
+        NOT_FOUND_0x12="14sp"
+        NOT_FOUND_0x13="12sp"
+        NOT_FOUND_0x14="2sp"
+        NOT_FOUND_0x15="1"/>
+</merge>

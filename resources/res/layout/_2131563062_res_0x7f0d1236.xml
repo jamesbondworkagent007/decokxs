@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/widget_single_select_item_view_0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <TextView
+        textSize="16sp"
+        textColor="@color/grey_g900"
+        gravity="0x10"
+        id="@+id/textview"
+        tag="binding_1"
+        background="@drawable/_2131234458_res_0x7f080e9a"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        minHeight="50dp"
+        paddingStart="@dimen/common_page_edge_space"
+        paddingEnd="@dimen/common_page_edge_space"
+        layout_alignParentStart="true"
+        style="@style/TextAppearance.Silka.MeDium"/>
+    <ImageView
+        id="@+id/select_iv"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        src="@drawable/_2131232885_res_0x7f080875"
+        layout_centerVertical="true"
+        layout_alignParentEnd="true"/>
+</RelativeLayout>

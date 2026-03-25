@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginTop="10dp"
+    layout_marginBottom="10dp"
+    layout_marginVertical="10dp">
+    <TextView
+        textAppearance="@style/Label_1_Medium"
+        textColor="@color/ContentPrimary"
+        id="@+id/title"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        text="@string/pr_wallet_approve_alert_subtitle_this_address"/>
+    <TextView
+        textAppearance="@style/Headline_5_Medium"
+        id="@+id/sub_title"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="8dp"/>
+</LinearLayout>

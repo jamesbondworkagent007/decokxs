@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    gravity="0x10"
+    orientation="0"
+    paddingBottom="16dp"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <ImageView
+        id="@+id/mIvItemLine"
+        background="@drawable/_2131233905_res_0x7f080c71"
+        layout_width="@dimen/width_20dp"
+        android:layout_height="@dimen/width_20dp"/>
+    <TextView
+        textColor="@color/selector_selected_gray_10_blue1"
+        gravity="0x15"
+        id="@+id/mTvItemLine"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        text="线段"
+        layout_marginStart="@dimen/dp_6"/>
+</LinearLayout>

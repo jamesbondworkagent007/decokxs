@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    background="@color/BasePrimary"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C55230xfy
+        id="@+id/relation_search_bar"
+        layout_width="-1"
+        android:layout_height="40dp"
+        layout_marginLeft="@dimen/im_page_margin"
+        layout_marginTop="@dimen/margin_16dp"
+        layout_marginRight="@dimen/im_page_margin"
+        hint="@string/pr_message_input_search_text"
+        layout_marginHorizontal="@dimen/im_page_margin"
+        NOT_FOUND_0xd="false"
+        NOT_FOUND_0xe="false"
+        NOT_FOUND_0x12="-4"/>
+    <androidx.fragment.app.FragmentContainerView
+        id="@+id/multi_selection_fragment_container"
+        layout_width="-1"
+        android:layout_height="0dp"
+        layout_weight="1"/>
+    <o.C52794wYp
+        id="@+id/next_btn"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginLeft="@dimen/im_page_margin"
+        layout_marginTop="@dimen/margin_16dp"
+        layout_marginRight="@dimen/im_page_margin"
+        layout_marginBottom="@dimen/margin_12dp"
+        text="@string/pr_commonall_button_text_next"
+        layout_marginHorizontal="@dimen/im_page_margin"
+        NOT_FOUND_0xf="52"
+        NOT_FOUND_0x10="0x101"
+        NOT_FOUND_0x11="-1"/>
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C55230xfy
+        id="@+id/search_bar"
+        paddingLeft="@dimen/sm"
+        paddingRight="@dimen/sm"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginBottom="8dp"
+        paddingHorizontal="@dimen/sm"/>
+    <FrameLayout
+        layout_width="-1"
+        android:layout_height="686dp">
+        <androidx.recyclerview.widget.RecyclerView
+            id="@+id/recycler_view"
+            paddingLeft="@dimen/xxxsm"
+            paddingRight="@dimen/xxxsm"
+            visibility="0"
+            layout_width="-1"
+            android:layout_height="match_parent"
+            paddingHorizontal="@dimen/xxxsm"/>
+        <o.C55173xeu
+            layout_gravity="0x31"
+            id="@+id/view_empty"
+            padding="@dimen/sm"
+            visibility="2"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            NOT_FOUND_0xb="7"
+            NOT_FOUND_0xc="@string/pr_message_emptystate_no_results"/>
+    </FrameLayout>
+</LinearLayout>

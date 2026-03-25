@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    clipToPadding="false"
+    layout_width="-2"
+    android:layout_height="wrap_content">
+    <TextView
+        textAppearance="@style/TextAppearance.Text.14SP"
+        textColor="@color/text_light"
+        layout_gravity="0x800013"
+        id="@+id/index"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        includeFontPadding="false"
+        layout_marginStart="@dimen/margin_10dp"
+        NOT_FOUND_0x17="0"
+        NOT_FOUND_0x18="0"
+        NOT_FOUND_0x19="0"
+        NOT_FOUND_0x1a="@dimen/text_size_16sp"/>
+    <com.okinc.web3.security.features.importing.widget.SeedPhraseWordEditText
+        theme="@style/OKUITheme.Alternative.Web3"
+        textAppearance="@style/TextAppearance.Text.18SP"
+        textColor="@color/text_amplified"
+        id="@+id/word"
+        background="@color/transparent"
+        paddingTop="@dimen/padding_8dp"
+        paddingBottom="@dimen/padding_8dp"
+        layout_width="-2"
+        android:layout_height="match_parent"
+        cursorVisible="true"
+        maxLines="1"
+        singleLine="true"
+        includeFontPadding="false"
+        digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
+        inputType="0x80091"
+        imeOptions="0x5"
+        paddingStart="@dimen/padding_8dp"
+        paddingEnd="@dimen/padding_10dp"
+        paddingVertical="@dimen/padding_8dp"
+        importantForAutofill="0x2"
+        NOT_FOUND_0x1a="@dimen/text_size_24sp"/>
+</merge>

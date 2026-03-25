@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    gravity="0x10"
+    orientation="0"
+    paddingLeft="@dimen/margin_default"
+    paddingRight="@dimen/margin_default"
+    layout_width="-1"
+    android:layout_height="72dp"
+    paddingHorizontal="@dimen/margin_default">
+    <TextView
+        textColor="@color/ContentPrimary"
+        id="@+id/tv_group_name"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_weight="1"
+        layout_marginEnd="@dimen/xxsm"
+        style="@style/Label_1_Regular"/>
+    <ImageView
+        id="@+id/iv_selected"
+        layout_width="@dimen/sm"
+        android:layout_height="@dimen/sm"
+        src="@drawable/_2131234264_res_0x7f080dd8"
+        contentDescription="selection icon"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

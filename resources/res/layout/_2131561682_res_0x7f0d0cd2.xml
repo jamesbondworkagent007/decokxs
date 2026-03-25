@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C33537myN
+        id="@+id/appBarView"
+        paddingLeft="8dp"
+        paddingRight="8dp"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        paddingHorizontal="8dp"
+        NOT_FOUND_0x7="true"
+        NOT_FOUND_0x8="true"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xf="true"/>
+    <o.C55244xgL
+        id="@+id/displayChipGroup"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="8dp"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="@+id/appBarView"
+        NOT_FOUND_0xd="1"
+        NOT_FOUND_0xe="-5"/>
+    <androidx.viewpager2.widget.ViewPager2
+        id="@+id/viewPager2"
+        layout_width="-1"
+        android:layout_height="0dp"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="@+id/displayChipGroup"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

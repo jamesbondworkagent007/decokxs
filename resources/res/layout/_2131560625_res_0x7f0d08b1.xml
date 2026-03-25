@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    id="@+id/content_linear_layout"
+    tag="layout/item_input_card_0"
+    visibility="0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <TextView
+        textAppearance="@style/TextAppearance.Galano.Medium"
+        textColor="@color/grey_g900"
+        id="@+id/content_content"
+        layout_width="-2"
+        android:layout_height="wrap_content"/>
+    <o.C31695mAm
+        id="@+id/content_rv"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_4dp"/>
+</LinearLayout>

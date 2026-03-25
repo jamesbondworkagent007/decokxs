@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    textAppearance="@style/TextAppearance.Blue.14SP.Medium"
+    textColor="@color/grey_g900"
+    layout_width="-2"
+    android:layout_height="wrap_content"
+    layout_marginTop="@dimen/margin_24dp"
+    layout_above="@+id/btn_start_trade"
+    NOT_FOUND_0x6="@drawable/_2131231648_res_0x7f0803a0"
+    NOT_FOUND_0x7="@color/grey_g900"/>

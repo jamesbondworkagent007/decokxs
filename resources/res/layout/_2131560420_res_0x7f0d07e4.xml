@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o.C46471tVo xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/empty"
+    tag="layout/item_creator_centre_earnings_empty_0"
+    paddingLeft="@dimen/margin_default"
+    paddingRight="@dimen/margin_default"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingHorizontal="@dimen/margin_default"
+    NOT_FOUND_0x7="2"/>

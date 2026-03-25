@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <external-cache-path
+        name="download"
+        path="/download"/>
+    <external-files-path
+        name="my_external"
+        path="/download"/>
+    <cache-path
+        name="cache"
+        path="."/>
+    <external-path
+        name="ok_external_path"
+        path="."/>
+    <root-path
+        name="ok_root_path"
+        path=""/>
+    <external-path
+        name="camera_photos"
+        path=""/>
+    <root-path
+        name="camera_photos"
+        path=""/>
+    <external-path
+        name="dcim_camera"
+        path="DCIM/Camera"/>
+</paths>

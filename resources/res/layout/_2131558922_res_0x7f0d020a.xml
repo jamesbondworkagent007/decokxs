@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o.mIB xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/header"
+    tag="layout/component_okcr_header_0"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    NOT_FOUND_0x4="@drawable/_2131231675_res_0x7f0803bb"
+    NOT_FOUND_0x5="@style/Title_2_Bold"
+    NOT_FOUND_0x6="@string/add_floating_window"
+    NOT_FOUND_0x7="true"/>

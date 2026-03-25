@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="0"
+    tag="layout/privacy_normal_item_0"
+    background="?attr/selectableItemBackground"
+    layout_width="-1"
+    android:layout_height="50dp">
+    <TextView
+        textSize="@dimen/text_size_16sp"
+        textColor="@color/text_amplified"
+        layout_gravity="0x11"
+        id="@+id/tv_title"
+        tag="binding_1"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginStart="16dp"
+        style="@style/TextAppearance.Regular"/>
+    <ImageView
+        layout_gravity="0x10"
+        id="@+id/pre_icon_question"
+        padding="2dp"
+        visibility="2"
+        layout_width="20dp"
+        android:layout_height="20dp"
+        src="@drawable/_2131232810_res_0x7f08082a"
+        scaleType="6"
+        importantForAccessibility="2"
+        layout_marginStart="4dp"
+        NOT_FOUND_0x12="@color/okTradeG700"/>
+    <TextView
+        textSize="14sp"
+        textColor="@color/okTradeG400"
+        gravity="0x800005"
+        layout_gravity="0x11"
+        tag="binding_2"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_weight="1"
+        layout_marginEnd="5dp"
+        style="@style/TextAppearance.Silka"/>
+    <ImageView
+        layout_gravity="0x10"
+        id="@+id/mine_setting_item_right_icon_img"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginEnd="@dimen/margin_16dp"/>
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    paddingLeft="@dimen/margin_default"
+    paddingTop="@dimen/xsm"
+    paddingRight="@dimen/margin_default"
+    paddingBottom="@dimen/xsm"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingHorizontal="@dimen/margin_default"
+    paddingVertical="@dimen/xsm">
+    <o.C57682ymy
+        id="@+id/actionIcon"
+        layout_width="@dimen/sm"
+        android:layout_height="@dimen/sm"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0x12="0"
+        NOT_FOUND_0x13="0"
+        NOT_FOUND_0x14="@color/ContentPrimary"/>
+    <TextView
+        textColor="@color/ContentPrimary"
+        id="@+id/actionTitle"
+        layout_width="@dimen/width_0dp"
+        android:layout_height="wrap_content"
+        layout_marginLeft="@dimen/xxsm"
+        layout_marginRight="@dimen/xxsm"
+        layout_marginHorizontal="@dimen/xxsm"
+        NOT_FOUND_0xe="@+id/actionIcon"
+        NOT_FOUND_0x10="@+id/navigateIcon"
+        NOT_FOUND_0x11="@+id/actionIcon"
+        NOT_FOUND_0x13="@+id/actionIcon"
+        style="@style/Label_1_Regular"/>
+    <o.C57682ymy
+        id="@+id/navigateIcon"
+        layout_width="@dimen/sm"
+        android:layout_height="@dimen/sm"
+        src="@drawable/_2131231647_res_0x7f08039f"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x13="0"
+        NOT_FOUND_0x14="@color/ContentContrast"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

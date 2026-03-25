@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/layout_aa_wallet_info_0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <View
+        background="@color/grey_g100"
+        layout_width="-1"
+        android:layout_height="0.5dp"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="0"/>
+    <ImageView
+        id="@+id/iv_info"
+        layout_width="20dp"
+        android:layout_height="20dp"
+        layout_marginTop="11dp"
+        src="@drawable/_2131233145_res_0x7f080979"
+        NOT_FOUND_0xf="@color/ContentPrimary"/>
+    <TextView
+        textSize="12sp"
+        textColor="@color/grey_g700"
+        id="@+id/tv_info"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_marginTop="13dp"
+        layout_marginStart="8dp"
+        layout_toEndOf="@+id/iv_info"
+        layout_alignParentEnd="true"/>
+</RelativeLayout>

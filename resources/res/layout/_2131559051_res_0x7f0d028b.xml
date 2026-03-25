@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    padding="@dimen/sm"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <TextView
+        id="@+id/tvTitle"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        text="@string/pr_swaptrade_market_watchlist_input_group_name"/>
+    <o.C55008xbo
+        id="@+id/input_group_name"
+        focusable="true"
+        focusableInTouchMode="true"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/xxxsm"
+        hint="@string/pr_swaptrade_tracker_placeholder_address"
+        inputType="0x1"
+        NOT_FOUND_0xb="48"
+        NOT_FOUND_0xc="@string/pr_swaptrade_tracker_placeholder_address"
+        NOT_FOUND_0xd="1"
+        NOT_FOUND_0xe="1"
+        NOT_FOUND_0xf="1"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

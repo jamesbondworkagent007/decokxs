@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    id="@+id/fl_bottom"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginBottom="16dp"
+    layout_alignParentBottom="true"
+    NOT_FOUND_0x11="0">
+    <View
+        id="@+id/divider_line"
+        background="@color/BorderPrimary"
+        layout_width="-1"
+        android:layout_height="0.5dp"/>
+    <TextView
+        textAppearance="@style/TextAppearance.Text.Medium"
+        textSize="14sp"
+        textColor="@color/ContentContrast"
+        id="@+id/symbolLimit"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginLeft="@dimen/padding_24dp"
+        layout_marginTop="8dp"
+        layout_marginRight="@dimen/padding_24dp"
+        textAlignment="4"
+        layout_marginHorizontal="@dimen/padding_24dp"/>
+    <o.C52794wYp
+        gravity="0x11"
+        id="@+id/btn_apply"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginLeft="@dimen/padding_24dp"
+        layout_marginTop="@dimen/margin_12dp"
+        layout_marginRight="@dimen/padding_24dp"
+        text="@string/pr_trade_footer_btn_confirm_custom_formula"
+        layout_marginHorizontal="@dimen/padding_24dp"
+        NOT_FOUND_0x12="52"
+        NOT_FOUND_0x13="0x101"/>
+</LinearLayout>

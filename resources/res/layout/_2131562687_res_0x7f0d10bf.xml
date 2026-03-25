@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    background="?attr/toast_icon_bg_style"
+    layout_width="-2"
+    android:layout_height="wrap_content">
+    <ImageView
+        id="@+id/iv_status"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="12dp"
+        layout_centerHorizontal="true"
+        NOT_FOUND_0x13="0"
+        NOT_FOUND_0x14="0"
+        NOT_FOUND_0x16="0"/>
+    <TextView
+        textAppearance="?attr/toast_icon_textAppearance"
+        gravity="0x11"
+        id="@+id/tv_text"
+        paddingLeft="16dp"
+        paddingRight="16dp"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="10dp"
+        layout_marginBottom="12dp"
+        maxWidth="225dp"
+        minWidth="96dp"
+        includeFontPadding="false"
+        drawablePadding="12dp"
+        layout_below="@+id/iv_status"
+        lineSpacingExtra="2dp"
+        paddingHorizontal="16dp"
+        NOT_FOUND_0x12="0"
+        NOT_FOUND_0x13="0"
+        NOT_FOUND_0x14="0"
+        NOT_FOUND_0x15="@+id/iv_status"
+        NOT_FOUND_0x17="0dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

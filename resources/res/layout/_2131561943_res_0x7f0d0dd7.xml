@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o.C55230xfy xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/search_bar"
+    layout_width="-1"
+    android:layout_height="@dimen/dp_40"
+    layout_marginLeft="@dimen/dp24"
+    layout_marginRight="@dimen/dp24"
+    hint="@string/pr_home_top_tips_search"
+    singleLine="true"
+    imeOptions="0x3"
+    contentDescription="searchTextField"
+    layout_marginHorizontal="@dimen/dp24"
+    NOT_FOUND_0xa="0"
+    NOT_FOUND_0xb="true"
+    NOT_FOUND_0xc="-3"/>

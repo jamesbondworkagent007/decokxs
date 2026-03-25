@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    id="@+id/container"
+    tag="layout/bot_dialog_dcd_recommend_0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatTextView
+        id="@+id/description"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginLeft="?attr/horizontalPaddingDimension"
+        layout_marginTop="8dp"
+        layout_marginRight="?attr/horizontalPaddingDimension"
+        layout_marginBottom="@dimen/margin_16dp"
+        layout_marginHorizontal="?attr/horizontalPaddingDimension"
+        style="@style/Body_4"/>
+    <o.vMC
+        id="@+id/recommend_view"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginLeft="?attr/horizontalPaddingDimension"
+        layout_marginRight="?attr/horizontalPaddingDimension"
+        layout_marginBottom="@dimen/height_24dp"
+        layout_marginHorizontal="?attr/horizontalPaddingDimension"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

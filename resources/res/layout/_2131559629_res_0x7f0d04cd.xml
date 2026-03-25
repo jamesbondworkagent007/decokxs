@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    paddingLeft="16dp"
+    paddingRight="16dp"
+    layout_width="-1"
+    android:layout_height="match_parent"
+    paddingHorizontal="16dp">
+    <TextView
+        textAppearance="@style/Headline_5_Bold"
+        textColor="@color/grey_g900"
+        id="@+id/tvTitle"
+        layout_width="-1"
+        android:layout_height="wrap_content"/>
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/rvNetworks"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="24dp"
+        NOT_FOUND_0xa="androidx.recyclerview.widget.GridLayoutManager"
+        NOT_FOUND_0xb="4"/>
+</LinearLayout>

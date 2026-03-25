@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.C55258xgZ
+        textColor="@color/okTradeG400"
+        id="@+id/coin_des_name"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x15="@dimen/text_size_12sp"
+        NOT_FOUND_0x16="1231312"/>
+    <LinearLayout
+        orientation="0"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/dp_4">
+        <androidx.appcompat.widget.AppCompatTextView
+            textAppearance="@style/Label_2_Medium"
+            textSize="14sp"
+            textColor="@color/okTradeG900"
+            id="@+id/coin_type_value"
+            paddingTop="@dimen/padding_2dp"
+            paddingBottom="@dimen/padding_2dp"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            maxLines="2"
+            paddingVertical="@dimen/padding_2dp"
+            NOT_FOUND_0x11="@dimen/text_size_14sp"
+            NOT_FOUND_0x12="@dimen/text_size_10sp"
+            NOT_FOUND_0x13="1sp"
+            NOT_FOUND_0x14="1"/>
+        <ImageView
+            layout_gravity="0x11"
+            id="@+id/icon_arrow"
+            visibility="2"
+            layout_width="@dimen/ok_dp_16"
+            android:layout_height="@dimen/ok_dp_16"
+            src="@drawable/_2131231649_res_0x7f0803a1"
+            layout_marginStart="4dp"
+            backgroundTint="@color/ContentPrimary"/>
+    </LinearLayout>
+</LinearLayout>

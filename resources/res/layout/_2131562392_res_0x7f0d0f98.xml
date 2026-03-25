@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <View
+        id="@+id/masking"
+        background="@color/trade_asset_chart_mask"
+        layout_width="-1"
+        android:layout_height="match_parent"
+        layout_marginStart="4dp"/>
+    <ImageView
+        layout_gravity="0x10"
+        id="@+id/point"
+        background="@drawable/_2131231313_res_0x7f080251"
+        layout_width="6dp"
+        android:layout_height="6dp"/>
+</FrameLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    background="@color/BasePrimaryAlternative"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C33537myN
+        id="@+id/app_bar"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0xc="true"
+        NOT_FOUND_0xd="@drawable/_2131231642_res_0x7f08039a"/>
+    <TextView
+        textAppearance="@style/Headline_4_Bold"
+        textColor="@color/ContentPrimary"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="16dp"
+        layout_marginBottom="16dp"
+        text="@string/pr_account_japan_header_text_preferences"
+        layout_marginStart="24dp"/>
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/rv_preferences"
+        layout_width="-1"
+        android:layout_height="match_parent"
+        overScrollMode="2"/>
+</LinearLayout>

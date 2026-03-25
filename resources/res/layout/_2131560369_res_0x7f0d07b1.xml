@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <View
+        id="@+id/iv_dot"
+        background="@drawable/_2131231664_res_0x7f0803b0"
+        layout_width="4dp"
+        android:layout_height="4dp"
+        NOT_FOUND_0xd="@+id/email"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x10="@+id/email"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        textAppearance="@style/Label_2_Regular"
+        textSize="@dimen/text_size_14sp"
+        textColor="@color/ContentPrimary"
+        gravity="0x800013"
+        id="@+id/email"
+        paddingTop="@dimen/padding_12dp"
+        paddingBottom="@dimen/padding_12dp"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginStart="@dimen/margin_8dp"
+        paddingVertical="@dimen/padding_12dp"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="@+id/iv_dot"
+        NOT_FOUND_0x10="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

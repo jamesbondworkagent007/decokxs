@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o.wYB xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/btn_action_compact"
+    tag="layout/item_im_action_button_compact_0"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    NOT_FOUND_0x4="2"
+    NOT_FOUND_0x5="-3"/>

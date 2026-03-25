@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/layout_dapp_interaction_btn_layout_0"
+    paddingLeft="16dp"
+    paddingTop="12dp"
+    paddingRight="16dp"
+    paddingBottom="20dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingHorizontal="16dp">
+    <o.C52794wYp
+        id="@+id/reject"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        text="@string/pr_metax_customcoin_btn_reject"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xe="@+id/confirm"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x12="52"
+        NOT_FOUND_0x13="0x104"/>
+    <o.C52794wYp
+        enabled="false"
+        id="@+id/confirm"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        text="@string/pr_metax_dapps_modal_textbtn_confirm"
+        layout_marginStart="12dp"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xf="@+id/reject"
+        NOT_FOUND_0x11="0dp"
+        NOT_FOUND_0x12="52"
+        NOT_FOUND_0x13="0x101"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

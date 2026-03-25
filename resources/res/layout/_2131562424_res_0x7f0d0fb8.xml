@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatTextView
+        textSize="@dimen/text_size_14sp"
+        textColor="@color/grey_g900"
+        gravity="0x800005"
+        id="@+id/ticker"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_marginEnd="@dimen/margin_2dp"
+        NOT_FOUND_0xe="@+id/kline_icon"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x11="0"
+        style="@style/Label_2_Medium"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/kline_icon"
+        layout_width="16dp"
+        android:layout_height="16dp"
+        src="@drawable/_2131231584_res_0x7f080360"
+        NOT_FOUND_0xc="@+id/ticker"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0x11="@+id/ticker"/>
+    <o.wYD
+        enabled="true"
+        layout_gravity="0x10"
+        id="@+id/new_price_icon"
+        visibility="2"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginStart="3dp"
+        NOT_FOUND_0xc="@+id/ticker"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xf="@+id/ticker"
+        NOT_FOUND_0x11="@+id/ticker"
+        NOT_FOUND_0x12="@drawable/_2131231584_res_0x7f080360"
+        NOT_FOUND_0x13="2"
+        NOT_FOUND_0x14="-4"/>
+</merge>

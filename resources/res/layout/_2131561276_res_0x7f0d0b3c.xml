@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    background="@color/BaseSecondary"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <View
+        layout_gravity="0x1"
+        id="@+id/drag_bar"
+        background="@drawable/_2131232048_res_0x7f080530"
+        layout_width="36dp"
+        android:layout_height="4dp"
+        layout_marginTop="8dp"
+        layout_marginBottom="16dp"/>
+    <FrameLayout
+        paddingBottom="12dp"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        minHeight="44dp">
+        <TextView
+            textAppearance="@style/TextAppearance.Title.Bold.18SP"
+            textColor="@color/ContentPrimary"
+            ellipsize="3"
+            layout_gravity="0x800013"
+            id="@+id/goto_im_title"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            text="@string/pr_investdeposit_midpopprocess_title_invest_process"
+            singleLine="true"
+            textAlignment="5"
+            layout_marginStart="@dimen/margin_16dp"
+            layout_marginEnd="54dp"/>
+        <ImageView
+            layout_gravity="0x800015"
+            id="@+id/iv_close"
+            layout_width="24dp"
+            android:layout_height="24dp"
+            src="@drawable/_2131231675_res_0x7f0803bb"
+            scaleType="fitStart"
+            layout_marginEnd="14dp"
+            NOT_FOUND_0x14="@color/ContentContrast"/>
+    </FrameLayout>
+</LinearLayout>

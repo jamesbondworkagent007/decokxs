@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    gravity="0x800003"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <TextView
+        textAppearance="@style/TextAppearance.Text.14SP.Regular"
+        textColor="@color/text_secondary"
+        gravity="0x800003"
+        id="@+id/dialogContent"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_8dp"
+        lineSpacingExtra="4sp"/>
+    <o.wYK
+        textAppearance="@style/TextAppearance.Text.12SP.Regular"
+        textColor="@color/ContentSecondary"
+        gravity="0x800003"
+        id="@+id/selectCheckbox"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_16dp"
+        text="@string/pr_swaptrade_swap_buttomsheet_not_showagain"/>
+</LinearLayout>

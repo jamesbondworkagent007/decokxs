@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="@dimen/dp_72">
+    <com.google.android.material.imageview.ShapeableImageView
+        layout_gravity="0x11"
+        id="@+id/logo"
+        layout_width="40dp"
+        android:layout_height="40dp"
+        src="@drawable/_2131233611_res_0x7f080b4b"
+        layout_centerVertical="true"
+        layout_marginStart="@dimen/dp_24"
+        NOT_FOUND_0xf="@style/CircularImage_10"/>
+    <TextView
+        textColor="@color/ContentPrimary"
+        id="@+id/title"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        text="@string/pr_binding_connecting_label_okx_app_2"
+        layout_centerVertical="true"
+        layout_marginStart="12dp"
+        layout_toStartOf="@+id/arrow"
+        layout_toEndOf="@+id/logo"
+        style="@style/Title_2_Medium"/>
+    <o.wYC
+        id="@+id/arrow"
+        layout_width="24dp"
+        android:layout_height="@dimen/dp_24"
+        src="@drawable/_2131231650_res_0x7f0803a2"
+        tint="@color/ContentContrast"
+        layout_centerVertical="true"
+        layout_marginEnd="@dimen/dp_24"
+        layout_alignParentEnd="true"
+        NOT_FOUND_0xe="0"/>
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    clipChildren="false"
+    clipToPadding="false"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <include
+        id="@+id/content_title"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="12dp"
+        layout="@layout/_2131562173_res_0x7f0d0ebd"/>
+    <o.C55159xeg
+        id="@+id/chart"
+        layout_width="-1"
+        android:layout_height="140dp"
+        layout_marginTop="12dp"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

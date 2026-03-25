@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/cl_advanced_settings_item_root"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <TextView
+        textColor="@color/ContentContrast"
+        ellipsize="3"
+        id="@+id/advanced_settings_title"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        maxLines="2"
+        contentDescription="noti_setting_item_title"
+        layout_marginEnd="@dimen/ok_dp_12"
+        NOT_FOUND_0xd="@+id/aoa_advanced_settings_arrow"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0x10="0"
+        style="@style/Label_2_Medium"/>
+    <TextView
+        textColor="@color/ContentTertiary"
+        ellipsize="3"
+        id="@+id/advanced_settings_content"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_4dp"
+        maxLines="2"
+        contentDescription="noti_setting_item_content"
+        layout_marginEnd="@dimen/ok_dp_12"
+        NOT_FOUND_0xd="@+id/aoa_advanced_settings_arrow"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="@+id/advanced_settings_title"
+        style="@style/Label_2_Regular"/>
+    <o.C55068xcv
+        textAppearance="@style/Label_2_Regular"
+        textColor="@color/ContentContrast"
+        id="@+id/aoa_advanced_settings_arrow"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        contentDescription="noti_setting_item_arrow"
+        NOT_FOUND_0xa="@color/ContentContrast"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0x10="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

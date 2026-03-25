@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/item_trade_history_header_0"
+    background="@color/BasePrimaryAlternative"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <View
+        id="@+id/divider"
+        background="@color/BorderPrimary"
+        layout_width="-1"
+        android:layout_height="@dimen/height_0.5dp"
+        layout_marginLeft="24dp"
+        layout_marginRight="24dp"
+        layout_marginHorizontal="24dp"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x11="0"
+        NOT_FOUND_0x13="0"/>
+    <TextView
+        textColor="@color/ContentContrast"
+        gravity="0x800013"
+        id="@+id/txTime"
+        paddingLeft="24dp"
+        paddingRight="24dp"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/ok_dp_16"
+        layout_marginBottom="@dimen/dp_8"
+        paddingHorizontal="24dp"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x11="0"
+        NOT_FOUND_0x12="@+id/divider"
+        style="@style/TextAppearance.Text.12SP.Regular"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

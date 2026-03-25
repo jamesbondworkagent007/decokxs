@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/container_instruction_order_detail_view"
+    paddingLeft="12dp"
+    paddingTop="8dp"
+    paddingRight="12dp"
+    paddingBottom="8dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingHorizontal="12dp"
+    paddingVertical="8dp">
+    <androidx.appcompat.widget.AppCompatTextView
+        textAppearance="@style/TextAppearance.Text.12SP.Regular"
+        textColor="@color/grey_g500"
+        gravity="0x800013"
+        id="@+id/tv_instruction_order_detail_view"
+        paddingTop="8dp"
+        paddingBottom="8dp"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        lineSpacingExtra="4dp"
+        paddingVertical="8dp"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x10="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

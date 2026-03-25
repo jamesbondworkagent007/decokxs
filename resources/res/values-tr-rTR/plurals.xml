@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pr_account_cedefi_tab_desc_network">
+        <item quantity="one">{num} ağda etkinleştirildi</item>
+        <item quantity="other">{num} ağda etkinleştirildi</item>
+    </plurals>
+    <plurals name="pr_compliance_global_poa_label_files_uploaded">
+        <item quantity="one">{number} dosya yüklendi.</item>
+        <item quantity="other">{number} dosya yüklendi.</item>
+    </plurals>
+    <plurals name="pr_dcdbot_placeorder_toast_found_num_bot">
+        <item quantity="one">Sizin için {number} ürün bulundu!</item>
+        <item quantity="other">Sizin için {number} ürün bulundu!</item>
+    </plurals>
+    <plurals name="pr_im_invite_user_dialog_text_upgrade_find_out_single_error">
+        <item quantity="one">Bazı değişiklikler yaptık. Bunların neden eklenemediğini görmek için uygulamanızı güncelleyin.</item>
+        <item quantity="other">Bazı değişiklikler yaptık. Bunların neden eklenemediğini görmek için uygulamanızı güncelleyin.</item>
+    </plurals>
+    <plurals name="pr_invest_smartmoney_mid_alert_day">
+        <item quantity="one">{num} Gün</item>
+        <item quantity="other">{num} Gün</item>
+    </plurals>
+    <plurals name="pr_invest_smartmoney_mid_alert_hour">
+        <item quantity="one">{num} Saat</item>
+        <item quantity="other">{num} Saat</item>
+    </plurals>
+    <plurals name="pr_invest_smartmoney_mid_alert_minute">
+        <item quantity="one">{num} Dakika</item>
+        <item quantity="other">{num} Dakika</item>
+    </plurals>
+    <plurals name="pr_invest_smartmoney_mid_alert_second">
+        <item quantity="one">{num} Saniye</item>
+        <item quantity="other">{num} Saniye</item>
+    </plurals>
+    <plurals name="pr_investutxo_bot_textarea_desc_potential_risk">
+        <item quantity="one">Kilidini açmak için {num} UTXO seçtiniz. Bu, {numToken} kazandırsa da bu UTXO&apos;larda varlık kaybına neden olacaktır. Lütfen kilidi açmadan önce varlıklarınızı onaylayın.</item>
+        <item quantity="other">Kilidini açmak için {num} UTXO seçtiniz. Bu, {numToken} kazandırsa da bu UTXO&apos;larda varlık kaybına neden olacaktır. Lütfen kilidi açmadan önce varlıklarınızı onaylayın.</item>
+    </plurals>
+    <plurals name="pr_message_call_text_user_others_v2">
+        <item quantity="one">{user1}, {user2} ve {num} diğer kişi</item>
+        <item quantity="other">{user1}, {user2} ve {num} diğer kişi</item>
+    </plurals>
+    <plurals name="pr_message_chat_header_num_reactions">
+        <item quantity="one">{num} tepki</item>
+        <item quantity="other">{num} tepki</item>
+    </plurals>
+    <plurals name="pr_message_chat_label_unread_message_pl">
+        <item quantity="one">Okunmamış Mesaj</item>
+        <item quantity="other">Okunmamış Mesaj</item>
+    </plurals>
+    <plurals name="pr_message_competition_textarea_climbed_var_pl">
+        <item quantity="one">{num} sıra yükseldi</item>
+        <item quantity="other">{num} sıra yükseldi</item>
+    </plurals>
+    <plurals name="pr_message_competition_textarea_dropped_var_pl">
+        <item quantity="one">{num} sıra geriledi</item>
+        <item quantity="other">{num} sıra geriledi</item>
+    </plurals>
+    <plurals name="pr_message_competition_textarea_ends_in_num_days_var_pl">
+        <item quantity="one">{num} gün</item>
+        <item quantity="other">{num} gün</item>
+    </plurals>
+    <plurals name="pr_message_competition_user_others_left">
+        <item quantity="one">{user} ve {number} kişi daha takımdan ayrıldı.</item>
+        <item quantity="other">{user} ve {number} kişi daha takımdan ayrıldı.</item>
+    </plurals>
+    <plurals name="pr_message_group_admin_bulk_add_to_group_pl">
+        <item quantity="one">{user1}, {user2} adlı kullanıcıyı ve diğer {number} kullanıcıyı gruba ekledi.</item>
+        <item quantity="other">{user1}, {user2} adlı kullanıcıyı ve diğer {number} kullanıcıyı gruba ekledi.</item>
+    </plurals>
+    <plurals name="pr_message_group_alertbanner_review_plural_key">
+        <item quantity="one">{num} katılım talebini inceleyin</item>
+        <item quantity="other">{num} katılım talebini inceleyin</item>
+    </plurals>
+    <plurals name="pr_message_group_bulk_add_admin_var_pl">
+        <item quantity="one">{admin}, {members} adlı kullanıcıları ve diğer {number} kullanıcıyı yönetici olarak ekledi.</item>
+        <item quantity="other">{admin}, {members} adlı kullanıcıları ve diğer {number} kullanıcıyı yönetici olarak ekledi.</item>
+    </plurals>
+    <plurals name="pr_message_group_bulk_add_admin_you_pl">
+        <item quantity="one">{admin}, sizi ve diğer {number} kullanıcıyı yönetici olarak ekledi.</item>
+        <item quantity="other">{admin}, sizi ve diğer {number} kullanıcıyı yönetici olarak ekledi.</item>
+    </plurals>
+    <plurals name="pr_message_group_bulk_remove_admin_you_pl">
+        <item quantity="one">{admin1}, sizi ve diğer {number} kullanıcıyı yöneticilikten çıkardı.</item>
+        <item quantity="other">{admin1}, sizi ve diğer {number} kullanıcıyı yöneticilikten çıkardı.</item>
+    </plurals>
+    <plurals name="pr_message_group_chat_removed_from_group_pl">
+        <item quantity="one">{user} ve diğer {number} kullanıcıyı gruptan çıkardınız.</item>
+        <item quantity="other">{user} ve diğer {number} kullanıcıyı gruptan çıkardınız.</item>
+    </plurals>
+    <plurals name="pr_message_group_chat_removed_from_group_pl_var">
+        <item quantity="one">{admin}, {user} adlı kullanıcıyı ve diğer {number} kişiyi gruptan çıkardı.</item>
+        <item quantity="other">{admin}, {user} adlı kullanıcıyı ve diğer {number} kişiyi gruptan çıkardı.</item>
+    </plurals>
+    <plurals name="pr_message_group_dialog_header_remove_member_pl">
+        <item quantity="one">Bu üye kaldırılsın mı?</item>
+        <item quantity="other">Seçili üyeler mı?</item>
+    </plurals>
+    <plurals name="pr_message_group_label_num_already_here_pl">
+        <item quantity="one">{num} kişiniz zaten burada</item>
+        <item quantity="other">{num} kişiniz zaten burada</item>
+    </plurals>
+    <plurals name="pr_message_group_textarea_bulk_remove_admin_var_pl">
+        <item quantity="one">{admin1}, {admin2} ve diğer {number} kullanıcıyı yöneticilikten çıkardı.</item>
+        <item quantity="other">{admin1}, {admin2} ve diğer {number} kullanıcıyı yöneticilikten çıkardı.</item>
+    </plurals>
+    <plurals name="pr_message_group_you_bulk_add_admin_pl">
+        <item quantity="one">{members} ve diğer {number} kullanıcıyı yönetici olarak eklediniz.</item>
+        <item quantity="other">{members} ve diğer {number} kullanıcıyı yönetici olarak eklediniz.</item>
+    </plurals>
+    <plurals name="pr_message_group_you_bulk_add_to_group_pl">
+        <item quantity="one">{users} adlı kullanıcıları ve diğer {number} kullanıcıyı gruba eklediniz.</item>
+        <item quantity="other">{users} adlı kullanıcıları ve diğer {number} kullanıcıyı gruba eklediniz.</item>
+    </plurals>
+    <plurals name="pr_message_group_you_bulk_remove_admin_pl">
+        <item quantity="one">{admins} ve diğer {number} kullanıcıyı yöneticilikten çıkardınız.</item>
+        <item quantity="other">{admins} ve diğer {number} kullanıcıyı yöneticilikten çıkardınız.</item>
+    </plurals>
+    <plurals name="pr_message_info_text_read_by_num_members">
+        <item quantity="one">{num} üye tarafından okundu</item>
+        <item quantity="other">{num} üye tarafından okundu</item>
+    </plurals>
+    <plurals name="pr_message_invite_user_dialog_text_cant_add_to_group_plural">
+        <item quantity="one">Bu kişinin gizlilik ayarı açık olabilir veya sizi geri eklememiş olabilir. Bunun yerine ona bir davet gönderdik.</item>
+        <item quantity="other">Bu kişilerin gizlilik ayarları açık olabilir veya sizi geri eklememiş olabilirler. Bunun yerine onlara bir davet gönderdik.</item>
+    </plurals>
+    <plurals name="pr_message_notice_dialog_header_remove_num_notices_pl">
+        <item quantity="one">{num} Duyuru Kaldırılsın mı?</item>
+        <item quantity="other">{num} Duyuru Kaldırılsın mı?</item>
+    </plurals>
+    <plurals name="pr_message_notice_textarea_removed_notice_pl">
+        <item quantity="one">Bir bildirimi kaldırdınız.</item>
+        <item quantity="other">Bazı bildirimleri kaldırdınız.</item>
+    </plurals>
+    <plurals name="pr_message_notice_textarea_removed_notice_pl_var">
+        <item quantity="one">{user} bir bildirimi kaldırdı.</item>
+        <item quantity="other">{user} bazı bildirimleri kaldırdı.</item>
+    </plurals>
+    <plurals name="pr_message_notice_toast_notice_removed_pl">
+        <item quantity="one">Duyuru kaldırıldı!</item>
+        <item quantity="other">Duyurular kaldırıldı!</item>
+    </plurals>
+    <plurals name="pr_message_paid_group_bttmsheet_title_add_admin_pl">
+        <item quantity="one">Yeni yönetici eklensin mi?</item>
+        <item quantity="other">Yeni yöneticiler eklensin mi?</item>
+    </plurals>
+    <plurals name="pr_message_planet_label_num_members_pl">
+        <item quantity="one">{num} üye</item>
+        <item quantity="other">{num} üye</item>
+    </plurals>
+    <plurals name="pr_message_share_desc_msg_cant_send_pl">
+        <item quantity="one">Seçtiğiniz sohbette şu nedenle mesajınız alınamıyor:</item>
+        <item quantity="other">Seçtiğiniz sohbetlerde şu nedenlerle mesajınız alınamıyor:</item>
+    </plurals>
+    <plurals name="pr_message_share_desc_some_cant_share_pl">
+        <item quantity="one">Ancak bir sohbette şu nedenle mesajınız alınamadı:</item>
+        <item quantity="other">Ancak bazı sohbetlerde şu nedenlerle mesajınız alınamadı:</item>
+    </plurals>
+    <plurals name="pr_message_sticker_toast_sticker_removed_pl">
+        <item quantity="one">Çıkartma kaldırıldı</item>
+        <item quantity="other">Çıkartmalar kaldırıldı</item>
+    </plurals>
+    <plurals name="pr_orbit_profile_label_followers_pl">
+        <item quantity="one">Takipçi</item>
+        <item quantity="other">Takipçi</item>
+    </plurals>
+    <plurals name="pr_orbit_profile_livestream_text_num_views">
+        <item quantity="one">{num} görüntüleme</item>
+        <item quantity="other">{num} görüntüleme</item>
+    </plurals>
+    <plurals name="pr_orbit_profile_selectioncard_label_num_groups_pl">
+        <item quantity="one">{num} grup</item>
+        <item quantity="other">{num} grup</item>
+    </plurals>
+    <plurals name="pr_social_marketplace_feeds_num_followers">
+        <item quantity="one">{num} Takipçi</item>
+        <item quantity="other">{num} Takipçi</item>
+    </plurals>
+    <plurals name="pr_supportcenter_card_desc_open_tickets">
+        <item quantity="one">Bir Açık Bilet</item>
+        <item quantity="other">{number} Açık Bilet</item>
+    </plurals>
+    <plurals name="pr_supportcenter_landing_recommendation_cards_plu">
+        <item quantity="one">Bunu göz önünde bulundurun</item>
+        <item quantity="other">Göz önünde bulundurmanız gereken {number} şey</item>
+    </plurals>
+    <plurals name="pr_supportcenter_landing_tag_issue_count">
+        <item quantity="one">{number} sorun</item>
+        <item quantity="other">{number} sorun</item>
+    </plurals>
+    <plurals name="pr_swaptrade_1swap_notification_selected_pools_reselect">
+        <item quantity="one">Seçtiğiniz {num} havuzda şu anda likidite yok. Teklif almak için OKX DEX&apos;ten daha fazla havuz seçin.</item>
+        <item quantity="other">Seçtiğiniz {num} havuzda şu anda likidite yok. Teklif almak için OKX DEX&apos;ten daha fazla havuz seçin.</item>
+    </plurals>
+    <plurals name="pr_swaptrade_address_number">
+        <item quantity="one">{num} Adres</item>
+        <item quantity="other">{num} Adres</item>
+    </plurals>
+    <plurals name="pr_swaptrade_alert_toast_turned_off">
+        <item quantity="one">{num} adres için uyarı silindi</item>
+        <item quantity="other">{num} adres için uyarı silindi</item>
+    </plurals>
+    <plurals name="pr_swaptrade_alert_toast_turned_on">
+        <item quantity="one">{num} adres için uyarı eklendi</item>
+        <item quantity="other">{num} adres için uyarı eklendi</item>
+    </plurals>
+    <plurals name="pr_swaptrade_bridge_dialog_this_transaction_requires_sign">
+        <item quantity="one">Bu işlem {num} imza gerektiriyor:</item>
+        <item quantity="other">Bu işlem {num} imza gerektiriyor:</item>
+    </plurals>
+    <plurals name="pr_swaptrade_copytrade_30_days">
+        <item quantity="one">{num} gün</item>
+        <item quantity="other">{num} gün</item>
+    </plurals>
+    <plurals name="pr_swaptrade_copytrade_reminder_renew_or_suspend_plural">
+        <item quantity="one">Akıllı hesabın süresi {numDays} sonra dolacak. Kesinti yaşamamak için hesabı yenileyin.</item>
+        <item quantity="other">Akıllı hesabın süresi {numDays} sonra dolacak. Kesinti yaşamamak için hesabı yenileyin.</item>
+    </plurals>
+    <plurals name="pr_swaptrade_copytrade_status_hrs">
+        <item quantity="one">{num} saat</item>
+        <item quantity="other">{num} saat</item>
+    </plurals>
+    <plurals name="pr_swaptrade_copytrade_status_mins">
+        <item quantity="one">{num} dk</item>
+        <item quantity="other">{num} dk</item>
+    </plurals>
+    <plurals name="pr_swaptrade_header_sources_selected">
+        <item quantity="one">{num} Kaynak</item>
+        <item quantity="other">{num} Kaynak</item>
+    </plurals>
+    <plurals name="pr_swaptrade_market_title_confirm_unfollow_all_tab_case">
+        <item quantity="one">Tüm gruplardaki {num} adresi takipten çıkmak istediğinizden emin misiniz?</item>
+        <item quantity="other">Tüm gruplardaki {num} adresi takipten çıkmak istediğinizden emin misiniz?</item>
+    </plurals>
+    <plurals name="pr_swaptrade_market_title_total_tokens">
+        <item quantity="one">Toplam {num} token</item>
+        <item quantity="other">Toplam {num} token</item>
+    </plurals>
+    <plurals name="pr_swaptrade_market_title_unfollow_message">
+        <item quantity="one">Bu gruptaki {num} adresi takipten çıkmak istediğinizden emin misiniz?</item>
+        <item quantity="other">Bu gruptaki {num} adresi takipten çıkmak istediğinizden emin misiniz?</item>
+    </plurals>
+    <plurals name="pr_swaptrade_smart_account_reminder_desc_renew_smart_account_days">
+        <item quantity="one">Akıllı hesabın süresi {num} gün içinde dolacak. Açık emirler akıllı hesabın süresi dolduğunda askıya alınacak.</item>
+        <item quantity="other">Akıllı hesabın süresi {num} gün içinde dolacak. Açık emirler akıllı hesabın süresi dolduğunda askıya alınacak.</item>
+    </plurals>
+    <plurals name="pr_swaptrade_successfully_added_toast">
+        <item quantity="one">{num} gruba başarıyla taşındı!</item>
+        <item quantity="other">{num} gruba başarıyla taşındı!</item>
+    </plurals>
+    <plurals name="pr_swaptrade_toast_no_liquidity_provider_alert_pool">
+        <item quantity="one">Seçtiğiniz {num} havuzda likidite bulunmadığı için üçüncü taraf bir sağlayıcıya yönlendirildiniz. OKX DEX Toplayıcı üzerinden al-sat yapmak için havuzları yeniden seçin.</item>
+        <item quantity="other">Seçtiğiniz {num} havuzda likidite bulunmadığı için üçüncü taraf bir sağlayıcıya yönlendirildiniz. OKX DEX Toplayıcı üzerinden al-sat yapmak için havuzları yeniden seçin.</item>
+    </plurals>
+    <plurals name="pr_swaptrade_token_detail_label_num_txn">
+        <item quantity="one">{num} İşlem</item>
+        <item quantity="other">{num} İşlem</item>
+    </plurals>
+    <plurals name="pr_swaptrade_tracker_textarea_activity">
+        <item quantity="one"># yeni etkinlik</item>
+        <item quantity="other"># yeni etkinlik</item>
+    </plurals>
+    <plurals name="pr_trade_analysis_header_numd_pnl">
+        <item quantity="one">{num} Günlük K&amp;Z Miktarı</item>
+        <item quantity="other">{num} Günlük K&amp;Z Miktarı</item>
+    </plurals>
+    <plurals name="pr_trade_card_title_cumulative_perpetual_pnl_last">
+        <item quantity="one">Tüm Sürekli Swap İşlemlerinin K&amp;Z Miktarı (Son {number} Gün)</item>
+        <item quantity="other">Tüm Sürekli Swap İşlemlerinin K&amp;Z Miktarı (Son {number} Gün)</item>
+    </plurals>
+    <plurals name="pr_trade_card_title_top_3_contracts_last_number_days">
+        <item quantity="one">En Kârlı 3 Vadeli İşlem Pozisyonu (Son {number} Gün)</item>
+        <item quantity="other">En Kârlı 3 Vadeli İşlem Pozisyonu (Son {number} Gün)</item>
+    </plurals>
+    <plurals name="pr_trade_card_title_top_3_long_last_number_days">
+        <item quantity="one">En Kârlı 3 Uzun Vadeli İşlem Pozisyonu (Son {number} Gün)</item>
+        <item quantity="other">En Kârlı 3 Uzun Vadeli İşlem Pozisyonu (Son {number} Gün)</item>
+    </plurals>
+    <plurals name="pr_trade_card_title_top_3_short_last_number_days">
+        <item quantity="one">En Kârlı 3 Kısa Vadeli İşlem Pozisyonu (Son {number} Gün)</item>
+        <item quantity="other">En Kârlı 3 Kısa Vadeli İşlem Pozisyonu (Son {number} Gün)</item>
+    </plurals>
+    <plurals name="pr_trade_charts_num_bars">
+        <item quantity="one">{num} çubuk</item>
+        <item quantity="other">{num} çubuk</item>
+    </plurals>
+    <plurals name="pr_trade_discover_numd_ago">
+        <item quantity="one">{num} Gün Önce</item>
+        <item quantity="other">{num} Gün Önce</item>
+    </plurals>
+    <plurals name="pr_trade_discover_numh_ago">
+        <item quantity="one">{num} Sa Önce</item>
+        <item quantity="other">{num} Sa Önce</item>
+    </plurals>
+    <plurals name="pr_trade_discover_numm_ago">
+        <item quantity="one">{num} Dk Önce</item>
+        <item quantity="other">{num} Dk Önce</item>
+    </plurals>
+    <plurals name="pr_trade_discover_nums_ago">
+        <item quantity="one">{num} Sn Önce</item>
+        <item quantity="other">{num} Sn Önce</item>
+    </plurals>
+    <plurals name="pr_trade_feed_num_answered">
+        <item quantity="one">{num} Oy Verildi</item>
+        <item quantity="other">{num} Oy Verildi</item>
+    </plurals>
+    <plurals name="pr_trade_general_timeframe_days_variable">
+        <item quantity="one">{num} Gün</item>
+        <item quantity="other">{num} Gün</item>
+    </plurals>
+    <plurals name="pr_trade_general_timeframe_days_variable_tian">
+        <item quantity="one">{num} Gün</item>
+        <item quantity="other">{num} Gün</item>
+    </plurals>
+    <plurals name="pr_trade_general_timeframe_hours_update">
+        <item quantity="one">{num} Saat</item>
+        <item quantity="other">{num} Saat</item>
+    </plurals>
+    <plurals name="pr_trade_general_timeframe_minutes_update">
+        <item quantity="one">{num} Dakika</item>
+        <item quantity="other">{num} Dakika</item>
+    </plurals>
+    <plurals name="pr_trade_home_desc_num_hours">
+        <item quantity="one">{num} saat</item>
+        <item quantity="other">{num} saat</item>
+    </plurals>
+    <plurals name="pr_trade_marketevents_header_num_related_posts">
+        <item quantity="one">{num} ilgili gönderi</item>
+        <item quantity="other">{num} ilgili gönderi</item>
+    </plurals>
+    <plurals name="pr_trade_marketevents_label_num_posts">
+        <item quantity="one">{num} Gönderim</item>
+        <item quantity="other">{num} Gönderim</item>
+    </plurals>
+    <plurals name="pr_trade_orbit_title_num_days">
+        <item quantity="one">{num} gün</item>
+        <item quantity="other">{num} gün</item>
+    </plurals>
+    <plurals name="pr_trade_orbit_title_num_years">
+        <item quantity="one">{num} yıl</item>
+        <item quantity="other">{num} yıl</item>
+    </plurals>
+    <plurals name="pr_trade_tokenunlocks_countdown_numd">
+        <item quantity="one">{num} Gün</item>
+        <item quantity="other">{num} Gün</item>
+    </plurals>
+    <plurals name="pr_trade_tokenunlocks_num_days_ago">
+        <item quantity="one">{num} Gün Önce</item>
+        <item quantity="other">{num} Gün Önce</item>
+    </plurals>
+    <plurals name="pr_wallet_approval_alert_subtitle_num_risk_new">
+        <item quantity="one">{count} Riskli Yetkilendirme</item>
+        <item quantity="other">{count} Riskli Yetkilendirme</item>
+    </plurals>
+    <plurals name="pr_wallet_approval_textbtn_hide_num_approval">
+        <item quantity="one">Topla</item>
+        <item quantity="other">Topla</item>
+    </plurals>
+    <plurals name="pr_wallet_approve_alert_risky_approvals">
+        <item quantity="one">{num} Riskli Yetkilendirme Tespit Edildi</item>
+        <item quantity="other">{num} Riskli Yetkilendirme Tespit Edildi</item>
+    </plurals>
+    <plurals name="pr_wallet_connection_text_num_network">
+        <item quantity="one">1 Ağ</item>
+        <item quantity="other">{num} Ağ</item>
+    </plurals>
+    <plurals name="pr_wallet_connection_title_connected_to_num_networks">
+        <item quantity="one">Bir Ağa Bağlandı</item>
+        <item quantity="other">{num} Ağa Bağlandı</item>
+    </plurals>
+    <plurals name="pr_wallet_function_emptystate_num_unavailable_hidden">
+        <item quantity="one">{num} token dönüştürülemiyor.</item>
+        <item quantity="other">{num} token dönüştürülemiyor.</item>
+    </plurals>
+    <plurals name="pr_wallet_function_label_num_swaps">
+        <item quantity="one">{num} token</item>
+        <item quantity="other">{num} token</item>
+    </plurals>
+    <plurals name="pr_wallet_function_notification_num_tokens_noquote">
+        <item quantity="one">{num} token fiyat teklifi olmadan dönüştürülemiyor</item>
+        <item quantity="other">{num} token fiyat teklifi olmadan dönüştürülemiyor</item>
+    </plurals>
+    <plurals name="pr_wallet_function_notification_title_num_tokens_converted">
+        <item quantity="one">{num} Token Dönüştürüldü</item>
+        <item quantity="other">{num} Token Dönüştürüldü</item>
+    </plurals>
+    <plurals name="pr_wallet_function_title_converting_num_tokens">
+        <item quantity="one">{num} Token Dönüştürülüyor</item>
+        <item quantity="other">{num} Token Dönüştürülüyor</item>
+    </plurals>
+    <plurals name="pr_wallet_multisend_alertbanner_desc_num_address_confirm">
+        <item quantity="one">Kontrol etmeniz gereken {num} alıcı adresi var.</item>
+        <item quantity="other">Kontrol etmeniz gereken {num} alıcı adresi var.</item>
+    </plurals>
+    <plurals name="pr_wallet_multisend_input_num_transaction">
+        <item quantity="one">{num} işlem içerir.</item>
+        <item quantity="other">{num} işlem içerir.</item>
+    </plurals>
+    <plurals name="pr_wallet_multisend_reminder_desc_current_scenario">
+        <item quantity="one">{num} desteklenmeyen cüzdan gizlendi.</item>
+        <item quantity="other">{num} desteklenmeyen cüzdan gizlendi.</item>
+    </plurals>
+    <plurals name="pr_wallet_search_desc_num_assets">
+        <item quantity="one">{num} Varlık</item>
+        <item quantity="other">{num} Varlık</item>
+    </plurals>
+    <plurals name="pr_wallet_settings_reminder_desc_fail_check">
+        <item quantity="one">Tarama sırasında cihazınızda {num} risk bulundu.</item>
+        <item quantity="other">Tarama sırasında cihazınızda {num} risk bulundu.</item>
+    </plurals>
+    <plurals name="pr_wallet_subtitle_non_interactive_address">
+        <item quantity="one">{count} İnteraktif Olmayan DApp</item>
+        <item quantity="other">{count} İnteraktif Olmayan DApp</item>
+    </plurals>
+</resources>

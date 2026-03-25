@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.C55258xgZ
+        id="@+id/tpModeLabel"
+        tag="layout/trade_ui_view_dcd_product_detail_tp_mode_0"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        text="@string/pr_dcdbot_placeorder_select_label_take_profit_mode"
+        NOT_FOUND_0x6="0"
+        NOT_FOUND_0x7="@color/ContentPrimary"
+        NOT_FOUND_0x8="@dimen/text_size_14sp"
+        NOT_FOUND_0x9="500"/>
+    <o.C53530wnI
+        id="@+id/tpMode"
+        tag="layout/trade_ui_view_dcd_product_detail_tp_mode_1"
+        layout_width="-1"
+        android:layout_height="@dimen/height_48dp"
+        layout_marginTop="@dimen/dp_8"/>
+    <o.C47988uAv
+        id="@+id/investAmt"
+        tag="layout/trade_ui_view_dcd_product_detail_tp_mode_2"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="12dp"
+        NOT_FOUND_0xa="2"
+        style="@style/OKTInputLayoutStyle_Bot_V2"/>
+    <o.C50387vMn
+        id="@+id/investPercent"
+        tag="layout/trade_ui_view_dcd_product_detail_tp_mode_3"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="12dp"/>
+</merge>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    id="@+id/rowHardwareGroupAddress"
+    background="@drawable/_2131233805_res_0x7f080c0d"
+    paddingLeft="@dimen/padding_12dp"
+    paddingTop="@dimen/padding_8dp"
+    paddingRight="@dimen/padding_12dp"
+    paddingBottom="@dimen/padding_8dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingHorizontal="@dimen/padding_12dp"
+    paddingVertical="@dimen/padding_8dp">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        orientation="1"
+        id="@+id/llGroupAddress"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0x10="@+id/selectedItemView"
+        NOT_FOUND_0x13="0"
+        NOT_FOUND_0x14="0"/>
+    <ImageView
+        id="@+id/selectedItemView"
+        visibility="2"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        src="@drawable/_2131233852_res_0x7f080c3c"
+        layout_marginStart="@dimen/margin_4dp"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x11="1"
+        NOT_FOUND_0x12="@+id/llGroupAddress"
+        NOT_FOUND_0x14="0"
+        NOT_FOUND_0x15="@color/ContentPrimary"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

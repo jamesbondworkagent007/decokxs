@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o.C33546myW xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/refresh_layout"
+    layout_width="-1"
+    android:layout_height="match_parent"
+    NOT_FOUND_0x7="false"
+    NOT_FOUND_0x8="false"
+    NOT_FOUND_0x9="true"
+    NOT_FOUND_0xa="false"
+    NOT_FOUND_0xb="true">
+    <o.C33603mza
+        layout_width="-1"
+        android:layout_height="wrap_content"/>
+    <o.C41819qxx
+        id="@+id/stateful_layout"
+        layout_width="-1"
+        android:layout_height="match_parent">
+        <androidx.recyclerview.widget.RecyclerView
+            id="@+id/recycler_view"
+            paddingBottom="@dimen/dp_40"
+            clipToPadding="false"
+            layout_width="-1"
+            android:layout_height="0dp"
+            NOT_FOUND_0x5="0"
+            NOT_FOUND_0x6="@+id/tv_page_title"/>
+        <o.C41820qxy
+            id="@+id/tv_page_title"
+            layout_width="-1"
+            android:layout_height="wrap_content"/>
+    </o.C41819qxx>
+</o.C33546myW>

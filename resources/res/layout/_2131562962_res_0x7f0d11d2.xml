@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    paddingLeft="@dimen/ok_dp_24"
+    paddingTop="@dimen/ok_dp_16"
+    paddingRight="@dimen/ok_dp_24"
+    paddingBottom="@dimen/ok_dp_16"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingHorizontal="@dimen/ok_dp_24"
+    paddingVertical="@dimen/ok_dp_16">
+    <TextView
+        textColor="@color/ContentPrimary"
+        id="@+id/title"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginEnd="@dimen/dp_4"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xf="@+id/subtitle"
+        NOT_FOUND_0x11="0"
+        NOT_FOUND_0x12="0"
+        style="@style/Label_1_Regular"/>
+    <TextView
+        textColor="@color/ContentContrast"
+        id="@+id/subtitle"
+        layout_width="@dimen/width_0dp"
+        android:layout_height="wrap_content"
+        layout_marginEnd="@dimen/ok_dp_12"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xf="@+id/check_icon"
+        NOT_FOUND_0x10="@+id/title"
+        NOT_FOUND_0x12="0"
+        style="@style/Label_1_Regular"/>
+    <ImageView
+        id="@+id/check_icon"
+        layout_width="@dimen/ok_dp_24"
+        android:layout_height="@dimen/ok_dp_24"
+        src="@drawable/_2131233852_res_0x7f080c3c"
+        importantForAccessibility="2"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0x12="0"
+        NOT_FOUND_0x13="@color/SurfaceBrand"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/fragment_dialog_change_evm_derive_address_layout_0"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <LinearLayout
+        orientation="1"
+        layout_width="-1"
+        android:layout_height="match_parent">
+        <androidx.appcompat.widget.AppCompatTextView
+            textAppearance="@style/Title_1_Bold"
+            textColor="@color/grey_g900"
+            id="@+id/titleTextView"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            layout_marginLeft="16dp"
+            layout_marginTop="16dp"
+            layout_marginRight="16dp"
+            text="@string/pr_metax_header_title_change_address"
+            layout_marginHorizontal="16dp"/>
+        <androidx.recyclerview.widget.RecyclerView
+            id="@+id/rv_cell"
+            paddingBottom="30dp"
+            clipToPadding="false"
+            layout_width="-1"
+            android:layout_height="match_parent"
+            layout_marginTop="16dp"
+            NOT_FOUND_0xe="androidx.recyclerview.widget.LinearLayoutManager"/>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

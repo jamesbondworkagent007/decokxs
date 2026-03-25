@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    gravity="0x11"
+    orientation="1"
+    paddingLeft="8dp"
+    paddingRight="8dp"
+    paddingBottom="14dp"
+    layout_width="-2"
+    android:layout_height="wrap_content"
+    paddingHorizontal="8dp">
+    <ImageView
+        id="@+id/plugin_icon"
+        background="@drawable/_2131233751_res_0x7f080bd7"
+        layout_width="48dp"
+        android:layout_height="48dp"
+        src="@drawable/_2131233688_res_0x7f080b98"
+        scaleType="7"
+        contentDescription="@null"
+        backgroundTint="@color/SurfacePrimary"
+        foregroundTint="@color/ContentPrimary"/>
+    <TextView
+        textAppearance="@style/Button"
+        textSize="12sp"
+        textColor="@color/ContentPrimary"
+        ellipsize="3"
+        gravity="0x11"
+        id="@+id/plugin_name"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="4dp"
+        maxLines="2"/>
+</LinearLayout>

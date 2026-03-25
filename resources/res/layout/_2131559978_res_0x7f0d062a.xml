@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    tag="layout/fragment_invest_redeem_pool_choose_0"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginLeft="@dimen/margin_16dp"
+    layout_marginTop="@dimen/margin_16dp"
+    layout_marginRight="@dimen/margin_16dp"
+    layout_marginBottom="@dimen/margin_20dp"
+    contentDescription="web3_defi_detail_redeem_select_view"
+    layout_marginHorizontal="@dimen/margin_16dp">
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/rv_content"
+        scrollbars="horizontal"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        overScrollMode="2"/>
+</FrameLayout>

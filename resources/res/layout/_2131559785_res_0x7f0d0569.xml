@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    id="@+id/vg_otp_input_container"
+    tag="layout/fragment_auth_otp_input_0"
+    layout_width="-1"
+    android:layout_height="wrap_content"/>

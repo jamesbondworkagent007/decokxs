@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item state_activated="true">
+        <shape>
+            <solid color="@color/SurfacePrimary"/>
+            <stroke
+                width="1dp"
+                color="@color/SemanticNegative"/>
+            <corners radius="8dp"/>
+        </shape>
+    </item>
+    <item state_activated="false">
+        <shape>
+            <solid color="@color/SurfacePrimary"/>
+            <stroke
+                width="1dp"
+                color="@color/BorderPrimary"/>
+            <corners radius="8dp"/>
+        </shape>
+    </item>
+</selector>

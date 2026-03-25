@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    paddingLeft="?attr/horizontalPaddingDimension"
+    paddingRight="?attr/horizontalPaddingDimension"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginTop="@dimen/xxsm"
+    paddingHorizontal="?attr/horizontalPaddingDimension">
+    <o.C28055kNf
+        id="@+id/widget_type_selection"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/xxsm"
+        layout_marginBottom="36dp"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

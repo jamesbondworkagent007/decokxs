@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    tag="layout/layout_transaction_memo_new_0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.C55008xbo
+        id="@+id/layout_memo"
+        paddingTop="16dp"
+        paddingBottom="16dp"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginLeft="24dp"
+        layout_marginRight="24dp"
+        layout_marginHorizontal="24dp"
+        paddingVertical="16dp"
+        NOT_FOUND_0xb="72"/>
+    <include
+        id="@+id/layout_read_only_memo"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout="@layout/_2131561519_res_0x7f0d0c2f"/>
+</LinearLayout>

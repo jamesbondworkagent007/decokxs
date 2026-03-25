@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/item_test_packet_0"
+    layout_width="-1"
+    android:layout_height="@dimen/height_80dp">
+    <ImageView
+        id="@+id/selector"
+        tag="binding_1"
+        padding="28dp"
+        layout_width="@dimen/width_80dp"
+        android:layout_height="match_parent"
+        src="@drawable/_2131232885_res_0x7f080875"
+        NOT_FOUND_0x9="0"/>
+    <TextView
+        id="@+id/packet_name"
+        tag="binding_2"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x8="@+id/download"
+        NOT_FOUND_0xa="@+id/selector"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xd="0"
+        style="@style/TextAppearance.Title.12SP.Medium"/>
+    <TextView
+        id="@+id/download"
+        tag="binding_3"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x7="0"
+        NOT_FOUND_0xa="@+id/selector"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="@+id/packet_name"
+        style="@style/TextAppearance.Text.12SP"/>
+    <View
+        id="@+id/divider"
+        background="@drawable/_2131232025_res_0x7f080519"
+        layout_width="-1"
+        android:layout_height="0x7f0703c9"
+        NOT_FOUND_0xd="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

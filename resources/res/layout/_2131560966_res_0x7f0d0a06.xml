@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o.C52794wYp xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    enabled="false"
+    id="@+id/btn_submit"
+    tag="layout/item_upload_log_submit_0"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginLeft="@dimen/margin_default"
+    layout_marginTop="@dimen/margin_12dp"
+    layout_marginRight="@dimen/margin_default"
+    layout_marginBottom="@dimen/margin_20dp"
+    text="@string/pr_supportcenter_errorlog_btn_submit"
+    layout_marginHorizontal="@dimen/margin_default"
+    NOT_FOUND_0xb="52"
+    NOT_FOUND_0xc="0x101"/>

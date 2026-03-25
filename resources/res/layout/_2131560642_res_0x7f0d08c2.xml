@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    id="@+id/container"
+    tag="layout/item_inputdaterange_0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.C55008xbo
+        id="@+id/text_input_date_start"
+        layout_width="-1"
+        android:layout_height="wrap_content"/>
+    <o.C55008xbo
+        id="@+id/text_input_date_end"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="?attr/formItemSpacing"/>
+    <o.wYK
+        gravity="0x10"
+        id="@+id/checkbox"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="12dp"
+        paddingStart="@dimen/margin_16dp"/>
+</LinearLayout>

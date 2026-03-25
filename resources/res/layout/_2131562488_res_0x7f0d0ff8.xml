@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginTop="@dimen/margin_6dp">
+    <TextView
+        textAppearance="@style/TextAppearance.Text.14SP.Regular"
+        textColor="@color/grey_g400"
+        id="@+id/coin_config_title"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        paddingEnd="@dimen/padding_16dp"
+        NOT_FOUND_0xb="@+id/show_all"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xe="0"/>
+    <ImageView
+        id="@+id/show_all"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        src="@drawable/_2131232337_res_0x7f080651"
+        layout_marginStart="@dimen/margin_4dp"
+        NOT_FOUND_0x9="@+id/coin_config_title"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xe="@+id/coin_config_title"
+        NOT_FOUND_0x10="@color/grey_g300"/>
+    <o.C49774uur
+        id="@+id/coins_container"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="@+id/coin_config_title"
+        NOT_FOUND_0xf="true"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

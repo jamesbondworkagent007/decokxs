@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatTextView
+        textAppearance="@style/TextAppearance.Text.12SP.Regular"
+        textColor="@color/grey_g500"
+        gravity="0x800003"
+        id="@+id/tv_instruction_order_detail_view"
+        visibility="0"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        lineSpacingExtra="4dp"/>
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bubble_bg_color">#333B56</string>
+    <string name="c2c_order_warning_color">#73ffffff</string>
+    <string name="choice_color">#666666</string>
+    <string name="hint_color">#444444</string>
+    <string name="list_divider_color">#363B4C</string>
+    <string name="primary_blue_color">#3877FF</string>
+    <string name="small_label_bg_color">#333B59</string>
+    <string name="subtitle_color">#CCCCCC</string>
+    <string name="switch_color">#999999</string>
+    <string name="text_disable_color">#333B59</string>
+    <string name="title_color">#FFFFFF</string>
+    <string name="warning_text_color">#FFFFFF</string>
+    <string name="white_background_color">#202538</string>
+    <string name="widget_disable_color">#333B59</string>
+</resources>

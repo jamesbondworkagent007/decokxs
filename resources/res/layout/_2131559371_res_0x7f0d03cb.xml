@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C55173xeu
+        id="@+id/empty_view"
+        visibility="2"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginLeft="32dp"
+        layout_marginTop="@dimen/dp_40"
+        layout_marginRight="32dp"
+        layout_marginBottom="@dimen/dp_40"
+        layout_marginHorizontal="32dp"
+        layout_marginVertical="@dimen/dp_40"
+        NOT_FOUND_0xb="6"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x13="@string/pr_swaptrade_pump_emptystate_title_no_hidden_tokens"
+        NOT_FOUND_0x14="@string/pr_swaptrade_liquidity_textarea_no_data"/>
+    <o.C55113xdn
+        layout_gravity="0x1"
+        id="@+id/loading_view"
+        visibility="2"
+        layout_width="60dp"
+        android:layout_height="60dp"
+        layout_marginTop="60dp"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x10="true"
+        NOT_FOUND_0x11="true"
+        NOT_FOUND_0x12="@raw/_2131886126_res_0x7f12002e"/>
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/rv_blacklist"
+        layout_width="-1"
+        android:layout_height="match_parent"
+        NOT_FOUND_0xc="androidx.recyclerview.widget.LinearLayoutManager"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

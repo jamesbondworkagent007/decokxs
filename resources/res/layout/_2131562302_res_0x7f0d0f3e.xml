@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    paddingTop="12dp"
+    paddingBottom="12dp"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/recycler"
+        paddingLeft="24dp"
+        paddingRight="24dp"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        overScrollMode="2"
+        paddingHorizontal="24dp"/>
+    <View
+        layout_width="-1"
+        android:layout_height="12dp"/>
+    <o.C52794wYp
+        textStyle="0x1"
+        gravity="0x11"
+        id="@+id/btn_confirm"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginLeft="24dp"
+        layout_marginTop="24dp"
+        layout_marginRight="24dp"
+        text="@string/pr_common_btn_confirm"
+        layout_marginHorizontal="24dp"
+        NOT_FOUND_0x11="52"
+        NOT_FOUND_0x12="0x101"/>
+</LinearLayout>

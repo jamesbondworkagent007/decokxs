@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o.C57471yiz xmlns:android="http://schemas.android.com/apk/res/android"
+    id="@+id/est_time_info_view"
+    tag="layout/dex_contract_transaction_swap_est_time_0"
+    layout_width="-1"
+    android:layout_height="wrap_content"/>

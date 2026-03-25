@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    gravity="0x11"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginLeft="@dimen/margin_default"
+    layout_marginRight="@dimen/margin_default"
+    layout_marginHorizontal="@dimen/margin_default">
+    <ImageView
+        layout_width="136dp"
+        android:layout_height="136dp"
+        src="@drawable/_2131233113_res_0x7f080959"
+        contentDescription="@null"/>
+    <TextView
+        textAppearance="@style/Headline_5_Bold"
+        textColor="@color/ContentPrimary"
+        paddingTop="16dp"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        text="@string/pr_social_my_profile_bttmsheet_title_adjust_start_time"/>
+    <TextView
+        textAppearance="@style/Body_2_Regular"
+        textColor="@color/ContentSecondary"
+        paddingTop="8dp"
+        paddingBottom="32dp"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        text="@string/pr_social_my_profile_bttmsheet_desc_adjust_start_time"/>
+</LinearLayout>

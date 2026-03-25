@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <com.okinc.uilab.edit.OKEditText
+        theme="@style/OKUITheme.Alternative.Web3"
+        textAppearance="@style/Title_2_Medium"
+        textColor="@color/grey_g900"
+        textColorHint="@color/grey_g400"
+        layout_gravity="0x800013"
+        id="@+id/editText"
+        background="@null"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_weight="1"
+        textCursorDrawable="@drawable/_2131234349_res_0x7f080e2d"
+        textAlignment="5"/>
+    <o.wYC
+        layout_gravity="0x10"
+        id="@+id/clearIcon"
+        layout_width="24dp"
+        android:layout_height="24dp"
+        src="@drawable/_2131231668_res_0x7f0803b4"
+        layout_marginEnd="@dimen/margin_4dp"
+        NOT_FOUND_0xf="@color/ContentContrast"/>
+    <o.wYC
+        layout_gravity="0x10"
+        id="@+id/scanIcon"
+        padding="@dimen/padding_1dp"
+        layout_width="24dp"
+        android:layout_height="24dp"
+        src="@drawable/_2131233828_res_0x7f080c24"
+        NOT_FOUND_0xf="@color/ContentPrimary"/>
+</LinearLayout>

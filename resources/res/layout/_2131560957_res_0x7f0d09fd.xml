@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        orientation="1"
+        id="@+id/tokens_container"
+        layout_width="-1"
+        android:layout_height="wrap_content"/>
+    <FrameLayout
+        id="@+id/btn_claim_out_fram"
+        paddingTop="@dimen/xsm"
+        paddingBottom="@dimen/xsm"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        paddingVertical="@dimen/xsm">
+        <o.C52794wYp
+            id="@+id/out_claim_btn"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            text="@string/pr_commonall_modal_btn_claim"
+            NOT_FOUND_0x9="36"
+            NOT_FOUND_0xa="0x104"/>
+    </FrameLayout>
+</LinearLayout>

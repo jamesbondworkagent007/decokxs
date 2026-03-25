@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.C27339jtN
+        id="@+id/carousel"
+        visibility="2"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        contentDescription="web3_defi_home_recommended_view"
+        NOT_FOUND_0x7="0"
+        NOT_FOUND_0x8="0"
+        NOT_FOUND_0x9="0"/>
+    <o.C55173xeu
+        id="@+id/banner_empty_view"
+        paddingTop="@dimen/margin_default"
+        visibility="2"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x6="8"
+        NOT_FOUND_0x7="0"
+        NOT_FOUND_0x8="0"
+        NOT_FOUND_0x9="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    paddingLeft="@dimen/margin_default"
+    paddingRight="@dimen/margin_default"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingHorizontal="@dimen/margin_default">
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/rewards_list"
+        clipToPadding="false"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        overScrollMode="2"
+        NOT_FOUND_0x9="androidx.recyclerview.widget.LinearLayoutManager"/>
+    <Space
+        id="@+id/safe_space"
+        layout_width="-1"
+        android:layout_height="@dimen/height_24dp"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

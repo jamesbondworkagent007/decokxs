@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <TextView
+        gravity="0x11"
+        id="@+id/tv_fresh_name"
+        visibility="2"
+        layout_width="-2"
+        android:layout_height="40dp"
+        layout_centerInParent="true"
+        paddingStart="16dp"
+        style="@style/TextAppearance.Subtitle.16SP"/>
+    <com.airbnb.lottie.LottieAnimationView
+        id="@+id/iv_fresh"
+        layout_width="32dp"
+        android:layout_height="32dp"
+        layout_marginTop="@dimen/margin_16dp"
+        layout_centerInParent="true"
+        NOT_FOUND_0xc="true"
+        NOT_FOUND_0xd="?attr/okRefreshResource"/>
+    <TextView
+        textSize="@dimen/text_size_10sp"
+        textColor="@color/grey_g500"
+        id="@+id/label"
+        visibility="2"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_4dp"
+        layout_below="@+id/iv_fresh"
+        layout_centerHorizontal="true"/>
+</RelativeLayout>

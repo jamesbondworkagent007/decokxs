@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_gravity="0x10"
+    clipChildren="false"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    foreground="?attr/selectableItemBackground"
+    elevation="0dp">
+    <include
+        id="@+id/layout_new_quote"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout="@layout/_2131560398_res_0x7f0d07ce"/>
+    <o.C40492qXw
+        textColor="@color/ContentPrimary"
+        layout_gravity="0x800015"
+        id="@+id/count_down_label"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginStart="@dimen/dp_12"
+        layout_marginEnd="@dimen/dp_16"
+        NOT_FOUND_0xa="3dp"
+        NOT_FOUND_0xb="1.5dp"
+        NOT_FOUND_0xc="4dp"
+        NOT_FOUND_0xd="@color/SurfacePrimary"
+        NOT_FOUND_0xe="7dp"
+        NOT_FOUND_0xf="20dp"
+        NOT_FOUND_0x10="4dp"
+        NOT_FOUND_0x11="24dp"
+        style="@style/Label_3_Medium"/>
+</FrameLayout>

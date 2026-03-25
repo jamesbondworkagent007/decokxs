@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    background="@drawable/_2131231125_res_0x7f080195"
+    paddingTop="2dp"
+    paddingBottom="2dp"
+    layout_width="-2"
+    android:layout_height="104dp"
+    paddingVertical="2dp">
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/rv_width"
+        layout_width="-2"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

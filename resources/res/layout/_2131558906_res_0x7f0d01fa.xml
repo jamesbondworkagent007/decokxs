@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/component_okcr_category_section_header_0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.Toolbar
+        id="@+id/container"
+        paddingTop="@dimen/dp_8"
+        paddingBottom="@dimen/dp_8"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        minHeight="0dp"
+        paddingVertical="@dimen/dp_8"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x11="0"
+        NOT_FOUND_0x12="0">
+        <TextView
+            textColor="@color/ContentPrimary"
+            ellipsize="3"
+            id="@+id/tv_title"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            maxLines="1"
+            layout_marginStart="@dimen/dp_16"
+            style="@style/Label_2_Medium"/>
+        <o.C55251xgS
+            id="@+id/tag"
+            visibility="2"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            layout_marginStart="@dimen/dp_4"
+            NOT_FOUND_0x13="-5"
+            NOT_FOUND_0x14="7"/>
+        <o.mIU
+            layout_gravity="0x800005"
+            id="@+id/category_token_image_list"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            layout_marginEnd="@dimen/dp_16"/>
+    </androidx.appcompat.widget.Toolbar>
+</androidx.constraintlayout.widget.ConstraintLayout>

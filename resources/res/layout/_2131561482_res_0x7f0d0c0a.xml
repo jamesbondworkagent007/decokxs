@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/layout_support_empty_view_0"
+    paddingLeft="@dimen/padding_32dp"
+    paddingTop="80dp"
+    paddingRight="@dimen/padding_32dp"
+    paddingBottom="80dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingHorizontal="@dimen/padding_32dp"
+    paddingVertical="80dp">
+    <o.C55173xeu
+        id="@+id/emptyView"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_centerInParent="true"
+        NOT_FOUND_0xb="6"
+        NOT_FOUND_0xc="no_record"/>
+</RelativeLayout>

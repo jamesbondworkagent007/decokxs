@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C55254xgV
+        theme="@style/OKUITheme"
+        id="@+id/tabs"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        isScrollContainer="false"
+        overScrollMode="2"
+        requiresFadingEdge="0x0"
+        NOT_FOUND_0xa="true"
+        NOT_FOUND_0xb="2"
+        NOT_FOUND_0xc="44"
+        NOT_FOUND_0xd="5"/>
+    <androidx.viewpager2.widget.ViewPager2
+        layout_gravity="0xb0"
+        id="@+id/pager"
+        layout_width="-1"
+        android:layout_height="match_parent"
+        layout_marginTop="12dp"
+        overScrollMode="2"/>
+</LinearLayout>

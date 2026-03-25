@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke
+        width="0x7f0703c9"
+        color="@color/okTradeG200"/>
+    <corners radius="30dp"/>
+</shape>

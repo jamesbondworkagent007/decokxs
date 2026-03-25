@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-2"
+    android:layout_height="wrap_content">
+    <FrameLayout
+        id="@+id/token_border_container"
+        background="@drawable/_2131231999_res_0x7f0804ff"
+        padding="2dp"
+        layout_width="40dp"
+        android:layout_height="40dp"
+        backgroundTint="@color/grey_60">
+        <ImageView
+            id="@+id/iv_token_icon"
+            layout_width="-1"
+            android:layout_height="match_parent"
+            scaleType="6"/>
+    </FrameLayout>
+    <FrameLayout
+        id="@+id/chain_border_container"
+        background="@drawable/_2131231999_res_0x7f0804ff"
+        padding="1dp"
+        layout_width="14dp"
+        android:layout_height="14dp"
+        backgroundTint="@color/grey_60"
+        NOT_FOUND_0x7="@+id/token_border_container"
+        NOT_FOUND_0x8="@+id/token_border_container">
+        <ImageView
+            id="@+id/iv_chain_icon"
+            layout_width="-1"
+            android:layout_height="match_parent"
+            scaleType="6"/>
+    </FrameLayout>
+</merge>

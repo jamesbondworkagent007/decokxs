@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/content_constraint_layout"
+    paddingLeft="@dimen/margin_16dp"
+    paddingRight="@dimen/margin_16dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingHorizontal="@dimen/margin_16dp">
+    <TextView
+        id="@+id/content_title"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x8="true"
+        NOT_FOUND_0xa="@+id/content_label"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xf="0"
+        style="@style/Headline_4_Bold"/>
+    <TextView
+        id="@+id/content_label"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_4dp"
+        NOT_FOUND_0x8="true"
+        NOT_FOUND_0xa="@+id/content_content"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="@+id/content_title"
+        NOT_FOUND_0x10="0dp"/>
+    <TextView
+        id="@+id/content_content"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_16dp"
+        lineSpacingExtra="?attr/contentLineSpacingExtra"
+        NOT_FOUND_0x8="true"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="@+id/content_label"
+        NOT_FOUND_0x10="?attr/title_contentMargin"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

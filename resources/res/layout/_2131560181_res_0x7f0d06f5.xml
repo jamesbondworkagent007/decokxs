@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    paddingLeft="24dp"
+    paddingRight="24dp"
+    paddingBottom="24dp"
+    layout_width="-1"
+    android:layout_height="match_parent"
+    paddingHorizontal="24dp">
+    <include
+        id="@+id/normalFee"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout="@layout/_2131560888_res_0x7f0d09b8"/>
+    <include
+        id="@+id/expressFee"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="16dp"
+        layout="@layout/_2131560888_res_0x7f0d09b8"/>
+    <TextView
+        textAppearance="@style/Label_2_Regular"
+        textColor="@color/ContentContrast"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="8dp"
+        text="@string/pr_wallet_transfer_tooltips_desc_express_mode"/>
+</LinearLayout>

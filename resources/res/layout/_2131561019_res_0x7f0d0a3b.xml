@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    background="@color/BasePrimary_Dark"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C33537myN
+        id="@+id/app_bar"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        contentDescription="web3_dex_market_appbar_title_view"
+        NOT_FOUND_0xe="@color/BasePrimary_Dark"
+        NOT_FOUND_0x11="0"
+        NOT_FOUND_0x12="0"
+        NOT_FOUND_0x14="0"
+        NOT_FOUND_0x19="@color/BasePrimary_Dark"/>
+    <o.ScaleGestureDetectorOnScaleGestureListenerC7495aks
+        layout_gravity="0x1"
+        id="@+id/token_image_view"
+        layout_width="0dp"
+        android:layout_height="0dp"
+        scaleType="fitStart"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x10="1:1"
+        NOT_FOUND_0x11="0"
+        NOT_FOUND_0x12="0"
+        NOT_FOUND_0x14="0"/>
+    <o.C52794wYp
+        textColor="@color/ContentPrimary_Dark"
+        id="@+id/btn_search"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/padding_24dp"
+        layout_marginBottom="140dp"
+        text="@string/pr_swaptrade_market_tooltips_search_google_lens"
+        drawablePadding="@dimen/padding_8dp"
+        drawableStart="@drawable/_2131231965_res_0x7f0804dd"
+        drawableTint="@color/ContentPrimary_Dark"
+        NOT_FOUND_0x11="0"
+        NOT_FOUND_0x12="0"
+        NOT_FOUND_0x13="@+id/token_image_view"
+        NOT_FOUND_0x15="32"
+        NOT_FOUND_0x16="0x104"
+        NOT_FOUND_0x17="-2"
+        NOT_FOUND_0x18="@color/ContentPrimary_Dark"
+        style="@style/Label_3_Medium"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

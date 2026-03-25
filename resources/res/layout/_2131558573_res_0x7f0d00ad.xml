@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    background="@color/background_lv1"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C33537myN
+        id="@+id/app_bar"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0xc="@string/pr_wallet_hardwallet_miantitle_connect_wallet"
+        NOT_FOUND_0xd="@color/transparent"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x13="@color/transparent"/>
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/rv"
+        layout_width="-1"
+        android:layout_height="0dp"
+        layout_marginLeft="16dp"
+        layout_marginTop="8dp"
+        layout_marginRight="16dp"
+        layout_weight="1"
+        overScrollMode="2"
+        layout_marginHorizontal="16dp"/>
+    <o.C52794wYp
+        id="@+id/btn_add_new"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginLeft="16dp"
+        layout_marginTop="12dp"
+        layout_marginRight="16dp"
+        layout_marginBottom="20dp"
+        layout_marginHorizontal="16dp"
+        NOT_FOUND_0x11="52"
+        NOT_FOUND_0x12="0x101"/>
+</LinearLayout>

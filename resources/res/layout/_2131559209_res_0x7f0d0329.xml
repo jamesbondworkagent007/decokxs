@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="50dp"
+    paddingStart="@dimen/padding_16dp">
+    <TextView
+        textSize="@dimen/text_size_16sp"
+        textColor="@color/okTradeG900"
+        ellipsize="3"
+        id="@+id/tv_title"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        text="@string/pr_metax_trade_title_from"
+        maxLines="1"
+        layout_centerVertical="true"
+        fontFamily="@font/font_alpha_medium"/>
+    <TextView
+        textSize="@dimen/text_size_14sp"
+        textColor="@color/okTradeG400"
+        ellipsize="3"
+        id="@+id/tv_percentage"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        text="@string/pr_metax_trade_title_from"
+        maxLines="1"
+        layout_centerVertical="true"
+        fontFamily="@font/font_alpha_regular"
+        layout_toStartOf="@+id/route_panel"/>
+    <LinearLayout
+        orientation="0"
+        id="@+id/route_panel"
+        layout_width="-2"
+        android:layout_height="match_parent"
+        layout_centerVertical="true"
+        paddingEnd="@dimen/padding_16dp"
+        layout_alignParentEnd="true">
+        <ImageView
+            layout_gravity="0x10"
+            id="@+id/link_img"
+            layout_width="20dp"
+            android:layout_height="20dp"
+            src="@drawable/_2131233620_res_0x7f080b54"
+            scaleType="7"
+            layout_marginStart="@dimen/margin_8dp"
+            NOT_FOUND_0x13="@color/ContentContrast"/>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/root_layout"
+    clipChildren="false"
+    clipToPadding="false"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <androidx.fragment.app.FragmentContainerView
+        id="@+id/main_container"
+        paddingBottom="53dp"
+        layout_width="-1"
+        android:layout_height="match_parent"/>
+    <LinearLayout
+        layout_gravity="0x50"
+        orientation="1"
+        id="@+id/layout_btm_navigation"
+        clipChildren="false"
+        clipToPadding="false"
+        layout_width="-1"
+        android:layout_height="wrap_content">
+        <ImageView
+            background="@drawable/_2131231292_res_0x7f08023c"
+            layout_width="-1"
+            android:layout_height="@dimen/margin_1dp"/>
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            theme="@style/OKWalletThemeOverlay.BottomNavView"
+            id="@+id/btm_navigation"
+            background="@color/BasePrimary"
+            saveEnabled="false"
+            clipChildren="false"
+            clipToPadding="false"
+            layout_width="-1"
+            android:layout_height="@dimen/btm_navi_height"
+            stateListAnimator="@null"
+            NOT_FOUND_0xd="16dp"
+            NOT_FOUND_0xe="@null"
+            NOT_FOUND_0xf="@null"
+            NOT_FOUND_0x10="@style/Label_4_Regular"
+            NOT_FOUND_0x11="@style/Label_4_Regular"
+            NOT_FOUND_0x12="@color/ContentTertiary"/>
+    </LinearLayout>
+    <include
+        id="@+id/loading_view"
+        visibility="2"
+        layout="@layout/_2131561536_res_0x7f0d0c40"/>
+</FrameLayout>

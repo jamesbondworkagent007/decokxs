@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <o.C54984xbQ
+        ellipsize="3"
+        id="@+id/firstBtn"
+        tag="layout/view_signal_bot_button_tab_0"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        maxLines="1"
+        layout_weight="1"
+        NOT_FOUND_0x8="false"
+        NOT_FOUND_0x9="3"
+        NOT_FOUND_0xa="-4"/>
+    <o.C54984xbQ
+        ellipsize="3"
+        id="@+id/secondBtn"
+        tag="layout/view_signal_bot_button_tab_1"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        maxLines="1"
+        layout_weight="1"
+        layout_marginStart="@dimen/margin_12dp"
+        NOT_FOUND_0x8="false"
+        NOT_FOUND_0x9="3"
+        NOT_FOUND_0xa="-4"/>
+</merge>

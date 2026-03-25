@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.okinc.uilab.item.OKRegularCell xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/cell"
+    tag="layout/wallet_security_item_switch_view_0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.C33609mzg
+        id="@+id/status_switch"
+        background="@drawable/_2131233716_res_0x7f080bb4"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        checked="false"
+        NOT_FOUND_0x6="@color/transparent"
+        NOT_FOUND_0x7="@color/transparent"/>
+</com.okinc.uilab.item.OKRegularCell>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    id="@+id/im_audio_call_floating_view_rl"
+    tag="layout/im_audio_call_floating_view_0"
+    layout_width="48dp"
+    android:layout_height="56dp"
+    elevation="@dimen/dp_4">
+    <FrameLayout
+        id="@+id/im_audio_call_floating_view_bg_right_fl"
+        layout_width="-1"
+        android:layout_height="match_parent"/>
+    <LinearLayout
+        gravity="0x11"
+        orientation="1"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_centerInParent="true">
+        <ImageView
+            id="@+id/im_audio_call_floating_view_icon_connecting_iv"
+            layout_width="20dp"
+            android:layout_height="20dp"/>
+        <TextView
+            textSize="12sp"
+            gravity="0x11"
+            id="@+id/im_audio_call_floating_view_content_tv"
+            tag="binding_1"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            layout_marginTop="3dp"/>
+    </LinearLayout>
+</RelativeLayout>

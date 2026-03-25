@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    background="@drawable/_2131231471_res_0x7f0802ef"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginLeft="16dp"
+    layout_marginRight="16dp"
+    backgroundTint="?attr/wallet_switch_color_r50"
+    layout_marginHorizontal="16dp">
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/backUpWarningIcon"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        src="@drawable/_2131232936_res_0x7f0808a8"
+        layout_marginStart="8dp"
+        NOT_FOUND_0x12="0"
+        NOT_FOUND_0x16="0"
+        NOT_FOUND_0x17="@+id/backUpText"
+        NOT_FOUND_0x18="0"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/backUpArrow"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        src="@drawable/_2131232923_res_0x7f08089b"
+        layout_marginEnd="8dp"
+        NOT_FOUND_0x12="0"
+        NOT_FOUND_0x13="0"
+        NOT_FOUND_0x17="0"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        textAppearance="@style/TextAppearance.Red.16SP"
+        textColor="?attr/wallet_switch_color_r500"
+        ellipsize="3"
+        id="@+id/backUpText"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_marginLeft="12dp"
+        layout_marginTop="8dp"
+        layout_marginRight="12dp"
+        layout_marginBottom="8dp"
+        layout_marginHorizontal="12dp"
+        layout_marginVertical="8dp"
+        NOT_FOUND_0x11="true"
+        NOT_FOUND_0x12="0"
+        NOT_FOUND_0x14="@+id/backUpArrow"
+        NOT_FOUND_0x15="@+id/backUpWarningIcon"
+        NOT_FOUND_0x17="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

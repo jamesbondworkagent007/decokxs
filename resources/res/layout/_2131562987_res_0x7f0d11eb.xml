@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="0"
+    tag="layout/widget_invest_detail_info_more_token_0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <ImageView
+        id="@+id/iv_logo"
+        layout_width="@dimen/width_20dp"
+        android:layout_height="@dimen/width_20dp"
+        layout_marginTop="@dimen/padding_1dp"
+        layout_marginEnd="@dimen/margin_4dp"/>
+    <TextView
+        textAppearance="@style/TextAppearance.Title.16SP"
+        textColor="@color/ContentPrimary"
+        id="@+id/tv_symbol"
+        layout_width="-2"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

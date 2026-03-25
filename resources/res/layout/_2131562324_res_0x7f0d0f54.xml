@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    id="@+id/rl_container"
+    tag="layout/trade_impl_dcd_advanced_product_match_0"
+    background="@drawable/_2131231321_res_0x7f080259"
+    paddingLeft="@dimen/margin_16dp"
+    paddingTop="@dimen/margin_16dp"
+    paddingRight="@dimen/margin_16dp"
+    paddingBottom="@dimen/margin_16dp"
+    layout_width="-1"
+    android:layout_height="match_parent"
+    paddingHorizontal="@dimen/margin_16dp"
+    paddingVertical="@dimen/margin_16dp">
+    <o.C55258xgZ
+        id="@+id/tv_title"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginBottom="@dimen/margin_16dp"
+        NOT_FOUND_0x11="2"
+        NOT_FOUND_0x12="@color/ContentPrimary"
+        NOT_FOUND_0x13="14sp"
+        NOT_FOUND_0x14="@string/pr_dcdbot_placeorder_header_product_matching"
+        NOT_FOUND_0x15="700"/>
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/productRcv"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="wrap_content"/>
+    <o.C55113xdn
+        id="@+id/loadingView"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="wrap_content"/>
+    <o.C55173xeu
+        gravity="0x11"
+        layout_gravity="0x11"
+        id="@+id/emptyLayout"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x10="7"
+        NOT_FOUND_0x16="@string/pr_dcdbot_placeorder_header_desc_no_matching_results_found"/>
+</LinearLayout>

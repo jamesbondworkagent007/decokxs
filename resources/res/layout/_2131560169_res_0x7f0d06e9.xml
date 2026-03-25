@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/fragment_simple_btc_address_0"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginLeft="16dp"
+    layout_marginRight="16dp"
+    layout_marginHorizontal="16dp">
+    <androidx.appcompat.widget.AppCompatTextView
+        textAppearance="@style/TextAppearance.Regular"
+        textSize="14sp"
+        textColor="@color/ContentTertiary"
+        id="@+id/tv_address"
+        background="@drawable/_2131231359_res_0x7f08027f"
+        padding="16dp"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0xd="0"/>
+    <View
+        layout_width="-1"
+        android:layout_height="16dp"
+        NOT_FOUND_0xc="@+id/tv_address"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/layout_item_defi_wallet_tx_detail_content_detail_0"
+    paddingBottom="@dimen/padding_32dp"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <TextView
+        textSize="@dimen/text_size_14sp"
+        textColor="@color/ContentContrast"
+        id="@+id/tv_name"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        text="@string/pr_wallet_mid_text_time"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xb="0"
+        style="@style/Label_2_Regular"/>
+    <TextView
+        textSize="@dimen/text_size_16sp"
+        textColor="@color/ContentPrimary"
+        id="@+id/tv_content"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_4dp"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xa="@+id/tv_name"
+        style="@style/Label_1_Regular"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

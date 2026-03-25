@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    tag="layout/layout_web3_transaction_detail_data_0"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginTop="16dp">
+    <LinearLayout
+        orientation="0"
+        id="@+id/ll_detail"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginLeft="24dp"
+        layout_marginRight="24dp"
+        layout_marginHorizontal="24dp">
+        <TextView
+            textAppearance="@style/TextAppearance.Text.14SP.Regular"
+            textColor="@color/grey_g400"
+            id="@+id/tv_fold_title"
+            visibility="2"
+            layout_width="-2"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            layout_gravity="0x11"
+            id="@+id/iv_fold_arrow"
+            layout_width="16dp"
+            android:layout_height="16dp"
+            src="@drawable/_2131231637_res_0x7f080395"
+            layout_marginStart="5dp"
+            NOT_FOUND_0xf="@color/grey_g400"/>
+    </LinearLayout>
+</LinearLayout>

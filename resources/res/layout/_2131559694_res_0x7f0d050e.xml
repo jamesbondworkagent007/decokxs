@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    tag="layout/fg_compliance_address_search_0"
+    background="@drawable/_2131231490_res_0x7f080302"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C55230xfy
+        id="@+id/searchBar"
+        layout_width="-1"
+        android:layout_height="40dp"
+        layout_marginLeft="16dp"
+        layout_marginRight="16dp"
+        layout_marginBottom="12dp"
+        hint="@string/pr_commonall_search_fieldtext_search"
+        layout_marginHorizontal="16dp"/>
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/rv_address_list"
+        background="@color/background_BasePrimary_BaseSecondary"
+        paddingTop="@dimen/dp_8"
+        paddingBottom="@dimen/dp_8"
+        visibility="2"
+        clipToPadding="false"
+        layout_width="-1"
+        android:layout_height="wrap_content"/>
+    <o.C55173xeu
+        id="@+id/emptyView"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="56dp"
+        NOT_FOUND_0x10="7"
+        NOT_FOUND_0x11="@string/pr_compliance_global_kyc_emptystate_label_start_address_search"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

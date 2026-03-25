@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    gravity="0x1"
+    orientation="1"
+    layout_width="-2"
+    android:layout_height="match_parent">
+    <ImageView
+        id="@+id/iv_icon"
+        padding="10dp"
+        layout_width="42dp"
+        android:layout_height="42dp"
+        layout_marginTop="20dp"
+        scaleType="fillCenter"
+        cropToPadding="true"
+        alpha="0.5"/>
+    <TextView
+        textAppearance="@style/TextAppearance.Title.12SP.Semibold"
+        id="@+id/tv_title"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="8dp"
+        alpha="0.5"/>
+    <Space
+        layout_width="0dp"
+        android:layout_height="0dp"
+        layout_weight="1"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

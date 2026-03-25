@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" shape="0">
+    <size
+        height="@dimen/account_code_input_view_size"
+        width="@dimen/account_code_input_view_size"/>
+    <corners radius="8dp"/>
+    <stroke
+        width="1dp"
+        color="@color/BorderSelected"/>
+    <solid color="@color/SurfacePrimary"/>
+</shape>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/tips_layout"
+    padding="@dimen/padding_4dp"
+    clipChildren="false"
+    clipToPadding="false"
+    layout_width="-2"
+    android:layout_height="wrap_content">
+    <FrameLayout
+        layout_gravity="0x11"
+        id="@+id/content_layout"
+        background="@drawable/_2131234138_res_0x7f080d5a"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_margin="@dimen/margin_5dp"
+        elevation="3dp"/>
+    <View
+        layout_gravity="0x50"
+        id="@+id/arrow"
+        layout_width="@dimen/height_14dp"
+        android:layout_height="5dp"
+        elevation="3dp"/>
+</FrameLayout>

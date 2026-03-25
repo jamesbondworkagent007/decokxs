@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C33537myN
+        id="@+id/faq_app_bar"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x9="@string/pr_investfaq_div_maintitle_faq"
+        NOT_FOUND_0xa="true"
+        NOT_FOUND_0xb="@drawable/_2131231642_res_0x7f08039a"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x11="0"/>
+    <FrameLayout
+        layout_width="-1"
+        android:layout_height="0dp"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x10="@+id/faq_app_bar">
+        <androidx.recyclerview.widget.RecyclerView
+            id="@+id/list"
+            layout_width="-1"
+            android:layout_height="match_parent"
+            layout_marginLeft="@dimen/margin_24dp"
+            layout_marginRight="@dimen/margin_24dp"
+            layout_marginHorizontal="@dimen/margin_24dp"
+            NOT_FOUND_0xc="androidx.recyclerview.widget.LinearLayoutManager"/>
+        <o.C55173xeu
+            layout_gravity="0x1"
+            id="@+id/reload_view"
+            visibility="2"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            layout_marginTop="96dp"/>
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

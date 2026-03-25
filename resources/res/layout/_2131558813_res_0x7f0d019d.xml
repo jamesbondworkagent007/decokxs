@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.C47988uAv
+        id="@+id/inputWithdrawalAmount"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="8dp"
+        NOT_FOUND_0xb="0"/>
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/rvDetails"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="16dp"
+        overScrollMode="2"
+        NOT_FOUND_0xa="@+id/inputWithdrawalAmount"/>
+    <TextView
+        textAppearance="@style/TextAppearance.Text.12SP.Regular"
+        textColor="@color/ContentContrast"
+        id="@+id/tvDescription"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="24dp"
+        NOT_FOUND_0xa="@+id/rvDetails"/>
+    <TextView
+        textAppearance="@style/Body_4"
+        textColor="@color/SemanticNotice"
+        id="@+id/tvNoProfitError"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="8dp"
+        text="@string/pr_trade_bot_toast_no_withdrawable_profits"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xa="@+id/tvDescription"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x11"
+    orientation="1"
+    paddingBottom="80dp"
+    layout_width="-1"
+    android:layout_height="match_parent"
+    baselineAligned="false">
+    <TextView
+        textAppearance="@style/TextAppearance.Text.14SP"
+        layout_gravity="0x11"
+        id="@+id/tv_error"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="8dp"
+        text="@string/pr_selfprofile_toast_language_request_failed"
+        includeFontPadding="false"
+        layout_marginStart="@dimen/common_page_edge_space"
+        layout_marginEnd="@dimen/common_page_edge_space"/>
+    <Button
+        id="@+id/btn_retry"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="16dp"
+        text="@string/pr_kyc_guide_btn_complete_next"
+        style="@style/Button.Primary.Outline.Medium"/>
+</LinearLayout>

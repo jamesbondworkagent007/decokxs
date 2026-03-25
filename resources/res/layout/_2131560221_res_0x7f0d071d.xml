@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.recyclerview.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/rv_form_content"
+    tag="layout/fragment_upload_log_form_0"
+    paddingTop="@dimen/xsm"
+    clipToPadding="false"
+    layout_width="-1"
+    android:layout_height="match_parent"
+    overScrollMode="2"
+    NOT_FOUND_0x7="androidx.recyclerview.widget.LinearLayoutManager"/>

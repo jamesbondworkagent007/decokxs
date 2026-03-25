@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    background="@drawable/_2131231798_res_0x7f080436"
+    padding="@dimen/padding_16dp"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        gravity="0x10"
+        layout_width="-1"
+        android:layout_height="wrap_content">
+        <o.C55320xhi
+            textAppearance="@style/Label_1_Regular"
+            textColor="@color/ContentContrast"
+            ellipsize="3"
+            gravity="0x800003"
+            id="@+id/tv_title"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            text="@string/pr_swaptrade_history_label_mev_protect"
+            maxLines="1"
+            layout_toStartOf="@+id/switch_view"
+            NOT_FOUND_0x11="false"
+            NOT_FOUND_0x12="0"/>
+        <o.C55239xgG
+            id="@+id/switch_view"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            layout_alignParentEnd="true"
+            NOT_FOUND_0x10="-3"/>
+    </RelativeLayout>
+    <androidx.appcompat.widget.AppCompatTextView
+        textAppearance="@style/TextAppearance.Text.12SP.Regular"
+        textColor="@color/SemanticNotice"
+        id="@+id/tv_mev_message"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="8dp"
+        text="@string/pr_swaptrade_copytrade_reminder_mev_off"/>
+    <o.C25347iux
+        id="@+id/mev_info_view"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="wrap_content"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

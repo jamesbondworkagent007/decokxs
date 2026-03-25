@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/layout_invest_validator_dialog_0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <TextView
+        textSize="15sp"
+        textColor="@color/ContentPrimary"
+        id="@+id/validator_dialog_title"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="4dp"
+        scaleType="fitStart"
+        text="@string/pr_invest_bot_title_process_choose"
+        fontFamily="@font/harmony_sans_bold"
+        layout_marginStart="16dp"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x12="0"/>
+    <ImageView
+        id="@+id/iv_close"
+        layout_width="24dp"
+        android:layout_height="24dp"
+        src="@drawable/_2131231675_res_0x7f0803bb"
+        layout_marginEnd="16dp"
+        NOT_FOUND_0xe="@+id/validator_dialog_title"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x12="@+id/validator_dialog_title"
+        NOT_FOUND_0x13="@color/ContentContrast"/>
+    <View
+        id="@+id/divider"
+        background="@color/grey_g100"
+        layout_width="-1"
+        android:layout_height="0.5dp"
+        layout_marginTop="12dp"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x11="@+id/validator_dialog_title"/>
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/rv_invest_validator"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_16dp"
+        layout_marginStart="16dp"
+        layout_marginEnd="16dp"
+        NOT_FOUND_0x11="@+id/divider"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/appbar_select_coin_0"
+    background="@color/BasePrimaryAlternative"
+    layout_width="-1"
+    android:layout_height="@dimen/appbar_height">
+    <ImageView
+        id="@+id/navBack"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        src="@drawable/_2131231642_res_0x7f08039a"
+        layout_marginStart="@dimen/margin_16dp"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x12="0"
+        NOT_FOUND_0x13="0"
+        NOT_FOUND_0x14="@color/ContentPrimary"/>
+    <TextView
+        textAppearance="@style/Title_2_Bold"
+        textColor="@color/ContentPrimary"
+        ellipsize="3"
+        gravity="0x11"
+        id="@+id/title"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        minHeight="24dp"
+        text="@string/pr_metax_wallet_maintitle_coin_management"
+        maxLines="1"
+        layout_marginStart="48dp"
+        layout_marginEnd="48dp"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x11="0"
+        NOT_FOUND_0x12="0"
+        NOT_FOUND_0x13="0"/>
+    <ImageView
+        layout_gravity="0x10"
+        id="@+id/network_icon"
+        layout_width="24dp"
+        android:layout_height="24dp"
+        src="@drawable/_2131234381_res_0x7f080e4d"
+        layout_marginEnd="24dp"
+        NOT_FOUND_0x10="@+id/title"
+        NOT_FOUND_0x11="0"
+        NOT_FOUND_0x13="@+id/title"
+        NOT_FOUND_0x14="@color/ContentPrimary"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

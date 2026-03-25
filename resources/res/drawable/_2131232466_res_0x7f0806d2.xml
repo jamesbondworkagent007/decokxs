@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item id="@+id/layer_bg">
+        <shape shape="1">
+            <solid color="@color/AvatarBackgroundColor"/>
+        </shape>
+    </item>
+    <item
+        gravity="0x11"
+        id="@+id/layer_group"
+        drawable="@drawable/_2131231718_res_0x7f0803e6"
+        left="12dp"
+        top="12dp"
+        right="12dp"
+        bottom="12dp"
+        NOT_FOUND_0x9="@color/ContentContrast"/>
+</layer-list>

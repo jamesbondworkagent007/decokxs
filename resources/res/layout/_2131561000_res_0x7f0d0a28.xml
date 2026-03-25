@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <ImageView
+        id="@+id/ivNetworkIcon"
+        layout_width="24dp"
+        android:layout_height="24dp"/>
+    <TextView
+        textAppearance="@style/Label_2_Regular"
+        textColor="@color/grey_g900"
+        ellipsize="3"
+        layout_gravity="0x10"
+        id="@+id/tvNetworkName"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        maxLines="1"
+        layout_marginStart="8dp"/>
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="0"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginTop="@dimen/margin_12dp">
+    <TextView
+        textColor="@color/ContentContrast"
+        id="@+id/key"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        style="@style/Label_3_Regular"/>
+    <TextView
+        textColor="@color/ContentContrast"
+        gravity="0x800005"
+        id="@+id/value"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_weight="1"
+        layout_marginStart="@dimen/margin_20dp"
+        style="@style/Label_3_Regular"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

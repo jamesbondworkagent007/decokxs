@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    minHeight="10dp">
+    <ImageView
+        layout_gravity="0x51"
+        id="@+id/dragBar"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginBottom="1.5dp"
+        src="@drawable/_2131232048_res_0x7f080530"/>
+</FrameLayout>

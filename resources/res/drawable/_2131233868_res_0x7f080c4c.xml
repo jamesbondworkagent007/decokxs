@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item state_selected="true">
+        <shape>
+            <corners radius="@dimen/dp_4"/>
+            <solid color="@color/grey_g100"/>
+            <padding
+                left="@dimen/padding_8dp"
+                top="@dimen/padding_2dp"
+                right="@dimen/padding_8dp"
+                bottom="@dimen/padding_2dp"/>
+        </shape>
+    </item>
+    <item state_selected="false">
+        <shape>
+            <corners radius="@dimen/dp_4"/>
+            <solid color="@color/transparent"/>
+            <padding
+                left="@dimen/padding_8dp"
+                top="@dimen/padding_2dp"
+                right="@dimen/padding_8dp"
+                bottom="@dimen/padding_2dp"/>
+        </shape>
+    </item>
+</selector>

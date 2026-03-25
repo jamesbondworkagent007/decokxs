@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    id="@+id/root_layout"
+    layout_width="-1"
+    android:layout_height="match_parent"
+    baselineAligned="false">
+    <FrameLayout
+        layout_gravity="0x1"
+        layout_width="@dimen/text_avatar_bg_size"
+        android:layout_height="@dimen/text_avatar_bg_size"
+        layout_marginTop="26dp">
+        <o.C35893oHp
+            id="@+id/iv_avatar"
+            layout_width="-1"
+            android:layout_height="match_parent"
+            scaleType="fitStart"/>
+    </FrameLayout>
+    <com.okinc.uilab.edit.OKEditText
+        textSize="15sp"
+        id="@+id/et_group_name"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="32dp"
+        minHeight="44dp"
+        hint="@string/pr_message_textview_create_group_set_groupname"
+        lines="1"
+        paddingStart="12dp"
+        paddingEnd="12dp"
+        layout_marginStart="24dp"
+        layout_marginEnd="24dp"
+        style="@style/EditText.Border"/>
+</LinearLayout>

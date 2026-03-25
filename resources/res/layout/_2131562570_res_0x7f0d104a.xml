@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    tag="layout/trade_ui_signal_bot_explain_content_item_0"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginBottom="16dp">
+    <androidx.appcompat.widget.AppCompatTextView
+        textAppearance="@style/TextAppearance.Text.14SP.Regular"
+        textColor="@color/grey_g500"
+        id="@+id/content"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        text="@string/pr_spotbot_placeorder_iconmodal_start_cond"
+        lineSpacingExtra="@dimen/dp_4"
+        lineHeight="20dp"/>
+</LinearLayout>

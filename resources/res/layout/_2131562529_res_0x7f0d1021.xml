@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    id="@+id/singParamsLay"
+    tag="layout/trade_ui_fragment_signal_bot_trades_0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.C55241xgI
+        id="@+id/signType"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginStart="-15dp"
+        NOT_FOUND_0x7="-5"
+        NOT_FOUND_0x8="4"
+        NOT_FOUND_0x9="false"
+        NOT_FOUND_0xa="@color/okTradeG900"
+        NOT_FOUND_0xb="@style/TextAppearance.Text.14SP.Medium"
+        NOT_FOUND_0xc="@color/okTradeG400"/>
+    <androidx.viewpager2.widget.ViewPager2
+        id="@+id/vp"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="3dp"/>
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    textAppearance="@style/Label_2_Regular"
+    textColor="@color/ContentContrast"
+    id="@+id/asset_item_title"
+    tag="layout/view_exchange_assets_title_item_0"
+    background="@color/background_lv1"
+    paddingLeft="@dimen/padding_16dp"
+    paddingTop="16dp"
+    paddingRight="@dimen/padding_16dp"
+    paddingBottom="8dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingHorizontal="@dimen/padding_16dp"/>

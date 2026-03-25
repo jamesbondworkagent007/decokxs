@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    paddingLeft="@dimen/dp_24"
+    paddingRight="@dimen/dp_24"
+    paddingBottom="@dimen/padding_24dp"
+    layout_width="-1"
+    android:layout_height="match_parent"
+    paddingHorizontal="@dimen/dp_24">
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/rv"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x8="com.okinc.okmarket.ui.market.quote.WrapContentLinearLayoutManager"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

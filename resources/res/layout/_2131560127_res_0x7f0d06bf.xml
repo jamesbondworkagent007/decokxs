@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/fragment_recurring_select_coin_0"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C55230xfy
+        textAppearance="@style/TextAppearance.Text.14SP"
+        textSize="@dimen/text_size_14sp"
+        textColor="@color/title_color"
+        textColorHint="@color/okTradeG300"
+        id="@+id/et_search"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginLeft="@dimen/common_page_edge_space"
+        layout_marginTop="@dimen/margin_8dp"
+        layout_marginRight="@dimen/common_page_edge_space"
+        hint="@string/pr_trade_bots_recurring_modal_search"
+        layout_marginHorizontal="@dimen/common_page_edge_space"
+        NOT_FOUND_0x12="0"
+        NOT_FOUND_0x13="true"
+        NOT_FOUND_0x14="-3"/>
+    <TextView
+        textAppearance="@style/TextAppearance.Text.14SP.Regular"
+        textColor="@color/grey_g400"
+        id="@+id/tv_select_tip"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginLeft="16dp"
+        layout_marginTop="16dp"
+        layout_marginRight="16dp"
+        layout_marginHorizontal="16dp"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x11="@+id/et_search"/>
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/rcv_content"
+        layout_width="-1"
+        android:layout_height="0dp"
+        layout_marginLeft="16dp"
+        layout_marginTop="8dp"
+        layout_marginRight="16dp"
+        layout_marginBottom="12dp"
+        overScrollMode="2"
+        layout_marginHorizontal="16dp"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x11="@+id/tv_select_tip"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

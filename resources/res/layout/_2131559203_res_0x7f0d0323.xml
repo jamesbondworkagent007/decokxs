@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o.C22281hcR xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="match_parent"
+    NOT_FOUND_0x8="true">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        orientation="1"
+        layout_width="-1"
+        android:layout_height="wrap_content">
+        <o.C55249xgQ
+            id="@+id/okSegment_swap_side"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            layout_marginTop="@dimen/xxxxsm"
+            contentDescription="web3_dex_advance_mode_segment"
+            layout_marginStart="24dp"
+            layout_marginEnd="16dp"
+            NOT_FOUND_0x9="1"
+            NOT_FOUND_0xa="-4"/>
+        <androidx.fragment.app.FragmentContainerView
+            id="@+id/container_trading_panel"
+            layout_width="-1"
+            android:layout_height="wrap_content"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.fragment.app.FragmentContainerView
+        id="@+id/container_sticky"
+        layout_width="-1"
+        android:layout_height="wrap_content"/>
+    <androidx.viewpager2.widget.ViewPager2
+        id="@+id/view_pager"
+        layout_width="-1"
+        android:layout_height="match_parent"/>
+</o.C22281hcR>

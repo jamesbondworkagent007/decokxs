@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o.C37826pCc xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="@dimen/dp_40"
+    android:layout_height="@dimen/dp_40">
+    <ImageView
+        id="@+id/iv_logo"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        src="@drawable/_2131232804_res_0x7f080824"
+        layout_centerInParent="true"
+        NOT_FOUND_0x5="0"
+        NOT_FOUND_0x6="0"
+        NOT_FOUND_0x7="0"/>
+</o.C37826pCc>

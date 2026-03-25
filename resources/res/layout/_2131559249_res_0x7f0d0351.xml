@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.C55258xgZ
+        textAppearance="@style/Label_2_Regular"
+        textColor="@color/ContentContrast"
+        ellipsize="3"
+        id="@+id/tv_title_rate"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        text="@string/pr_swaptrade_dialog_text_price"
+        maxLines="1"
+        drawablePadding="@dimen/dp_4"
+        layout_marginEnd="@dimen/padding_12dp"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x11="@+id/tv_content_rate"
+        NOT_FOUND_0x12="2"
+        NOT_FOUND_0x13="1"
+        NOT_FOUND_0x15="0"
+        NOT_FOUND_0x16="0"
+        NOT_FOUND_0x17="@dimen/text_size_14sp"
+        NOT_FOUND_0x18="0"/>
+    <TextView
+        textColor="@color/ContentPrimary"
+        gravity="0x800005"
+        id="@+id/tv_content_rate"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_2dp"
+        maxLines="4"
+        includeFontPadding="false"
+        drawablePadding="@dimen/dp_4"
+        contentDescription="web3_dex_swap_transaction_detail_exchange_rate_row"
+        NOT_FOUND_0xe="@color/ContentPrimary"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x13="3"
+        NOT_FOUND_0x14="@+id/tv_title_rate"
+        NOT_FOUND_0x16="0"
+        style="@style/Label_2_Regular"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

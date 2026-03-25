@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/component_item_trade_mode_unavailable_0"
+    paddingLeft="@dimen/dp_12"
+    paddingRight="@dimen/dp_12"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingHorizontal="@dimen/dp_12">
+    <View
+        id="@+id/separator"
+        background="@color/color_border_static_default"
+        layout_width="-1"
+        android:layout_height="@dimen/dp_0.5"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x11="0"/>
+    <TextView
+        textAppearance="?attr/textAppearanceBody2"
+        textSize="@dimen/sp_12"
+        textColor="@color/ContentContrast"
+        gravity="0x800003"
+        id="@+id/tv_unavailability_message"
+        tag="binding_1"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/dp_12"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x10="@+id/separator"
+        style="@style/Body_4"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

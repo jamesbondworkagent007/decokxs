@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginLeft="@dimen/margin_default"
+    layout_marginRight="@dimen/margin_default"
+    layout_marginBottom="@dimen/margin_20dp"
+    layout_marginHorizontal="@dimen/margin_default">
+    <TextView
+        textColor="@color/ContentContrast"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginBottom="@dimen/xxxsm"
+        text="@string/pr_investdeposit_mid_text_est_points_earned"
+        style="@style/Label_2_Regular"/>
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/rv_est_points_earn"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0xa="androidx.recyclerview.widget.LinearLayoutManager"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

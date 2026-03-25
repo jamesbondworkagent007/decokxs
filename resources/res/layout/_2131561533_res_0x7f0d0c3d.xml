@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    gravity="0x1"
+    orientation="1"
+    id="@+id/layout_watermark"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <ImageView
+        id="@+id/iv_preview"
+        layout_width="0dp"
+        android:layout_height="0dp"
+        scaleType="6"/>
+</FrameLayout>

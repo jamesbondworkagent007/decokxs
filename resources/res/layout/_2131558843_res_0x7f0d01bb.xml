@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    paddingBottom="@dimen/margin_compact"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <TextView
+        textColor="@color/ContentPrimary"
+        id="@+id/header_display_setting"
+        paddingLeft="@dimen/margin_compact"
+        paddingRight="@dimen/margin_compact"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/xxsm"
+        text="@string/pr_swaptrade_cefimode_subtitle_display_setting"
+        paddingHorizontal="@dimen/margin_compact"
+        style="@style/Label_2_Bold"/>
+    <com.okinc.uilab.item.OKRegularCell
+        id="@+id/cell_hide_priced_tokens"
+        visibility="0"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x10="@color/SurfaceBrand"
+        NOT_FOUND_0x14="@string/pr_swaptrade_cefimode_option_hide_token">
+        <o.C55239xgG
+            layout_gravity="0x800015"
+            id="@+id/switch_hide_priced_tokens"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            NOT_FOUND_0x13="-4"/>
+    </com.okinc.uilab.item.OKRegularCell>
+    <o.C52794wYp
+        id="@+id/btn_filter_confirm"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginLeft="@dimen/margin_default"
+        layout_marginTop="@dimen/margin_default"
+        layout_marginRight="@dimen/margin_default"
+        text="@string/pr_commonall_text_btn_confirm"
+        layout_marginHorizontal="@dimen/margin_default"
+        NOT_FOUND_0x11="52"
+        NOT_FOUND_0x12="0x101"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

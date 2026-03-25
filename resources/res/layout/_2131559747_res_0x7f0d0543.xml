@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.C31701mAs
+        id="@+id/recycler"
+        scrollbars="horizontal"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_weight="1"
+        overScrollMode="2"
+        nestedScrollingEnabled="false"/>
+    <LinearLayout
+        orientation="0"
+        id="@+id/textLayout"
+        layout_width="-2"
+        android:layout_height="match_parent"
+        paddingEnd="16dp">
+        <View
+            layout_gravity="0x10"
+            background="@color/list_divider_color"
+            visibility="2"
+            layout_width="@dimen/width_0.5dp"
+            android:layout_height="20dp"/>
+        <o.C57635ymD
+            textAppearance="@style/TextAppearance.Headline.12SP"
+            gravity="0x10"
+            id="@+id/rigth_textView"
+            visibility="2"
+            layout_width="-2"
+            android:layout_height="match_parent"
+            drawablePadding="@dimen/padding_6dp"
+            drawableEnd="@drawable/_2131233045_res_0x7f080915"
+            paddingStart="@dimen/padding_16dp"/>
+    </LinearLayout>
+</LinearLayout>

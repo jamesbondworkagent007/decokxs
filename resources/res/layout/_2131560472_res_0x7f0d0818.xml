@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x11"
+    orientation="0"
+    paddingLeft="@dimen/padding_24dp"
+    paddingRight="@dimen/padding_24dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingHorizontal="@dimen/padding_24dp">
+    <o.C52794wYp
+        textAppearance="@style/Label_2_Bold"
+        textSize="@dimen/text_size_14sp"
+        id="@+id/btn"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0xa="52"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

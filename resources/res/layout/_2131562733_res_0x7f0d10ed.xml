@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    id="@+id/step_background"
+    tag="layout/view_buy_sell_convert_step_0"
+    background="@drawable/_2131232457_res_0x7f0806c9"
+    layout_width="@dimen/width_16dp"
+    android:layout_height="@dimen/width_16dp">
+    <TextView
+        textAppearance="@style/TextAppearance.Subtitle.12SP.Medium"
+        textColor="@color/LiteGray050"
+        gravity="0x11"
+        id="@+id/tv_step_title"
+        layout_width="-1"
+        android:layout_height="match_parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

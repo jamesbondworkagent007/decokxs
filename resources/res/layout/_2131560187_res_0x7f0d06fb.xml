@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/fragment_support_basic_list_0"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C33546myW
+        id="@+id/refresh_layout"
+        layout_width="-1"
+        android:layout_height="match_parent"
+        animateLayoutChanges="true"
+        NOT_FOUND_0x10="false"
+        NOT_FOUND_0x11="false">
+        <androidx.recyclerview.widget.RecyclerView
+            id="@+id/recycler_view"
+            paddingBottom="@dimen/md"
+            clipToPadding="false"
+            layout_width="-1"
+            android:layout_height="match_parent"
+            overScrollMode="2"
+            NOT_FOUND_0xc="androidx.recyclerview.widget.LinearLayoutManager"/>
+        <o.C33604mzb
+            id="@+id/refresh_footer"
+            layout_width="-1"
+            android:layout_height="wrap_content"/>
+    </o.C33546myW>
+    <o.C55113xdn
+        layout_gravity="0x11"
+        id="@+id/loader_generic"
+        visibility="2"
+        layout_width="@dimen/width_60dp"
+        android:layout_height="@dimen/width_60dp"
+        layout_marginBottom="@dimen/lg"
+        NOT_FOUND_0xd="true"
+        NOT_FOUND_0xe="true"
+        NOT_FOUND_0xf="@raw/_2131886123_res_0x7f12002b"/>
+    <o.C55173xeu
+        layout_gravity="0x11"
+        id="@+id/error_generic"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginBottom="@dimen/lg"
+        NOT_FOUND_0xb="8"/>
+</FrameLayout>

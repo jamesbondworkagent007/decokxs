@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/item_defi_select_network_for_wallet_0"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingStart="@dimen/common_page_edge_space"
+    paddingEnd="@dimen/common_page_edge_space">
+    <ImageView
+        id="@+id/image"
+        layout_width="32dp"
+        android:layout_height="32dp"
+        layout_marginTop="19dp"
+        layout_marginBottom="19dp"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x10="0"/>
+    <TextView
+        textAppearance="@style/TextAppearance.Title.16SP.Medium"
+        id="@+id/name"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginStart="@dimen/margin_12dp"
+        NOT_FOUND_0xc="@+id/image"
+        NOT_FOUND_0xe="@+id/image"
+        NOT_FOUND_0x10="@+id/image"/>
+    <ImageView
+        id="@+id/select"
+        visibility="2"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        src="@drawable/_2131234456_res_0x7f080e98"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x11="@color/grey_g900"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

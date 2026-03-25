@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    background="@drawable/_2131231252_res_0x7f080214"
+    paddingLeft="2dp"
+    paddingRight="2dp"
+    layout_width="-2"
+    android:layout_height="20dp"
+    paddingHorizontal="2dp">
+    <TextView
+        textColor="@color/okTradeG900"
+        gravity="0x11"
+        layout_gravity="0x11"
+        id="@+id/tvStackCount"
+        background="@drawable/_2131231262_res_0x7f08021e"
+        paddingLeft="@dimen/dp_4"
+        paddingRight="@dimen/dp_4"
+        layout_width="-2"
+        android:layout_height="@dimen/ok_dp_16"
+        paddingHorizontal="@dimen/dp_4"
+        style="@style/TextAppearance.Text.10SP"/>
+</FrameLayout>

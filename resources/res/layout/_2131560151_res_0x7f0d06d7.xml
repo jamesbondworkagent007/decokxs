@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/fragment_security_passkey_okx_pay_0"
+    paddingLeft="@dimen/margin_24dp"
+    paddingRight="@dimen/margin_24dp"
+    layout_width="-1"
+    android:layout_height="match_parent"
+    paddingHorizontal="@dimen/margin_24dp">
+    <o.C55173xeu
+        id="@+id/emptyContainer"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0xb="6"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x11="@string/pr_account_fido2_desc_no_passkey_yet"/>
+    <com.okinc.uilab.reminder.OKReminder
+        id="@+id/singlePasskeyCannotRemoveReminder"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_16dp"
+        NOT_FOUND_0x10="0"/>
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/authenticatorRecyclerView"
+        paddingTop="@dimen/padding_16dp"
+        clipToPadding="false"
+        layout_width="-1"
+        android:layout_height="0dp"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="@+id/singlePasskeyCannotRemoveReminder"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

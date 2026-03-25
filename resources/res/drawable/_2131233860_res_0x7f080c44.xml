@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item state_activated="false">
+        <shape>
+            <corners radius="8dp"/>
+            <solid color="@color/color_surface_interactive_default"/>
+            <stroke
+                width="1dp"
+                color="@color/SemanticNegative"/>
+            <padding
+                left="1dp"
+                top="1dp"
+                right="1dp"
+                bottom="1dp"/>
+        </shape>
+    </item>
+    <item
+        state_enabled="true"
+        state_selected="true">
+        <shape>
+            <corners radius="8dp"/>
+            <solid color="@color/color_surface_interactive_default"/>
+            <stroke
+                width="1dp"
+                color="@color/ContentPrimary"/>
+            <padding
+                left="1dp"
+                top="1dp"
+                right="1dp"
+                bottom="1dp"/>
+        </shape>
+    </item>
+    <item
+        state_enabled="true"
+        state_selected="false">
+        <shape>
+            <corners radius="8dp"/>
+            <solid color="@color/color_surface_interactive_default"/>
+            <stroke
+                width="0dp"
+                color="@color/okTradeG200"/>
+            <padding
+                left="0.5dp"
+                top="0.5dp"
+                right="0.5dp"
+                bottom="0.5dp"/>
+        </shape>
+    </item>
+    <item state_enabled="false">
+        <shape>
+            <corners radius="8dp"/>
+            <solid color="@color/color_surface_interactive_disabled"/>
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <corners radius="8dp"/>
+            <solid color="@color/color_surface_interactive_default"/>
+        </shape>
+    </item>
+</selector>

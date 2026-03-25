@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.C52794wYp
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginLeft="@dimen/dp24"
+        layout_marginTop="16dp"
+        layout_marginRight="@dimen/dp24"
+        layout_marginBottom="@dimen/dp_8"
+        text="@string/pr_growth_general_btn_view_more"
+        layout_marginHorizontal="@dimen/dp24"
+        NOT_FOUND_0x9="44"
+        NOT_FOUND_0xa="0x104"/>
+</LinearLayout>

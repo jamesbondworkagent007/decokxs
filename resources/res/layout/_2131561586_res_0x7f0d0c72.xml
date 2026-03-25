@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <ImageView
+        layout_gravity="0x11"
+        id="@+id/img_group_profile"
+        layout_width="80dp"
+        android:layout_height="80dp"
+        layout_marginTop="@dimen/xxsm"
+        layout_marginBottom="@dimen/xxsm"
+        src="@drawable/_2131232839_res_0x7f080847"
+        scaleType="fitStart"
+        contentDescription="@string/pr_message_group_input_group_name"
+        layout_marginVertical="@dimen/xxsm"/>
+    <include
+        id="@+id/include_edit_group_name"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/xxxxsm"
+        layout_marginBottom="@dimen/xsm"
+        layout="@layout/_2131561584_res_0x7f0d0c70"/>
+</LinearLayout>

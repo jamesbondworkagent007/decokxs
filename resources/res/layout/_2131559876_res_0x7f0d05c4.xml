@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    id="@+id/root_layout"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/rv_content"
+        layout_width="-1"
+        android:layout_height="0dp"
+        layout_weight="1"
+        overScrollMode="2"
+        NOT_FOUND_0xd="androidx.recyclerview.widget.LinearLayoutManager"/>
+    <o.C52794wYp
+        enabled="false"
+        id="@+id/btn_create_group"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginLeft="@dimen/sm"
+        layout_marginTop="@dimen/xsm"
+        layout_marginRight="@dimen/sm"
+        text="@string/pr_message_btn_create_group"
+        textAllCaps="false"
+        layout_marginHorizontal="@dimen/sm"
+        NOT_FOUND_0xe="52"
+        NOT_FOUND_0xf="0x101"/>
+</LinearLayout>

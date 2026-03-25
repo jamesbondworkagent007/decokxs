@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/layout_filter_and_sort_bar_0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <TextView
+        textAppearance="@style/TextAppearance.Text.Regular"
+        textSize="@dimen/text_size_14sp"
+        textColor="@color/ContentPrimary"
+        ellipsize="3"
+        id="@+id/filter_title"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        text=""
+        maxLines="1"
+        includeFontPadding="false"
+        NOT_FOUND_0xf="true"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x12="@+id/iv_arrow"
+        NOT_FOUND_0x13="0"
+        NOT_FOUND_0x14="2"
+        NOT_FOUND_0x16="0"
+        NOT_FOUND_0x17="0"/>
+    <ImageView
+        id="@+id/iv_arrow"
+        layout_width="12dp"
+        android:layout_height="12dp"
+        src="@drawable/_2131231589_res_0x7f080365"
+        layout_marginStart="2dp"
+        layout_marginEnd="16dp"
+        NOT_FOUND_0x10="@+id/filter_title"
+        NOT_FOUND_0x12="@+id/iv_sort"
+        NOT_FOUND_0x15="@+id/filter_title"
+        NOT_FOUND_0x17="@+id/filter_title"/>
+    <ImageView
+        layout_gravity="0x11"
+        id="@+id/iv_sort"
+        layout_width="20dp"
+        android:layout_height="20dp"
+        src="@drawable/_2131234070_res_0x7f080d16"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x11="0"
+        NOT_FOUND_0x17="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

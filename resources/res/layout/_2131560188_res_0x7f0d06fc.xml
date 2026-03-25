@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    tag="layout/fragment_support_home_recommend_card_0"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginBottom="@dimen/sm">
+    <TextView
+        id="@+id/tv_recommend_title"
+        paddingLeft="@dimen/sm"
+        paddingTop="@dimen/xxsm"
+        paddingRight="@dimen/sm"
+        paddingBottom="@dimen/xxsm"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        paddingHorizontal="@dimen/sm"
+        paddingVertical="@dimen/xxsm"
+        style="@style/Label_2_Bold"/>
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/vp_recommendation_cards"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/xxxxsm"
+        nestedScrollingEnabled="false"/>
+</LinearLayout>

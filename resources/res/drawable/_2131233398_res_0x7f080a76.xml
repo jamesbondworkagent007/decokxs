@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        gravity="0x5"
+        height="@dimen/dp_7"
+        width="@dimen/dp_7"
+        drawable="@drawable/_2131232046_res_0x7f08052e"/>
+    <item drawable="@color/transparent"/>
+</layer-list>

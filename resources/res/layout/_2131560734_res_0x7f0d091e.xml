@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-2"
+    android:layout_height="wrap_content">
+    <View
+        id="@+id/bgView"
+        background="@drawable/_2131231326_res_0x7f08025e"
+        paddingLeft="8dp"
+        paddingRight="8dp"
+        layout_width="0dp"
+        android:layout_height="0dp"
+        paddingHorizontal="8dp"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="0"/>
+    <TextView
+        textSize="10sp"
+        textColor="@color/ContentPrimary"
+        ellipsize="3"
+        gravity="0x11"
+        id="@+id/moreTV"
+        paddingLeft="8dp"
+        paddingRight="8dp"
+        layout_width="-2"
+        android:layout_height="match_parent"
+        lines="1"
+        paddingHorizontal="8dp"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="0"
+        style="@style/Label_4_Regular"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

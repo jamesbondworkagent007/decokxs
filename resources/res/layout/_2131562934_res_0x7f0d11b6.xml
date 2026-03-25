@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x1"
+    orientation="1"
+    background="@color/white_background_color"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <ImageView
+        id="@+id/iv_load_fail"
+        tag="layout/view_wallet_load_fail_0"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        src="@drawable/_2131233555_res_0x7f080b13"
+        scaleType="7"/>
+    <TextView
+        textAppearance="@style/TextAppearance.Title.16SP.Medium"
+        id="@+id/tv_title"
+        tag="layout/view_wallet_load_fail_1"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="4dp"/>
+    <TextView
+        textAppearance="@style/TextAppearance.Text.14SP"
+        id="@+id/tv_subtitle"
+        tag="layout/view_wallet_load_fail_2"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="10dp"/>
+    <o.C52794wYp
+        textAppearance="@style/TextAppearance.Title.14SP.Medium"
+        id="@+id/btn_retry"
+        tag="layout/view_wallet_load_fail_3"
+        paddingLeft="41dp"
+        paddingTop="10dp"
+        paddingRight="41dp"
+        paddingBottom="10dp"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="24dp"
+        layout_marginBottom="24dp"
+        paddingHorizontal="41dp"
+        paddingVertical="10dp"
+        NOT_FOUND_0x12="36"
+        NOT_FOUND_0x13="0x104"/>
+</merge>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/cl_sentiment_percent_background"
+    tag="layout/component_okcr_round_0"
+    background="@drawable/_2131233813_res_0x7f080c15"
+    layout_width="@dimen/dp_96"
+    android:layout_height="@dimen/dp_96">
+    <TextView
+        id="@+id/tv_name"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x5="0"
+        NOT_FOUND_0x6="0"
+        NOT_FOUND_0x7="0"
+        NOT_FOUND_0x8="0"
+        style="@style/Headline_4_Bold"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

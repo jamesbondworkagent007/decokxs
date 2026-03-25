@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    layout_width="-2"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatTextView
+        textAppearance="@style/TextAppearance.Text.16SP.Regular"
+        textColor="@color/ContentPrimary"
+        id="@+id/tv_unit_mememode"
+        layout_width="-2"
+        android:layout_height="wrap_content"/>
+</FrameLayout>

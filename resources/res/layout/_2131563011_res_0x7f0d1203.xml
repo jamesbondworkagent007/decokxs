@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.C55258xgZ
+        textAppearance="@style/TextAppearance.Title.16SP.Medium"
+        textSize="@dimen/text_size_16sp"
+        textColor="@color/ContentContrast"
+        id="@+id/tv_input_gains_title"
+        tag="layout/widget_invest_redeem_input_receive_view_0"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        text="@string/pr_investredeem_placeorder_title_est_receive"
+        includeFontPadding="false"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x11="0"
+        NOT_FOUND_0x12="1"
+        NOT_FOUND_0x13="@color/ContentPrimary"
+        NOT_FOUND_0x14="0"/>
+    <HorizontalScrollView
+        tag="layout/widget_invest_redeem_input_receive_view_1"
+        scrollbars="horizontal"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_12dp"
+        overScrollMode="2"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x10="@+id/tv_input_gains_title">
+        <LinearLayout
+            orientation="0"
+            id="@+id/tv_gains_info_list"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            divider="@drawable/_2131231219_res_0x7f0801f3"
+            showDividers="middle"
+            NOT_FOUND_0xf="0"
+            NOT_FOUND_0x10="@+id/tv_swapto_title"/>
+    </HorizontalScrollView>
+</merge>

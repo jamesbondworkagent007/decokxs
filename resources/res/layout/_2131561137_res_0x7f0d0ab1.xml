@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/container"
+    layout_width="-2"
+    android:layout_height="wrap_content">
+    <ImageView
+        id="@+id/imageView"
+        background="@drawable/_2131230980_res_0x7f080104"
+        padding="12dp"
+        layout_width="48dp"
+        android:layout_height="48dp"
+        src="@drawable/_2131232794_res_0x7f08081a"
+        scaleType="6"
+        NOT_FOUND_0x7="0"
+        NOT_FOUND_0x8="0"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xa="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

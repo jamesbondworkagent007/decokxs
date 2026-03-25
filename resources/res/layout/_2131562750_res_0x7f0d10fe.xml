@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x10"
+    orientation="0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_weight="1">
+        <com.okinc.core.widget.SortTextView
+            textSize="@dimen/text_size_12sp"
+            ellipsize="3"
+            id="@+id/time_tv"
+            paddingTop="2dp"
+            paddingBottom="2dp"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            text="@string/pr_trade_strategy_item_filled_time"
+            maxLines="2"
+            paddingVertical="2dp"
+            style="@style/SortTextView"/>
+    </LinearLayout>
+    <o.C55258xgZ
+        ellipsize="3"
+        gravity="0x800005"
+        id="@+id/grid_profit"
+        paddingTop="2dp"
+        paddingBottom="2dp"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        maxLines="2"
+        layout_weight="1"
+        layout_marginStart="8dp"
+        paddingVertical="2dp"
+        NOT_FOUND_0xe="2"
+        NOT_FOUND_0xf="@color/okTradeG400"
+        NOT_FOUND_0x10="@style/TextAppearance.Text.12SP"/>
+</LinearLayout>

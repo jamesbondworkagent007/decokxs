@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C57591ylM
+        id="@+id/statusBar"
+        layout_width="-1"
+        android:layout_height="0dp"
+        NOT_FOUND_0x5="0"/>
+    <FrameLayout
+        id="@+id/top_container"
+        layout_width="-1"
+        android:layout_height="wrap_content"/>
+    <FrameLayout
+        id="@+id/content_container"
+        layout_width="-1"
+        android:layout_height="0dp"
+        layout_weight="1"/>
+</LinearLayout>

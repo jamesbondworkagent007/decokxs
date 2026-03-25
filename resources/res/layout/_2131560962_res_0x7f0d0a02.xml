@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    tag="layout/item_upload_log_date_0"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginLeft="@dimen/margin_default"
+    layout_marginRight="@dimen/margin_default"
+    layout_marginHorizontal="@dimen/margin_default">
+    <TextView
+        id="@+id/lbl_date_title"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x10="0"
+        style="@style/Label_2_Medium"/>
+    <TextView
+        textColor="@color/ContentContrast"
+        ellipsize="3"
+        id="@+id/btn_select_date"
+        background="@drawable/_2131231408_res_0x7f0802b0"
+        padding="@dimen/xxsm"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/xxxsm"
+        lines="1"
+        drawablePadding="@dimen/xsm"
+        NOT_FOUND_0xf="@drawable/_2131231570_res_0x7f080352"
+        style="@style/Body_2_Regular"/>
+</LinearLayout>

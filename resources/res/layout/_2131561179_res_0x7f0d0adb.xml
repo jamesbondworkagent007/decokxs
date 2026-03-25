@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    id="@+id/content_container"
+    tag="layout/layout_confirmation_account_merge_0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <TextView
+        textSize="@dimen/text_size_16sp"
+        textColor="@color/ContentPrimary"
+        gravity="0x11"
+        id="@+id/cta_primary_button"
+        layout_width="-1"
+        android:layout_height="50dp"
+        layout_marginTop="12dp"
+        text="@string/pr_kyc_bottomsheet_btn_to_merge"
+        style="@style/TextStyle.Body.Medium.24"/>
+    <TextView
+        textSize="@dimen/text_size_16sp"
+        textColor="@color/ContentPrimary"
+        gravity="0x11"
+        id="@+id/cta_secondary_button"
+        layout_width="-1"
+        android:layout_height="50dp"
+        text="@string/pr_kyc_bottomsheet_btn_verif_acunt_not_login"
+        style="@style/TextStyle.Body.Medium.24"/>
+    <View
+        background="@color/LineMuted"
+        layout_width="-1"
+        android:layout_height="0.5dp"
+        layout_marginTop="12dp"
+        layout_marginBottom="12dp"
+        layout_marginVertical="12dp"/>
+    <TextView
+        textSize="@dimen/text_size_16sp"
+        textColor="@color/ContentPrimary"
+        gravity="0x11"
+        id="@+id/cta_cancel_button"
+        layout_width="-1"
+        android:layout_height="50dp"
+        layout_marginBottom="34dp"
+        text="@string/pr_kyc_dialog_btn_cancel"
+        style="@style/TextStyle.Body.Medium.24"/>
+</LinearLayout>

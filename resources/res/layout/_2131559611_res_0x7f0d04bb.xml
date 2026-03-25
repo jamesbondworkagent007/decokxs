@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    tag="layout/dfragment_signal_bot_edit_instids_0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/rv"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginLeft="@dimen/margin_10dp"
+        layout_marginRight="@dimen/margin_10dp"
+        layout_marginBottom="@dimen/margin_24dp"
+        overScrollMode="2"
+        layout_marginHorizontal="@dimen/margin_10dp"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        id="@+id/tv_tip"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginLeft="@dimen/margin_16dp"
+        layout_marginRight="@dimen/margin_16dp"
+        layout_marginBottom="@dimen/margin_24dp"
+        text="@string/pr_signalbot_orderdetails_reminder_monitor_current_price"
+        lineSpacingExtra="@dimen/margin_4dp"
+        layout_marginHorizontal="@dimen/margin_16dp"
+        style="@style/TextAppearance.Text.12SP.Regular"/>
+</LinearLayout>

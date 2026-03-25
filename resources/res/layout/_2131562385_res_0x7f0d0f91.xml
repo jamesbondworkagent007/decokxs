@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    tag="layout/trade_impl_mp_home_create_bot_layout_0"
+    background="@color/BasePrimary"
+    paddingTop="@dimen/padding_24dp"
+    paddingBottom="@dimen/padding_24dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingVertical="@dimen/padding_24dp">
+    <ViewStub
+        id="@+id/multi_layout"
+        layout="@layout/_2131562386_res_0x7f0d0f92"
+        layout_width="-1"
+        android:layout_height="wrap_content"/>
+    <ViewStub
+        id="@+id/couple_layout"
+        layout="@layout/_2131562384_res_0x7f0d0f90"
+        layout_width="-1"
+        android:layout_height="wrap_content"/>
+</FrameLayout>

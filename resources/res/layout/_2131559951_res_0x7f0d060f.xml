@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <ImageView
+        id="@+id/iv_image"
+        layout_width="-1"
+        android:layout_height="0dp"
+        layout_marginBottom="43dp"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="375:260"/>
+    <TextView
+        textAppearance="@style/TextAppearance.Bold"
+        textSize="32sp"
+        textColor="@color/grey_g900"
+        ellipsize="3"
+        id="@+id/tv_primary"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_marginLeft="24dp"
+        layout_marginRight="24dp"
+        maxLines="4"
+        layout_marginHorizontal="24dp"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x11="0"
+        NOT_FOUND_0x13="0"/>
+    <TextView
+        textAppearance="@style/TextAppearance"
+        textSize="14sp"
+        textColor="@color/grey_g400"
+        ellipsize="3"
+        id="@+id/tv_secondary"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_marginLeft="24dp"
+        layout_marginTop="12dp"
+        layout_marginRight="24dp"
+        text="@string/pr_wallet_hardwallet_subtitle_keep_safe"
+        maxLines="4"
+        layout_marginHorizontal="24dp"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x11="0"
+        NOT_FOUND_0x12="@+id/tv_primary"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

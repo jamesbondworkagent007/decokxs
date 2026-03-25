@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x11"
+    orientation="0"
+    background="@drawable/_2131233263_res_0x7f0809ef"
+    paddingLeft="@dimen/padding_8dp"
+    paddingTop="@dimen/padding_10dp"
+    paddingRight="@dimen/padding_8dp"
+    paddingBottom="@dimen/padding_10dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingHorizontal="@dimen/padding_8dp"
+    paddingVertical="@dimen/padding_10dp">
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/top_icon"
+        layout_width="@dimen/width_20dp"
+        android:layout_height="@dimen/width_20dp"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        textColor="@color/ContentPrimary"
+        ellipsize="3"
+        id="@+id/top_title"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_marginLeft="@dimen/margin_4dp"
+        layout_marginRight="@dimen/margin_4dp"
+        maxLines="1"
+        layout_weight="1"
+        layout_marginHorizontal="@dimen/margin_4dp"
+        NOT_FOUND_0x14="14sp"
+        NOT_FOUND_0x15="8sp"
+        NOT_FOUND_0x16="1"
+        NOT_FOUND_0x17="@color/grey_g900"
+        style="@style/TextAppearance.Regular"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/red_dot_guide"
+        layout_width="8dp"
+        android:layout_height="8dp"
+        src="@drawable/_2131232046_res_0x7f08052e"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

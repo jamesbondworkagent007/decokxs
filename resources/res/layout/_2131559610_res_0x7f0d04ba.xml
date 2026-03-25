@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.recyclerview.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+    id="@+id/rv"
+    tag="layout/dfragment_signal_bot_create_instids_0"
+    paddingBottom="20dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginLeft="@dimen/margin_10dp"
+    layout_marginRight="@dimen/margin_10dp"
+    overScrollMode="2"
+    layout_marginHorizontal="@dimen/margin_10dp"/>

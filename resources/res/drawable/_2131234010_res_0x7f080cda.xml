@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient
+        startColor="@color/bot_lead_chart_filled_start_color"
+        endColor="@color/bot_lead_chart_filled_start_color"
+        angle="90"
+        type="0"
+        centerColor="@color/bot_lead_chart_filled_center_color"/>
+</shape>

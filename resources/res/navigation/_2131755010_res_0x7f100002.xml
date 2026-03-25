@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/reset_mfa_graph"
+    NOT_FOUND_0x3="@+id/mfaFragment">
+    <fragment
+        name="o.aCt"
+        id="@+id/mfaFragment"/>
+    <action
+        id="@+id/toVerifyOtp"
+        NOT_FOUND_0x2="@+id/verifyOtpFragment"/>
+    <fragment
+        name="o.aEW"
+        id="@+id/verifyOtpFragment"/>
+    <action
+        id="@+id/toVerifyPassword"
+        NOT_FOUND_0x2="@+id/verifyPassword"/>
+    <fragment
+        name="o.aEJ"
+        id="@+id/verifyPassword"/>
+    <action
+        id="@+id/toVerifyPasskey"
+        NOT_FOUND_0x2="@+id/verifyPasskey"/>
+    <fragment
+        name="o.aDC"
+        id="@+id/verifyPasskey"/>
+    <action
+        id="@+id/toVerifyFace"
+        NOT_FOUND_0x2="@+id/verifyFace"/>
+    <fragment
+        name="o.aDe"
+        id="@+id/verifyFace"/>
+    <action
+        id="@+id/toFaceVerifyFail"
+        NOT_FOUND_0x2="@+id/faceVerifyFail"/>
+    <fragment
+        name="o.aDa"
+        id="@+id/faceVerifyFail"/>
+    <action
+        id="@+id/toFaceVerifyMaxRetry"
+        NOT_FOUND_0x2="@+id/faceVerifyMaxRetry"/>
+    <fragment
+        name="o.aCY"
+        id="@+id/faceVerifyMaxRetry"/>
+</navigation>

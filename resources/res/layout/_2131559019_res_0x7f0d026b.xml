@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    background="@color/BasePrimary"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <ImageView
+        id="@+id/btn_close"
+        background="?attr/selectableItemBackgroundBorderless"
+        padding="@dimen/xxsm"
+        layout_width="48dp"
+        android:layout_height="48dp"
+        layout_margin="@dimen/xsm"
+        src="@drawable/_2131231675_res_0x7f0803bb"
+        contentDescription="@null"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xd="@color/ContentPrimary"/>
+    <com.google.android.exoplayer2.ui.PlayerView
+        id="@+id/player_view"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x8="0"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="1"
+        NOT_FOUND_0xe="true"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

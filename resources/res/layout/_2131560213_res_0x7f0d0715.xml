@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/fragment_transaction_record_order_0"
+    background="@color/BasePrimary"
+    paddingLeft="@dimen/margin_default"
+    paddingRight="@dimen/margin_default"
+    layout_width="-1"
+    android:layout_height="match_parent"
+    paddingHorizontal="@dimen/margin_default">
+    <LinearLayout
+        orientation="1"
+        id="@+id/title_content_ccy"
+        layout_width="-1"
+        android:layout_height="match_parent">
+        <o.C33546myW
+            id="@+id/smart_refresh"
+            layout_width="-1"
+            android:layout_height="0dp"
+            layout_weight="1"
+            NOT_FOUND_0xb="false"
+            NOT_FOUND_0xc="false">
+            <androidx.recyclerview.widget.RecyclerView
+                id="@+id/recyclerview"
+                layout_width="-1"
+                android:layout_height="wrap_content"
+                overScrollMode="2"/>
+            <o.C33604mzb
+                layout_width="-1"
+                android:layout_height="wrap_content"/>
+        </o.C33546myW>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

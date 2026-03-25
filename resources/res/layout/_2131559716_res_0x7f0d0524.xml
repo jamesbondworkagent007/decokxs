@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x10"
+    orientation="1"
+    id="@+id/outline_layout"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    baselineAligned="false">
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/rv_edit_menu"
+        clipChildren="false"
+        clipToPadding="false"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        overScrollMode="2"
+        paddingStart="24dp"
+        paddingEnd="24dp"/>
+    <LinearLayout
+        orientation="0"
+        id="@+id/bottom_layout"
+        paddingTop="16dp"
+        paddingBottom="16dp"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        paddingStart="24dp"
+        paddingEnd="24dp">
+        <o.C52794wYp
+            id="@+id/btn_cancel"
+            layout_width="0dp"
+            android:layout_height="wrap_content"
+            text="@string/pr_referral_share_btn_cancel"
+            layout_weight="1"
+            NOT_FOUND_0x10="52"
+            NOT_FOUND_0x11="0x104"/>
+        <o.C52794wYp
+            id="@+id/btn_confirm"
+            layout_width="0dp"
+            android:layout_height="wrap_content"
+            text="@string/pr_referral_share_btn_confirm"
+            layout_weight="1"
+            layout_marginStart="16dp"
+            NOT_FOUND_0x10="52"
+            NOT_FOUND_0x11="0x101"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/layout_bot_lead_profit_share_detail_0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatTextView
+        textAppearance="@style/TextAppearance.Title.20SP.Semibold"
+        textSize="@dimen/text_size_20sp"
+        textColor="@color/ContentPrimary"
+        gravity="0x800033"
+        id="@+id/title_profit_share"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="20dp"
+        text="@string/pr_trade_bot_header_single_tape"
+        maxLines="5"
+        includeFontPadding="false"
+        layout_marginStart="@dimen/margin_default"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x12="0"/>
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/bot_user_list_rv"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="88dp"
+        overScrollMode="2"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x11="@+id/title_profit_share"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

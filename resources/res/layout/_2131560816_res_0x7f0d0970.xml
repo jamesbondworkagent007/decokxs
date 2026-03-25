@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    gravity="0x11"
+    orientation="0"
+    background="@drawable/_2131231327_res_0x7f08025f"
+    padding="8dp"
+    focusable="true"
+    clickable="true"
+    layout_width="-2"
+    android:layout_height="wrap_content"
+    minWidth="60dp"
+    layout_marginEnd="8dp">
+    <TextView
+        textSize="16sp"
+        id="@+id/emoji_text"
+        layout_width="-2"
+        android:layout_height="wrap_content"/>
+    <TextView
+        textSize="14sp"
+        textColor="@color/ContentContrast"
+        id="@+id/count_text"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginStart="4dp"
+        style="@style/Label_2_Medium"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

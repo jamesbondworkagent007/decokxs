@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/filter_chip_layout"
+    layout_width="-2"
+    android:layout_height="wrap_content">
+    <o.C51601vqB
+        id="@+id/icon"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x8="@color/okTradeBackground1"
+        NOT_FOUND_0x9="1.5dp"
+        NOT_FOUND_0xa="@color/okTradeBgLv3"
+        NOT_FOUND_0xb="24dp"
+        NOT_FOUND_0xc="@color/okTradeG900"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x10="0"/>
+    <TextView
+        textColor="@color/cell_title_color"
+        id="@+id/title"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        maxLines="1"
+        singleLine="true"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="@+id/icon"
+        NOT_FOUND_0x10="0"
+        style="@style/OKTextFont.Regular"/>
+    <ImageView
+        id="@+id/select_icon"
+        visibility="2"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        src="@drawable/_2131231589_res_0x7f080365"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="@+id/title"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x11="@color/cell_title_color"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

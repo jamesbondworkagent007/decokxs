@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/item_ids_choice_pic_0"
+    layout_width="-2"
+    android:layout_height="wrap_content">
+    <ImageView
+        id="@+id/iv_ids_choice_icon"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        src="@drawable/_2131232578_res_0x7f080742"/>
+</FrameLayout>

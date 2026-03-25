@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <com.google.android.material.appbar.MaterialToolbar
+        id="@+id/appBar"
+        layout_width="-1"
+        android:layout_height="48dp"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x11="@drawable/_2131231645_res_0x7f08039d"
+        NOT_FOUND_0x12="@color/ContentPrimary"
+        NOT_FOUND_0x13="true"
+        NOT_FOUND_0x14="@style/Title_2_Bold"/>
+    <androidx.compose.ui.platform.ComposeView
+        id="@+id/compose_view"
+        layout_width="-1"
+        android:layout_height="0dp"
+        layout_weight="1"/>
+    <TextView
+        textAppearance="@style/Body_4"
+        textColor="@color/SemanticNegative"
+        id="@+id/footerHint"
+        paddingLeft="@dimen/common_page_edge_space"
+        paddingTop="8dp"
+        paddingRight="@dimen/common_page_edge_space"
+        paddingBottom="8dp"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        paddingHorizontal="@dimen/common_page_edge_space"
+        paddingVertical="8dp"/>
+    <o.wYF
+        id="@+id/button_box"
+        layout_width="-1"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

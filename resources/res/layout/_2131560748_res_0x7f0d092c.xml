@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/item_multi_transfer_result_0"
+    layout_width="-1"
+    android:layout_height="48dp"
+    layout_marginTop="8dp">
+    <ImageView
+        id="@+id/iv_status"
+        layout_width="24dp"
+        android:layout_height="24dp"
+        contentDescription="@null"
+        NOT_FOUND_0x11="0"
+        NOT_FOUND_0x15="0"
+        NOT_FOUND_0x16="0"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        textAppearance="@style/TextAppearance.Text.Medium"
+        ellipsize="3"
+        gravity="0x10"
+        id="@+id/tv_amount"
+        layout_width="0dp"
+        android:layout_height="match_parent"
+        maxLines="1"
+        textDirection="3"
+        layout_marginStart="4dp"
+        layout_marginEnd="8dp"
+        NOT_FOUND_0xe="32sp"
+        NOT_FOUND_0xf="12sp"
+        NOT_FOUND_0x10="1"
+        NOT_FOUND_0x11="0"
+        NOT_FOUND_0x13="@+id/iv_arrow"
+        NOT_FOUND_0x14="@+id/iv_status"
+        NOT_FOUND_0x16="0"
+        NOT_FOUND_0x17="-3"/>
+    <ImageView
+        id="@+id/iv_arrow"
+        layout_width="20dp"
+        android:layout_height="20dp"
+        src="@drawable/_2131231647_res_0x7f08039f"
+        contentDescription="@null"
+        NOT_FOUND_0x11="0"
+        NOT_FOUND_0x12="0"
+        NOT_FOUND_0x16="0"
+        NOT_FOUND_0x18="@color/ContentContrast"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

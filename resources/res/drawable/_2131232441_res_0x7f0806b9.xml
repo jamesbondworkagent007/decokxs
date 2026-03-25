@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    height="24dp"
+    width="24dp"
+    viewportWidth="24"
+    viewportHeight="24">
+    <item
+        height="24dp"
+        width="24dp"
+        drawable="@drawable/_2131231675_res_0x7f0803bb"/>
+</selector>

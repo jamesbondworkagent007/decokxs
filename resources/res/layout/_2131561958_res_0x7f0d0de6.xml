@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    paddingTop="8dp"
+    layout_width="-2"
+    android:layout_height="wrap_content">
+    <include
+        id="@+id/material_hour_text_input"
+        layout="@layout/_2131561945_res_0x7f0d0dd9"/>
+    <include layout="@layout/_2131561947_res_0x7f0d0ddb"/>
+    <include
+        id="@+id/material_minute_text_input"
+        layout="@layout/_2131561945_res_0x7f0d0dd9"/>
+</LinearLayout>

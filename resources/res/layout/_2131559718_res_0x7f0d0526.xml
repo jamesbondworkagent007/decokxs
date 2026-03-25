@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/root_layout"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <com.okinc.share.view.rtlviewpager.ShareViewPager
+        layout_gravity="0x50"
+        id="@+id/vp_images"
+        clipToPadding="false"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginBottom="24dp"/>
+    <o.wXO
+        layout_gravity="0x51"
+        id="@+id/ok_slider"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginStart="16dp"
+        layout_marginEnd="16dp"
+        NOT_FOUND_0x8="-3"/>
+</FrameLayout>

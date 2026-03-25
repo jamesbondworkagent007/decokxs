@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="120dp"
+    android:width="83dp"
+    android:viewportWidth="83"
+    android:viewportHeight="120">
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M87.73,54.95H37.83V98.61H87.73V54.95Z"
+        android:strokeColor="@color/defi_withdraw_banner_text_color"
+        android:strokeWidth="1"/>
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M27.71,84.63L35.56,76.78L27.71,68.92L19.85,76.78L27.71,84.63Z"
+        android:strokeColor="@color/defi_withdraw_banner_text_color"
+        android:strokeWidth="1"
+        android:strokeLineJoin="round"/>
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M27.71,54.95L27.71,54.95A21.83,21.83 0,0 1,49.54 76.78L49.54,76.78A21.83,21.83 0,0 1,27.71 98.61L27.71,98.61A21.83,21.83 0,0 1,5.88 76.78L5.88,76.78A21.83,21.83 0,0 1,27.71 54.95z"
+        android:strokeColor="@color/defi_withdraw_banner_text_color"
+        android:strokeWidth="1"/>
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M27.77,54.95H97.79L62.78,23.76L27.77,54.95Z"
+        android:strokeColor="@color/defi_withdraw_banner_text_color"
+        android:strokeWidth="1"
+        android:strokeLineJoin="round"/>
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M27.77,98.61L97.79,98.61"
+        android:strokeColor="@color/defi_withdraw_banner_text_color"
+        android:strokeWidth="1"
+        android:strokeLineCap="round"/>
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M49.54,54.95L49.54,98.61"
+        android:strokeColor="@color/defi_withdraw_banner_text_color"
+        android:strokeWidth="1"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"/>
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M76.02,54.95L76.02,98.61"
+        android:strokeColor="@color/defi_withdraw_banner_text_color"
+        android:strokeWidth="1"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"/>
+    <path
+        android:fillColor="@color/defi_withdraw_banner_text_color"
+        android:pathData="M37.83,57.43V96.12C44.79,92.48 49.53,85.19 49.54,76.79C49.54,76.78 49.54,76.78 49.54,76.78C49.54,76.78 49.54,76.77 49.54,76.77C49.53,68.37 44.79,61.08 37.83,57.43Z"/>
+    <path
+        android:fillColor="@color/defi_withdraw_banner_text_color"
+        android:pathData="M37.83,98.61H49.54V76.79C49.53,85.19 44.79,92.48 37.83,96.12V98.61Z"/>
+    <path
+        android:fillColor="@color/defi_withdraw_banner_text_color"
+        android:pathData="M49.54,54.95H37.83V57.43C44.79,61.08 49.53,68.37 49.54,76.77V54.95Z"/>
+    <path
+        android:fillColor="@color/defi_withdraw_banner_text_color"
+        android:pathData="M27.81,98.61L37.83,98.61V96.12C34.83,97.7 31.43,98.59 27.81,98.61Z"/>
+    <path
+        android:fillColor="@color/defi_withdraw_banner_text_color"
+        android:pathData="M27.71,54.95C31.36,54.95 34.81,55.85 37.83,57.43V54.95H27.71Z"/>
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M37.83,57.43C44.79,61.08 49.53,68.37 49.54,76.77M37.83,96.12C44.79,92.47 49.53,85.19 49.54,76.79M49.54,76.79C49.54,76.78 49.54,76.78 49.54,76.78C49.54,76.78 49.54,76.77 49.54,76.77M49.54,76.79L49.54,76.77"
+        android:strokeColor="@color/defi_withdraw_banner_bg_color"
+        android:strokeWidth="1"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"/>
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M18.88,15.31C18.88,18.6 21.54,21.26 24.83,21.26C21.54,21.26 18.88,23.93 18.88,27.21C18.88,23.93 16.21,21.26 12.93,21.26C16.21,21.26 18.88,18.6 18.88,15.31Z"
+        android:strokeColor="@color/defi_withdraw_banner_text_color"
+        android:strokeWidth="1"
+        android:strokeLineJoin="round"/>
+</vector>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.AppCompatImageView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/bot_mp_intro"
+    layout_width="20dp"
+    android:layout_height="20dp"
+    NOT_FOUND_0x3="@drawable/_2131233141_res_0x7f080975"
+    NOT_FOUND_0x4="@color/ContentPrimary"/>

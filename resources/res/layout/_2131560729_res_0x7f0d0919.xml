@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    background="@android:color/transparent"
+    padding="@dimen/margin_8dp"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        gravity="0x10"
+        orientation="0"
+        layout_width="-1"
+        android:layout_height="wrap_content">
+        <TextView
+            textAppearance="@style/Label_2_Bold"
+            textColor="?attr/colorPrimary"
+            id="@+id/tv_api_number"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            text="Response #1"/>
+        <View
+            layout_width="0dp"
+            android:layout_height="1dp"
+            layout_weight="1"/>
+        <o.C52794wYp
+            id="@+id/btn_remove"
+            visibility="2"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            text="Remove"
+            NOT_FOUND_0x10="32"
+            NOT_FOUND_0x11="0x6"/>
+    </LinearLayout>
+    <TextView
+        textAppearance="@style/Label_3_Regular"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_12dp"
+        text="JSON Response"/>
+    <com.okinc.uilab.edit.OKEditText
+        textSize="10sp"
+        gravity="0x30"
+        id="@+id/et_json_response"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_4dp"
+        minHeight="120dp"
+        hint="Paste JSON response here"/>
+    <o.C52794wYp
+        id="@+id/btn_add_more"
+        visibility="2"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_8dp"
+        text="+ Add More Response"
+        NOT_FOUND_0x10="36"
+        NOT_FOUND_0x11="0x102"/>
+    <View
+        background="?attr/colorControlHighlight"
+        layout_width="-1"
+        android:layout_height="1dp"
+        layout_marginTop="@dimen/margin_16dp"/>
+</LinearLayout>

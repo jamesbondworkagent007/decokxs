@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    background="@drawable/_2131231036_res_0x7f08013c"
+    paddingLeft="@dimen/padding_16dp"
+    paddingRight="@dimen/padding_16dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingHorizontal="@dimen/padding_16dp">
+    <TextView
+        textSize="@dimen/text_size_14sp"
+        textColor="@color/BlackOpacity40"
+        gravity="0x800003"
+        id="@+id/tv_body"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        lineSpacingExtra="6sp"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="0"
+        style="@style/TextAppearance.Subtitle.14SP"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

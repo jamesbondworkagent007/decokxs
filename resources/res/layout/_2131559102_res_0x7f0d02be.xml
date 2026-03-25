@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        gravity="0x10"
+        orientation="0"
+        id="@+id/ll_title"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x10="0">
+        <TextView
+            textColor="@color/ContentPrimary"
+            ellipsize="3"
+            id="@+id/tv_card_title"
+            paddingTop="12dp"
+            paddingBottom="12dp"
+            layout_width="0dp"
+            android:layout_height="wrap_content"
+            text="@string/pr_swaptrade_overview_bottom_header_defi"
+            maxLines="1"
+            layout_weight="1"
+            paddingVertical="12dp"
+            style="@style/Title_2_Bold"/>
+        <ImageView
+            id="@+id/iv_chevron"
+            layout_width="20dp"
+            android:layout_height="20dp"
+            src="@drawable/_2131231647_res_0x7f08039f"
+            NOT_FOUND_0x11="@color/ContentPrimary"/>
+    </LinearLayout>
+    <FrameLayout
+        id="@+id/fl_defi_details"
+        background="@drawable/_2131231797_res_0x7f080435"
+        paddingTop="8dp"
+        paddingBottom="8dp"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        paddingVertical="8dp"/>
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    id="@+id/ll_viewpager"
+    tag="layout/fragment_defi_wallet_multi_select_receive_address_0"
+    layout_width="-1"
+    android:layout_height="match_parent"
+    NOT_FOUND_0xd="true"
+    NOT_FOUND_0xe="0"
+    NOT_FOUND_0xf="0"
+    NOT_FOUND_0x10="0"
+    NOT_FOUND_0x11="0">
+    <com.google.android.material.tabs.TabLayout
+        id="@+id/receiveAddSlidingTab"
+        background="@color/transparent"
+        focusable="false"
+        clipToPadding="true"
+        layout_width="-1"
+        android:layout_height="@dimen/height_36dp"
+        layout_marginLeft="@dimen/margin_12dp"
+        layout_marginTop="@dimen/margin_16dp"
+        layout_marginRight="@dimen/margin_12dp"
+        textAlignment="5"
+        layout_marginHorizontal="@dimen/margin_12dp"
+        NOT_FOUND_0x12="@color/BorderSelected"
+        NOT_FOUND_0x13="false"
+        NOT_FOUND_0x14="1.5dp"
+        NOT_FOUND_0x15="0"
+        NOT_FOUND_0x16="@dimen/padding_12dp"
+        NOT_FOUND_0x17="@dimen/padding_12dp"
+        NOT_FOUND_0x18="@color/ContentPrimary"
+        NOT_FOUND_0x19="@style/TextAppearance.Text.Bold.16SP"
+        NOT_FOUND_0x1a="@color/ContentContrast"/>
+    <androidx.viewpager2.widget.ViewPager2
+        id="@+id/receiveAddViewpager"
+        layout_width="-1"
+        android:layout_height="match_parent"
+        layout_marginTop="@dimen/margin_16dp"/>
+</LinearLayout>

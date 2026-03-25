@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <LinearLayout
+        orientation="1"
+        id="@+id/ll_coin_container"
+        tag="layout/view_sheet_recurring_coin_config_0"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_4dp"/>
+    <TextView
+        textAppearance="@style/TextAppearance.Text.12SP.Medium"
+        textColor="@color/RubyRed500"
+        id="@+id/tv_coin_config_tip"
+        tag="layout/view_sheet_recurring_coin_config_1"
+        visibility="2"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="8dp"
+        text="@string/pr_trade_bots_recurring_text_coinratioerror"/>
+</merge>

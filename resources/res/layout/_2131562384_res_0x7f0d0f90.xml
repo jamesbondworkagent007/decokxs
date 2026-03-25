@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    tag="layout/trade_impl_mp_home_create_bot_couple_layout_0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatTextView
+        textAppearance="@style/TextAppearance.Title.16SP.Semibold"
+        textColor="@color/ContentPrimary"
+        id="@+id/couple_title"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        text="@string/pr_marketplace_home_title_create_bot"/>
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/couple_recycler_view"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_16dp"
+        layout_below="@+id/couple_title"
+        overScrollMode="2"/>
+</RelativeLayout>

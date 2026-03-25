@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.Guideline
+        orientation="1"
+        id="@+id/line"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0xe="0.6"/>
+    <TextView
+        textAppearance="@style/TextAppearance.Title.14SP"
+        textColor="@color/ContentContrast"
+        ellipsize="3"
+        id="@+id/start"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        maxLines="2"
+        includeFontPadding="false"
+        layout_marginEnd="8dp"
+        NOT_FOUND_0xd="@+id/line"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x11="0"/>
+    <TextView
+        textAppearance="@style/TextAppearance.Title.14SP.Medium"
+        textColor="@color/ContentPrimary"
+        ellipsize="3"
+        gravity="0x800005"
+        id="@+id/end"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        maxLines="2"
+        includeFontPadding="false"
+        layout_marginStart="8dp"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xf="@+id/line"
+        NOT_FOUND_0x11="0"/>
+</merge>

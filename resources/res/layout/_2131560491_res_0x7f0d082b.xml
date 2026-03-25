@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    background="@drawable/_2131233889_res_0x7f080c61"
+    padding="3dp"
+    layout_width="24dp"
+    android:layout_height="24dp"
+    layout_marginEnd="@dimen/margin_2dp">
+    <ImageView
+        id="@+id/iv"
+        background="@drawable/_2131231224_res_0x7f0801f8"
+        layout_width="-1"
+        android:layout_height="match_parent"/>
+</FrameLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o.C55251xgS xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x10"
+    orientation="0"
+    id="@+id/tag"
+    tag="layout/layout_recurring_ok_tag_0"
+    layout_width="-2"
+    android:layout_height="wrap_content"
+    text="@string/pr_trade_mode_tag_most_popular"
+    layout_marginStart="4dp"
+    NOT_FOUND_0x8="-4"
+    NOT_FOUND_0x9="6"/>

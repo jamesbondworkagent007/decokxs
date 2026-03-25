@@ -1,0 +1,827 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pr_account_cedefi_tab_desc_network">
+        <item quantity="zero">لم يتم تفعيله على أي شبكة</item>
+        <item quantity="one">تم التفعيل على شبكة واحدة</item>
+        <item quantity="two">تم التفعيل على شبكتين</item>
+        <item quantity="few">تم التفعيل على {num} شبكات</item>
+        <item quantity="many">تم التفعيل على {num} شبكةً</item>
+        <item quantity="other">تم التفعيل على {num} شبكة</item>
+    </plurals>
+    <plurals name="pr_compliance_global_poa_label_files_uploaded">
+        <item quantity="zero">تم تحميل ملف ({number})</item>
+        <item quantity="one">تم تحميل ملف واحد ({number})</item>
+        <item quantity="two">تم تحميل ملفين ({number})</item>
+        <item quantity="few">تم تحميل ملفات ({number})</item>
+        <item quantity="many">تم تحميل ملفات ({number})</item>
+        <item quantity="other">تم تحميل ملفات ({number})</item>
+    </plurals>
+    <plurals name="pr_dcdbot_placeorder_toast_found_num_bot">
+        <item quantity="zero">لم يتم العثور على أي منتجات لك</item>
+        <item quantity="one">تم العثور على منتج {number} لك</item>
+        <item quantity="two">تم العثور على منتجين لك</item>
+        <item quantity="few">تم العثور على {number}منتجات لك</item>
+        <item quantity="many">تم العثور على {number}منتجًا لك</item>
+        <item quantity="other">تم العثور على {number}منتج لك</item>
+    </plurals>
+    <plurals name="pr_im_invite_user_dialog_text_upgrade_find_out_single_error">
+        <item quantity="zero">لقد أجرينا بعض التغييرات. حدِّث تطبيقك لمعرفة سبب تعذر إضافتها.</item>
+        <item quantity="one">لقد أجرينا بعض التغييرات. حدِّث تطبيقك لمعرفة سبب تعذر إضافتها.</item>
+        <item quantity="two">لقد أجرينا بعض التغييرات. حدِّث تطبيقك لمعرفة سبب تعذر إضافتها.</item>
+        <item quantity="few">لقد أجرينا بعض التغييرات. حدِّث تطبيقك لمعرفة سبب تعذر إضافتها.</item>
+        <item quantity="many">لقد أجرينا بعض التغييرات. حدِّث تطبيقك لمعرفة سبب تعذر إضافتها.</item>
+        <item quantity="other">لقد أجرينا بعض التغييرات. حدِّث تطبيقك لمعرفة سبب تعذر إضافتها.</item>
+    </plurals>
+    <plurals name="pr_invest_smartmoney_mid_alert_day">
+        <item quantity="zero">{num} يوم</item>
+        <item quantity="one">يوم واحد ({num})</item>
+        <item quantity="two">يومان ({num})</item>
+        <item quantity="few">{num} أيام</item>
+        <item quantity="many">{num} يومًا</item>
+        <item quantity="other">{num} يوم</item>
+    </plurals>
+    <plurals name="pr_invest_smartmoney_mid_alert_hour">
+        <item quantity="zero">{num} ساعة</item>
+        <item quantity="one">ساعة واحدة ({num})</item>
+        <item quantity="two">ساعتان ({num})</item>
+        <item quantity="few">{num} ساعات</item>
+        <item quantity="many">{num} ساعة</item>
+        <item quantity="other">{num} ساعة</item>
+    </plurals>
+    <plurals name="pr_invest_smartmoney_mid_alert_minute">
+        <item quantity="zero">{num} دقيقة</item>
+        <item quantity="one">دقيقة واحدة ({num})</item>
+        <item quantity="two">دقيقتان ({num})</item>
+        <item quantity="few">{num} دقائق</item>
+        <item quantity="many">{num} دقيقة</item>
+        <item quantity="other">{num} دقيقة</item>
+    </plurals>
+    <plurals name="pr_invest_smartmoney_mid_alert_second">
+        <item quantity="zero">{num} ثانية</item>
+        <item quantity="one">ثانية واحدة ({num})</item>
+        <item quantity="two">ثانيتان ({num})</item>
+        <item quantity="few">{num} ثوانٍ</item>
+        <item quantity="many">{num} ثانية</item>
+        <item quantity="other">{num} ثانية</item>
+    </plurals>
+    <plurals name="pr_investutxo_bot_textarea_desc_potential_risk">
+        <item quantity="zero">لقد اخترت {num} وحدات UTXO لإلغاء القفل. سيؤدي هذا إلى إضافة {numToken}، لكنه قد يتسبب أيضًا في خسارة الأصول الموجودة في هذه الـ UTXO. يرجى التأكد من أصولك قبل الإلغاء.</item>
+        <item quantity="one">لقد اخترت وحدة UTXO واحدة لإلغاء القفل. سيؤدي هذا إلى إضافة {numToken}، لكنه قد يتسبب أيضًا في خسارة الأصول الموجودة في هذه الـ UTXO. يرجى التأكد من أصولك قبل الإلغاء.</item>
+        <item quantity="two">لقد اخترت {num} وحدتي UTXO لإلغاء القفل. سيؤدي هذا إلى إضافة {numToken}، لكنه قد يتسبب أيضًا في خسارة الأصول الموجودة في هذه الـ UTXO. يرجى التأكد من أصولك قبل الإلغاء.</item>
+        <item quantity="few">لقد اخترت {num} وحدات UTXO لإلغاء القفل. سيؤدي هذا إلى إضافة {numToken}، لكنه قد يتسبب أيضًا في خسارة الأصول الموجودة في هذه الـ UTXO. يرجى التأكد من أصولك قبل الإلغاء.</item>
+        <item quantity="many">لقد اخترت {num} وحدة UTXO لإلغاء القفل. سيؤدي هذا إلى إضافة {numToken}، لكنه قد يتسبب أيضًا في خسارة الأصول الموجودة في هذه الـ UTXO. يرجى التأكد من أصولك قبل الإلغاء.</item>
+        <item quantity="other">لقد اخترت {num} وحدة UTXO لإلغاء القفل. سيؤدي هذا إلى إضافة {numToken}، لكنه قد يتسبب أيضًا في خسارة الأصول الموجودة في هذه الـ UTXO. يرجى التأكد من أصولك قبل الإلغاء.</item>
+    </plurals>
+    <plurals name="pr_message_call_text_user_others_v2">
+        <item quantity="zero">{user1} و{user2} ولا يوجد مستخدمون آخرون</item>
+        <item quantity="one">{user1} و{user2} ومستخدم واحد آخر</item>
+        <item quantity="two">{user1} و{user2} ومستخدمان آخران</item>
+        <item quantity="few">{user1} و{user2} و{num} مستخدمون آخرون</item>
+        <item quantity="many">{user1} و{user2} و{num} مستخدمًا آخرًا</item>
+        <item quantity="other">{user1} و{user2} و{num} مستخدم آخر</item>
+    </plurals>
+    <plurals name="pr_message_chat_header_num_reactions">
+        <item quantity="zero">بدون ردود أفعال</item>
+        <item quantity="one">رد فعل واحد</item>
+        <item quantity="two">ردَّي فعل اثنين</item>
+        <item quantity="few">{num} ردود أفعال</item>
+        <item quantity="many">{num} رد فعل</item>
+        <item quantity="other">{num} رد فعل</item>
+    </plurals>
+    <plurals name="pr_message_chat_label_unread_message_pl">
+        <item quantity="zero">رسائل غير مقروءة</item>
+        <item quantity="one">رسالة غير مقروءة</item>
+        <item quantity="two">رسالتان غير مقروءتين</item>
+        <item quantity="few">رسائل غير مقروءة</item>
+        <item quantity="many">رسائل غير مقروءة</item>
+        <item quantity="other">رسائل غير مقروءة</item>
+    </plurals>
+    <plurals name="pr_message_competition_textarea_climbed_var_pl">
+        <item quantity="zero">تقدّمت بـ {num} مركز</item>
+        <item quantity="one">تقدّمت بمركز واحد</item>
+        <item quantity="two">تقدّمت بمركزين</item>
+        <item quantity="few">تقدّمت بـ {num} مراكز</item>
+        <item quantity="many">تقدّمت بـ {num} مركزًا</item>
+        <item quantity="other">تقدّمت بـ {num} مركزًا</item>
+    </plurals>
+    <plurals name="pr_message_competition_textarea_dropped_var_pl">
+        <item quantity="zero">تراجعَ {num} مراكز</item>
+        <item quantity="one">تراجعَ مركزًا ({num})</item>
+        <item quantity="two">تراجعَ مركزين ({num})</item>
+        <item quantity="few">تراجعَ {num} مراكز</item>
+        <item quantity="many">تراجعَ {num} مركزًا</item>
+        <item quantity="other">تراجعَ {num} مركز</item>
+    </plurals>
+    <plurals name="pr_message_competition_textarea_ends_in_num_days_var_pl">
+        <item quantity="zero">{num} أيام</item>
+        <item quantity="one">يوم واحد</item>
+        <item quantity="two">يومين</item>
+        <item quantity="few">{num} أيام</item>
+        <item quantity="many">{num} يومًا</item>
+        <item quantity="other">{num} يومًا</item>
+    </plurals>
+    <plurals name="pr_message_competition_user_others_left">
+        <item quantity="zero">غادر {user} و{number} آخرون الفريق.</item>
+        <item quantity="one">غادر {user} و{number} آخر الفريق.</item>
+        <item quantity="two">غادر {user} و{number} آخران الفريق.</item>
+        <item quantity="few">غادر {user} و{number} آخرون الفريق.</item>
+        <item quantity="many">غادر {user} و{number} آخرون الفريق.</item>
+        <item quantity="other">غادر {user} و{number} آخرون الفريق.</item>
+    </plurals>
+    <plurals name="pr_message_group_admin_bulk_add_to_group_pl">
+        <item quantity="zero">أضاف {user1} {user2} و{number} آخرين إلى المجموعة.</item>
+        <item quantity="one">أضاف {user1} {user2} و{number} آخر إلى المجموعة.</item>
+        <item quantity="two">أضاف {user1} {user2} و{number} آخرَين إلى المجموعة.</item>
+        <item quantity="few">أضاف {user1} {user2} و{number} آخرين إلى المجموعة.</item>
+        <item quantity="many">أضاف {user1} {user2} و{number} آخرين إلى المجموعة.</item>
+        <item quantity="other">أضاف {user1} {user2} و{number} آخرين إلى المجموعة.</item>
+    </plurals>
+    <plurals name="pr_message_group_alertbanner_review_plural_key">
+        <item quantity="zero">مراجعة {num} طلب انضمام</item>
+        <item quantity="one">مراجعة {num} طلب انضمام</item>
+        <item quantity="two">مراجعة {num} طلب انضمام</item>
+        <item quantity="few">مراجعة {num} طلبات انضمام</item>
+        <item quantity="many">مراجعة {num} طلب انضمام</item>
+        <item quantity="other">مراجعة {num} طلب انضمام</item>
+    </plurals>
+    <plurals name="pr_message_group_bulk_add_admin_var_pl">
+        <item quantity="zero">أضاف {admin} {members} و{number} آخرين كمسؤولين.</item>
+        <item quantity="one">أضاف {admin} {members} و{number} آخر كمسؤول.</item>
+        <item quantity="two">أضاف {admin} {members} و{number} آخرين كمسؤولَين.</item>
+        <item quantity="few">أضاف {admin} {members} و{number} آخرين كمسؤولين.</item>
+        <item quantity="many">أضاف {admin} {members} و{number} آخرين كمسؤولين.</item>
+        <item quantity="other">أضاف {admin} {members} و{number} آخرين كمسؤولين.</item>
+    </plurals>
+    <plurals name="pr_message_group_bulk_add_admin_you_pl">
+        <item quantity="zero">أضافك {admin} و{number} آخرين كمسؤولين.</item>
+        <item quantity="one">أضافك {admin} و{number} آخر كمسؤول.</item>
+        <item quantity="two">أضافك {admin} و{number} آخرَين كمسؤولَين.</item>
+        <item quantity="few">أضافك {admin} و{number} آخرين كمسؤولين.</item>
+        <item quantity="many">أضافك {admin} و{number} آخرين كمسؤولين.</item>
+        <item quantity="other">أضافك {admin} و{number} آخرين كمسؤولين.</item>
+    </plurals>
+    <plurals name="pr_message_group_bulk_remove_admin_you_pl">
+        <item quantity="zero">أزالك {admin1} و{number} آخرين كمسؤولين.</item>
+        <item quantity="one">أزالك {admin1} و{number} واحد آخر كمسؤول.</item>
+        <item quantity="two">أزالك {admin1} و{number} آخرين كمسؤولَين.</item>
+        <item quantity="few">أزالك {admin1} و{number} آخرين كمسؤولين.</item>
+        <item quantity="many">أزالك {admin1} و{number} آخرين كمسؤولين.</item>
+        <item quantity="other">أزالك {admin1} و{number} آخرين كمسؤولين.</item>
+    </plurals>
+    <plurals name="pr_message_group_chat_removed_from_group_pl">
+        <item quantity="zero">لقد أزلت {user} و{number} غيره من المجموعة.</item>
+        <item quantity="one">لقد أزلت {user} و{number} غيره من المجموعة.</item>
+        <item quantity="two">لقد أزلت {user} و{number} غيره من المجموعة.</item>
+        <item quantity="few">لقد أزلت {user} و{number} غيره من المجموعة.</item>
+        <item quantity="many">لقد أزلت {user} و{number} غيره من المجموعة.</item>
+        <item quantity="other">لقد أزلت {user} و{number} غيره من المجموعة.</item>
+    </plurals>
+    <plurals name="pr_message_group_chat_removed_from_group_pl_var">
+        <item quantity="zero">{admin} أزال {user} و{number} مُستخدِمين آخرين من المجموعة.</item>
+        <item quantity="one">{admin} أزال {user} و{number} مُستخدِمًا آخرًا من المجموعة.</item>
+        <item quantity="two">{admin} أزال {user} و{number} مُستخدِمَين آخرَين من المجموعة.</item>
+        <item quantity="few">{admin} أزال {user} و{number} مُستخدِمين آخرين من المجموعة.</item>
+        <item quantity="many">{admin} أزال {user} و{number} مُستخدمًا آخرًا من المجموعة.</item>
+        <item quantity="other">{admin} أزال {user} و{number} مُستخدم آخر من المجموعة.</item>
+    </plurals>
+    <plurals name="pr_message_group_dialog_header_remove_member_pl">
+        <item quantity="zero">هل تريد إزالة الأعضاء المُحدَّدين؟</item>
+        <item quantity="one">هل تريد إزالة هذا العضو؟</item>
+        <item quantity="two">هل تريد إزالة العضوين المُحدَّدَين؟</item>
+        <item quantity="few">هل تريد إزالة الأعضاء المُحدَّدين؟</item>
+        <item quantity="many">هل تريد إزالة الأعضاء المُحدَّدين؟</item>
+        <item quantity="other">هل تريد إزالة الأعضاء المُحدَّدين؟</item>
+    </plurals>
+    <plurals name="pr_message_group_label_num_already_here_pl">
+        <item quantity="zero">{num} من جهات اتصالك موجودة بالفعل هنا</item>
+        <item quantity="one">جهة واحدة من جهات اتصالك موجود بالفعل هنا</item>
+        <item quantity="two">اثنان من جهات اتصالك موجودتان بالفعل هنا</item>
+        <item quantity="few">{num} جهات من جهات اتصالك موجودة بالفعل هنا</item>
+        <item quantity="many">{num} جهةً من جهات اتصالك موجودة بالفعل هنا</item>
+        <item quantity="other">{num} جهة من جهات اتصالك موجودة بالفعل هنا</item>
+    </plurals>
+    <plurals name="pr_message_group_textarea_bulk_remove_admin_var_pl">
+        <item quantity="zero">أزال {admin1} {admin2} و{number} آخرين كمسؤولين.</item>
+        <item quantity="one">أزال {admin1} {admin2} و{number} آخر كمسؤول.</item>
+        <item quantity="two">أزال {admin1} {admin2} و{number} آخرين كمسؤولَين.</item>
+        <item quantity="few">أزال {admin1} {admin2} و{number} آخرين كمسؤولين.</item>
+        <item quantity="many">أزال {admin1} {admin2} و{number} آخرين كمسؤولين.</item>
+        <item quantity="other">أزال {admin1} {admin2} و{number} آخرين كمسؤولين.</item>
+    </plurals>
+    <plurals name="pr_message_group_you_bulk_add_admin_pl">
+        <item quantity="zero">أضفت {members} و{number} آخرين كمسؤولين.</item>
+        <item quantity="one">أضفت {members} و{number} آخر كمسؤولين.</item>
+        <item quantity="two">أضفت {members} و{number} آخرَين كمسؤولين.</item>
+        <item quantity="few">أضفت {members} و{number} آخرين كمسؤولين.</item>
+        <item quantity="many">أضفت {members} و{number} آخرين كمسؤولين.</item>
+        <item quantity="other">أضفت {members} و{number} آخرين كمسؤولين.</item>
+    </plurals>
+    <plurals name="pr_message_group_you_bulk_add_to_group_pl">
+        <item quantity="zero">أضفت {users} و{number} آخر إلى المجموعة.</item>
+        <item quantity="one">أضفت {users} و{number} آخر إلى المجموعة.</item>
+        <item quantity="two">أضفت {users} و{number} آخرَين إلى المجموعة.</item>
+        <item quantity="few">أضفت {users} و{number} آخرين إلى المجموعة.</item>
+        <item quantity="many">أضفت {users} و{number} آخرين إلى المجموعة.</item>
+        <item quantity="other">أضفت {users} و{number} آخرين إلى المجموعة.</item>
+    </plurals>
+    <plurals name="pr_message_group_you_bulk_remove_admin_pl">
+        <item quantity="zero">أزلت {admins} و{number} آخرين كمسؤولين.</item>
+        <item quantity="one">أزلت {admins} و{number} آخر كمسؤولين.</item>
+        <item quantity="two">أزلت {admins} و{number} آخرين كمسؤولين.</item>
+        <item quantity="few">أزلت {admins} و{number} آخرين كمسؤولين.</item>
+        <item quantity="many">أزلت {admins} و{number} آخرًا كمسؤولين.</item>
+        <item quantity="other">أزلت {admins} و{number} آخر كمسؤولين.</item>
+    </plurals>
+    <plurals name="pr_message_info_text_read_by_num_members">
+        <item quantity="zero">تمت القراءة من قِبل {num} عضو</item>
+        <item quantity="one">تمت القراءة من قبل عضو واحد</item>
+        <item quantity="two">تمت القراءة من قِبل عضوين</item>
+        <item quantity="few">تمت القراءة من قبل {num} من الأعضاء</item>
+        <item quantity="many">تمت القراءة من قبل {num} من الأعضاء</item>
+        <item quantity="other">تمت القراءة من قبل {num} من الأعضاء</item>
+    </plurals>
+    <plurals name="pr_message_invite_user_dialog_text_cant_add_to_group_plural">
+        <item quantity="zero">ربما لديه إعدادات خصوصية قيد التشغيل، أو لم يضيفك مرة أخرى. لقد أرسلنا إليه دعوة بدلاً من ذلك.</item>
+        <item quantity="one">ربما لديه إعدادات خصوصية قيد التشغيل، أو لم يضيفك مرة أخرى. لقد أرسلنا إليه دعوة بدلاً من ذلك.</item>
+        <item quantity="two">ربما لديهما إعدادات خصوصية قيد التشغيل، أو لم يضيفاك مرة أخرى. لقد أرسلنا إليهما دعوة بدلاً من ذلك.</item>
+        <item quantity="few">ربما لديهم إعدادات خصوصية قيد التشغيل، أو لم يضيفوك مرة أخرى. لقد أرسلنا إليهم دعوة بدلاً من ذلك.</item>
+        <item quantity="many">ربما لديهم إعدادات خصوصية قيد التشغيل، أو لم يضيفوك مرة أخرى. لقد أرسلنا إليهم دعوة بدلاً من ذلك.</item>
+        <item quantity="other">ربما لديهم إعدادات خصوصية قيد التشغيل، أو لم يضيفوك مرة أخرى. لقد أرسلنا إليهم دعوة بدلاً من ذلك.</item>
+    </plurals>
+    <plurals name="pr_message_notice_dialog_header_remove_num_notices_pl">
+        <item quantity="zero">إزالة {num} ملاحظات؟</item>
+        <item quantity="one">إزالة {num} ملاحظة؟</item>
+        <item quantity="two">إزالة {num} ملاحظتين؟</item>
+        <item quantity="few">إزالة {num} ملاحظات؟</item>
+        <item quantity="many">إزالة {num} ملاحظة؟</item>
+        <item quantity="other">إزالة {num} ملاحظة؟</item>
+    </plurals>
+    <plurals name="pr_message_notice_textarea_removed_notice_pl">
+        <item quantity="zero">أزلتَ بعض الملاحظات.</item>
+        <item quantity="one">أزلتَ ملاحظة.</item>
+        <item quantity="two">أزلتَ بعض الملاحظات.</item>
+        <item quantity="few">أزلتَ بعض الملاحظات.</item>
+        <item quantity="many">أزلتَ بعض الملاحظات.</item>
+        <item quantity="other">أزلتَ بعض الملاحظات.</item>
+    </plurals>
+    <plurals name="pr_message_notice_textarea_removed_notice_pl_var">
+        <item quantity="zero">أزال {user} بعض الملاحظات.</item>
+        <item quantity="one">أزال {user} ملاحظة.</item>
+        <item quantity="two">أزال {user} بعض الملاحظات.</item>
+        <item quantity="few">أزال {user} بعض الملاحظات.</item>
+        <item quantity="many">أزال {user} بعض الملاحظات.</item>
+        <item quantity="other">أزال {user} بعض الملاحظات.</item>
+    </plurals>
+    <plurals name="pr_message_notice_toast_notice_removed_pl">
+        <item quantity="zero">لم تُحذَف أي ملاحظة</item>
+        <item quantity="one">حُذِفت ملاحظة</item>
+        <item quantity="two">حُذِفت ملاحظتان</item>
+        <item quantity="few">حُذِفت ملاحظات</item>
+        <item quantity="many">حُذِفت ملاحظة</item>
+        <item quantity="other">حُذِفت ملاحظة</item>
+    </plurals>
+    <plurals name="pr_message_paid_group_bttmsheet_title_add_admin_pl">
+        <item quantity="zero">هل تريد إضافة مسؤولين جدد؟</item>
+        <item quantity="one">هل تريد إضافة مسؤول جديد؟</item>
+        <item quantity="two">هل تريد إضافة مسؤولين جدد؟</item>
+        <item quantity="few">هل تريد إضافة مسؤولين جدد؟</item>
+        <item quantity="many">هل تريد إضافة مسؤولين جدد؟</item>
+        <item quantity="other">هل تريد إضافة مسؤولين جدد؟</item>
+    </plurals>
+    <plurals name="pr_message_planet_label_num_members_pl">
+        <item quantity="zero">{num} من الأعضاء</item>
+        <item quantity="one">{num} عضو</item>
+        <item quantity="two">{num} عضوان</item>
+        <item quantity="few">{num} أعضاء</item>
+        <item quantity="many">{num} عضوًا</item>
+        <item quantity="other">{num} عضو</item>
+    </plurals>
+    <plurals name="pr_message_share_desc_msg_cant_send_pl">
+        <item quantity="zero">لا يمكن للدردشات التي اخترتها استلام رسالتك للأسباب التالية:</item>
+        <item quantity="one">لا يمكن للدردشة التي اخترتها استلام رسالتك للسبب التالي:</item>
+        <item quantity="two">لا يمكن للدردشتين التين اخترتهما استلام رسالتك للأسباب التالية:</item>
+        <item quantity="few">لا يمكن للدردشات التي اخترتها استلام رسالتك للأسباب التالية:</item>
+        <item quantity="many">لا يمكن للدردشات التي اخترتها استلام رسالتك للأسباب التالية:</item>
+        <item quantity="other">لا يمكن للدردشات التي اخترتها استلام رسالتك للأسباب التالية:</item>
+    </plurals>
+    <plurals name="pr_message_share_desc_some_cant_share_pl">
+        <item quantity="zero">مع ذلك، لم تستلم بعض الدردشات رسالتك للأسباب التالية:</item>
+        <item quantity="one">مع ذلك، لم تستلم إحدى الدردشات رسالتك للسبب التالي:</item>
+        <item quantity="two">مع ذلك، لم تستلم دردشتان رسالتك للأسباب التالية:</item>
+        <item quantity="few">مع ذلك، لم تستلم بعض الدردشات رسالتك للأسباب التالية:</item>
+        <item quantity="many">مع ذلك، لم تستلم بعض الدردشات رسالتك للأسباب التالية:</item>
+        <item quantity="other">مع ذلك، لم تستلم بعض الدردشات رسالتك للأسباب التالية:</item>
+    </plurals>
+    <plurals name="pr_message_sticker_toast_sticker_removed_pl">
+        <item quantity="zero">تمت إزالة الملصقات</item>
+        <item quantity="one">تمت إزالة الملصق</item>
+        <item quantity="two">تمت إزالة الملصقين</item>
+        <item quantity="few">تمت إزالة الملصقات</item>
+        <item quantity="many">تمت إزالة الملصقات</item>
+        <item quantity="other">تمت إزالة الملصقات</item>
+    </plurals>
+    <plurals name="pr_orbit_profile_label_followers_pl">
+        <item quantity="zero">متابعين</item>
+        <item quantity="one">متابع</item>
+        <item quantity="two">متابعَين</item>
+        <item quantity="few">متابعين</item>
+        <item quantity="many">متابعًا</item>
+        <item quantity="other">متابِع</item>
+    </plurals>
+    <plurals name="pr_orbit_profile_livestream_text_num_views">
+        <item quantity="zero">لا توجد مشاهدات</item>
+        <item quantity="one">مشاهدة واحدة</item>
+        <item quantity="two">مشاهدتان</item>
+        <item quantity="few">{num} مشاهدات</item>
+        <item quantity="many">{num} مشاهدة</item>
+        <item quantity="other">{num} مشاهدة</item>
+    </plurals>
+    <plurals name="pr_orbit_profile_selectioncard_label_num_groups_pl">
+        <item quantity="zero">{num} مجموعات</item>
+        <item quantity="one">{num} مجموعة</item>
+        <item quantity="two">{num} مجموعتان</item>
+        <item quantity="few">{num} مجموعات</item>
+        <item quantity="many">{num} مجموعة</item>
+        <item quantity="other">{num} مجموعة</item>
+    </plurals>
+    <plurals name="pr_social_marketplace_feeds_num_followers">
+        <item quantity="zero">لا يوجد متابعون ({num})</item>
+        <item quantity="one">متابع واحد ({num})</item>
+        <item quantity="two">متابعان اثنان ({num})</item>
+        <item quantity="few">{num} متابعين</item>
+        <item quantity="many">{num} متابعًا</item>
+        <item quantity="other">{num} متابع</item>
+    </plurals>
+    <plurals name="pr_supportcenter_card_desc_open_tickets">
+        <item quantity="zero">{number} تذكرة مفتوحة</item>
+        <item quantity="one">تذكرة مفتوحة واحدة</item>
+        <item quantity="two">تذكرتان مفتوحتان ({number})</item>
+        <item quantity="few">{number} تذاكر مفتوحة</item>
+        <item quantity="many">{number} تذكرة مفتوحة</item>
+        <item quantity="other">{number} تذكرة مفتوحة</item>
+    </plurals>
+    <plurals name="pr_supportcenter_landing_recommendation_cards_plu">
+        <item quantity="zero">ليس هناك أية أمور يتطلب عليك مراعاتها</item>
+        <item quantity="one">يجب مراعاة هذا الأمر</item>
+        <item quantity="two">أمران يجب عليك مراعاتهما</item>
+        <item quantity="few">{number} أمور يجب عليك مراعاتها</item>
+        <item quantity="many">{number} أمرًا يجب عليك مراعاته</item>
+        <item quantity="other">{number} أمر يجب عليك مراعاته</item>
+    </plurals>
+    <plurals name="pr_supportcenter_landing_tag_issue_count">
+        <item quantity="zero">لا توجد مشاكل</item>
+        <item quantity="one">مشكلة واحدة</item>
+        <item quantity="two">مشكلتان</item>
+        <item quantity="few">{number} مشكلات</item>
+        <item quantity="many">{number} مشكلة</item>
+        <item quantity="other">{number} مشكلة</item>
+    </plurals>
+    <plurals name="pr_swaptrade_1swap_notification_selected_pools_reselect">
+        <item quantity="zero">لا تتوفر سيولة حاليًا في {num} مجموعة اخترتها. اختر المزيد من المجمّعات من OKX DEX للحصول على عروض الأسعار.</item>
+        <item quantity="one">لا تتوفر سيولة حاليًا في المجموعة الواحدة ({num}) التي اخترتها. اختر المزيد من المجموعات من OKX DEX للحصول على عروض الأسعار.</item>
+        <item quantity="two">لا تتوفر سيولة حاليًا في المجموعتين ({num}) اللتين اخترتهما. اختر المزيد من المجموعات من OKX DEX للحصول على عروض الأسعار.</item>
+        <item quantity="few">لا تتوفر سيولة حاليًا في {num} مجموعات اخترتها. اختر المزيد من المجموعات من OKX DEX للحصول على عروض الأسعار.</item>
+        <item quantity="many">لا تتوفر سيولة حاليًا في {num} مجموعة اخترتها. اختر المزيد من المجموعات من OKX DEX للحصول على عروض الأسعار.</item>
+        <item quantity="other">لا تتوفر سيولة حاليًا في {num} مجموعة اخترتها. اختر المزيد من المجموعات من OKX DEX للحصول على عروض الأسعار.</item>
+    </plurals>
+    <plurals name="pr_swaptrade_address_number">
+        <item quantity="zero">لا توجد عناوين</item>
+        <item quantity="one">عنوان واحد</item>
+        <item quantity="two">عنوانان</item>
+        <item quantity="few">{num} من العناوين</item>
+        <item quantity="many">{num} من العناوين</item>
+        <item quantity="other">{num} من العناوين</item>
+    </plurals>
+    <plurals name="pr_swaptrade_alert_toast_turned_off">
+        <item quantity="zero">لم يتم حذف تنبيهات لأي من العناوين</item>
+        <item quantity="one">تم حذف التنبيه لعنوان واحد</item>
+        <item quantity="two">تم حذف التنبيهات لعنوانيْن</item>
+        <item quantity="few">تم حذف التنبيهات لعدد {num} عناوين</item>
+        <item quantity="many">تم حذف التنبيهات لعدد {num} عنوانًا</item>
+        <item quantity="other">تم حذف التنبيهات لعدد {num} عنوان</item>
+    </plurals>
+    <plurals name="pr_swaptrade_alert_toast_turned_on">
+        <item quantity="zero">لم تتم إضافة تنبيهات لأي من العناوين</item>
+        <item quantity="one">تمت إضافة تنبيه لعنوان واحد</item>
+        <item quantity="two">تمت إضافة تنبيهات لعنوانيْن</item>
+        <item quantity="few">تمت إضافة تنبيهات لعدد {num} عناوين</item>
+        <item quantity="many">تمت إضافة تنبيهات لعدد {num} عنوانًا</item>
+        <item quantity="other">تمت إضافة تنبيهات لعدد {num} عنوان</item>
+    </plurals>
+    <plurals name="pr_swaptrade_bridge_dialog_this_transaction_requires_sign">
+        <item quantity="zero">تتطلب هذه المعاملة {num} توقيعات:</item>
+        <item quantity="one">تتطلب هذه المعاملة توقيعًا واحدًا:</item>
+        <item quantity="two">تتطلب هذه المعاملة توقيعين:</item>
+        <item quantity="few">تتطلب هذه المعاملة {num} توقيعات:</item>
+        <item quantity="many">تتطلب هذه المعاملة {num} توقيعًا:</item>
+        <item quantity="other">تتطلب هذه المعاملة {num} توقيع:</item>
+    </plurals>
+    <plurals name="pr_swaptrade_copytrade_30_days">
+        <item quantity="zero">{num} يوم</item>
+        <item quantity="one">يوم واحد</item>
+        <item quantity="two">يومان</item>
+        <item quantity="few">{num} أيام</item>
+        <item quantity="many">{num} يومًا</item>
+        <item quantity="other">{num} يوم</item>
+    </plurals>
+    <plurals name="pr_swaptrade_copytrade_reminder_renew_or_suspend_plural">
+        <item quantity="zero">تنتهي صلاحية الحساب الذكي في غضون {numDays} يوم. قم بالتجديد لتجنب انقطاعات التداول.</item>
+        <item quantity="one">تنتهي صلاحية الحساب الذكي في غضون يوم. قم بالتجديد لتجنب انقطاعات التداول.</item>
+        <item quantity="two">تنتهي صلاحية الحساب الذكي في غضون يومين. قم بالتجديد لتجنب انقطاعات التداول.</item>
+        <item quantity="few">تنتهي صلاحية الحساب الذكي في غضون {numDays} أيام. قم بالتجديد لتجنب انقطاعات التداول.</item>
+        <item quantity="many">تنتهي صلاحية الحساب الذكي في غضون {numDays} يومًا. قم بالتجديد لتجنب انقطاعات التداول.</item>
+        <item quantity="other">تنتهي صلاحية الحساب الذكي في غضون {numDays} يوم. قم بالتجديد لتجنب انقطاعات التداول.</item>
+    </plurals>
+    <plurals name="pr_swaptrade_copytrade_status_hrs">
+        <item quantity="zero">{num} ساعات</item>
+        <item quantity="one">ساعة واحدة</item>
+        <item quantity="two">ساعتان</item>
+        <item quantity="few">{num} ساعات</item>
+        <item quantity="many">{num} ساعةً</item>
+        <item quantity="other">{num} ساعةٍ</item>
+    </plurals>
+    <plurals name="pr_swaptrade_copytrade_status_mins">
+        <item quantity="zero">{num} دقائق</item>
+        <item quantity="one">دقيقة واحدة</item>
+        <item quantity="two">دقيقتان</item>
+        <item quantity="few">{num} دقائق</item>
+        <item quantity="many">{num} دقائق</item>
+        <item quantity="other">{num} دقائق</item>
+    </plurals>
+    <plurals name="pr_swaptrade_header_sources_selected">
+        <item quantity="zero">لا توجد مصادر</item>
+        <item quantity="one">مصدر واحد</item>
+        <item quantity="two">مصدران</item>
+        <item quantity="few">{num} من المصادر</item>
+        <item quantity="many">{num} من المصادر</item>
+        <item quantity="other">{num} من المصادر</item>
+    </plurals>
+    <plurals name="pr_swaptrade_market_title_confirm_unfollow_all_tab_case">
+        <item quantity="zero">هل أنت متأكد أنك تريد إلغاء متابعة {num} عنوان من هذه المجموعة؟</item>
+        <item quantity="one">هل أنت متأكد أنك تريد إلغاء متابعة عنوان واحد من هذه المجموعة؟</item>
+        <item quantity="two">هل أنت متأكد أنك تريد إلغاء متابعة عنوانين من هذه المجموعة؟</item>
+        <item quantity="few">هل أنت متأكد أنك تريد إلغاء متابعة {num} عناوين من هذه المجموعة؟</item>
+        <item quantity="many">هل أنت متأكد أنك تريد إلغاء متابعة {num} عنوانًا من هذه المجموعة؟</item>
+        <item quantity="other">هل أنت متأكد أنك تريد إلغاء متابعة {num} عنوان من هذه المجموعة؟</item>
+    </plurals>
+    <plurals name="pr_swaptrade_market_title_total_tokens">
+        <item quantity="zero">{num} عملة رمزية إجمالاً</item>
+        <item quantity="one">{num} عملة رمزية إجمالاً</item>
+        <item quantity="two">{num} عملتان رمزيتان إجمالاً</item>
+        <item quantity="few">{num} عملاتٍ رمزية إجمالاً</item>
+        <item quantity="many">{num} عملةً رمزية إجمالاً</item>
+        <item quantity="other">{num} عملة رمزية إجمالاً</item>
+    </plurals>
+    <plurals name="pr_swaptrade_market_title_unfollow_message">
+        <item quantity="zero">هل أنت متأكد أنك تريد إلغاء متابعة {num} من العناوين من هذه المجموعة؟</item>
+        <item quantity="one">هل أنت متأكد أنك تريد إلغاء متابعة عنوان واحد من هذه المجموعة؟</item>
+        <item quantity="two">هل أنت متأكد أنك تريد إلغاء متابعة عنوانين من هذه المجموعة؟</item>
+        <item quantity="few">هل أنت متأكد أنك تريد إلغاء متابعة {num} من العناوين من هذه المجموعة؟</item>
+        <item quantity="many">هل أنت متأكد أنك تريد إلغاء متابعة {num} من العناوين من هذه المجموعة؟</item>
+        <item quantity="other">هل أنت متأكد أنك تريد إلغاء متابعة {num} من العناوين من هذه المجموعة؟</item>
+    </plurals>
+    <plurals name="pr_swaptrade_smart_account_reminder_desc_renew_smart_account_days">
+        <item quantity="zero">ستنتهي صلاحية الحساب الذكي خلال {num} يوم. سيتم تعليق الطلبات المفتوحة بمجرد انتهاء صلاحيتها.</item>
+        <item quantity="one">ستنتهي صلاحية الحساب الذكي خلال يوم واحد. سيتم تعليق الطلبات المفتوحة بمجرد انتهاء صلاحيتها.</item>
+        <item quantity="two">ستنتهي صلاحية الحساب الذكي خلال يومين. سيتم تعليق الطلبات المفتوحة بمجرد انتهاء صلاحيتها.</item>
+        <item quantity="few">ستنتهي صلاحية الحساب الذكي خلال {num} أيام. سيتم تعليق الطلبات المفتوحة بمجرد انتهاء صلاحيتها.</item>
+        <item quantity="many">ستنتهي صلاحية الحساب الذكي خلال {num} يومًا. سيتم تعليق الطلبات المفتوحة بمجرد انتهاء صلاحيتها.</item>
+        <item quantity="other">ستنتهي صلاحية الحساب الذكي خلال {num} يومًا. سيتم تعليق الطلبات المفتوحة بمجرد انتهاء صلاحيتها.</item>
+    </plurals>
+    <plurals name="pr_swaptrade_successfully_added_toast">
+        <item quantity="zero">لم يتم النقل إلى أي مجموعة</item>
+        <item quantity="one">تم النقل بنجاح إلى مجموعة واحدة</item>
+        <item quantity="two">تم النقل بنجاح إلى مجموعتين</item>
+        <item quantity="few">تم النقل بنجاح إلى {num} مجموعات</item>
+        <item quantity="many">تم النقل بنجاح إلى {num} مجموعة</item>
+        <item quantity="other">تم النقل بنجاح إلى {num} مجموعة</item>
+    </plurals>
+    <plurals name="pr_swaptrade_toast_no_liquidity_provider_alert_pool">
+        <item quantity="zero">لقد تم تحويلك إلى مزود طرف ثالث نظرًا لعدم وجود سيولة في {num} من المجمعات المختارة. أعد اختيار المجمعات للتداول عبر مجمّع DEX الخاص بـ OKX.</item>
+        <item quantity="one">لقد تم تحويلك إلى مزود طرف ثالث نظرًا لعدم وجود سيولة في المجمع المختار. أعد اختيار المجمعات للتداول عبر مجمّع DEX الخاص بـ OKX.</item>
+        <item quantity="two">لقد تم تحويلك إلى مزود طرف ثالث نظرًا لعدم وجود سيولة في {num} من المجمعات المختارة. أعد اختيار المجمعات للتداول عبر مجمّع DEX الخاص بـ OKX.</item>
+        <item quantity="few">لقد تم تحويلك إلى مزود طرف ثالث نظرًا لعدم وجود سيولة في {num} مجمعات مختارة. أعد اختيار المجمعات للتداول عبر مجمّع DEX الخاص بـ OKX.</item>
+        <item quantity="many">لقد تم تحويلك إلى مزود طرف ثالث نظرًا لعدم وجود سيولة في {num} مجمعًا مختارًا. أعد اختيار المجمعات للتداول عبر مجمّع DEX الخاص بـ OKX.</item>
+        <item quantity="other">لقد تم تحويلك إلى مزود طرف ثالث نظرًا لعدم وجود سيولة في {num} مجمع مختار. أعد اختيار المجمعات للتداول عبر مجمّع DEX الخاص بـ OKX.</item>
+    </plurals>
+    <plurals name="pr_swaptrade_token_detail_label_num_txn">
+        <item quantity="zero">{num} معاملات</item>
+        <item quantity="one">معاملة {num}</item>
+        <item quantity="two">معاملتان {num}</item>
+        <item quantity="few">{num} معاملات</item>
+        <item quantity="many">{num} معاملة</item>
+        <item quantity="other">{num} معاملة</item>
+    </plurals>
+    <plurals name="pr_swaptrade_tracker_textarea_activity">
+        <item quantity="zero"># نشاط جديد</item>
+        <item quantity="one">نشاط جديد واحد (#)</item>
+        <item quantity="two">نشاطان جديدان (#)</item>
+        <item quantity="few"># أنشطة جديدة</item>
+        <item quantity="many"># نشاطًا جديدًا</item>
+        <item quantity="other"># نشاط جديد</item>
+    </plurals>
+    <plurals name="pr_trade_analysis_header_numd_pnl">
+        <item quantity="zero">الأرباح والخسائر في {num} يوم</item>
+        <item quantity="one">الأرباح والخسائر في يوم ({num})</item>
+        <item quantity="two">الأرباح والخسائر في يومين ({num})</item>
+        <item quantity="few">الأرباح والخسائر في {num} أيام</item>
+        <item quantity="many">الأرباح والخسائر في {num} يومًا</item>
+        <item quantity="other">الأرباح والخسائر في {num} يوم</item>
+    </plurals>
+    <plurals name="pr_trade_card_title_cumulative_perpetual_pnl_last">
+        <item quantity="zero">الأرباح والخسائر التراكمية الدائمة (في آخر {number} يوم)</item>
+        <item quantity="one">الأرباح والخسائر التراكمية الدائمة (في آخر يوم ({number}))</item>
+        <item quantity="two">الأرباح والخسائر التراكمية الدائمة (في آخر يومين ({number}))</item>
+        <item quantity="few">الأرباح والخسائر التراكمية الدائمة (في آخر {number} أيام)</item>
+        <item quantity="many">الأرباح والخسائر التراكمية الدائمة (في آخر {number} يومًا)</item>
+        <item quantity="other">الأرباح والخسائر التراكمية الدائمة (في آخر {number} يوم)</item>
+    </plurals>
+    <plurals name="pr_trade_card_title_top_3_contracts_last_number_days">
+        <item quantity="zero">أفضل 3 عقود آجلة (آخر {number} أيام)</item>
+        <item quantity="one">أفضل 3 عقود آجلة (آخر يوم واحد)</item>
+        <item quantity="two">أفضل 3 عقود آجلة (آخر يومين)</item>
+        <item quantity="few">أفضل 3 عقود آجلة (آخر {number} أيام)</item>
+        <item quantity="many">أفضل 3 عقود آجلة (آخر {number} يومًا)</item>
+        <item quantity="other">أفضل 3 عقود آجلة (آخر {number} يوم)</item>
+    </plurals>
+    <plurals name="pr_trade_card_title_top_3_long_last_number_days">
+        <item quantity="zero">أفضل 3 عقود آجلة طويلة (آخر {number} أيام)</item>
+        <item quantity="one">أفضل 3 عقود آجلة طويلة (آخر يوم واحد)</item>
+        <item quantity="two">أفضل 3 عقود آجلة طويلة (آخر يومين)</item>
+        <item quantity="few">أفضل 3 عقود آجلة طويلة (آخر {number} أيام)</item>
+        <item quantity="many">أفضل 3 عقود آجلة طويلة (آخر {number} يومًا)</item>
+        <item quantity="other">أفضل 3 عقود آجلة طويلة (آخر {number} يوم)</item>
+    </plurals>
+    <plurals name="pr_trade_card_title_top_3_short_last_number_days">
+        <item quantity="zero">أفضل 3 عقود آجلة قصيرة (آخر {number} أيام)</item>
+        <item quantity="one">أفضل 3 عقود آجلة قصيرة (آخر يوم واحد)</item>
+        <item quantity="two">أفضل 3 عقود آجلة قصيرة (آخر يومين)</item>
+        <item quantity="few">أفضل 3 عقود آجلة قصيرة (آخر {number} أيام)</item>
+        <item quantity="many">أفضل 3 عقود آجلة قصيرة (آخر {number} يومًا)</item>
+        <item quantity="other">أفضل 3 عقود آجلة قصيرة (آخر {number} يوم)</item>
+    </plurals>
+    <plurals name="pr_trade_charts_num_bars">
+        <item quantity="zero">{num} أشرطة</item>
+        <item quantity="one">{num} شريط واحد</item>
+        <item quantity="two">{num} شريطان</item>
+        <item quantity="few">{num} أشرطة</item>
+        <item quantity="many">{num} أشرطة</item>
+        <item quantity="other">{num} أشرطة</item>
+    </plurals>
+    <plurals name="pr_trade_discover_numd_ago">
+        <item quantity="zero">منذ {num} يوم</item>
+        <item quantity="one">منذ يوم {num}</item>
+        <item quantity="two">منذ يومَين {num}</item>
+        <item quantity="few">منذ {num} أيام</item>
+        <item quantity="many">منذ {num} يومًا</item>
+        <item quantity="other">منذ {num} يوم</item>
+    </plurals>
+    <plurals name="pr_trade_discover_numh_ago">
+        <item quantity="zero">منذ {num} ساعة</item>
+        <item quantity="one">منذ ساعة {num}</item>
+        <item quantity="two">منذ ساعتَين {num}</item>
+        <item quantity="few">منذ {num} ساعات</item>
+        <item quantity="many">منذ {num} ساعة</item>
+        <item quantity="other">منذ {num} ساعة</item>
+    </plurals>
+    <plurals name="pr_trade_discover_numm_ago">
+        <item quantity="zero">منذ {num} دقيقة</item>
+        <item quantity="one">منذ دقيقة {num}</item>
+        <item quantity="two">منذ دقيقتَين {num}</item>
+        <item quantity="few">منذ {num} دقائق</item>
+        <item quantity="many">منذ {num} دقيقة</item>
+        <item quantity="other">منذ {num} دقيقة</item>
+    </plurals>
+    <plurals name="pr_trade_discover_nums_ago">
+        <item quantity="zero">منذ {num} ثانية</item>
+        <item quantity="one">منذ ثانية {num}</item>
+        <item quantity="two">منذ ثانيتَين {num}</item>
+        <item quantity="few">منذ {num} ثوانٍ</item>
+        <item quantity="many">منذ {num} ثانية</item>
+        <item quantity="other">منذ {num} ثانية</item>
+    </plurals>
+    <plurals name="pr_trade_feed_num_answered">
+        <item quantity="zero">صوَّت {num}</item>
+        <item quantity="one">صوَّت ({num})</item>
+        <item quantity="two">صوَّت ({num})</item>
+        <item quantity="few">صوَّت {num}</item>
+        <item quantity="many">صوَّت {num}</item>
+        <item quantity="other">صوَّت {num}</item>
+    </plurals>
+    <plurals name="pr_trade_general_timeframe_days_variable">
+        <item quantity="zero">{num} يوم</item>
+        <item quantity="one">{num} يوم واحد</item>
+        <item quantity="two">{num} يومان</item>
+        <item quantity="few">{num} أيام</item>
+        <item quantity="many">{num} يومًا</item>
+        <item quantity="other">{num} يوم</item>
+    </plurals>
+    <plurals name="pr_trade_general_timeframe_days_variable_tian">
+        <item quantity="zero">{num} يوم</item>
+        <item quantity="one">{num} يوم واحد</item>
+        <item quantity="two">{num} يومان</item>
+        <item quantity="few">{num} أيام</item>
+        <item quantity="many">{num} يومًا</item>
+        <item quantity="other">{num} يوم</item>
+    </plurals>
+    <plurals name="pr_trade_general_timeframe_hours_update">
+        <item quantity="zero">{num} ساعة</item>
+        <item quantity="one">{num} ساعة واحدة</item>
+        <item quantity="two">{num} ساعتان</item>
+        <item quantity="few">{num} ساعات</item>
+        <item quantity="many">{num} ساعة</item>
+        <item quantity="other">{num} ساعة</item>
+    </plurals>
+    <plurals name="pr_trade_general_timeframe_minutes_update">
+        <item quantity="zero">{num} دقيقة</item>
+        <item quantity="one">دقيقة واحدة ({num})</item>
+        <item quantity="two">دقيقتان ({num})</item>
+        <item quantity="few">{num} دقائق</item>
+        <item quantity="many">{num} دقيقة</item>
+        <item quantity="other">{num} دقيقة</item>
+    </plurals>
+    <plurals name="pr_trade_home_desc_num_hours">
+        <item quantity="zero">{num} ساعات</item>
+        <item quantity="one">{num} ساعة</item>
+        <item quantity="two">{num} ساعتان</item>
+        <item quantity="few">{num} ساعات</item>
+        <item quantity="many">{num} ساعة</item>
+        <item quantity="other">{num} ساعة</item>
+    </plurals>
+    <plurals name="pr_trade_marketevents_header_num_related_posts">
+        <item quantity="zero">{num} لا توجد منشورات ذات صلة</item>
+        <item quantity="one">{num} منشور ذو صلة</item>
+        <item quantity="two">{num} منشوران ذوا صلة</item>
+        <item quantity="few">{num} منشورات ذات صلة</item>
+        <item quantity="many">{num} منشورًا ذات صلة</item>
+        <item quantity="other">{num} منشور ذي صلة</item>
+    </plurals>
+    <plurals name="pr_trade_marketevents_label_num_posts">
+        <item quantity="zero">{num} منشورات</item>
+        <item quantity="one">{num} منشور</item>
+        <item quantity="two">{num} منشوران</item>
+        <item quantity="few">{num} منشورات</item>
+        <item quantity="many">{num} منشورًا</item>
+        <item quantity="other">{num} منشور</item>
+    </plurals>
+    <plurals name="pr_trade_orbit_title_num_days">
+        <item quantity="zero">{num} يوم</item>
+        <item quantity="one">يوم ({num})</item>
+        <item quantity="two">يومان ({num})</item>
+        <item quantity="few">{num} أيام</item>
+        <item quantity="many">{num} يومًا</item>
+        <item quantity="other">{num} يوم</item>
+    </plurals>
+    <plurals name="pr_trade_orbit_title_num_years">
+        <item quantity="zero">{num} سنة</item>
+        <item quantity="one">سنة ({num})</item>
+        <item quantity="two">سنتان ({num})</item>
+        <item quantity="few">{num} سنوات</item>
+        <item quantity="many">{num} سنة</item>
+        <item quantity="other">{num} سنة</item>
+    </plurals>
+    <plurals name="pr_trade_tokenunlocks_countdown_numd">
+        <item quantity="zero">لا يوجد أيام ({num})</item>
+        <item quantity="one">يوم واحد ({num})</item>
+        <item quantity="two">يومان ({num})</item>
+        <item quantity="few">{num} أيام</item>
+        <item quantity="many">{num} يومًا</item>
+        <item quantity="other">{num} يوم</item>
+    </plurals>
+    <plurals name="pr_trade_tokenunlocks_num_days_ago">
+        <item quantity="zero">منذ {num} أيام</item>
+        <item quantity="one">منذ يومٍ واحد ({num})</item>
+        <item quantity="two">منذ يومين ({num})</item>
+        <item quantity="few">منذ {num} أيام</item>
+        <item quantity="many">منذ {num} يومًا</item>
+        <item quantity="other">منذ {num} يومٍ</item>
+    </plurals>
+    <plurals name="pr_wallet_approval_alert_subtitle_num_risk_new">
+        <item quantity="zero">{count} موافقة محفوفة بالمخاطر</item>
+        <item quantity="one">موافقة واحدة ({count}) محفوفة بالمخاطر</item>
+        <item quantity="two">موافقتان ({count}) محفوفتان بالمخاطر</item>
+        <item quantity="few">{count} موافقات محفوفة بالمخاطر</item>
+        <item quantity="many">{count} موافقة محفوفة بالمخاطر</item>
+        <item quantity="other">{count} موافقة محفوفة بالمخاطر</item>
+    </plurals>
+    <plurals name="pr_wallet_approval_textbtn_hide_num_approval">
+        <item quantity="zero">عرض أقل</item>
+        <item quantity="one">عرض أقل</item>
+        <item quantity="two">عرض أقل</item>
+        <item quantity="few">عرض أقل</item>
+        <item quantity="many">عرض أقل</item>
+        <item quantity="other">عرض أقل</item>
+    </plurals>
+    <plurals name="pr_wallet_approve_alert_risky_approvals">
+        <item quantity="zero">{num} موافقة محفوفة بالمخاطر</item>
+        <item quantity="one">موافقة واحدة ({num}) محفوفة بالمخاطر</item>
+        <item quantity="two">موافقتان ({num}) محفوفتان بالمخاطر</item>
+        <item quantity="few">{num} موافقات محفوفة بالمخاطر</item>
+        <item quantity="many">{num} موافقة محفوفة بالمخاطر</item>
+        <item quantity="other">{num} موافقة محفوفة بالمخاطر</item>
+    </plurals>
+    <plurals name="pr_wallet_connection_text_num_network">
+        <item quantity="zero">لا توجد شبكات ({num})</item>
+        <item quantity="one">شبكة واحدة (1)</item>
+        <item quantity="two">شبكتان ({num})</item>
+        <item quantity="few">{num} شبكات</item>
+        <item quantity="many">{num} شبكة</item>
+        <item quantity="other">{num} شبكة</item>
+    </plurals>
+    <plurals name="pr_wallet_connection_title_connected_to_num_networks">
+        <item quantity="zero">تم الربط إلى {num} شبكة</item>
+        <item quantity="one">تم الربط إلى شبكة واحدة</item>
+        <item quantity="two">تم الربط إلى شبكتين</item>
+        <item quantity="few">تم الربط إلى {num} شبكات</item>
+        <item quantity="many">تم الربط إلى {num} شبكة</item>
+        <item quantity="other">تم الربط إلى {num} شبكة</item>
+    </plurals>
+    <plurals name="pr_wallet_function_emptystate_num_unavailable_hidden">
+        <item quantity="zero">غير متاح لتحويل {num} عملة رمزية.</item>
+        <item quantity="one">غير متاح لتحويل عملة رمزية واحدة.</item>
+        <item quantity="two">غير متاح لتحويل عملتين رمزيتين.</item>
+        <item quantity="few">غير متاح لتحويل {num} عملات رمزية.</item>
+        <item quantity="many">غير متاح لتحويل {num} عملة رمزية.</item>
+        <item quantity="other">غير متاح لتحويل {num} عملة رمزية.</item>
+    </plurals>
+    <plurals name="pr_wallet_function_label_num_swaps">
+        <item quantity="zero">{num} عملات رمزية</item>
+        <item quantity="one">عملة رمزية واحدة</item>
+        <item quantity="two">عملتان رمزيتان</item>
+        <item quantity="few">{num} عملات رمزية</item>
+        <item quantity="many">{num} عملات رمزية</item>
+        <item quantity="other">{num} عملات رمزية</item>
+    </plurals>
+    <plurals name="pr_wallet_function_notification_num_tokens_noquote">
+        <item quantity="zero">غير متاح لتحويل {num} عملة رمزية بدون عروض أسعار.</item>
+        <item quantity="one">غير متاح لتحويل عملة رمزية واحدة بدون عروض أسعار.</item>
+        <item quantity="two">غير متاح لتحويل عملتين رمزيتين بدون عروض أسعار.</item>
+        <item quantity="few">غير متاح لتحويل {num} عملات رمزية بدون عروض أسعار.</item>
+        <item quantity="many">غير متاح لتحويل {num} عملة رمزية بدون عروض أسعار.</item>
+        <item quantity="other">غير متاح لتحويل {num} عملة رمزية بدون عروض أسعار.</item>
+    </plurals>
+    <plurals name="pr_wallet_function_notification_title_num_tokens_converted">
+        <item quantity="zero">تم تحويل {num} عملات رمزية</item>
+        <item quantity="one">تم تحويل عملة رمزية واحدة</item>
+        <item quantity="two">تم تحويل عملتين رمزيتين</item>
+        <item quantity="few">تم تحويل {num} عملات رمزية</item>
+        <item quantity="many">تم تحويل {num} عملة رمزية</item>
+        <item quantity="other">تم تحويل {num} عملة رمزية</item>
+    </plurals>
+    <plurals name="pr_wallet_function_title_converting_num_tokens">
+        <item quantity="zero">تحويل {num} عملة رمزية</item>
+        <item quantity="one">تحويل عملة رمزية واحدة ({num})</item>
+        <item quantity="two">تحويل عملتين رمزيتين اثنتين ({num})</item>
+        <item quantity="few">تحويل {num} عملات رمزية</item>
+        <item quantity="many">تحويل {num} عملة رمزية</item>
+        <item quantity="other">تحويل {num} عملة رمزية</item>
+    </plurals>
+    <plurals name="pr_wallet_multisend_alertbanner_desc_num_address_confirm">
+        <item quantity="zero">يجب عليك التحقق من {num} عنوان استلام</item>
+        <item quantity="one">يجب عليك التحقق من عنوان استلام واحد ({num})</item>
+        <item quantity="two">يجب عليك التحقق من عنواني استلام ({num})</item>
+        <item quantity="few">يجب عليك التحقق من {num} عناوين استلام</item>
+        <item quantity="many">يجب عليك التحقق من {num} عنوان استلام</item>
+        <item quantity="other">يجب عليك التحقق من {num} عنوان استلام</item>
+    </plurals>
+    <plurals name="pr_wallet_multisend_input_num_transaction">
+        <item quantity="zero">تشمل {num} معاملة</item>
+        <item quantity="one">تشمل معاملة واحدة ({num})</item>
+        <item quantity="two">تشمل معاملتين ({num})</item>
+        <item quantity="few">تشمل {num} معاملات</item>
+        <item quantity="many">تشمل {num} معاملة</item>
+        <item quantity="other">تشمل {num} معاملة</item>
+    </plurals>
+    <plurals name="pr_wallet_multisend_reminder_desc_current_scenario">
+        <item quantity="zero">تم إخفاء {num} محافظ غير مدعومة.</item>
+        <item quantity="one">تم إخفاء محفظة واحدة غير مدعومة.</item>
+        <item quantity="two">تم إخفاء محفظتين غير مدعومتين.</item>
+        <item quantity="few">تم إخفاء {num} محافظ غير مدعومة.</item>
+        <item quantity="many">تم إخفاء {num} محفظة غير مدعومة.</item>
+        <item quantity="other">تم إخفاء {num} محفظة غير مدعومة.</item>
+    </plurals>
+    <plurals name="pr_wallet_search_desc_num_assets">
+        <item quantity="zero">لا يوجد ثروة</item>
+        <item quantity="one">ثروة واحدة</item>
+        <item quantity="two">ثروتان</item>
+        <item quantity="few">{num} الثروات</item>
+        <item quantity="many">{num} ثروة</item>
+        <item quantity="other">{num} ثروة</item>
+    </plurals>
+    <plurals name="pr_wallet_settings_reminder_desc_fail_check">
+        <item quantity="zero">عثرت عملية الفحص على {num} خطر في جهازك.</item>
+        <item quantity="one">عثرت عملية الفحص على خطر {num} في جهازك.</item>
+        <item quantity="two">عثرت عملية الفحص على خطرين {num} في جهازك.</item>
+        <item quantity="few">عثرت عملية الفحص على {num} مخاطر في جهازك.</item>
+        <item quantity="many">عثرت عملية الفحص على {num} خطرًا في جهازك.</item>
+        <item quantity="other">عثرت عملية الفحص على {num} خطر في جهازك.</item>
+    </plurals>
+    <plurals name="pr_wallet_subtitle_non_interactive_address">
+        <item quantity="zero">تطبيق لامركزي ({count})</item>
+        <item quantity="one">تطبيق لامركزي واحد ({count})</item>
+        <item quantity="two">تطبيقان لامركزيان ({count})</item>
+        <item quantity="few">تطبيقات لامركزية ({count})</item>
+        <item quantity="many">تطبيقًا لامركزيًا ({count})</item>
+        <item quantity="other">تطبيق لامركزي ({count})</item>
+    </plurals>
+</resources>

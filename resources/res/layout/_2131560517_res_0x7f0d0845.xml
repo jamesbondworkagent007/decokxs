@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/item_fiat_crypto_detail_order_empty_0"
+    background="@color/white_background_color"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <TextView
+        gravity="0x11"
+        layout_gravity="0x1"
+        id="@+id/tv_empty"
+        paddingBottom="80dp"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/height_80dp"
+        text="@string/pr_buy_text_order_list_empty_title"
+        drawablePadding="8dp"
+        layout_marginStart="@dimen/common_page_edge_space"
+        layout_marginEnd="@dimen/common_page_edge_space"
+        NOT_FOUND_0xd="@drawable/_2131232531_res_0x7f080713"/>
+</FrameLayout>

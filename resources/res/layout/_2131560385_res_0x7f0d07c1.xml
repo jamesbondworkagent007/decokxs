@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="0"
+    paddingLeft="@dimen/padding_16dp"
+    paddingTop="@dimen/padding_24dp"
+    paddingRight="@dimen/padding_16dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingHorizontal="@dimen/padding_16dp">
+    <ImageView
+        id="@+id/head"
+        visibility="2"
+        layout_width="@dimen/width_40dp"
+        android:layout_height="@dimen/height_40dp"
+        layout_marginEnd="@dimen/margin_16dp"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x10="0"/>
+    <LinearLayout
+        orientation="1"
+        layout_width="-1"
+        android:layout_height="wrap_content">
+        <TextView
+            textSize="@dimen/text_size_16sp"
+            textColor="@color/okTradeG900"
+            id="@+id/name"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            fontFamily="@font/font_alpha_regular"/>
+        <TextView
+            textSize="@dimen/text_size_14sp"
+            textColor="@color/okG400"
+            id="@+id/position"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            fontFamily="@font/font_alpha_regular"/>
+        <TextView
+            textSize="@dimen/text_size_14sp"
+            textColor="@color/okTradeG700"
+            id="@+id/introduce"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            layout_marginTop="@dimen/margin_8dp"
+            fontFamily="@font/font_alpha_regular"
+            lineHeight="22dp"/>
+    </LinearLayout>
+</LinearLayout>

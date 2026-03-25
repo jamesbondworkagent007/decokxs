@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x11"
+    layout_gravity="0x11"
+    orientation="1"
+    background="@color/okim_panel_bg"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <androidx.viewpager2.widget.ViewPager2
+        scrollbarSize="0dp"
+        gravity="0x11"
+        id="@+id/plugins_view_pager"
+        scrollbars="horizontal"
+        layout_width="-1"
+        android:layout_height="match_parent"
+        overScrollMode="2"/>
+</LinearLayout>

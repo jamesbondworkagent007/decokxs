@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.okinc.uilab.item.OKRegularCell xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/orc_parent"
+    tag="layout/item_defi_root_wallet_backup_0"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    NOT_FOUND_0xe="@dimen/padding_24dp">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        orientation="0"
+        id="@+id/ll_content"
+        layout_width="-2"
+        android:layout_height="wrap_content">
+        <TextView
+            textAppearance="@style/Label_2_Regular"
+            textColor="@color/red_r500"
+            layout_gravity="0x10"
+            id="@+id/tv_backup_status"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            layout_marginEnd="4dp"
+            NOT_FOUND_0xa="0"
+            NOT_FOUND_0xc="@+id/iv_right_action"
+            NOT_FOUND_0xd="0"/>
+        <ImageView
+            layout_gravity="0x10"
+            id="@+id/iv_right_action"
+            layout_width="12dp"
+            android:layout_height="12dp"
+            src="@drawable/_2131232353_res_0x7f080661"
+            NOT_FOUND_0xa="0"
+            NOT_FOUND_0xb="0"
+            NOT_FOUND_0xd="0"
+            NOT_FOUND_0xf="@color/ContentContrast"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</com.okinc.uilab.item.OKRegularCell>

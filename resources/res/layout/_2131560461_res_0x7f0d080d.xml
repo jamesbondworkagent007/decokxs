@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    gravity="0x10"
+    paddingTop="18dp"
+    paddingBottom="18dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingVertical="18dp">
+    <ImageView
+        id="@+id/iv_icon"
+        layout_width="32dp"
+        android:layout_height="32dp"/>
+    <TextView
+        textAppearance="@style/Label_1_Medium"
+        textColor="@color/ContentPrimary"
+        id="@+id/tv_name"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginStart="12dp"/>
+</LinearLayout>

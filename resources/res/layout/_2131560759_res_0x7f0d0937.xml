@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/item_nft_history_0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <include
+        id="@+id/header"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x7="0"
+        NOT_FOUND_0x9="0"
+        layout="@layout/_2131560400_res_0x7f0d07d0"/>
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/collection"
+        layout_width="@dimen/width_0dp"
+        android:layout_height="wrap_content"
+        layout_marginStart="56dp"
+        layout_marginEnd="24dp"
+        NOT_FOUND_0x6="0"
+        NOT_FOUND_0x7="0"
+        NOT_FOUND_0x8="@+id/header"/>
+    <include
+        id="@+id/pending"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x6="0"
+        NOT_FOUND_0x7="0"
+        NOT_FOUND_0x8="@+id/collection"
+        layout="@layout/_2131560775_res_0x7f0d0947"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

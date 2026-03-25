@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/root_layout"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <View
+        id="@+id/outside_view"
+        layout_width="-1"
+        android:layout_height="match_parent"/>
+    <FrameLayout
+        id="@+id/content_container"
+        clipChildren="true"
+        clipToPadding="false"
+        layout_width="0dp"
+        android:layout_height="0dp"
+        NOT_FOUND_0x6="0"
+        NOT_FOUND_0x7="2"
+        NOT_FOUND_0x8="0.8"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xa="0"/>
+    <View
+        id="@+id/top_divider"
+        background="@color/list_divider_color"
+        layout_width="0dp"
+        android:layout_height="1dp"
+        NOT_FOUND_0x6="0"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xa="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

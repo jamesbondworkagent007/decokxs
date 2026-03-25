@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    background="@drawable/_2131231798_res_0x7f080436"
+    paddingLeft="@dimen/xxsm"
+    paddingTop="@dimen/xxxsm"
+    paddingRight="@dimen/xxsm"
+    paddingBottom="@dimen/xxxsm"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    minHeight="@dimen/xxlg"
+    paddingHorizontal="@dimen/xxsm"
+    paddingVertical="@dimen/xxxsm">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        orientation="1"
+        id="@+id/container"
+        layout_width="-1"
+        android:layout_height="wrap_content"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

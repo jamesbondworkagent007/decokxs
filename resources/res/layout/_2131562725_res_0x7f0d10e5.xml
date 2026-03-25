@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/view_bot_profit_sharing_setting_0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.C55258xgZ
+        id="@+id/shareTitle"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_marginEnd="@dimen/margin_20dp"
+        NOT_FOUND_0xb="@+id/shareType"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x10="@color/okTradeG900"
+        NOT_FOUND_0x11="@dimen/text_size_14sp"
+        NOT_FOUND_0x12="500"/>
+    <o.C50196vFl
+        textAppearance="@style/TextAppearance.Text.14SP.Medium"
+        textColor="@color/okTradeG900"
+        id="@+id/shareType"
+        visibility="2"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x9="@+id/shareTitle"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xe="@+id/shareTitle"/>
+    <o.wYX
+        id="@+id/shareRatioChipGroup"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="8dp"
+        NOT_FOUND_0xd="@+id/shareTitle"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

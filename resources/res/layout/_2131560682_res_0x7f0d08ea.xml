@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    paddingLeft="@dimen/sm"
+    paddingRight="@dimen/sm"
+    paddingBottom="@dimen/padding_20dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingHorizontal="@dimen/sm">
+    <o.C55258xgZ
+        textColor="@color/ContentContrast"
+        id="@+id/tvTitle"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x10="@color/ContentContrast"
+        NOT_FOUND_0x14="0"
+        NOT_FOUND_0x16="0"
+        NOT_FOUND_0x17="1"
+        NOT_FOUND_0x18="0"
+        style="@style/Label_2_Regular"/>
+    <TextView
+        textColor="@color/ContentPrimary"
+        ellipsize="2"
+        gravity="0x800005"
+        id="@+id/tvValue"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/xxxsm"
+        singleLine="true"
+        NOT_FOUND_0x11="true"
+        NOT_FOUND_0x12="0"
+        NOT_FOUND_0x14="@+id/tvTitle"
+        NOT_FOUND_0x15="@+id/tvTitle"
+        style="@style/Label_2_Regular"/>
+    <ImageView
+        id="@+id/iconViewMore"
+        visibility="2"
+        layout_width="@dimen/width_20dp"
+        android:layout_height="@dimen/width_20dp"
+        src="@drawable/_2131231647_res_0x7f08039f"
+        scaleType="fitStart"
+        layout_marginStart="@dimen/xxxsm"
+        NOT_FOUND_0x12="@+id/tvValue"
+        NOT_FOUND_0x13="@+id/tvValue"
+        NOT_FOUND_0x16="@+id/tvValue"
+        NOT_FOUND_0x19="@color/ContentPrimary"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

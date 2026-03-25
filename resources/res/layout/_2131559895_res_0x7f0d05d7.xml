@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/fragment_defi_approve_manager_0"
+    background="@color/BasePrimaryAlternative"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <include
+        id="@+id/risky_approval_banner"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginLeft="@dimen/margin_24dp"
+        layout_marginTop="@dimen/margin_12dp"
+        layout_marginRight="@dimen/margin_24dp"
+        layout_marginBottom="@dimen/margin_8dp"
+        layout_marginHorizontal="@dimen/margin_24dp"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0x10="0"
+        layout="@layout/_2131561208_res_0x7f0d0af8"/>
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/rcv_view"
+        layout_width="-1"
+        android:layout_height="0dp"
+        overScrollMode="2"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="@+id/risky_approval_banner"/>
+    <include
+        id="@+id/empty_layout"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="match_parent"
+        layout="@layout/_2131561522_res_0x7f0d0c32"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

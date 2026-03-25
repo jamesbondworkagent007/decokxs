@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o.C8047avP xmlns:android="http://schemas.android.com/apk/res/android"
+    id="@+id/ptr_layout"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <androidx.recyclerview.widget.RecyclerView
+        id="@android:id/list"
+        scrollbars="0x300"
+        clickable="true"
+        layout_width="-1"
+        android:layout_height="match_parent"/>
+    <FrameLayout
+        id="@+id/empty"
+        clickable="true"
+        layout_width="-1"
+        android:layout_height="match_parent"/>
+    <FrameLayout
+        id="@+id/progress"
+        clickable="true"
+        layout_width="-1"
+        android:layout_height="match_parent"/>
+    <FrameLayout
+        id="@+id/error"
+        clickable="true"
+        layout_width="-1"
+        android:layout_height="match_parent"/>
+</o.C8047avP>

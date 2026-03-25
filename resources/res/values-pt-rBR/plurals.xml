@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d nova notificação</item>
+        <item quantity="other">%d novas notificações</item>
+    </plurals>
+    <plurals name="pr_account_cedefi_tab_desc_network">
+        <item quantity="one">Ativado em {num} rede</item>
+        <item quantity="other">Ativado em {num} redes</item>
+    </plurals>
+    <plurals name="pr_compliance_global_poa_label_files_uploaded">
+        <item quantity="one">{number} arquivo enviado</item>
+        <item quantity="other">{number} arquivos enviados</item>
+    </plurals>
+    <plurals name="pr_dcdbot_placeorder_toast_found_num_bot">
+        <item quantity="one">Encontrei {number} produto para você</item>
+        <item quantity="other">Encontrei {number} produtos para você</item>
+    </plurals>
+    <plurals name="pr_im_invite_user_dialog_text_upgrade_find_out_single_error">
+        <item quantity="one">Fizemos algumas alterações. Atualize seu aplicativo para ver por que não foi possível adicioná-lo.</item>
+        <item quantity="other">Fizemos algumas alterações. Atualize seu aplicativo para ver por que não foi possível adicioná-los.</item>
+    </plurals>
+    <plurals name="pr_invest_smartmoney_mid_alert_day">
+        <item quantity="one">{num} dia</item>
+        <item quantity="other">{num} dias</item>
+    </plurals>
+    <plurals name="pr_invest_smartmoney_mid_alert_hour">
+        <item quantity="one">{num} hora</item>
+        <item quantity="other">{num} horas</item>
+    </plurals>
+    <plurals name="pr_invest_smartmoney_mid_alert_minute">
+        <item quantity="one">{num} minuto</item>
+        <item quantity="other">{num} minutos</item>
+    </plurals>
+    <plurals name="pr_invest_smartmoney_mid_alert_second">
+        <item quantity="one">{num} segundo</item>
+        <item quantity="other">{num} segundos</item>
+    </plurals>
+    <plurals name="pr_investutxo_bot_textarea_desc_potential_risk">
+        <item quantity="one">Você selecionou 1 UTXO para desbloquear. Isso adicionará {numToken}, mas também causará perda de ativos nesse UTXO. Confirme seus ativos antes de desbloquear.</item>
+        <item quantity="other">Você selecionou {num} UTXOs para desbloquear. Isso adicionará {numToken}, mas também causará perda de ativos nesses UTXO. Confirme seus ativos antes de desbloquear.</item>
+    </plurals>
+    <plurals name="pr_message_call_text_user_others_v2">
+        <item quantity="one">{user1}, {user2} e mais {num} pessoa</item>
+        <item quantity="other">{user1}, {user2} e mais {num} pessoas</item>
+    </plurals>
+    <plurals name="pr_message_chat_header_num_reactions">
+        <item quantity="one">{num} reação</item>
+        <item quantity="other">{num} reações</item>
+    </plurals>
+    <plurals name="pr_message_chat_label_unread_message_pl">
+        <item quantity="one">Mensagem não lida</item>
+        <item quantity="other">Mensagens não lidas</item>
+    </plurals>
+    <plurals name="pr_message_competition_textarea_climbed_var_pl">
+        <item quantity="one">subiu {num} posição</item>
+        <item quantity="other">subiu {num} posições</item>
+    </plurals>
+    <plurals name="pr_message_competition_textarea_dropped_var_pl">
+        <item quantity="one">caiu {num} posição</item>
+        <item quantity="other">caiu {num} posições</item>
+    </plurals>
+    <plurals name="pr_message_competition_textarea_ends_in_num_days_var_pl">
+        <item quantity="one">{num} dia</item>
+        <item quantity="other">{num} dias</item>
+    </plurals>
+    <plurals name="pr_message_competition_user_others_left">
+        <item quantity="one">{user} e {number} outro saíram da equipe.</item>
+        <item quantity="other">{user} e {number} outros saíram da equipe.</item>
+    </plurals>
+    <plurals name="pr_message_group_admin_bulk_add_to_group_pl">
+        <item quantity="one">{user1} adicionou {user2} e mais {number} outra pessoa ao grupo.</item>
+        <item quantity="other">{user1} adicionou {user2} e mais outras {number} pessoas ao grupo.</item>
+    </plurals>
+    <plurals name="pr_message_group_alertbanner_review_plural_key">
+        <item quantity="one">Revisar {num} solicitação de participação</item>
+        <item quantity="other">Revisar {num} solicitações de participação</item>
+    </plurals>
+    <plurals name="pr_message_group_bulk_add_admin_var_pl">
+        <item quantity="one">{admin} adicionou {members} e mais {number} outra pessoa como administradores.</item>
+        <item quantity="other">{admin} adicionou {members} e mais outras {number} pessoas como administradores.</item>
+    </plurals>
+    <plurals name="pr_message_group_bulk_add_admin_you_pl">
+        <item quantity="one">{admin} adicionou você e mais {number} outra pessoa como administradores.</item>
+        <item quantity="other">{admin} adicionou você e outras {number} pessoas como administradores.</item>
+    </plurals>
+    <plurals name="pr_message_group_bulk_remove_admin_you_pl">
+        <item quantity="one">{admin1} removeu você e mais {number} outra pessoa como administradores.</item>
+        <item quantity="other">{admin1} removeu você e mais outras {number} pessoas como administradores.</item>
+    </plurals>
+    <plurals name="pr_message_group_chat_removed_from_group_pl">
+        <item quantity="one">Você removeu {user} e mais {number} pessoa do grupo.</item>
+        <item quantity="other">Você removeu {user} e mais {number} pessoas do grupo.</item>
+    </plurals>
+    <plurals name="pr_message_group_chat_removed_from_group_pl_var">
+        <item quantity="one">{admin} removeu {user} e mais {number} pessoa do grupo.</item>
+        <item quantity="other">{admin} removeu {user} e mais {number} pessoas do grupo.</item>
+    </plurals>
+    <plurals name="pr_message_group_dialog_header_remove_member_pl">
+        <item quantity="one">Remover este membro?</item>
+        <item quantity="other">Remover membros selecionados?</item>
+    </plurals>
+    <plurals name="pr_message_group_label_num_already_here_pl">
+        <item quantity="one">{num} dos seus contatos já está aqui</item>
+        <item quantity="other">{num} dos seus contatos já estão aqui</item>
+    </plurals>
+    <plurals name="pr_message_group_textarea_bulk_remove_admin_var_pl">
+        <item quantity="one">{admin1} removeu {admin2} e mais {number} outra pessoa como administradores.</item>
+        <item quantity="other">{admin1} removeu {admin2} e mais outras {number} pessoas como administradores.</item>
+    </plurals>
+    <plurals name="pr_message_group_you_bulk_add_admin_pl">
+        <item quantity="one">Você adicionou {members} e mais {number} outra pessoa como administradores.</item>
+        <item quantity="other">Você adicionou {members} e outras {number} pessoas como administradores.</item>
+    </plurals>
+    <plurals name="pr_message_group_you_bulk_add_to_group_pl">
+        <item quantity="one">Você adicionou {users} e mais {number} outra pessoa ao grupo.</item>
+        <item quantity="other">Você adicionou {users} e mais outras {number} pessoas ao grupo.</item>
+    </plurals>
+    <plurals name="pr_message_group_you_bulk_remove_admin_pl">
+        <item quantity="one">Você removeu {admins} e mais {number} pessoa como administradores.</item>
+        <item quantity="other">Você removeu {admins} e outras {number} pessoas como administradores.</item>
+    </plurals>
+    <plurals name="pr_message_info_text_read_by_num_members">
+        <item quantity="one">Lida por {num} membro</item>
+        <item quantity="other">Lida por {num} membros</item>
+    </plurals>
+    <plurals name="pr_message_invite_user_dialog_text_cant_add_to_group_plural">
+        <item quantity="one">Eles podem ter configurações de privacidade ativadas, ou não adicionaram você. Enviamos um convite para eles.</item>
+        <item quantity="other">Eles podem ter configurações de privacidade ativadas, ou não adicionaram você. Enviamos um convite para eles.</item>
+    </plurals>
+    <plurals name="pr_message_notice_dialog_header_remove_num_notices_pl">
+        <item quantity="one">Remover {num} aviso?</item>
+        <item quantity="other">Remover {num} avisos?</item>
+    </plurals>
+    <plurals name="pr_message_notice_textarea_removed_notice_pl">
+        <item quantity="one">Você removeu um aviso.</item>
+        <item quantity="other">Você removeu alguns avisos.</item>
+    </plurals>
+    <plurals name="pr_message_notice_textarea_removed_notice_pl_var">
+        <item quantity="one">{user} removeu um aviso.</item>
+        <item quantity="other">{user} removeu alguns avisos.</item>
+    </plurals>
+    <plurals name="pr_message_notice_toast_notice_removed_pl">
+        <item quantity="one">Aviso removido</item>
+        <item quantity="other">Avisos removidos</item>
+    </plurals>
+    <plurals name="pr_message_paid_group_bttmsheet_title_add_admin_pl">
+        <item quantity="one">Adicionar novo administrador?</item>
+        <item quantity="other">Adicionar novos administradores?</item>
+    </plurals>
+    <plurals name="pr_message_planet_label_num_members_pl">
+        <item quantity="one">{num} membro</item>
+        <item quantity="other">{num} membros</item>
+    </plurals>
+    <plurals name="pr_message_share_desc_msg_cant_send_pl">
+        <item quantity="one">O chat selecionado não pode receber sua mensagem pelo seguinte motivo:</item>
+        <item quantity="other">Os chats selecionados não podem receber sua mensagem pelos seguintes motivos:</item>
+    </plurals>
+    <plurals name="pr_message_share_desc_some_cant_share_pl">
+        <item quantity="one">No entanto, um chat não recebeu sua mensagem pelo seguinte motivo:</item>
+        <item quantity="other">No entanto, alguns chats não receberam sua mensagem pelos seguintes motivos:</item>
+    </plurals>
+    <plurals name="pr_message_sticker_toast_sticker_removed_pl">
+        <item quantity="one">Figurinha removida</item>
+        <item quantity="other">Figurinhas removidas</item>
+    </plurals>
+    <plurals name="pr_orbit_profile_label_followers_pl">
+        <item quantity="one">seguidor</item>
+        <item quantity="other">seguidores</item>
+    </plurals>
+    <plurals name="pr_orbit_profile_livestream_text_num_views">
+        <item quantity="one">{num} visualização</item>
+        <item quantity="other">{num} visualizações</item>
+    </plurals>
+    <plurals name="pr_orbit_profile_selectioncard_label_num_groups_pl">
+        <item quantity="one">{num} grupo</item>
+        <item quantity="other">{num} grupos</item>
+    </plurals>
+    <plurals name="pr_social_marketplace_feeds_num_followers">
+        <item quantity="one">{num} seguidor</item>
+        <item quantity="other">{num} seguidores</item>
+    </plurals>
+    <plurals name="pr_supportcenter_card_desc_open_tickets">
+        <item quantity="one">Um bilhete aberto</item>
+        <item quantity="other">{number} bilhetes abertos</item>
+    </plurals>
+    <plurals name="pr_supportcenter_landing_recommendation_cards_plu">
+        <item quantity="one">Fique de olho</item>
+        <item quantity="other">{number} coisas para ficar de olho</item>
+    </plurals>
+    <plurals name="pr_supportcenter_landing_tag_issue_count">
+        <item quantity="one">{number} problema</item>
+        <item quantity="other">{number} problemas</item>
+    </plurals>
+    <plurals name="pr_swaptrade_1swap_notification_selected_pools_reselect">
+        <item quantity="one">O {num} pool que você selecionou não tem liquidez no momento. Selecione mais pools da OKX DEX para obter cotações.</item>
+        <item quantity="other">Os {num} pools que você selecionou não têm liquidez no momento. Selecione mais pools da OKX DEX para obter cotações.</item>
+    </plurals>
+    <plurals name="pr_swaptrade_address_number">
+        <item quantity="one">{num} endereço</item>
+        <item quantity="other">{num} endereços</item>
+    </plurals>
+    <plurals name="pr_swaptrade_alert_toast_turned_off">
+        <item quantity="one">Alerta excluído para {num} endereço</item>
+        <item quantity="other">Alertas excluídos para {num} endereços</item>
+    </plurals>
+    <plurals name="pr_swaptrade_alert_toast_turned_on">
+        <item quantity="one">Alerta adicionado para {num} endereço</item>
+        <item quantity="other">Alertas adicionados para {num} endereços</item>
+    </plurals>
+    <plurals name="pr_swaptrade_bridge_dialog_this_transaction_requires_sign">
+        <item quantity="one">Esta transação requer {num} assinatura:</item>
+        <item quantity="other">Esta transação requer {num} assinaturas:</item>
+    </plurals>
+    <plurals name="pr_swaptrade_copytrade_30_days">
+        <item quantity="one">{num} dia</item>
+        <item quantity="other">{num} dias</item>
+    </plurals>
+    <plurals name="pr_swaptrade_copytrade_reminder_renew_or_suspend_plural">
+        <item quantity="one">A conta inteligente vence em {numDays} dia. Renove para evitar interrupções no trading.</item>
+        <item quantity="other">Conta inteligente vence em {numDays} dias. Renove para evitar interrupções no trading.</item>
+    </plurals>
+    <plurals name="pr_swaptrade_copytrade_status_hrs">
+        <item quantity="one">{num} hora</item>
+        <item quantity="other">{num} horas</item>
+    </plurals>
+    <plurals name="pr_swaptrade_copytrade_status_mins">
+        <item quantity="one">{num} minuto</item>
+        <item quantity="other">{num} minutos</item>
+    </plurals>
+    <plurals name="pr_swaptrade_header_sources_selected">
+        <item quantity="one">{num} fonte</item>
+        <item quantity="other">{num} fontes</item>
+    </plurals>
+    <plurals name="pr_swaptrade_market_title_confirm_unfollow_all_tab_case">
+        <item quantity="one">Quer mesmo deixar de seguir {num} endereço deste grupo?</item>
+        <item quantity="other">Quer mesmo deixar de seguir {num} endereços deste grupo?</item>
+    </plurals>
+    <plurals name="pr_swaptrade_market_title_total_tokens">
+        <item quantity="one">{num} token no total</item>
+        <item quantity="other">{num} tokens no total</item>
+    </plurals>
+    <plurals name="pr_swaptrade_market_title_unfollow_message">
+        <item quantity="one">Quer mesmo deixar de seguir {num} endereço deste grupo?</item>
+        <item quantity="other">Quer mesmo deixar de seguir {num} endereços deste grupo?</item>
+    </plurals>
+    <plurals name="pr_swaptrade_smart_account_reminder_desc_renew_smart_account_days">
+        <item quantity="one">A conta inteligente vencerá em {num} dia. As ordens em aberto serão suspensas assim que a conta vencer.</item>
+        <item quantity="other">A conta inteligente vencerá em {num} dias. As ordens em aberto serão suspensas assim que a conta vencer.</item>
+    </plurals>
+    <plurals name="pr_swaptrade_successfully_added_toast">
+        <item quantity="one">Movido com sucesso para {num} grupo</item>
+        <item quantity="other">Movido com sucesso para {num} grupos</item>
+    </plurals>
+    <plurals name="pr_swaptrade_toast_no_liquidity_provider_alert_pool">
+        <item quantity="one">Direcionamos você para um provedor terceirizado porque o pool selecionado está sem liquidez. Para continuar negociando pelo Agregador da OKX DEX, escolha outro pool.</item>
+        <item quantity="other">Direcionamos você para um provedor terceirizado porque {num} pools selecionados estão sem liquidez. Para continuar negociando pelo Agregador da OKX DEX, escolha outros pools.</item>
+    </plurals>
+    <plurals name="pr_swaptrade_token_detail_label_num_txn">
+        <item quantity="one">{num} transação</item>
+        <item quantity="other">{num} transações</item>
+    </plurals>
+    <plurals name="pr_swaptrade_tracker_textarea_activity">
+        <item quantity="one"># nova atividade</item>
+        <item quantity="other"># novas atividades</item>
+    </plurals>
+    <plurals name="pr_trade_analysis_header_numd_pnl">
+        <item quantity="one">P/L de {num} dia</item>
+        <item quantity="other">P/L de {num} dias</item>
+    </plurals>
+    <plurals name="pr_trade_card_title_cumulative_perpetual_pnl_last">
+        <item quantity="one">P/L acumulado de perpétuos (há {number} dia)</item>
+        <item quantity="other">P/L acumulado de perpétuos (nos últimos {number} dias)</item>
+    </plurals>
+    <plurals name="pr_trade_card_title_top_3_contracts_last_number_days">
+        <item quantity="one">Os 3 melhores contratos futuros (último {number} dia)</item>
+        <item quantity="other">Os 3 melhores contratos futuros (últimos {number} dias)</item>
+    </plurals>
+    <plurals name="pr_trade_card_title_top_3_long_last_number_days">
+        <item quantity="one">Os 3 melhores futuros de posição comprada (último {number} dia)</item>
+        <item quantity="other">Os 3 melhores futuros de posição comprada (últimos {number} dias)</item>
+    </plurals>
+    <plurals name="pr_trade_card_title_top_3_short_last_number_days">
+        <item quantity="one">Os 3 melhores futuros de posição vendida (último {number} dia)</item>
+        <item quantity="other">Os 3 melhores futuros de posição vendida (últimos {number} dias)</item>
+    </plurals>
+    <plurals name="pr_trade_charts_num_bars">
+        <item quantity="one">{num} barra</item>
+        <item quantity="other">{num} barras</item>
+    </plurals>
+    <plurals name="pr_trade_discover_numd_ago">
+        <item quantity="one">Há {num}d</item>
+        <item quantity="other">Há {num}d</item>
+    </plurals>
+    <plurals name="pr_trade_discover_numh_ago">
+        <item quantity="one">Há {num}h</item>
+        <item quantity="other">Há {num}h</item>
+    </plurals>
+    <plurals name="pr_trade_discover_numm_ago">
+        <item quantity="one">Há {num}min</item>
+        <item quantity="other">Há {num}min</item>
+    </plurals>
+    <plurals name="pr_trade_discover_nums_ago">
+        <item quantity="one">Há {num}s</item>
+        <item quantity="other">Há {num}s</item>
+    </plurals>
+    <plurals name="pr_trade_feed_num_answered">
+        <item quantity="one">{num} pessoa votou</item>
+        <item quantity="other">{num} pessoas votaram</item>
+    </plurals>
+    <plurals name="pr_trade_general_timeframe_days_variable">
+        <item quantity="one">{num} dia</item>
+        <item quantity="other">{num} dias</item>
+    </plurals>
+    <plurals name="pr_trade_general_timeframe_days_variable_tian">
+        <item quantity="one">{num} dia</item>
+        <item quantity="other">{num} dias</item>
+    </plurals>
+    <plurals name="pr_trade_general_timeframe_hours_update">
+        <item quantity="one">{num} hora</item>
+        <item quantity="other">{num} horas</item>
+    </plurals>
+    <plurals name="pr_trade_general_timeframe_minutes_update">
+        <item quantity="one">{num} minuto</item>
+        <item quantity="other">{num} minutos</item>
+    </plurals>
+    <plurals name="pr_trade_home_desc_num_hours">
+        <item quantity="one">{num} hora</item>
+        <item quantity="other">{num} horas</item>
+    </plurals>
+    <plurals name="pr_trade_marketevents_header_num_related_posts">
+        <item quantity="one">{num} publicação relacionada</item>
+        <item quantity="other">{num} publicações relacionadas</item>
+    </plurals>
+    <plurals name="pr_trade_marketevents_label_num_posts">
+        <item quantity="one">{num} publicação</item>
+        <item quantity="other">{num} publicações</item>
+    </plurals>
+    <plurals name="pr_trade_orbit_title_num_days">
+        <item quantity="one">{num} dia</item>
+        <item quantity="other">{num} dias</item>
+    </plurals>
+    <plurals name="pr_trade_orbit_title_num_years">
+        <item quantity="one">{num} ano</item>
+        <item quantity="other">{num} anos</item>
+    </plurals>
+    <plurals name="pr_trade_tokenunlocks_countdown_numd">
+        <item quantity="one">{num}D</item>
+        <item quantity="other">{num}D</item>
+    </plurals>
+    <plurals name="pr_trade_tokenunlocks_num_days_ago">
+        <item quantity="one">Há {num} dia</item>
+        <item quantity="other">Há {num} dias</item>
+    </plurals>
+    <plurals name="pr_wallet_approval_alert_subtitle_num_risk_new">
+        <item quantity="one">{count} aprovação arriscada</item>
+        <item quantity="other">{count} aprovações arriscadas</item>
+    </plurals>
+    <plurals name="pr_wallet_approval_textbtn_hide_num_approval">
+        <item quantity="one">Mostrar menos</item>
+        <item quantity="other">Mostrar menos</item>
+    </plurals>
+    <plurals name="pr_wallet_approve_alert_risky_approvals">
+        <item quantity="one">{num} aprovação arriscada</item>
+        <item quantity="other">{num} aprovações arriscadas</item>
+    </plurals>
+    <plurals name="pr_wallet_connection_text_num_network">
+        <item quantity="one">1 rede</item>
+        <item quantity="other">{num} redes</item>
+    </plurals>
+    <plurals name="pr_wallet_connection_title_connected_to_num_networks">
+        <item quantity="one">Conectada a uma rede</item>
+        <item quantity="other">Conectada a {num} redes</item>
+    </plurals>
+    <plurals name="pr_wallet_function_emptystate_num_unavailable_hidden">
+        <item quantity="one">Indisponível para conversão de {num} token.</item>
+        <item quantity="other">Indisponível para conversão de {num} tokens.</item>
+    </plurals>
+    <plurals name="pr_wallet_function_label_num_swaps">
+        <item quantity="one">{num} token</item>
+        <item quantity="other">{num} tokens</item>
+    </plurals>
+    <plurals name="pr_wallet_function_notification_num_tokens_noquote">
+        <item quantity="one">Indisponível para conversão de {num} token sem cotações.</item>
+        <item quantity="other">Indisponível para conversão de {num} tokens sem cotações.</item>
+    </plurals>
+    <plurals name="pr_wallet_function_notification_title_num_tokens_converted">
+        <item quantity="one">{num} token convertido</item>
+        <item quantity="other">{num} tokens convertidos</item>
+    </plurals>
+    <plurals name="pr_wallet_function_title_converting_num_tokens">
+        <item quantity="one">Convertendo {num} token</item>
+        <item quantity="other">Convertendo {num} tokens</item>
+    </plurals>
+    <plurals name="pr_wallet_multisend_alertbanner_desc_num_address_confirm">
+        <item quantity="one">Você tem {num} endereço de recebimento para verificar</item>
+        <item quantity="other">Você tem {num} endereços de recebimento para verificar</item>
+    </plurals>
+    <plurals name="pr_wallet_multisend_input_num_transaction">
+        <item quantity="one">Inclui {num} transação</item>
+        <item quantity="other">Inclui {num} transações</item>
+    </plurals>
+    <plurals name="pr_wallet_multisend_reminder_desc_current_scenario">
+        <item quantity="one">Foi ocultada {num} carteira não suportada.</item>
+        <item quantity="other">Foram ocultadas {num} carteiras não suportadas.</item>
+    </plurals>
+    <plurals name="pr_wallet_search_desc_num_assets">
+        <item quantity="one">{num} ativo</item>
+        <item quantity="other">{num} ativos</item>
+    </plurals>
+    <plurals name="pr_wallet_settings_reminder_desc_fail_check">
+        <item quantity="one">A análise detectou {num} risco em seu dispositivo.</item>
+        <item quantity="other">A análise detectou {num} riscos em seu dispositivo.</item>
+    </plurals>
+    <plurals name="pr_wallet_subtitle_non_interactive_address">
+        <item quantity="one">{count} DApp não interativa</item>
+        <item quantity="other">{count} DApps não interativas</item>
+    </plurals>
+</resources>

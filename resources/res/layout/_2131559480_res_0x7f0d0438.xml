@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <View
+        background="@color/okTradeG200"
+        layout_width="-1"
+        android:layout_height="0.5dp"/>
+    <LinearLayout
+        gravity="0x10"
+        background="@color/BackgroundLv2"
+        layout_width="-1"
+        android:layout_height="44dp">
+        <o.C52794wYp
+            id="@+id/tv_two"
+            layout_width="0dp"
+            android:layout_height="wrap_content"
+            layout_weight="1"
+            NOT_FOUND_0x7="36"
+            NOT_FOUND_0x8="0x31"/>
+        <o.C52794wYp
+            id="@+id/tv_half"
+            layout_width="0dp"
+            android:layout_height="wrap_content"
+            layout_weight="1"
+            NOT_FOUND_0x7="36"
+            NOT_FOUND_0x8="0x31"/>
+        <o.C52794wYp
+            id="@+id/tv_seven"
+            layout_width="0dp"
+            android:layout_height="wrap_content"
+            layout_weight="1"
+            NOT_FOUND_0x7="36"
+            NOT_FOUND_0x8="0x31"/>
+        <o.C52794wYp
+            id="@+id/tv_max"
+            layout_width="0dp"
+            android:layout_height="wrap_content"
+            layout_weight="1"
+            NOT_FOUND_0x7="36"
+            NOT_FOUND_0x8="0x31"/>
+    </LinearLayout>
+</LinearLayout>

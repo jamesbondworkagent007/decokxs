@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/layout_inputs_outputs_more_0"
+    paddingTop="@dimen/padding_8dp"
+    paddingBottom="@dimen/padding_8dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingVertical="@dimen/padding_8dp">
+    <TextView
+        textAppearance="@style/TextAppearance.Regular"
+        textSize="14sp"
+        textColor="@color/ScrimPrimary"
+        id="@+id/tv_title"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x12="@+id/tv_amount"
+        NOT_FOUND_0x14="0"
+        NOT_FOUND_0x15="0"/>
+    <TextView
+        textAppearance="@style/TextAppearance.Medium"
+        textSize="16sp"
+        textColor="@color/LiteGray900"
+        ellipsize="3"
+        gravity="0x800005"
+        id="@+id/tv_amount"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        maxLines="1"
+        layout_marginStart="4dp"
+        NOT_FOUND_0xf="true"
+        NOT_FOUND_0x10="@+id/tv_title"
+        NOT_FOUND_0x12="@+id/iv_arrow"
+        NOT_FOUND_0x13="@+id/tv_title"
+        NOT_FOUND_0x15="@+id/tv_title"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/iv_arrow"
+        layout_width="16dp"
+        android:layout_height="16dp"
+        src="@drawable/_2131231637_res_0x7f080395"
+        layout_marginStart="4dp"
+        NOT_FOUND_0x10="@+id/tv_amount"
+        NOT_FOUND_0x11="0"
+        NOT_FOUND_0x13="@+id/tv_amount"
+        NOT_FOUND_0x15="@+id/tv_amount"
+        NOT_FOUND_0x16="@color/LiteGray900"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

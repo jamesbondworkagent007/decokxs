@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android" color="?attr/colorControlHighlight">
+    <item>
+        <selector>
+            <item state_enabled="false">
+                <shape shape="0">
+                    <solid color="@color/okTradeG100"/>
+                    <corners radius="@dimen/oktemp_btn_default_radius"/>
+                </shape>
+            </item>
+            <item state_pressed="true">
+                <shape shape="0">
+                    <solid color="@color/blue_lv2"/>
+                    <corners radius="@dimen/oktemp_btn_default_radius"/>
+                </shape>
+            </item>
+            <item>
+                <shape shape="0">
+                    <solid color="@color/blue_lv2"/>
+                    <corners radius="@dimen/oktemp_btn_default_radius"/>
+                </shape>
+            </item>
+        </selector>
+    </item>
+</ripple>

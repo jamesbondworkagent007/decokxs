@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    tint="?attr/colorButtonNormal"
+    shape="0">
+    <corners radius="@dimen/btn_default_radius"/>
+    <solid color="@color/white_background_color"/>
+    <padding
+        left="8dp"
+        top="4dp"
+        right="8dp"
+        bottom="4dp"/>
+</shape>

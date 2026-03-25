@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatTextView
+        textAppearance="@style/TextAppearance.Title.14SP.Medium"
+        textColor="@color/ContentPrimary"
+        tag="layout/trade_ui_view_dcd_product_detail_invest_0"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        text="@string/pr_trade_bot_placeorder_spotgrid_investment_amt"/>
+    <o.C47988uAv
+        id="@+id/investAmt"
+        tag="layout/trade_ui_view_dcd_product_detail_invest_1"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="8dp"
+        NOT_FOUND_0xc="true"
+        NOT_FOUND_0xd="2"
+        style="@style/OKTInputLayoutStyle_Bot_V2"/>
+    <TextView
+        textSize="@dimen/text_size_12sp"
+        textColor="@color/RubyRed500"
+        id="@+id/exceedAva"
+        tag="layout/trade_ui_view_dcd_product_detail_invest_2"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="4dp"
+        text="@string/pr_dcabot_placeorder_fieldalert_exceed_available"/>
+    <o.C53539wnR
+        id="@+id/ava"
+        tag="layout/trade_ui_view_dcd_product_detail_invest_3"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="4dp"
+        NOT_FOUND_0xa="true"
+        NOT_FOUND_0xb="@string/pr_marginbot_footer_data_available"/>
+</merge>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.wYK
+        gravity="0x30"
+        id="@+id/checkbox"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        checked="false"
+        text="@string/pr_kyc_country_restriction_checkbox_text_no_show_7days"
+        paddingStart="@dimen/padding_8dp"/>
+</LinearLayout>

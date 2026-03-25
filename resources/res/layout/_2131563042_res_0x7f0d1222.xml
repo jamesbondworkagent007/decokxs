@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o.C54989xbV xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/menuChip"
+    tag="layout/widget_invest_with_view_0"
+    layout_width="-2"
+    android:layout_height="wrap_content"
+    NOT_FOUND_0x4="@drawable/_2131231677_res_0x7f0803bd"
+    NOT_FOUND_0x5="true"
+    NOT_FOUND_0x6="0"
+    NOT_FOUND_0x7="menu chip"
+    NOT_FOUND_0x8="-4"/>

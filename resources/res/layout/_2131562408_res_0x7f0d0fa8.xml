@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    tag="layout/trade_impl_signal_bot_update_dialog_0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <androidx.core.widget.NestedScrollView
+        id="@+id/nsv_content"
+        layout_width="-1"
+        android:layout_height="0dp"
+        layout_marginLeft="@dimen/common_page_edge_space"
+        layout_marginRight="@dimen/common_page_edge_space"
+        layout_weight="1"
+        overScrollMode="2"
+        layout_marginHorizontal="@dimen/common_page_edge_space">
+        <o.C52882wax
+            id="@+id/signalEditView"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            layout_marginTop="24dp"/>
+    </androidx.core.widget.NestedScrollView>
+    <o.wYF
+        id="@+id/btnBox"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0xb="@string/pr_trade_general_btn_confirm"
+        NOT_FOUND_0xc="@string/pr_trade_general_btn_cancel"
+        NOT_FOUND_0xd="44"
+        NOT_FOUND_0xe="14"/>
+</LinearLayout>

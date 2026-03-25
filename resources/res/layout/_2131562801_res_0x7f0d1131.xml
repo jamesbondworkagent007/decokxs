@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/view_form_multiline_input_0"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    minHeight="156dp">
+    <TextView
+        id="@+id/lbl_form_multiline_title"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x18="0"
+        style="@style/Label_2_Medium"/>
+    <com.okinc.uilab.edit.OKEditText
+        textColor="@color/ContentPrimary"
+        textColorHint="@color/ContentDisabled"
+        gravity="0x800033"
+        id="@+id/edit_form_multline_description"
+        background="@drawable/_2131231408_res_0x7f0802b0"
+        paddingLeft="@dimen/xxsm"
+        paddingTop="@dimen/xxsm"
+        paddingRight="@dimen/xxsm"
+        paddingBottom="@dimen/md"
+        scrollbars="0x200"
+        layout_width="-1"
+        android:layout_height="0dp"
+        layout_marginTop="@dimen/xxxsm"
+        inputType="0x20001"
+        paddingHorizontal="@dimen/xxsm"
+        importantForAutofill="0x2"
+        NOT_FOUND_0x16="0"
+        NOT_FOUND_0x17="@+id/lbl_form_multiline_title"
+        style="@style/Body_2_Regular"/>
+    <TextView
+        textColor="@color/ContentContrast"
+        gravity="0x800005"
+        id="@+id/txt_counter"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginLeft="@dimen/xxsm"
+        layout_marginRight="@dimen/xxsm"
+        layout_marginBottom="@dimen/xxxsm"
+        layout_marginHorizontal="@dimen/xxsm"
+        NOT_FOUND_0x16="@+id/edit_form_multline_description"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

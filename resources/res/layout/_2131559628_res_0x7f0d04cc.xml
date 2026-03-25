@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o.C55118xds xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    background="@drawable/_2131231113_res_0x7f080189"
+    layout_width="280dp"
+    android:layout_height="wrap_content">
+    <androidx.core.widget.NestedScrollView
+        scrollbarSize="4dp"
+        scrollbarThumbVertical="@drawable/_2131232017_res_0x7f080511"
+        scrollbarStyle="outsideOverlay"
+        id="@+id/scroll_content"
+        scrollbars="0x200"
+        clipToPadding="false"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_weight="1"
+        fadeScrollbars="true"
+        overScrollMode="2">
+        <LinearLayout
+            orientation="1"
+            id="@+id/contentPanel"
+            layout_width="-1"
+            android:layout_height="wrap_content"/>
+    </androidx.core.widget.NestedScrollView>
+</o.C55118xds>

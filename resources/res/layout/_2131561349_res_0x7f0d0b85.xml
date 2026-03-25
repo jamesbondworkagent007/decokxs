@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x10"
+    background="@drawable/_2131233982_res_0x7f080cbe"
+    paddingLeft="@dimen/padding_16dp"
+    paddingRight="@dimen/padding_16dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginTop="6dp"
+    layout_marginBottom="6dp"
+    minHeight="@dimen/height_72dp"
+    layout_marginVertical="6dp"
+    paddingHorizontal="@dimen/padding_16dp">
+    <ImageView
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        src="@drawable/_2131232558_res_0x7f08072e"/>
+    <TextView
+        textAppearance="@style/TextAppearance.Medium"
+        textSize="18sp"
+        textColor="@color/grey_g900"
+        ellipsize="3"
+        id="@+id/tv_device"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        lines="1"
+        layout_weight="1"
+        layout_marginStart="8dp"
+        layout_marginEnd="5dp"/>
+    <o.C55251xgS
+        id="@+id/tv_label"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        text="@string/pr_wallet_card_tag_connected"
+        NOT_FOUND_0x17="@+id/accountAssets"
+        NOT_FOUND_0x18="0"
+        NOT_FOUND_0x19="@+id/accountName"
+        NOT_FOUND_0x1a="-3"
+        NOT_FOUND_0x1b="3"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        src="@drawable/_2131232956_res_0x7f0808bc"
+        tint="@color/grey_g300"
+        layout_marginStart="5dp"/>
+</LinearLayout>

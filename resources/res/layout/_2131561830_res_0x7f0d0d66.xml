@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <com.okinc.uilab.reminder.OKReminder
+        id="@+id/market_search_result_spot_reminder"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginLeft="@dimen/dp24"
+        layout_marginRight="@dimen/dp24"
+        layout_marginHorizontal="@dimen/dp24"/>
+</LinearLayout>

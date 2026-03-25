@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x10"
+    orientation="0"
+    tag="layout/plugin_search_item_0"
+    padding="16dp"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <ImageView
+        id="@+id/icon"
+        layout_width="24dp"
+        android:layout_height="24dp"
+        src="@drawable/_2131232465_res_0x7f0806d1"/>
+    <LinearLayout
+        orientation="0"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_weight="1"
+        layout_marginStart="12dp">
+        <TextView
+            textColor="@color/ContentPrimary"
+            ellipsize="3"
+            id="@+id/name"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            maxLines="1"
+            style="@style/Label_1_Regular"/>
+        <o.C55251xgS
+            id="@+id/tag"
+            visibility="2"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            layout_marginStart="4dp"
+            NOT_FOUND_0xe="-5"
+            NOT_FOUND_0xf="6"/>
+    </LinearLayout>
+    <ImageView
+        id="@+id/check"
+        layout_width="18dp"
+        android:layout_height="18dp"
+        src="@drawable/_2131233582_res_0x7f080b2e"/>
+</LinearLayout>

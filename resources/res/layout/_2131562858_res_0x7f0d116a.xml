@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    paddingTop="16dp"
+    paddingBottom="16dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingVertical="16dp">
+    <com.google.android.material.imageview.ShapeableImageView
+        id="@+id/chainIcon"
+        layout_width="32dp"
+        android:layout_height="32dp"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0x10="0"/>
+    <TextView
+        textAppearance="@style/TextAppearance.Title.18SP.Medium"
+        textColor="@color/ContentPrimary"
+        id="@+id/chainName"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginStart="12dp"
+        NOT_FOUND_0xc="@+id/chainStatus"
+        NOT_FOUND_0xd="@+id/chainIcon"
+        NOT_FOUND_0x10="0"/>
+    <TextView
+        textAppearance="@style/TextAppearance.Text.14SP"
+        textColor="@color/ContentTertiary"
+        id="@+id/chainStatus"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="4dp"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xe="@+id/chainName"
+        NOT_FOUND_0xf="@+id/chainName"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

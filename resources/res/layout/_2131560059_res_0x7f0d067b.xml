@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.recyclerview.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    id="@+id/rv"
+    tag="layout/fragment_more_operator_dialog_0"
+    paddingLeft="@dimen/margin_8dp"
+    paddingTop="@dimen/margin_16dp"
+    paddingRight="@dimen/margin_8dp"
+    paddingBottom="@dimen/padding_20dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    overScrollMode="2"
+    paddingHorizontal="@dimen/margin_8dp"
+    NOT_FOUND_0xb="androidx.recyclerview.widget.LinearLayoutManager"/>

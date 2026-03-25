@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    id="@+id/container_root"
+    background="@color/BasePrimaryAlternative"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <FrameLayout
+        id="@+id/container"
+        clipChildren="false"
+        clipToPadding="false"
+        layout_width="-1"
+        android:layout_height="match_parent"/>
+    <include
+        id="@+id/toolbarLayout"
+        layout_width="-1"
+        android:layout_height="@dimen/appbar_height"
+        layout="@layout/_2131558979_res_0x7f0d0243"/>
+</FrameLayout>

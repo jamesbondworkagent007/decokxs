@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.oXR
+        id="@+id/pixel_kline"
+        layout_width="-1"
+        android:layout_height="match_parent"
+        NOT_FOUND_0x3="1dp"
+        NOT_FOUND_0x4="15"
+        NOT_FOUND_0x5="3dp"
+        NOT_FOUND_0x6="0"/>
+</FrameLayout>

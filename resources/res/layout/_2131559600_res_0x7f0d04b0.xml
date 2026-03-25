@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/cl_parent"
+    tag="layout/dfragment_defi_create_wallet_loading_0"
+    background="@color/BasePrimary"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <androidx.constraintlayout.widget.Guideline
+        orientation="0"
+        id="@+id/guideline"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x12="0.4"/>
+    <o.C55113xdn
+        id="@+id/loadingView"
+        layout_width="64dp"
+        android:layout_height="64dp"
+        layout_marginBottom="12dp"
+        NOT_FOUND_0x10="@+id/guideline"
+        NOT_FOUND_0x11="0"
+        NOT_FOUND_0x13="0"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        textAppearance="@style/Title_1_Medium"
+        textSize="20sp"
+        textColor="@color/ContentPrimary"
+        gravity="0x1"
+        id="@+id/loadingText"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="12dp"
+        text="@string/pr_wallet_mid_emptystate_loading_wallet"
+        layout_marginStart="16dp"
+        layout_marginEnd="16dp"
+        NOT_FOUND_0xf="true"
+        NOT_FOUND_0x11="0"
+        NOT_FOUND_0x13="0"
+        NOT_FOUND_0x14="@+id/guideline"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

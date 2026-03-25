@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/trade_ui_item_bot_detail_dcd_profit_chart_0"
+    paddingTop="@dimen/padding_32dp"
+    paddingBottom="@dimen/padding_32dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingVertical="@dimen/padding_32dp">
+    <com.okinc.tradingbot.impl.order.strategy.dcd.view.DcdPnlChartView
+        id="@+id/dcdPnlView"
+        layout_width="-1"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

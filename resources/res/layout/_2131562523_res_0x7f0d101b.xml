@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    tag="layout/trade_ui_fragment_my_bot_history_order_list_0"
+    background="@color/BasePrimary"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C57597ylS
+        id="@+id/app_bar"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x6="@string/pr_social_mytrades_header_bot_history"
+        NOT_FOUND_0x7="@drawable/_2131231642_res_0x7f08039a"
+        NOT_FOUND_0x8="true"
+        NOT_FOUND_0x9="true"
+        NOT_FOUND_0xa="true"/>
+    <FrameLayout
+        id="@+id/flContainer"
+        layout_width="-1"
+        android:layout_height="match_parent"/>
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x11"
+    paddingTop="@dimen/padding_8dp"
+    paddingBottom="@dimen/padding_8dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginLeft="@dimen/margin_24dp"
+    layout_marginRight="@dimen/margin_24dp"
+    layout_marginHorizontal="@dimen/margin_24dp"
+    paddingVertical="@dimen/padding_8dp">
+    <TextView
+        textSize="@dimen/text_size_14sp"
+        textColor="@color/okTradeG400"
+        id="@+id/info_title"
+        layout_width="-2"
+        android:layout_height="wrap_content"/>
+    <TextView
+        textSize="@dimen/text_size_14sp"
+        textColor="@color/okTradeG700"
+        gravity="0x800005"
+        id="@+id/info_content"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        fontFamily="@font/font_alpha_medium"
+        layout_marginStart="@dimen/margin_16dp"
+        layout_toEndOf="@+id/info_title"
+        layout_alignParentEnd="true"/>
+    <ImageView
+        gravity="0x800005"
+        id="@+id/action_icon"
+        visibility="2"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        src="@drawable/_2131231649_res_0x7f0803a1"
+        layout_marginStart="@dimen/margin_16dp"
+        layout_alignParentEnd="true"
+        NOT_FOUND_0x12="@color/ContentContrast"/>
+</RelativeLayout>

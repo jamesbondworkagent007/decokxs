@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.C53420wlE
+        id="@+id/item_select"
+        tag="layout/trade_impl_view_select_input_twice_0"
+        layout_width="-1"
+        android:layout_height="wrap_content"/>
+    <o.C47988uAv
+        id="@+id/first_input"
+        tag="layout/trade_impl_view_select_input_twice_1"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginLeft="@dimen/ok_dp_16"
+        layout_marginTop="@dimen/margin_6dp"
+        layout_marginRight="@dimen/ok_dp_16"
+        layout_marginHorizontal="@dimen/ok_dp_16"
+        style="@style/OKTInputLayoutStyle_Bot"/>
+    <o.C47988uAv
+        id="@+id/second_input"
+        tag="layout/trade_impl_view_select_input_twice_2"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginLeft="@dimen/ok_dp_16"
+        layout_marginTop="@dimen/margin_8dp"
+        layout_marginRight="@dimen/ok_dp_16"
+        layout_marginBottom="@dimen/margin_14dp"
+        layout_marginHorizontal="@dimen/ok_dp_16"
+        style="@style/OKTInputLayoutStyle_Bot"/>
+</merge>

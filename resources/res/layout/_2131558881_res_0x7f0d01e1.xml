@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/close_position_layout"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginTop="20dp">
+    <o.C52794wYp
+        id="@+id/close_btn"
+        layout_width="0dp"
+        android:layout_height="match_parent"
+        text="@string/pr_trade_futuresgrid_btn_close"
+        layout_weight="1"
+        layout_marginEnd="10dp"
+        NOT_FOUND_0x7="32"
+        NOT_FOUND_0x8="0x104"/>
+    <o.C52794wYp
+        id="@+id/close_all_btn"
+        layout_width="0dp"
+        android:layout_height="match_parent"
+        text="@string/pr_trade_futuresgrid_btn_close_all"
+        layout_weight="1"
+        NOT_FOUND_0x7="32"
+        NOT_FOUND_0x8="0x104"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

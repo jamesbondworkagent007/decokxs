@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    minHeight="12dp">
+    <ImageView
+        layout_gravity="0x1"
+        id="@+id/dragBar"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="6.5dp"
+        layout_marginBottom="2.5dp"
+        src="@drawable/_2131232048_res_0x7f080530"/>
+    <View
+        id="@+id/placeholder"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="12dp"/>
+</LinearLayout>

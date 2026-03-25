@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/view_defi_withdrawal_loading_layout_0"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C55113xdn
+        id="@+id/loading_view"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_centerInParent="true"
+        NOT_FOUND_0x5="true"
+        NOT_FOUND_0x6="true"/>
+</RelativeLayout>

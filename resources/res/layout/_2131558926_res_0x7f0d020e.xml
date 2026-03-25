@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/main_container"
+    tag="layout/component_okcr_news_large_card_0"
+    background="@drawable/_2131230954_res_0x7f0800ea"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        id="@+id/content_container"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x11="0">
+        <ImageView
+            id="@+id/iv_image"
+            background="@drawable/_2131230953_res_0x7f0800e9"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            contentDescription="@null"
+            NOT_FOUND_0xd="@+id/tv_title"
+            NOT_FOUND_0xe="0"
+            NOT_FOUND_0xf="0"
+            NOT_FOUND_0x11="0"/>
+        <TextView
+            textColor="@color/ContentPrimary"
+            id="@+id/tv_title"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            layout_marginLeft="@dimen/dp_12"
+            layout_marginTop="@dimen/dp_12"
+            layout_marginRight="@dimen/dp_12"
+            layout_marginBottom="@dimen/dp_16"
+            layout_marginHorizontal="@dimen/dp_12"
+            NOT_FOUND_0xc="0"
+            NOT_FOUND_0xe="0"
+            NOT_FOUND_0xf="0"
+            NOT_FOUND_0x10="@+id/iv_image"
+            style="@style/Label_1_Medium"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

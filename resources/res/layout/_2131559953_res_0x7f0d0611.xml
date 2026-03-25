@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    paddingLeft="@dimen/padding_24dp"
+    paddingRight="@dimen/padding_24dp"
+    paddingBottom="16dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingHorizontal="@dimen/padding_24dp">
+    <o.C55008xbo
+        theme="@style/OKUITheme.Alternative.Web3"
+        id="@+id/ok_tinyThreshold"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_8dp"
+        NOT_FOUND_0xd="44"/>
+    <o.C52794wYp
+        enabled="false"
+        id="@+id/btn_confirm"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="24dp"
+        text="@string/pr_metax_dapps_modal_textbtn_confirm"
+        textAllCaps="false"
+        NOT_FOUND_0xe="52"
+        NOT_FOUND_0xf="0x101"/>
+</LinearLayout>

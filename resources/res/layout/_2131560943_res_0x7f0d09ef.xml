@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    paddingLeft="@dimen/sm"
+    paddingRight="@dimen/sm"
+    paddingBottom="@dimen/padding_20dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingHorizontal="@dimen/sm">
+    <o.C27187jqU
+        gravity="0x10"
+        orientation="1"
+        id="@+id/trxProcessView"
+        layout_width="-1"
+        android:layout_height="match_parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

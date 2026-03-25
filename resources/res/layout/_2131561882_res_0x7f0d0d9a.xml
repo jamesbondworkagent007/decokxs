@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <LinearLayout
+        orientation="1"
+        layout_width="-1"
+        android:layout_height="match_parent">
+        <o.C55230xfy
+            id="@+id/searchBar"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            layout_marginLeft="@dimen/dp_16"
+            layout_marginRight="@dimen/dp_16"
+            layout_marginHorizontal="@dimen/dp_16"
+            NOT_FOUND_0x9="0"
+            NOT_FOUND_0xa="0"
+            NOT_FOUND_0xc="0"/>
+        <o.C46657tbM
+            layout_width="-1"
+            android:layout_height="match_parent">
+            <o.C55237xgE
+                id="@+id/statefulLayout"
+                layout_width="-1"
+                android:layout_height="wrap_content"
+                layout_marginLeft="@dimen/dp_16"
+                layout_marginTop="@dimen/width_18dp"
+                layout_marginRight="@dimen/dp_16"
+                layout_marginHorizontal="@dimen/dp_16"
+                NOT_FOUND_0x9="0"
+                NOT_FOUND_0xa="0"
+                NOT_FOUND_0xb="@+id/searchBar">
+                <androidx.recyclerview.widget.RecyclerView
+                    id="@+id/list"
+                    layout_width="-1"
+                    android:layout_height="match_parent"
+                    overScrollMode="2"/>
+            </o.C55237xgE>
+        </o.C46657tbM>
+    </LinearLayout>
+</FrameLayout>

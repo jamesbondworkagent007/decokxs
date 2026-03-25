@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/fragment_passkey_authenticate_service_0"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <com.okinc.auth.impl.widget.SimpleToolBar
+        id="@+id/appBar"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xe="1"/>
+    <ScrollView
+        id="@+id/scrollableContainer"
+        layout_width="-1"
+        android:layout_height="0dp"
+        NOT_FOUND_0x8="@+id/verifyButton"
+        NOT_FOUND_0x9="@+id/appBar">
+        <o.C5959aGM
+            id="@+id/authView"
+            layout_width="-1"
+            android:layout_height="wrap_content"/>
+    </ScrollView>
+    <o.C52794wYp
+        enabled="true"
+        id="@+id/verifyButton"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_margin="@dimen/padding_16dp"
+        text="@string/pr_account_fido2_btn_veri_with_passkey"
+        NOT_FOUND_0x8="@+id/switchButton"
+        NOT_FOUND_0xb="52"
+        NOT_FOUND_0xc="0x101"
+        NOT_FOUND_0xd="-2"/>
+    <o.C52794wYp
+        enabled="true"
+        id="@+id/switchButton"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_margin="@dimen/padding_16dp"
+        text="@string/pr_account_mfa_btn_unable_to_verify"
+        NOT_FOUND_0x7="0"
+        NOT_FOUND_0xb="52"
+        NOT_FOUND_0xc="0x6"
+        NOT_FOUND_0xd="-2"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.recyclerview.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/rv_content"
+    tag="layout/widget_invest_filter_window_0"
+    background="@drawable/_2131234466_res_0x7f080ea2"
+    paddingTop="8dp"
+    paddingBottom="8dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    NOT_FOUND_0x7="androidx.recyclerview.widget.LinearLayoutManager"
+    NOT_FOUND_0x8="516dp"/>

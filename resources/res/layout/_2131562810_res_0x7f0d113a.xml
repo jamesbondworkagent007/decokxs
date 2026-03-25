@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x10"
+    layout_width="-2"
+    android:layout_height="match_parent">
+    <ImageView
+        id="@+id/iv_minus"
+        tag="layout/view_input_layout_add_minus_0"
+        paddingLeft="4dp"
+        paddingTop="8dp"
+        paddingRight="4dp"
+        paddingBottom="8dp"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        src="@drawable/_2131232910_res_0x7f08088e"
+        paddingHorizontal="4dp"
+        paddingVertical="8dp"
+        NOT_FOUND_0xd="@color/ContentContrast"/>
+    <ImageView
+        id="@+id/iv_plus"
+        tag="layout/view_input_layout_add_minus_1"
+        paddingTop="8dp"
+        paddingBottom="8dp"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        src="@drawable/_2131232911_res_0x7f08088f"
+        paddingStart="4dp"
+        paddingVertical="8dp"
+        NOT_FOUND_0xd="@color/ContentContrast"/>
+</merge>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    id="@+id/rootLayout"
+    tag="layout/dfragment_ok_bottom_sheet_0"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <FrameLayout
+        id="@+id/container"
+        background="@color/white_background_color"
+        layout_width="-1"
+        android:layout_height="match_parent"/>
+</LinearLayout>

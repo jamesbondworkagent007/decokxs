@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        gravity="0x11"
+        id="@+id/advancedSettingTitleContainer"
+        tag="layout/smart_arbitrage_advanced_setting_view_0"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_alignParentTop="true">
+        <TextView
+            textColor="@color/ContentPrimary"
+            layout_width="0dp"
+            android:layout_height="wrap_content"
+            text="@string/pr_dcabot_placeorder_title_advanced"
+            layout_weight="1"
+            style="@style/Label_1_Medium"/>
+        <androidx.appcompat.widget.AppCompatImageView
+            id="@+id/advancedSettingTitleArrow"
+            layout_width="20dp"
+            android:layout_height="20dp"
+            src="@drawable/_2131231654_res_0x7f0803a6"
+            layout_marginStart="16dp"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        orientation="1"
+        id="@+id/advancedSettingContainer"
+        tag="layout/smart_arbitrage_advanced_setting_view_1"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="20dp"
+        layout_below="@+id/advancedSettingTitleContainer">
+        <o.C53573wnz
+            id="@+id/startConditionSetting"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            NOT_FOUND_0xe="--"
+            NOT_FOUND_0xf="@string/pr_smartarb_placeorder_header_opening_conditions"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</merge>

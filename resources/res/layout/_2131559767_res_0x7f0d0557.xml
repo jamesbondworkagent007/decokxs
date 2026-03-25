@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/fragment_ai_recommend_0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.C53549wnb
+        id="@+id/direction_type_view"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginLeft="@dimen/margin_default"
+        layout_marginTop="@dimen/margin_16dp"
+        layout_marginRight="@dimen/margin_default"
+        layout_marginHorizontal="@dimen/margin_default"
+        NOT_FOUND_0x10="1"
+        NOT_FOUND_0x16="0"/>
+    <com.okinc.uilab.reminder.OKReminder
+        id="@+id/reminder"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/dp24"
+        layout_marginStart="@dimen/dp24"
+        layout_marginEnd="@dimen/dp24"
+        NOT_FOUND_0x13="0"
+        NOT_FOUND_0x14="0"
+        NOT_FOUND_0x15="@+id/direction_type_view"/>
+    <LinearLayout
+        orientation="1"
+        id="@+id/container"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        divider="@drawable/_2131232034_res_0x7f080522"
+        showDividers="middle"
+        NOT_FOUND_0x15="@+id/reminder"/>
+    <o.C55173xeu
+        id="@+id/empty_layout"
+        visibility="1"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="60dp"
+        layout_marginBottom="60dp"
+        layout_marginVertical="60dp"
+        NOT_FOUND_0x11="6"
+        NOT_FOUND_0x12="0"
+        NOT_FOUND_0x16="@+id/container"
+        NOT_FOUND_0x17="@string/pr_trade_bot_placeholder_no_bots_available"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

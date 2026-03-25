@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x11"
+    orientation="0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.wYK
+        id="@+id/select_checkbox"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0xa="-3"/>
+    <o.C55258xgZ
+        textSize="@dimen/text_size_14sp"
+        id="@+id/select_title"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginStart="@dimen/margin_10dp"
+        NOT_FOUND_0x7="@color/ContentPrimary"
+        NOT_FOUND_0x8="@style/TextAppearance.Text"
+        NOT_FOUND_0x9="400"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

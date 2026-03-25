@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o.C45971tDa xmlns:android="http://schemas.android.com/apk/res/android"
+    id="@+id/futurePositionCard"
+    tag="layout/plugin_future_position_item_0"
+    layout_width="-1"
+    android:layout_height="wrap_content"/>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x10"
+    orientation="0"
+    id="@+id/linearlayout"
+    background="@drawable/_2131231710_res_0x7f0803de"
+    paddingTop="8dp"
+    paddingBottom="8dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingStart="12dp"
+    paddingEnd="28dp"
+    paddingVertical="8dp">
+    <ImageView
+        id="@+id/icon"
+        layout_width="24dp"
+        android:layout_height="24dp"
+        contentDescription="@null"
+        NOT_FOUND_0xf="@color/ContentPrimary"/>
+    <TextView
+        textColor="@color/ContentPrimary"
+        id="@+id/title"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_weight="1"
+        layout_marginStart="12dp"
+        style="@style/Label_1_Regular"/>
+</LinearLayout>

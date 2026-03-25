@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        state_enabled="true"
+        color="@color/market_selector_text_operation_primary_enable_color"/>
+    <item
+        state_enabled="false"
+        color="@color/market_selector_text_operation_primary_unable_color"/>
+</selector>

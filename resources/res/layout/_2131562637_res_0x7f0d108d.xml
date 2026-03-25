@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C55230xfy
+        id="@+id/searchBar"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginBottom="8dp"
+        layout_marginStart="16dp"
+        layout_marginEnd="16dp"
+        layout_toStartOf="@+id/okAnchor"
+        NOT_FOUND_0xe="true"
+        NOT_FOUND_0xf="-3"/>
+    <RelativeLayout
+        id="@+id/selection"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_below="@+id/searchBar">
+        <androidx.recyclerview.widget.RecyclerView
+            id="@+id/totalRecyclerView"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            layout_toStartOf="@+id/okAnchor"/>
+        <o.C55042xcV
+            gravity="0x10"
+            id="@+id/okAnchor"
+            layout_width="24dp"
+            android:layout_height="wrap_content"
+            layout_centerVertical="true"
+            layout_alignParentEnd="true"/>
+    </RelativeLayout>
+    <o.C55237xgE
+        id="@+id/searchResult"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="16dp"
+        layout_below="@+id/searchBar"
+        NOT_FOUND_0xd="true">
+        <androidx.recyclerview.widget.RecyclerView
+            id="@+id/searchResultRcv"
+            layout_width="-1"
+            android:layout_height="match_parent"
+            overScrollMode="2"/>
+    </o.C55237xgE>
+</merge>

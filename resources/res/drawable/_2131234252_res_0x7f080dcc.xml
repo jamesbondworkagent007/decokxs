@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape shape="0">
+            <solid color="@color/white_background_color"/>
+            <size
+                height="40dp"
+                width="360dp"/>
+        </shape>
+    </item>
+    <item gravity="0x50">
+        <shape shape="0">
+            <solid color="@color/list_divider_color"/>
+            <size
+                height="0x7f0703c9"
+                width="360dp"/>
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.recyclerview.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    id="@+id/info_recycler_view"
+    layout_width="-1"
+    android:layout_height="wrap_content"/>

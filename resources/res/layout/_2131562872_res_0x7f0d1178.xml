@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/view_recurring_select_coin_item_0"
+    layout_width="-1"
+    android:layout_height="68dp">
+    <ImageView
+        id="@+id/coin_icon"
+        layout_width="24dp"
+        android:layout_height="24dp"
+        layout_marginTop="@dimen/margin_12dp"
+        layout_marginBottom="@dimen/margin_12dp"
+        layout_centerVertical="true"
+        layout_marginVertical="@dimen/margin_12dp"/>
+    <TextView
+        textAppearance="@style/TextAppearance.Text.16SP.Medium"
+        textColor="@color/grey_g900"
+        id="@+id/coin_name"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_centerVertical="true"
+        layout_marginStart="@dimen/margin_12dp"
+        layout_toEndOf="@+id/coin_icon"/>
+    <o.wYK
+        id="@+id/check_box"
+        clickable="false"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_centerVertical="true"
+        layout_alignParentEnd="true"
+        NOT_FOUND_0xe="@drawable/_2131234178_res_0x7f080d82"/>
+</RelativeLayout>

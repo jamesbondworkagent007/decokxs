@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o.C55173xeu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/empty_view"
+    tag="layout/item_common_empty_state_0"
+    background="@color/BasePrimary"
+    paddingTop="110dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    NOT_FOUND_0x6="6"/>

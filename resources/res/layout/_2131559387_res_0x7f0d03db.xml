@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginTop="@dimen/margin_20dp">
+    <androidx.appcompat.widget.AppCompatTextView
+        textColor="@color/ContentPrimary"
+        id="@+id/item_title"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        text="@string/pr_swaptrade_modal_dialog_title_nofee"
+        style="@style/Label_2_Bold"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        textColor="@color/ContentPrimary"
+        id="@+id/item_subtitle"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="8dp"
+        text="@string/pr_swaptrade_modal_dialog_desc_nofee"
+        style="@style/Body_3_Regular"/>
+</LinearLayout>

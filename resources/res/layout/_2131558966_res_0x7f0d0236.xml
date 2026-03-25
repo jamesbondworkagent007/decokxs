@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    id="@+id/headerLayout"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <TextView
+        textColor="@color/ContentContrast"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        text="@string/pr_dcabot_orderdetail_colheader_created_time"
+        layout_weight="1"
+        style="@style/Label_3_Regular"/>
+    <TextView
+        textColor="@color/ContentContrast"
+        gravity="0x800005"
+        id="@+id/profitLabel"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        text="@string/pr_dcabot_orderdetail_colheader_cycle_pnl"
+        layout_weight="1"
+        layout_marginStart="16dp"
+        style="@style/Label_3_Regular"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

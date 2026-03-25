@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pr_account_cedefi_tab_desc_network">
+        <item quantity="other">Đã kích hoạt trên {num} mạng lưới</item>
+    </plurals>
+    <plurals name="pr_compliance_global_poa_label_files_uploaded">
+        <item quantity="other">Đã tải lên {number} tệp</item>
+    </plurals>
+    <plurals name="pr_dcdbot_placeorder_toast_found_num_bot">
+        <item quantity="other">Đã tìm thấy {number} sản phẩm cho bạn</item>
+    </plurals>
+    <plurals name="pr_im_invite_user_dialog_text_upgrade_find_out_single_error">
+        <item quantity="other">Chúng tôi đã thực hiện một số thay đổi. Hãy cập nhật ứng dụng để xem lý do không thể thêm.</item>
+    </plurals>
+    <plurals name="pr_invest_smartmoney_mid_alert_day">
+        <item quantity="other">{num} ngày</item>
+    </plurals>
+    <plurals name="pr_invest_smartmoney_mid_alert_hour">
+        <item quantity="other">{num} giờ</item>
+    </plurals>
+    <plurals name="pr_invest_smartmoney_mid_alert_minute">
+        <item quantity="other">{num} phút</item>
+    </plurals>
+    <plurals name="pr_invest_smartmoney_mid_alert_second">
+        <item quantity="other">{num} giây</item>
+    </plurals>
+    <plurals name="pr_investutxo_bot_textarea_desc_potential_risk">
+        <item quantity="other">Bạn đã chọn {num} UTXO để mở khóa. Điều này sẽ thêm {numToken}, nhưng cũng gây ra tổn thất tài sản trong các UTXO này. Vui lòng xác nhận tài sản của bạn trước khi mở khóa.</item>
+    </plurals>
+    <plurals name="pr_message_call_text_user_others_v2">
+        <item quantity="other">{user1}, {user2} và {num} người khác</item>
+    </plurals>
+    <plurals name="pr_message_chat_header_num_reactions">
+        <item quantity="other">{num} lượt bày tỏ cảm xúc</item>
+    </plurals>
+    <plurals name="pr_message_chat_label_unread_message_pl">
+        <item quantity="other">Tin nhắn chưa đọc</item>
+    </plurals>
+    <plurals name="pr_message_competition_textarea_climbed_var_pl">
+        <item quantity="other">tăng {num} hạng</item>
+    </plurals>
+    <plurals name="pr_message_competition_textarea_dropped_var_pl">
+        <item quantity="other">tụt {num} hạng</item>
+    </plurals>
+    <plurals name="pr_message_competition_textarea_ends_in_num_days_var_pl">
+        <item quantity="other">{num} ngày</item>
+    </plurals>
+    <plurals name="pr_message_competition_user_others_left">
+        <item quantity="other">{user} và {number} người khác đã rời khỏi đội.</item>
+    </plurals>
+    <plurals name="pr_message_group_admin_bulk_add_to_group_pl">
+        <item quantity="other">{user1} đã thêm {user2} và {number} người khác vào nhóm.</item>
+    </plurals>
+    <plurals name="pr_message_group_alertbanner_review_plural_key">
+        <item quantity="other">Xem lại {num} yêu cầu tham gia</item>
+    </plurals>
+    <plurals name="pr_message_group_bulk_add_admin_var_pl">
+        <item quantity="other">{admin} đã thêm {members} và {number} người khác làm quản trị viên.</item>
+    </plurals>
+    <plurals name="pr_message_group_bulk_add_admin_you_pl">
+        <item quantity="other">{admin} đã thêm bạn và {number} người khác làm quản trị viên.</item>
+    </plurals>
+    <plurals name="pr_message_group_bulk_remove_admin_you_pl">
+        <item quantity="other">{admin1} đã xóa bạn và {number} người khác khỏi vai trò quản trị viên.</item>
+    </plurals>
+    <plurals name="pr_message_group_chat_removed_from_group_pl">
+        <item quantity="other">Bạn đã xóa {user} và {number} người khác khỏi nhóm.</item>
+    </plurals>
+    <plurals name="pr_message_group_chat_removed_from_group_pl_var">
+        <item quantity="other">{admin} đã xóa {user} và {number} người khác khỏi nhóm.</item>
+    </plurals>
+    <plurals name="pr_message_group_dialog_header_remove_member_pl">
+        <item quantity="other">Xóa thành viên đã chọn?</item>
+    </plurals>
+    <plurals name="pr_message_group_label_num_already_here_pl">
+        <item quantity="other">{num} trong số các liên hệ của bạn đã có ở đây</item>
+    </plurals>
+    <plurals name="pr_message_group_textarea_bulk_remove_admin_var_pl">
+        <item quantity="other">{admin1} đã xóa {admin2} và {number} người khác khỏi vai trò quản trị viên.</item>
+    </plurals>
+    <plurals name="pr_message_group_you_bulk_add_admin_pl">
+        <item quantity="other">Bạn đã thêm {members} và {number} người khác làm quản trị viên.</item>
+    </plurals>
+    <plurals name="pr_message_group_you_bulk_add_to_group_pl">
+        <item quantity="other">Bạn đã thêm {users} và {number} người khác vào nhóm.</item>
+    </plurals>
+    <plurals name="pr_message_group_you_bulk_remove_admin_pl">
+        <item quantity="other">Bạn đã xóa {admins} và {number} người khác khỏi danh sách quản trị viên.</item>
+    </plurals>
+    <plurals name="pr_message_info_text_read_by_num_members">
+        <item quantity="other">{num} thành viên đã đọc</item>
+    </plurals>
+    <plurals name="pr_message_invite_user_dialog_text_cant_add_to_group_plural">
+        <item quantity="other">Họ có thể đã bật cài đặt quyền riêng tư hoặc chưa thêm bạn lại. Thay vào đó, chúng tôi đã gửi lời mời.</item>
+    </plurals>
+    <plurals name="pr_message_notice_dialog_header_remove_num_notices_pl">
+        <item quantity="other">Xóa {num} thông báo?</item>
+    </plurals>
+    <plurals name="pr_message_notice_textarea_removed_notice_pl">
+        <item quantity="other">Bạn đã xóa một số thông báo.</item>
+    </plurals>
+    <plurals name="pr_message_notice_textarea_removed_notice_pl_var">
+        <item quantity="other">{user} đã xóa một số thông báo.</item>
+    </plurals>
+    <plurals name="pr_message_notice_toast_notice_removed_pl">
+        <item quantity="other">Thông báo đã được xóa</item>
+    </plurals>
+    <plurals name="pr_message_paid_group_bttmsheet_title_add_admin_pl">
+        <item quantity="other">Thêm quản trị viên mới?</item>
+    </plurals>
+    <plurals name="pr_message_planet_label_num_members_pl">
+        <item quantity="other">{num} thành viên</item>
+    </plurals>
+    <plurals name="pr_message_share_desc_msg_cant_send_pl">
+        <item quantity="other">Các cuộc trò chuyện bạn chọn không thể nhận tin nhắn từ bạn vì những lý do sau:</item>
+    </plurals>
+    <plurals name="pr_message_share_desc_some_cant_share_pl">
+        <item quantity="other">Tuy nhiên, một số cuộc trò chuyện không thể nhận tin nhắn từ bạn vì những lý do sau:</item>
+    </plurals>
+    <plurals name="pr_message_sticker_toast_sticker_removed_pl">
+        <item quantity="other">Đã xóa nhãn dán</item>
+    </plurals>
+    <plurals name="pr_orbit_profile_label_followers_pl">
+        <item quantity="other">người theo dõi</item>
+    </plurals>
+    <plurals name="pr_orbit_profile_livestream_text_num_views">
+        <item quantity="other">{num} lượt xem</item>
+    </plurals>
+    <plurals name="pr_orbit_profile_selectioncard_label_num_groups_pl">
+        <item quantity="other">{num} nhóm</item>
+    </plurals>
+    <plurals name="pr_social_marketplace_feeds_num_followers">
+        <item quantity="other">{num} người theo dõi</item>
+    </plurals>
+    <plurals name="pr_supportcenter_card_desc_open_tickets">
+        <item quantity="other">{number} phiếu hỗ trợ đang xử lý</item>
+    </plurals>
+    <plurals name="pr_supportcenter_landing_recommendation_cards_plu">
+        <item quantity="other">{number} điều cần lưu ý</item>
+    </plurals>
+    <plurals name="pr_supportcenter_landing_tag_issue_count">
+        <item quantity="other">{number} sự cố</item>
+    </plurals>
+    <plurals name="pr_swaptrade_1swap_notification_selected_pools_reselect">
+        <item quantity="other">{num} bể bạn chọn hiện không có thanh khoản. Hãy chọn thêm bể từ OKX DEX để nhận báo giá.</item>
+    </plurals>
+    <plurals name="pr_swaptrade_address_number">
+        <item quantity="other">{num} địa chỉ</item>
+    </plurals>
+    <plurals name="pr_swaptrade_alert_toast_turned_off">
+        <item quantity="other">Đã xóa cảnh báo cho {num} địa chỉ</item>
+    </plurals>
+    <plurals name="pr_swaptrade_alert_toast_turned_on">
+        <item quantity="other">Đã thêm cảnh báo cho {num} địa chỉ</item>
+    </plurals>
+    <plurals name="pr_swaptrade_bridge_dialog_this_transaction_requires_sign">
+        <item quantity="other">Giao dịch này yêu cầu {num} chữ ký:</item>
+    </plurals>
+    <plurals name="pr_swaptrade_copytrade_30_days">
+        <item quantity="other">{num} ngày</item>
+    </plurals>
+    <plurals name="pr_swaptrade_copytrade_reminder_renew_or_suspend_plural">
+        <item quantity="other">Tài khoản thông minh hết hạn sau {numDays} ngày. Gia hạn ngay.</item>
+    </plurals>
+    <plurals name="pr_swaptrade_copytrade_status_hrs">
+        <item quantity="other">{num} giờ</item>
+    </plurals>
+    <plurals name="pr_swaptrade_copytrade_status_mins">
+        <item quantity="other">{num} phút</item>
+    </plurals>
+    <plurals name="pr_swaptrade_header_sources_selected">
+        <item quantity="other">{num} nguồn</item>
+    </plurals>
+    <plurals name="pr_swaptrade_market_title_confirm_unfollow_all_tab_case">
+        <item quantity="other">Bạn có chắc chắn muốn huỷ theo dõi {num} địa chỉ trong tất cả các nhóm?</item>
+    </plurals>
+    <plurals name="pr_swaptrade_market_title_total_tokens">
+        <item quantity="other">Tổng cộng {num} token</item>
+    </plurals>
+    <plurals name="pr_swaptrade_market_title_unfollow_message">
+        <item quantity="other">Bạn muốn huỷ theo dõi {num} địa chỉ trong nhóm này?</item>
+    </plurals>
+    <plurals name="pr_swaptrade_smart_account_reminder_desc_renew_smart_account_days">
+        <item quantity="other">Tài khoản thông minh sẽ hết hạn sau {num} ngày. Các lệnh chờ khớp sẽ bị tạm ngưng khi tài khoản hết hạn.</item>
+    </plurals>
+    <plurals name="pr_swaptrade_successfully_added_toast">
+        <item quantity="other">Đã chuyển thành công đến {num} nhóm</item>
+    </plurals>
+    <plurals name="pr_swaptrade_toast_no_liquidity_provider_alert_pool">
+        <item quantity="other">Bạn đã được chuyển sang nhà cung cấp bên thứ ba vì {num} nhóm được chọn không có thanh khoản. Chọn lại các bể để giao dịch thông qua Công cụ tổng hợp OKX DEX.</item>
+    </plurals>
+    <plurals name="pr_swaptrade_token_detail_label_num_txn">
+        <item quantity="other">{num} giao dịch</item>
+    </plurals>
+    <plurals name="pr_swaptrade_tracker_textarea_activity">
+        <item quantity="other"># hoạt động mới</item>
+    </plurals>
+    <plurals name="pr_trade_analysis_header_numd_pnl">
+        <item quantity="other">PNL {num} ngày</item>
+    </plurals>
+    <plurals name="pr_trade_card_title_cumulative_perpetual_pnl_last">
+        <item quantity="other">PNL vĩnh cửu tích lũy ({number} ngày qua)</item>
+    </plurals>
+    <plurals name="pr_trade_card_title_top_3_contracts_last_number_days">
+        <item quantity="other">Top 3 HĐ futures ({number} ngày qua)</item>
+    </plurals>
+    <plurals name="pr_trade_card_title_top_3_long_last_number_days">
+        <item quantity="other">Top 3 HĐ futures long ({number} ngày qua)</item>
+    </plurals>
+    <plurals name="pr_trade_card_title_top_3_short_last_number_days">
+        <item quantity="other">Top 3 HĐ futures short ({number} ngày qua)</item>
+    </plurals>
+    <plurals name="pr_trade_charts_num_bars">
+        <item quantity="other">{num} thanh</item>
+    </plurals>
+    <plurals name="pr_trade_discover_numd_ago">
+        <item quantity="other">{num} ngày trước</item>
+    </plurals>
+    <plurals name="pr_trade_discover_numh_ago">
+        <item quantity="other">{num} giờ trước</item>
+    </plurals>
+    <plurals name="pr_trade_discover_numm_ago">
+        <item quantity="other">{num} phút trước</item>
+    </plurals>
+    <plurals name="pr_trade_discover_nums_ago">
+        <item quantity="other">{num} giây trước</item>
+    </plurals>
+    <plurals name="pr_trade_feed_num_answered">
+        <item quantity="other">{num} đã bình chọn</item>
+    </plurals>
+    <plurals name="pr_trade_general_timeframe_days_variable">
+        <item quantity="other">{num} ngày</item>
+    </plurals>
+    <plurals name="pr_trade_general_timeframe_days_variable_tian">
+        <item quantity="other">{num} ngày</item>
+    </plurals>
+    <plurals name="pr_trade_general_timeframe_hours_update">
+        <item quantity="other">{num} giờ</item>
+    </plurals>
+    <plurals name="pr_trade_general_timeframe_minutes_update">
+        <item quantity="other">{num} phút</item>
+    </plurals>
+    <plurals name="pr_trade_home_desc_num_hours">
+        <item quantity="other">{num} giờ</item>
+    </plurals>
+    <plurals name="pr_trade_marketevents_header_num_related_posts">
+        <item quantity="other">{num} bài đăng liên quan</item>
+    </plurals>
+    <plurals name="pr_trade_marketevents_label_num_posts">
+        <item quantity="other">{num} bài đăng</item>
+    </plurals>
+    <plurals name="pr_trade_orbit_title_num_days">
+        <item quantity="other">{num} ngày</item>
+    </plurals>
+    <plurals name="pr_trade_orbit_title_num_years">
+        <item quantity="other">{num} năm</item>
+    </plurals>
+    <plurals name="pr_trade_tokenunlocks_countdown_numd">
+        <item quantity="other">{num} ngày</item>
+    </plurals>
+    <plurals name="pr_trade_tokenunlocks_num_days_ago">
+        <item quantity="other">{num} ngày trước</item>
+    </plurals>
+    <plurals name="pr_wallet_approval_alert_subtitle_num_risk_new">
+        <item quantity="other">{count} lần phê duyệt rủi ro</item>
+    </plurals>
+    <plurals name="pr_wallet_approval_textbtn_hide_num_approval">
+        <item quantity="other">Ẩn bớt</item>
+    </plurals>
+    <plurals name="pr_wallet_approve_alert_risky_approvals">
+        <item quantity="other">{num} lần duyệt rủi ro</item>
+    </plurals>
+    <plurals name="pr_wallet_connection_text_num_network">
+        <item quantity="other">{num} mạng</item>
+    </plurals>
+    <plurals name="pr_wallet_connection_title_connected_to_num_networks">
+        <item quantity="other">Đã kết nối với {num} mạng</item>
+    </plurals>
+    <plurals name="pr_wallet_function_emptystate_num_unavailable_hidden">
+        <item quantity="other">Không thể chuyển đổi {num} token.</item>
+    </plurals>
+    <plurals name="pr_wallet_function_label_num_swaps">
+        <item quantity="other">{num} token</item>
+    </plurals>
+    <plurals name="pr_wallet_function_notification_num_tokens_noquote">
+        <item quantity="other">Không thể chuyển đổi {num} token không có báo giá.</item>
+    </plurals>
+    <plurals name="pr_wallet_function_notification_title_num_tokens_converted">
+        <item quantity="other">Đã chuyển đổi {num} token</item>
+    </plurals>
+    <plurals name="pr_wallet_function_title_converting_num_tokens">
+        <item quantity="other">Chuyển đổi {num} token</item>
+    </plurals>
+    <plurals name="pr_wallet_multisend_alertbanner_desc_num_address_confirm">
+        <item quantity="other">Bạn có {num} địa chỉ nhận cần kiểm tra</item>
+    </plurals>
+    <plurals name="pr_wallet_multisend_input_num_transaction">
+        <item quantity="other">Gồm có {num} giao dịch</item>
+    </plurals>
+    <plurals name="pr_wallet_multisend_reminder_desc_current_scenario">
+        <item quantity="other">Đã ẩn {num} ví không được hỗ trợ.</item>
+    </plurals>
+    <plurals name="pr_wallet_search_desc_num_assets">
+        <item quantity="other">{num} tài sản</item>
+    </plurals>
+    <plurals name="pr_wallet_settings_reminder_desc_fail_check">
+        <item quantity="other">Hệ thống quét đã phát hiện {num} rủi ro trên thiết bị của bạn.</item>
+    </plurals>
+    <plurals name="pr_wallet_subtitle_non_interactive_address">
+        <item quantity="other">{count} DApp không tương tác</item>
+    </plurals>
+</resources>

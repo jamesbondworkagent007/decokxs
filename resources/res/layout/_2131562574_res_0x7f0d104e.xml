@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    textColor="@color/text_amplified"
+    id="@+id/un_support_title"
+    tag="layout/trade_ui_signal_coin_pair_sub_title_item_0"
+    paddingTop="@dimen/margin_12dp"
+    paddingBottom="@dimen/margin_12dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingVertical="@dimen/margin_12dp"
+    style="@style/TextAppearance.Text.14SP.Regular"/>

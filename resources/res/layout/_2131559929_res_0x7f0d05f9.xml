@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    layout_width="-2"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        gravity="0x11"
+        layout_gravity="0x11"
+        orientation="1"
+        padding="30dp"
+        layout_width="-2"
+        android:layout_height="wrap_content">
+        <ProgressBar
+            id="@+id/progressBar"
+            layout_width="30dp"
+            android:layout_height="30dp"
+            max="100"
+            indeterminate="true"
+            indeterminateTint="@color/progress_color"
+            style="@style/Widget.AppCompat.ProgressBar"/>
+        <TextView
+            id="@+id/stateText"
+            visibility="0"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            layout_marginTop="30dp"/>
+    </LinearLayout>
+</FrameLayout>

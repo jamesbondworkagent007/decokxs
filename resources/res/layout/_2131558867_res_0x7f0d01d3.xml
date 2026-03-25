@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/emoji_picker_root"
+    paddingTop="12dp"
+    paddingBottom="12dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingStart="24dp"
+    paddingEnd="24dp">
+    <TextView
+        textColor="@color/ContentPrimary"
+        id="@+id/tv_recent_title"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        text="@string/pr_message_chat_label_recent_emojis"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xf="0"
+        style="@style/Label_2_Bold"/>
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/rv_recent"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_marginTop="8dp"
+        overScrollMode="2"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="@+id/tv_recent_title"/>
+    <View
+        id="@+id/divider"
+        background="@color/BorderPrimary"
+        layout_width="0dp"
+        android:layout_height="0.5dp"
+        layout_marginTop="12dp"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="@+id/rv_recent"/>
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/rv_all"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_marginTop="12dp"
+        overScrollMode="0"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="@+id/divider"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

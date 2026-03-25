@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" shape="1">
+    <size
+        height="@dimen/text_avatar_bg_size"
+        width="@dimen/text_avatar_bg_size"/>
+    <gradient
+        startColor="#84c0fe"
+        endColor="#6cb2fb"
+        angle="90"/>
+</shape>

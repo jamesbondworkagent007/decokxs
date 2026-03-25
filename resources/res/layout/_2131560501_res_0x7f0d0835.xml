@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    tag="layout/item_editable_list_item_0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <View
+        id="@+id/templateLine"
+        background="@color/LineMuted"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="1dp"/>
+    <LinearLayout
+        orientation="0"
+        layout_width="-1"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            orientation="1"
+            id="@+id/add_container"
+            layout_width="0dp"
+            android:layout_height="wrap_content"
+            layout_weight="1"/>
+        <ImageView
+            id="@+id/templateDelete"
+            visibility="2"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            src="@drawable/_2131234234_res_0x7f080dba"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    gravity="0x10"
+    orientation="0"
+    tag="layout/planet_item_token_0"
+    paddingTop="10dp"
+    paddingBottom="10dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingVertical="10dp">
+    <ImageView
+        id="@+id/icon"
+        layout_width="16dp"
+        android:layout_height="16dp"
+        src="@drawable/_2131232465_res_0x7f0806d1"/>
+    <TextView
+        textColor="@color/ContentPrimary"
+        ellipsize="3"
+        id="@+id/left"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        maxLines="1"
+        layout_weight="1"
+        layout_marginStart="4dp"
+        style="@style/Label_3_Regular"/>
+    <TextView
+        textColor="@color/ContentDisabled"
+        ellipsize="3"
+        id="@+id/right"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        maxLines="1"
+        style="@style/Label_3_Regular"/>
+</LinearLayout>

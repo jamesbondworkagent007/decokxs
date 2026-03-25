@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o.C55258xgZ xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    textSize="16sp"
+    textColor="@color/ContentPrimary"
+    id="@+id/label"
+    tag="layout/item_helper_label_0"
+    layout_width="-2"
+    android:layout_height="wrap_content"
+    textFontWeight="700"
+    NOT_FOUND_0x7="2"/>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group checkableBehavior="2">
+        <item
+            id="@+id/all_logs"
+            checked="true"
+            title="@string/all_logs"/>
+        <item
+            id="@+id/error_logs"
+            title="@string/error"/>
+        <item
+            id="@+id/warn_logs"
+            title="@string/warn"/>
+        <item
+            id="@+id/info_logs"
+            title="@string/info"/>
+        <item
+            id="@+id/debug_logs"
+            title="@string/debug"/>
+        <item
+            id="@+id/verbose_logs"
+            title="@string/verbose"/>
+    </group>
+</menu>

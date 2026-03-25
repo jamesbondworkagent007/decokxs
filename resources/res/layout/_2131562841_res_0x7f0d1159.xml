@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <include
+        id="@+id/portrait_layout"
+        layout="@layout/_2131562843_res_0x7f0d115b"/>
+    <include
+        id="@+id/landscape_layout"
+        layout="@layout/_2131562842_res_0x7f0d115a"/>
+    <o.C55113xdn
+        id="@+id/fragment_trade_loading_view"
+        visibility="2"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_centerInParent="true"
+        NOT_FOUND_0x5="true"/>
+</RelativeLayout>

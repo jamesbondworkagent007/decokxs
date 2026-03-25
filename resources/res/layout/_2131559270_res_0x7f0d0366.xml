@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    paddingLeft="16dp"
+    paddingTop="22dp"
+    paddingRight="16dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingHorizontal="16dp">
+    <TextView
+        textAppearance="@style/TextAppearance.Title.14SP.Medium"
+        layout_gravity="0x10"
+        id="@+id/tv_address"
+        paddingBottom="22dp"
+        layout_width="-1"
+        android:layout_height="wrap_content"/>
+    <View
+        id="@+id/divider"
+        background="@drawable/_2131234322_res_0x7f080e12"
+        layout_width="-1"
+        android:layout_height="0x7f0703c9"/>
+</LinearLayout>

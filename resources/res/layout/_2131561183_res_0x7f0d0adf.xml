@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    id="@+id/bs_content_country_iconLy"
+    tag="layout/layout_country_flag_0"
+    background="@drawable/_2131231088_res_0x7f080170"
+    layout_width="25dp"
+    android:layout_height="25dp">
+    <ImageView
+        layout_gravity="0x10"
+        id="@+id/bs_content_country_icon"
+        layout_width="24dp"
+        android:layout_height="24dp"/>
+</FrameLayout>

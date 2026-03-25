@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    textAppearance="@style/TextAppearance.Text.12SP.Regular"
+    textColor="@color/text_light"
+    gravity="0x10"
+    id="@+id/title"
+    layout_width="-2"
+    android:layout_height="wrap_content"
+    layout_marginTop="24dp"
+    includeFontPadding="false"
+    drawablePadding="4dp"
+    layout_marginStart="16dp"
+    layout_marginEnd="16dp"
+    NOT_FOUND_0xb="@color/text_light"
+    NOT_FOUND_0xc="16sp"/>

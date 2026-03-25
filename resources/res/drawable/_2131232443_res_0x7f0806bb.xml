@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape shape="1">
+            <solid color="@color/BorderPrimary"/>
+            <size
+                height="24dp"
+                width="24dp"/>
+        </shape>
+    </item>
+    <item
+        left="1dp"
+        top="1dp"
+        right="1dp"
+        bottom="1dp">
+        <shape shape="1">
+            <solid color="@color/SurfaceContrast"/>
+        </shape>
+    </item>
+    <item gravity="0x11">
+        <vector
+            height="20dp"
+            width="20dp"
+            viewportWidth="25"
+            viewportHeight="25">
+            <path
+                fillColor="@color/ContentPrimary"
+                pathData="M19.118,7.479C19.411,7.186 19.411,6.711 19.118,6.418C18.825,6.125 18.35,6.125 18.057,6.418L12.587,11.888L7.118,6.418C6.825,6.125 6.35,6.125 6.057,6.418C5.764,6.711 5.764,7.186 6.057,7.479L11.527,12.948L6.057,18.418C5.764,18.711 5.764,19.186 6.057,19.479C6.35,19.771 6.825,19.771 7.118,19.479L12.587,14.009L18.057,19.479C18.35,19.771 18.825,19.771 19.118,19.479C19.411,19.186 19.411,18.711 19.118,18.418L13.648,12.948L19.118,7.479Z"
+                fillType="1"/>
+        </vector>
+    </item>
+</layer-list>

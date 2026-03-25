@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o.C40505qYi xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x10"
+    orientation="0"
+    layout_width="-1"
+    android:layout_height="30dp">
+    <TextView
+        textColor="@color/ContentContrast"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        text="@string/pr_trade_favorites_colheader_name"
+        layout_weight="1"
+        layout_marginStart="24dp"
+        style="@style/Label_3_Regular"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        textColor="@color/ContentContrast"
+        ellipsize="3"
+        layout_width="36dp"
+        android:layout_height="wrap_content"
+        text="@string/pr_trade_favorites_colheader_edit"
+        lines="1"
+        NOT_FOUND_0xa="@dimen/text_size_10sp"
+        NOT_FOUND_0xb="1"
+        style="@style/Label_3_Regular"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        textColor="@color/ContentContrast"
+        ellipsize="3"
+        layout_width="41dp"
+        android:layout_height="wrap_content"
+        text="@string/pr_trade_favorites_colheader_hide"
+        lines="1"
+        NOT_FOUND_0xa="@dimen/text_size_10sp"
+        NOT_FOUND_0xb="1"
+        style="@style/Label_3_Regular"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        textColor="@color/ContentContrast"
+        ellipsize="3"
+        layout_width="47dp"
+        android:layout_height="wrap_content"
+        text="@string/pr_trade_favorites_colheader_sort"
+        lines="1"
+        NOT_FOUND_0xa="@dimen/text_size_10sp"
+        NOT_FOUND_0xb="1"
+        style="@style/Label_3_Regular"/>
+</o.C40505qYi>

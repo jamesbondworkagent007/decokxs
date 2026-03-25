@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    paddingLeft="@dimen/padding_24dp"
+    paddingRight="@dimen/padding_24dp"
+    paddingBottom="16dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingHorizontal="@dimen/padding_24dp">
+    <o.C14775drn
+        theme="@style/OKUITheme.Alternative.Web3"
+        id="@+id/okif_password"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_8dp"
+        NOT_FOUND_0xd="44"
+        NOT_FOUND_0xe="@string/pr_wallet_verifycloudpassword_input_entercloud_backup"
+        NOT_FOUND_0xf="@string/pr_wallet_restorecloudwallet_title_verify_cloud"/>
+    <o.C52794wYp
+        enabled="false"
+        id="@+id/btn_confirm"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="24dp"
+        text="@string/pr_metax_dapps_modal_textbtn_confirm"
+        textAllCaps="false"
+        NOT_FOUND_0x10="52"
+        NOT_FOUND_0x11="0x101"/>
+</LinearLayout>

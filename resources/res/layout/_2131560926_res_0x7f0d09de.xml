@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    gravity="0x10"
+    orientation="0"
+    tag="layout/item_tee_time_selection_bottom_sheet_0"
+    layout_width="-1"
+    android:layout_height="64dp">
+    <androidx.appcompat.widget.AppCompatTextView
+        textSize="18sp"
+        textColor="@color/ContentPrimary"
+        id="@+id/tvContent"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_weight="1"
+        style="@style/Title_2_Medium"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/ivSelected"
+        visibility="2"
+        layout_width="24dp"
+        android:layout_height="24dp"
+        src="@drawable/_2131233852_res_0x7f080c3c"
+        tint="@color/ContentBrand"/>
+</LinearLayout>

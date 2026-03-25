@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.okinc.business.defi.wallet.home.nestedscroll.CoorLayoutSuper xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <com.google.android.material.appbar.AppBarLayout
+        id="@+id/appBar"
+        background="@color/BasePrimaryAlternative"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x7="0dp">
+        <androidx.core.widget.NestedScrollView
+            layout_width="-1"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.appbar.AppBarLayout>
+    <o.C33546myW
+        id="@+id/refreshLayout"
+        layout_width="-1"
+        android:layout_height="match_parent"
+        overScrollMode="2"
+        NOT_FOUND_0x8="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"
+        NOT_FOUND_0x9="true"
+        NOT_FOUND_0xa="true"
+        NOT_FOUND_0xb="0dp">
+        <androidx.recyclerview.widget.RecyclerView
+            id="@+id/rvContent"
+            scrollbars="horizontal"
+            clipToPadding="false"
+            layout_width="-1"
+            android:layout_height="match_parent"
+            overScrollMode="2"/>
+        <o.C33604mzb
+            id="@+id/refresh_footer"
+            layout_width="-1"
+            android:layout_height="wrap_content"/>
+    </o.C33546myW>
+</com.okinc.business.defi.wallet.home.nestedscroll.CoorLayoutSuper>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    paddingLeft="@dimen/sm"
+    paddingRight="@dimen/sm"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingHorizontal="@dimen/sm">
+    <TextView
+        textColor="@color/ContentContrast"
+        id="@+id/tv_title"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginBottom="@dimen/xxsm"
+        text="@string/pr_invest_placeorder_details_label_swapped_into"
+        style="@style/Label_2_Regular"/>
+    <LinearLayout
+        orientation="1"
+        id="@+id/container"
+        background="@drawable/_2131231347_res_0x7f080273"
+        padding="@dimen/xxsm"
+        layout_width="-1"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

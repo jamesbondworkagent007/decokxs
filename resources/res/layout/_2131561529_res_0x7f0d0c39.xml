@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    paddingLeft="24dp"
+    paddingRight="24dp"
+    clipChildren="false"
+    clipToPadding="false"
+    layout_width="-1"
+    android:layout_height="36dp"
+    paddingHorizontal="24dp">
+    <o.C54989xbV
+        id="@+id/chain_select"
+        background="@color/transparent"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_centerVertical="true"
+        layout_marginEnd="-10dp"
+        NOT_FOUND_0xe="@drawable/_2131234381_res_0x7f080e4d"
+        NOT_FOUND_0xf="false"
+        NOT_FOUND_0x10="true"
+        NOT_FOUND_0x11="0"
+        NOT_FOUND_0x12="0"
+        NOT_FOUND_0x13="0"
+        NOT_FOUND_0x15="0"
+        NOT_FOUND_0x16="-4"/>
+    <TextView
+        textSize="@dimen/text_size_16sp"
+        textColor="@color/ContentPrimary"
+        id="@+id/tv_token"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        text="@string/pr_commonall_enterfield_title_crypto"
+        NOT_FOUND_0x12="0"
+        NOT_FOUND_0x14="0"
+        NOT_FOUND_0x15="0"
+        style="@style/TextAppearance.Medium"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

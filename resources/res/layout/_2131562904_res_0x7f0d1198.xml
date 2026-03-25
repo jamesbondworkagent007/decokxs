@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/view_strategy_ticker_0"
+    layout_width="-2"
+    android:layout_height="wrap_content">
+    <TextView
+        textAppearance="@style/TextAppearance.Text.Bold.16SP"
+        textColor="@color/okTradeG900"
+        id="@+id/ticker"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0xa="0"/>
+    <ImageView
+        layout_gravity="0x800005"
+        id="@+id/img"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginStart="2dp"
+        NOT_FOUND_0x8="@+id/ticker"
+        NOT_FOUND_0x9="@+id/ticker"
+        NOT_FOUND_0xb="@+id/ticker"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

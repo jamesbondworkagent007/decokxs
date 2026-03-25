@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    background="@color/white"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <TextView
+        textSize="22sp"
+        textColor="#696969"
+        gravity="0x11"
+        layout_width="-1"
+        android:layout_height="match_parent"
+        text="@string/agentweb_default_page_error"/>
+</LinearLayout>

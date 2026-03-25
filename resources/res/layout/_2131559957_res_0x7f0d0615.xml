@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o.C42922rfZ xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/root_layout"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/ranking_list"
+        layout_width="-1"
+        android:layout_height="match_parent"
+        nestedScrollingEnabled="false"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="0"/>
+    <FrameLayout
+        id="@+id/reload_view"
+        background="@color/BasePrimary"
+        paddingTop="107dp"
+        paddingBottom="130dp"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="0"/>
+    <FrameLayout
+        id="@+id/anim"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        minHeight="@dimen/dp_484"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="0"/>
+</o.C42922rfZ>

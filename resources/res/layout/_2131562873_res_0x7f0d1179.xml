@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    background="@drawable/_2131231249_res_0x7f080211"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <com.okinc.uilab.edit.OKEditText
+        textSize="@dimen/text_size_14sp"
+        textColor="@color/reset_wallet_dialog_edit_text_content"
+        textColorHint="@color/reset_wallet_dialog_hint"
+        id="@+id/edit_reset"
+        background="@drawable/_2131231338_res_0x7f08026a"
+        layout_width="-1"
+        android:layout_height="@dimen/height_40dp"
+        hint="@string/pr_wallet_popup_text_reset"
+        maxLines="1"
+        inputType="0x1"
+        paddingStart="12dp">
+        <requestFocus/>
+    </com.okinc.uilab.edit.OKEditText>
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.okinc.uilab.item.OKRegularCell xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/orc_parent"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    NOT_FOUND_0x3="@color/ContentPrimary"
+    NOT_FOUND_0x6="@dimen/padding_24dp">
+    <o.C55068xcv
+        id="@+id/action_right"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x4="@drawable/_2131231649_res_0x7f0803a1"
+        NOT_FOUND_0x5="@color/ContentContrast"/>
+</com.okinc.uilab.item.OKRegularCell>

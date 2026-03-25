@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <View
+        id="@+id/divider"
+        background="@color/BorderPrimary"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="0.5dp"
+        layout_marginTop="@dimen/margin_16dp"
+        layout_marginBottom="@dimen/margin_16dp"
+        layout_marginVertical="@dimen/margin_16dp"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        textAppearance="@style/TextAppearance.Text.14SP.Regular"
+        textColor="@color/ContentContrast"
+        id="@+id/setting_title"
+        paddingTop="@dimen/padding_12dp"
+        paddingBottom="@dimen/padding_12dp"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        paddingVertical="@dimen/padding_12dp"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

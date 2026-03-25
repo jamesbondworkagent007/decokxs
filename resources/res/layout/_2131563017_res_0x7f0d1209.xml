@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    tag="layout/widget_invest_redeem_receive_view_v2_0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.C55258xgZ
+        textColor="@color/ContentContrast"
+        gravity="0x10"
+        id="@+id/tv_receive_title"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        text="@string/pr_investredeem_placeorder_title_est_receive"
+        includeFontPadding="false"
+        style="@style/Label_2_Regular"/>
+    <LinearLayout
+        gravity="0x800003"
+        orientation="1"
+        id="@+id/ll_gains_content"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/xxxsm"
+        divider="@drawable/_2131231219_res_0x7f0801f3"
+        showDividers="middle"/>
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <TextView
+        textSize="@dimen/text_size_18sp"
+        textStyle="0x1"
+        textColor="@color/grey_g900"
+        layout_gravity="0x1"
+        id="@+id/tv_title"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        text="@string/pr_demotrade_tab_top_indicate"/>
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/rv_indicator"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        paddingStart="16dp"
+        paddingEnd="8dp"/>
+</LinearLayout>

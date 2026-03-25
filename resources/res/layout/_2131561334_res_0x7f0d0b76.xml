@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/validator_list"
+        paddingLeft="@dimen/xsm"
+        paddingRight="@dimen/xsm"
+        layout_width="-1"
+        android:layout_height="match_parent"
+        paddingHorizontal="@dimen/xsm"
+        NOT_FOUND_0x9="androidx.recyclerview.widget.LinearLayoutManager"/>
+    <o.C55173xeu
+        layout_gravity="0x11"
+        id="@+id/error_container"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x8="6"
+        NOT_FOUND_0xc="@string/pr_invest_div_errortip_failed_to_load"
+        NOT_FOUND_0xd="@string/pr_invest_btn_errortip_reload"/>
+    <o.C55113xdn
+        layout_gravity="0x11"
+        id="@+id/loading_view"
+        visibility="2"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0xa="true"
+        NOT_FOUND_0xb="true"/>
+</FrameLayout>

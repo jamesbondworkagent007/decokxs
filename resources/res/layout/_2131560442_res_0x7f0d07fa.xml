@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    showDividers="middle">
+    <View
+        id="@+id/view_line"
+        layout_marginTop="16dp"
+        style="@style/WidgetDivisionLine"/>
+    <LinearLayout
+        orientation="1"
+        id="@+id/noticeContainerLay"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/ok_dp_16"
+        divider="@drawable/_2131234189_res_0x7f080d8d"
+        showDividers="middle"/>
+    <TextView
+        textAppearance="@style/TextAppearance.Blue.12SP"
+        id="@+id/expand"
+        visibility="2"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="8dp"
+        text="@string/pr_trade_strategy_header_view_more"/>
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    background="@color/BasePrimaryAlternative"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C33537myN
+        id="@+id/app_bar"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0xc="@color/BasePrimaryAlternative"
+        NOT_FOUND_0x10="@color/BasePrimaryAlternative"/>
+    <androidx.recyclerview.widget.RecyclerView
+        orientation="1"
+        id="@+id/recycler"
+        layout_width="-1"
+        android:layout_height="0dp"
+        layout_weight="1"
+        overScrollMode="2"
+        NOT_FOUND_0xd="androidx.recyclerview.widget.LinearLayoutManager"/>
+    <o.C52794wYp
+        id="@+id/continue_button"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_12dp"
+        layout_marginBottom="@dimen/margin_12dp"
+        text="@string/pr_metax_customcoin_btn_confirm"
+        layout_marginStart="@dimen/common_page_edge_space"
+        layout_marginEnd="@dimen/common_page_edge_space"
+        NOT_FOUND_0xe="52"
+        NOT_FOUND_0xf="0x101"/>
+</LinearLayout>

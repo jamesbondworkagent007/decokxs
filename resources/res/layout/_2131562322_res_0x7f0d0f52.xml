@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/trade_impl_contract_grid_edit_confirm_dialog_0"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <androidx.core.widget.NestedScrollView
+        id="@+id/contract_grid_edit_confirm_scroll_view"
+        layout_width="-1"
+        android:layout_height="match_parent"
+        overScrollMode="2"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="0">
+        <androidx.appcompat.widget.LinearLayoutCompat
+            orientation="1"
+            paddingLeft="@dimen/padding_24dp"
+            paddingRight="@dimen/padding_24dp"
+            paddingBottom="@dimen/padding_24dp"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            paddingHorizontal="@dimen/padding_24dp">
+            <androidx.recyclerview.widget.RecyclerView
+                id="@+id/before_recycler_view"
+                layout_width="-1"
+                android:layout_height="wrap_content"/>
+            <View
+                id="@+id/view_line"
+                visibility="0"
+                layout_marginTop="24dp"
+                style="@style/WidgetDivisionLine"/>
+            <androidx.recyclerview.widget.RecyclerView
+                id="@+id/after_recycler_view"
+                layout_width="-1"
+                android:layout_height="wrap_content"
+                layout_marginTop="@dimen/margin_16dp"/>
+            <com.okinc.uilab.reminder.OKReminder
+                id="@+id/warning_reminder"
+                visibility="0"
+                layout_width="-1"
+                android:layout_height="wrap_content"
+                layout_marginTop="@dimen/margin_16dp"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

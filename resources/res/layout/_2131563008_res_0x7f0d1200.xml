@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    layout_width="-1"
+    android:layout_height="40dp">
+    <LinearLayout
+        gravity="0x11"
+        layout_gravity="0x11"
+        orientation="1"
+        id="@+id/layout_refresh"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="wrap_content">
+        <ImageView
+            id="@+id/iv_refresh"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            src="@drawable/_2131230907_res_0x7f0800bb"/>
+        <TextView
+            textAppearance="@style/TextAppearance.Text.12SP.Regular"
+            textSize="@dimen/text_size_12sp"
+            textColor="@color/ContentContrast"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            layout_marginTop="8dp"
+            text="@string/pr_investhome_bot_text_data_loading"/>
+    </LinearLayout>
+    <TextView
+        textAppearance="@style/TextAppearance.Text.12SP.Regular"
+        textSize="@dimen/text_size_12sp"
+        textColor="@color/ContentContrast"
+        layout_gravity="0x11"
+        id="@+id/tv_no_more_data"
+        visibility="2"
+        layout_width="-2"
+        android:layout_height="wrap_content"/>
+</FrameLayout>

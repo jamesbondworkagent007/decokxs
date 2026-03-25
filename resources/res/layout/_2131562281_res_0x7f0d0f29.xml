@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <com.google.android.material.textfield.TextInputLayout
+        id="@+id/dropdown_editable"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        hint="@string/label"
+        NOT_FOUND_0x7="true"
+        style="?attr/textInputOutlinedExposedDropdownMenuStyle">
+        <AutoCompleteTextView
+            id="@+id/edittext_dropdown_editable"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            imeOptions="0x10000000"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        id="@+id/dropdown_noneditable"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        hint="@string/label"
+        NOT_FOUND_0x7="true"
+        style="?attr/textInputOutlinedExposedDropdownMenuStyle">
+        <AutoCompleteTextView
+            id="@+id/edittext_dropdown_noneditable"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            inputType="0x0"
+            imeOptions="0x10000000"/>
+    </com.google.android.material.textfield.TextInputLayout>
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.wYS
+        layout_gravity="0x11"
+        id="@+id/type"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="4dp"
+        layout_marginBottom="4dp"
+        text="All types"
+        layout_marginStart="4dp"
+        layout_marginEnd="4dp"
+        NOT_FOUND_0x9="0x101"
+        NOT_FOUND_0xa="-3"/>
+</FrameLayout>

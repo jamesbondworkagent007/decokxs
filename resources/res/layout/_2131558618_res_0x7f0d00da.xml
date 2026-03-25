@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/main"
+    fitsSystemWindows="true"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <androidx.viewpager2.widget.ViewPager2
+        id="@+id/view_pager"
+        layout_width="-1"
+        android:layout_height="match_parent"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/img_back"
+        background="?attr/selectableItemBackgroundBorderless"
+        padding="10dp"
+        layout_width="44dp"
+        android:layout_height="44dp"
+        src="@drawable/_2131232369_res_0x7f080671"
+        tint="@color/ContentPrimary"/>
+    <o.wXG
+        layout_gravity="0x51"
+        id="@+id/counter_view"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginBottom="30dp"
+        NOT_FOUND_0xa="1"
+        NOT_FOUND_0xb="5"/>
+</FrameLayout>

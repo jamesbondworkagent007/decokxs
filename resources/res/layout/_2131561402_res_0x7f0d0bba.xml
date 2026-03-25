@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/rvOutlinedCard"
+        paddingTop="@dimen/padding_8dp"
+        clipToPadding="false"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginLeft="?attr/horizontalPaddingDimension"
+        layout_marginRight="?attr/horizontalPaddingDimension"
+        maxHeight="650dp"
+        minHeight="650dp"
+        layout_marginHorizontal="?attr/horizontalPaddingDimension"/>
+</merge>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/clParent"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/add_icon"
+        background="@drawable/_2131231082_res_0x7f08016a"
+        padding="8dp"
+        layout_width="32dp"
+        android:layout_height="32dp"
+        layout_marginTop="@dimen/margin_16dp"
+        layout_marginBottom="@dimen/margin_16dp"
+        src="@drawable/_2131233687_res_0x7f080b97"
+        tint="@color/ContentPrimary"
+        layout_marginStart="@dimen/margin_24dp"
+        layout_marginVertical="@dimen/margin_16dp"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x11="0"
+        NOT_FOUND_0x12="@color/ContentPrimary"/>
+    <TextView
+        textAppearance="@style/Label_1_Medium"
+        textColor="@color/ContentPrimary"
+        id="@+id/add_account_text"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginStart="12dp"
+        layout_marginEnd="@dimen/margin_24dp"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="@+id/add_icon"
+        NOT_FOUND_0x11="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

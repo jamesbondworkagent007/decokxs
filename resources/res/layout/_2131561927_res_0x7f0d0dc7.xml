@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="0"
+    paddingLeft="@dimen/margin_default"
+    paddingRight="@dimen/margin_default"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingHorizontal="@dimen/margin_default">
+    <LinearLayout
+        orientation="1"
+        id="@+id/leftSection"
+        paddingTop="16dp"
+        paddingBottom="16dp"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_weight="1"
+        paddingVertical="16dp">
+        <TextView
+            textAppearance="@style/Title_2_Bold"
+            textColor="@color/ContentPrimary"
+            id="@+id/title"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            text="@string/pr_trade_analysis_checkbox_hide_small_assets"
+            lineHeight="24sp"/>
+        <TextView
+            textAppearance="@style/Body_3_Regular"
+            textColor="@color/ContentTertiary"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            layout_marginTop="8dp"
+            text="@string/pr_trade_analysis_dialog_hide_all_cryptocurrencies_with"
+            lineHeight="22sp"/>
+    </LinearLayout>
+    <o.C55239xgG
+        id="@+id/toggle"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="14dp"
+        layout_marginStart="16dp"
+        NOT_FOUND_0x11="-3"/>
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    gravity="0x30"
+    orientation="0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatTextView
+        textAppearance="@style/Label_2_Medium"
+        textSize="14sp"
+        textColor="@color/ContentContrast"
+        ellipsize="3"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        text="@string/pr_wallet_search_input_label_you_may_search"
+        maxLines="1"/>
+    <o.C55372xih
+        id="@+id/flCompletion"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        maxLines="3"
+        layout_marginStart="8dp"/>
+</LinearLayout>

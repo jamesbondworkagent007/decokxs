@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.AppCompatTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    textAppearance="@style/TextAppearance.Title.18SP"
+    gravity="0x10"
+    paddingLeft="@dimen/padding_24dp"
+    paddingRight="@dimen/padding_24dp"
+    layout_width="-1"
+    android:layout_height="@dimen/height_48dp"
+    fontFamily="@font/font_alpha_bold"
+    paddingHorizontal="@dimen/padding_24dp"/>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/functionBtnContainer"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginTop="20dp">
+    <o.C52794wYp
+        id="@+id/endCycleBtn"
+        layout_width="0dp"
+        android:layout_height="match_parent"
+        text="@string/pr_fdcabot_orderdetails_btn_end_cycle"
+        layout_weight="1"
+        layout_marginEnd="10dp"
+        NOT_FOUND_0x7="32"
+        NOT_FOUND_0x8="0x104"/>
+    <o.C52794wYp
+        id="@+id/tpBtn"
+        layout_width="0dp"
+        android:layout_height="match_parent"
+        text="@string/pr_dcabot_orderpanel_dropdown_take_profit_this_cycle"
+        layout_weight="1"
+        NOT_FOUND_0x7="32"
+        NOT_FOUND_0x8="0x104"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

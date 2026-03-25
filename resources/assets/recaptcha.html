@@ -1,0 +1,79 @@
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<head>
+    <title></title>
+    <style>
+        .container {
+          height: 100%;
+          width: 100%;
+          margin: 0;
+          padding: 0;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-color: transparent !important;
+        }
+        .container + div > div:nth-child(1) {
+          background-color: transparent !important;
+        }
+        .container + div > div:nth-child(2) {
+          display: flex !important;
+          justify-content: center !important;
+          align-items: center !important;
+          height: 100vh !important;
+          background-color: transparent !important;
+          transform: scale(0.9) !important;
+          border: none !important;
+        }
+        .grecaptcha-badge {
+          visibility: hidden !important;
+        }
+    </style>
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const siteKey = urlParams.get('siteKey');
+        const theme = urlParams.get('theme');
+        const action = urlParams.get('action');
+        const isVisual = urlParams.get('isVisual') == 'true';
+
+        function onVerify(token) {
+            window.jsBridge.onSuccess(token);
+        }
+
+        function onError() {
+            window.jsBridge.onError();
+        }
+
+        function onExpire() {
+            window.jsBridge.onExpire();
+        }
+
+        async function onLoad() {
+            if (isVisual) {
+                const recaptchaParams = {
+                    sitekey: siteKey,
+                    theme: theme,
+                    action: action,
+                    callback: onVerify,
+                    "error-callback": onError,
+                    "expired-callback": onExpire,
+                };
+                grecaptcha.enterprise.render("recaptcha-container", recaptchaParams);
+            } else {
+                const recaptchaParams = {
+                    action: action
+                };
+                const token = await grecaptcha.enterprise.execute(siteKey, recaptchaParams)
+                window.jsBridge.onSuccess(token);
+            }
+            window.jsBridge.onLoadFinished();
+        }
+    </script>
+</head>
+<body>
+<script src="https://www.google.com/recaptcha/enterprise.js?onload=onLoad&render=__RENDER__"></script>
+<div class="container">
+    <span id="recaptcha-container"></span>
+</div>
+</body>
+</html>

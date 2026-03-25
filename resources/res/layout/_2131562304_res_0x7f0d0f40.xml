@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x10"
+    orientation="0"
+    background="@color/okTradeBackground1"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <TextView
+        textSize="12sp"
+        gravity="0x11"
+        id="@+id/tv_direction"
+        background="@drawable/_2131231375_res_0x7f08028f"
+        paddingLeft="2dp"
+        paddingRight="2dp"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        text="@string/pr_trade_bot_label_sell"
+        paddingHorizontal="2dp"/>
+    <TextView
+        textSize="14sp"
+        textStyle="0x1"
+        textColor="@color/okTradeG900"
+        id="@+id/tv_title"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        minWidth="60dp"
+        text=""
+        singleLine="true"
+        layout_marginStart="4dp"
+        style="@style/TextAppearance.Silka"/>
+    <o.C55251xgS
+        theme="@style/OKTheme"
+        id="@+id/tv_margin"
+        visibility="2"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginStart="@dimen/margin_2dp"
+        NOT_FOUND_0x12="-5"
+        NOT_FOUND_0x13="2"/>
+</LinearLayout>

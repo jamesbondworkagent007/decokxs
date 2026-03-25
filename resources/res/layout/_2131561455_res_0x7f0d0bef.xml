@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/rv_redeem_sui_staking"
+        layout_width="-1"
+        android:layout_height="0dp"
+        layout_weight="1"
+        NOT_FOUND_0xf="@+id/btn_container"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x11="-2"
+        NOT_FOUND_0x12="0"
+        NOT_FOUND_0x13="0"/>
+    <o.C52794wYp
+        gravity="0x11"
+        layout_gravity="0x50"
+        id="@+id/goto_im"
+        layout_width="-1"
+        android:layout_height="@dimen/height_30dp"
+        layout_marginLeft="16dp"
+        layout_marginTop="21dp"
+        layout_marginRight="16dp"
+        layout_marginBottom="20dp"
+        text="@string/pr_investdetails_bot_btn_redeem_next"
+        textAllCaps="false"
+        layout_marginHorizontal="16dp"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x12="0"
+        NOT_FOUND_0x13="0"
+        NOT_FOUND_0x14="0dp"
+        NOT_FOUND_0x15="52"
+        NOT_FOUND_0x16="0x101"
+        style="@style/Button.Primary"/>
+</LinearLayout>

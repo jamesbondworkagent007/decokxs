@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    tag="layout/item_planet_profile_badge_0"
+    paddingLeft="@dimen/padding_24dp"
+    paddingRight="@dimen/padding_24dp"
+    layout_width="-1"
+    android:layout_height="match_parent"
+    paddingHorizontal="@dimen/padding_24dp">
+    <ImageView
+        layout_gravity="0x1"
+        id="@+id/badge"
+        layout_width="144dp"
+        android:layout_height="144dp"
+        contentDescription="@null"/>
+    <TextView
+        textAppearance="@style/Headline_5_Bold"
+        textColor="@color/ContentPrimary"
+        gravity="0x1"
+        id="@+id/title"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_16dp"/>
+    <TextView
+        textAppearance="@style/Body_2_Regular"
+        textColor="@color/ContentSecondary"
+        gravity="0x1"
+        id="@+id/description"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="4dp"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

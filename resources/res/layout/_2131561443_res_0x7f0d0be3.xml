@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.C55113xdn
+        id="@+id/loadingView"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="88dp"
+        scaleType="fillCenter"
+        NOT_FOUND_0x8="true"
+        NOT_FOUND_0x9="true"/>
+    <o.C55173xeu
+        id="@+id/emptyView"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/md"
+        NOT_FOUND_0x7="6"/>
+</FrameLayout>

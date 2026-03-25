@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <FrameLayout
+        id="@+id/fl_container"
+        visibility="0"
+        layout_width="-1"
+        android:layout_height="match_parent"/>
+    <FrameLayout
+        id="@+id/market_switch_fragment_anim"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="match_parent"
+        layout_marginTop="20dp"/>
+</RelativeLayout>

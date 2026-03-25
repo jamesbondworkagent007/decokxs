@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-2"
+    android:layout_height="wrap_content">
+    <TextView
+        textAppearance="@style/TextAppearance.Text.12SP.Regular"
+        textColor="@color/ContentPrimary"
+        id="@+id/popTopText"
+        paddingLeft="@dimen/dp_8"
+        paddingTop="2dp"
+        paddingRight="@dimen/dp_8"
+        paddingBottom="2dp"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        paddingHorizontal="@dimen/dp_8"
+        paddingVertical="2dp"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xe="0"/>
+    <TextView
+        textAppearance="@style/TextAppearance.Text.12SP.Regular"
+        textColor="@color/ContentPrimary"
+        id="@+id/popBottomText"
+        paddingLeft="@dimen/dp_8"
+        paddingTop="2dp"
+        paddingRight="@dimen/dp_8"
+        paddingBottom="2dp"
+        visibility="2"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        paddingHorizontal="@dimen/dp_8"
+        paddingVertical="2dp"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="@+id/popTopText"/>
+</merge>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/cl_faq"
+    tag="layout/layout_faq_section_0"
+    background="@color/BasePrimaryAlternative"
+    visibility="0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatTextView
+        textAppearance="@style/Title_1_Bold"
+        textColor="@color/ContentPrimary"
+        ellipsize="3"
+        id="@+id/tv_faq_title"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_20dp"
+        layout_marginBottom="@dimen/dp_8"
+        text="@string/pr_commonall_button_title_faq"
+        maxLines="1"
+        layout_marginStart="@dimen/margin_24dp"
+        layout_marginEnd="@dimen/margin_24dp"
+        NOT_FOUND_0x12="0"
+        NOT_FOUND_0x13="0"
+        NOT_FOUND_0x15="0"/>
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/rv_faq_items"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        overScrollMode="2"
+        layout_marginStart="@dimen/margin_24dp"
+        layout_marginEnd="@dimen/margin_24dp"
+        nestedScrollingEnabled="false"
+        NOT_FOUND_0x11="0"
+        NOT_FOUND_0x12="0"
+        NOT_FOUND_0x13="0"
+        NOT_FOUND_0x14="@+id/tv_faq_title"/>
+    <View
+        id="@+id/divider_bottom"
+        background="@color/BorderSecondary"
+        layout_width="0dp"
+        android:layout_height="0.5dp"
+        layout_marginTop="@dimen/margin_12dp"
+        NOT_FOUND_0x12="0"
+        NOT_FOUND_0x13="0"
+        NOT_FOUND_0x14="@+id/rv_faq_items"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

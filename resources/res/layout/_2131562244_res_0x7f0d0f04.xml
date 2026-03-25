@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    gravity="0x800003"
+    orientation="1"
+    background="@drawable/_2131232000_res_0x7f080500"
+    padding="10dp"
+    layout_width="-2"
+    android:layout_height="wrap_content">
+    <TextView
+        textColor="@color/ContentPrimary"
+        id="@+id/tooltip_title"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        style="@style/Label_3_Regular"/>
+    <TextView
+        textColor="@color/ContentContrast"
+        id="@+id/tooltip_subtitle"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="4dp"
+        style="@style/Label_3_Regular"/>
+</LinearLayout>

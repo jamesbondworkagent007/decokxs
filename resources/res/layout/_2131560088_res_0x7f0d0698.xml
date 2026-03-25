@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/fragment_paid_group_transaction_list_0"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C33546myW
+        id="@+id/refresh_layout"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xd="false"
+        NOT_FOUND_0xe="true"
+        NOT_FOUND_0xf="true">
+        <androidx.recyclerview.widget.RecyclerView
+            id="@+id/historyList"
+            layout_width="-1"
+            android:layout_height="match_parent"/>
+        <o.C35887oHj
+            id="@+id/refresh_footer"
+            layout_width="-1"
+            android:layout_height="wrap_content"/>
+    </o.C33546myW>
+    <o.C55173xeu
+        id="@+id/empty_view"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x5="8"
+        NOT_FOUND_0x6="0"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xa="0.5"
+        NOT_FOUND_0x10="@string/pr_message_chat_emptystate_desc_check_connection"
+        NOT_FOUND_0x11="@string/pr_message_chat_emptystate_title_youre_disconnected"/>
+    <o.C55113xdn
+        id="@+id/view_loading"
+        visibility="2"
+        layout_width="@dimen/width_60dp"
+        android:layout_height="@dimen/width_60dp"
+        NOT_FOUND_0x6="0"
+        NOT_FOUND_0x7="0"
+        NOT_FOUND_0x8="0"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xb="true"
+        NOT_FOUND_0xc="@raw/_2131886123_res_0x7f12002b"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

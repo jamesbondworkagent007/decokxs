@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    id="@+id/item_layout"
+    tag="layout/item_grid_contact_avatar_0"
+    padding="5dp"
+    layout_width="-2"
+    android:layout_height="wrap_content">
+    <o.C35893oHp
+        layout_gravity="0x11"
+        id="@+id/iv_avatar"
+        layout_width="40dp"
+        android:layout_height="40dp"
+        foreground="@drawable/_2131231168_res_0x7f0801c0"
+        foregroundGravity="0x77"/>
+</FrameLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    background="@color/background_lv2"
+    paddingLeft="8dp"
+    paddingTop="12dp"
+    paddingRight="8dp"
+    paddingBottom="12dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingHorizontal="8dp"
+    paddingVertical="12dp">
+    <ImageView
+        id="@+id/icon"
+        tag="layout/view_coin_pair_item_0"
+        layout_width="16dp"
+        android:layout_height="16dp"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x14="0"
+        NOT_FOUND_0x15="0"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        textAppearance="@style/TextAppearance.Title.12SP.Medium"
+        textColor="@color/grey_g900"
+        id="@+id/title"
+        tag="layout/view_coin_pair_item_1"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_marginStart="4dp"
+        layout_marginEnd="4dp"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x12="@+id/right_icon"
+        NOT_FOUND_0x13="@+id/icon"
+        NOT_FOUND_0x15="0"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/right_icon"
+        tag="layout/view_coin_pair_item_2"
+        layout_width="14dp"
+        android:layout_height="14dp"
+        src="@drawable/_2131231675_res_0x7f0803bb"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x11="0"
+        NOT_FOUND_0x15="0"
+        NOT_FOUND_0x16="@color/ContentContrast"/>
+</merge>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x10"
+    orientation="0"
+    paddingLeft="@dimen/padding_16dp"
+    paddingRight="@dimen/padding_16dp"
+    layout_width="-1"
+    android:layout_height="@dimen/height_30dp"
+    layout_marginBottom="12dp"
+    paddingHorizontal="@dimen/padding_16dp">
+    <o.wYK
+        id="@+id/checkbox"
+        focusable="false"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginEnd="@dimen/dp_8"
+        NOT_FOUND_0x13="@drawable/_2131232409_res_0x7f080699"
+        NOT_FOUND_0x14="-5"/>
+    <o.C55001xbh
+        textSize="@dimen/font_12"
+        textColor="@color/grey_g900"
+        gravity="0x10"
+        id="@+id/et_fibo"
+        background="@drawable/_2131231334_res_0x7f080266"
+        paddingLeft="@dimen/dp_8"
+        paddingRight="@dimen/dp_8"
+        layout_width="-1"
+        android:layout_height="match_parent"
+        text="0"
+        maxLines="1"
+        digits="0123456789,."
+        inputType="0x2002"
+        fontFamily="@font/font_alpha_regular"
+        paddingHorizontal="@dimen/dp_8"/>
+</LinearLayout>

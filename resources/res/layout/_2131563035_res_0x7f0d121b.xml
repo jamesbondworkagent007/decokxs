@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <TextView
+        textAppearance="@style/TextAppearance.Title.16SP"
+        textColor="@color/ContentContrast"
+        ellipsize="3"
+        id="@+id/tv_invest_currentprice_title"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        maxLines="1"
+        layout_marginEnd="@dimen/margin_12dp"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="0"/>
+    <TextView
+        textAppearance="@style/TextAppearance.Text.16SP.Medium"
+        textColor="@color/ContentPrimary"
+        ellipsize="3"
+        id="@+id/tv_invest_currentprice_text"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        maxLines="1"
+        NOT_FOUND_0x8="0"
+        NOT_FOUND_0x9="1"
+        NOT_FOUND_0xa="@+id/tv_invest_currentprice_title"
+        NOT_FOUND_0xc="0"/>
+</merge>

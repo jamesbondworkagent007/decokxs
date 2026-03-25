@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-2"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatTextView
+        textSize="@dimen/text_size_14sp"
+        textColor="@color/ContentContrast"
+        id="@+id/expand_textview"
+        paddingBottom="6dp"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        lineSpacingExtra="@dimen/dp_7"
+        paddingStart="0dp"
+        paddingEnd="24dp"
+        style="@style/Body_3_Regular"/>
+    <ImageView
+        layout_gravity="0x800055"
+        id="@+id/arrow_imageview"
+        visibility="2"
+        layout_width="24dp"
+        android:layout_height="24dp"
+        src="@drawable/_2131231588_res_0x7f080364"/>
+</merge>

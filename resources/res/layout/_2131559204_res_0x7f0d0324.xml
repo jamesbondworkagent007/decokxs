@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <FrameLayout
+        id="@+id/swap_content"
+        layout_width="-1"
+        android:layout_height="wrap_content"/>
+    <o.C25248itD
+        layout_gravity="0x50"
+        id="@+id/view_bottom_coin_price"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="wrap_content"/>
+</FrameLayout>

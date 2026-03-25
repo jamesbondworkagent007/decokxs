@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="0"
+    focusable="true"
+    clickable="true"
+    layout_width="-2"
+    android:layout_height="wrap_content">
+    <o.C35893oHp
+        id="@+id/menu_icon"
+        focusable="false"
+        clickable="false"
+        layout_width="@dimen/width_32dp"
+        android:layout_height="@dimen/height_32dp"
+        contentDescription="menu icon"
+        layout_marginEnd="@dimen/padding_24dp"/>
+</LinearLayout>

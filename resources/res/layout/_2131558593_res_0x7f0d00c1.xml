@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    background="@color/BasePrimary"
+    layout_width="-1"
+    android:layout_height="match_parent"
+    contentDescription="web3_defi_order_detail_view">
+    <o.C33537myN
+        id="@+id/app_bar"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0xe="0"/>
+    <View
+        id="@+id/divider"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="@+id/app_bar"
+        style="@style/WidgetDivisionLine"/>
+    <o.C55173xeu
+        id="@+id/empty_view"
+        layout_width="-1"
+        android:layout_height="0dp"
+        layout_marginTop="96dp"
+        contentDescription="web3_defi_order_detail_empty_view"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xd="@+id/divider"/>
+    <o.C33546myW
+        id="@+id/refresh_layout"
+        layout_width="-1"
+        android:layout_height="0dp"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xd="@+id/divider"
+        NOT_FOUND_0xf="false"
+        NOT_FOUND_0x10="true">
+        <o.C33603mza
+            layout_width="-1"
+            android:layout_height="wrap_content"/>
+        <androidx.recyclerview.widget.RecyclerView
+            orientation="1"
+            id="@+id/list"
+            paddingBottom="24dp"
+            clipToPadding="false"
+            layout_width="-1"
+            android:layout_height="match_parent"
+            contentDescription="web3_defi_order_detail_info_list"
+            NOT_FOUND_0x9="androidx.recyclerview.widget.LinearLayoutManager"/>
+    </o.C33546myW>
+</androidx.constraintlayout.widget.ConstraintLayout>

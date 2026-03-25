@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    id="@+id/shimmer_container"
+    paddingLeft="@dimen/common_page_edge_space"
+    paddingRight="@dimen/common_page_edge_space"
+    layout_width="-1"
+    android:layout_height="match_parent"
+    paddingHorizontal="@dimen/common_page_edge_space">
+    <include layout="@layout/_2131562238_res_0x7f0d0efe"/>
+    <include layout="@layout/_2131562238_res_0x7f0d0efe"/>
+    <include layout="@layout/_2131562238_res_0x7f0d0efe"/>
+</LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    paddingLeft="24dp"
+    paddingTop="12dp"
+    paddingRight="24dp"
+    paddingBottom="32dp"
+    layout_width="-1"
+    android:layout_height="224dp"
+    paddingHorizontal="24dp">
+    <o.C55113xdn
+        layout_gravity="0x11"
+        id="@+id/loading"
+        visibility="2"
+        layout_width="32dp"
+        android:layout_height="32dp"/>
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/rv_token"
+        layout_width="-1"
+        android:layout_height="match_parent"
+        overScrollMode="2"/>
+    <include
+        id="@+id/layout_network_error"
+        visibility="2"
+        layout="@layout/_2131561436_res_0x7f0d0bdc"/>
+    <TextView
+        textColor="@color/ContentSecondary"
+        layout_gravity="0x11"
+        id="@+id/no_data"
+        visibility="2"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        text="@string/pr_social_post_toast_no_results"
+        style="@style/Body_3_Regular"/>
+</FrameLayout>

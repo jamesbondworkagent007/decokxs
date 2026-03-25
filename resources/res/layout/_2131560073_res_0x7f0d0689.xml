@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    tag="layout/fragment_no_close_open_orders_0"
+    background="@color/BasePrimary"
+    layout_width="-1"
+    android:layout_height="match_parent"
+    layout_marginLeft="@dimen/margin_default"
+    layout_marginRight="@dimen/margin_default"
+    layout_marginHorizontal="@dimen/margin_default">
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/list_rcy_record"
+        descendantFocusability="0"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        overScrollMode="2"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

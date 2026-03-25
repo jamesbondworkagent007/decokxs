@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="26dp"
+    android:width="26dp"
+    android:viewportWidth="26"
+    android:viewportHeight="26">
+    <path
+        android:fillColor="@color/okim_verified_badge_blue"
+        android:pathData="M13,13m-12,0a12,12 0,1 1,24 0a12,12 0,1 1,-24 0"
+        android:strokeColor="@color/BackgroundLv1"
+        android:strokeWidth="2"/>
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M18.1224,9.5792L12.8413,17.8936C12.7852,17.9693 12.7,18.0175 12.6081,18.0221H11.368C11.2783,18.0175 11.1998,17.9625 11.1617,17.8799L7.8675,9.5952C7.8361,9.5172 7.8787,9.4507 7.9594,9.4507H11.7358C11.8187,9.4507 11.8546,9.5126 11.8143,9.5861L11.2783,10.3959C11.2379,10.4831 11.2312,10.5818 11.2626,10.6735L12.3771,13.64C12.4085,13.718 12.4691,13.7249 12.5139,13.6538L15.0928,9.5792C15.1488,9.5035 15.234,9.4553 15.326,9.4507H18.0528C18.1358,9.4507 18.1672,9.508 18.1224,9.5792Z"/>
+</vector>

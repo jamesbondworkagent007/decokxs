@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    tag="layout/trade_ui_fragemt_tactics_list_container_0"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C57597ylS
+        id="@+id/appbar"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0xc="true"
+        NOT_FOUND_0xd="@drawable/_2131231642_res_0x7f08039a"
+        NOT_FOUND_0xe="true"
+        NOT_FOUND_0xf="false">
+        <com.okinc.core.widget.OKSlidingTabLayout
+            layout_gravity="0x51"
+            id="@+id/tl_tab"
+            background="@color/white_background_color"
+            layout_width="-2"
+            android:layout_height="44dp"
+            layout_marginTop="12dp"
+            paddingEnd="18dp"
+            layout_marginStart="32dp"
+            layout_marginEnd="32dp"
+            NOT_FOUND_0x10="0dp"
+            NOT_FOUND_0x11="0dp"
+            NOT_FOUND_0x12="8dp"
+            NOT_FOUND_0x13="false"
+            NOT_FOUND_0x14="2"
+            NOT_FOUND_0x15="@color/okTradeG900"
+            NOT_FOUND_0x16="@color/okTradeG400"
+            NOT_FOUND_0x17="16sp"/>
+    </o.C57597ylS>
+    <View style="@style/WidgetDivisionLine"/>
+    <o.C33547myX
+        id="@+id/vp_content"
+        layout_width="-1"
+        android:layout_height="match_parent"
+        overScrollMode="2"/>
+</LinearLayout>

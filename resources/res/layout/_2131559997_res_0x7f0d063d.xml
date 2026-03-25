@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.C55258xgZ
+        id="@+id/hb_title"
+        paddingTop="@dimen/dp_10"
+        paddingBottom="@dimen/dp_10"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_centerVertical="true"
+        paddingVertical="@dimen/dp_10"
+        NOT_FOUND_0xa="2"
+        NOT_FOUND_0xb="@color/title_color"
+        NOT_FOUND_0xc="@dimen/text_size_16sp"
+        NOT_FOUND_0xd="@string/pr_tradechart_charts_header_open_interest"
+        NOT_FOUND_0xe="700"/>
+    <o.C35144npl
+        id="@+id/kdt_select"
+        layout_width="-2"
+        android:layout_height="32dp"
+        layout_marginTop="10dp"/>
+    <FrameLayout
+        layout_width="-1"
+        android:layout_height="240dp">
+        <o.C34887nkt
+            id="@+id/chart_position_volume"
+            layout_width="-1"
+            android:layout_height="match_parent"/>
+        <include layout="@layout/_2131561014_res_0x7f0d0a36"/>
+        <include layout="@layout/_2131561123_res_0x7f0d0aa3"/>
+        <o.C55113xdn
+            layout_gravity="0x11"
+            id="@+id/ok_loading"
+            layout_width="-2"
+            android:layout_height="wrap_content"/>
+    </FrameLayout>
+    <LinearLayout
+        orientation="0"
+        id="@+id/ll_bottom"
+        layout_width="-1"
+        android:layout_height="wrap_content">
+        <o.C34883nkp
+            id="@+id/legendView"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            layout_marginTop="@dimen/margin_5dp"/>
+    </LinearLayout>
+</LinearLayout>

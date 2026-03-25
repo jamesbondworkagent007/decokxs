@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    paddingTop="24dp"
+    paddingBottom="20dp"
+    layout_width="-1"
+    android:layout_height="431dp"
+    paddingStart="16dp"
+    paddingEnd="16dp">
+    <o.C55008xbo
+        id="@+id/input_address"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0xa="@+id/btn_confirm_address"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="1"
+        NOT_FOUND_0xe="40"
+        NOT_FOUND_0xf="@string/pr_investdeposit_mid_alert_enter_address"
+        NOT_FOUND_0x10="1"/>
+    <o.C52794wYp
+        id="@+id/btn_confirm_address"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        text="@string/pr_investdeposit_mid_btn_confirm"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xb="@+id/input_address"
+        NOT_FOUND_0x11="52"
+        NOT_FOUND_0x12="0x101"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

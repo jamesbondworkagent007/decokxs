@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    id="@+id/container"
+    fitsSystemWindows="true"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C55178xez
+        id="@+id/resultPage"
+        layout_width="-1"
+        android:layout_height="match_parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

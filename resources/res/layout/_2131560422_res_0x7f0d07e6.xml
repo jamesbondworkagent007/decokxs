@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    textColor="@color/ContentTertiary"
+    id="@+id/tvMonthHeader"
+    tag="layout/item_creator_centre_earnings_month_header_0"
+    paddingLeft="24dp"
+    paddingTop="12dp"
+    paddingRight="24dp"
+    paddingBottom="8dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingHorizontal="24dp"
+    style="@style/Label_2_Regular"/>

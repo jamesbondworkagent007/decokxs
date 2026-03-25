@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    textAppearance="@style/Title_1_Bold"
+    textColor="@color/ContentPrimary"
+    id="@+id/tv_more_category_title"
+    layout_width="-1"
+    android:layout_height="wrap_content"/>

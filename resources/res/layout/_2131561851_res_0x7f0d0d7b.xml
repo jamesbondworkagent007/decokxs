@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatTextView
+        textAppearance="@style/TextAppearance.Title.18SP"
+        gravity="0x10"
+        id="@+id/tv_title"
+        paddingLeft="@dimen/padding_24dp"
+        paddingRight="@dimen/padding_24dp"
+        layout_width="-1"
+        android:layout_height="@dimen/height_48dp"
+        text="@string/pr_trade_card_title_margintrading"
+        fontFamily="@font/font_alpha_bold"
+        paddingHorizontal="@dimen/padding_24dp"/>
+    <o.C55244xgL
+        id="@+id/tab_options_group"
+        layout_width="-1"
+        android:layout_height="@dimen/dp_40"
+        NOT_FOUND_0xc="@+id/ll_biz_container"
+        NOT_FOUND_0xd="1"
+        NOT_FOUND_0xe="-6"/>
+    <o.C55244xgL
+        id="@+id/tab_options_period"
+        layout_width="-1"
+        android:layout_height="@dimen/dp_40"
+        layout_marginEnd="@dimen/margin_4dp"
+        NOT_FOUND_0xd="1"
+        NOT_FOUND_0xe="-6"/>
+    <o.qSV
+        id="@+id/options_filter_sorter_view"
+        layout_width="-1"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    tag="layout/market_impl_fragment_spot_analysis_list_item_layout_0"
+    background="@color/BasePrimary"
+    layout_width="-1"
+    android:layout_height="match_parent"
+    layout_marginBottom="@dimen/margin_48dp">
+    <o.C55100xda
+        id="@+id/sort_view"
+        layout_width="-1"
+        android:layout_height="16dp"/>
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/list_recycler"
+        paddingLeft="8dp"
+        paddingRight="8dp"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        paddingHorizontal="8dp"/>
+    <o.C55173xeu
+        id="@+id/error_view"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/dp_65"
+        layout_marginBottom="@dimen/dp_65"
+        NOT_FOUND_0xd="8"
+        NOT_FOUND_0xe="@string/pr_trade_mid_emptystate_desc_cant_load_desc"
+        NOT_FOUND_0xf="@string/pr_trade_mid_emptystate_btn_reload"
+        NOT_FOUND_0x10="@string/pr_trade_header_emptystate_title_something_wrong"/>
+    <o.C55113xdn
+        layout_gravity="0x11"
+        id="@+id/loading_view"
+        visibility="2"
+        layout_width="36dp"
+        android:layout_height="359dp"
+        layout_marginTop="@dimen/dp_16"/>
+</LinearLayout>

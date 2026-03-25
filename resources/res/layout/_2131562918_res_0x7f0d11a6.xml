@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-2"
+    android:layout_height="match_parent">
+    <TextView
+        textAppearance="@style/TextAppearance.Text.14SP.Regular"
+        textColor="@color/color_content_static_subtle"
+        id="@+id/tvLeftText"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x8="true"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xb="@+id/dropDownIcon"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="2"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x10="0"/>
+    <ImageView
+        id="@+id/dropDownIcon"
+        visibility="2"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        src="@drawable/_2131233921_res_0x7f080c81"
+        layout_marginStart="@dimen/dp_7"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xe="@+id/tvLeftText"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x11="@color/ContentContrast"/>
+</merge>

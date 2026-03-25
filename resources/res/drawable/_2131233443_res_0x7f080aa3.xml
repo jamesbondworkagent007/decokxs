@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners radius="30dp"/>
+    <stroke
+        width="0.75dp"
+        color="@color/BorderTertiary"/>
+</shape>

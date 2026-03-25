@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    tag="layout/fragment_landing_loading_0"
+    background="@color/transparent"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <include
+        id="@+id/toolbar"
+        layout="@layout/_2131561500_res_0x7f0d0c1c"/>
+    <include
+        id="@+id/center_loading"
+        visibility="2"
+        layout="@layout/_2131561178_res_0x7f0d0ada"/>
+    <include
+        id="@+id/center_error"
+        visibility="2"
+        layout="@layout/_2131561177_res_0x7f0d0ad9"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

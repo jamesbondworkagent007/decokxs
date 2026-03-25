@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/apk/res-auto"
+    id="@+id/ll_parent"
+    tag="layout/item_defi_edit_wallet_name_0"
+    background="?android:attr/selectableItemBackground"
+    paddingLeft="@dimen/padding_24dp"
+    paddingRight="@dimen/padding_24dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingHorizontal="@dimen/padding_24dp">
+    <TextView
+        textAppearance="@style/Title_2_Bold"
+        textColor="@color/ContentPrimary"
+        id="@+id/tv_wallet_name"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_12dp"
+        layout_marginBottom="@dimen/margin_12dp"
+        layout_marginVertical="@dimen/margin_12dp"
+        NOT_FOUND_0xf="true"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x12="@+id/iv_edit_name"
+        NOT_FOUND_0x13="0"
+        NOT_FOUND_0x14="2"
+        NOT_FOUND_0x16="0"
+        NOT_FOUND_0x17="0"
+        NOT_FOUND_0x18="walletName"/>
+    <ImageView
+        id="@+id/iv_edit_name"
+        layout_width="24dp"
+        android:layout_height="24dp"
+        src="@drawable/_2131232074_res_0x7f08054a"
+        layout_marginStart="8dp"
+        NOT_FOUND_0xf="true"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x11="0"
+        NOT_FOUND_0x13="0"
+        NOT_FOUND_0x14="2"
+        NOT_FOUND_0x15="@+id/tv_wallet_name"
+        NOT_FOUND_0x17="0"
+        NOT_FOUND_0x19="@color/ContentPrimary"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

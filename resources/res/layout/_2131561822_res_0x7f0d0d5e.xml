@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginBottom="@dimen/margin_16dp">
+    <View
+        layout_gravity="0x10"
+        id="@+id/title_label_color"
+        background="@color/SemanticNegative"
+        layout_width="6dp"
+        android:layout_height="6dp"
+        NOT_FOUND_0xd="@+id/tv_real_time_rate_title"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x12="0"
+        NOT_FOUND_0x13="2"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        textAppearance="@style/TextAppearance.Subtitle.12SP.Regular"
+        textSize="12sp"
+        textColor="@color/ContentPrimary"
+        id="@+id/tv_title"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginStart="6dp"
+        NOT_FOUND_0xc="@+id/title_label_color"
+        NOT_FOUND_0xf="@+id/title_label_color"
+        NOT_FOUND_0x12="@+id/title_label_color"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        textSize="12sp"
+        textColor="@color/ContentContrast"
+        id="@+id/tv_real_time_rate_title"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/dp_8"
+        NOT_FOUND_0x10="@+id/tv_title"
+        NOT_FOUND_0x11="@+id/title_label_color"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        textSize="12sp"
+        textColor="@color/ContentContrast"
+        id="@+id/tv_real_time_rate_data"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0xc="@+id/tv_real_time_rate_title"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0x12="@+id/tv_real_time_rate_title"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

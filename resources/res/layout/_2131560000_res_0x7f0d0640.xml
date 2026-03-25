@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/scroll"
+    scrollbars="horizontal"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    fillViewport="true"
+    overScrollMode="2">
+    <LinearLayout
+        orientation="1"
+        layout_width="-1"
+        android:layout_height="match_parent"
+        layout_marginBottom="@dimen/dp_20">
+        <FrameLayout
+            id="@+id/fl_one"
+            clipChildren="false"
+            clipToPadding="false"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            style="@style/KlineDataChartCard"/>
+        <FrameLayout
+            id="@+id/fl_two"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            style="@style/KlineDataChartCard"/>
+        <FrameLayout
+            id="@+id/fl_three"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            style="@style/KlineDataChartCard"/>
+        <FrameLayout
+            id="@+id/fl_four"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            style="@style/KlineDataChartCard"/>
+        <FrameLayout
+            id="@+id/fl_five"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            style="@style/KlineDataChartCard"/>
+        <FrameLayout
+            id="@+id/fl_six"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            style="@style/KlineDataChartCard"/>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

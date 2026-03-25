@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/um_limited_container"
+    background="@color/okTradeOrange50"
+    paddingTop="8dp"
+    paddingBottom="8dp"
+    visibility="2"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingVertical="8dp">
+    <ImageView
+        id="@+id/um_limited_icon"
+        layout_width="16dp"
+        android:layout_height="16dp"
+        src="@drawable/_2131234331_res_0x7f080e1b"
+        layout_marginStart="@dimen/margin_16dp"
+        NOT_FOUND_0x18="@color/SemanticNotice"/>
+    <TextView
+        textAppearance="@style/TextAppearance.Text.12SP.Regular"
+        textColor="@color/orange_lv1"
+        ellipsize="3"
+        id="@+id/um_limited_content"
+        focusable="true"
+        focusableInTouchMode="true"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        text="@string/pr_trade_home_alert_usdm_derivatives_unavailable_market"
+        maxLines="3"
+        scrollHorizontally="true"
+        marqueeRepeatLimit="-1"
+        layout_marginStart="8dp"
+        layout_marginEnd="@dimen/dp_40"
+        layout_toEndOf="@+id/um_limited_icon"/>
+    <ImageView
+        id="@+id/um_limited_rightIcon"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        src="@drawable/_2131234483_res_0x7f080eb3"
+        layout_centerVertical="true"
+        paddingEnd="@dimen/ok_dp_16"
+        layout_alignParentEnd="true"/>
+</RelativeLayout>

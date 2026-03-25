@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x11"
+    orientation="1"
+    paddingBottom="@dimen/ok_dp_12"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <ImageView
+        id="@+id/welcome_image"
+        layout_width="@dimen/width_216dp"
+        android:layout_height="@dimen/width_216dp"/>
+    <TextView
+        textAppearance="@style/Headline_3_Bold"
+        textColor="@color/primary_white"
+        gravity="0x11"
+        id="@+id/welcome_title"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/padding_32dp"/>
+    <TextView
+        textAppearance="@style/Body_2"
+        textColor="@color/primary_white"
+        gravity="0x11"
+        id="@+id/welcome_subtitle"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_8dp"/>
+</LinearLayout>

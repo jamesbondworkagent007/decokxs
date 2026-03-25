@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x800005"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <TextView
+        textAppearance="@style/TextAppearance.Title.16SP.Medium"
+        textColor="@color/green_lv1"
+        gravity="0x800015"
+        id="@+id/tv_income_coin"
+        layout_width="-2"
+        android:layout_height="match_parent"
+        NOT_FOUND_0x7="0"/>
+    <TextView
+        textAppearance="@style/TextAppearance.Title.12SP"
+        textColor="@color/ContentContrast"
+        gravity="0x11"
+        id="@+id/tv_income_value"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_2dp"
+        NOT_FOUND_0x7="0"
+        NOT_FOUND_0x8="@+id/tv_income_coin"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

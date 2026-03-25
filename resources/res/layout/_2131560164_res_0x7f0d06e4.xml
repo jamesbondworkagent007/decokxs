@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    id="@+id/llContent"
+    tag="layout/fragment_signal_bot_explained_content_0"
+    paddingLeft="16dp"
+    paddingRight="16dp"
+    layout_width="-1"
+    android:layout_height="match_parent"
+    paddingHorizontal="16dp">
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/rcvContent"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="20dp"/>
+</LinearLayout>

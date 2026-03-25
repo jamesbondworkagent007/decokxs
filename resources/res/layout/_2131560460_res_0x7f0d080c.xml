@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/apk/res-auto"
+    textAppearance="@style/Label_2_Bold"
+    textColor="@color/ContentPrimary"
+    gravity="0x10"
+    id="@+id/tv_title"
+    paddingLeft="@dimen/padding_24dp"
+    paddingTop="@dimen/padding_8dp"
+    paddingRight="@dimen/padding_24dp"
+    paddingBottom="@dimen/padding_8dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    text="dddddd"
+    paddingHorizontal="@dimen/padding_24dp"
+    paddingVertical="@dimen/padding_8dp"
+    NOT_FOUND_0xd="Moonbirds Moonbirds"/>

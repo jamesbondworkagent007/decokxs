@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="0"
+    paddingLeft="@dimen/margin_default"
+    paddingTop="@dimen/xsm"
+    paddingRight="@dimen/margin_default"
+    paddingBottom="@dimen/xsm"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingHorizontal="@dimen/margin_default"
+    paddingVertical="@dimen/xsm">
+    <TextView
+        gravity="0x10"
+        layout_width="-2"
+        android:layout_height="match_parent"
+        text="@string/pr_message_pop_blcoktheuser"
+        style="@style/Label_2_Medium"/>
+    <TextView
+        ellipsize="3"
+        gravity="0x800005"
+        id="@+id/lbl_nickname"
+        layout_width="0dp"
+        android:layout_height="match_parent"
+        layout_weight="1"
+        paddingStart="@dimen/xxxsm"
+        paddingEnd="0dp"
+        style="@style/Label_2_Regular"/>
+</LinearLayout>

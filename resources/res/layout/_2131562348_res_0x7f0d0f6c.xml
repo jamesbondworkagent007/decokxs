@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    tag="layout/trade_impl_fragment_bot_guide_smart_portfolio_0"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C52466wMl
+        id="@+id/guide_header"
+        layout_width="-1"
+        android:layout_height="wrap_content"/>
+    <o.C52477wMw
+        id="@+id/vTopDetails"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="28dp"/>
+    <o.C52459wMe
+        id="@+id/vCoinAllocation"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="44dp"/>
+    <include
+        id="@+id/descLayout"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="44dp"
+        layout_marginBottom="20dp"
+        layout="@layout/_2131562314_res_0x7f0d0f4a"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

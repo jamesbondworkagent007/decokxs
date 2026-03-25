@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape shape="1">
+            <solid color="@color/Tangerine60"/>
+            <corners radius="@dimen/radius_lg"/>
+            <size
+                height="@dimen/dp24"
+                width="@dimen/dp24"/>
+        </shape>
+    </item>
+    <item gravity="0x11">
+        <vector
+            height="@dimen/height_16dp"
+            width="@dimen/width_16dp"
+            viewportWidth="25"
+            viewportHeight="25">
+            <path
+                fillColor="@color/Tangerine30"
+                pathData="M21.398,12.829C21.398,17.937 17.257,22.079 12.148,22.079C7.04,22.079 2.898,17.937 2.898,12.829C2.898,7.72 7.04,3.579 12.148,3.579C17.257,3.579 21.398,7.72 21.398,12.829ZM12.148,8.079C12.562,8.079 12.898,8.414 12.898,8.829V12.829C12.898,13.243 12.562,13.579 12.148,13.579C11.734,13.579 11.398,13.243 11.398,12.829V8.829C11.398,8.414 11.734,8.079 12.148,8.079ZM11.398,15.829C11.398,15.414 11.734,15.079 12.148,15.079H12.158C12.572,15.079 12.908,15.414 12.908,15.829C12.908,16.243 12.572,16.579 12.158,16.579H12.148C11.734,16.579 11.398,16.243 11.398,15.829Z"
+                fillType="1"/>
+        </vector>
+    </item>
+</layer-list>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    id="@+id/parent_container"
+    paddingBottom="@dimen/padding_24dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    contentDescription="web3_dex_market_signal_info_bottom_sheet">
+    <com.okinc.uilab.item.OKRegularCell
+        id="@+id/dex_sm_faq_cell_1_kol"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x6="@string/pr_swaptrade_influencer_description"
+        NOT_FOUND_0x7="@drawable/_2131231912_res_0x7f0804a8"
+        NOT_FOUND_0x8="@color/ContentPrimary"
+        NOT_FOUND_0x9="@string/pr_invest_smartmoney_bttmsheet_select_kol"/>
+    <com.okinc.uilab.item.OKRegularCell
+        id="@+id/dex_sm_faq_cell_2_sm"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x6="@string/pr_invest_smartmoney_bttmsheet_desc_smart_money"
+        NOT_FOUND_0x7="@drawable/_2131234409_res_0x7f080e69"
+        NOT_FOUND_0x8="@color/ContentPrimary"
+        NOT_FOUND_0x9="@string/pr_invest_smartmoney_bttmsheet_select_smart_money"/>
+    <com.okinc.uilab.item.OKRegularCell
+        id="@+id/dex_sm_faq_cell_3_whale"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x6="@string/pr_swaptrade_whales_description"
+        NOT_FOUND_0x7="@drawable/_2131231951_res_0x7f0804cf"
+        NOT_FOUND_0x8="@color/ContentPrimary"
+        NOT_FOUND_0x9="@string/pr_invest_smartmoney_bttmsheet_select_whale"/>
+    <com.okinc.uilab.item.OKRegularCell
+        id="@+id/dex_sm_faq_cell_4_signals"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x6="@string/pr_invest_smartmoney_bttmsheet_desc_signals"
+        NOT_FOUND_0x7="@drawable/_2131232311_res_0x7f080637"
+        NOT_FOUND_0x8="@color/ContentPrimary"
+        NOT_FOUND_0x9="@string/pr_invest_smartmoney_bttmsheet_title_signals"/>
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o.C42922rfZ xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.C46796tdt
+        id="@+id/rv_list"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginBottom="8dp"
+        nestedScrollingEnabled="false"
+        NOT_FOUND_0xe="@+id/sort"/>
+    <FrameLayout
+        layout_gravity="0x11"
+        id="@+id/recommend_layout"
+        paddingTop="16dp"
+        paddingBottom="@dimen/dp_24"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="match_parent"/>
+    <o.C55173xeu
+        layout_gravity="0x11"
+        id="@+id/empty_view"
+        visibility="2"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/width_76dp"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="0"/>
+    <FrameLayout
+        id="@+id/anim"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        minHeight="464dp"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="0"/>
+</o.C42922rfZ>

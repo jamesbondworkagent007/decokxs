@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    textColor="@color/grey_g700"
+    layout_width="-2"
+    android:layout_height="wrap_content"
+    style="@style/Label_2_Regular"/>

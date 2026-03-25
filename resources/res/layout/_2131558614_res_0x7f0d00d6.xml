@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    id="@+id/root_layout"
+    tag="layout/activity_membership_settings_0"
+    fitsSystemWindows="true"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <androidx.appcompat.widget.Toolbar
+        id="@+id/toolbar"
+        layout_width="-1"
+        android:layout_height="@dimen/appbar_height">
+        <TextView
+            gravity="0x11"
+            layout_gravity="0x11"
+            id="@+id/toolbar_title"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            style="@style/Title_2_Bold"/>
+    </androidx.appcompat.widget.Toolbar>
+    <FrameLayout
+        id="@+id/container"
+        layout_width="-1"
+        android:layout_height="0dp"
+        layout_weight="1"/>
+</LinearLayout>

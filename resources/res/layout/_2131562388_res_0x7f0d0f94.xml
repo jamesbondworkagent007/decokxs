@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.tabs.TabLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/press_tab"
+    tag="layout/trade_impl_my_bot_asset_select_press_view_0"
+    layout_width="-1"
+    android:layout_height="40dp"
+    layoutDirection="0"
+    NOT_FOUND_0x5="@color/transparent"
+    NOT_FOUND_0x6="@null"
+    NOT_FOUND_0x7="@color/transparent"
+    NOT_FOUND_0x8="@color/transparent"/>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        orientation="0"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginLeft="@dimen/margin_24dp"
+        layout_marginTop="@dimen/margin_24dp"
+        layout_marginRight="@dimen/margin_24dp"
+        layout_marginBottom="@dimen/margin_16dp"
+        layout_marginHorizontal="@dimen/margin_24dp">
+        <o.C54984xbQ
+            id="@+id/btn_descending"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            text="@string/pr_swaptrade_market_custom_sorting_descending"
+            drawablePadding="@dimen/margin_6dp"
+            drawableEnd="@drawable/_2131231975_res_0x7f0804e7"
+            NOT_FOUND_0xf="true"
+            NOT_FOUND_0x10="0"
+            NOT_FOUND_0x11="36"/>
+        <o.C54984xbQ
+            id="@+id/btn_ascending"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            text="@string/pr_swaptrade_market_custom_sorting_ascending"
+            drawablePadding="@dimen/margin_6dp"
+            drawableEnd="@drawable/_2131231976_res_0x7f0804e8"
+            layout_marginStart="@dimen/margin_16dp"
+            NOT_FOUND_0xf="false"
+            NOT_FOUND_0x10="0"
+            NOT_FOUND_0x11="36"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/rv_descending"
+        scrollbars="horizontal"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0xe="androidx.recyclerview.widget.LinearLayoutManager"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

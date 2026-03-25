@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x10"
+    orientation="0"
+    paddingTop="8dp"
+    paddingBottom="8dp"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <ImageView
+        id="@+id/iv_icon"
+        layout_width="20dp"
+        android:layout_height="20dp"/>
+    <TextView
+        textAppearance="@style/TextAppearance.Text.Regular"
+        textSize="15sp"
+        textColor="@color/ContentContrast"
+        gravity="0x800003"
+        id="@+id/tv_chain_name"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_weight="1"
+        layout_marginStart="12dp"/>
+    <TextView
+        textAppearance="@style/TextAppearance.Text.Regular"
+        textSize="15sp"
+        textColor="@color/ContentPrimary"
+        id="@+id/tv_address"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        drawablePadding="6dp"
+        NOT_FOUND_0xe="@drawable/_2131231721_res_0x7f0803e9"
+        NOT_FOUND_0xf="@color/ContentPrimary"/>
+    <ImageView
+        id="@+id/iv_link"
+        layout_width="@dimen/ok_dp_16"
+        android:layout_height="@dimen/ok_dp_16"
+        src="@drawable/_2131233620_res_0x7f080b54"
+        layout_marginStart="@dimen/margin_8dp"
+        NOT_FOUND_0x10="@color/ContentPrimary"/>
+</LinearLayout>

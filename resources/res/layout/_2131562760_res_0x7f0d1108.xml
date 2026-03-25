@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/addCoinAnchor"
+    tag="add_coin"
+    paddingBottom="32dp"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatTextView
+        textSize="14sp"
+        textColor="@color/ContentPrimary"
+        gravity="0x11"
+        id="@+id/addCoin"
+        background="@drawable/_2131231405_res_0x7f0802ad"
+        paddingLeft="16dp"
+        paddingRight="16dp"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        minHeight="40dp"
+        text="@string/pr_wallet_mid_btn_manage_crypto"
+        drawablePadding="8dp"
+        paddingHorizontal="16dp"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x11="0"
+        style="@style/Label_2_Regular"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

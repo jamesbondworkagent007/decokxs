@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x1"
+    orientation="1"
+    background="@color/white_background_color"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <ImageView
+        id="@+id/iv_no_data"
+        tag="layout/view_wallet_no_data_0"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        src="@drawable/_2131233552_res_0x7f080b10"
+        scaleType="7"/>
+    <TextView
+        textAppearance="@style/TextAppearance.Title.14SP.Medium"
+        textColor="@color/grey_g400"
+        id="@+id/tv_title"
+        tag="layout/view_wallet_no_data_1"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="4dp"/>
+</merge>

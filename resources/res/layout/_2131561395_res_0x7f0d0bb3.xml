@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-2"
+    android:layout_height="wrap_content">
+    <o.C55113xdn
+        id="@+id/loading_view"
+        layout_width="60dp"
+        android:layout_height="60dp"
+        NOT_FOUND_0x3="true"
+        NOT_FOUND_0x4="true"
+        NOT_FOUND_0x5="@raw/_2131886123_res_0x7f12002b"/>
+</FrameLayout>

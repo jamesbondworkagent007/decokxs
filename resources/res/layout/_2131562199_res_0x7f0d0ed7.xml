@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    layout_width="-2"
+    android:layout_height="wrap_content">
+    <TextView
+        textSize="12sp"
+        textColor="@color/ContentInverse"
+        gravity="0x11"
+        id="@+id/tv_seek_bar_percent"
+        paddingLeft="8dp"
+        paddingTop="2dp"
+        paddingRight="8dp"
+        paddingBottom="2dp"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        text=""
+        fontFamily="@font/harmony_sans_regular"
+        paddingHorizontal="8dp"
+        paddingVertical="2dp"/>
+</LinearLayout>

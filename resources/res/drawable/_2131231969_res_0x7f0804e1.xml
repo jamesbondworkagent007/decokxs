@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="56dp"
+    android:width="56dp"
+    android:viewportWidth="56"
+    android:viewportHeight="56">
+    <path
+        android:fillColor="@color/okTradeG300"
+        android:pathData="M50.165 28.001c0 12.242-9.924 22.166-22.166 22.166-12.243 0-22.167-9.924-22.167-22.166 0-12.243 9.924-22.167 22.167-22.167 12.242 0 22.166 9.924 22.166 22.167zm-3.733 0c0 10.18-8.253 18.433-18.433 18.433-10.181 0-18.434-8.253-18.434-18.433 0-10.181 8.253-18.434 18.434-18.434 10.18 0 18.433 8.253 18.433 18.434zm-21.933-7.967c0-0.11 0.089-0.2 0.2-0.2h3.333c0.11 0 0.2 0.09 0.2 0.2v7.733h7.733c0.111 0 0.2 0.09 0.2 0.2v3.334c0 0.11-0.089 0.2-0.2 0.2H24.699L24.678 31.5c-0.101-0.011-0.179-0.096-0.179-0.199V20.034z"
+        android:fillType="evenOdd"/>
+</vector>

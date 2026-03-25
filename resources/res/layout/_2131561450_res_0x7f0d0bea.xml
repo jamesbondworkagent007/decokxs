@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/container"
+    tag="layout/layout_recurring_buy_plan_tag_0"
+    background="@drawable/_2131230963_res_0x7f0800f3"
+    padding="@dimen/dp_2"
+    layout_width="-2"
+    android:layout_height="@dimen/dp_24">
+    <ImageView
+        id="@+id/icon"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        src="@drawable/_2131233151_res_0x7f08097f"
+        contentDescription="@null"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xe="@+id/title"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x11="0"/>
+    <TextView
+        textColor="@color/ContentPrimary"
+        id="@+id/title"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        text="@string/lt_unipay_recurring_badge_paused"
+        layout_marginStart="@dimen/dp_2"
+        layout_marginEnd="@dimen/dp_8"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xf="@+id/icon"
+        NOT_FOUND_0x11="0"
+        style="@style/Label_3_Medium"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

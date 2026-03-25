@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x10"
+    orientation="0"
+    layout_width="-1"
+    android:layout_height="44dp">
+    <ImageView
+        id="@+id/mBack"
+        layout_width="-2"
+        android:layout_height="match_parent"
+        src="@drawable/_2131231642_res_0x7f08039a"
+        layout_centerVertical="true"
+        paddingStart="16dp"
+        layout_alignParentStart="true"
+        NOT_FOUND_0xd="@color/ContentPrimary"/>
+    <LinearLayout
+        gravity="0x10"
+        orientation="0"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_weight="1"/>
+    <LinearLayout
+        orientation="0"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_centerVertical="true"
+        layout_alignParentEnd="true">
+        <ImageView
+            id="@+id/mCoinWatch"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            src="@drawable/_2131233467_res_0x7f080abb"
+            paddingStart="@dimen/padding_4dp"
+            paddingEnd="@dimen/padding_4dp"
+            layout_marginEnd="10dp"
+            NOT_FOUND_0xd="@color/kline_start_selector"/>
+        <ImageView
+            id="@+id/mCoinShare"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            src="@drawable/_2131234035_res_0x7f080cf3"
+            paddingStart="@dimen/padding_4dp"
+            paddingEnd="@dimen/padding_4dp"
+            layout_marginEnd="14dp"
+            NOT_FOUND_0xd="@color/okTradeG900"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    tag="layout/view_net_diagnosis_dialog_0"
+    background="@drawable/_2131231483_res_0x7f0802fb"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginBottom="-10dp">
+    <TextView
+        textAppearance="@style/TextAppearance.Title.15SP"
+        textColor="@color/grey_g900"
+        id="@+id/et_domain"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginBottom="@dimen/dp_10"
+        minHeight="40dp"
+        text="网络诊断已结束，结果复制后发送给客服人员。(The network diagnosis has completed. Please copy the results and send to the customer service staff.)"
+        lineSpacingExtra="@dimen/dp_6"/>
+    <View
+        background="@color/list_divider_color"
+        layout_width="-1"
+        android:layout_height="1dp"/>
+    <TextView
+        textAppearance="@style/TextAppearance.Title.15SP"
+        textStyle="0x1"
+        textColor="@color/blue_40"
+        gravity="0x11"
+        id="@+id/copy"
+        layout_width="-1"
+        android:layout_height="60dp"
+        minHeight="40dp"
+        text="复制结果(copy results)"/>
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    paddingBottom="@dimen/padding_24dp"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <include
+        id="@+id/container_legacy"
+        layout="@layout/_2131562839_res_0x7f0d1157"/>
+    <include
+        id="@+id/container_pay"
+        layout="@layout/_2131562839_res_0x7f0d1157"/>
+    <include
+        id="@+id/container_simple"
+        layout="@layout/_2131562839_res_0x7f0d1157"/>
+    <include
+        id="@+id/container_advance"
+        layout="@layout/_2131562839_res_0x7f0d1157"/>
+    <include
+        id="@+id/container_web3"
+        layout="@layout/_2131562839_res_0x7f0d1157"/>
+</LinearLayout>

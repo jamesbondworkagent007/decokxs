@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <com.okinc.uilab.banner.OKAlertBanner
+        id="@+id/alertBanner"
+        tag="layout/trade_ui_view_arbitrage_smart_guide_0"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x4="@string/pr_trade_top_alertbanner_desc_new_smart_arbitrage_available"
+        NOT_FOUND_0x5="@string/pr_trade_top_btn_try_smart_arbitrage"
+        NOT_FOUND_0x6="0"
+        NOT_FOUND_0x7="@string/pr_trade_top_alertbanner_new_smart_arbitrage"
+        NOT_FOUND_0x8="4"/>
+</merge>

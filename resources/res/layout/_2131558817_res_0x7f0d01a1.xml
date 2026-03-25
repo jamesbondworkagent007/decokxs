@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    layout_width="-2"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        orientation="1"
+        layout_width="-1"
+        android:layout_height="wrap_content">
+        <TextView
+            textAppearance="@style/TextAppearance.Text.14SP.Regular"
+            textColor="@color/ContentSecondary"
+            id="@+id/msgContent"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            layout_marginTop="10dp"
+            text="@string/pr_spotgrid_orderdetails_dialogtitle_reinvest_amt_desc"/>
+        <o.C55390xiz
+            textAppearance="@style/TextAppearance.Text.14SP.Regular"
+            textColor="@color/ContentSecondary"
+            layout_gravity="0x10"
+            id="@+id/msgLink"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            layout_marginTop="6dp"
+            text="@string/pr_trade_btn_learn_more"
+            NOT_FOUND_0x9="0"/>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginTop="16dp">
+    <o.wYE
+        textAppearance="@style/Label_2_Regular"
+        textColor="@color/ContentPrimary"
+        layout_gravity="0x11"
+        id="@+id/labelName"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        text="@string/pr_social_my_profile_btn_positions_view_more"
+        NOT_FOUND_0x8="-4"
+        NOT_FOUND_0x9="1"/>
+</FrameLayout>

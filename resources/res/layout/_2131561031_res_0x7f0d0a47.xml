@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    gravity="0x1"
+    orientation="1"
+    id="@+id/kline_dex_dialog_risk_layout"
+    padding="@dimen/margin_default"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <ImageView
+        layout_width="100dp"
+        android:layout_height="100dp"
+        src="@drawable/_2131231922_res_0x7f0804b2"/>
+    <TextView
+        textColor="@color/ContentPrimary"
+        gravity="0x11"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_default"
+        text="@string/pr_swaptrade_token_detail_reminder_caution"
+        style="@style/Headline_4_Bold"/>
+    <TextView
+        layout_gravity="0x800003"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="32dp"
+        text="@string/pr_swaptrade_token_detail_contract_opensource"
+        style="@style/Body_3_Regular"/>
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x10"
+    orientation="0"
+    layout_width="-1"
+    android:layout_height="@dimen/height_40dp">
+    <TextView
+        textColor="@color/ContentPrimary"
+        ellipsize="3"
+        id="@+id/leftLabel"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        maxLines="1"
+        layout_weight="1"
+        layout_marginEnd="@dimen/xsm"
+        style="@style/Label_1_Regular"/>
+    <FrameLayout
+        gravity="0x800015"
+        layout_gravity="0x800015"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        maxWidth="@dimen/width_200dp">
+        <TextView
+            textColor="@color/ContentPrimary"
+            ellipsize="3"
+            gravity="0x800005"
+            layout_gravity="0x800015"
+            id="@+id/rightValue"
+            visibility="2"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            maxLines="1"
+            textAlignment="3"
+            style="@style/Label_1_Medium"/>
+    </FrameLayout>
+</LinearLayout>

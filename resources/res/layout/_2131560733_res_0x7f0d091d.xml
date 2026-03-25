@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.okinc.uilab.item.OKRegularCell xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/name"
+    tag="layout/item_more_operator_layout_0"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    minHeight="@dimen/width_60dp">
+    <ImageView
+        layout_gravity="0x10"
+        id="@+id/rightArrow"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        src="@drawable/_2131232355_res_0x7f080663"/>
+</com.okinc.uilab.item.OKRegularCell>

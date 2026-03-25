@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatImageView
+        layout_gravity="0x1"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="48dp"
+        src="@drawable/_2131233558_res_0x7f080b16"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        textAppearance="@style/TextAppearance.Text.14SP.Regular"
+        textColor="@color/ContentSecondary"
+        gravity="0x1"
+        layout_gravity="0x1"
+        id="@+id/tipContent"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginLeft="32dp"
+        layout_marginTop="8dp"
+        layout_marginRight="32dp"
+        layout_marginHorizontal="32dp"/>
+    <o.C52794wYp
+        layout_gravity="0x1"
+        id="@+id/addWalletBtn"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/dp24"
+        layout_marginBottom="24dp"
+        text="@string/pr_wallet_switch_btn_add_wallet"
+        NOT_FOUND_0xf="36"
+        NOT_FOUND_0x10="0x104"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

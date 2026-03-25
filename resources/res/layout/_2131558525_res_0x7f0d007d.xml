@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    tag="layout/activity_defi_wallet_account_address_0"
+    background="@color/BasePrimaryAlternative"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C33537myN
+        id="@+id/appbar"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x8="@string/pr_metax_wallet_header_transaction_history"/>
+    <FrameLayout
+        id="@+id/rl_content"
+        paddingTop="8dp"
+        paddingBottom="0dp"
+        layout_width="-1"
+        android:layout_height="match_parent"/>
+</LinearLayout>

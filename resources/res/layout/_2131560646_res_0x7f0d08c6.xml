@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    id="@+id/container"
+    tag="layout/item_inputssn_0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <TextView
+        id="@+id/input_text_title"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginBottom="4dp"/>
+    <LinearLayout
+        gravity="0x10"
+        orientation="0"
+        layout_width="-1"
+        android:layout_height="wrap_content">
+        <TextView
+            id="@+id/input_text_prefix"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            layout_marginEnd="4dp"/>
+        <o.C55008xbo
+            id="@+id/text_input_ssn"
+            layout_width="-1"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <TextView
+        id="@+id/input_text_error"
+        visibility="2"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="4dp"/>
+</LinearLayout>

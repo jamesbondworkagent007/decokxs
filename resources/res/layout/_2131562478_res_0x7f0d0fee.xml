@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="0"
+    tag="layout/trade_ui_bot_item_switch_view_0"
+    paddingTop="@dimen/padding_6dp"
+    paddingBottom="@dimen/padding_6dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingVertical="@dimen/padding_6dp">
+    <o.C55258xgZ
+        id="@+id/leftTitle"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_weight="6"
+        NOT_FOUND_0xa="2"
+        NOT_FOUND_0xb="@color/okTradeG400"
+        NOT_FOUND_0xc="@dimen/text_size_14sp"
+        NOT_FOUND_0xd="400"/>
+    <LinearLayout
+        gravity="0x800015"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_weight="4">
+        <o.C55239xgG
+            gravity="0x800005"
+            id="@+id/switchAction"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            NOT_FOUND_0xe="-5"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    tag="layout/layout_personal_warning_stepper_0"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginTop="20dp">
+    <TextView
+        textAppearance="@style/TextAppearance.Title.Bold.16SP"
+        textColor="@color/ContentPrimary"
+        id="@+id/steper_title"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="8dp"
+        layout_marginBottom="5dp"/>
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/rcy_stepper"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        overScrollMode="2"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.C55251xgS
+        id="@+id/profit"
+        tag="layout/layout_signal_bot_type_view_0"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="-4"
+        NOT_FOUND_0x10="false"
+        NOT_FOUND_0x11="6"/>
+    <TextView
+        textColor="@color/okTradeG300"
+        id="@+id/divider"
+        tag="layout/layout_signal_bot_type_view_1"
+        paddingLeft="@dimen/margin_6dp"
+        paddingTop="@dimen/margin_2dp"
+        paddingRight="@dimen/margin_6dp"
+        paddingBottom="@dimen/margin_2dp"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        paddingHorizontal="@dimen/margin_6dp"
+        paddingVertical="@dimen/margin_2dp"
+        NOT_FOUND_0xb="@+id/monthly"
+        NOT_FOUND_0xc="@+id/profit"
+        NOT_FOUND_0xe="@+id/monthly"
+        style="@style/TextAppearance.Text.12SP.Regular"/>
+    <o.C55251xgS
+        id="@+id/monthly"
+        tag="layout/layout_signal_bot_type_view_2"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0xc="@+id/divider"
+        NOT_FOUND_0xe="@+id/profit"
+        NOT_FOUND_0xf="-4"
+        NOT_FOUND_0x10="false"
+        NOT_FOUND_0x11="6"/>
+</merge>

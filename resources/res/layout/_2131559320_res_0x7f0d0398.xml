@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x10"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <View
+        id="@+id/remote_strategy_divider"
+        background="@color/BorderPrimary"
+        layout_width="-1"
+        android:layout_height="0.5dp"
+        layout_marginTop="@dimen/dp24"
+        layout_marginBottom="@dimen/dp24"
+        layout_marginVertical="@dimen/dp24"/>
+    <TextView
+        textColor="@color/ContentContrast"
+        id="@+id/remote_strategy_title"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginBottom="@dimen/dp_16"
+        text="@string/pr_swaptrade_meme_mid_title_details_page_autosell_select"
+        style="@style/Label_2_Regular"/>
+    <TextView
+        textColor="@color/ContentPrimary"
+        id="@+id/remote_strategy"
+        paddingTop="@dimen/dp_16"
+        paddingBottom="@dimen/dp_16"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        text="@string/pr_swaptrade_tee_cell_tag_take_profit"
+        paddingVertical="@dimen/dp_16"
+        NOT_FOUND_0xe="@drawable/_2131233688_res_0x7f080b98"
+        NOT_FOUND_0xf="?attr/color_surface_interactive_feature_default"
+        style="@style/Title_2_Medium"/>
+</merge>

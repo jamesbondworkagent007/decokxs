@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x11"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.C54984xbQ
+        gravity="0x11"
+        id="@+id/chip"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x4="3"
+        NOT_FOUND_0x5="-3"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

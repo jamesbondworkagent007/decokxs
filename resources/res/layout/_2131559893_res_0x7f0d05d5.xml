@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    tag="layout/fragment_dbox_uiplayground_0"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <TextView
+        id="@+id/txt_richtext"
+        layout_width="-1"
+        android:layout_height="0dp"
+        layout_marginLeft="@dimen/xsm"
+        layout_marginTop="@dimen/xxxsm"
+        layout_marginRight="@dimen/xsm"
+        layout_marginBottom="@dimen/xxxsm"
+        layout_weight="1"
+        layout_marginHorizontal="@dimen/xsm"
+        layout_marginVertical="@dimen/xxxsm"/>
+    <FrameLayout
+        id="@+id/frame_container"
+        layout_width="-1"
+        android:layout_height="0dp"
+        layout_weight="1"/>
+</LinearLayout>

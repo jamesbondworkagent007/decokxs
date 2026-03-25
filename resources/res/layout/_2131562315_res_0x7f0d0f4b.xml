@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="0"
+    id="@+id/root"
+    background="@drawable/_2131231163_res_0x7f0801bb"
+    padding="8dp"
+    layout_width="-2"
+    android:layout_height="@dimen/height_36dp"
+    layout_marginStart="@dimen/ok_dp_12"
+    backgroundTint="@color/HighlightsInteractiveProfitModern">
+    <ImageView
+        layout_gravity="0x10"
+        id="@+id/avatarImage"
+        layout_width="20dp"
+        android:layout_height="20dp"
+        src="@drawable/_2131231030_res_0x7f080136"
+        scaleType="6"
+        layout_marginEnd="8dp"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        textSize="14sp"
+        textColor="@color/ContentPrimary"
+        layout_gravity="0x10"
+        id="@+id/danmuText"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        text="示例弹幕"
+        style="@style/TextAppearance.Text.14SP.Regular"/>
+    <ImageView
+        layout_gravity="0x10"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        src="@drawable/_2131231649_res_0x7f0803a1"
+        layout_marginStart="@dimen/margin_4dp"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

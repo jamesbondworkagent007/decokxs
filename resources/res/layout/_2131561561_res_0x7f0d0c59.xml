@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatTextView
+        textColor="@color/ContentPrimary"
+        id="@+id/tv_title"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x11="0"
+        style="@style/Label_1_Medium"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        textSize="16sp"
+        textColor="@color/ContentPrimary"
+        gravity="0x10"
+        id="@+id/tv_content"
+        paddingLeft="12dp"
+        paddingTop="10dp"
+        paddingRight="12dp"
+        paddingBottom="10dp"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="8dp"
+        minHeight="48dp"
+        paddingHorizontal="12dp"
+        paddingVertical="10dp"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x10="@+id/tv_title"
+        style="@style/TextAppearance.Text.Regular"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        textColor="@color/ContentTertiary"
+        id="@+id/tv_desc_text"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="8dp"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x10="@+id/tv_content"
+        style="@style/Label_3_Regular"/>
+</merge>

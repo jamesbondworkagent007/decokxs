@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    tag="layout/view_bot_networ_error_0"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <ImageView
+        id="@+id/ivNetError"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="16dp"
+        src="@drawable/_2131231642_res_0x7f08039a"
+        layout_marginStart="16dp"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0x10="0"/>
+    <o.C55173xeu
+        gravity="0x11"
+        layout_gravity="0x11"
+        id="@+id/errorLayout"
+        visibility="0"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0xb="8"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="@+id/ivNetError"
+        NOT_FOUND_0x11="@string/pr_home_mid_toast_network_wrong_wait"
+        NOT_FOUND_0x12="@string/pr_common_error_btn_reload"
+        NOT_FOUND_0x13="@string/pr_trade_empty_title_error"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

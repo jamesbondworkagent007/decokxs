@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    gravity="0x800003"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatTextView
+        textAppearance="@style/TextAppearance.Text.14SP.Regular"
+        textColor="@color/grey_g700"
+        gravity="0x800003"
+        id="@+id/top_content"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        lineSpacingExtra="2.5dp"/>
+    <o.wYK
+        gravity="0x800003"
+        id="@+id/select_checkbox"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_16dp"
+        text="@string/pr_swaptrade_confirmation_checkbox_aware_risk"/>
+</LinearLayout>

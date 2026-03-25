@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/nestedContainer"
+    layout_width="-1"
+    android:layout_height="match_parent"
+    overScrollMode="2">
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/recycler_view"
+        background="@color/BasePrimaryAlternative"
+        paddingBottom="84dp"
+        scrollbars="horizontal"
+        clipToPadding="false"
+        layout_width="-1"
+        android:layout_height="match_parent"
+        overScrollMode="2"/>
+    <include
+        id="@+id/empty_layout"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="match_parent"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="0"
+        layout="@layout/_2131561526_res_0x7f0d0c36"/>
+    <include
+        id="@+id/tip_connect_layout"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="0"
+        layout="@layout/_2131560412_res_0x7f0d07dc"/>
+</FrameLayout>

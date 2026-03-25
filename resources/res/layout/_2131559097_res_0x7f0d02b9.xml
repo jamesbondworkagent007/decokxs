@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.C55258xgZ
+        textAppearance="@style/Label_2_Medium"
+        textColor="@color/ContentPrimary"
+        id="@+id/hl_title"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        text="@string/pr_swaptrade_copytrade_cell_title_token_blacklist"
+        layout_marginStart="@dimen/margin_24dp"
+        NOT_FOUND_0x13="1"/>
+    <o.C19931gUq
+        id="@+id/item1"
+        layout_width="-1"
+        android:layout_height="wrap_content"/>
+    <TextView
+        textAppearance="@style/Label_2_Medium"
+        textColor="@color/ContentPrimary"
+        gravity="0x10"
+        id="@+id/btn_add_block_token"
+        background="@drawable/_2131231848_res_0x7f080468"
+        paddingLeft="@dimen/padding_20dp"
+        paddingTop="@dimen/padding_8dp"
+        paddingRight="@dimen/padding_20dp"
+        paddingBottom="@dimen/padding_8dp"
+        layout_width="-2"
+        android:layout_height="@dimen/height_36dp"
+        layout_marginTop="@dimen/xxxsm"
+        text="@string/pr_swaptrade_copytrade_btn_add_token"
+        drawablePadding="@dimen/padding_8dp"
+        layout_marginStart="@dimen/margin_4dp"
+        paddingHorizontal="@dimen/padding_20dp"
+        paddingVertical="@dimen/padding_8dp"
+        NOT_FOUND_0x12="@color/ContentPrimary"/>
+</merge>

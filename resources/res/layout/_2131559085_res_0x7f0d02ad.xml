@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    tag="layout/dex_contract_transaction_swap_rate_info_0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.C57471yiz
+        id="@+id/dexSwapRateInfo"
+        layout_width="-1"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

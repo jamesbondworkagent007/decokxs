@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x10"
+    orientation="0"
+    background="@drawable/_2131231390_res_0x7f08029e"
+    paddingTop="4dp"
+    paddingBottom="4dp"
+    layout_width="-2"
+    android:layout_height="wrap_content"
+    paddingStart="4dp"
+    paddingEnd="8dp">
+    <ImageView
+        id="@+id/ivTokenIcon"
+        layout_width="19dp"
+        android:layout_height="19dp"/>
+    <TextView
+        textColor="@color/ContentPrimary"
+        id="@+id/tvTokenName"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginStart="4dp"
+        style="@style/Label_3_Medium"/>
+    <TextView
+        textColor="@color/pnl_modern_profit_default"
+        id="@+id/tvTokenChange"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginStart="4dp"
+        style="@style/Label_3_Medium"/>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item drawable="@drawable/_2131230987_res_0x7f08010b"/>
+    <item
+        width="88dp"
+        drawable="@drawable/_2131233712_res_0x7f080bb0"
+        top="@dimen/margin_4dp"
+        bottom="@dimen/margin_4dp"
+        start="@dimen/padding_4dp"
+        end="@dimen/padding_4dp"/>
+</layer-list>

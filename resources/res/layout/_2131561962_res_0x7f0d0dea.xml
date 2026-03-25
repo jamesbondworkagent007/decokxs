@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    background="#00ffffff"
+    layout_width="-2"
+    android:layout_height="wrap_content"
+    maxHeight="400dp">
+    <ScrollView
+        scrollbars="horizontal"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        overScrollMode="2">
+        <LinearLayout
+            orientation="1"
+            id="@+id/ll_menu_container"
+            background="@drawable/_2131233702_res_0x7f080ba6"
+            paddingTop="10dp"
+            paddingBottom="10dp"
+            layout_width="-2"
+            android:layout_height="wrap_content"/>
+    </ScrollView>
+</RelativeLayout>

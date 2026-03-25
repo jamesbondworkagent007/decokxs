@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.C55251xgS
+        layout_gravity="0x10"
+        id="@+id/status_tag"
+        visibility="2"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x14="-5"/>
+    <LinearLayout
+        layout_gravity="0x10"
+        id="@+id/ll_pending_container"
+        background="@drawable/_2131231811_res_0x7f080443"
+        paddingLeft="4dp"
+        paddingTop="2dp"
+        paddingRight="4dp"
+        paddingBottom="2dp"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        paddingHorizontal="4dp"
+        paddingVertical="2dp">
+        <ProgressBar
+            layout_gravity="0x10"
+            id="@+id/iv_state"
+            layout_width="8dp"
+            android:layout_height="8dp"
+            indeterminateDrawable="@drawable/_2131231972_res_0x7f0804e4"
+            indeterminateDuration="1000"/>
+        <androidx.appcompat.widget.AppCompatTextView
+            textAppearance="@style/Label_4_Regular"
+            textColor="@color/SemanticNotice"
+            ellipsize="3"
+            gravity="0x11"
+            layout_gravity="0x10"
+            id="@+id/tv_content"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            maxLines="1"
+            layout_marginStart="2dp"/>
+    </LinearLayout>
+</merge>

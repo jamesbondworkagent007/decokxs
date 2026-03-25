@@ -1,0 +1,918 @@
+[ {
+  "chainName" : "Stargaze",
+  "symbol" : "STARS",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/stars_15700.png",
+  "seoUrlNaming" : "stargaze",
+  "chainIndex" : 563,
+  "seoChainFullName" : "stargaze"
+}, {
+  "chainName" : "Bitcoin",
+  "symbol" : "BTC",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/BTC.png",
+  "seoUrlNaming" : "bitcoin",
+  "chainIndex" : 0,
+  "seoChainFullName" : "bitcoin"
+}, {
+  "chainName" : "Nostr",
+  "symbol" : "Nostr",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/nostr_22000.png",
+  "seoUrlNaming" : "nostr",
+  "chainIndex" : 1237,
+  "seoChainFullName" : "nostr"
+}, {
+  "chainName" : "DuckChain",
+  "symbol" : "DuckChain_TON",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/duckchain_31000.png",
+  "seoUrlNaming" : "duckchain",
+  "chainIndex" : 5545,
+  "seoChainFullName" : "duckchain"
+}, {
+  "chainName" : "JUNO",
+  "symbol" : "JUNO",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/juno_15400.png",
+  "seoUrlNaming" : "juno",
+  "chainIndex" : 709,
+  "seoChainFullName" : "juno"
+}, {
+  "chainName" : "Mode Network",
+  "symbol" : "MODE_ETH",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/mode_23200.png",
+  "seoUrlNaming" : "mode-network",
+  "chainIndex" : 34443,
+  "seoChainFullName" : "mode"
+}, {
+  "chainName" : "NEAR",
+  "symbol" : "NEAR",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/near_19000.png",
+  "seoUrlNaming" : "near",
+  "chainIndex" : 397,
+  "seoChainFullName" : "near"
+}, {
+  "chainName" : "Aptos",
+  "symbol" : "APT",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/APTOS.png",
+  "seoUrlNaming" : "aptos",
+  "chainIndex" : 637,
+  "seoChainFullName" : "aptos"
+}, {
+  "chainName" : "Core",
+  "symbol" : "CORE",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/core_18300_new.png",
+  "seoUrlNaming" : "core",
+  "chainIndex" : 1116,
+  "seoChainFullName" : "core"
+}, {
+  "chainName" : "Litecoin",
+  "symbol" : "LTC",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/LTC.png",
+  "seoUrlNaming" : "litecoin",
+  "chainIndex" : 2,
+  "seoChainFullName" : "litecoin"
+}, {
+  "chainName" : "Kaia",
+  "symbol" : "KAIA",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/klay.png",
+  "seoUrlNaming" : "kaia",
+  "chainIndex" : 8217,
+  "seoChainFullName" : "kaia"
+}, {
+  "chainName" : "BTC Signet",
+  "symbol" : "sBTC",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/btc_signet_23000.png",
+  "seoUrlNaming" : "btc-signet",
+  "chainIndex" : 70000047,
+  "seoChainFullName" : "bitcoin-signet"
+}, {
+  "chainName" : "Shentu",
+  "symbol" : "CTK",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/ctk_30900.png",
+  "seoUrlNaming" : "shentu",
+  "chainIndex" : 70000064,
+  "seoChainFullName" : "shentu"
+}, {
+  "chainName" : "Metis",
+  "symbol" : "METIS",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/metis.png",
+  "seoUrlNaming" : "metis",
+  "chainIndex" : 1088,
+  "seoChainFullName" : "metis"
+}, {
+  "chainName" : "Lumi Layer3",
+  "symbol" : "LUMI_ETH",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/lumi_eth_24000.png",
+  "seoUrlNaming" : "lumi-layer3",
+  "chainIndex" : 94168,
+  "seoChainFullName" : "lumi-l3"
+}, {
+  "chainName" : "Bitcoin Cash",
+  "symbol" : "BCH",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/BCH-20220328.png",
+  "seoUrlNaming" : "bitcoin-cash",
+  "chainIndex" : 145,
+  "seoChainFullName" : "bch"
+}, {
+  "chainName" : "TON",
+  "symbol" : "TON",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/TONCOIN-20220719.png",
+  "seoUrlNaming" : "ton",
+  "chainIndex" : 607,
+  "seoChainFullName" : "ton"
+}, {
+  "chainName" : "Chiliz",
+  "symbol" : "CHZ",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/chz_26000.png",
+  "seoUrlNaming" : "chiliz",
+  "chainIndex" : 88888,
+  "seoChainFullName" : "chiliz"
+}, {
+  "chainName" : "ApeChain",
+  "symbol" : "APE",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/ape_29800.png",
+  "seoUrlNaming" : "apechain",
+  "chainIndex" : 33139,
+  "seoChainFullName" : "apechain"
+}, {
+  "chainName" : "Soneium",
+  "symbol" : "Soneium_ETH",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/soneium_32200.png",
+  "seoUrlNaming" : "soneium",
+  "chainIndex" : 1868,
+  "seoChainFullName" : "soneium"
+}, {
+  "chainName" : "EthereumPoW",
+  "symbol" : "ETHW",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/ETHW.png",
+  "seoUrlNaming" : "ethereumpow",
+  "chainIndex" : 10001,
+  "seoChainFullName" : "ethereum-pow"
+}, {
+  "chainName" : "Sei",
+  "symbol" : "SEI",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/sei_19500.png",
+  "seoUrlNaming" : "sei",
+  "chainIndex" : 70000029,
+  "seoChainFullName" : "sei"
+}, {
+  "chainName" : "Ethereum",
+  "symbol" : "ETH",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/ETH-20220328.png",
+  "seoUrlNaming" : "ethereum",
+  "chainIndex" : 1,
+  "seoChainFullName" : "ethereum"
+}, {
+  "chainName" : "SOON",
+  "symbol" : "SOON_ETH",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/soon_31900.png",
+  "seoUrlNaming" : "soon",
+  "chainIndex" : 70000069,
+  "seoChainFullName" : "soon"
+}, {
+  "chainName" : "Mantle",
+  "symbol" : "MNT",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/mnt_20100.png",
+  "seoUrlNaming" : "mantle",
+  "chainIndex" : 5000,
+  "seoChainFullName" : "mantle"
+}, {
+  "chainName" : "Manta Pacific",
+  "symbol" : "MANTA_ETH",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/manta_22000.png",
+  "seoUrlNaming" : "manta-pacific",
+  "chainIndex" : 169,
+  "seoChainFullName" : "manta"
+}, {
+  "chainName" : "Axelar",
+  "symbol" : "AXL",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/axl_14700.png",
+  "seoUrlNaming" : "axelar",
+  "chainIndex" : 718,
+  "seoChainFullName" : "axelar"
+}, {
+  "chainName" : "Solana",
+  "symbol" : "SOL",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/SOL-20220525.png",
+  "seoUrlNaming" : "solana",
+  "chainIndex" : 501,
+  "seoChainFullName" : "solana"
+}, {
+  "chainName" : "Kava",
+  "symbol" : "KAVA",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/kava_13800.png",
+  "seoUrlNaming" : "kava",
+  "chainIndex" : 459,
+  "seoChainFullName" : "kava"
+}, {
+  "chainName" : "Immutable zkEVM",
+  "symbol" : "IMX",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/imx_24100.png",
+  "seoUrlNaming" : "immutable-zkevm",
+  "chainIndex" : 13371,
+  "seoChainFullName" : "immutable"
+}, {
+  "chainName" : "Celestia",
+  "symbol" : "TIA",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/tia_21800.png",
+  "seoUrlNaming" : "celestia",
+  "chainIndex" : 70000037,
+  "seoChainFullName" : "celestia"
+}, {
+  "chainName" : "SOON Testnet",
+  "symbol" : "SOONTest_ETH",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/soon_test_31500.png",
+  "seoUrlNaming" : "soon-testnet",
+  "chainIndex" : 70000067,
+  "seoChainFullName" : "soon-testnet"
+}, {
+  "chainName" : "zkLink Nova",
+  "symbol" : "ZKLINK_ETH",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/zklink_eth_25400.png",
+  "seoUrlNaming" : "zklink-nova",
+  "chainIndex" : 810180,
+  "seoChainFullName" : "zklink-nova"
+}, {
+  "chainName" : "Babylon Genesis",
+  "symbol" : "BABY",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/baby_33700.png",
+  "seoUrlNaming" : "babylon-genesis",
+  "chainIndex" : 70000077,
+  "seoChainFullName" : "babylon-genesis"
+}, {
+  "chainName" : "Arbitrum Sepolia",
+  "symbol" : "ARBSEPOLIA_ETH",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/arbsepolia_eth_23900.png",
+  "seoUrlNaming" : "arbitrum-sepolia",
+  "chainIndex" : 421614,
+  "seoChainFullName" : "arbitrum-sepolia"
+}, {
+  "chainName" : "Berachain",
+  "symbol" : "BERA",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/bera_33000_new.png",
+  "seoUrlNaming" : "berachain",
+  "chainIndex" : 80094,
+  "seoChainFullName" : "berachain"
+}, {
+  "chainName" : "svmBNB",
+  "symbol" : "SOON_BNB",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/soon_bnb_33300.png",
+  "seoUrlNaming" : "svmbnb",
+  "chainIndex" : 70000075,
+  "seoChainFullName" : "svmbnb"
+}, {
+  "chainName" : "Monad Testnet",
+  "symbol" : "TESTNET_MON",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/test_mon_32600.png",
+  "seoUrlNaming" : "monad-testnet",
+  "chainIndex" : 10143,
+  "seoChainFullName" : "monad-testnet"
+}, {
+  "chainName" : "Sahara Testnet",
+  "symbol" : "TESTNET_SAHARA",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/test_sahara_33400.png",
+  "seoUrlNaming" : "sahara-testnet",
+  "chainIndex" : 313313,
+  "seoChainFullName" : "sahara-testnet"
+}, {
+  "chainName" : "B3",
+  "symbol" : "B3_ETH",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/b3_29400.png",
+  "seoUrlNaming" : "b3",
+  "chainIndex" : 8333,
+  "seoChainFullName" : "b3"
+}, {
+  "chainName" : "Boba",
+  "symbol" : "BOBA_ETH",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/boba.png",
+  "seoUrlNaming" : "boba",
+  "chainIndex" : 288,
+  "seoChainFullName" : "boba"
+}, {
+  "chainName" : "Ronin",
+  "symbol" : "RON",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/ronin_11800.png",
+  "seoUrlNaming" : "ronin",
+  "chainIndex" : 2020,
+  "seoChainFullName" : "ronin"
+}, {
+  "chainName" : "Polygon",
+  "symbol" : "POL",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/pol_6000_new.png",
+  "seoUrlNaming" : "polygon",
+  "chainIndex" : 137,
+  "seoChainFullName" : "polygon"
+}, {
+  "chainName" : "Kava EVM",
+  "symbol" : "EVM_KAVA",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/evm_kava_19900.png",
+  "seoUrlNaming" : "kava-evm",
+  "chainIndex" : 2222,
+  "seoChainFullName" : "kava-evm"
+}, {
+  "chainName" : "Unichain",
+  "symbol" : "Unichain_ETH",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/unichain_33200.png",
+  "seoUrlNaming" : "unichain",
+  "chainIndex" : 130,
+  "seoChainFullName" : "unichain"
+}, {
+  "chainName" : "BNB Chain",
+  "symbol" : "BNB",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/bnb_5000_new.png",
+  "seoUrlNaming" : "bnb-chain",
+  "chainIndex" : 56,
+  "seoChainFullName" : "bsc"
+}, {
+  "chainName" : "Bitlayer",
+  "symbol" : "Bitlayer_BTC",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/bitlayer_btc_25600.png",
+  "seoUrlNaming" : "bitlayer",
+  "chainIndex" : 200901,
+  "seoChainFullName" : "bitlayer"
+}, {
+  "chainName" : "HashKey",
+  "symbol" : "HSK",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/hsk_31200.png",
+  "seoUrlNaming" : "hashkey",
+  "chainIndex" : 177,
+  "seoChainFullName" : "hashkey"
+}, {
+  "chainName" : "Dash",
+  "symbol" : "DASH",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/dash.png",
+  "seoUrlNaming" : "dash",
+  "chainIndex" : 5,
+  "seoChainFullName" : "dash"
+}, {
+  "chainName" : "GOAT Network",
+  "symbol" : "GOAT_BTC",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/goat_34800.png",
+  "seoUrlNaming" : "goat-network",
+  "chainIndex" : 2345,
+  "seoChainFullName" : "goat-network"
+}, {
+  "chainName" : "StarkNet Token",
+  "symbol" : "STRK",
+  "imageUrl" : "https://static.oklink.com/cdn/web3/currency/token/small/9004-0x04718f5a0fc34cc1af16a1cdee98ffb20c31f5cd61d6ab07201858f4287c938d-105?v=1749148896150",
+  "seoUrlNaming" : "starknet-token",
+  "chainIndex" : 9004,
+  "seoChainFullName" : "starknet"
+}, {
+  "chainName" : "HAQQ Network",
+  "symbol" : "ISLM",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/islm_21200.png",
+  "seoUrlNaming" : "haqq-network",
+  "chainIndex" : 11235,
+  "seoChainFullName" : "haqq"
+}, {
+  "chainName" : "Abstract",
+  "symbol" : "Abstract_ETH",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/abstract_30400.png",
+  "seoUrlNaming" : "abstract",
+  "chainIndex" : 2741,
+  "seoChainFullName" : "abstract"
+}, {
+  "chainName" : "X Layer",
+  "symbol" : "OKB",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/okb.png",
+  "seoUrlNaming" : "x-layer",
+  "chainIndex" : 196,
+  "seoChainFullName" : "x-layer"
+}, {
+  "chainName" : "Initia",
+  "symbol" : "INIT",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/init_33900.png",
+  "seoUrlNaming" : "initia",
+  "chainIndex" : 70000078,
+  "seoChainFullName" : "initia"
+}, {
+  "chainName" : "Kroma",
+  "symbol" : "KROMA_ETH",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/kroma_28800.png",
+  "seoUrlNaming" : "kroma",
+  "chainIndex" : 255,
+  "seoChainFullName" : "kroma"
+}, {
+  "chainName" : "Unite",
+  "symbol" : "UNITE",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/unite_32400.png",
+  "seoUrlNaming" : "unite",
+  "chainIndex" : 88899,
+  "seoChainFullName" : "unite"
+}, {
+  "chainName" : "Mezo",
+  "symbol" : "MEZO_BTC",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/mezo_34400.png",
+  "seoUrlNaming" : "mezo",
+  "chainIndex" : 31612,
+  "seoChainFullName" : "mezo"
+}, {
+  "chainName" : "Kaspa",
+  "symbol" : "KAS",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/kas_21600.png",
+  "seoUrlNaming" : "kaspa",
+  "chainIndex" : 111111,
+  "seoChainFullName" : "kaspa"
+}, {
+  "chainName" : "Merlin",
+  "symbol" : "MERLIN_BTC",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/merlin_btc_23400.png",
+  "seoUrlNaming" : "merlin",
+  "chainIndex" : 4200,
+  "seoChainFullName" : "merlin"
+}, {
+  "chainName" : "Kujira",
+  "symbol" : "KUJI",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/kuji_13500.png",
+  "seoUrlNaming" : "kujira",
+  "chainIndex" : 70000011,
+  "seoChainFullName" : "kujira"
+}, {
+  "chainName" : "Linea",
+  "symbol" : "LINEA_ETH",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/linea_eth_20700.png",
+  "seoUrlNaming" : "linea",
+  "chainIndex" : 59144,
+  "seoChainFullName" : "linea"
+}, {
+  "chainName" : "Sui",
+  "symbol" : "SUI",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/sui_17700_new.png",
+  "seoUrlNaming" : "sui",
+  "chainIndex" : 784,
+  "seoChainFullName" : "sui"
+}, {
+  "chainName" : "Zcash",
+  "symbol" : "ZEC",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/ZEC-20220328.png",
+  "seoUrlNaming" : "zcash",
+  "chainIndex" : 133,
+  "seoChainFullName" : "zcash"
+}, {
+  "chainName" : "Arbitrum Nova",
+  "symbol" : "NOVA_ETH",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/nova_18500.png",
+  "seoUrlNaming" : "arbitrum-nova",
+  "chainIndex" : 42170,
+  "seoChainFullName" : "arbitrum-nova"
+}, {
+  "chainName" : "Filecoin",
+  "symbol" : "FIL",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/FIL-20220328.png",
+  "seoUrlNaming" : "filecoin",
+  "chainIndex" : 314,
+  "seoChainFullName" : "filecoin"
+}, {
+  "chainName" : "BOB",
+  "symbol" : "BOB_ETH",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/bob_26400.png",
+  "seoUrlNaming" : "bob",
+  "chainIndex" : 60808,
+  "seoChainFullName" : "bob"
+}, {
+  "chainName" : "Reya Network",
+  "symbol" : "REYA_ETH",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/reya_30600.png",
+  "seoUrlNaming" : "reya-network",
+  "chainIndex" : 70000063,
+  "seoChainFullName" : "reya"
+}, {
+  "chainName" : "Taiko",
+  "symbol" : "TAIKO_ETH",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/taiko_26600.png",
+  "seoUrlNaming" : "taiko",
+  "chainIndex" : 167000,
+  "seoChainFullName" : "taiko"
+}, {
+  "chainName" : "Sepolia",
+  "symbol" : "SEPOLIA_ETH",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/sepolia_eth_21100.png",
+  "seoUrlNaming" : "sepolia",
+  "chainIndex" : 11155111,
+  "seoChainFullName" : "sepolia"
+}, {
+  "chainName" : "dYdX",
+  "symbol" : "DYDX",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/dydx_21700.png",
+  "seoUrlNaming" : "dydx",
+  "chainIndex" : 70000042,
+  "seoChainFullName" : "dydx"
+}, {
+  "chainName" : "Mint",
+  "symbol" : "Mint_ETH",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/mint_31400.png",
+  "seoUrlNaming" : "mint",
+  "chainIndex" : 185,
+  "seoChainFullName" : "mint"
+}, {
+  "chainName" : "IMX Ethereum",
+  "symbol" : "IMX_ETH",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/ETH-20220328.png",
+  "seoUrlNaming" : "imx-ethereum",
+  "chainIndex" : 1761886,
+  "seoChainFullName" : "immutable-evm"
+}, {
+  "chainName" : "zkSync Era",
+  "symbol" : "ERA_ETH",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/zk_17000.png",
+  "seoUrlNaming" : "zksync-era",
+  "chainIndex" : 324,
+  "seoChainFullName" : "zksync-era"
+}, {
+  "chainName" : "Gravity Alpha",
+  "symbol" : "G",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/g_29600.png",
+  "seoUrlNaming" : "gravity-alpha",
+  "chainIndex" : 1625,
+  "seoChainFullName" : "gravity"
+}, {
+  "chainName" : "ZetaChain",
+  "symbol" : "ZETA",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/zeta_mainnet_23000.png",
+  "seoUrlNaming" : "zetachain",
+  "chainIndex" : 7000,
+  "seoChainFullName" : "zetachain"
+}, {
+  "chainName" : "Eclipse",
+  "symbol" : "Eclipse_ETH",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/eclipse_31700.png",
+  "seoUrlNaming" : "eclipse",
+  "chainIndex" : 70000068,
+  "seoChainFullName" : "eclipse"
+}, {
+  "chainName" : "Wemix 3.0",
+  "symbol" : "WEMIX",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/wemix_22200.png",
+  "seoUrlNaming" : "wemix-3",
+  "chainIndex" : 1111,
+  "seoChainFullName" : "wemix"
+}, {
+  "chainName" : "NERO",
+  "symbol" : "NERO",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/nero_34200.png",
+  "seoUrlNaming" : "nero",
+  "chainIndex" : 1689,
+  "seoChainFullName" : "nero"
+}, {
+  "chainName" : "Conflux",
+  "symbol" : "CFX",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/cfx_19200.png",
+  "seoUrlNaming" : "conflux",
+  "chainIndex" : 1030,
+  "seoChainFullName" : "conflux"
+}, {
+  "chainName" : "Avalanche",
+  "symbol" : "AVAX",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/AVAX.png",
+  "seoUrlNaming" : "avalanche",
+  "chainIndex" : 43114,
+  "seoChainFullName" : "avalanche"
+}, {
+  "chainName" : "Moonbeam",
+  "symbol" : "GLMR",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/moonbeam_12100.png",
+  "seoUrlNaming" : "moonbeam",
+  "chainIndex" : 1284,
+  "seoChainFullName" : "moonbeam"
+}, {
+  "chainName" : "Gnosis",
+  "symbol" : "XDAI",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/xdai_11300.png",
+  "seoUrlNaming" : "gnosis",
+  "chainIndex" : 100,
+  "seoChainFullName" : "gnosis"
+}, {
+  "chainName" : "INJECTIVE",
+  "symbol" : "INJ",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/inj_21500_new.png",
+  "seoUrlNaming" : "injective",
+  "chainIndex" : 70000041,
+  "seoChainFullName" : "injective"
+}, {
+  "chainName" : "B² Network",
+  "symbol" : "B2_BTC",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/b2_btc_25500.png",
+  "seoUrlNaming" : "b2",
+  "chainIndex" : 223,
+  "seoChainFullName" : "b2"
+}, {
+  "chainName" : "OverProtocol",
+  "symbol" : "OVER",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/over_27400.png",
+  "seoUrlNaming" : "overprotocol",
+  "chainIndex" : 54176,
+  "seoChainFullName" : "overprotocol"
+}, {
+  "chainName" : "Vaulta",
+  "symbol" : "EOS",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/EOS.png",
+  "seoUrlNaming" : "vaulta",
+  "chainIndex" : 194,
+  "seoChainFullName" : "eos"
+}, {
+  "chainName" : "Zora",
+  "symbol" : "ZORA_ETH",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/zora_26800.png",
+  "seoUrlNaming" : "zora",
+  "chainIndex" : 7777777,
+  "seoChainFullName" : "zora"
+}, {
+  "chainName" : "IoTeX",
+  "symbol" : "IOTX",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/iotx_26200.png",
+  "seoUrlNaming" : "iotex",
+  "chainIndex" : 4689,
+  "seoChainFullName" : "iotex"
+}, {
+  "chainName" : "Babylon Testnet",
+  "symbol" : "tBABY",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/tbaby_32100.png",
+  "seoUrlNaming" : "babylon-testnet",
+  "chainIndex" : 70000070,
+  "seoChainFullName" : "babylon-testnet"
+}, {
+  "chainName" : "Pi Network",
+  "symbol" : "PI",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/pi_33100.png",
+  "seoUrlNaming" : "pi-network",
+  "chainIndex" : 70000074,
+  "seoChainFullName" : "pi-network"
+}, {
+  "chainName" : "ZKcandy",
+  "symbol" : "ZKCANDY_ETH",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/zkcandy_34000.png",
+  "seoUrlNaming" : "zkcandy",
+  "chainIndex" : 320,
+  "seoChainFullName" : "zkcandy"
+}, {
+  "chainName" : "Ethereum Classic",
+  "symbol" : "ETC",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/ETC.png",
+  "seoUrlNaming" : "ethereum-classic",
+  "chainIndex" : 61,
+  "seoChainFullName" : "etc"
+}, {
+  "chainName" : "KCC",
+  "symbol" : "KCS",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/kcc.png",
+  "seoUrlNaming" : "kcc",
+  "chainIndex" : 321,
+  "seoChainFullName" : "kcc"
+}, {
+  "chainName" : "Celo",
+  "symbol" : "CELO",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/celo_16600.png",
+  "seoUrlNaming" : "celo",
+  "chainIndex" : 42220,
+  "seoChainFullName" : "celo"
+}, {
+  "chainName" : "Botanix",
+  "symbol" : "Botanix_BTC",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/botanix_34600.png",
+  "seoUrlNaming" : "botanix",
+  "chainIndex" : 3637,
+  "seoChainFullName" : "botanix"
+}, {
+  "chainName" : "Cosmos Hub",
+  "symbol" : "ATOM",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/ATOM_12300.png",
+  "seoUrlNaming" : "cosmos-hub",
+  "chainIndex" : 118,
+  "seoChainFullName" : "cosmos"
+}, {
+  "chainName" : "Scroll",
+  "symbol" : "SCROLL_ETH",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/scroll_eth_21400.png",
+  "seoUrlNaming" : "scroll",
+  "chainIndex" : 534352,
+  "seoChainFullName" : "scroll"
+}, {
+  "chainName" : "Fantom",
+  "symbol" : "FTM",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/FTM-20220328.png",
+  "seoUrlNaming" : "fantom",
+  "chainIndex" : 250,
+  "seoChainFullName" : "fantom"
+}, {
+  "chainName" : "Blast",
+  "symbol" : "BLAST_ETH",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/blast_eth_23800.png",
+  "seoUrlNaming" : "blast",
+  "chainIndex" : 81457,
+  "seoChainFullName" : "blast"
+}, {
+  "chainName" : "Bitcoin SV",
+  "symbol" : "BSV",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/BSV.png",
+  "seoUrlNaming" : "bitcoin-sv",
+  "chainIndex" : 236,
+  "seoChainFullName" : "bsv"
+}, {
+  "chainName" : "PulseChain",
+  "symbol" : "PLS",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/pls_20000.png",
+  "seoUrlNaming" : "pulsechain",
+  "chainIndex" : 369,
+  "seoChainFullName" : "pulsechain"
+}, {
+  "chainName" : "Osmosis",
+  "symbol" : "OSMO",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/OSMO_12500.png",
+  "seoUrlNaming" : "osmosis",
+  "chainIndex" : 706,
+  "seoChainFullName" : "osmosis"
+}, {
+  "chainName" : "opBNB",
+  "symbol" : "OP_BNB",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/opbnb_20900.png",
+  "seoUrlNaming" : "opbnb",
+  "chainIndex" : 204,
+  "seoChainFullName" : "opbnb"
+}, {
+  "chainName" : "Movement",
+  "symbol" : "MOVE",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/move_31300.png",
+  "seoUrlNaming" : "movement",
+  "chainIndex" : 70000066,
+  "seoChainFullName" : "movement"
+}, {
+  "chainName" : "Rootstock",
+  "symbol" : "RBTC",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/rbtc_30000.png",
+  "seoUrlNaming" : "rootstock",
+  "chainIndex" : 30,
+  "seoChainFullName" : "rootstock"
+}, {
+  "chainName" : "TRON",
+  "symbol" : "TRX",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/TRX.png",
+  "seoUrlNaming" : "tron",
+  "chainIndex" : 195,
+  "seoChainFullName" : "tron"
+}, {
+  "chainName" : "Optimism",
+  "symbol" : "OP_ETH",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/op_10000.png",
+  "seoUrlNaming" : "optimism",
+  "chainIndex" : 10,
+  "seoChainFullName" : "optimism"
+}, {
+  "chainName" : "Flare",
+  "symbol" : "FLR",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/flr_17300.png",
+  "seoUrlNaming" : "flare",
+  "chainIndex" : 14,
+  "seoChainFullName" : "flare"
+}, {
+  "chainName" : "Stacks",
+  "symbol" : "STX",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/stx_19400.png",
+  "seoUrlNaming" : "stacks",
+  "chainIndex" : 5757,
+  "seoChainFullName" : "stacks"
+}, {
+  "chainName" : "Endurance",
+  "symbol" : "ACE",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/ace_19800.png",
+  "seoUrlNaming" : "endurance",
+  "chainIndex" : 648,
+  "seoChainFullName" : "endurance"
+}, {
+  "chainName" : "Plume",
+  "symbol" : "PLUME",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/plume_main_33600.png",
+  "seoUrlNaming" : "plume",
+  "chainIndex" : 98866,
+  "seoChainFullName" : "plume"
+}, {
+  "chainName" : "Story",
+  "symbol" : "IP",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/story_mainnet_32800_coin_new.png",
+  "seoUrlNaming" : "story",
+  "chainIndex" : 1514,
+  "seoChainFullName" : "story"
+}, {
+  "chainName" : "XRP Ledger",
+  "symbol" : "XRP",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/xrp_34500_coin.png",
+  "seoUrlNaming" : "xrp-ledger",
+  "chainIndex" : 144,
+  "seoChainFullName" : "ripple-ledger"
+}, {
+  "chainName" : "Cronos",
+  "symbol" : "CRO",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/cro.png",
+  "seoUrlNaming" : "cronos",
+  "chainIndex" : 25,
+  "seoChainFullName" : "cronos"
+}, {
+  "chainName" : "IRIS",
+  "symbol" : "IRIS",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/iris_14400.png",
+  "seoUrlNaming" : "iris",
+  "chainIndex" : 566,
+  "seoChainFullName" : "iris"
+}, {
+  "chainName" : "Polygon zkEVM",
+  "symbol" : "POLYGON_ETH",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/POLYGON_ETH_19300.png",
+  "seoUrlNaming" : "polygon-zkevm",
+  "chainIndex" : 1101,
+  "seoChainFullName" : "polygon-zkevm"
+}, {
+  "chainName" : "Arbitrum One",
+  "symbol" : "ARB_ETH",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/arb_9000.png",
+  "seoUrlNaming" : "arbitrum-one",
+  "chainIndex" : 42161,
+  "seoChainFullName" : "arbitrum-one"
+}, {
+  "chainName" : "Sonic SVM",
+  "symbol" : "Sonic_SOL",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/sonic_svm_32300.png",
+  "seoUrlNaming" : "sonic-svm",
+  "chainIndex" : 70000073,
+  "seoChainFullName" : "sonic-svm"
+}, {
+  "chainName" : "Moonriver",
+  "symbol" : "MOVR",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/movr_12800.png",
+  "seoUrlNaming" : "moonriver",
+  "chainIndex" : 1285,
+  "seoChainFullName" : "moonriver"
+}, {
+  "chainName" : "Dogecoin",
+  "symbol" : "DOGE",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/18000_doge.png",
+  "seoUrlNaming" : "dogecoin",
+  "chainIndex" : 3,
+  "seoChainFullName" : "dogecoin"
+}, {
+  "chainName" : "Dymension",
+  "symbol" : "DYM",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/dym_23100.png",
+  "seoUrlNaming" : "dymension",
+  "chainIndex" : 1100,
+  "seoChainFullName" : "dymension"
+}, {
+  "chainName" : "Zircuit",
+  "symbol" : "ZIRCUIT_ETH",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/zircuit_30800.png",
+  "seoUrlNaming" : "zircuit",
+  "chainIndex" : 48900,
+  "seoChainFullName" : "zircuit"
+}, {
+  "chainName" : "Taker",
+  "symbol" : "TAKER",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/taker_33800.png",
+  "seoUrlNaming" : "taker",
+  "chainIndex" : 1125,
+  "seoChainFullName" : "taker"
+}, {
+  "chainName" : "Aurora",
+  "symbol" : "AURORA_ETH",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/auroa_11500.png",
+  "seoUrlNaming" : "aurora",
+  "chainIndex" : 1313161554,
+  "seoChainFullName" : "aurora"
+}, {
+  "chainName" : "Sonic",
+  "symbol" : "S",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/s_31600_new.png",
+  "seoUrlNaming" : "sonic",
+  "chainIndex" : 146,
+  "seoChainFullName" : "sonic"
+}, {
+  "chainName" : "Sei EVM",
+  "symbol" : "EVM_SEI",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/evm_sei_29000.png",
+  "seoUrlNaming" : "sei-evm",
+  "chainIndex" : 1329,
+  "seoChainFullName" : "sei-evm"
+}, {
+  "chainName" : "Cardano",
+  "symbol" : "ADA",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/ada.png",
+  "seoUrlNaming" : "cardano",
+  "chainIndex" : 1815,
+  "seoChainFullName" : "cardano"
+}, {
+  "chainName" : "zkSync Lite",
+  "symbol" : "LITE_ETH",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/lite_eth_18800.png",
+  "seoUrlNaming" : "zksync-lite",
+  "chainIndex" : 805,
+  "seoChainFullName" : "zksync-lite"
+}, {
+  "chainName" : "Base",
+  "symbol" : "BASE_ETH",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/base_20900.png",
+  "seoUrlNaming" : "base",
+  "chainIndex" : 8453,
+  "seoChainFullName" : "base"
+}, {
+  "chainName" : "Matchain",
+  "symbol" : "Matchain_BNB",
+  "imageUrl" : "https://static.coinall.ltd/cdn/wallet/logo/mat_28400.png",
+  "seoUrlNaming" : "matchain",
+  "chainIndex" : 698,
+  "seoChainFullName" : "matchain"
+} ]

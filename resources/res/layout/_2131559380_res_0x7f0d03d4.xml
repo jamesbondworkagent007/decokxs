@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginTop="20dp">
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/dot_first"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        src="@drawable/_2131231978_res_0x7f0804ea"
+        NOT_FOUND_0x9="@+id/item_title"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xe="@+id/item_title"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        textAppearance="@style/TextAppearance.Text.16SP.Bold"
+        textColor="@color/ContentPrimary"
+        id="@+id/item_title"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        text="@string/pr_swaptrade_modal_dialog_title_nofee"
+        layout_marginStart="20dp"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="@+id/dot_first"
+        NOT_FOUND_0xe="0"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        textAppearance="@style/TextAppearance.Text.14SP.Medium"
+        textColor="@color/ContentTertiary"
+        id="@+id/item_subtitle"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_marginTop="8dp"
+        text="@string/pr_swaptrade_modal_dialog_desc_nofee"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xc="@+id/item_title"
+        NOT_FOUND_0xd="@+id/item_title"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

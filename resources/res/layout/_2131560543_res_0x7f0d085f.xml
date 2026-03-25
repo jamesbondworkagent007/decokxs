@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/item_hardware_expand_collapse_0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <TextView
+        layout_gravity="0x11"
+        id="@+id/tv_show_all"
+        padding="@dimen/padding_4dp"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_12dp"
+        layout_marginBottom="@dimen/margin_12dp"
+        text="@string/pr_wallet_hardwallet_text_showadd"
+        drawablePadding="@dimen/padding_8dp"
+        layout_marginVertical="@dimen/margin_12dp"
+        NOT_FOUND_0xb="@drawable/_2131232336_res_0x7f080650"
+        NOT_FOUND_0xc="@color/grey_g400"/>
+</FrameLayout>

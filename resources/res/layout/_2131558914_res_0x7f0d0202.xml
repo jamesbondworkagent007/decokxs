@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    tag="layout/component_okcr_dex_marketing_token_image_0"
+    layout_width="@dimen/dp_20"
+    android:layout_height="@dimen/dp_20"
+    layout_marginStart="@dimen/minus_dp_4">
+    <ImageView
+        id="@+id/iv_token"
+        layout_width="-1"
+        android:layout_height="match_parent"
+        scaleType="7"
+        contentDescription="@null"/>
+</FrameLayout>

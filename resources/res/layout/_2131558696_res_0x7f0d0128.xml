@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    id="@+id/rootView"
+    background="@color/background_lv1"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C33537myN
+        id="@+id/app_bar"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0xc="@string/pr_debug_abtest_debug"/>
+    <o.C55230xfy
+        id="@+id/search_bar"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="8dp"
+        layout_marginBottom="8dp"
+        hint="Enter flag filter (输入标志过滤器)"
+        layout_marginStart="16dp"
+        layout_marginEnd="16dp"
+        NOT_FOUND_0xd="true"
+        NOT_FOUND_0xe="false"/>
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        layout_width="-1"
+        android:layout_height="match_parent">
+        <androidx.recyclerview.widget.RecyclerView
+            id="@+id/nested_recycler_view"
+            scrollbars="0x200"
+            clipToPadding="false"
+            layout_width="-1"
+            android:layout_height="match_parent"/>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</LinearLayout>

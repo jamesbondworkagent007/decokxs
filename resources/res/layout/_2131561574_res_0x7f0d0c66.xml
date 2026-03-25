@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        orientation="0"
+        layout_width="-1"
+        android:layout_height="wrap_content">
+        <TextView
+            textSize="16sp"
+            id="@+id/tvChallengeColor"
+            layout_width="0dp"
+            android:layout_height="wrap_content"
+            text="Challenge Color"
+            layout_weight="1"
+            lineSpacingExtra="@dimen/dp_4"/>
+        <TextView
+            textSize="16sp"
+            id="@+id/tvChallengeColorLabel"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            lineSpacingExtra="@dimen/dp_4"/>
+    </LinearLayout>
+    <LinearLayout
+        orientation="0"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/dp_4"
+        layout_marginBottom="@dimen/dp_8">
+        <TextView
+            textSize="16sp"
+            id="@+id/tvPredictedColor"
+            layout_width="0dp"
+            android:layout_height="wrap_content"
+            text="Predicted Color"
+            layout_weight="1"
+            lineSpacingExtra="@dimen/dp_4"/>
+        <TextView
+            textSize="16sp"
+            id="@+id/tvPredictedColorLabel"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            lineSpacingExtra="@dimen/dp_4"/>
+    </LinearLayout>
+</LinearLayout>

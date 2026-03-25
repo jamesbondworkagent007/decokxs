@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    id="@+id/icon"
+    tag="layout/bottom_sheet_bind_redirect_0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <androidx.cardview.widget.CardView
+        layout_gravity="0x1"
+        id="@+id/app_icon"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x11="12dp"
+        NOT_FOUND_0x12="2dp"
+        NOT_FOUND_0x13="0"
+        NOT_FOUND_0x14="0"
+        NOT_FOUND_0x16="0">
+        <androidx.appcompat.widget.AppCompatImageView
+            layout_width="80dp"
+            android:layout_height="80dp"
+            src="@drawable/_2131233611_res_0x7f080b4b"/>
+    </androidx.cardview.widget.CardView>
+    <TextView
+        textSize="18sp"
+        textColor="@color/ContentPrimary"
+        ellipsize="3"
+        layout_gravity="0x1"
+        id="@+id/tv_title"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/dp_32"
+        text="You will be redirected to the OKX App"
+        style="@style/TextAppearance.Text.Bold"/>
+    <TextView
+        textSize="14sp"
+        textColor="@color/ContentSecondary"
+        gravity="0x11"
+        layout_gravity="0x1"
+        id="@+id/tv_desc"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="8dp"
+        layout_marginBottom="32dp"
+        text="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        lineSpacingExtra="6dp"
+        layout_marginStart="@dimen/dp24"
+        layout_marginEnd="@dimen/dp24"
+        NOT_FOUND_0x15="@+id/tv_title"
+        style="@style/TextAppearance.Text.Regular"/>
+</LinearLayout>

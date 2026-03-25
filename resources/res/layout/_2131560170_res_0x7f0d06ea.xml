@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <com.okinc.uilab.list.OKAnchorSelection
+        theme="@style/OKUITheme.Alternative.Web3"
+        id="@+id/anchorSelection"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x4="@layout/_2131560813_res_0x7f0d096d"/>
+</FrameLayout>

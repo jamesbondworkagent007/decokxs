@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o.C40505qYi xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C55173xeu
+        layout_gravity="0x11"
+        id="@+id/empty_view"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="64dp"
+        NOT_FOUND_0xe="7"
+        NOT_FOUND_0x13="@string/pr_rewards_text_empty_no_date"/>
+    <TextView
+        textAppearance="@style/TextAppearance.Title.16SP.Medium"
+        textSize="@dimen/sp_16"
+        textColor="@color/okTradeG900"
+        gravity="0x10"
+        id="@+id/tv_title"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="60dp"
+        text="@string/pr_trade_search_title_you_might_like"
+        layout_marginStart="@dimen/dp_16"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x12="0"/>
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/recycler_view"
+        clipChildren="true"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/dp_6"
+        layout_below="@+id/search_title"
+        NOT_FOUND_0xf="com.okinc.okmarket.ui.market.quote.WrapContentGridLayoutManager"
+        NOT_FOUND_0x11="@+id/search_title"/>
+</o.C40505qYi>

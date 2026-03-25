@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <View
+        background="@drawable/_2131232025_res_0x7f080519"
+        layout_width="-1"
+        android:layout_height="1dp"
+        layout_marginTop="8dp"
+        layout_marginBottom="8dp"
+        backgroundTint="@color/BorderPrimary"
+        layout_marginVertical="8dp"/>
+    <TextView
+        gravity="0x11"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        text="@string/pr_smartarb_botdetails_subtitle_borrowing_interest_displayed"/>
+</LinearLayout>

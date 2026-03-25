@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    tag="layout/fragment_defi_wallet_multi_select_send_address_0"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/recycle_view"
+        layout_width="-1"
+        android:layout_height="0dp"
+        layout_weight="1"
+        overScrollMode="2"/>
+</LinearLayout>

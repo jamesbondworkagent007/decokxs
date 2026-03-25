@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.recyclerview.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+    id="@+id/rv_social_share"
+    paddingTop="24dp"
+    paddingBottom="24dp"
+    clipChildren="false"
+    clipToPadding="false"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    minHeight="@dimen/share_dialog_bottom_height"
+    contentDescription="sharePlatformPanel"
+    paddingStart="8dp"
+    paddingEnd="8dp"
+    nestedScrollingEnabled="false"/>

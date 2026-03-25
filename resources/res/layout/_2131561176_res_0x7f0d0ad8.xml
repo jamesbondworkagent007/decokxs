@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o.C55251xgS xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x10"
+    orientation="0"
+    id="@+id/tag"
+    tag="layout/layout_compliance_ok_tag_0"
+    layout_width="-2"
+    android:layout_height="wrap_content"
+    layout_marginStart="6dp"
+    NOT_FOUND_0x7="-3"
+    NOT_FOUND_0x8="6"/>

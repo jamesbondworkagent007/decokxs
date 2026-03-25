@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-2"
+    android:layout_height="wrap_content">
+    <o.C55251xgS
+        id="@+id/attachViewTag"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginStart="@dimen/margin_4dp"
+        layout_marginEnd="@dimen/margin_4dp"
+        NOT_FOUND_0x7="0"
+        NOT_FOUND_0x9="@+id/attachViewIcon"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="6"/>
+    <ImageView
+        id="@+id/attachViewIcon"
+        visibility="2"
+        layout_width="@dimen/width_16dp"
+        android:layout_height="@dimen/height_16dp"
+        src="@drawable/_2131233141_res_0x7f080975"
+        layout_marginEnd="@dimen/margin_4dp"
+        NOT_FOUND_0x7="0"
+        NOT_FOUND_0x8="0"
+        NOT_FOUND_0xa="@+id/attachViewTag"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="@dimen/margin_4dp"
+        NOT_FOUND_0x10="@color/color_content_static_subtle"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

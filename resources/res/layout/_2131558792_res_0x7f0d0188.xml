@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    paddingTop="14dp"
+    paddingBottom="14dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingVertical="14dp">
+    <TextView
+        textColor="@color/ContentTertiary"
+        id="@+id/time"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        style="@style/Label_2_Regular"/>
+    <TextView
+        textColor="@color/ContentPrimary"
+        gravity="0x800005"
+        id="@+id/amount"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_weight="1"
+        layout_marginStart="12dp"
+        style="@style/Label_2_Medium"/>
+</LinearLayout>

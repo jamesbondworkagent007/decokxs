@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    tag="layout/fragment_support_tab_view_pager_0"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C55254xgV
+        id="@+id/tabs"
+        paddingLeft="@dimen/xsm"
+        paddingRight="@dimen/xsm"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_12dp"
+        paddingHorizontal="@dimen/xsm"
+        NOT_FOUND_0xb="true"
+        NOT_FOUND_0xc="36"/>
+    <View
+        id="@+id/underline"
+        background="@color/grey_g100"
+        layout_width="-1"
+        android:layout_height="0.5dp"/>
+    <androidx.viewpager2.widget.ViewPager2
+        id="@+id/tab_viewpager"
+        layout_width="-1"
+        android:layout_height="0dp"
+        layout_weight="1"/>
+</LinearLayout>

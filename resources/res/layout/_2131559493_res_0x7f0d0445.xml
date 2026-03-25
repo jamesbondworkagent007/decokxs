@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    layout_gravity="0x800015"
+    orientation="0"
+    layout_width="-2"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatTextView
+        textAppearance="@style/TextAppearance.Text.16SP.Medium"
+        textColor="@color/ContentPrimary"
+        gravity="0x800015"
+        layout_gravity="0x800015"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        text="%"/>
+</FrameLayout>

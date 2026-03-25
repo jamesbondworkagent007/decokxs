@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/activity_rating_submit_already_0"
+    background="@color/BasePrimary"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <androidx.constraintlayout.widget.Guideline
+        orientation="0"
+        id="@+id/guideline"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0xc="0.35"/>
+    <o.C55178xez
+        id="@+id/result_page"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0xa="@+id/guideline"
+        NOT_FOUND_0xd="@+id/guideline"
+        NOT_FOUND_0xe="@string/pr_myfeedback_mid_subtitle_desc_appreciate_feedback"
+        NOT_FOUND_0xf="@string/pr_myfeedback_mid_title_submitted"
+        NOT_FOUND_0x10="4"/>
+    <ImageView
+        id="@+id/close"
+        background="?attr/selectableItemBackgroundBorderless"
+        padding="@dimen/sm"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/md"
+        src="@drawable/_2131232438_res_0x7f0806b6"
+        contentDescription="@string/pr_common_btn_ok"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0x11="@color/title_color"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/container"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/rv_settings"
+        layout_width="-1"
+        android:layout_height="match_parent"
+        NOT_FOUND_0x6="androidx.recyclerview.widget.LinearLayoutManager"/>
+    <o.C55113xdn
+        layout_gravity="0x11"
+        id="@+id/view_loading"
+        visibility="2"
+        layout_width="@dimen/width_60dp"
+        android:layout_height="@dimen/width_60dp"
+        layout_marginBottom="@dimen/lg"
+        NOT_FOUND_0x7="true"
+        NOT_FOUND_0x8="@raw/_2131886123_res_0x7f12002b"/>
+</FrameLayout>

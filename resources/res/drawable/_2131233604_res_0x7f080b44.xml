@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android" color="?attr/colorControlHighlight">
+    <item id="@android:id/mask">
+        <shape shape="0">
+            <corners radius="@dimen/oktemp_btn_default_radius"/>
+            <solid color="@android:color/black"/>
+        </shape>
+    </item>
+    <item>
+        <selector>
+            <item state_enabled="false">
+                <shape shape="0">
+                    <solid color="@color/okTradeB50"/>
+                    <corners radius="@dimen/oktemp_btn_default_radius"/>
+                </shape>
+            </item>
+            <item state_pressed="true">
+                <shape shape="0">
+                    <solid color="@color/okTradeB50"/>
+                    <corners radius="@dimen/oktemp_btn_default_radius"/>
+                </shape>
+            </item>
+            <item>
+                <shape shape="0">
+                    <solid color="@color/okTradeB50"/>
+                    <corners radius="@dimen/oktemp_btn_default_radius"/>
+                </shape>
+            </item>
+        </selector>
+    </item>
+</ripple>

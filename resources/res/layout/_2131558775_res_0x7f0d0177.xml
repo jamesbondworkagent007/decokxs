@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    id="@+id/vg_otp_input_item_container"
+    tag="layout/auth_item_otp_input_0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.C55008xbo
+        id="@+id/inputField"
+        longClickable="false"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        hint="@string/pr_createapi_input_smscode"
+        NOT_FOUND_0xc="48"/>
+    <LinearLayout
+        orientation="0"
+        id="@+id/switchSmsContainer"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_4dp">
+        <TextView
+            textAppearance="@style/TextAppearance.Text.14SP"
+            textColor="@color/grey_g500"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            text="@string/pr_account_verification_label1_didnt_receive"/>
+        <TextView
+            textAppearance="@style/TextAppearance.Blue.14SP"
+            id="@+id/switchSmsButton"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            text="@string/pr_account_phoneveri_linkbtn_try_another"/>
+    </LinearLayout>
+</LinearLayout>

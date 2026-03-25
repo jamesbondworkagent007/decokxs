@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <LinearLayout
+        orientation="1"
+        layout_width="-1"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            id="@+id/historyContainer"
+            visibility="2"
+            layout_width="-1"
+            android:layout_height="wrap_content">
+            <TextView
+                textAppearance="@style/OKTextFont.Medium"
+                id="@+id/historyText"
+                layout_width="-2"
+                android:layout_height="wrap_content"
+                style="@style/Title_2_Bold"/>
+            <ImageView
+                id="@+id/clearHistory"
+                layout_width="20dp"
+                android:layout_height="20dp"
+                src="@drawable/_2131232481_res_0x7f0806e1"
+                layout_centerVertical="true"
+                layout_alignParentEnd="true"
+                NOT_FOUND_0xb="@color/grey_g400"/>
+        </RelativeLayout>
+        <o.C55372xih
+            id="@+id/flowLayout"
+            visibility="2"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            layout_marginTop="12dp"
+            NOT_FOUND_0xa="false"/>
+    </LinearLayout>
+</merge>

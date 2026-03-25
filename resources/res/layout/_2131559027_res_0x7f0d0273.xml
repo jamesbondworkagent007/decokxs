@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    id="@+id/pool_main"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        gravity="0x10"
+        orientation="0"
+        id="@+id/container_header_title"
+        layout_width="-1"
+        android:layout_height="44dp"
+        NOT_FOUND_0xe="0">
+        <androidx.appcompat.widget.AppCompatImageView
+            id="@+id/iv_back_route"
+            paddingLeft="16dp"
+            paddingRight="16dp"
+            layout_width="-2"
+            android:layout_height="24dp"
+            src="@drawable/_2131231642_res_0x7f08039a"
+            paddingHorizontal="16dp"
+            NOT_FOUND_0xc="0"
+            NOT_FOUND_0xd="0"
+            NOT_FOUND_0xe="0"
+            NOT_FOUND_0xf="@color/ContentPrimary"/>
+        <androidx.appcompat.widget.LinearLayoutCompat
+            gravity="0x11"
+            orientation="0"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            layout_marginEnd="56dp">
+            <androidx.appcompat.widget.AppCompatTextView
+                textAppearance="@style/TextAppearance.Title.18SP.Semibold"
+                id="@+id/tv_title_route"
+                layout_width="-2"
+                android:layout_height="wrap_content"
+                layout_marginStart="8dp"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/recyclerPool"
+        layout_width="-1"
+        android:layout_height="match_parent"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

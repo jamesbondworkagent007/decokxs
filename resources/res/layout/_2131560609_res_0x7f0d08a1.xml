@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x10"
+    orientation="0"
+    id="@+id/item_edit_layout"
+    tag="layout/item_image_edit_menu_0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatTextView
+        textAppearance="@style/OKTextFont.Regular"
+        textSize="14sp"
+        textColor="@color/ContentPrimary"
+        ellipsize="3"
+        gravity="0x10"
+        layout_gravity="0x10"
+        id="@+id/tv_label"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        lines="1"
+        layout_weight="1"
+        NOT_FOUND_0xd="14sp"
+        NOT_FOUND_0xe="12sp"
+        NOT_FOUND_0xf="1sp"
+        NOT_FOUND_0x10="1"/>
+    <o.C55239xgG
+        id="@+id/sc_switch"
+        layout_width="-2"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

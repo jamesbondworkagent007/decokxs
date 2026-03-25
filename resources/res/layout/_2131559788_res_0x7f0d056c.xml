@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/fragment_auth_rebind_2fa_success_0"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C55178xez
+        id="@+id/resultPage"
+        layout_width="-1"
+        android:layout_height="match_parent"
+        NOT_FOUND_0x4="0"
+        NOT_FOUND_0x5="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

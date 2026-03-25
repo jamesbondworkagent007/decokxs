@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    background="@drawable/_2131234034_res_0x7f080cf2"
+    padding="@dimen/padding_16dp"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.C31701mAs
+        id="@+id/recycler"
+        scrollbars="horizontal"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        overScrollMode="2"/>
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    id="@+id/layout_content"
+    background="@drawable/_2131231483_res_0x7f0802fb"
+    layout_width="-2"
+    android:layout_height="match_parent">
+    <TextView
+        textAppearance="@style/TextAppearance.Subtitle.12SP"
+        gravity="0x11"
+        id="@+id/tv_content"
+        paddingLeft="8dp"
+        paddingTop="4dp"
+        paddingRight="8dp"
+        paddingBottom="4dp"
+        layout_width="-2"
+        android:layout_height="match_parent"
+        minWidth="34dp"
+        paddingHorizontal="8dp"
+        paddingVertical="4dp"/>
+</LinearLayout>

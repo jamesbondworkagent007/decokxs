@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="16dp"
+    android:width="16dp"
+    android:autoMirrored="true"
+    android:viewportWidth="16"
+    android:viewportHeight="16">
+    <path
+        android:fillColor="@color/okTradeG300"
+        android:pathData="M6.15 4.52l3.96 3.168c0.2 0.16 0.2 0.464 0 0.624L6.15 11.48c-0.262 0.21-0.65 0.023-0.65-0.312V4.832c0-0.335 0.388-0.522 0.65-0.312z"/>
+</vector>

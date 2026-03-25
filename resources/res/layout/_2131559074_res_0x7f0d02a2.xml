@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View xmlns:android="http://schemas.android.com/apk/res/android"
+    tag="layout/dex_contract_transaction_recyclerview_rate_divider_0"
+    background="@color/line_light"
+    layout_width="-1"
+    android:layout_height="@dimen/height_0.5dp"
+    layout_marginTop="8dp"/>

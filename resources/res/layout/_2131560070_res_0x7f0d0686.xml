@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    background="@color/BasePrimary"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C55230xfy
+        id="@+id/relation_search_bar"
+        layout_width="-1"
+        android:layout_height="@dimen/dp_40"
+        layout_marginLeft="@dimen/im_page_margin"
+        layout_marginTop="@dimen/margin_16dp"
+        layout_marginRight="@dimen/im_page_margin"
+        layout_marginBottom="@dimen/margin_16dp"
+        hint="@string/pr_message_contact_list_search_name_or_num"
+        layout_marginHorizontal="@dimen/im_page_margin"
+        layout_marginVertical="@dimen/margin_16dp"
+        NOT_FOUND_0xf="@+id/rv_new_message_list"
+        NOT_FOUND_0x11="0"
+        NOT_FOUND_0x12="false"
+        NOT_FOUND_0x13="-3"/>
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/rv_new_message_list"
+        paddingBottom="@dimen/margin_24dp"
+        clipToPadding="false"
+        layout_width="-1"
+        android:layout_height="0dp"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0x10="@+id/relation_search_bar"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

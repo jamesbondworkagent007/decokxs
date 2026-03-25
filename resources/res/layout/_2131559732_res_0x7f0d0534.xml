@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x10"
+    layout_gravity="0x10"
+    layout_width="-2"
+    android:layout_height="wrap_content">
+    <o.C55052xcf
+        textAppearance="@style/TextAppearance.Text.12SP.Medium"
+        textSize="12sp"
+        textColor="@color/okTradeG900"
+        gravity="0x10"
+        id="@+id/future_type"
+        visibility="2"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        text="@string/pr_trade_list_select_all_instruments"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="@string/pr_trade_list_select_all_instruments"
+        NOT_FOUND_0xe="-5"
+        style="@style/TextAppearance.Text.12SP.Medium"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

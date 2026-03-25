@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/activity_debug_export_nostr_0"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C33537myN
+        id="@+id/app_bar"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x7="0"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xb="0"/>
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/recycler_view"
+        layout_width="0dp"
+        android:layout_height="0dp"
+        NOT_FOUND_0x6="0"
+        NOT_FOUND_0x7="0"
+        NOT_FOUND_0x8="0"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xa="@+id/app_bar"
+        NOT_FOUND_0xc="0"/>
+    <o.C55113xdn
+        id="@+id/loading_view"
+        visibility="2"
+        layout_width="60dp"
+        android:layout_height="60dp"
+        layout_marginTop="128dp"
+        NOT_FOUND_0x7="0"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xb="@+id/recycler_view"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="true"
+        NOT_FOUND_0xe="@raw/_2131886123_res_0x7f12002b"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

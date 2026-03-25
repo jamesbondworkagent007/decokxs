@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <androidx.appcompat.widget.Toolbar
+        id="@+id/toolbar"
+        background="@color/BasePrimary"
+        layout_width="-1"
+        android:layout_height="?attr/actionBarSize"
+        layout_marginTop="@dimen/dp_30"
+        NOT_FOUND_0x9="1"
+        NOT_FOUND_0xa="@style/ThemeOverlay.AppCompat.Light"
+        NOT_FOUND_0xb="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        NOT_FOUND_0xc="@color/okTradeBgLv3">
+        <TextView
+            textColor="@color/okTradeG900"
+            layout_gravity="0x11"
+            id="@+id/tv_title"
+            visibility="0"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            style="@style/TextAppearance.Title.18SP.Medium"/>
+    </androidx.appcompat.widget.Toolbar>
+    <FrameLayout
+        id="@+id/feedContainer"
+        layout_width="-1"
+        android:layout_height="match_parent"/>
+</LinearLayout>

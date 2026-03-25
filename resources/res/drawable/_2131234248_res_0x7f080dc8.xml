@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android" inset="2dp">
+    <shape shape="0">
+        <size
+            height="2dp"
+            width="3dp"/>
+        <corners radius="0.5dp"/>
+        <solid color="@color/cursor_SemanticPositive_SemanticHighlight"/>
+    </shape>
+</inset>

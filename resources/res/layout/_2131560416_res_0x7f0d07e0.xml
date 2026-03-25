@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    gravity="0x800013"
+    orientation="0"
+    tag="layout/item_conversation_menu_item_0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <TextView
+        textSize="15sp"
+        textColor="@color/okTradeG900"
+        ellipsize="3"
+        gravity="0x800013"
+        id="@+id/menu_item_title"
+        background="?attr/selectableItemBackground"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        maxWidth="240dp"
+        minWidth="180dp"
+        minHeight="44dp"
+        maxLines="2"
+        drawablePadding="8dp"
+        textAlignment="5"
+        paddingStart="16dp"
+        paddingEnd="16dp"/>
+</LinearLayout>

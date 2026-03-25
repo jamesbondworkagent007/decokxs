@@ -1,0 +1,1 @@
+OKLogger={}function OKLogger.info(a)if OKCommonBridge.logInfo then OKCommonBridge:logInfo(a)end end;function OKLogger.debug(a)if OKCommonBridge.logDebug then OKCommonBridge:logDebug(a)end end;function OKLogger.error(a)if OKCommonBridge.logError then OKCommonBridge:logError(a)end end;function OKLogger.warning(a)if OKCommonBridge.logWarning then OKCommonBridge:logWarning(a)end end

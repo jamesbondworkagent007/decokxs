@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o.C55173xeu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/error_view"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginTop="32dp"
+    layout_marginBottom="@dimen/margin_24dp"
+    NOT_FOUND_0x5="8"
+    NOT_FOUND_0x6="@string/pr_metax_network_error_text_network_error"
+    NOT_FOUND_0x7="@string/pr_metax_network_error_btn_refresh"
+    NOT_FOUND_0x8="@string/pr_metax_network_error_tittle_load_failed"/>

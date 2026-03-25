@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x11"
+    orientation="1"
+    background="@color/BasePrimary"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <ImageView
+        id="@+id/iv_load_fail"
+        tag="layout/widget_invest_load_fail_0"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        src="@drawable/_2131233554_res_0x7f080b12"
+        scaleType="7"/>
+    <TextView
+        textAppearance="@style/TextAppearance.Title.14SP"
+        textColor="@color/ContentContrast"
+        gravity="0x11"
+        id="@+id/tv_title"
+        tag="layout/widget_invest_load_fail_1"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginLeft="40dp"
+        layout_marginTop="4dp"
+        layout_marginRight="40dp"
+        layout_marginHorizontal="40dp"/>
+    <TextView
+        textAppearance="@style/TextAppearance.Text.14SP"
+        gravity="0x11"
+        id="@+id/tv_subtitle"
+        tag="layout/widget_invest_load_fail_2"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="10dp"/>
+    <o.C52794wYp
+        id="@+id/btn_retry"
+        tag="layout/widget_invest_load_fail_3"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="24dp"
+        layout_marginBottom="24dp"
+        NOT_FOUND_0x11="36"
+        NOT_FOUND_0x12="0x104"
+        style="@style/Button"/>
+</merge>

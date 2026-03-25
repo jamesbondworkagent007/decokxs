@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pr_account_cedefi_tab_desc_network">
+        <item quantity="one">Aktivoitu {num} verkossa</item>
+        <item quantity="other">Aktivoitu {num} verkossa</item>
+    </plurals>
+    <plurals name="pr_compliance_global_poa_label_files_uploaded">
+        <item quantity="one">{number} tiedosto ladattu</item>
+        <item quantity="other">{number} tiedostoa ladattu</item>
+    </plurals>
+    <plurals name="pr_dcdbot_placeorder_toast_found_num_bot">
+        <item quantity="one">Löysimme sinulle {number} tuotteen</item>
+        <item quantity="other">Löysimme sinulle {number} tuotetta</item>
+    </plurals>
+    <plurals name="pr_im_invite_user_dialog_text_upgrade_find_out_single_error">
+        <item quantity="one">Olemme tehneet joitakin muutoksia. Päivitä sovelluksesi nähdäksesi, miksi häntä ei voitu lisätä.</item>
+        <item quantity="other">Olemme tehneet joitakin muutoksia. Päivitä sovelluksesi nähdäksesi, miksi heitä ei voitu lisätä.</item>
+    </plurals>
+    <plurals name="pr_invest_smartmoney_mid_alert_day">
+        <item quantity="one">{num} päivä</item>
+        <item quantity="other">{num} päivää</item>
+    </plurals>
+    <plurals name="pr_invest_smartmoney_mid_alert_hour">
+        <item quantity="one">{num} tunti</item>
+        <item quantity="other">{num} tuntia</item>
+    </plurals>
+    <plurals name="pr_invest_smartmoney_mid_alert_minute">
+        <item quantity="one">{num} minuutti</item>
+        <item quantity="other">{num} minuuttia</item>
+    </plurals>
+    <plurals name="pr_invest_smartmoney_mid_alert_second">
+        <item quantity="one">{num} sekunti</item>
+        <item quantity="other">{num} sekuntia</item>
+    </plurals>
+    <plurals name="pr_investutxo_bot_textarea_desc_potential_risk">
+        <item quantity="one">Olet valinnut 1 UTXO:n avattavaksi. Tämä lisää {numToken}, mutta aiheuttaa myös varojen menetyksen näissä UTXO:issa. Vahvista varat ennen lukituksen avaamista.</item>
+        <item quantity="other">Olet valinnut {num} UTXO:ta avattavaksi. Tämä lisää {numToken}, mutta aiheuttaa myös varojen menetyksen näissä UTXO:issa. Vahvista varat ennen lukituksen avaamista.</item>
+    </plurals>
+    <plurals name="pr_message_call_text_user_others_v2">
+        <item quantity="one">{user1}, {user2} ja {num} muu</item>
+        <item quantity="other">{user1}, {user2} ja {num} muuta</item>
+    </plurals>
+    <plurals name="pr_message_chat_header_num_reactions">
+        <item quantity="one">{num} vastaus</item>
+        <item quantity="other">{num} vastausta</item>
+    </plurals>
+    <plurals name="pr_message_chat_label_unread_message_pl">
+        <item quantity="one">Lukematon viesti</item>
+        <item quantity="other">Lukemattomat viestit</item>
+    </plurals>
+    <plurals name="pr_message_competition_textarea_climbed_var_pl">
+        <item quantity="one">nousi {num} spotin</item>
+        <item quantity="other">nousi {num} spottia</item>
+    </plurals>
+    <plurals name="pr_message_competition_textarea_dropped_var_pl">
+        <item quantity="one">{num} spot pudotettu</item>
+        <item quantity="other">{num} spottia pudotettu</item>
+    </plurals>
+    <plurals name="pr_message_competition_textarea_ends_in_num_days_var_pl">
+        <item quantity="one">{num} päivä</item>
+        <item quantity="other">{num} päivää</item>
+    </plurals>
+    <plurals name="pr_message_competition_user_others_left">
+        <item quantity="one">{user} ja {number} muu poistuivat tiimistä.</item>
+        <item quantity="other">{user} ja {number} muuta poistuivat tiimistä.</item>
+    </plurals>
+    <plurals name="pr_message_group_admin_bulk_add_to_group_pl">
+        <item quantity="one">{user1} lisäsi henkilön {user2} ja {number} muun henkilön ryhmään.</item>
+        <item quantity="other">{user1} lisäsi henkilön {user2} ja {number} muuta henkilöä ryhmään.</item>
+    </plurals>
+    <plurals name="pr_message_group_alertbanner_review_plural_key">
+        <item quantity="one">Tarkista {num} liittymispyyntö</item>
+        <item quantity="other">Tarkista {num} liittymispyyntöä</item>
+    </plurals>
+    <plurals name="pr_message_group_bulk_add_admin_var_pl">
+        <item quantity="one">{admin} lisäsi {members} ja {number} muun henkilön järjestelmänvalvojana.</item>
+        <item quantity="other">{admin} lisäsi {members} ja {number} muuta järjestelmänvalvojana.</item>
+    </plurals>
+    <plurals name="pr_message_group_bulk_add_admin_you_pl">
+        <item quantity="one">{admin} lisäsi sinut ja {number} muun henkilön ylläpitäjiksi.</item>
+        <item quantity="other">{admin} lisäsi sinut ja {number} muuta henkilöä ylläpitäjiksi.</item>
+    </plurals>
+    <plurals name="pr_message_group_bulk_remove_admin_you_pl">
+        <item quantity="one">{admin1} poisti sinut ja {number} muun henkilön ylläpitäjistä.</item>
+        <item quantity="other">{admin1} poisti sinut ja {number} muuta ylläpitäjistä.</item>
+    </plurals>
+    <plurals name="pr_message_group_chat_removed_from_group_pl">
+        <item quantity="one">Poistit käyttäjän {user} ja {number} toisen jäsenen ryhmästä.</item>
+        <item quantity="other">Poistit käyttäjän {user} ja {number} muuta ryhmästä.</item>
+    </plurals>
+    <plurals name="pr_message_group_chat_removed_from_group_pl_var">
+        <item quantity="one">{admin} poisti käyttäjän {user} ja {number} toisen jäsenen ryhmästä.</item>
+        <item quantity="other">{admin} poisti käyttäjän {user} ja {number} muuta jäsentä ryhmästä.</item>
+    </plurals>
+    <plurals name="pr_message_group_dialog_header_remove_member_pl">
+        <item quantity="one">Poistetaanko tämä jäsen?</item>
+        <item quantity="other">Poistetaanko valitut jäsenet?</item>
+    </plurals>
+    <plurals name="pr_message_group_label_num_already_here_pl">
+        <item quantity="one">{num} kontaktisi on jo täällä</item>
+        <item quantity="other">{num} kontaktiasi on jo täällä</item>
+    </plurals>
+    <plurals name="pr_message_group_textarea_bulk_remove_admin_var_pl">
+        <item quantity="one">{admin1} poisti henkilön {admin2} ja {number} muun henkilön ylläpitäjistä.</item>
+        <item quantity="other">{admin1} poisti henkilön {admin2} ja {number} muuta ylläpitäjistä.</item>
+    </plurals>
+    <plurals name="pr_message_group_you_bulk_add_admin_pl">
+        <item quantity="one">Olet lisännyt {members} ja {number} muun henkilön ylläpitäjäksi.</item>
+        <item quantity="other">Olet lisännyt {members} ja {number} muuta henkilöä ylläpitäjiksi.</item>
+    </plurals>
+    <plurals name="pr_message_group_you_bulk_add_to_group_pl">
+        <item quantity="one">Olet lisännyt {users} ja {number} muun henkilön ryhmään.</item>
+        <item quantity="other">Olet lisännyt {users} ja {number} muuta henkilöä ryhmään.</item>
+    </plurals>
+    <plurals name="pr_message_group_you_bulk_remove_admin_pl">
+        <item quantity="one">Olet poistanut henkilön {admins} ja {number} muun ylläpitäjistä.</item>
+        <item quantity="other">Olet poistanut henkilön {admins} ja {number} muuta ylläpitäjistä.</item>
+    </plurals>
+    <plurals name="pr_message_info_text_read_by_num_members">
+        <item quantity="one">{num} jäsen on lukenut</item>
+        <item quantity="other">{num} jäsentä on lukenut</item>
+    </plurals>
+    <plurals name="pr_message_invite_user_dialog_text_cant_add_to_group_plural">
+        <item quantity="one">Hän on saattanut ottaa yksityisyysasetukset käyttöön, tai hän ei ole lisännyt sinua takaisin. Lähetimme hänelle sen sijaan kutsun.</item>
+        <item quantity="other">He ovat saattaneet ottaa yksityisyysasetukset käyttöön, tai he eivät ole lisänneet sinua takaisin. Lähetimme heille sen sijaan kutsun.</item>
+    </plurals>
+    <plurals name="pr_message_notice_dialog_header_remove_num_notices_pl">
+        <item quantity="one">Poistetaanko {num} ilmoitus?</item>
+        <item quantity="other">Poistetaanko {num} ilmoitusta?</item>
+    </plurals>
+    <plurals name="pr_message_notice_textarea_removed_notice_pl">
+        <item quantity="one">Olet poistanut ilmoituksen.</item>
+        <item quantity="other">Olet poistanut joitain ilmoituksia.</item>
+    </plurals>
+    <plurals name="pr_message_notice_textarea_removed_notice_pl_var">
+        <item quantity="one">{user} poisti ilmoituksen.</item>
+        <item quantity="other">{user} poisti joitain ilmoituksia.</item>
+    </plurals>
+    <plurals name="pr_message_notice_toast_notice_removed_pl">
+        <item quantity="one">Ilmoitus poistettu</item>
+        <item quantity="other">Ilmoitukset poistettu</item>
+    </plurals>
+    <plurals name="pr_message_paid_group_bttmsheet_title_add_admin_pl">
+        <item quantity="one">Lisätäänkö uusi ylläpitäjä?</item>
+        <item quantity="other">Lisätäänkö uudet ylläpitäjät?</item>
+    </plurals>
+    <plurals name="pr_message_planet_label_num_members_pl">
+        <item quantity="one">{num} jäsen</item>
+        <item quantity="other">{num} jäsentä</item>
+    </plurals>
+    <plurals name="pr_message_share_desc_msg_cant_send_pl">
+        <item quantity="one">Valitsemasi keskustelut eivät voi vastaanottaa viestiäsi seuraavista syistä:</item>
+        <item quantity="other">Valitsemasi keskustelu ei voi vastaanottaa viestiäsi seuraavasta syystä:</item>
+    </plurals>
+    <plurals name="pr_message_share_desc_some_cant_share_pl">
+        <item quantity="one">Yksi keskustelu ei kuitenkaan pystynyt vastaanottamaan viestiäsi seuraavasta syystä:</item>
+        <item quantity="other">Osa keskusteluista eivät kuitenkaan pystyneet vastaanottamaan viestiäsi seuraavista syistä:</item>
+    </plurals>
+    <plurals name="pr_message_sticker_toast_sticker_removed_pl">
+        <item quantity="one">Tarra poistettu</item>
+        <item quantity="other">Tarrat poistettu</item>
+    </plurals>
+    <plurals name="pr_orbit_profile_label_followers_pl">
+        <item quantity="one">seuraaja</item>
+        <item quantity="other">seuraajaa</item>
+    </plurals>
+    <plurals name="pr_orbit_profile_livestream_text_num_views">
+        <item quantity="one">{num} näkymä</item>
+        <item quantity="other">{num} näkymää</item>
+    </plurals>
+    <plurals name="pr_orbit_profile_selectioncard_label_num_groups_pl">
+        <item quantity="one">{num} ryhmä</item>
+        <item quantity="other">{num} ryhmää</item>
+    </plurals>
+    <plurals name="pr_social_marketplace_feeds_num_followers">
+        <item quantity="one">{num} seuraaja</item>
+        <item quantity="other">{num} seuraajaa</item>
+    </plurals>
+    <plurals name="pr_supportcenter_landing_recommendation_cards_plu">
+        <item quantity="one">Pidä tämä mielessäsi</item>
+        <item quantity="other">{number} asiaa, jotka kannattaa ottaa huomioon</item>
+    </plurals>
+    <plurals name="pr_supportcenter_landing_tag_issue_count">
+        <item quantity="one">{number} ongelma</item>
+        <item quantity="other">{number} ongelmaa</item>
+    </plurals>
+    <plurals name="pr_swaptrade_1swap_notification_selected_pools_reselect">
+        <item quantity="one">Valitsemassasi {num} poolissa ei tällä hetkellä ole likviditeettiä. Valitse lisää pooleja OKX DEXistä saadaksesi tarjouksia.</item>
+        <item quantity="other">Valitsemissasi {num} pooleissa ei tällä hetkellä ole likviditeettiä. Valitse lisää pooleja OKX DEXistä saadaksesi tarjouksia.</item>
+    </plurals>
+    <plurals name="pr_swaptrade_address_number">
+        <item quantity="one">{num} osoite</item>
+        <item quantity="other">{num} osoitetta</item>
+    </plurals>
+    <plurals name="pr_swaptrade_alert_toast_turned_off">
+        <item quantity="one">{num} osoitteen hälytys poistettu</item>
+        <item quantity="other">{num} osoitteen hälytystä poistettu</item>
+    </plurals>
+    <plurals name="pr_swaptrade_alert_toast_turned_on">
+        <item quantity="one">{num} osoitteen hälytys lisätty</item>
+        <item quantity="other">{num} osoitteen hälytystä lisätty</item>
+    </plurals>
+    <plurals name="pr_swaptrade_bridge_dialog_this_transaction_requires_sign">
+        <item quantity="one">Tämä transaktio edellyttää {num} allekirjoituksen:</item>
+        <item quantity="other">Tämä transaktio edellyttää {num} allekirjoitusta:</item>
+    </plurals>
+    <plurals name="pr_swaptrade_copytrade_30_days">
+        <item quantity="one">{num} päivä</item>
+        <item quantity="other">{num} päivää</item>
+    </plurals>
+    <plurals name="pr_swaptrade_copytrade_reminder_renew_or_suspend_plural">
+        <item quantity="one">Älytili vanhenee {numDays} päivän kuluttua. Uusi välttääksesi treidauskeskeytykset.</item>
+        <item quantity="other">Älytili vanhenee {numDays} päivän kuluttua. Uusi välttääksesi treidauskeskeytykset.</item>
+    </plurals>
+    <plurals name="pr_swaptrade_copytrade_status_hrs">
+        <item quantity="one">{num} tunti</item>
+        <item quantity="other">{num} tuntia</item>
+    </plurals>
+    <plurals name="pr_swaptrade_copytrade_status_mins">
+        <item quantity="one">{num} minuutti</item>
+        <item quantity="other">{num} minuuttia</item>
+    </plurals>
+    <plurals name="pr_swaptrade_header_sources_selected">
+        <item quantity="one">{num} lähde</item>
+        <item quantity="other">{num} lähdettä</item>
+    </plurals>
+    <plurals name="pr_swaptrade_market_title_confirm_unfollow_all_tab_case">
+        <item quantity="one">Haluatko varmasti lopettaa kaikkien ryhmien {num} osoitteen seuraamisen?</item>
+        <item quantity="other">Haluatko varmasti lopettaa kaikkien ryhmien {num} osoitteen seuraamisen?</item>
+    </plurals>
+    <plurals name="pr_swaptrade_market_title_total_tokens">
+        <item quantity="one">{num} rahake yhteensä</item>
+        <item quantity="other">{num} rahaketta yhteensä</item>
+    </plurals>
+    <plurals name="pr_swaptrade_market_title_unfollow_message">
+        <item quantity="one">Haluatko varmasti lopettaa {num} osoitteen seuraamisen tästä ryhmästä?</item>
+        <item quantity="other">Haluatko varmasti lopettaa {num} osoitteen seuraamisen tästä ryhmästä?</item>
+    </plurals>
+    <plurals name="pr_swaptrade_smart_account_reminder_desc_renew_smart_account_days">
+        <item quantity="one">Älytili vanhenee {num} päivän kuluttua. Avoimet toimeksiannot keskeytetään, kun se vanhenee.</item>
+        <item quantity="other">Älytili vanhenee {num} päivän kuluttua. Avoimet toimeksiannot keskeytetään, kun se vanhenee.</item>
+    </plurals>
+    <plurals name="pr_swaptrade_successfully_added_toast">
+        <item quantity="one">Siirrettiin onnistuneesti {num} ryhmään</item>
+        <item quantity="other">Siirrettiin onnistuneesti {num} ryhmään</item>
+    </plurals>
+    <plurals name="pr_swaptrade_toast_no_liquidity_provider_alert_pool">
+        <item quantity="one">Sinut on siirretty kolmannen osapuolen palveluntarjoajalle, koska valitulla poolilla ei ole likviditeettiä. Valitse uudelleen pooli, jolla voit käydä kauppaa OKX DEX -aggregaattorin kautta.</item>
+        <item quantity="other">Sinut on siirretty kolmannen osapuolen palveluntarjoajalle, koska {num} valitulla poolilla ei ole likviditeettiä. Valitse uudelleen pooli, jolla voit käydä kauppaa OKX DEX -aggregaattorin kautta.</item>
+    </plurals>
+    <plurals name="pr_swaptrade_token_detail_label_num_txn">
+        <item quantity="one">{num} transaktiota</item>
+        <item quantity="other">{num} transaktiota</item>
+    </plurals>
+    <plurals name="pr_swaptrade_tracker_textarea_activity">
+        <item quantity="one"># uusi aktiviteetti</item>
+        <item quantity="other"># uutta aktiviteettia</item>
+    </plurals>
+    <plurals name="pr_trade_analysis_header_numd_pnl">
+        <item quantity="one">{num} pv:n V/T</item>
+        <item quantity="other">{num} pv:n V/T</item>
+    </plurals>
+    <plurals name="pr_trade_card_title_cumulative_perpetual_pnl_last">
+        <item quantity="one">Futuuritreidauksen V/T (viimeinen {number} päivä)</item>
+        <item quantity="other">Futuuritreidauksen V/T (viimeiset {number} päivää)</item>
+    </plurals>
+    <plurals name="pr_trade_card_title_top_3_contracts_last_number_days">
+        <item quantity="one">3 suosituinta futuuripositiota (viimeisen {number} päivän aikana)</item>
+        <item quantity="other">3 suosituinta futuuripositiota (viimeisten {number} päivän aikana)</item>
+    </plurals>
+    <plurals name="pr_trade_card_title_top_3_long_last_number_days">
+        <item quantity="one">3 suosituinta pitkää futuuripositiota (viimeisen {number} päivän aikana)</item>
+        <item quantity="other">3 suosituinta pitkää futuuripositiota (viimeisten {number} päivän aikana)</item>
+    </plurals>
+    <plurals name="pr_trade_card_title_top_3_short_last_number_days">
+        <item quantity="one">3 parasta lyhyttä futuuripositiota (viimeisen {number} päivän aikana)</item>
+        <item quantity="other">3 parasta lyhyttä futuuripositiota (viimeisten {number} päivän aikana)</item>
+    </plurals>
+    <plurals name="pr_trade_charts_num_bars">
+        <item quantity="one">{num} kynttilä</item>
+        <item quantity="other">{num} kynttilää</item>
+    </plurals>
+    <plurals name="pr_trade_discover_numd_ago">
+        <item quantity="one">{num} pv sitten</item>
+        <item quantity="other">{num} pv sitten</item>
+    </plurals>
+    <plurals name="pr_trade_discover_numh_ago">
+        <item quantity="one">{num} h sitten</item>
+        <item quantity="other">{num} h sitten</item>
+    </plurals>
+    <plurals name="pr_trade_discover_numm_ago">
+        <item quantity="one">{num} min sitten</item>
+        <item quantity="other">{num} min sitten</item>
+    </plurals>
+    <plurals name="pr_trade_discover_nums_ago">
+        <item quantity="one">{num} s sitten</item>
+        <item quantity="other">{num} s sitten</item>
+    </plurals>
+    <plurals name="pr_trade_feed_num_answered">
+        <item quantity="one">{num} äänesti</item>
+        <item quantity="other">{num} äänesti</item>
+    </plurals>
+    <plurals name="pr_trade_general_timeframe_days_variable">
+        <item quantity="one">{num} päivä</item>
+        <item quantity="other">{num} päivää</item>
+    </plurals>
+    <plurals name="pr_trade_general_timeframe_days_variable_tian">
+        <item quantity="one">{num} päivä</item>
+        <item quantity="other">{num} päivää</item>
+    </plurals>
+    <plurals name="pr_trade_general_timeframe_hours_update">
+        <item quantity="one">{num} tunti</item>
+        <item quantity="other">{num} tuntia</item>
+    </plurals>
+    <plurals name="pr_trade_general_timeframe_minutes_update">
+        <item quantity="one">{num} minuutti</item>
+        <item quantity="other">{num} minuuttia</item>
+    </plurals>
+    <plurals name="pr_trade_home_desc_num_hours">
+        <item quantity="one">{num} tunti</item>
+        <item quantity="other">{num} tuntia</item>
+    </plurals>
+    <plurals name="pr_trade_marketevents_header_num_related_posts">
+        <item quantity="one">{num} liittyvä postaus</item>
+        <item quantity="other">{num} liittyvää postausta</item>
+    </plurals>
+    <plurals name="pr_trade_marketevents_label_num_posts">
+        <item quantity="one">{num} postaus</item>
+        <item quantity="other">{num} postausta</item>
+    </plurals>
+    <plurals name="pr_trade_orbit_title_num_days">
+        <item quantity="one">{num} päivä</item>
+        <item quantity="other">{num} päivää</item>
+    </plurals>
+    <plurals name="pr_trade_orbit_title_num_years">
+        <item quantity="one">{num} vuosi</item>
+        <item quantity="other">{num} vuotta</item>
+    </plurals>
+    <plurals name="pr_trade_tokenunlocks_countdown_numd">
+        <item quantity="one">{num} pv</item>
+        <item quantity="other">{num} pv</item>
+    </plurals>
+    <plurals name="pr_trade_tokenunlocks_num_days_ago">
+        <item quantity="one">{num} päivä sitten</item>
+        <item quantity="other">{num} päivää sitten</item>
+    </plurals>
+    <plurals name="pr_wallet_approval_alert_subtitle_num_risk_new">
+        <item quantity="one">{count} riskialtis hyväksyntä</item>
+        <item quantity="other">{count} riskialtista hyväksyntää</item>
+    </plurals>
+    <plurals name="pr_wallet_approval_textbtn_hide_num_approval">
+        <item quantity="one">Näytä vähemmän</item>
+        <item quantity="other">Näytä vähemmän</item>
+    </plurals>
+    <plurals name="pr_wallet_approve_alert_risky_approvals">
+        <item quantity="one">{num} riskialtis hyväksyntä</item>
+        <item quantity="other">{num} riskialtista hyväksyntää</item>
+    </plurals>
+    <plurals name="pr_wallet_connection_text_num_network">
+        <item quantity="one">1 verkko</item>
+        <item quantity="other">{num} verkkoa</item>
+    </plurals>
+    <plurals name="pr_wallet_connection_title_connected_to_num_networks">
+        <item quantity="one">Yhdistetty yhteen verkkoon</item>
+        <item quantity="other">Yhdistetty {num} verkkoon</item>
+    </plurals>
+    <plurals name="pr_wallet_function_emptystate_num_unavailable_hidden">
+        <item quantity="one">{num} rahakkeen muuntaminen ei ole mahdollista.</item>
+        <item quantity="other">{num} rahakkeen muuntaminen ei ole mahdollista.</item>
+    </plurals>
+    <plurals name="pr_wallet_function_label_num_swaps">
+        <item quantity="one">{num} rahake</item>
+        <item quantity="other">{num} rahaketta</item>
+    </plurals>
+    <plurals name="pr_wallet_function_notification_num_tokens_noquote">
+        <item quantity="one">{num} rahaketta ei voi muuntaa ilman tarjouksia.</item>
+        <item quantity="other">{num} rahaketta ei voi muuntaa ilman tarjouksia.</item>
+    </plurals>
+    <plurals name="pr_wallet_function_notification_title_num_tokens_converted">
+        <item quantity="one">{num} rahake muunnettu</item>
+        <item quantity="other">{num} rahaketta muunnettu</item>
+    </plurals>
+    <plurals name="pr_wallet_function_title_converting_num_tokens">
+        <item quantity="one">{num} rahake muunnetaan</item>
+        <item quantity="other">{num} rahaketta muunnetaan</item>
+    </plurals>
+    <plurals name="pr_wallet_multisend_alertbanner_desc_num_address_confirm">
+        <item quantity="one">Sinun tulee tarkistaa {num} vastaanottava osoite</item>
+        <item quantity="other">Sinun tulee tarkistaa {num} vastaanottavaa osoitetta</item>
+    </plurals>
+    <plurals name="pr_wallet_multisend_input_num_transaction">
+        <item quantity="one">Sisältää {num} transaktion</item>
+        <item quantity="other">Sisältää {num} transaktiota</item>
+    </plurals>
+    <plurals name="pr_wallet_multisend_reminder_desc_current_scenario">
+        <item quantity="one">{num} tukematon lompakko on piilotettu.</item>
+        <item quantity="other">{num} tukematonta lompakkoa on piilotettu.</item>
+    </plurals>
+    <plurals name="pr_wallet_search_desc_num_assets">
+        <item quantity="one">{num} vara</item>
+        <item quantity="other">{num} varaa</item>
+    </plurals>
+    <plurals name="pr_wallet_settings_reminder_desc_fail_check">
+        <item quantity="one">Tarkistuksessa laitteestasi löytyi {num} riski.</item>
+        <item quantity="other">Tarkistuksessa laitteestasi löytyi {num} riskiä.</item>
+    </plurals>
+    <plurals name="pr_wallet_subtitle_non_interactive_address">
+        <item quantity="one">{count} ei-interaktiivinen DApp</item>
+        <item quantity="other">{count} ei-interaktiivista DAppia</item>
+    </plurals>
+</resources>

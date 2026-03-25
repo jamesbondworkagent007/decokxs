@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pr_account_cedefi_tab_desc_network">
+        <item quantity="one">Активовано в {num} мережі</item>
+        <item quantity="few">Активовано в {num} мережах</item>
+        <item quantity="many">Активовано в {num} мережах</item>
+        <item quantity="other">Активовано в {num} мережі</item>
+    </plurals>
+    <plurals name="pr_compliance_global_poa_label_files_uploaded">
+        <item quantity="one">Вивантажено {number} файл</item>
+        <item quantity="few">Вивантажено {number} файли</item>
+        <item quantity="many">Вивантажено {number} файлів</item>
+        <item quantity="other">Вивантажено {number} файлу</item>
+    </plurals>
+    <plurals name="pr_dcdbot_placeorder_toast_found_num_bot">
+        <item quantity="one">Для вас знайдено {number} продукт</item>
+        <item quantity="few">Для вас знайдено {number} продукти</item>
+        <item quantity="many">Для вас знайдено {number} продуктів</item>
+        <item quantity="other">Для вас знайдено {number} продукту</item>
+    </plurals>
+    <plurals name="pr_im_invite_user_dialog_text_upgrade_find_out_single_error">
+        <item quantity="one">Ми внесли деякі зміни. Щоб зрозуміти, чому їх не вдалося додати, оновіть застосунок.</item>
+        <item quantity="few">Ми внесли деякі зміни. Щоб зрозуміти, чому їх не вдалося додати, оновіть застосунок.</item>
+        <item quantity="many">Ми внесли деякі зміни. Щоб зрозуміти, чому їх не вдалося додати, оновіть застосунок.</item>
+        <item quantity="other">Ми внесли деякі зміни. Щоб зрозуміти, чому їх не вдалося додати, оновіть застосунок.</item>
+    </plurals>
+    <plurals name="pr_invest_smartmoney_mid_alert_day">
+        <item quantity="one">{num} день</item>
+        <item quantity="few">{num} дні</item>
+        <item quantity="many">{num} днів</item>
+        <item quantity="other">{num} дня</item>
+    </plurals>
+    <plurals name="pr_invest_smartmoney_mid_alert_hour">
+        <item quantity="one">{num} година</item>
+        <item quantity="few">{num} години</item>
+        <item quantity="many">{num} годин</item>
+        <item quantity="other">{num} години</item>
+    </plurals>
+    <plurals name="pr_invest_smartmoney_mid_alert_minute">
+        <item quantity="one">{num} хвилина</item>
+        <item quantity="few">{num} хвилини</item>
+        <item quantity="many">{num} хвилин</item>
+        <item quantity="other">{num} хвилини</item>
+    </plurals>
+    <plurals name="pr_invest_smartmoney_mid_alert_second">
+        <item quantity="one">{num} секунда</item>
+        <item quantity="few">{num} секунди</item>
+        <item quantity="many">{num} секунд</item>
+        <item quantity="other">{num} секунди</item>
+    </plurals>
+    <plurals name="pr_investutxo_bot_textarea_desc_potential_risk">
+        <item quantity="one">Ви вибрали 1 UTXO для розблокування. Це додасть {numToken}, але також призведе до втрати активів у цих UTXO. Підтвердьте перелік активів перед розблокуванням.</item>
+        <item quantity="few">Ви вибрали {num} UTXO для розблокування. Це додасть {numToken}, але також призведе до втрати активів у цих UTXO. Підтвердьте перелік активів перед розблокуванням.</item>
+        <item quantity="many">Ви вибрали {num} UTXO для розблокування. Це додасть {numToken}, але також призведе до втрати активів у цих UTXO. Підтвердьте перелік активів перед розблокуванням.</item>
+        <item quantity="other">Ви вибрали {num} UTXO для розблокування. Це додасть {numToken}, але також призведе до втрати активів у цих UTXO. Підтвердьте перелік активів перед розблокуванням.</item>
+    </plurals>
+    <plurals name="pr_message_call_text_user_others_v2">
+        <item quantity="one">{user1}, {user2} та ще {num}</item>
+        <item quantity="few">{user1}, {user2} та {num}</item>
+        <item quantity="many">{user1}, {user2} та {num}</item>
+        <item quantity="other">{user1}, {user2} та ще {num}</item>
+    </plurals>
+    <plurals name="pr_message_chat_header_num_reactions">
+        <item quantity="one">{num} реакція</item>
+        <item quantity="few">{num} реакції</item>
+        <item quantity="many">{num} реакцій</item>
+        <item quantity="other">{num} реакції</item>
+    </plurals>
+    <plurals name="pr_message_chat_label_unread_message_pl">
+        <item quantity="one">Непрочитане повідомлення</item>
+        <item quantity="few">Непрочитані повідомлення</item>
+        <item quantity="many">Непрочитаних повідомлень</item>
+        <item quantity="other">Непрочитаного повідомлення</item>
+    </plurals>
+    <plurals name="pr_message_competition_textarea_climbed_var_pl">
+        <item quantity="one">вище на {num} місце</item>
+        <item quantity="few">вище на {num} місця</item>
+        <item quantity="many">вище на {num} місць</item>
+        <item quantity="other">вище на {num} місць</item>
+    </plurals>
+    <plurals name="pr_message_competition_textarea_dropped_var_pl">
+        <item quantity="one">Опустився на {num} місце</item>
+        <item quantity="few">Опустився на {num} місця</item>
+        <item quantity="many">Опустився {num} місць</item>
+        <item quantity="other">Опустився на {num} місця</item>
+    </plurals>
+    <plurals name="pr_message_competition_textarea_ends_in_num_days_var_pl">
+        <item quantity="one">{num} день</item>
+        <item quantity="few">{num} дні</item>
+        <item quantity="many">{num} днів</item>
+        <item quantity="other">{num} дні</item>
+    </plurals>
+    <plurals name="pr_message_competition_user_others_left">
+        <item quantity="one">{user} та ще {number} користувач покинули команду.</item>
+        <item quantity="few">{user} та ще {number} осіб покинули команду.</item>
+        <item quantity="many">{user} та ще {number} осіб покинули команду.</item>
+        <item quantity="other">{user} та ще {number} особи покинули команду.</item>
+    </plurals>
+    <plurals name="pr_message_group_admin_bulk_add_to_group_pl">
+        <item quantity="one">Користувач {user1} додав до групи {user2} і ще {number} особу.</item>
+        <item quantity="few">Користувач {user1} додав до групи {user2} і ще {number} особи.</item>
+        <item quantity="many">Користувач {user1} додав до групи {user2} і ще {number} осіб.</item>
+        <item quantity="other">Користувач {user1} додав до групи {user2} і ще {number} особи.</item>
+    </plurals>
+    <plurals name="pr_message_group_alertbanner_review_plural_key">
+        <item quantity="one">Переглянути {num} запит на приєднання</item>
+        <item quantity="few">Переглянути {num} запити на приєднання</item>
+        <item quantity="many">Переглянути {num} запитів на приєднання</item>
+        <item quantity="other">Переглянути {num} запиту на приєднання</item>
+    </plurals>
+    <plurals name="pr_message_group_bulk_add_admin_var_pl">
+        <item quantity="one">Користувач {admin} додав {members} і ще {number} особу як адміністраторів.</item>
+        <item quantity="few">Користувач {admin} додав {members} і ще {number} особи як адміністраторів.</item>
+        <item quantity="many">Користувач {admin} додав {members} і ще {number} осіб як адміністраторів.</item>
+        <item quantity="other">Користувач {admin} додав {members} і ще {number} особи як адміністраторів.</item>
+    </plurals>
+    <plurals name="pr_message_group_bulk_add_admin_you_pl">
+        <item quantity="one">Користувач {admin} додав вас і ще {number} особу як адміністраторів.</item>
+        <item quantity="few">Користувач {admin} додав вас і ще {number} особи як адміністраторів.</item>
+        <item quantity="many">Користувач {admin} додав вас і ще {number} осіб як адміністраторів.</item>
+        <item quantity="other">Користувач {admin} додав вас і ще {number} особи як адміністраторів.</item>
+    </plurals>
+    <plurals name="pr_message_group_bulk_remove_admin_you_pl">
+        <item quantity="one">Користувач {admin1} видалив вас і ще {number} особу як адміністраторів.</item>
+        <item quantity="few">Користувач {admin1} видалив вас і ще {number} особи як адміністраторів.</item>
+        <item quantity="many">Користувач {admin1} видалив вас і ще {number} осіб як адміністраторів.</item>
+        <item quantity="other">Користувач {admin1} видалив вас і ще {number} особи як адміністраторів.</item>
+    </plurals>
+    <plurals name="pr_message_group_chat_removed_from_group_pl">
+        <item quantity="one">Ви вилучили {user} і ще {number} особу з групи.</item>
+        <item quantity="few">Ви вилучили {user} і ще {number} особи з групи.</item>
+        <item quantity="many">Ви вилучили {user} і ще {number} осіб з групи.</item>
+        <item quantity="other">Ви вилучили {user} і ще {number} особи з групи.</item>
+    </plurals>
+    <plurals name="pr_message_group_chat_removed_from_group_pl_var">
+        <item quantity="one">Користувач {admin} вилучив {user} і ще {number} особу з групи.</item>
+        <item quantity="few">Користувач {admin} вилучив {user} і ще {number} особи з групи.</item>
+        <item quantity="many">Користувач {admin} вилучив {user} і ще {number} осіб з групи.</item>
+        <item quantity="other">Користувач {admin} вилучив {user} і ще {number} особи з групи.</item>
+    </plurals>
+    <plurals name="pr_message_group_dialog_header_remove_member_pl">
+        <item quantity="one">Вилучити цього учасника?</item>
+        <item quantity="few">Вилучити вибраних учасників?</item>
+        <item quantity="many">Вилучити вибраних учасників?</item>
+        <item quantity="other">Вилучити вибраних учасників?</item>
+    </plurals>
+    <plurals name="pr_message_group_label_num_already_here_pl">
+        <item quantity="one">{num} із ваших контактів уже в групі</item>
+        <item quantity="few">{num} із ваших контактів уже в групі</item>
+        <item quantity="many">{num} із ваших контактів уже в групі</item>
+        <item quantity="other">{num} із ваших контактів уже в групі</item>
+    </plurals>
+    <plurals name="pr_message_group_textarea_bulk_remove_admin_var_pl">
+        <item quantity="one">Користувач {admin1} видалив {admin2} і ще {number} особу як адміністраторів.</item>
+        <item quantity="few">Користувач {admin1} видалив {admin2} і ще {number} особи як адміністраторів.</item>
+        <item quantity="many">Користувач {admin1} видалив {admin2} і ще {number} осіб як адміністраторів.</item>
+        <item quantity="other">Користувач {admin1} видалив {admin2} і ще {number} особи як адміністраторів.</item>
+    </plurals>
+    <plurals name="pr_message_group_you_bulk_add_admin_pl">
+        <item quantity="one">Ви додали {members} і ще {number} особу як адміністраторів.</item>
+        <item quantity="few">Ви додали {members} і ще {number} особи як адміністраторів.</item>
+        <item quantity="many">Ви додали {members} і ще {number} осіб як адміністраторів.</item>
+        <item quantity="other">Ви додали {members} і ще {number} особи як адміністраторів.</item>
+    </plurals>
+    <plurals name="pr_message_group_you_bulk_add_to_group_pl">
+        <item quantity="one">Ви додали до групи {users} і ще {number} особу.</item>
+        <item quantity="few">Ви додали до групи {users} і ще {number} особи.</item>
+        <item quantity="many">Ви додали до групи {users} і ще {number} осіб.</item>
+        <item quantity="other">Ви додали до групи {users} і ще {number} особи.</item>
+    </plurals>
+    <plurals name="pr_message_group_you_bulk_remove_admin_pl">
+        <item quantity="one">Ви вилучили {admins} і ще {number} особу як адміністраторів.</item>
+        <item quantity="few">Ви вилучили {admins} і ще {number} особи як адміністраторів.</item>
+        <item quantity="many">Ви вилучили {admins} і ще {number} осіб як адміністраторів.</item>
+        <item quantity="other">Ви вилучили {admins} і ще {number} особи як адміністраторів.</item>
+    </plurals>
+    <plurals name="pr_message_info_text_read_by_num_members">
+        <item quantity="one">Прочитано {num} учасником</item>
+        <item quantity="few">Прочитано {num} учасниками</item>
+        <item quantity="many">Прочитано {num} учасниками</item>
+        <item quantity="other">Прочитано {num} учасника</item>
+    </plurals>
+    <plurals name="pr_message_invite_user_dialog_text_cant_add_to_group_plural">
+        <item quantity="one">Це може бути пов’язано з увімкненими налаштуваннями конфіденційності або тим, що вас не додали у відповідь. Ми надіслали йому запрошення.</item>
+        <item quantity="few">Це може бути пов’язано з увімкненими налаштуваннями конфіденційності або тим, що вас не додали у відповідь. Ми надіслали їм запрошення.</item>
+        <item quantity="many">Це може бути пов’язано з увімкненими налаштуваннями конфіденційності або тим, що вас не додали у відповідь. Ми надіслали їм запрошення.</item>
+        <item quantity="other">Це може бути пов’язано з увімкненими налаштуваннями конфіденційності або тим, що вас не додали у відповідь. Ми надіслали їм запрошення.</item>
+    </plurals>
+    <plurals name="pr_message_notice_dialog_header_remove_num_notices_pl">
+        <item quantity="one">Вилучити {num} повідомлення?</item>
+        <item quantity="few">Вилучити {num} повідомлення?</item>
+        <item quantity="many">Вилучити {num} повідомлень?</item>
+        <item quantity="other">Вилучити {num} повідомлення?</item>
+    </plurals>
+    <plurals name="pr_message_notice_textarea_removed_notice_pl">
+        <item quantity="one">Ви вилучили повідомлення.</item>
+        <item quantity="few">Ви вилучили деякі повідомлення.</item>
+        <item quantity="many">Ви вилучили декілька повідомлень.</item>
+        <item quantity="other">Ви вилучили деякі сповіщення.</item>
+    </plurals>
+    <plurals name="pr_message_notice_textarea_removed_notice_pl_var">
+        <item quantity="one">{user} видалив повідомлення.</item>
+        <item quantity="few">{user} видалили деякі повідомлення.</item>
+        <item quantity="many">{user} видалили декілька повідомлень.</item>
+        <item quantity="other">{user} видалили деякі повідомлення.</item>
+    </plurals>
+    <plurals name="pr_message_notice_toast_notice_removed_pl">
+        <item quantity="one">Повідомлення вилучено</item>
+        <item quantity="few">Повідомлення видалено</item>
+        <item quantity="many">Повідомлень видалено</item>
+        <item quantity="other">Повідомлення видалено</item>
+    </plurals>
+    <plurals name="pr_message_paid_group_bttmsheet_title_add_admin_pl">
+        <item quantity="one">Додати нового адміністратора?</item>
+        <item quantity="few">Додати нових адміністраторів?</item>
+        <item quantity="many">Додати нових адміністраторів?</item>
+        <item quantity="other">Додати нового адміністратора?</item>
+    </plurals>
+    <plurals name="pr_message_planet_label_num_members_pl">
+        <item quantity="one">{num} учасник</item>
+        <item quantity="few">{num} учасники</item>
+        <item quantity="many">{num} учасників</item>
+        <item quantity="other">{num} учасника</item>
+    </plurals>
+    <plurals name="pr_message_share_desc_msg_cant_send_pl">
+        <item quantity="one">Вибраний вами чат не може отримати ваше повідомлення з такої причини:</item>
+        <item quantity="few">Вибрані вами чати не можуть отримати ваше повідомлення з таких причин:</item>
+        <item quantity="many">Вибрані вами чати не можуть отримати ваше повідомлення з таких причин:</item>
+        <item quantity="other">Вибрані вами чати не можуть отримати ваше повідомлення з таких причин:</item>
+    </plurals>
+    <plurals name="pr_message_share_desc_some_cant_share_pl">
+        <item quantity="one">Проте одному чату не вдалось отримати ваше повідомлення з такої причини:</item>
+        <item quantity="few">Проте деяким чатам не вдалось отримали ваше повідомлення з таких причин:</item>
+        <item quantity="many">Проте деяким чатам не вдалось отримали ваше повідомлення з таких причин:</item>
+        <item quantity="other">Проте деяким чатам не вдалось отримали ваше повідомлення з таких причин:</item>
+    </plurals>
+    <plurals name="pr_message_sticker_toast_sticker_removed_pl">
+        <item quantity="one">наліпку видалено</item>
+        <item quantity="few">наліпки видалено</item>
+        <item quantity="many">наліпок видалено</item>
+        <item quantity="other">наліпки видалено</item>
+    </plurals>
+    <plurals name="pr_orbit_profile_label_followers_pl">
+        <item quantity="one">підписник</item>
+        <item quantity="few">підписники</item>
+        <item quantity="many">підписників</item>
+        <item quantity="other">підписника</item>
+    </plurals>
+    <plurals name="pr_orbit_profile_livestream_text_num_views">
+        <item quantity="one">{num} перегляд</item>
+        <item quantity="few">{num} перегляди</item>
+        <item quantity="many">{num} переглядів</item>
+        <item quantity="other">{num} перегляду</item>
+    </plurals>
+    <plurals name="pr_orbit_profile_selectioncard_label_num_groups_pl">
+        <item quantity="one">{num} група</item>
+        <item quantity="few">{num} групи</item>
+        <item quantity="many">{num} груп</item>
+        <item quantity="other">{num} груп</item>
+    </plurals>
+    <plurals name="pr_social_marketplace_feeds_num_followers">
+        <item quantity="one">{num} підписник</item>
+        <item quantity="few">{num} підписники</item>
+        <item quantity="many">{num} підписників</item>
+        <item quantity="other">{num} підписника</item>
+    </plurals>
+    <plurals name="pr_supportcenter_card_desc_open_tickets">
+        <item quantity="one">Один відкритий квиток</item>
+        <item quantity="few">{number} відкриті квитки</item>
+        <item quantity="many">{number} відкритих квитків</item>
+        <item quantity="other">{number} відкритого квитка</item>
+    </plurals>
+    <plurals name="pr_supportcenter_landing_recommendation_cards_plu">
+        <item quantity="one">Це слід контролювати</item>
+        <item quantity="few">{number} речі, що слід контролювати</item>
+        <item quantity="many">{number} речей, що слід контролювати</item>
+        <item quantity="other">{number} речі, що слід контролювати</item>
+    </plurals>
+    <plurals name="pr_supportcenter_landing_tag_issue_count">
+        <item quantity="one">{number} проблема</item>
+        <item quantity="few">{number} проблеми</item>
+        <item quantity="many">{number} проблем</item>
+        <item quantity="other">{number} проблем</item>
+    </plurals>
+    <plurals name="pr_swaptrade_1swap_notification_selected_pools_reselect">
+        <item quantity="one">Наразі в {num} вибраному пулі немає ліквідності. Щоб отримати котирування, виберіть інші пули з OKX DEX.</item>
+        <item quantity="few">Наразі в {num} вибраних пулах немає ліквідності. Щоб отримати котирування, виберіть інші пули з OKX DEX.</item>
+        <item quantity="many">Наразі в {num} вибраних пулах немає ліквідності. Щоб отримати котирування, виберіть інші пули з OKX DEX.</item>
+        <item quantity="other">Наразі в {num} вибраних пулах немає ліквідності. Щоб отримати котирування, виберіть інші пули з OKX DEX.</item>
+    </plurals>
+    <plurals name="pr_swaptrade_address_number">
+        <item quantity="one">{num} адреса</item>
+        <item quantity="few">{num} адреси</item>
+        <item quantity="many">{num} адрес</item>
+        <item quantity="other">{num} адреси</item>
+    </plurals>
+    <plurals name="pr_swaptrade_alert_toast_turned_off">
+        <item quantity="one">Видалено сповіщення для {num} адреси</item>
+        <item quantity="few">Видалено сповіщення для {num} адрес</item>
+        <item quantity="many">Видалено сповіщення для {num} адрес</item>
+        <item quantity="other">Видалено сповіщення для {num} адреси</item>
+    </plurals>
+    <plurals name="pr_swaptrade_alert_toast_turned_on">
+        <item quantity="one">Додано сповіщення для {num} адреси</item>
+        <item quantity="few">Додано сповіщення для {num} адрес</item>
+        <item quantity="many">Додано сповіщення для {num} адрес</item>
+        <item quantity="other">Додано сповіщення для {num} адреси</item>
+    </plurals>
+    <plurals name="pr_swaptrade_bridge_dialog_this_transaction_requires_sign">
+        <item quantity="one">Для транзакції потрібен {num} підпис:</item>
+        <item quantity="few">Для транзакції потрібні {num} підписи:</item>
+        <item quantity="many">Для транзакції потрібні {num} підписів:</item>
+        <item quantity="other">Для транзакції потрібні {num} підпису:</item>
+    </plurals>
+    <plurals name="pr_swaptrade_copytrade_30_days">
+        <item quantity="one">{num} день</item>
+        <item quantity="few">{num} дні</item>
+        <item quantity="many">{num} днів</item>
+        <item quantity="other">{num} дня</item>
+    </plurals>
+    <plurals name="pr_swaptrade_copytrade_reminder_renew_or_suspend_plural">
+        <item quantity="one">Смартконтракт діятиме ще {numDays} день. Оновіть, щоб уникнути перебоїв у торгівлі.</item>
+        <item quantity="few">Смартконтракт діятиме ще {numDays} дні. Оновіть, щоб уникнути перебоїв у торгівлі.</item>
+        <item quantity="many">Смартконтракт діятиме ще {numDays} днів. Оновіть, щоб уникнути перебоїв у торгівлі.</item>
+        <item quantity="other">Смартконтракт діятиме ще {numDays} дня. Оновіть, щоб уникнути перебоїв у торгівлі.</item>
+    </plurals>
+    <plurals name="pr_swaptrade_copytrade_status_hrs">
+        <item quantity="one">{num} година</item>
+        <item quantity="few">{num} години</item>
+        <item quantity="many">{num} годин</item>
+        <item quantity="other">{num} години</item>
+    </plurals>
+    <plurals name="pr_swaptrade_copytrade_status_mins">
+        <item quantity="one">{num} хвилина</item>
+        <item quantity="few">{num} хвилини</item>
+        <item quantity="many">{num} хвилин</item>
+        <item quantity="other">{num} хвилини</item>
+    </plurals>
+    <plurals name="pr_swaptrade_header_sources_selected">
+        <item quantity="one">{num} джерело</item>
+        <item quantity="few">{num} джерела</item>
+        <item quantity="many">{num} джерел</item>
+        <item quantity="other">{num} джерела</item>
+    </plurals>
+    <plurals name="pr_swaptrade_market_title_confirm_unfollow_all_tab_case">
+        <item quantity="one">Скасувати підписку на {num} адресу в усіх групах?</item>
+        <item quantity="few">Скасувати підписку на {num} адреси в усіх групах?</item>
+        <item quantity="many">Скасувати підписку на {num} адрес в усіх групах?</item>
+        <item quantity="other">Скасувати підписку на {num} адреси в усіх групах?</item>
+    </plurals>
+    <plurals name="pr_swaptrade_market_title_total_tokens">
+        <item quantity="one">Усього {num} токен</item>
+        <item quantity="few">Усього {num} токени</item>
+        <item quantity="many">Усього {num} токенів</item>
+        <item quantity="other">Усього {num} токена</item>
+    </plurals>
+    <plurals name="pr_swaptrade_market_title_unfollow_message">
+        <item quantity="one">Дійсно скасувати підписку на {num} адресу з цієї групи?</item>
+        <item quantity="few">Дійсно скасувати підписку на {num} адреси із цієї групи?</item>
+        <item quantity="many">Дійсно скасувати підписку на {num} адрес із цієї групи?</item>
+        <item quantity="other">Дійсно скасувати підписку на {num} адрес із цієї групи?</item>
+    </plurals>
+    <plurals name="pr_swaptrade_smart_account_reminder_desc_renew_smart_account_days">
+        <item quantity="one">Смартконтракт буде прострочений через {num} день. Відкриті ордери буде призупинено після прострочення.</item>
+        <item quantity="few">Смартконтракт буде прострочений через {num} дні. Відкриті ордери буде призупинено після прострочення.</item>
+        <item quantity="many">Смартконтракт буде прострочений через {num} днів. Відкриті ордери буде призупинено після прострочення.</item>
+        <item quantity="other">Смартконтракт буде прострочений через {num} днів. Відкриті ордери буде призупинено після прострочення.</item>
+    </plurals>
+    <plurals name="pr_swaptrade_successfully_added_toast">
+        <item quantity="one">Переміщено в {num} групу</item>
+        <item quantity="few">Переміщено в {num} групи</item>
+        <item quantity="many">Переміщено в {num} груп</item>
+        <item quantity="other">Переміщено в {num} групи</item>
+    </plurals>
+    <plurals name="pr_swaptrade_toast_no_liquidity_provider_alert_pool">
+        <item quantity="one">Вас переключили на постачальника третьої сторони, оскільки вибраний пул не має ліквідності. Знову виберіть пул для торгівлі через агрегатор OKX DEX.</item>
+        <item quantity="few">Вас переключили на постачальника третьої сторони, оскільки {num} вибрані пули не мають ліквідності. Знову виберіть пули для торгівлі через агрегатор OKX DEX.</item>
+        <item quantity="many">Вас переключили на постачальника третьої сторони, оскільки {num} вибраних пулів не мають ліквідності. Знову виберіть пули для торгівлі через агрегатор OKX DEX.</item>
+        <item quantity="other">Вас переключили на постачальника третьої сторони, оскільки {num} вибраних пулів не мають ліквідності. Знову виберіть пули для торгівлі через агрегатор OKX DEX.</item>
+    </plurals>
+    <plurals name="pr_swaptrade_token_detail_label_num_txn">
+        <item quantity="one">{num} транзакція</item>
+        <item quantity="few">{num} транзакції</item>
+        <item quantity="many">{num} транзакцій</item>
+        <item quantity="other">{num} транзакції</item>
+    </plurals>
+    <plurals name="pr_swaptrade_tracker_textarea_activity">
+        <item quantity="one"># нова дія</item>
+        <item quantity="few"># нові дії</item>
+        <item quantity="many"># нових дій</item>
+        <item quantity="other"># нової дії</item>
+    </plurals>
+    <plurals name="pr_trade_analysis_header_numd_pnl">
+        <item quantity="one">PnL за {num} день</item>
+        <item quantity="few">PnL за {num} дні</item>
+        <item quantity="many">PnL за {num} днів</item>
+        <item quantity="other">PnL за {num} дня</item>
+    </plurals>
+    <plurals name="pr_trade_card_title_cumulative_perpetual_pnl_last">
+        <item quantity="one">Сукупні PnL від безстрокових контрактів (за останній {number} день)</item>
+        <item quantity="few">Сукупні PnL від безстрокових контрактів (за останні {number} дні)</item>
+        <item quantity="many">Сукупні PnL від безстрокових контрактів (за останні {number} днів)</item>
+        <item quantity="other">Сукупні PnL від безстрокових контрактів (за останні {number} дня)</item>
+    </plurals>
+    <plurals name="pr_trade_card_title_top_3_contracts_last_number_days">
+        <item quantity="one">3 найкращі ф’ючерси (за останній {number} день)</item>
+        <item quantity="few">3 найкращі ф’ючерси (за останні {number} дні)</item>
+        <item quantity="many">3 найкращі ф ючерси (за останні {number} днів)</item>
+        <item quantity="other">3 найкращі ф ючерси (за останні {number} дня)</item>
+    </plurals>
+    <plurals name="pr_trade_card_title_top_3_long_last_number_days">
+        <item quantity="one">3 найкращі лонг-ф’ючерси (за останній {number} день)</item>
+        <item quantity="few">3 найкращі лонг-ф’ючерси (за останні {number} дні)</item>
+        <item quantity="many">3 найкращі лонг-ф’ючерси (за останні {number} днів)</item>
+        <item quantity="other">3 найкращі лонг-ф’ючерси (за останні {number} дня)</item>
+    </plurals>
+    <plurals name="pr_trade_card_title_top_3_short_last_number_days">
+        <item quantity="one">3 найкращі шорт-ф’ючерси (останній {number} день)</item>
+        <item quantity="few">3 найкращі шорт-ф’ючерси (останні {number} дні)</item>
+        <item quantity="many">3 найкращі шорт-ф’ючерси (за останні {number} днів)</item>
+        <item quantity="other">3 найкращі шорт-ф’ючерси (за останні {number} дня)</item>
+    </plurals>
+    <plurals name="pr_trade_charts_num_bars">
+        <item quantity="one">{num} стовпець</item>
+        <item quantity="few">{num} стовпці</item>
+        <item quantity="many">{num} стовпців</item>
+        <item quantity="other">{num} стовпця</item>
+    </plurals>
+    <plurals name="pr_trade_discover_numd_ago">
+        <item quantity="one">{num} дн. тому</item>
+        <item quantity="few">{num} дн. тому</item>
+        <item quantity="many">{num} дн. тому</item>
+        <item quantity="other">{num} дн. тому</item>
+    </plurals>
+    <plurals name="pr_trade_discover_numh_ago">
+        <item quantity="one">{num} год. тому</item>
+        <item quantity="few">{num} год. тому</item>
+        <item quantity="many">{num} год. тому</item>
+        <item quantity="other">{num} год. тому</item>
+    </plurals>
+    <plurals name="pr_trade_discover_numm_ago">
+        <item quantity="one">{num} хв тому</item>
+        <item quantity="few">{num} хв тому</item>
+        <item quantity="many">{num} хв тому</item>
+        <item quantity="other">{num} хв тому</item>
+    </plurals>
+    <plurals name="pr_trade_discover_nums_ago">
+        <item quantity="one">{num} с тому</item>
+        <item quantity="few">{num} с тому</item>
+        <item quantity="many">{num} с тому</item>
+        <item quantity="other">{num} с тому</item>
+    </plurals>
+    <plurals name="pr_trade_feed_num_answered">
+        <item quantity="one">{num} голос</item>
+        <item quantity="few">{num} голоси</item>
+        <item quantity="many">{num} голосів</item>
+        <item quantity="other">{num} голосу</item>
+    </plurals>
+    <plurals name="pr_trade_general_timeframe_days_variable">
+        <item quantity="one">{num} день</item>
+        <item quantity="few">{num} дні</item>
+        <item quantity="many">{num} днів</item>
+        <item quantity="other">{num} дня</item>
+    </plurals>
+    <plurals name="pr_trade_general_timeframe_days_variable_tian">
+        <item quantity="one">{num} день</item>
+        <item quantity="few">{num} дні</item>
+        <item quantity="many">{num} днів</item>
+        <item quantity="other">{num} дня</item>
+    </plurals>
+    <plurals name="pr_trade_general_timeframe_hours_update">
+        <item quantity="one">{num} година</item>
+        <item quantity="few">{num} години</item>
+        <item quantity="many">{num} годин</item>
+        <item quantity="other">{num} години</item>
+    </plurals>
+    <plurals name="pr_trade_general_timeframe_minutes_update">
+        <item quantity="one">{num} хвилина</item>
+        <item quantity="few">{num} хвилини</item>
+        <item quantity="many">{num} хвилин</item>
+        <item quantity="other">{num} хвилини</item>
+    </plurals>
+    <plurals name="pr_trade_home_desc_num_hours">
+        <item quantity="one">{num} годину</item>
+        <item quantity="few">{num} години</item>
+        <item quantity="many">{num} годин</item>
+        <item quantity="other">{num} години</item>
+    </plurals>
+    <plurals name="pr_trade_marketevents_header_num_related_posts">
+        <item quantity="one">{num} пов’язаний допис</item>
+        <item quantity="few">{num} пов’язані дописи</item>
+        <item quantity="many">{num} пов’язаних дописів</item>
+        <item quantity="other">{num} пов’язаного допису</item>
+    </plurals>
+    <plurals name="pr_trade_marketevents_label_num_posts">
+        <item quantity="one">{num} допис</item>
+        <item quantity="few">{num} дописи</item>
+        <item quantity="many">{num} дописів</item>
+        <item quantity="other">{num} допису</item>
+    </plurals>
+    <plurals name="pr_trade_orbit_title_num_days">
+        <item quantity="one">{num} день</item>
+        <item quantity="few">{num} дні</item>
+        <item quantity="many">{num} днів</item>
+        <item quantity="other">{num} дня</item>
+    </plurals>
+    <plurals name="pr_trade_orbit_title_num_years">
+        <item quantity="one">{num} рік</item>
+        <item quantity="few">{num} роки</item>
+        <item quantity="many">{num} років</item>
+        <item quantity="other">{num} року</item>
+    </plurals>
+    <plurals name="pr_trade_tokenunlocks_countdown_numd">
+        <item quantity="one">{num} дн.</item>
+        <item quantity="few">{num} дн.</item>
+        <item quantity="many">{num} дн.</item>
+        <item quantity="other">{num} дн.</item>
+    </plurals>
+    <plurals name="pr_trade_tokenunlocks_num_days_ago">
+        <item quantity="one">{num} день тому</item>
+        <item quantity="few">{num} дні тому</item>
+        <item quantity="many">{num} днів тому</item>
+        <item quantity="other">{num} дня тому</item>
+    </plurals>
+    <plurals name="pr_wallet_approval_alert_subtitle_num_risk_new">
+        <item quantity="one">{count} ризиковане схвалення</item>
+        <item quantity="few">{count} ризиковані схвалення</item>
+        <item quantity="many">{count} ризикованих схвалень</item>
+        <item quantity="other">{count} ризикованого схвалення</item>
+    </plurals>
+    <plurals name="pr_wallet_approval_textbtn_hide_num_approval">
+        <item quantity="one">Показати менше</item>
+        <item quantity="few">Показати менше</item>
+        <item quantity="many">Показати менше</item>
+        <item quantity="other">Показати менше</item>
+    </plurals>
+    <plurals name="pr_wallet_approve_alert_risky_approvals">
+        <item quantity="one">{num} ризиковане схвалення</item>
+        <item quantity="few">{num} ризиковані схвалення</item>
+        <item quantity="many">{num} ризикованих схвалень</item>
+        <item quantity="other">{num} ризикованого схвалення</item>
+    </plurals>
+    <plurals name="pr_wallet_connection_text_num_network">
+        <item quantity="one">1 мережа</item>
+        <item quantity="few">{num} мережі</item>
+        <item quantity="many">{num} мереж</item>
+        <item quantity="other">{num} мережі</item>
+    </plurals>
+    <plurals name="pr_wallet_connection_title_connected_to_num_networks">
+        <item quantity="one">Підключено до однієї мережі</item>
+        <item quantity="few">Підключено до {num} мереж</item>
+        <item quantity="many">Підключено до {num} мереж</item>
+        <item quantity="other">Підключено до {num} мережі</item>
+    </plurals>
+    <plurals name="pr_wallet_function_emptystate_num_unavailable_hidden">
+        <item quantity="one">Не вдалося конвертувати {num} токен.</item>
+        <item quantity="few">Не вдалося конвертувати {num} токени.</item>
+        <item quantity="many">Не вдалося конвертувати {num} токенів.</item>
+        <item quantity="other">Не вдалося конвертувати {num} токена.</item>
+    </plurals>
+    <plurals name="pr_wallet_function_label_num_swaps">
+        <item quantity="one">{num} токен</item>
+        <item quantity="few">{num} токени</item>
+        <item quantity="many">{num} токенів</item>
+        <item quantity="other">{num} токена</item>
+    </plurals>
+    <plurals name="pr_wallet_function_notification_num_tokens_noquote">
+        <item quantity="one">Не вдалося конвертувати {num} токен без котирувань.</item>
+        <item quantity="few">Не вдалося конвертувати {num} токени без котирувань.</item>
+        <item quantity="many">Не вдалося конвертувати {num} токенів без котирувань.</item>
+        <item quantity="other">Не вдалося конвертувати {num} токена без котирувань.</item>
+    </plurals>
+    <plurals name="pr_wallet_function_notification_title_num_tokens_converted">
+        <item quantity="one">Конвертовано {num} токен</item>
+        <item quantity="few">Конвертовано {num} токени</item>
+        <item quantity="many">Конвертовано {num} токенів</item>
+        <item quantity="other">Конвертовано {num} токена</item>
+    </plurals>
+    <plurals name="pr_wallet_function_title_converting_num_tokens">
+        <item quantity="one">Конвертування {num} токена</item>
+        <item quantity="few">Конвертування {num} токенів</item>
+        <item quantity="many">Конвертування {num} токенів</item>
+        <item quantity="other">Конвертування {num} токена</item>
+    </plurals>
+    <plurals name="pr_wallet_multisend_alertbanner_desc_num_address_confirm">
+        <item quantity="one">Вам потрібно перевірити {num} адресу отримання</item>
+        <item quantity="few">Вам потрібно перевірити {num} адреси отримання</item>
+        <item quantity="many">Вам потрібно перевірити {num} адрес отримання</item>
+        <item quantity="other">Вам потрібно перевірити {num} адреси отримання</item>
+    </plurals>
+    <plurals name="pr_wallet_multisend_input_num_transaction">
+        <item quantity="one">Включає {num} транзакцію</item>
+        <item quantity="few">Включає {num} транзакції</item>
+        <item quantity="many">Включає {num} транзакцій</item>
+        <item quantity="other">Включає {num} транзакції</item>
+    </plurals>
+    <plurals name="pr_wallet_multisend_reminder_desc_current_scenario">
+        <item quantity="one">{num} непідтримуваний гаманець приховано.</item>
+        <item quantity="few">{num} непідтримувані гаманці приховано.</item>
+        <item quantity="many">{num} непідтримуваних гаманців приховано.</item>
+        <item quantity="other">{num} непідтримуваних гаманців було приховано.</item>
+    </plurals>
+    <plurals name="pr_wallet_search_desc_num_assets">
+        <item quantity="one">{num} актив</item>
+        <item quantity="few">{num} активи</item>
+        <item quantity="many">{num} активів</item>
+        <item quantity="other">{num} активу</item>
+    </plurals>
+    <plurals name="pr_wallet_settings_reminder_desc_fail_check">
+        <item quantity="one">У результаті перевірки на вашому пристрої виявлено {num} ризик.</item>
+        <item quantity="few">У результаті перевірки на вашому пристрої виявлено {num} ризики.</item>
+        <item quantity="many">У результаті перевірки на вашому пристрої виявлено {num} ризиків.</item>
+        <item quantity="other">У результаті перевірки на вашому пристрої виявлено {num} ризику.</item>
+    </plurals>
+    <plurals name="pr_wallet_subtitle_non_interactive_address">
+        <item quantity="one">{count} неінтерактивний DApp</item>
+        <item quantity="few">{count} неінтерактивні DApp</item>
+        <item quantity="many">{count} неінтерактивних DApp</item>
+        <item quantity="other">{count} неінтерактивного DApp</item>
+    </plurals>
+</resources>

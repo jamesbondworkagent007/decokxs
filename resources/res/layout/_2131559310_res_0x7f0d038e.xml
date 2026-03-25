@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.AppCompatTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    textAppearance="@style/Label_2_Regular"
+    gravity="0x11"
+    id="@+id/tv_selection"
+    background="@drawable/_2131231988_res_0x7f0804f4"
+    padding="8dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    maxLines="1"/>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/category_icon"
+        tag="layout/trade_impl_view_mp_category_child_0"
+        background="@drawable/_2131233194_res_0x7f0809aa"
+        layout_width="48dp"
+        android:layout_height="48dp"
+        scaleType="fitEnd"
+        backgroundTint="@color/SurfacePrimary"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x12="0"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        textAppearance="@style/TextAppearance.Text.12SP.Regular"
+        textColor="@color/ContentPrimary"
+        ellipsize="3"
+        gravity="0x11"
+        id="@+id/category_name"
+        tag="layout/trade_impl_view_mp_category_child_1"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_4dp"
+        maxLines="2"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x12="0"
+        NOT_FOUND_0x13="@+id/category_icon"/>
+    <FrameLayout
+        id="@+id/tag_container"
+        tag="layout/trade_impl_view_mp_category_child_2"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginBottom="-16dp"
+        layout_marginStart="-16dp"
+        NOT_FOUND_0xf="@+id/category_icon"
+        NOT_FOUND_0x11="@+id/category_icon"/>
+</merge>

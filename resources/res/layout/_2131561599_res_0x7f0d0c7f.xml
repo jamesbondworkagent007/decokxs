@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <com.airbnb.lottie.LottieAnimationView
+        id="@+id/iv_fresh"
+        layout_width="-1"
+        android:layout_height="80dp"
+        layout_centerHorizontal="true"
+        NOT_FOUND_0x9="true"/>
+    <TextView
+        textSize="@dimen/text_size_10sp"
+        textColor="@color/okTradeG500"
+        id="@+id/tv_fresh_name"
+        visibility="2"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/dp_4"
+        layout_below="@+id/iv_fresh"
+        layout_centerHorizontal="true"/>
+</RelativeLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    background="@drawable/_2131233952_res_0x7f080ca0"
+    paddingLeft="@dimen/padding_8dp"
+    paddingTop="@dimen/padding_12dp"
+    paddingRight="@dimen/padding_8dp"
+    paddingBottom="@dimen/padding_12dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_margin="@dimen/margin_8dp"
+    paddingHorizontal="@dimen/padding_8dp"
+    paddingVertical="@dimen/padding_12dp">
+    <TextView
+        textAppearance="@style/Label_2_Medium"
+        textColor="@color/ContentContrast"
+        gravity="0x800003"
+        id="@+id/index"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x12="0"
+        NOT_FOUND_0x13="0"/>
+    <View
+        id="@+id/line"
+        background="@color/BorderPrimary"
+        layout_width="@dimen/margin_1dp"
+        android:layout_height="@dimen/height_14dp"
+        layout_marginStart="@dimen/margin_8dp"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x11="@+id/index"
+        NOT_FOUND_0x13="0"/>
+    <TextView
+        textAppearance="@style/TextAppearance.Bold"
+        textSize="16sp"
+        textColor="@color/ContentPrimary"
+        id="@+id/word"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginStart="8dp"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x11="@+id/line"
+        NOT_FOUND_0x13="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

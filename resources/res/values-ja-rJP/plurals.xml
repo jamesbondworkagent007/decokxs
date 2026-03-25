@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pr_invest_smartmoney_mid_alert_day">
+        <item quantity="other">{num}日</item>
+    </plurals>
+    <plurals name="pr_invest_smartmoney_mid_alert_hour">
+        <item quantity="other">{num}時間</item>
+    </plurals>
+    <plurals name="pr_invest_smartmoney_mid_alert_minute">
+        <item quantity="other">{num}分</item>
+    </plurals>
+    <plurals name="pr_invest_smartmoney_mid_alert_second">
+        <item quantity="other">{num}秒</item>
+    </plurals>
+    <plurals name="pr_investutxo_bot_textarea_desc_potential_risk">
+        <item quantity="other">ロック解除する UTXO を{num}個選択しました。これにより{numToken} が追加されますが、これらの UTXO 内の資産が失われる可能性もあります。ロック解除する前に資産を確認してください。</item>
+    </plurals>
+    <plurals name="pr_social_marketplace_feeds_num_followers">
+        <item quantity="other">{num}フォロワー</item>
+    </plurals>
+    <plurals name="pr_swaptrade_1swap_notification_selected_pools_reselect">
+        <item quantity="other">選択した{num}個のプールには現在流動性がありません。OKX DEX でさらにプールを選択して見積を取得してください。</item>
+    </plurals>
+    <plurals name="pr_swaptrade_address_number">
+        <item quantity="other">{num}個のアドレス</item>
+    </plurals>
+    <plurals name="pr_swaptrade_alert_toast_turned_off">
+        <item quantity="other">{num}件のアドレスに設定されたアラートを削除しました</item>
+    </plurals>
+    <plurals name="pr_swaptrade_alert_toast_turned_on">
+        <item quantity="other">{num}件のアドレスにアラートを追加しました</item>
+    </plurals>
+    <plurals name="pr_swaptrade_bridge_dialog_this_transaction_requires_sign">
+        <item quantity="other">このトランザクションには{num}回の署名が必要です：</item>
+    </plurals>
+    <plurals name="pr_swaptrade_copytrade_30_days">
+        <item quantity="other">{num}日</item>
+    </plurals>
+    <plurals name="pr_swaptrade_copytrade_reminder_renew_or_suspend_plural">
+        <item quantity="other">スマートアカウントは{numDays}日後に期限切れになります。取引の中断を避けるために更新してください。</item>
+    </plurals>
+    <plurals name="pr_swaptrade_copytrade_status_hrs">
+        <item quantity="other">{num}時間</item>
+    </plurals>
+    <plurals name="pr_swaptrade_copytrade_status_mins">
+        <item quantity="other">{num}分</item>
+    </plurals>
+    <plurals name="pr_swaptrade_header_sources_selected">
+        <item quantity="other">{num}個のソース</item>
+    </plurals>
+    <plurals name="pr_swaptrade_market_title_confirm_unfollow_all_tab_case">
+        <item quantity="other">すべてのグループで {num} 件のアドレスのフォローを解除してもよろしいですか？</item>
+    </plurals>
+    <plurals name="pr_swaptrade_market_title_total_tokens">
+        <item quantity="other">合計{num}トークン</item>
+    </plurals>
+    <plurals name="pr_swaptrade_market_title_unfollow_message">
+        <item quantity="other">このグループで {num} 件のアドレスのフォローを解除してもよろしいですか？</item>
+    </plurals>
+    <plurals name="pr_swaptrade_smart_account_reminder_desc_renew_smart_account_days">
+        <item quantity="other">スマートアカウントは{num}日後に失効します。失効するとオープン注文は一時停止されます。</item>
+    </plurals>
+    <plurals name="pr_swaptrade_successfully_added_toast">
+        <item quantity="other">{num}個のグループへの移動が完了しました。</item>
+    </plurals>
+    <plurals name="pr_swaptrade_toast_no_liquidity_provider_alert_pool">
+        <item quantity="other">選択した {num} プールには流動性がないため、サードパーティプロバイダーに切り替えられました。OKX DEX アグリゲーター経由で取引するには、プールを選択し直してください。</item>
+    </plurals>
+    <plurals name="pr_swaptrade_token_detail_label_num_txn">
+        <item quantity="other">{num}トークン</item>
+    </plurals>
+    <plurals name="pr_swaptrade_tracker_textarea_activity">
+        <item quantity="other"># 件の新規アクティビティ</item>
+    </plurals>
+    <plurals name="pr_trade_analysis_header_numd_pnl">
+        <item quantity="other">{num}日</item>
+    </plurals>
+    <plurals name="pr_trade_card_title_cumulative_perpetual_pnl_last">
+        <item quantity="other">先物取引の PnL（過去{number}日）</item>
+    </plurals>
+    <plurals name="pr_trade_card_title_top_3_contracts_last_number_days">
+        <item quantity="other">先物上位3件（過去{number}日）</item>
+    </plurals>
+    <plurals name="pr_trade_card_title_top_3_long_last_number_days">
+        <item quantity="other">ロング先物上位3件（過去{number}日）</item>
+    </plurals>
+    <plurals name="pr_trade_card_title_top_3_short_last_number_days">
+        <item quantity="other">ショート先物上位3件（過去{number}日）</item>
+    </plurals>
+    <plurals name="pr_trade_charts_num_bars">
+        <item quantity="other">{num}本のバー</item>
+    </plurals>
+    <plurals name="pr_trade_discover_numd_ago">
+        <item quantity="other">{num}日前</item>
+    </plurals>
+    <plurals name="pr_trade_discover_numh_ago">
+        <item quantity="other">{num}時間前</item>
+    </plurals>
+    <plurals name="pr_trade_discover_numm_ago">
+        <item quantity="other">{num}分前</item>
+    </plurals>
+    <plurals name="pr_trade_discover_nums_ago">
+        <item quantity="other">{num}秒前</item>
+    </plurals>
+    <plurals name="pr_trade_feed_num_answered">
+        <item quantity="other">{num}回投票されました</item>
+    </plurals>
+    <plurals name="pr_trade_general_timeframe_days_variable">
+        <item quantity="other">{num}日</item>
+    </plurals>
+    <plurals name="pr_trade_general_timeframe_days_variable_tian">
+        <item quantity="other">{num}日</item>
+    </plurals>
+    <plurals name="pr_trade_general_timeframe_hours_update">
+        <item quantity="other">{num}時間</item>
+    </plurals>
+    <plurals name="pr_trade_general_timeframe_minutes_update">
+        <item quantity="other">{num}分</item>
+    </plurals>
+    <plurals name="pr_trade_home_desc_num_hours">
+        <item quantity="other">{num}時間</item>
+    </plurals>
+    <plurals name="pr_trade_marketevents_header_num_related_posts">
+        <item quantity="other">{num}件の関連する投稿</item>
+    </plurals>
+    <plurals name="pr_trade_marketevents_label_num_posts">
+        <item quantity="other">{num}投稿</item>
+    </plurals>
+    <plurals name="pr_trade_orbit_title_num_days">
+        <item quantity="other">{num}日</item>
+    </plurals>
+    <plurals name="pr_trade_orbit_title_num_years">
+        <item quantity="other">{num}年</item>
+    </plurals>
+    <plurals name="pr_trade_tokenunlocks_countdown_numd">
+        <item quantity="other">{num}日</item>
+    </plurals>
+    <plurals name="pr_trade_tokenunlocks_num_days_ago">
+        <item quantity="other">{num}日前</item>
+    </plurals>
+    <plurals name="pr_wallet_approval_alert_subtitle_num_risk_new">
+        <item quantity="other">{count} リスクの高い承認</item>
+    </plurals>
+    <plurals name="pr_wallet_approval_textbtn_hide_num_approval">
+        <item quantity="other">表示件数を減らす</item>
+    </plurals>
+    <plurals name="pr_wallet_approve_alert_risky_approvals">
+        <item quantity="other">{num} リスクのある承認</item>
+    </plurals>
+    <plurals name="pr_wallet_connection_text_num_network">
+        <item quantity="other">{num} ネットワーク</item>
+    </plurals>
+    <plurals name="pr_wallet_connection_title_connected_to_num_networks">
+        <item quantity="other">{num}個のネットワークに連携済み</item>
+    </plurals>
+    <plurals name="pr_wallet_function_emptystate_num_unavailable_hidden">
+        <item quantity="other">{num}トークンの変換ができません。</item>
+    </plurals>
+    <plurals name="pr_wallet_function_label_num_swaps">
+        <item quantity="other">{num}件のトークン</item>
+    </plurals>
+    <plurals name="pr_wallet_function_notification_num_tokens_noquote">
+        <item quantity="other">見積もり無しに{num}トークンを変換できません。</item>
+    </plurals>
+    <plurals name="pr_wallet_function_notification_title_num_tokens_converted">
+        <item quantity="other">{num}トークンが変換されました</item>
+    </plurals>
+    <plurals name="pr_wallet_function_title_converting_num_tokens">
+        <item quantity="other">{num} トークンを変換しています</item>
+    </plurals>
+    <plurals name="pr_wallet_multisend_alertbanner_desc_num_address_confirm">
+        <item quantity="other">確認が必要な受取アドレスが {num}件あります</item>
+    </plurals>
+    <plurals name="pr_wallet_multisend_input_num_transaction">
+        <item quantity="other">{num}件のトランザクションを含みます</item>
+    </plurals>
+    <plurals name="pr_wallet_multisend_reminder_desc_current_scenario">
+        <item quantity="other">{num}個のサポートされていないウォレットが非表示になりました。</item>
+    </plurals>
+    <plurals name="pr_wallet_search_desc_num_assets">
+        <item quantity="other">{num} 資産</item>
+    </plurals>
+    <plurals name="pr_wallet_settings_reminder_desc_fail_check">
+        <item quantity="other">スキャンによりデバイス上で{num}件のリスクが検出されました。</item>
+    </plurals>
+    <plurals name="pr_wallet_subtitle_non_interactive_address">
+        <item quantity="other">{count}非インタラクティブ分散型アプリ（DApp）</item>
+    </plurals>
+</resources>

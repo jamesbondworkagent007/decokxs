@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/trade_ui_dialog_smart_arbitrage_container_preview_0"
+    paddingLeft="@dimen/padding_24dp"
+    paddingRight="@dimen/padding_24dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingHorizontal="@dimen/padding_24dp">
+    <LinearLayout
+        orientation="1"
+        id="@+id/groupLayout"
+        layout_width="-1"
+        android:layout_height="match_parent"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="0">
+        <o.C55249xgQ
+            id="@+id/botOrderTab"
+            background="@color/BasePrimary"
+            layout_width="-1"
+            android:layout_height="@dimen/width_28dp"
+            layout_marginTop="@dimen/margin_10dp"
+            NOT_FOUND_0xe="true"
+            NOT_FOUND_0xf="-1"
+            NOT_FOUND_0x10="-4"/>
+        <View
+            id="@+id/tip_anchor"
+            layout_width="100dp"
+            android:layout_height="1dp"/>
+        <androidx.viewpager2.widget.ViewPager2
+            id="@+id/botOrderVp2"
+            layout_width="-1"
+            android:layout_height="match_parent"
+            overScrollMode="2"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

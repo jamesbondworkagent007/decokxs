@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/item_layout"
+    tag="layout/item_im_switch_setting_item_0"
+    paddingLeft="@dimen/margin_default"
+    paddingTop="@dimen/xsm"
+    paddingRight="@dimen/margin_default"
+    paddingBottom="@dimen/xsm"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingHorizontal="@dimen/margin_default"
+    paddingVertical="@dimen/xsm">
+    <o.C55239xgG
+        id="@+id/sc_switch"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x14="0"/>
+    <TextView
+        textColor="@color/ContentPrimary"
+        id="@+id/tv_title"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_marginEnd="@dimen/xxsm"
+        NOT_FOUND_0xf="@+id/tv_content"
+        NOT_FOUND_0x11="@+id/sc_switch"
+        NOT_FOUND_0x12="0"
+        NOT_FOUND_0x14="0"
+        style="@style/Label_1_Regular"/>
+    <TextView
+        textColor="@color/ContentTertiary"
+        id="@+id/tv_content"
+        visibility="2"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/xxxxxsm"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0x10="@+id/tv_title"
+        NOT_FOUND_0x12="@+id/tv_title"
+        NOT_FOUND_0x13="@+id/tv_title"
+        style="@style/Label_2_Regular"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    id="@+id/content_linear_layout"
+    tag="layout/item_auto_input_choice_0"
+    visibility="0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.C55230xfy
+        id="@+id/bs_searchbar"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginBottom="16dp"
+        NOT_FOUND_0xf="?attr/dialog_searchIconTint"/>
+    <TextView
+        textColor="@color/grey_g900"
+        id="@+id/content_label"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginBottom="@dimen/margin_16dp"
+        style="@style/TextAppearance.Text.16SP"/>
+    <FrameLayout
+        layout_width="-1"
+        android:layout_height="wrap_content">
+        <o.C31695mAm
+            id="@+id/content_rv"
+            scrollbars="horizontal"
+            layout_width="-1"
+            android:layout_height="wrap_content"/>
+        <TextView
+            textSize="16sp"
+            textColor="@color/ContentPrimary"
+            layout_gravity="0x1"
+            id="@+id/emptyView"
+            visibility="2"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            layout_marginTop="40dp"
+            text="@string/eu_kycrevamp_kyc1id_bottomsheet_empty_title_no_results"
+            drawablePadding="8dp"
+            NOT_FOUND_0xe="@drawable/_2131233559_res_0x7f080b17"
+            style="@style/Label_1_Medium"/>
+    </FrameLayout>
+</LinearLayout>

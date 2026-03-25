@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="0"
+    tag="layout/trade_impl_item_switch_button_view_0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.C55258xgZ
+        id="@+id/item_title"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_weight="1"
+        layout_marginEnd="@dimen/margin_16dp"
+        NOT_FOUND_0x7="@color/grey_g400"
+        NOT_FOUND_0x8="@dimen/text_size_14sp"/>
+    <o.C55239xgG
+        id="@+id/item_switch"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x9="-5"/>
+</LinearLayout>

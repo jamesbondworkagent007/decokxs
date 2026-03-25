@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <ImageView
+        id="@+id/iv_tx_icon"
+        visibility="2"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_20dp"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x12="0"/>
+    <o.C57478yjF
+        id="@+id/flow_tx_title"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_marginLeft="@dimen/margin_24dp"
+        layout_marginTop="@dimen/margin_20dp"
+        layout_marginRight="@dimen/margin_24dp"
+        layout_marginBottom="@dimen/margin_4dp"
+        layout_marginHorizontal="@dimen/margin_24dp"
+        NOT_FOUND_0xe="@+id/tv_tx_subtitle"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x11="@+id/iv_tx_icon"
+        NOT_FOUND_0x13="@dimen/margin_12dp"
+        NOT_FOUND_0x14="@dimen/margin_20dp"/>
+    <TextView
+        textAppearance="@style/Label_1_Regular"
+        textSize="16sp"
+        textColor="@color/ContentContrast"
+        gravity="0x11"
+        id="@+id/tv_tx_subtitle"
+        visibility="2"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_marginLeft="@dimen/margin_24dp"
+        layout_marginRight="@dimen/margin_24dp"
+        layout_marginBottom="@dimen/margin_12dp"
+        layout_marginHorizontal="@dimen/margin_24dp"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x11="@+id/flow_tx_title"/>
+</merge>

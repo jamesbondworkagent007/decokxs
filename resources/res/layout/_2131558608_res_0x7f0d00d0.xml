@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/content_layout"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        layout_width="-1"
+        android:layout_height="match_parent">
+        <FrameLayout
+            id="@+id/top_bar_container"
+            visibility="2"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            NOT_FOUND_0xd="0"
+            NOT_FOUND_0xe="0"
+            NOT_FOUND_0x10="0"/>
+        <androidx.fragment.app.FragmentContainerView
+            id="@+id/fragment_container"
+            layout_width="-1"
+            android:layout_height="0dp"
+            NOT_FOUND_0xc="@+id/bottom_navigation_view"
+            NOT_FOUND_0xf="@+id/top_bar_container"/>
+        <FrameLayout
+            id="@+id/sticky_footer_container"
+            visibility="2"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            NOT_FOUND_0xc="@+id/bottom_navigation_view"
+            NOT_FOUND_0xd="0"
+            NOT_FOUND_0xe="0"/>
+        <o.C55089xdP
+            layout_gravity="0x50"
+            id="@+id/bottom_navigation_view"
+            background="@color/color_surface_structural_elevated_default"
+            layout_width="-1"
+            android:layout_height="@dimen/ok_bottom_navigation_height"
+            contentDescription="AppTabbar"
+            NOT_FOUND_0x7="@drawable/_2131231535_res_0x7f08032f"
+            NOT_FOUND_0x8="@color/selector_btm_navi_text_color"
+            NOT_FOUND_0x9="@style/TextAppearance.Navigation.Active"
+            NOT_FOUND_0xa="@style/TextAppearance.Navigation.InActive"
+            NOT_FOUND_0xb="0"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

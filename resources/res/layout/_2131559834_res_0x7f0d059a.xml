@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/fragment_bsc_pro_container_0"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        id="@+id/bsc_header"
+        paddingLeft="@dimen/padding_24dp"
+        paddingTop="@dimen/dp_9"
+        paddingRight="@dimen/padding_24dp"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        paddingHorizontal="@dimen/padding_24dp"
+        NOT_FOUND_0xd="@+id/fragment_container"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x11="0">
+        <ImageView
+            id="@+id/ic_history"
+            background="?attr/selectableItemBackgroundBorderless"
+            visibility="2"
+            layout_width="@dimen/width_24dp"
+            android:layout_height="@dimen/height_24dp"
+            src="@drawable/history"
+            NOT_FOUND_0xc="0"
+            NOT_FOUND_0xe="0"
+            NOT_FOUND_0x11="0"
+            NOT_FOUND_0x12="@color/ContentPrimary"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.fragment.app.FragmentContainerView
+        id="@+id/fragment_container"
+        layout_width="-1"
+        android:layout_height="0dp"
+        layout_marginBottom="@dimen/dp_32"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x10="@+id/bsc_header"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

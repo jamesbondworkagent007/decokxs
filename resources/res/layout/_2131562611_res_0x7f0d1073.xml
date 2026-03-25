@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    paddingLeft="24dp"
+    paddingRight="24dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingHorizontal="24dp">
+    <TextView
+        textSize="24dp"
+        textColor="@color/ContentPrimary"
+        id="@+id/title"
+        paddingTop="24dp"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        style="@style/Headline_5_Bold"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        textSize="14dp"
+        textColor="@color/ContentSecondary"
+        id="@+id/description"
+        paddingTop="24dp"
+        paddingBottom="24dp"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        paddingVertical="24dp"
+        NOT_FOUND_0xc="22dp"
+        style="@style/Body_3_Regular"/>
+</LinearLayout>

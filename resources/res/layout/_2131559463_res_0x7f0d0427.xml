@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/container"
+    background="@drawable/_2131231798_res_0x7f080436"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <com.okinc.uilab.item.OKRegularCell
+        textAppearance="@style/Label_1_Regular"
+        id="@+id/tv_network_title"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x7="@null"
+        NOT_FOUND_0x8="@style/Label_1_Regular"
+        NOT_FOUND_0x9="@color/ContentContrast"
+        NOT_FOUND_0xa="@string/pr_swaptrade_trade_label_est_network_fee">
+        <androidx.appcompat.widget.AppCompatTextView
+            textAppearance="@style/Label_1_Regular"
+            textColor="@color/ContentPrimary"
+            layout_gravity="0x800015"
+            id="@+id/tv_network_value"
+            layout_width="-2"
+            android:layout_height="wrap_content"/>
+    </com.okinc.uilab.item.OKRegularCell>
+</FrameLayout>

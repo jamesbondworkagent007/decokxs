@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/view_support_center_video_meeting_detail_row_0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <TextView
+        textSize="@dimen/text_size_16sp"
+        textColor="@color/title_color"
+        ellipsize="3"
+        gravity="0x800013"
+        id="@+id/label"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        fontFamily="@font/harmony_sans_regular"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xc="0"/>
+    <TextView
+        textSize="@dimen/text_size_18sp"
+        textColor="@color/title_color"
+        ellipsize="3"
+        gravity="0x800013"
+        id="@+id/value"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        fontFamily="@font/harmony_sans_bold"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="@+id/label"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

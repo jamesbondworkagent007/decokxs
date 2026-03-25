@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        id="@+id/content_icon_viewGroup"
+        layout_width="@dimen/height_36dp"
+        android:layout_height="@dimen/height_36dp"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x12="0">
+        <ImageView
+            id="@+id/iv_main_icon"
+            visibility="2"
+            layout_width="32dp"
+            android:layout_height="32dp"/>
+        <ImageView
+            layout_gravity="0x10"
+            id="@+id/iv_sub_icon"
+            visibility="2"
+            layout_width="16dp"
+            android:layout_height="16dp"
+            layout_alignParentBottom="true"
+            layout_alignParentEnd="true"/>
+    </RelativeLayout>
+    <o.C57488yjP
+        id="@+id/ll_custom_content"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginStart="@dimen/margin_8dp"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xf="@+id/content_icon_viewGroup"
+        NOT_FOUND_0x12="0"/>
+    <TextView
+        textAppearance="@style/TextAppearance.Text.12SP.Regular"
+        textColor="@color/grey_g400"
+        id="@+id/tv_subtitle"
+        visibility="2"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        maxLines="2"
+        NOT_FOUND_0xb="true"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0x10="@+id/ll_custom_content"
+        NOT_FOUND_0x11="@+id/ll_custom_content"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

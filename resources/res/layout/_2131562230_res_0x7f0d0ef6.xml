@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.okinc.uilab.item.OKRegularCell xmlns:android="http://schemas.android.com/apk/res/android"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <ImageView
+        id="@+id/selectAction"
+        layout_width="@dimen/width_18dp"
+        android:layout_height="18dp"/>
+</com.okinc.uilab.item.OKRegularCell>

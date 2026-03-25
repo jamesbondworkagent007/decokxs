@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="0"
+    id="@+id/ll_reference_container"
+    tag="layout/item_send_reference_container_0"
+    background="@drawable/_2131231289_res_0x7f080239"
+    layout_width="-2"
+    android:layout_height="wrap_content"
+    layout_marginLeft="@dimen/xxxsm"
+    layout_marginTop="8dp"
+    layout_marginRight="@dimen/xxxsm"
+    layout_marginBottom="4dp"
+    layout_marginHorizontal="@dimen/xxxsm">
+    <View
+        id="@+id/view"
+        background="@drawable/_2131231287_res_0x7f080237"
+        layout_width="4dp"
+        android:layout_height="match_parent"/>
+    <o.C35886oHi
+        id="@+id/send_reference_layout"
+        padding="@dimen/xxsm"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_weight="1"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

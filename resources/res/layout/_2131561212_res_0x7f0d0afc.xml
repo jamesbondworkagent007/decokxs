@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    id="@+id/wallet_normal_asset"
+    tag="fix_top"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <fragment
+        name="o.ePI"
+        id="@+id/walletFragment"
+        tag="walletFragment"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0xb="@+id/wallet_home_banner"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="0"/>
+    <ViewStub
+        id="@+id/addSAFundsLayout"
+        layout="@layout/_2131561136_res_0x7f0d0ab0"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginBottom="24dp"
+        layout_marginStart="@dimen/margin_24dp"
+        layout_marginEnd="@dimen/margin_24dp"/>
+    <o.C18027fae
+        id="@+id/wallet_home_banner"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginBottom="24dp"/>
+</LinearLayout>

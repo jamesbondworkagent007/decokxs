@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="0"
+    paddingBottom="6dp"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <TextView
+        textAppearance="@style/TextAppearance.Text.14SP.Regular"
+        textColor="@color/grey_g400"
+        id="@+id/tv_title"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        text="@string/pr_trade_bots_recurring_modal_coinratio"/>
+    <TextView
+        textAppearance="@style/TextAppearance.Text.14SP.Medium"
+        textColor="@color/grey_g900"
+        gravity="0x800005"
+        id="@+id/tv_content"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_weight="1"
+        layout_marginStart="@dimen/margin_28dp"/>
+    <ImageView
+        id="@+id/iv_show_all"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        src="@drawable/_2131232337_res_0x7f080651"
+        layout_marginStart="@dimen/margin_4dp"
+        NOT_FOUND_0xc="@color/grey_g300"/>
+</LinearLayout>

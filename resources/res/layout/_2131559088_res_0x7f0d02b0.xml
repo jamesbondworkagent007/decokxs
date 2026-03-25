@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    tag="layout/dex_contract_transaction_swap_to_wallet_info_0"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginTop="8dp">
+    <o.C57457yil
+        id="@+id/dexSwapWalletInfo"
+        layout_width="-1"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

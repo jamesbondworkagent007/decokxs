@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.C55254xgV
+        id="@+id/tabs"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginLeft="12dp"
+        layout_marginRight="12dp"
+        layout_marginHorizontal="12dp"
+        NOT_FOUND_0x8="36"/>
+    <o.C57485yjM
+        id="@+id/view_pager"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="12dp"/>
+</merge>

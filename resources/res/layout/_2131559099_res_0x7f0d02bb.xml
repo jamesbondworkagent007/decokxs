@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x11"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    contentDescription="web3_dex_dapp_selection_view">
+    <LinearLayout
+        gravity="0x11"
+        id="@+id/loading_view"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="304dp">
+        <o.C55113xdn
+            layout_width="60dp"
+            android:layout_height="60dp"
+            NOT_FOUND_0xd="true"
+            NOT_FOUND_0xe="true"
+            NOT_FOUND_0xf="@raw/_2131886126_res_0x7f12002e"/>
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/dapp_redirect_list"
+        visibility="2"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_margin="@dimen/margin_16dp"/>
+    <o.C55173xeu
+        id="@+id/error_view"
+        paddingTop="@dimen/dp_40"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="304dp"
+        layout_marginLeft="@dimen/margin_16dp"
+        layout_marginRight="@dimen/margin_16dp"
+        layout_marginHorizontal="@dimen/margin_16dp"
+        NOT_FOUND_0xc="9"
+        NOT_FOUND_0x10="@string/pr_swaptrade_dialog_desc_dapp_retrieve_fail"
+        NOT_FOUND_0x11="@string/pr_metax_dapps_home_navigation_refresh"
+        NOT_FOUND_0x12="@string/pr_swaptrade_dialog_title_dapp_retrieve_fail"/>
+</LinearLayout>

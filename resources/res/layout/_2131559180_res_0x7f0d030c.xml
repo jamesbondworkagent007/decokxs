@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View xmlns:android="http://schemas.android.com/apk/res/android"
+    tag="layout/dex_fg_market_widget_item_recycler_interval_empty_24_0"
+    layout_width="-1"
+    android:layout_height="@dimen/height_24dp"/>

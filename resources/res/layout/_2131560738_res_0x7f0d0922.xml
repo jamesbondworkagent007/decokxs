@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    tag="layout/item_mpc_private_key_header_0"
+    background="@color/background_lv1"
+    paddingTop="@dimen/margin_16dp"
+    paddingBottom="@dimen/margin_24dp"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatTextView
+        textAppearance="@style/TextAppearance.Title.Bold.24SP"
+        textColor="@color/ContentPrimary"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        text="@string/pr_wallet_escape_title_backup_privatekey"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        textAppearance="@style/TextAppearance.Title.15SP"
+        textColor="@color/grey_g600"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="12dp"
+        text="@string/pr_wallet_escape_subtitle_wallet_unavailable"/>
+</LinearLayout>

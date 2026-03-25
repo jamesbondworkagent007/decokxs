@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o.C42922rfZ xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.C46796tdt
+        id="@+id/rv_list"
+        paddingTop="@dimen/dp_4"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        nestedScrollingEnabled="false"
+        NOT_FOUND_0xf="@+id/sort"/>
+    <FrameLayout
+        layout_gravity="0x11"
+        id="@+id/recommend_layout"
+        paddingBottom="@dimen/dp_8"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="match_parent"/>
+    <androidx.constraintlayout.widget.Group
+        id="@+id/group_content"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0xb="rv_list, recommend_layout"/>
+    <o.C55173xeu
+        layout_gravity="0x11"
+        id="@+id/empty_view"
+        visibility="2"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/dp_12"
+        minHeight="@dimen/dp_142"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="0"/>
+    <FrameLayout
+        id="@+id/anim"
+        paddingBottom="@dimen/dp_8"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginBottom="8dp"
+        minHeight="@dimen/dp_410"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="0"/>
+</o.C42922rfZ>

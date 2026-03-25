@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <include
+        id="@+id/lbl_top_members"
+        layout="@layout/_2131560573_res_0x7f0d087d"/>
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/recycler_top_members"
+        paddingLeft="@dimen/margin_default"
+        paddingRight="@dimen/margin_default"
+        scrollbars="horizontal"
+        clipToPadding="false"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        overScrollMode="2"
+        paddingHorizontal="@dimen/margin_default"
+        NOT_FOUND_0xb="androidx.recyclerview.widget.GridLayoutManager"
+        NOT_FOUND_0xc="6"/>
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/recycler_vip_team"
+        paddingLeft="@dimen/margin_default"
+        paddingRight="@dimen/margin_default"
+        visibility="2"
+        scrollbars="horizontal"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        overScrollMode="2"
+        paddingHorizontal="@dimen/margin_default"
+        NOT_FOUND_0xb="androidx.recyclerview.widget.LinearLayoutManager"/>
+</LinearLayout>

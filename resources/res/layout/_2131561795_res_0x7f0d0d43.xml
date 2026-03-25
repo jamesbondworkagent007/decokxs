@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    tag="layout/market_impl_fragment_spot_analysis_load_all_item_layout_0"
+    paddingTop="16dp"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <View style="@style/SingleLine"/>
+    <TextView
+        textSize="12dp"
+        textColor="@color/ContentDisabled"
+        gravity="0x11"
+        id="@+id/text"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="16dp"
+        text="@string/pr_trade_futuresanalysis_footer_all_data_loaded"
+        style="@style/Label_3_Regular"/>
+</LinearLayout>

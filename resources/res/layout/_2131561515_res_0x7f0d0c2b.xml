@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    tag="layout/layout_tx_detail_include_assets_0"
+    background="@drawable/_2131231083_res_0x7f08016b"
+    padding="16dp"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <TextView
+        textColor="@color/ContentTertiary"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        text="@string/pr_investbtc_top_textarea_title_include_assets"
+        style="@style/TextAppearance.Text.12SP.Regular"/>
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/include_assets_list"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_16dp"
+        layout_marginBottom="@dimen/margin_16dp"
+        overScrollMode="2"
+        layout_marginVertical="@dimen/margin_16dp"/>
+    <LinearLayout
+        orientation="0"
+        id="@+id/ll_view_all"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="wrap_content">
+        <ImageView
+            id="@+id/iv_view_all"
+            layout_width="-1"
+            android:layout_height="16dp"
+            src="@drawable/_2131232363_res_0x7f08066b"
+            NOT_FOUND_0xf="@color/ContentContrast"/>
+    </LinearLayout>
+</LinearLayout>

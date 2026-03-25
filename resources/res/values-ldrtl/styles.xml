@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="OKEditTextStyle" parent="@android:style/Widget.EditText">
+        <item name="android:textDirection">4</item>
+    </style>
+    <style name="OKTextStyle" parent="@android:style/Widget.TextView">
+        <item name="android:textDirection">4</item>
+    </style>
+</resources>

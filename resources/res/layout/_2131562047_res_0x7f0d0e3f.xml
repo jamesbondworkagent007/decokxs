@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <TextView
+        textColor="@color/ContentContrast"
+        gravity="0x11"
+        id="@+id/footerBanner"
+        paddingLeft="@dimen/margin_default"
+        paddingTop="12dp"
+        paddingRight="@dimen/margin_default"
+        paddingBottom="12dp"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        text="@string/pr_message_notification_textarea_offshore_end_of_notif"
+        paddingHorizontal="@dimen/margin_default"
+        paddingVertical="12dp"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="0"
+        style="@style/Label_3_Regular"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

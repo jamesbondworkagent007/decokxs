@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <font
+        font="@font/okx_sans_tab_medium"
+        fontWeight="500"
+        fontStyle="normal"
+        NOT_FOUND_0x3="@font/okx_sans_tab_medium"
+        NOT_FOUND_0x4="0"
+        NOT_FOUND_0x5="500"/>
+</font-family>

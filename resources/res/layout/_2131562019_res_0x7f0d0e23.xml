@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/content_layout"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <androidx.fragment.app.FragmentContainerView
+        id="@+id/main_container"
+        layout_width="-1"
+        android:layout_height="match_parent"
+        layout_marginBottom="@dimen/ok_bottom_navigation_height"/>
+    <o.C55089xdP
+        layout_gravity="0x50"
+        id="@+id/btm_navi"
+        background="@color/color_surface_structural_elevated_default"
+        layout_width="-1"
+        android:layout_height="@dimen/ok_bottom_navigation_height"
+        contentDescription="AppTabbar"
+        NOT_FOUND_0x8="16dp"
+        NOT_FOUND_0x9="@drawable/_2131231535_res_0x7f08032f"
+        NOT_FOUND_0xa="@color/selector_btm_navi_text_color"
+        NOT_FOUND_0xb="@style/TextAppearance.Navigation.Active"
+        NOT_FOUND_0xc="@style/TextAppearance.Navigation.InActive"/>
+    <FrameLayout
+        id="@+id/fl_gesture"
+        visibility="0"
+        layout_width="-1"
+        android:layout_height="match_parent"
+        layout_marginBottom="@dimen/btm_navi_height"/>
+</FrameLayout>

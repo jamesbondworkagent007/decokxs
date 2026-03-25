@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.AppCompatTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    textAppearance="@style/TextAppearance.Title.18SP.Semibold"
+    textColor="@color/ContentPrimary"
+    id="@+id/economic_date"
+    paddingTop="@dimen/padding_16dp"
+    paddingBottom="@dimen/padding_16dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingVertical="@dimen/padding_16dp"/>

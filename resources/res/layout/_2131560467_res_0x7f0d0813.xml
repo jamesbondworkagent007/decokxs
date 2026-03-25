@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x10"
+    orientation="0"
+    tag="layout/item_defi_home_wallet_escape_bind_entrance_0"
+    paddingLeft="24dp"
+    paddingTop="@dimen/padding_8dp"
+    paddingRight="24dp"
+    paddingBottom="@dimen/padding_8dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    minHeight="44dp"
+    contentDescription="escapeBindEntrance"
+    paddingHorizontal="24dp"
+    paddingVertical="@dimen/padding_8dp">
+    <com.okinc.uilab.reminder.OKReminder
+        ellipsize="3"
+        id="@+id/title"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        maxLines="1"
+        layout_weight="1"
+        NOT_FOUND_0x11="@color/color_content_info_default"
+        NOT_FOUND_0x12="14sp"
+        NOT_FOUND_0x13="@null"
+        style="@style/Label_2_Bold"/>
+</LinearLayout>

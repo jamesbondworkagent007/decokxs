@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o.C55113xdn xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/loading_view"
+    tag="layout/web3_security_loading_layout_0"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginTop="92dp"
+    NOT_FOUND_0x5="true"
+    NOT_FOUND_0x6="true"/>

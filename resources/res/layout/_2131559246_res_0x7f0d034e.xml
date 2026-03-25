@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <TextView
+        textAppearance="@style/TextAppearance.Text.14SP.Regular"
+        textColor="@color/SemanticNotice"
+        gravity="0x800003"
+        id="@+id/warning_text_Tv"
+        layout_width="-1"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

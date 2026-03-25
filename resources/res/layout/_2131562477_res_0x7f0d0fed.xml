@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    id="@+id/tactics_inside_item_lly"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.C55258xgZ
+        id="@+id/hl_title"
+        visibility="0"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x6="2"
+        NOT_FOUND_0x7="@color/ContentContrast"
+        NOT_FOUND_0x8="@dimen/text_size_12sp"/>
+    <o.C55258xgZ
+        id="@+id/hl_content"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="2dp"
+        NOT_FOUND_0x6="2"
+        NOT_FOUND_0x7="@color/ContentPrimary"
+        NOT_FOUND_0x8="@dimen/text_size_16sp"
+        NOT_FOUND_0x9="500"/>
+</LinearLayout>

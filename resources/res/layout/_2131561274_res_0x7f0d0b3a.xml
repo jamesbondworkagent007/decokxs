@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    background="@drawable/_2131231251_res_0x7f080213"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/recycler"
+        paddingLeft="16dp"
+        paddingRight="16dp"
+        paddingBottom="@dimen/margin_16dp"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        paddingHorizontal="16dp"
+        NOT_FOUND_0x8="0"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xa="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

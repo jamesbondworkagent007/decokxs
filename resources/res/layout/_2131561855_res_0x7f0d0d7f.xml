@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        orientation="0"
+        id="@+id/btc_option_chain"
+        background="@drawable/_2131231239_res_0x7f080207"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginLeft="@dimen/dp24"
+        layout_marginTop="@dimen/margin_16dp"
+        layout_marginRight="@dimen/dp24"
+        minHeight="70dp"
+        layout_marginHorizontal="@dimen/dp24">
+        <ImageView
+            layout_gravity="0x10"
+            id="@+id/trade_option_t_img"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            src="@drawable/_2131234182_res_0x7f080d86"
+            layout_marginStart="@dimen/margin_10dp"/>
+        <TextView
+            textSize="@dimen/dp_16"
+            textColor="@color/okTradeG900"
+            layout_gravity="0x10"
+            id="@+id/btc_option_chain_tv"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            text="@string/pr_trade_list_text_crypto_options_chain"
+            fontFamily="@font/font_alpha_regular"
+            layout_marginStart="@dimen/margin_10dp"/>
+        <Space
+            layout_width="0dp"
+            android:layout_height="1dp"
+            layout_weight="1"/>
+        <androidx.appcompat.widget.AppCompatImageView
+            layout_gravity="0x15"
+            id="@+id/iv_right"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            src="@drawable/_2131232356_res_0x7f080664"
+            layout_marginEnd="@dimen/common_page_edge_space"
+            backgroundTint="@color/okTradeG300"
+            NOT_FOUND_0x14="@color/okTradeG300"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,1 @@
+ViewModelProvider={}function ViewModelProvider:new()local a={}setmetatable(a,self)self.__index=self;return a end;function ViewModelProvider:newInstance()if self.instance==nil then self.instance=self:new()end;return self.instance end;function ViewModelProvider:getViewModel(b,c)local d=b.viewModelMap[c]if not d then d=c()b.viewModelMap[c]=d end;return d end

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    id="@+id/dataView"
+    paddingTop="20dp"
+    paddingBottom="16dp"
+    focusable="true"
+    visibility="2"
+    clickable="true"
+    descendantFocusability="0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <View
+        id="@+id/divider2"
+        background="@color/BorderPrimary"
+        style="@style/SocialDivider"/>
+    <TextView
+        textColor="@color/ContentPrimary"
+        paddingLeft="24dp"
+        paddingTop="12dp"
+        paddingRight="24dp"
+        paddingBottom="12dp"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="20dp"
+        text="@string/pr_social_profile_header_performance_copy_trading"
+        paddingHorizontal="24dp"
+        paddingVertical="12dp"
+        style="@style/Title_2_Bold"/>
+    <o.C46465tVi
+        layout_width="-1"
+        android:layout_height="match_parent">
+        <androidx.recyclerview.widget.RecyclerView
+            id="@+id/cardsRecyclerView"
+            clipToPadding="false"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            layout_marginTop="10dp"
+            overScrollMode="2"
+            paddingStart="@dimen/margin_default"
+            paddingEnd="@dimen/margin_default"
+            nestedScrollingEnabled="false"
+            NOT_FOUND_0x17="androidx.recyclerview.widget.LinearLayoutManager"/>
+    </o.C46465tVi>
+</LinearLayout>

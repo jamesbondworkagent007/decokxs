@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/fragment_dbox_txn_list_0"
+    layout_width="-1"
+    android:layout_height="match_parent"
+    fillViewport="true"
+    overScrollMode="2"
+    requiresFadingEdge="0x2000">
+    <LinearLayout
+        orientation="1"
+        layout_width="-1"
+        android:layout_height="wrap_content">
+        <androidx.recyclerview.widget.RecyclerView
+            id="@+id/list_entrypoints"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            layout_marginTop="@dimen/xxsm"
+            layout_marginBottom="@dimen/xxsm"
+            nestedScrollingEnabled="false"
+            layout_marginVertical="@dimen/xxsm"
+            NOT_FOUND_0xf="androidx.recyclerview.widget.LinearLayoutManager"/>
+        <o.C55018xby
+            id="@+id/select_result_scenarios"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            layout_marginLeft="@dimen/xsm"
+            layout_marginTop="@dimen/xsm"
+            layout_marginRight="@dimen/xsm"
+            layout_marginHorizontal="@dimen/xsm"
+            NOT_FOUND_0x10="Detect Issue Result Scenarios (swimlane account required)"/>
+    </LinearLayout>
+</ScrollView>

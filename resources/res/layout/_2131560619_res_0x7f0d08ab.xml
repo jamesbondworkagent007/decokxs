@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginStart="-16dp"
+    layout_marginEnd="-8dp">
+    <com.okinc.uilab.item.OKRegularCell
+        id="@+id/ll_setting"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x8="@string/pr_options_charts_indicators_setting">
+        <ImageView
+            background="@drawable/_2131232356_res_0x7f080664"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            backgroundTint="@color/okTradeG900"/>
+    </com.okinc.uilab.item.OKRegularCell>
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    padding="@dimen/padding_16dp"
+    layout_width="-1"
+    android:layout_height="62dp">
+    <TextView
+        textAppearance="@style/TextAppearance.Title.16SP.Medium"
+        id="@+id/tv_coin_name"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        includeFontPadding="false"
+        layout_centerVertical="true"
+        layout_alignParentStart="true"
+        style="@style/TextAppearance.Title.16SP.Medium"/>
+    <TextView
+        textAppearance="@style/TextAppearance.Title.16SP.Medium"
+        id="@+id/tv_sub_name"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        includeFontPadding="false"
+        layout_alignBaseline="@+id/tv_coin_name"
+        layout_centerVertical="true"
+        layout_toEndOf="@+id/tv_coin_name"
+        style="@style/TextAppearance.Title.16SP.Medium"/>
+    <o.wYK
+        gravity="0x11"
+        id="@+id/checkbox"
+        focusable="false"
+        clickable="false"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_centerVertical="true"
+        layout_alignParentEnd="true"
+        NOT_FOUND_0xe="@drawable/_2131232409_res_0x7f080699"
+        NOT_FOUND_0xf="-5"/>
+</RelativeLayout>

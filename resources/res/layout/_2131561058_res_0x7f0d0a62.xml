@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <TextView
+        id="@+id/tv_all"
+        paddingLeft="@dimen/margin_default"
+        paddingTop="@dimen/ok_dp_16"
+        paddingRight="@dimen/margin_default"
+        paddingBottom="@dimen/ok_dp_16"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        text="@string/pr_trade_cedefi_select_tab_all_types"
+        paddingHorizontal="@dimen/margin_default"
+        paddingVertical="@dimen/ok_dp_16"
+        style="@style/Label_1_Regular"/>
+    <TextView
+        id="@+id/tv_buy"
+        paddingLeft="@dimen/margin_default"
+        paddingTop="@dimen/ok_dp_16"
+        paddingRight="@dimen/margin_default"
+        paddingBottom="@dimen/ok_dp_16"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        text="@string/pr_swaptrade_token_detail_textarea_buy"
+        paddingHorizontal="@dimen/margin_default"
+        paddingVertical="@dimen/ok_dp_16"
+        style="@style/Label_1_Regular"/>
+    <TextView
+        id="@+id/tv_sell"
+        paddingLeft="@dimen/margin_default"
+        paddingTop="@dimen/ok_dp_16"
+        paddingRight="@dimen/margin_default"
+        paddingBottom="@dimen/ok_dp_16"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        text="@string/pr_swaptrade_token_detail_textarea_sell"
+        paddingHorizontal="@dimen/margin_default"
+        paddingVertical="@dimen/ok_dp_16"
+        style="@style/Label_1_Regular"/>
+</LinearLayout>

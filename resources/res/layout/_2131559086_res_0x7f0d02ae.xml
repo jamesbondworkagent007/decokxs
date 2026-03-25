@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x10"
+    orientation="0"
+    tag="layout/dex_contract_transaction_swap_service_fee_0"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginLeft="@dimen/margin_24dp"
+    layout_marginTop="@dimen/margin_24dp"
+    layout_marginRight="@dimen/margin_24dp"
+    layout_marginHorizontal="@dimen/margin_24dp">
+    <o.C55258xgZ
+        textColor="@color/ContentContrast"
+        id="@+id/tv_service_fee_value_title"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        text="@string/pr_swaptrade_tee_desc_est_service_fee"
+        layout_weight="6"
+        layout_centerVertical="true"
+        layout_marginEnd="@dimen/margin_12dp"
+        NOT_FOUND_0x12="1"
+        style="@style/TextAppearance.Text.14SP.Regular"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        textAppearance="@style/TextAppearance.Text.14SP.Regular"
+        textSize="@dimen/text_size_14sp"
+        textColor="@color/ContentPrimary"
+        gravity="0x800015"
+        id="@+id/tv_service_fee_value"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_weight="4"
+        layout_centerVertical="true"
+        layout_alignParentEnd="true"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

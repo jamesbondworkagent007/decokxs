@@ -1,0 +1,290 @@
+@font-face {
+  font-display: swap;
+  font-family: OKXSans;
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/regular.otf') format("opentype")
+}
+
+@font-face {
+  font-display: swap;
+  font-family: OKXSans;
+  font-style: normal;
+  font-weight: 500;
+  src: url('fonts/medium.otf') format("opentype")
+}
+
+@font-face {
+  font-display: swap;
+  font-family: OKXSans;
+  font-style: normal;
+  font-weight: 600;
+  src: url('fonts/bold.otf') format("opentype")
+}
+
+:root {
+  --background-base-primary: #FFFFFF;
+  --background-base-secondary: #FAFAFA;
+  --content-inverse: #2c2b2b;
+  --content-primary: #000000;
+  --content-contrast: #909090;
+  --border-primary: #00000014;
+}
+
+body.dark-mode {
+    --background-base-primary: #000000;
+    --background-base-secondary: #121212;
+    --content-inverse: #000000;
+    --content-primary: #FFFFFF;
+    --content-contrast: #909090;
+    --border-primary: #FFFFFF1F;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-base-primary: #000000;
+    --background-base-secondary: #121212;
+    --content-inverse: #000000;
+    --content-primary: #FFFFFF;
+    --content-contrast: #909090;
+    --border-primary: #FFFFFF1F;
+  }
+}
+
+body {
+  font-family: "OKXSans", "apple-system", "BlinkMacSystemFont", "Helvetica Neue", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Arial", "sans-serif";
+  color: '#000000';
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 158%;
+  text-align: left;
+  white-space: normal;
+  padding: 0;
+  margin: 0;
+  background-color: var(--background-base-primary);
+  color: var(--content-primary);
+}
+
+#content {
+  padding: 0 1.5rem;
+  margin: 0;
+}
+
+/* 标题样式 */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: inherit;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  line-height: 118%;
+  font-size: 1.375rem;
+  font-weight: 700;
+}
+
+h2 {
+  line-height: 118%;
+  font-size: 1.375rem;
+  font-weight: 500;
+}
+
+h3 {
+  line-height: 140%;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+h4 {
+  line-height: 140%;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+h5 {
+  line-height: 130%;
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+
+h6 {
+  line-height: 130%;
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+
+p {
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 130%;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  letter-spacing: -0.18px;
+}
+
+a {
+  color: var(--content-primary);
+}
+
+b,
+strong {
+  font-weight: 700
+}
+
+del {
+  color: inherit;
+  text-decoration: line-through
+}
+
+ul {
+  list-style-position: inside;
+  list-style-type: disc;
+  padding-left: 0;
+}
+
+li {
+  margin-bottom: 0.5rem;
+  line-height: 1.30;
+  text-indent: 0;
+}
+
+li::marker {
+  font-size: 1.125rem;
+}
+
+ol {
+  list-style-position: inside;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ol>li {
+  counter-increment: list-item;
+  position: relative;
+  padding-left: 1.375rem;
+}
+
+ol>li::before {
+  content: counter(list-item);
+  /* 显示计数器 */
+  position: absolute;
+  left: 0;
+  font-weight: regular;
+}
+
+/* 为 pre 和 code 自定义样式 */
+pre {
+  font-size: 1.125rem;
+  line-height: 1.30;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  padding: 0 1rem;
+  border-radius: 0.75rem;
+  background-color: var(--background-base-secondary);
+  overflow: auto;
+  color: var(--content-contrast);
+  font-family: 'Courier New', Courier, monospace;
+}
+
+code {
+  padding: 0.125rem 0.3125rem;
+  border-radius: 0.2rem;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.125rem;
+  color: var(--content-contrast);
+}
+
+blockquote {
+  padding: 0 0.75rem;
+  margin: 1rem 0;
+  color: var(--content-contrast);
+  background-color: transparent;
+  border-left: 1px solid var(--content-contrast);
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  margin: 0.5rem 0;
+}
+
+td,
+th {
+  padding: 0.5rem;
+}
+
+/* Apply bottom and right borders to table cells */
+th,
+td {
+  text-align: center;
+  border-bottom: 1px solid var(--border-primary);
+  /* Bottom border */
+  border-right: 1px solid var(--border-primary);
+  /* Right border */
+  padding: 0.5rem;
+  /* Optional: Add padding for content */
+}
+
+table tr td:first-child,
+table tr th:first-child {
+  border-left: 1px solid var(--border-primary);
+}
+
+table tr th {
+  border-top: 1px solid var(--border-primary);
+}
+
+table tr:first-child th:first-child {
+  border-top-left-radius: 0.5rem;
+}
+
+table tr:first-child th:last-child {
+  border-top-right-radius: 0.5rem;
+}
+
+table tr:last-child td:first-child {
+  border-bottom-left-radius: 0.5rem;
+}
+
+table tr:last-child td:last-child {
+  border-bottom-right-radius: 0.5rem;
+}
+
+.fade-in-image {
+  opacity: 0;
+  transition: opacity .5s ease-in-out;
+}
+
+img {
+  width: 100% !important;
+  height: auto !important;
+  aspect-ratio: auto;
+  box-sizing: border-box;
+  border: 1px solid;
+  border-color: var(--border-primary);
+  border-radius: 0.75rem;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  background-color: var(--background-base-secondary);
+  object-fit: contain;
+}
+/* 允许长单词在容器边界换行 */
+* {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    -webkit-word-break: break-all;
+}
+
+/* Disalbe text selection: https://forums.developer.apple.com/forums/thread/691568*/
+* {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    user-select: none;
+}

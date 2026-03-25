@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o.wYS xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/selectItem"
+    tag="layout/trade_ui_home_strategy_filter_select_item_0"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    NOT_FOUND_0x4="-4"/>

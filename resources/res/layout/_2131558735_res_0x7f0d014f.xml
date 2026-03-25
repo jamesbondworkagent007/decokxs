@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    tag="layout/activity_wallet_manage_0"
+    background="@color/BasePrimaryAlternative"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C57591ylM
+        layout_width="-1"
+        android:layout_height="wrap_content"/>
+    <FrameLayout
+        id="@+id/walletManageContentLayout"
+        layout_width="-1"
+        android:layout_height="match_parent"/>
+</LinearLayout>

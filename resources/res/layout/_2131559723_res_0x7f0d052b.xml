@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <LinearLayout
+        orientation="0"
+        layout_width="-1"
+        android:layout_height="wrap_content">
+        <o.C55241xgI
+            id="@+id/mTlSearchTab"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            NOT_FOUND_0x8="-5"
+            NOT_FOUND_0x9="4"/>
+    </LinearLayout>
+    <o.C33542myS
+        id="@+id/mVpSearchViewpager"
+        layout_width="-1"
+        android:layout_height="0dp"
+        layout_weight="1"/>
+    <FrameLayout
+        id="@+id/chance_anim"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="wrap_content"/>
+    <FrameLayout
+        id="@+id/chance_reload_view"
+        background="@color/BasePrimary"
+        paddingTop="96dp"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

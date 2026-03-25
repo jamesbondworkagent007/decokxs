@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/category_icon"
+        tag="layout/trade_impl_view_bot_category_card_0"
+        layout_width="@dimen/width_28dp"
+        android:layout_height="28dp"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xf="0"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        textAppearance="@style/TextAppearance.Text.12SP.Regular"
+        textColor="@color/grey_g900"
+        ellipsize="3"
+        gravity="0x11"
+        id="@+id/category_name"
+        tag="layout/trade_impl_view_bot_category_card_1"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_10dp"
+        maxLines="2"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x10="@+id/category_icon"/>
+    <FrameLayout
+        id="@+id/tag_container"
+        tag="layout/trade_impl_view_bot_category_card_2"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginBottom="-12dp"
+        layout_marginStart="-10dp"
+        NOT_FOUND_0xc="@+id/category_icon"
+        NOT_FOUND_0xe="@+id/category_icon"/>
+</merge>

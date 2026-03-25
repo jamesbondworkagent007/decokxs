@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x11"
+    orientation="1"
+    id="@+id/ll_no_network"
+    background="@color/BasePrimary"
+    visibility="2"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C55173xeu
+        id="@+id/no_network"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_centerInParent="true"
+        NOT_FOUND_0x8="8"
+        NOT_FOUND_0x9="@string/pr_common_error_btn_reload"
+        NOT_FOUND_0xa="@string/pr_investhome_list_errortip_load_fail"/>
+</LinearLayout>

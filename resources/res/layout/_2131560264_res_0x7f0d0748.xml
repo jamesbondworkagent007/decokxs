@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="0"
+    paddingLeft="@dimen/margin_default"
+    paddingTop="@dimen/xxsm"
+    paddingRight="@dimen/margin_default"
+    paddingBottom="@dimen/xxsm"
+    layout_width="-1"
+    android:layout_height="match_parent"
+    paddingHorizontal="@dimen/margin_default"
+    paddingVertical="@dimen/xxsm">
+    <TextView
+        textColor="@color/ContentPrimary"
+        id="@+id/tv_title"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        text="@string/pr_supportcenter_contact_us_header_contact_us"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0x10="0"
+        style="@style/Headline_4_Bold"/>
+    <TextView
+        textColor="@color/ContentTertiary"
+        id="@+id/tv_description"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/xxsm"
+        text="@string/pr_supportcenter_contact_us_header_choose_your_preferred"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="@+id/tv_title"
+        style="@style/Label_2_Regular"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

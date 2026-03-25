@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.okinc.uilab.edit.OKEditText xmlns:android="http://schemas.android.com/apk/res/android"
+    textAppearance="@style/TextAppearance.Text.14SP.Regular"
+    textColor="@color/ContentPrimary"
+    textColorHint="@color/ContentDisabled"
+    gravity="0x800003"
+    background="@null"
+    paddingLeft="12dp"
+    paddingTop="10dp"
+    paddingRight="12dp"
+    paddingBottom="10dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    minHeight="100dp"
+    paddingHorizontal="12dp"
+    paddingVertical="10dp"/>

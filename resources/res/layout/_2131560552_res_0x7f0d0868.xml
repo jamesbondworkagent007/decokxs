@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    paddingTop="@dimen/margin_default"
+    paddingBottom="@dimen/margin_default"
+    layout_width="-2"
+    android:layout_height="wrap_content"
+    layout_marginEnd="@dimen/xxxsm"
+    paddingVertical="@dimen/margin_default">
+    <ImageView
+        id="@+id/iv_learn_earn_item"
+        layout_width="0dp"
+        android:layout_height="70dp"
+        layout_marginLeft="@dimen/margin_20dp"
+        layout_marginRight="@dimen/margin_20dp"
+        scaleType="fitStart"
+        contentDescription="@null"
+        layout_marginHorizontal="@dimen/margin_20dp"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x11="0"/>
+    <TextView
+        textColor="@color/ContentPrimary"
+        id="@+id/tv_learn_earn_item_title"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginLeft="@dimen/margin_20dp"
+        layout_marginTop="@dimen/xxxsm"
+        layout_marginRight="@dimen/margin_20dp"
+        layout_marginHorizontal="@dimen/margin_20dp"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x10="@+id/iv_learn_earn_item"
+        style="@style/Label_1_Medium"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

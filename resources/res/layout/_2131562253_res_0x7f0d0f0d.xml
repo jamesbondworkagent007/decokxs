@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    fitsSystemWindows="false"
+    layout_width="-1"
+    android:layout_height="match_parent"
+    animateLayoutChanges="false">
+    <ImageView
+        layout_gravity="0x11"
+        id="@+id/splashscreen_icon_view"
+        layout_width="?attr/splashScreenIconSize"
+        android:layout_height="?attr/splashScreenIconSize"/>
+</FrameLayout>

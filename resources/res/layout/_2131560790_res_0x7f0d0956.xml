@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x1"
+    orientation="1"
+    background="@drawable/_2131231310_res_0x7f08024e"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginLeft="16dp"
+    layout_marginTop="20dp"
+    layout_marginRight="16dp"
+    layout_marginHorizontal="16dp">
+    <ImageView
+        id="@+id/iv_icon"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="16dp"
+        src="@drawable/_2131233134_res_0x7f08096e"/>
+    <TextView
+        textSize="14sp"
+        textColor="@color/ContentPrimary"
+        id="@+id/tv_coin_symbol"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="8dp"
+        text="@string/pr_trade_premkt_header_title_stay_tuned_for_upcoming"
+        fontFamily="@font/harmony_sans_medium"
+        layout_toEndOf="@+id/iv_icon"/>
+    <TextView
+        textSize="12sp"
+        textColor="@color/ContentTertiary"
+        gravity="0x11"
+        id="@+id/tv_coin_name"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginLeft="16dp"
+        layout_marginTop="2dp"
+        layout_marginRight="16dp"
+        layout_marginBottom="24dp"
+        text="@string/pr_trade_premkt_header_desc_stay_tuned_and_avail"
+        layout_below="@+id/tv_coin_symbol"
+        fontFamily="@font/harmony_sans_regular"
+        layout_toEndOf="@+id/iv_icon"
+        layout_marginHorizontal="16dp"/>
+</LinearLayout>

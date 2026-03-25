@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.C55258xgZ
+        id="@+id/label"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        includeFontPadding="false"
+        NOT_FOUND_0x8="0"
+        NOT_FOUND_0x9="1"
+        NOT_FOUND_0xa="@color/grey_g400"
+        NOT_FOUND_0xb="@dimen/text_size_12sp"
+        NOT_FOUND_0xc="@color/grey_g400"/>
+    <TextView
+        textAppearance="@style/TextAppearance.Title.14SP.Medium"
+        id="@+id/content"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/height_2dp"
+        maxLines="2"
+        includeFontPadding="false"
+        NOT_FOUND_0x7="@+id/label"/>
+</merge>

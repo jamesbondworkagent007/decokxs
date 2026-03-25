@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <ProgressBar
+        id="@+id/progressBar"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        indeterminateTint="@color/okTradeG400"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xc="0"/>
+    <TextView
+        textAppearance="@style/Title_2_Medium"
+        id="@+id/errorMsg"
+        visibility="2"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        text="@string/pr_investhome_list_errortip_load_fail"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xc="0"/>
+    <o.C52794wYp
+        id="@+id/retryBtn"
+        visibility="2"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/ok_dp_16"
+        minWidth="200dp"
+        text="@string/pr_trade_charts_tv_downloadissue_btn_retry"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="@+id/errorMsg"
+        NOT_FOUND_0xd="36"
+        NOT_FOUND_0xe="0x102"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

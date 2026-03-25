@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o.C33546myW xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/smartRefresh"
+    tag="layout/dca_history_fragment_0"
+    paddingLeft="@dimen/margin_default"
+    paddingRight="@dimen/margin_default"
+    layout_width="-1"
+    android:layout_height="match_parent"
+    paddingHorizontal="@dimen/margin_default"
+    NOT_FOUND_0x7="false">
+    <o.C33603mza
+        layout_width="-1"
+        android:layout_height="wrap_content"/>
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/recyclerView"
+        layout_width="-1"
+        android:layout_height="match_parent"/>
+    <o.C33604mzb
+        layout_width="-1"
+        android:layout_height="wrap_content"/>
+</o.C33546myW>

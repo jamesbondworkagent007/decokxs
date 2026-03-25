@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pr_account_cedefi_tab_desc_network">
+        <item quantity="one">Aktivováno v {num} síti</item>
+        <item quantity="few">Aktivováno ve {num} sítích</item>
+        <item quantity="many">Aktivováno v {num} síti</item>
+        <item quantity="other">Aktivováno v {num} sítích</item>
+    </plurals>
+    <plurals name="pr_compliance_global_poa_label_files_uploaded">
+        <item quantity="one">Nahrán {number} soubor</item>
+        <item quantity="few">Nahrány {number} soubory</item>
+        <item quantity="many">Nahráno {number} souborů</item>
+        <item quantity="other">Nahráno {number} souborů</item>
+    </plurals>
+    <plurals name="pr_dcdbot_placeorder_toast_found_num_bot">
+        <item quantity="one">Nalezen {number} produkt pro vás</item>
+        <item quantity="few">Nalezeny {number} produkty pro vás</item>
+        <item quantity="many">Nalezeno {number} produktů pro vás</item>
+        <item quantity="other">Nalezeno {number} produktů pro vás</item>
+    </plurals>
+    <plurals name="pr_im_invite_user_dialog_text_upgrade_find_out_single_error">
+        <item quantity="one">Provedli jsme určité změny. Aktualizujte si aplikaci, abyste zjistili, proč je nebylo možné přidat.</item>
+        <item quantity="few">Provedli jsme určité změny. Aktualizujte si aplikaci, abyste zjistili, proč je nebylo možné přidat.</item>
+        <item quantity="many">Provedli jsme určité změny. Aktualizujte si aplikaci, abyste zjistili, proč je nebylo možné přidat.</item>
+        <item quantity="other">Provedli jsme určité změny. Aktualizujte si aplikaci, abyste zjistili, proč je nebylo možné přidat.</item>
+    </plurals>
+    <plurals name="pr_invest_smartmoney_mid_alert_day">
+        <item quantity="one">{num} den</item>
+        <item quantity="few">{num} dny</item>
+        <item quantity="many">{num} dnů</item>
+        <item quantity="other">{num} dnů</item>
+    </plurals>
+    <plurals name="pr_invest_smartmoney_mid_alert_hour">
+        <item quantity="one">{num} h</item>
+        <item quantity="few">{num} h</item>
+        <item quantity="many">{num} h</item>
+        <item quantity="other">{num} h</item>
+    </plurals>
+    <plurals name="pr_invest_smartmoney_mid_alert_minute">
+        <item quantity="one">{num} min</item>
+        <item quantity="few">{num} min</item>
+        <item quantity="many">{num} min</item>
+        <item quantity="other">{num} min</item>
+    </plurals>
+    <plurals name="pr_invest_smartmoney_mid_alert_second">
+        <item quantity="one">{num} s</item>
+        <item quantity="few">{num} s</item>
+        <item quantity="many">{num} s</item>
+        <item quantity="other">{num} s</item>
+    </plurals>
+    <plurals name="pr_investutxo_bot_textarea_desc_potential_risk">
+        <item quantity="one">K odemčení jste vybrali 1 UTXO. Takto přidáte {numToken}, ale také dojde ke ztrátě aktiv v tomto UTXO. Před odemčením prosím potvrďte svá aktiva.</item>
+        <item quantity="few">K odemčení jste vybrali {num} UTXO. Takto přidáte {numToken}, ale také dojde ke ztrátě aktiv v těchto UTXO. Před odemčením prosím potvrďte svá aktiva.</item>
+        <item quantity="many">K odemčení jste vybrali {num} UTXO. Takto přidáte {numToken}, ale také dojde ke ztrátě aktiv v těchto UTXO. Před odemčením prosím potvrďte svá aktiva.</item>
+        <item quantity="other">K odemčení jste vybrali {num} UTXO. Takto přidáte {numToken}, ale také dojde ke ztrátě aktiv v těchto UTXO. Před odemčením prosím potvrďte svá aktiva.</item>
+    </plurals>
+    <plurals name="pr_message_call_text_user_others_v2">
+        <item quantity="one">{user1}, {user2} a {num} další</item>
+        <item quantity="few">{user1}, {user2} a {num} další</item>
+        <item quantity="many">{user1}, {user2} a {num} dalšího</item>
+        <item quantity="other">{user1}, {user2} a {num} dalších</item>
+    </plurals>
+    <plurals name="pr_message_chat_header_num_reactions">
+        <item quantity="one">{num} reakce</item>
+        <item quantity="few">{num} reakce</item>
+        <item quantity="many">{num} reakce</item>
+        <item quantity="other">{num} reakcí</item>
+    </plurals>
+    <plurals name="pr_message_chat_label_unread_message_pl">
+        <item quantity="one">Nepřečtená zpráva</item>
+        <item quantity="few">Nepřečtené zprávy</item>
+        <item quantity="many">Nepřečtené zprávy</item>
+        <item quantity="other">Nepřečtené zprávy</item>
+    </plurals>
+    <plurals name="pr_message_competition_textarea_climbed_var_pl">
+        <item quantity="one">vystoupal o {num} místo</item>
+        <item quantity="few">vystoupal o {num} místa</item>
+        <item quantity="many">vystoupal o {num} místa</item>
+        <item quantity="other">vystoupal o {num} míst</item>
+    </plurals>
+    <plurals name="pr_message_competition_textarea_dropped_var_pl">
+        <item quantity="one">klesl o {num} místo</item>
+        <item quantity="few">klesl o {num} místa</item>
+        <item quantity="many">klesl o {num} místa</item>
+        <item quantity="other">klesl o {num} míst</item>
+    </plurals>
+    <plurals name="pr_message_competition_textarea_ends_in_num_days_var_pl">
+        <item quantity="one">{num} den</item>
+        <item quantity="few">{num} dny</item>
+        <item quantity="many">{num} dne</item>
+        <item quantity="other">{num} dní</item>
+    </plurals>
+    <plurals name="pr_message_competition_user_others_left">
+        <item quantity="one">{user} a {number} další opustili tým.</item>
+        <item quantity="few">{user} a {number} další opustili tým.</item>
+        <item quantity="many">{user} a {number} další opustili tým.</item>
+        <item quantity="other">{user} a {number} další opustilo tým.</item>
+    </plurals>
+    <plurals name="pr_message_group_admin_bulk_add_to_group_pl">
+        <item quantity="one">{user1} přidal/a do skupiny uživatele {user2} a {number} další osobu.</item>
+        <item quantity="few">{user1} přidal/a do skupiny uživatele {user2} a {number} další osoby.</item>
+        <item quantity="many">{user1} přidal/a do skupiny uživatele {user2} a {number} další osoby.</item>
+        <item quantity="other">{user1} přidal/a do skupiny uživatele {user2} a {number} dalších osob.</item>
+    </plurals>
+    <plurals name="pr_message_group_alertbanner_review_plural_key">
+        <item quantity="one">Zkontrolovat {num} žádost o připojení</item>
+        <item quantity="few">Zkontrolovat {num} žádosti o připojení</item>
+        <item quantity="many">Zkontrolovat {num} žádosti o připojení</item>
+        <item quantity="other">Zkontrolovat {num} žádostí o připojení</item>
+    </plurals>
+    <plurals name="pr_message_group_bulk_add_admin_var_pl">
+        <item quantity="one">{admin} přidal/a jako správce uživatele {members} a {number} dalšího uživatele.</item>
+        <item quantity="few">{admin} přidal/a jako správce uživatele {members} a {number} další uživatele.</item>
+        <item quantity="many">{admin} přidal/a jako správce uživatele {members} a {number} dalšího uživatele.</item>
+        <item quantity="other">{admin} přidal/a jako správce uživatele {members} a {number} dalších uživatelů.</item>
+    </plurals>
+    <plurals name="pr_message_group_bulk_add_admin_you_pl">
+        <item quantity="one">{admin} přidal/a jako správce vás a {number} další osobu.</item>
+        <item quantity="few">{admin} přidal/a jako správce vás a {number} další osoby.</item>
+        <item quantity="many">{admin} přidal/a jako správce vás a {number} další osoby.</item>
+        <item quantity="other">{admin} přidal/a jako správce vás a {number} dalších osob.</item>
+    </plurals>
+    <plurals name="pr_message_group_bulk_remove_admin_you_pl">
+        <item quantity="one">{admin1} odebral/a jako správce vás a {number} dalšího uživatele.</item>
+        <item quantity="few">{admin1} odebral/a jako správce vás a {number} další uživatele.</item>
+        <item quantity="many">{admin1} odebral/a jako správce vás a {number} dalšího uživatele.</item>
+        <item quantity="other">{admin1} odebral/a jako správce vás a {number} dalších uživatelů.</item>
+    </plurals>
+    <plurals name="pr_message_group_chat_removed_from_group_pl">
+        <item quantity="one">Odebrali jste ze skupiny uživatele {user} a {number} dalšího uživatele.</item>
+        <item quantity="few">Odebrali jste ze skupiny uživatele {user} a {number} další uživatele.</item>
+        <item quantity="many">Odebrali jste ze skupiny uživatele {user} a {number} dalšího uživatele.</item>
+        <item quantity="other">Odebrali jste ze skupiny uživatele {user} a {number} dalších uživatelů.</item>
+    </plurals>
+    <plurals name="pr_message_group_chat_removed_from_group_pl_var">
+        <item quantity="one">Správce {admin} odebral ze skupiny uživatele {user} a {number} dalšího uživatele.</item>
+        <item quantity="few">Správce {admin} odebral ze skupiny uživatele {user} a {number} další uživatele.</item>
+        <item quantity="many">Správce {admin} odebral ze skupiny uživatele {user} a {number} dalšího uživatele.</item>
+        <item quantity="other">Správce {admin} odebral ze skupiny uživatele {user} a {number} dalších uživatelů.</item>
+    </plurals>
+    <plurals name="pr_message_group_dialog_header_remove_member_pl">
+        <item quantity="one">Odebrat tohoto člena?</item>
+        <item quantity="few">Odebrat vybrané členy?</item>
+        <item quantity="many">Odebrat vybrané členy?</item>
+        <item quantity="other">Odebrat vybrané členy?</item>
+    </plurals>
+    <plurals name="pr_message_group_label_num_already_here_pl">
+        <item quantity="one">{num} z vašich kontaktů už je zde</item>
+        <item quantity="few">{num} z vašich kontaktů už jsou zde</item>
+        <item quantity="many">{num} z vašich kontaktů už je zde</item>
+        <item quantity="other">{num} z vašich kontaktů už je zde</item>
+    </plurals>
+    <plurals name="pr_message_group_textarea_bulk_remove_admin_var_pl">
+        <item quantity="one">{admin1} odebral/a jako správce uživatele {admin2} a {number} dalšího uživatele.</item>
+        <item quantity="few">{admin1} odebral/a jako správce uživatele {admin2} a {number} dalšího uživatele.</item>
+        <item quantity="many">{admin1} odebral/a jako správce uživatele {admin2} a {number} dalšího uživatele.</item>
+        <item quantity="other">{admin1} odebral/a jako správce uživatele {admin2} a {number} dalších uživatelů.</item>
+    </plurals>
+    <plurals name="pr_message_group_you_bulk_add_admin_pl">
+        <item quantity="one">Jako správce jste přidali uživatele {members} a {number} dalšího.</item>
+        <item quantity="few">Jako správce jste přidali uživatele {members} a {number} další.</item>
+        <item quantity="many">Jako správce jste přidali uživatele {members} a {number} dalšího.</item>
+        <item quantity="other">Jako správce jste přidali uživatele {members} a {number} dalších.</item>
+    </plurals>
+    <plurals name="pr_message_group_you_bulk_add_to_group_pl">
+        <item quantity="one">Do skupiny jste přidali uživatele {users} a {number} dalšího.</item>
+        <item quantity="few">Do skupiny jste přidali uživatele {users} a {number} další.</item>
+        <item quantity="many">Do skupiny jste přidali uživatele {users} a {number} dalšího.</item>
+        <item quantity="other">Do skupiny jste přidali uživatele {users} a {number} dalších.</item>
+    </plurals>
+    <plurals name="pr_message_group_you_bulk_remove_admin_pl">
+        <item quantity="one">Jako správce jste odebrali uživatele {admins} a {number} dalšího.</item>
+        <item quantity="few">Jako správce jste odebrali uživatele {admins} a {number} další.</item>
+        <item quantity="many">Jako správce jste odebrali uživatele {admins} a {number} dalšího.</item>
+        <item quantity="other">Jako správce jste odebrali uživatele {admins} a {number} dalších.</item>
+    </plurals>
+    <plurals name="pr_message_info_text_read_by_num_members">
+        <item quantity="one">Přečteno {num} členem</item>
+        <item quantity="few">Přečteno {num} členy</item>
+        <item quantity="many">Přečteno {num} člena</item>
+        <item quantity="other">Přečteno{num} členy</item>
+    </plurals>
+    <plurals name="pr_message_invite_user_dialog_text_cant_add_to_group_plural">
+        <item quantity="one">Můžou mít zapnuté nastavení ochrany soukromí nebo vás nepřidali zpět. Místo toho jsme jim poslali pozvánku.</item>
+        <item quantity="few">Můžou mít zapnuté nastavení ochrany soukromí nebo vás nepřidali zpět. Místo toho jsme jim poslali pozvánku.</item>
+        <item quantity="many">Můžou mít zapnuté nastavení ochrany soukromí nebo vás nepřidali zpět. Místo toho jsme jim poslali pozvánku.</item>
+        <item quantity="other">Můžou mít zapnuté nastavení ochrany soukromí nebo vás nepřidali zpět. Místo toho jsme jim poslali pozvánku.</item>
+    </plurals>
+    <plurals name="pr_message_notice_dialog_header_remove_num_notices_pl">
+        <item quantity="one">Odebrat {num} oznámení?</item>
+        <item quantity="few">Odebrat {num} oznámení?</item>
+        <item quantity="many">Odebrat {num} oznámení?</item>
+        <item quantity="other">Odebrat {num} oznámení?</item>
+    </plurals>
+    <plurals name="pr_message_notice_textarea_removed_notice_pl">
+        <item quantity="one">Odebrali jste oznámení.</item>
+        <item quantity="few">Odebrali jste několik oznámení.</item>
+        <item quantity="many">Odebrali jste několik oznámení.</item>
+        <item quantity="other">Odebrali jste několik oznámení.</item>
+    </plurals>
+    <plurals name="pr_message_notice_textarea_removed_notice_pl_var">
+        <item quantity="one">Uživatel {user} odebral oznámení.</item>
+        <item quantity="few">Uživatel {user} odebral několik oznámení.</item>
+        <item quantity="many">Uživatel {user} odebral několik oznámení.</item>
+        <item quantity="other">Uživatel {user} odebral několik oznámení.</item>
+    </plurals>
+    <plurals name="pr_message_notice_toast_notice_removed_pl">
+        <item quantity="one">Oznámení odebráno</item>
+        <item quantity="few">Oznámení odebrána</item>
+        <item quantity="many">Oznámení odebrána</item>
+        <item quantity="other">Oznámení odebrána</item>
+    </plurals>
+    <plurals name="pr_message_paid_group_bttmsheet_title_add_admin_pl">
+        <item quantity="one">Přidat nového správce?</item>
+        <item quantity="few">Přidat nové správce?</item>
+        <item quantity="many">Přidat nové správce?</item>
+        <item quantity="other">Přidat nové správce?</item>
+    </plurals>
+    <plurals name="pr_message_planet_label_num_members_pl">
+        <item quantity="one">{num} člen</item>
+        <item quantity="few">{num} členové</item>
+        <item quantity="many">{num} členů</item>
+        <item quantity="other">{num} členů</item>
+    </plurals>
+    <plurals name="pr_message_share_desc_msg_cant_send_pl">
+        <item quantity="one">Vámi vybraný chat nemůže přijmout vaši zprávu z následujícího důvodu:</item>
+        <item quantity="few">Vámi vybrané chaty nemohou přijmout vaši zprávu z následujících důvodů:</item>
+        <item quantity="many">Vámi vybrané chaty nemohou přijmout vaši zprávu z následujících důvodů:</item>
+        <item quantity="other">Vámi vybrané chaty nemohou přijmout vaši zprávu z následujících důvodů:</item>
+    </plurals>
+    <plurals name="pr_message_share_desc_some_cant_share_pl">
+        <item quantity="one">Jeden chat ale nemohl vaši zprávu přijmout, a to z následujícího důvodu:</item>
+        <item quantity="few">Některé chaty ale nemohly vaši zprávu přijmout, a to z následujícího důvodu:</item>
+        <item quantity="many">Některé chaty ale nemohly vaši zprávu přijmout, a to z následujícího důvodu:</item>
+        <item quantity="other">Některé chaty ale nemohly vaši zprávu přijmout, a to z následujícího důvodu:</item>
+    </plurals>
+    <plurals name="pr_message_sticker_toast_sticker_removed_pl">
+        <item quantity="one">Nálepka odebrána</item>
+        <item quantity="few">Nálepky odebrány</item>
+        <item quantity="many">Nálepky odebrány</item>
+        <item quantity="other">Nálepky odebrány</item>
+    </plurals>
+    <plurals name="pr_orbit_profile_label_followers_pl">
+        <item quantity="one">sledující</item>
+        <item quantity="few">sledující</item>
+        <item quantity="many">sledující</item>
+        <item quantity="other">sledující</item>
+    </plurals>
+    <plurals name="pr_orbit_profile_livestream_text_num_views">
+        <item quantity="one">{num} zobrazení</item>
+        <item quantity="few">{num} zobrazení</item>
+        <item quantity="many">{num} zobrazení</item>
+        <item quantity="other">{num} zobrazení</item>
+    </plurals>
+    <plurals name="pr_orbit_profile_selectioncard_label_num_groups_pl">
+        <item quantity="one">{num} skupina</item>
+        <item quantity="few">{num} skupiny</item>
+        <item quantity="many">{num} skupiny</item>
+        <item quantity="other">{num} skupin</item>
+    </plurals>
+    <plurals name="pr_social_marketplace_feeds_num_followers">
+        <item quantity="one">{num} sledující</item>
+        <item quantity="few">{num} sledující</item>
+        <item quantity="many">{num} sledujících</item>
+        <item quantity="other">{num} sledujících</item>
+    </plurals>
+    <plurals name="pr_supportcenter_card_desc_open_tickets">
+        <item quantity="one">Jeden otevřený tiket</item>
+        <item quantity="few">{number} otevřené tikety</item>
+        <item quantity="many">{number} otevřených tiketů</item>
+        <item quantity="other">{number} otevřených tiketů</item>
+    </plurals>
+    <plurals name="pr_supportcenter_landing_recommendation_cards_plu">
+        <item quantity="one">Neztrácejte to z radaru</item>
+        <item quantity="few">{number} věci, které je třeba neztratit z radaru</item>
+        <item quantity="many">{number} věci, kterou je třeba neztratit z radar</item>
+        <item quantity="other">{number} věcí, které je třeba neztratit z radaru</item>
+    </plurals>
+    <plurals name="pr_supportcenter_landing_tag_issue_count">
+        <item quantity="one">{number} problém</item>
+        <item quantity="few">{number} problémy</item>
+        <item quantity="many">{number} problému</item>
+        <item quantity="other">{number} problémů</item>
+    </plurals>
+    <plurals name="pr_swaptrade_1swap_notification_selected_pools_reselect">
+        <item quantity="one">{num} fond, který jste vybrali, aktuálně nemá žádnou likviditu. Vyberte z OKX DEX další fondy, abyste získali cenové nabídky.</item>
+        <item quantity="few">{num} fondy, které jste vybrali, aktuálně nemají žádnou likviditu. Vyberte z OKX DEX další fondy, abyste získali cenové nabídky.</item>
+        <item quantity="many">{num} fondů, které jste vybrali, aktuálně nemá žádnou likviditu. Vyberte z OKX DEX další fondy, abyste získali cenové nabídky.</item>
+        <item quantity="other">{num} fondů, které jste vybrali, aktuálně nemá žádnou likviditu. Vyberte z OKX DEX další fondy, abyste získali cenové nabídky.</item>
+    </plurals>
+    <plurals name="pr_swaptrade_address_number">
+        <item quantity="one">{num} adresa</item>
+        <item quantity="few">{num} adresy</item>
+        <item quantity="many">{num} adresy</item>
+        <item quantity="other">{num} adres</item>
+    </plurals>
+    <plurals name="pr_swaptrade_alert_toast_turned_off">
+        <item quantity="one">Odstraněno upozornění pro {num} adresu</item>
+        <item quantity="few">Odstraněna upozornění pro {num} adresy</item>
+        <item quantity="many">Odstraněna upozornění pro {num} adresy</item>
+        <item quantity="other">Odstraněna upozornění pro {num} adres</item>
+    </plurals>
+    <plurals name="pr_swaptrade_alert_toast_turned_on">
+        <item quantity="one">Přidáno upozornění pro {num} adresu</item>
+        <item quantity="few">Přidána upozornění pro {num} adresy</item>
+        <item quantity="many">Přidána upozornění pro {num} adresy</item>
+        <item quantity="other">Přidána upozornění pro {num} adres</item>
+    </plurals>
+    <plurals name="pr_swaptrade_bridge_dialog_this_transaction_requires_sign">
+        <item quantity="one">Tato transakce vyžaduje {num} podpis:</item>
+        <item quantity="few">Tato transakce vyžaduje {num} podpisy:</item>
+        <item quantity="many">Tato transakce vyžaduje {num} podpisu:</item>
+        <item quantity="other">Tato transakce vyžaduje {num} podpisů:</item>
+    </plurals>
+    <plurals name="pr_swaptrade_copytrade_30_days">
+        <item quantity="one">{num} den</item>
+        <item quantity="few">{num} dny</item>
+        <item quantity="many">{num} dne</item>
+        <item quantity="other">{num} dní</item>
+    </plurals>
+    <plurals name="pr_swaptrade_copytrade_reminder_renew_or_suspend_plural">
+        <item quantity="one">Chytrý účet expiruje za {numDays} den. Obnovte ho, aby se nepřerušilo obchodování.</item>
+        <item quantity="few">Chytrý účet expiruje za {numDays} dny. Obnovte ho, aby se nepřerušilo obchodování.</item>
+        <item quantity="many">Chytrý účet expiruje za {numDays} dne. Obnovte ho, aby se nepřerušilo obchodování.</item>
+        <item quantity="other">Chytrý účet expiruje za {numDays} dní. Obnovte ho, aby se nepřerušilo obchodování.</item>
+    </plurals>
+    <plurals name="pr_swaptrade_copytrade_status_hrs">
+        <item quantity="one">{num} h</item>
+        <item quantity="few">{num} h</item>
+        <item quantity="many">{num} h</item>
+        <item quantity="other">{num} h</item>
+    </plurals>
+    <plurals name="pr_swaptrade_copytrade_status_mins">
+        <item quantity="one">{num} min</item>
+        <item quantity="few">{num} min</item>
+        <item quantity="many">{num} min</item>
+        <item quantity="other">{num} min</item>
+    </plurals>
+    <plurals name="pr_swaptrade_header_sources_selected">
+        <item quantity="one">{num} zdroj</item>
+        <item quantity="few">{num} zdroje</item>
+        <item quantity="many">{num} zdroje</item>
+        <item quantity="other">{num} zdrojů</item>
+    </plurals>
+    <plurals name="pr_swaptrade_market_title_confirm_unfollow_all_tab_case">
+        <item quantity="one">Opravdu chcete přestat sledovat {num} adresu ze všech skupin?</item>
+        <item quantity="few">Opravdu chcete přestat sledovat {num} adresy ze všech skupin?</item>
+        <item quantity="many">Opravdu chcete přestat sledovat {num} adresy ze všech skupin?</item>
+        <item quantity="other">Opravdu chcete přestat sledovat {num} adres ze všech skupin?</item>
+    </plurals>
+    <plurals name="pr_swaptrade_market_title_total_tokens">
+        <item quantity="one">Celkem {num} token</item>
+        <item quantity="few">Celkem {num} tokeny</item>
+        <item quantity="many">Celkem {num} tokenu</item>
+        <item quantity="other">Celkem {num} tokenů</item>
+    </plurals>
+    <plurals name="pr_swaptrade_market_title_unfollow_message">
+        <item quantity="one">Opravdu chcete přestat sledovat {num} adresu z této skupiny?</item>
+        <item quantity="few">Opravdu chcete přestat sledovat {num} adresy z této skupiny?</item>
+        <item quantity="many">Opravdu chcete přestat sledovat {num} adresy z této skupiny?</item>
+        <item quantity="other">Opravdu chcete přestat sledovat {num} adres z této skupiny?</item>
+    </plurals>
+    <plurals name="pr_swaptrade_smart_account_reminder_desc_renew_smart_account_days">
+        <item quantity="one">Platnost chytrého účtu skončí za {num} den. Následně se pozastaví otevřené objednávky.</item>
+        <item quantity="few">Platnost chytrého účtu skončí za {num} dny. Následně se pozastaví otevřené objednávky.</item>
+        <item quantity="many">Platnost chytrého účtu skončí za {num} dne. Následně se pozastaví otevřené objednávky.</item>
+        <item quantity="other">Platnost chytrého účtu skončí za {num} dnů. Následně se pozastaví otevřené objednávky.</item>
+    </plurals>
+    <plurals name="pr_swaptrade_successfully_added_toast">
+        <item quantity="one">Úspěšně přesunuto do {num} skupiny</item>
+        <item quantity="few">Úspěšně přesunuto do {num} skupin</item>
+        <item quantity="many">Úspěšně přesunuto do {num} skupiny</item>
+        <item quantity="other">Úspěšně přesunuto do {num} skupin</item>
+    </plurals>
+    <plurals name="pr_swaptrade_toast_no_liquidity_provider_alert_pool">
+        <item quantity="one">Došlo u vás k přepnutí na externího poskytovatele, protože vybraný pool nemá likviditu. Znovu vyberte pool pro obchodování prostřednictvím agregátoru OKX DEX.</item>
+        <item quantity="few">Došlo u vás k přepnutí na externího poskytovatele, protože {num} vybrané pooly nemají likviditu. Znovu vyberte pool pro obchodování prostřednictvím agregátoru OKX DEX.</item>
+        <item quantity="many">Došlo u vás k přepnutí na externího poskytovatele, protože {num} vybraného poolu nemá likviditu. Znovu vyberte pool pro obchodování prostřednictvím agregátoru OKX DEX.</item>
+        <item quantity="other">Došlo u vás k přepnutí na externího poskytovatele, protože {num} vybraných poolů nemá likviditu. Znovu vyberte pool pro obchodování prostřednictvím agregátoru OKX DEX.</item>
+    </plurals>
+    <plurals name="pr_swaptrade_token_detail_label_num_txn">
+        <item quantity="one">{num} transakce</item>
+        <item quantity="few">{num} transakce</item>
+        <item quantity="many">{num} transakce</item>
+        <item quantity="other">{num} transakcí</item>
+    </plurals>
+    <plurals name="pr_swaptrade_tracker_textarea_activity">
+        <item quantity="one"># nová aktivita</item>
+        <item quantity="few"># nové aktivity</item>
+        <item quantity="many"># nové aktivity</item>
+        <item quantity="other"># nových aktivit</item>
+    </plurals>
+    <plurals name="pr_trade_analysis_header_numd_pnl">
+        <item quantity="one">{num}denní PnL</item>
+        <item quantity="few">{num}denní PnL</item>
+        <item quantity="many">{num}denní PnL</item>
+        <item quantity="other">{num}denní PnL</item>
+    </plurals>
+    <plurals name="pr_trade_card_title_cumulative_perpetual_pnl_last">
+        <item quantity="one">Kumulativní perpetuální PnL (za uplynulý {number} den)</item>
+        <item quantity="few">Kumulativní perpetuální PnL (za uplynulé {number} dny)</item>
+        <item quantity="many">Kumulativní perpetuální PnL (za uplynulých {number} dnů)</item>
+        <item quantity="other">Kumulativní perpetuální PnL (za uplynulých {number} dnů)</item>
+    </plurals>
+    <plurals name="pr_trade_card_title_top_3_contracts_last_number_days">
+        <item quantity="one">3 nejlepší futures (za poslední {number} den)</item>
+        <item quantity="few">3 nejlepší futures (za poslední {number} dny)</item>
+        <item quantity="many">3 nejlepší futures (za poslední {number} dne)</item>
+        <item quantity="other">3 nejlepší futures (za posledních {number} dní)</item>
+    </plurals>
+    <plurals name="pr_trade_card_title_top_3_long_last_number_days">
+        <item quantity="one">3 nejlepší long futures (za poslední {number} den)</item>
+        <item quantity="few">3 nejlepší long futures (za poslední {number} dny)</item>
+        <item quantity="many">3 nejlepší long futures (za poslední {number} dne)</item>
+        <item quantity="other">3 nejlepší long futures (za posledních {number} dní)</item>
+    </plurals>
+    <plurals name="pr_trade_card_title_top_3_short_last_number_days">
+        <item quantity="one">3 nejlepší short futures (za poslední {number} den)</item>
+        <item quantity="few">3 nejlepší short futures (za poslední {number} dny)</item>
+        <item quantity="many">3 nejlepší short futures (za poslední {number} dne)</item>
+        <item quantity="other">3 nejlepší short futures (za posledních {number} dní)</item>
+    </plurals>
+    <plurals name="pr_trade_charts_num_bars">
+        <item quantity="one">{num} pruh</item>
+        <item quantity="few">{num} pruhy</item>
+        <item quantity="many">{num} pruhu</item>
+        <item quantity="other">{num} pruhů</item>
+    </plurals>
+    <plurals name="pr_trade_discover_numd_ago">
+        <item quantity="one">Před {num} dnem</item>
+        <item quantity="few">Před {num} dny</item>
+        <item quantity="many">Před {num} dne</item>
+        <item quantity="other">Před {num} dny</item>
+    </plurals>
+    <plurals name="pr_trade_discover_numh_ago">
+        <item quantity="one">Před {num} h</item>
+        <item quantity="few">Před {num} h</item>
+        <item quantity="many">Před {num} h</item>
+        <item quantity="other">Před {num} h</item>
+    </plurals>
+    <plurals name="pr_trade_discover_numm_ago">
+        <item quantity="one">Před {num} min</item>
+        <item quantity="few">Před {num} min</item>
+        <item quantity="many">Před {num} min</item>
+        <item quantity="other">Před {num} min</item>
+    </plurals>
+    <plurals name="pr_trade_discover_nums_ago">
+        <item quantity="one">Před {num} s</item>
+        <item quantity="few">Před {num} s</item>
+        <item quantity="many">Před {num} s</item>
+        <item quantity="other">Před {num} s</item>
+    </plurals>
+    <plurals name="pr_trade_feed_num_answered">
+        <item quantity="one">{num} hlasoval/a</item>
+        <item quantity="few">{num} hlasovali</item>
+        <item quantity="many">{num} hlasovalo</item>
+        <item quantity="other">{num} hlasovalo</item>
+    </plurals>
+    <plurals name="pr_trade_general_timeframe_days_variable">
+        <item quantity="one">{num} den</item>
+        <item quantity="few">{num} dny</item>
+        <item quantity="many">{num} dnů</item>
+        <item quantity="other">{num} dnů</item>
+    </plurals>
+    <plurals name="pr_trade_general_timeframe_days_variable_tian">
+        <item quantity="one">{num} den</item>
+        <item quantity="few">{num} dny</item>
+        <item quantity="many">{num} dnů</item>
+        <item quantity="other">{num} dnů</item>
+    </plurals>
+    <plurals name="pr_trade_general_timeframe_hours_update">
+        <item quantity="one">{num} hodina</item>
+        <item quantity="few">{num} h</item>
+        <item quantity="many">{num} h</item>
+        <item quantity="other">{num} h</item>
+    </plurals>
+    <plurals name="pr_trade_general_timeframe_minutes_update">
+        <item quantity="one">{num} min</item>
+        <item quantity="few">{num} min</item>
+        <item quantity="many">{num} min</item>
+        <item quantity="other">{num} min</item>
+    </plurals>
+    <plurals name="pr_trade_home_desc_num_hours">
+        <item quantity="one">{num} h</item>
+        <item quantity="few">{num} h</item>
+        <item quantity="many">{num} h</item>
+        <item quantity="other">{num} h</item>
+    </plurals>
+    <plurals name="pr_trade_marketevents_header_num_related_posts">
+        <item quantity="one">{num} související příspěvek</item>
+        <item quantity="few">{num} související příspěvky</item>
+        <item quantity="many">{num} souvisejících příspěvků</item>
+        <item quantity="other">{num} souvisejících příspěvků</item>
+    </plurals>
+    <plurals name="pr_trade_marketevents_label_num_posts">
+        <item quantity="one">{num} příspěvek</item>
+        <item quantity="few">{num} příspěvky</item>
+        <item quantity="many">{num} příspěvku</item>
+        <item quantity="other">{num} příspěvků</item>
+    </plurals>
+    <plurals name="pr_trade_orbit_title_num_days">
+        <item quantity="one">{num} den</item>
+        <item quantity="few">{num} dny</item>
+        <item quantity="many">{num} dne</item>
+        <item quantity="other">{num} dní</item>
+    </plurals>
+    <plurals name="pr_trade_orbit_title_num_years">
+        <item quantity="one">{num} rok</item>
+        <item quantity="few">{num} roky</item>
+        <item quantity="many">{num} roku</item>
+        <item quantity="other">{num} let</item>
+    </plurals>
+    <plurals name="pr_trade_tokenunlocks_countdown_numd">
+        <item quantity="one">{num} den</item>
+        <item quantity="few">{num} dny</item>
+        <item quantity="many">{num} dní</item>
+        <item quantity="other">{num} dní</item>
+    </plurals>
+    <plurals name="pr_trade_tokenunlocks_num_days_ago">
+        <item quantity="one">Před {num} dnem</item>
+        <item quantity="few">Před {num} dny</item>
+        <item quantity="many">Před {num} dny</item>
+        <item quantity="other">Před {num} dny</item>
+    </plurals>
+    <plurals name="pr_wallet_approval_alert_subtitle_num_risk_new">
+        <item quantity="one">{count} riskantní schválení</item>
+        <item quantity="few">{count} riskantní schválení</item>
+        <item quantity="many">{count} riskantních schválení</item>
+        <item quantity="other">{count} riskantních schválení</item>
+    </plurals>
+    <plurals name="pr_wallet_approval_textbtn_hide_num_approval">
+        <item quantity="one">Zobrazit méně</item>
+        <item quantity="few">Zobrazit méně</item>
+        <item quantity="many">Zobrazit méně</item>
+        <item quantity="other">Zobrazit méně</item>
+    </plurals>
+    <plurals name="pr_wallet_approve_alert_risky_approvals">
+        <item quantity="one">{num} riskantní schválení</item>
+        <item quantity="few">{num} riskantní schválení</item>
+        <item quantity="many">{num} riskantních schválení</item>
+        <item quantity="other">{num} riskantních schválení</item>
+    </plurals>
+    <plurals name="pr_wallet_connection_text_num_network">
+        <item quantity="one">1 síť</item>
+        <item quantity="few">{num} sítě</item>
+        <item quantity="many">{num} sítí</item>
+        <item quantity="other">{num} sítí</item>
+    </plurals>
+    <plurals name="pr_wallet_connection_title_connected_to_num_networks">
+        <item quantity="one">Připojeno k jedné síti</item>
+        <item quantity="few">Připojeno k {num} sítím</item>
+        <item quantity="many">Připojeno k {num} sítím</item>
+        <item quantity="other">Připojeno k {num} sítím</item>
+    </plurals>
+    <plurals name="pr_wallet_function_emptystate_num_unavailable_hidden">
+        <item quantity="one">Nelze směnit {num} token.</item>
+        <item quantity="few">Nelze směnit {num} tokeny.</item>
+        <item quantity="many">Nelze směnit {num} tokenu.</item>
+        <item quantity="other">Nelze směnit {num} tokenů.</item>
+    </plurals>
+    <plurals name="pr_wallet_function_label_num_swaps">
+        <item quantity="one">{num} token</item>
+        <item quantity="few">{num} tokeny</item>
+        <item quantity="many">{num} tokenu</item>
+        <item quantity="other">{num} tokenů</item>
+    </plurals>
+    <plurals name="pr_wallet_function_notification_num_tokens_noquote">
+        <item quantity="one">Nelze směnit {num} token bez cenových nabídek.</item>
+        <item quantity="few">Nelze směnit {num} tokeny bez cenových nabídek.</item>
+        <item quantity="many">Nelze směnit {num} tokenu bez cenových nabídek.</item>
+        <item quantity="other">Nelze směnit {num} tokenů bez cenových nabídek.</item>
+    </plurals>
+    <plurals name="pr_wallet_function_notification_title_num_tokens_converted">
+        <item quantity="one">{num} převedený token</item>
+        <item quantity="few">{num} převedené tokeny</item>
+        <item quantity="many">{num} převedeného tokenu</item>
+        <item quantity="other">{num} převedených tokenů</item>
+    </plurals>
+    <plurals name="pr_wallet_function_title_converting_num_tokens">
+        <item quantity="one">Probíhá směna {num} tokenu</item>
+        <item quantity="few">Probíhá směna {num} tokenů</item>
+        <item quantity="many">Probíhá směna {num} tokenu</item>
+        <item quantity="other">Probíhá směna {num} tokenů</item>
+    </plurals>
+    <plurals name="pr_wallet_multisend_alertbanner_desc_num_address_confirm">
+        <item quantity="one">Máte {num} adresu pro příjem ke kontrole.</item>
+        <item quantity="few">Máte {num} adresy pro příjem ke kontrole.</item>
+        <item quantity="many">Máte {num} adres pro příjem ke kontrole.</item>
+        <item quantity="other">Máte {num} adres pro příjem ke kontrole.</item>
+    </plurals>
+    <plurals name="pr_wallet_multisend_input_num_transaction">
+        <item quantity="one">Zahrnuje {num} transakci.</item>
+        <item quantity="few">Zahrnuje {num} transakce.</item>
+        <item quantity="many">Zahrnuje {num} transakcí.</item>
+        <item quantity="other">Zahrnuje {num} transakcí.</item>
+    </plurals>
+    <plurals name="pr_wallet_multisend_reminder_desc_current_scenario">
+        <item quantity="one">{num} nepodporovaná peněženka byla skryta.</item>
+        <item quantity="few">{num} nepodporované peněženky byly skryty.</item>
+        <item quantity="many">{num} nepodporované peněženky bylo skryto.</item>
+        <item quantity="other">{num} nepodporovaných peněženek bylo skryto.</item>
+    </plurals>
+    <plurals name="pr_wallet_search_desc_num_assets">
+        <item quantity="one">{num} aktivum</item>
+        <item quantity="few">{num} aktiva</item>
+        <item quantity="many">{num} aktiv</item>
+        <item quantity="other">{num} aktiv</item>
+    </plurals>
+    <plurals name="pr_wallet_settings_reminder_desc_fail_check">
+        <item quantity="one">Při kontrole bylo na vašem zařízení zjištěno {num} riziko.</item>
+        <item quantity="few">Při kontrole byla na vašem zařízení zjištěna {num} rizika.</item>
+        <item quantity="many">Při kontrole byl na vašem zařízení zjištěn {num} rizik.</item>
+        <item quantity="other">Při kontrole byl na vašem zařízení zjištěn {num} rizik.</item>
+    </plurals>
+    <plurals name="pr_wallet_subtitle_non_interactive_address">
+        <item quantity="one">{count} neinteraktivní aplikace DApp</item>
+        <item quantity="few">{count} neinteraktivní aplikace DApp</item>
+        <item quantity="many">{count} neinteraktivní aplikace DApp</item>
+        <item quantity="other">{count} neinteraktivní aplikace DApp</item>
+    </plurals>
+</resources>

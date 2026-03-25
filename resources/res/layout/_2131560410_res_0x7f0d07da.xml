@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <View
+        id="@+id/divider"
+        visibility="2"
+        layout_marginTop="16dp"
+        layout_marginBottom="16dp"
+        layout_marginStart="24dp"
+        layout_marginEnd="24dp"
+        style="@style/Divider"/>
+    <TextView
+        textAppearance="@style/TextAppearance.Title.18SP.Semibold"
+        textColor="@color/ContentPrimary"
+        gravity="0x10"
+        id="@+id/tv_title"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        minHeight="48dp"
+        layout_marginStart="24dp"
+        layout_marginEnd="24dp"/>
+</LinearLayout>

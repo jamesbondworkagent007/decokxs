@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/container"
+    tag="layout/layout_item_nft_add_media_0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <ImageView
+        id="@+id/add_icon"
+        layout_width="24dp"
+        android:layout_height="24dp"
+        src="@drawable/_2131233547_res_0x7f080b0b"
+        NOT_FOUND_0xe="@+id/add_text"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x12="0"
+        NOT_FOUND_0x13="2"/>
+    <TextView
+        textSize="12sp"
+        textColor="@color/grey_g400"
+        gravity="0x11"
+        id="@+id/add_text"
+        paddingLeft="@dimen/padding_8dp"
+        paddingRight="@dimen/padding_8dp"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="8dp"
+        text="@string/pr_nftcreate_item_txtbtn_add_photos"
+        paddingHorizontal="@dimen/padding_8dp"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x11="@+id/add_icon"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

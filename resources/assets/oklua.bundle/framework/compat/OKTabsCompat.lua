@@ -1,0 +1,1 @@
+function OKTabsCompat()if OKDisplayChipGroup then return OKDisplayChipGroup()else return OKTabs()end end;function setStyle(a,b,c)if OKDisplayChipGroup then a:setStyle(c)else a:setStyle(b)end end;function setTabSize(a,d,e)if OKDisplayChipGroup then a:setTabSize(e)else a:setTabSize(d)end end

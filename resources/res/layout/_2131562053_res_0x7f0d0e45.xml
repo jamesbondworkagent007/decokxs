@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    paddingLeft="@dimen/margin_24dp"
+    paddingTop="@dimen/padding_16dp"
+    paddingRight="@dimen/margin_24dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingHorizontal="@dimen/margin_24dp">
+    <TextView
+        textAppearance="@style/Label_2_Regular"
+        textColor="@color/ContentTertiary"
+        id="@+id/tv_notification_settings_channel_title"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xa="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

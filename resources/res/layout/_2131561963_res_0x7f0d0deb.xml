@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x11"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C55173xeu
+        id="@+id/common_empty_view"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x5="9"
+        NOT_FOUND_0x6="@string/pr_general_emptystate_btn_try_again"
+        NOT_FOUND_0x7="@string/pr_general_emptystate_title_load_failed"/>
+</merge>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o.C42922rfZ xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.C41303qoK
+        id="@+id/content"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x7="0"
+        NOT_FOUND_0x8="0">
+        <androidx.recyclerview.widget.RecyclerView
+            id="@+id/recycler_view"
+            paddingLeft="@dimen/dp_24"
+            paddingRight="@dimen/dp_24"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            paddingHorizontal="@dimen/dp_24"
+            NOT_FOUND_0x6="androidx.recyclerview.widget.LinearLayoutManager"/>
+    </o.C41303qoK>
+</o.C42922rfZ>

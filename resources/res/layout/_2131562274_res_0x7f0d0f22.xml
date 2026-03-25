@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    gravity="0x11"
+    orientation="0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <View
+        id="@+id/bgLeft"
+        layout_width="6dp"
+        android:layout_height="6dp"
+        backgroundTint="?attr/graphProfit"/>
+    <TextView
+        textAppearance="@style/TextAppearance.Text.12SP"
+        textColor="@color/ContentContrast"
+        id="@+id/tvLeftTitle"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        maxWidth="150dp"
+        layout_marginStart="4dp"/>
+    <View
+        id="@+id/bgRight"
+        layout_width="6dp"
+        android:layout_height="6dp"
+        layout_marginStart="16dp"
+        backgroundTint="?attr/graphLoss"/>
+    <TextView
+        textAppearance="@style/TextAppearance.Text.12SP"
+        textColor="@color/ContentContrast"
+        id="@+id/tvRightTitle"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        maxWidth="150dp"
+        text="@string/pr_trade_top_value_basis"
+        layout_marginStart="4dp"/>
+</LinearLayout>

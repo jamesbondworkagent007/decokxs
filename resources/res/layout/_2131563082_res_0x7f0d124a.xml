@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    gravity="0x10"
+    orientation="0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <TextView
+        textColor="@color/ContentPrimary"
+        id="@+id/tv_symbol"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        text="USDT"
+        layout_weight="1"
+        style="@style/Label_2_Regular"/>
+    <LinearLayout
+        gravity="0x10"
+        orientation="0"
+        layout_width="-2"
+        android:layout_height="wrap_content">
+        <TextView
+            textColor="@color/ContentPrimary"
+            id="@+id/tv_amount"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            text="74.4"
+            style="@style/Label_2_Regular"/>
+        <TextView
+            textColor="@color/ContentContrast"
+            id="@+id/tv_usd_value"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            text="$74.67"
+            layout_marginStart="@dimen/xxxxsm"
+            style="@style/Label_2_Regular"/>
+    </LinearLayout>
+</LinearLayout>

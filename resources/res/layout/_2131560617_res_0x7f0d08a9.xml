@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="48dp">
+    <TextView
+        textSize="14sp"
+        textColor="@color/oktemp_subtitle_color"
+        gravity="0x10"
+        id="@+id/tv_title"
+        layout_width="-2"
+        android:layout_height="match_parent"
+        text="主图指标"
+        layout_marginStart="16dp"/>
+</RelativeLayout>

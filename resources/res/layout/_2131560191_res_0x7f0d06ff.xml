@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/fragment_support_search_combo_results_0"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <com.google.android.material.appbar.AppBarLayout
+        id="@+id/appBar"
+        layout_width="-1"
+        android:layout_height="wrap_content">
+        <FrameLayout
+            id="@+id/container_results_intent"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            NOT_FOUND_0x5="0x3"/>
+    </com.google.android.material.appbar.AppBarLayout>
+    <FrameLayout
+        id="@+id/container_results_search"
+        layout_width="-1"
+        android:layout_height="match_parent"
+        NOT_FOUND_0x4="@string/appbar_scrolling_view_behavior"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

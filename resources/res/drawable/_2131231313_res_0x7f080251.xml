@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item state_activated="true">
+        <shape shape="1">
+            <solid color="@color/grey_g900_dark"/>
+            <size
+                height="6dp"
+                width="6dp"/>
+            <stroke
+                width="1dp"
+                color="@color/background_lv1_dark"/>
+        </shape>
+    </item>
+    <item state_selected="true">
+        <shape shape="1">
+            <solid color="@color/positive"/>
+            <size
+                height="6dp"
+                width="6dp"/>
+            <stroke
+                width="1dp"
+                color="#fafafa"/>
+        </shape>
+    </item>
+    <item>
+        <shape shape="1">
+            <solid color="@color/critical"/>
+            <size
+                height="6dp"
+                width="6dp"/>
+            <stroke
+                width="1dp"
+                color="#fafafa"/>
+        </shape>
+    </item>
+</selector>

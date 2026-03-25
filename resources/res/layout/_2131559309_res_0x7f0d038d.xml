@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.okinc.uilab.item.OKRegularCell xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/cell"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    NOT_FOUND_0x5="item">
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/iv_selected"
+        layout_width="24dp"
+        android:layout_height="24dp"
+        src="@drawable/_2131233852_res_0x7f080c3c"
+        tint="@color/ContentBrand"/>
+</com.okinc.uilab.item.OKRegularCell>

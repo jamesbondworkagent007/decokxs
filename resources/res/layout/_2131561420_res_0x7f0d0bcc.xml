@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/layout_panel_limit_coins_0"
+    background="@color/okTradeBgLv3"
+    padding="@dimen/height_16dp"
+    paddingBottom="@dimen/padding_18dp"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <TextView
+        textAppearance="@style/TextAppearance.Silka"
+        textColor="@color/okColorG400"
+        gravity="0x10"
+        id="@+id/number"
+        layout_width="0dp"
+        android:layout_height="match_parent"
+        text=""
+        layout_marginEnd="6dp"
+        NOT_FOUND_0xd="@+id/finish"
+        NOT_FOUND_0xe="0"/>
+    <TextView
+        textColor="@color/okTradeBlack"
+        gravity="0x11"
+        id="@+id/finish"
+        layout_width="-2"
+        android:layout_height="match_parent"
+        text="@string/pr_resources_string_complete"
+        NOT_FOUND_0xc="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

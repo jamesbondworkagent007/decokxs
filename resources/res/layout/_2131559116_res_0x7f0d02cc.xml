@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <TextView
+        textColor="@color/ContentContrast"
+        id="@+id/tv_description"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xe="0"
+        style="@style/TextAppearance.Text.14SP.Regular"/>
+    <ImageView
+        id="@+id/iv_toggle_expand_collapse"
+        background="@drawable/_2131231862_res_0x7f080476"
+        layout_width="28dp"
+        android:layout_height="16dp"
+        src="@drawable/_2131231637_res_0x7f080395"
+        paddingStart="12dp"
+        backgroundTint="@color/BasePrimary"
+        NOT_FOUND_0xa="@+id/tv_description"
+        NOT_FOUND_0xb="0"/>
+    <TextView
+        textColor="@color/ContentContrast"
+        id="@+id/tv_footer"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/xxsm"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="@+id/tv_description"
+        style="@style/Label_3_Regular"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    tag="layout/item_im_moderator_invitation_receive_message_0"
+    paddingLeft="12dp"
+    paddingTop="8dp"
+    paddingRight="12dp"
+    paddingBottom="12dp"
+    layout_width="-2"
+    android:layout_height="wrap_content"
+    paddingHorizontal="12dp">
+    <TextView
+        textColor="@color/ContentTertiary"
+        ellipsize="3"
+        id="@+id/title"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginBottom="4dp"
+        text="@string/pr_orbit_live_tag_orbit_livestream"
+        maxLines="1"
+        NOT_FOUND_0x10="0"
+        style="@style/Label_3_Medium"/>
+    <TextView
+        textColor="@color/ContentPrimary"
+        ellipsize="3"
+        id="@+id/content"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginBottom="4dp"
+        text="@string/pr_orbit_live_textarea_added_as_moderator"
+        style="@style/Label_1_Medium"/>
+    <o.C52794wYp
+        id="@+id/actionBtn"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/xxxsm"
+        text="@string/pr_orbit_live_btn_join_to_moderate"
+        NOT_FOUND_0x11="32"
+        NOT_FOUND_0x12="0x103"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

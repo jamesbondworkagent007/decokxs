@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o.C55024xcD xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/section_header"
+    background="@color/background_lv1"
+    paddingTop="8dp"
+    paddingBottom="4dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingStart="0dp"
+    paddingEnd="0dp"
+    NOT_FOUND_0x8="0"/>

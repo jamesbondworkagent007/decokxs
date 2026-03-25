@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="80dp"
+    android:layout_height="36dp"
+    layout_marginEnd="@dimen/margin_8dp">
+    <androidx.appcompat.widget.AppCompatTextView
+        textColor="@color/ContentContrast"
+        gravity="0x800013"
+        id="@+id/tv_label_title"
+        layout_width="-2"
+        android:layout_height="@dimen/height_16dp"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xf="0"
+        style="@style/Label_3_Regular"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/iv_label_button"
+        visibility="2"
+        layout_width="@dimen/width_16dp"
+        android:layout_height="@dimen/height_16dp"
+        src="@drawable/_2131231649_res_0x7f0803a1"
+        tint="@color/ContentContrast"
+        layout_marginStart="@dimen/margin_2dp"
+        NOT_FOUND_0xb="@+id/tv_label_title"
+        NOT_FOUND_0xc="@+id/tv_label_title"
+        NOT_FOUND_0xf="@+id/tv_label_title"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/iv_label_icon"
+        layout_width="@dimen/width_16dp"
+        android:layout_height="@dimen/height_16dp"
+        layout_marginTop="@dimen/margin_4dp"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="@+id/tv_label_title"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        textColor="@color/ContentContrast"
+        gravity="0x800013"
+        id="@+id/tv_label_value"
+        layout_width="-2"
+        android:layout_height="@dimen/height_16dp"
+        layout_marginStart="2dp"
+        NOT_FOUND_0xb="@+id/iv_label_icon"
+        NOT_FOUND_0xc="@+id/iv_label_icon"
+        NOT_FOUND_0xf="@+id/iv_label_icon"
+        style="@style/Label_2_Medium"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/rcvCoinPair"
+        tag="layout/trade_ui_view_bot_signal_trading_pair_select_0"
+        layout_width="-1"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        gravity="0x11"
+        orientation="0"
+        id="@+id/llAddCoin"
+        tag="layout/trade_ui_view_bot_signal_trading_pair_select_1"
+        background="@drawable/_2131231146_res_0x7f0801aa"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="40dp"
+        layout_marginTop="8dp">
+        <ImageView
+            layout_width="14dp"
+            android:layout_height="14dp"
+            src="@drawable/_2131233688_res_0x7f080b98"
+            NOT_FOUND_0xd="@color/ContentContrast"/>
+        <TextView
+            textAppearance="@style/TextAppearance.Text.12SP.Regular"
+            gravity="0x11"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            text="@string/pr_signalbot_placeorder_btn_new_pair"
+            layout_marginStart="4dp"/>
+    </LinearLayout>
+</merge>

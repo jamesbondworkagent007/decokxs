@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o.C35152npt xmlns:android="http://schemas.android.com/apk/res/android"
+    id="@+id/root_layout"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/rv"
+        scrollbars="horizontal"
+        layout_width="-1"
+        android:layout_height="match_parent"
+        nestedScrollingEnabled="false"/>
+</o.C35152npt>

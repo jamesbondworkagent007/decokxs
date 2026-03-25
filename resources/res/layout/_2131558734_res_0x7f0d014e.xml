@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    background="@color/BasePrimaryAlternative"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C33537myN
+        id="@+id/app_bar"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x6="true"
+        NOT_FOUND_0x7="@drawable/_2131231642_res_0x7f08039a"/>
+    <LinearLayout
+        orientation="1"
+        layout_width="-1"
+        android:layout_height="match_parent"
+        layout_marginTop="@dimen/margin_24dp">
+        <include
+            id="@+id/cell_haptic_feedback"
+            layout="@layout/_2131562956_res_0x7f0d11cc"/>
+        <include
+            id="@+id/cell_screenshot_sharing"
+            layout="@layout/_2131562956_res_0x7f0d11cc"/>
+    </LinearLayout>
+</LinearLayout>

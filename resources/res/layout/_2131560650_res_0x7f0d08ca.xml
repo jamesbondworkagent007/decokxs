@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <View
+        background="@color/BorderPrimaryAlternative"
+        layout_width="-1"
+        android:layout_height="0.5dp"
+        layout_marginBottom="@dimen/margin_16dp"
+        alpha="0.4"/>
+    <TextView
+        textColor="@color/ContentDisabled"
+        id="@+id/tv_desc"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        style="@style/Body_2_Regular"/>
+</LinearLayout>

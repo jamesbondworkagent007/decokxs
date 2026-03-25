@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    textColor="@color/ContentPrimary"
+    ellipsize="3"
+    background="@drawable/_2131231207_res_0x7f0801e7"
+    paddingTop="7dp"
+    paddingBottom="7dp"
+    layout_width="0dp"
+    android:layout_height="wrap_content"
+    lines="1"
+    contentDescription="web3_defi_search_history_list_item"
+    paddingStart="8dp"
+    paddingEnd="8dp"
+    NOT_FOUND_0xb="1"
+    style="@style/Body_4"/>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    id="@+id/ll_boost_listed_container"
+    visibility="2"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        gravity="0x10"
+        orientation="0"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginLeft="@dimen/margin_default"
+        layout_marginRight="@dimen/margin_default"
+        layout_marginHorizontal="@dimen/margin_default">
+        <o.wYC
+            layout_gravity="0x10"
+            layout_width="@dimen/dp_14"
+            android:layout_height="@dimen/dp_14"
+            src="@drawable/_2131234290_res_0x7f080df2"
+            scaleType="7"
+            NOT_FOUND_0x10="@color/ContentBrand"/>
+        <TextView
+            textColor="@color/ContentBrand"
+            layout_gravity="0x10"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            text="@string/pr_swaptrade_home_label_okx_spot_listed"
+            layout_marginStart="@dimen/dp_4"
+            style="@style/Label_3_Regular"/>
+    </LinearLayout>
+    <o.C29020klk
+        id="@+id/carouse_token_banner"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/ok_dp_12"/>
+</LinearLayout>

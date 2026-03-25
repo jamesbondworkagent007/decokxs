@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners
+        topLeftRadius="12dp"
+        topRightRadius="12dp"/>
+    <solid color="@color/color_surface_structural_elevated_layer1"/>
+</shape>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <View
+        background="@color/okTradeG100"
+        layout_width="-1"
+        android:layout_height="0.5dp"/>
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/rcv"
+        layout_width="-1"
+        android:layout_height="match_parent"
+        layout_marginBottom="30dp"
+        overScrollMode="2"/>
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item state_selected="true">
+        <shape>
+            <corners radius="4dp"/>
+            <solid color="@color/background_lv2"/>
+            <stroke
+                width="0.5dp"
+                color="@color/okTradeG900"/>
+            <padding
+                left="0.5dp"
+                top="0.5dp"
+                right="0.5dp"
+                bottom="0.5dp"/>
+        </shape>
+    </item>
+    <item state_selected="false">
+        <shape>
+            <corners radius="4dp"/>
+            <solid color="@color/background_lv2"/>
+            <padding
+                left="0.5dp"
+                top="0.5dp"
+                right="0.5dp"
+                bottom="0.5dp"/>
+        </shape>
+    </item>
+    <item state_checked="true">
+        <shape>
+            <corners radius="4dp"/>
+            <solid color="@color/background_lv2"/>
+            <stroke
+                width="0.5dp"
+                color="@color/okTradeG900"/>
+            <padding
+                left="0.5dp"
+                top="0.5dp"
+                right="0.5dp"
+                bottom="0.5dp"/>
+        </shape>
+    </item>
+    <item state_checked="false">
+        <shape>
+            <corners radius="4dp"/>
+            <solid color="@color/background_lv2"/>
+            <padding
+                left="0.5dp"
+                top="0.5dp"
+                right="0.5dp"
+                bottom="0.5dp"/>
+        </shape>
+    </item>
+</selector>

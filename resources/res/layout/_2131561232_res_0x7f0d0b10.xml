@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    tag="layout/layout_disclaimer_sheet_0"
+    paddingLeft="@dimen/common_page_edge_space"
+    paddingTop="@dimen/common_page_edge_space"
+    paddingRight="@dimen/common_page_edge_space"
+    paddingBottom="@dimen/common_page_edge_space"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingHorizontal="@dimen/common_page_edge_space"
+    paddingVertical="@dimen/common_page_edge_space">
+    <TextView
+        textColor="@color/ContentPrimary"
+        id="@+id/tv_disclaimer_title"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        style="@style/Headline_5_Bold"/>
+    <TextView
+        textColor="@color/ContentSecondary"
+        id="@+id/tv_disclaimer_content"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_24dp"
+        style="@style/Body_2_Regular"/>
+</LinearLayout>

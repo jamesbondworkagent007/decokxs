@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    gravity="0x11"
+    orientation="0"
+    id="@+id/distribute_layout"
+    tag="layout/view_distribute_item_0"
+    layout_width="-2"
+    android:layout_height="wrap_content">
+    <View
+        id="@+id/distribute_icon"
+        background="@drawable/_2131232818_res_0x7f080832"
+        layout_width="4dp"
+        android:layout_height="4dp"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        textAppearance="@style/TextAppearance.Text.12SP.Regular"
+        textColor="@color/grey_g700"
+        id="@+id/distribute_coin"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginStart="@dimen/margin_2dp"/>
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x11"
+    orientation="1"
+    id="@+id/ll_explore_item_container"
+    paddingTop="@dimen/margin_8dp"
+    paddingBottom="@dimen/margin_8dp"
+    layout_width="0dp"
+    android:layout_height="wrap_content"
+    layout_weight="1"
+    paddingVertical="@dimen/margin_8dp">
+    <ImageView
+        id="@+id/iv_explore_icon"
+        layout_width="@dimen/dp_28"
+        android:layout_height="@dimen/dp_28"/>
+    <TextView
+        textColor="@color/ContentPrimary"
+        id="@+id/tv_explore_title"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_4dp"
+        style="@style/Label_3_Medium"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

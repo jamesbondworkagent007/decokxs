@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    fitsSystemWindows="false"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C33537myN
+        id="@+id/app_bar"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x14="KYC Compliance Mock Tool"
+        NOT_FOUND_0x15="@dimen/text_size_18sp"
+        NOT_FOUND_0x16="true"
+        NOT_FOUND_0x17="@drawable/_2131231642_res_0x7f08039a"/>
+    <ScrollView
+        layout_width="-1"
+        android:layout_height="0dp"
+        fillViewport="true"
+        layout_weight="1">
+        <LinearLayout
+            orientation="1"
+            padding="@dimen/margin_16dp"
+            layout_width="-1"
+            android:layout_height="wrap_content">
+            <TextView
+                textAppearance="@style/Label_3_Regular"
+                layout_width="-1"
+                android:layout_height="wrap_content"
+                text="Add JSON responses in the order they&apos;ll be returned. Each response will be consumed sequentially as API calls are made."/>
+            <LinearLayout
+                orientation="1"
+                id="@+id/container_mock_inputs"
+                layout_width="-1"
+                android:layout_height="wrap_content"
+                layout_marginTop="@dimen/margin_20dp"/>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        orientation="0"
+        id="@+id/bottom_button_container"
+        background="?attr/colorSurface"
+        paddingLeft="@dimen/margin_16dp"
+        paddingRight="@dimen/margin_16dp"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        elevation="8dp"
+        paddingHorizontal="@dimen/margin_16dp">
+        <o.C52794wYp
+            id="@+id/btn_clear_all"
+            layout_width="0dp"
+            android:layout_height="wrap_content"
+            layout_marginTop="@dimen/margin_16dp"
+            layout_marginBottom="@dimen/margin_16dp"
+            text="Clear All"
+            layout_weight="1"
+            layout_marginEnd="@dimen/margin_8dp"
+            layout_marginVertical="@dimen/margin_16dp"
+            NOT_FOUND_0x18="44"
+            NOT_FOUND_0x19="0x6"/>
+        <o.C52794wYp
+            enabled="false"
+            id="@+id/preview_button"
+            layout_width="0dp"
+            android:layout_height="wrap_content"
+            layout_marginTop="@dimen/margin_16dp"
+            layout_marginBottom="@dimen/margin_16dp"
+            text="Preview Flow"
+            layout_weight="2"
+            layout_marginVertical="@dimen/margin_16dp"
+            NOT_FOUND_0x18="44"
+            NOT_FOUND_0x19="0x101"/>
+    </LinearLayout>
+</LinearLayout>

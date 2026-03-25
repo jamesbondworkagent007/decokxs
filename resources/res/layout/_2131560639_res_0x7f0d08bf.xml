@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    gravity="0x800003"
+    orientation="0"
+    id="@+id/container"
+    tag="layout/item_input_verification_code_0"
+    layout_width="-1"
+    android:layout_height="wrap_content"/>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <TextView
+        textAppearance="@style/TextAppearance.Title.16SP"
+        textSize="@dimen/text_size_16sp"
+        textColor="@color/ContentContrast"
+        id="@+id/tv_invest_apr_title"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        maxLines="1"
+        drawablePadding="@dimen/padding_4dp"
+        layout_marginEnd="@dimen/margin_20dp"
+        NOT_FOUND_0xa="@color/ContentContrast"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="0"/>
+    <TextView
+        textAppearance="@style/TextAppearance.Title.16SP.Medium"
+        textSize="@dimen/text_size_16sp"
+        textColor="@color/ContentPrimary"
+        ellipsize="3"
+        id="@+id/tv_invest_apr_text"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        maxLines="1"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="1"
+        NOT_FOUND_0xd="@+id/tv_invest_apr_title"
+        NOT_FOUND_0xf="0"/>
+</merge>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    tag="layout/fragment_home_bot_square_0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.C55254xgV
+        id="@+id/botTypeTab"
+        background="@color/BasePrimary"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginStart="@dimen/xxsm"
+        NOT_FOUND_0x8="false"
+        NOT_FOUND_0x9="36"/>
+    <androidx.viewpager2.widget.ViewPager2
+        id="@+id/botTypeVp"
+        layout_width="-1"
+        android:layout_height="match_parent"
+        overScrollMode="2"/>
+</LinearLayout>

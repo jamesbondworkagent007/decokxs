@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    background="@color/BasePrimary"
+    paddingLeft="24dp"
+    paddingRight="24dp"
+    layout_width="-1"
+    android:layout_height="match_parent"
+    paddingHorizontal="24dp">
+    <o.C55113xdn
+        id="@+id/loadingView"
+        layout_width="100dp"
+        android:layout_height="100dp"
+        NOT_FOUND_0xd="@+id/loadingTitleText"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x11="0"
+        NOT_FOUND_0x12="0.45"
+        NOT_FOUND_0x13="2"/>
+    <TextView
+        textAppearance="@style/Headline_4_Bold"
+        textColor="@color/ContentPrimary"
+        gravity="0x1"
+        id="@+id/loadingTitleText"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="40dp"
+        NOT_FOUND_0xd="@+id/loadingDescText"
+        NOT_FOUND_0x10="@+id/loadingView"/>
+    <TextView
+        textAppearance="@style/Body_2_Regular"
+        textColor="@color/ContentContrast"
+        gravity="0x1"
+        id="@+id/loadingDescText"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="8dp"
+        text="@string/pr_wallet_account_cell_nav_subtitle_stay_on_page"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0x10="@+id/loadingTitleText"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

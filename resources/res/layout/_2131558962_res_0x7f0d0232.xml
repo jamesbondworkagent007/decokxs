@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/selection_content"
+    paddingBottom="20dp"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <com.okinc.uilab.list.OKAnchorSelection
+        theme="@style/OKUITheme.Alternative.Web3"
+        id="@+id/anchorSelection"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        paddingStart="8dp"
+        NOT_FOUND_0x6="1"
+        NOT_FOUND_0x7="@layout/_2131560430_res_0x7f0d07ee"/>
+</FrameLayout>

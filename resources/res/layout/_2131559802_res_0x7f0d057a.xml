@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    id="@+id/groupLayout"
+    tag="layout/fragment_bot_auto_earn_education_0"
+    paddingTop="@dimen/ok_dp_16"
+    paddingBottom="@dimen/ok_dp_16"
+    layout_width="-1"
+    android:layout_height="match_parent"
+    paddingVertical="@dimen/ok_dp_16">
+    <TextView
+        textColor="@color/ContentPrimary"
+        ellipsize="3"
+        gravity="0x800003"
+        id="@+id/titleTextView"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        paddingStart="@dimen/ok_dp_24"
+        paddingEnd="@dimen/ok_dp_24"
+        style="@style/Title_2_Bold"/>
+    <o.C55249xgQ
+        id="@+id/educationTab"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/padding_24dp"
+        layout_marginStart="@dimen/ok_dp_24"
+        layout_marginEnd="@dimen/ok_dp_24"
+        NOT_FOUND_0x11="true"
+        NOT_FOUND_0x12="-1"
+        NOT_FOUND_0x13="-4"/>
+    <androidx.viewpager2.widget.ViewPager2
+        id="@+id/educationVp2"
+        layout_width="-1"
+        android:layout_height="match_parent"
+        overScrollMode="2"/>
+</LinearLayout>

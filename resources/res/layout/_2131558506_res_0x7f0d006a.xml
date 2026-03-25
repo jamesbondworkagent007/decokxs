@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    background="@color/BasePrimaryAlternative"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C55378xin
+        id="@+id/topBar"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x5="@string/pr_wallet_popup_title_choose_network"/>
+    <com.okinc.uilab.list.OKAnchorSelection
+        id="@+id/anchorSelection"
+        layout_width="-1"
+        android:layout_height="match_parent"/>
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    tag="layout/view_kisa_permission_layout_0"
+    scrollbars="horizontal"
+    layout_width="-1"
+    android:layout_height="match_parent"
+    fillViewport="true">
+    <LinearLayout
+        orientation="1"
+        layout_width="-1"
+        android:layout_height="wrap_content">
+        <TextView
+            textColor="@color/ContentPrimary"
+            id="@+id/tv_title"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            style="@style/Headline_4_Bold"/>
+        <TextView
+            textColor="@color/ContentContrast"
+            id="@+id/tv_description"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            layout_marginTop="@dimen/margin_8dp"
+            style="@style/Body_3_Regular"/>
+        <LinearLayout
+            orientation="1"
+            id="@+id/ll_permissions_container"
+            background="@drawable/_2131231410_res_0x7f0802b2"
+            padding="@dimen/padding_24dp"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            layout_marginTop="@dimen/dp_32"
+            layout_marginBottom="@dimen/margin_16dp"/>
+    </LinearLayout>
+</ScrollView>

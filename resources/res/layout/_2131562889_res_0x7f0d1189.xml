@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    paddingTop="@dimen/margin_2dp"
+    paddingBottom="@dimen/margin_2dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    minHeight="24dp"
+    paddingVertical="@dimen/margin_2dp">
+    <FrameLayout
+        layout_gravity="0x800013"
+        tag="layout/view_simple_borrow_switch_view_0"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_weight="1">
+        <o.wYK
+            theme="@style/OKUITheme"
+            textColor="@color/ContentSecondary"
+            id="@+id/cb_box"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            NOT_FOUND_0x11="-5"/>
+        <View
+            id="@+id/view_lead_order_cover"
+            layout_width="-2"
+            android:layout_height="wrap_content"/>
+    </FrameLayout>
+    <TextView
+        textColor="@color/ContentSecondary"
+        gravity="0x10"
+        layout_gravity="0x800015"
+        id="@+id/tv_borrow_mananger"
+        tag="layout/view_simple_borrow_switch_view_1"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        text="@string/pr_trade_placeorder_manage"
+        layout_weight="0"
+        drawableEnd="@drawable/_2131231649_res_0x7f0803a1"
+        layout_marginStart="@dimen/margin_6dp"
+        drawableTint="@color/ContentContrast"
+        style="@style/TextAppearance.Text.12SP.Regular"/>
+</merge>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/view_coin_current_price_ratio_0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <TextView
+        textSize="18sp"
+        textColor="@color/ContentPrimary"
+        ellipsize="3"
+        id="@+id/tv_current_price"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        text="--"
+        maxLines="1"
+        NOT_FOUND_0xa="18sp"
+        NOT_FOUND_0xb="14sp"
+        NOT_FOUND_0xc="2sp"
+        NOT_FOUND_0xd="1"
+        NOT_FOUND_0xe="true"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x11="@+id/tv_current_ratio"
+        NOT_FOUND_0x12="0"
+        NOT_FOUND_0x13="2"
+        NOT_FOUND_0x15="0"
+        style="@style/Title_2_Medium"/>
+    <TextView
+        textSize="14sp"
+        ellipsize="3"
+        id="@+id/tv_current_ratio"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        maxLines="1"
+        layout_marginStart="8dp"
+        NOT_FOUND_0xf="@+id/tv_current_price"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x14="@+id/tv_current_price"
+        NOT_FOUND_0x16="@+id/tv_current_price"
+        style="@style/Label_2_Regular"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

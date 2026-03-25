@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o.C33546myW xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/refresh_view"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C33603mza
+        id="@+id/header"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        overScrollMode="2"/>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        id="@+id/data_container"
+        layout_width="-1"
+        android:layout_height="match_parent">
+        <androidx.recyclerview.widget.RecyclerView
+            id="@+id/rv_strategies"
+            layout_width="0dp"
+            android:layout_height="match_parent"
+            NOT_FOUND_0x7="androidx.recyclerview.widget.LinearLayoutManager"
+            NOT_FOUND_0x8="0"
+            NOT_FOUND_0x9="0"
+            NOT_FOUND_0xa="0"/>
+        <o.C55113xdn
+            layout_gravity="0x11"
+            id="@+id/center_loading"
+            visibility="2"
+            layout_width="40dp"
+            android:layout_height="40dp"
+            layout_marginTop="60dp"
+            NOT_FOUND_0x8="0"
+            NOT_FOUND_0x9="0"
+            NOT_FOUND_0xa="0"
+            NOT_FOUND_0xb="@raw/_2131886126_res_0x7f12002e"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <o.C33604mzb
+        layout_width="-1"
+        android:layout_height="wrap_content"/>
+</o.C33546myW>

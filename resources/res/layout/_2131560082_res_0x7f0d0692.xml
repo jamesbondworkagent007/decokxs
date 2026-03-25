@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    tag="layout/fragment_okw_transaction_0"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <LinearLayout
+        orientation="1"
+        id="@+id/header"
+        layout_width="-1"
+        android:layout_height="wrap_content"/>
+    <androidx.core.widget.NestedScrollView
+        scrollbars="horizontal"
+        layout_width="-1"
+        android:layout_height="0dp"
+        layout_weight="1"
+        overScrollMode="2">
+        <LinearLayout
+            orientation="1"
+            id="@+id/ll_content"
+            paddingBottom="16dp"
+            layout_width="-1"
+            android:layout_height="wrap_content"/>
+    </androidx.core.widget.NestedScrollView>
+    <LinearLayout
+        orientation="1"
+        id="@+id/footer"
+        layout_width="-1"
+        android:layout_height="wrap_content"/>
+    <o.C57468yiw
+        id="@+id/button_group"
+        layout_width="-1"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

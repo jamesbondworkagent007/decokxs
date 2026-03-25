@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    id="@+id/ll_status"
+    layout_width="-1"
+    android:layout_height="match_parent"
+    NOT_FOUND_0x5="0">
+    <o.C57591ylM
+        id="@+id/status_bar_coin_detail"
+        layout_width="-1"
+        android:layout_height="0dp"/>
+    <FrameLayout
+        orientation="1"
+        id="@+id/container_market_detail_ac"
+        layout_width="-1"
+        android:layout_height="0dp"
+        layout_weight="1"/>
+</LinearLayout>

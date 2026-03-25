@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    gravity="0x11"
+    layout_gravity="0x11"
+    orientation="1"
+    tag="layout/fragment_app_gone_update_0"
+    background="@drawable/_2131231443_res_0x7f0802d3"
+    padding="@dimen/padding_24dp"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <ImageView
+        background="@drawable/_2131233089_res_0x7f080941"
+        layout_width="-2"
+        android:layout_height="wrap_content"/>
+    <TextView
+        gravity="0x11"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="10dp"
+        text="@string/pr_appupdate_alert_latestversion"
+        style="@style/TextAppearance.White.16SP"/>
+    <TextView
+        textSize="@dimen/text_size_12sp"
+        textColor="#a6ffffff"
+        id="@+id/update_version_code"
+        tag="binding_1"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="2dp"/>
+</LinearLayout>

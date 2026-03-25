@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/dialog_fragment_multipl_rpc_url_choose_0"
+    paddingLeft="@dimen/margin_24dp"
+    paddingRight="@dimen/margin_24dp"
+    paddingBottom="@dimen/padding_20dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingHorizontal="@dimen/margin_24dp">
+    <TextView
+        textAppearance="@style/Label_1_Regular"
+        textSize="14sp"
+        textColor="@color/ContentContrast"
+        id="@+id/tvSubtitle"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_16dp"
+        text="@string/pr_wallet_rpc_desc_select_rpc"
+        NOT_FOUND_0xe="true"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x11="0"
+        NOT_FOUND_0x13="0"/>
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/rvContent"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_16dp"
+        NOT_FOUND_0xd="androidx.recyclerview.widget.LinearLayoutManager"
+        NOT_FOUND_0xf="true"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x11="0"
+        NOT_FOUND_0x12="@+id/tvSubtitle"/>
+    <o.C52794wYp
+        id="@+id/btnOk"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="48dp"
+        text="@string/pr_wallet_switch_btn_ok"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x11="0"
+        NOT_FOUND_0x12="@+id/rvContent"
+        NOT_FOUND_0x14="44"
+        NOT_FOUND_0x15="0x101"
+        style="@style/TextAppearance.Title.16SP.Semibold"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

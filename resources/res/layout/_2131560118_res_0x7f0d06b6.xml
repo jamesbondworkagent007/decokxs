@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o.C55178xez xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/result_page"
+    tag="layout/fragment_rating_submit_success_0"
+    layout_width="-1"
+    android:layout_height="match_parent"
+    NOT_FOUND_0x4="@string/pr_myfeedback_mid_subtitle_desc_appreciate_feedback"
+    NOT_FOUND_0x5="@string/pr_myfeedback_mid_title_submitted"
+    NOT_FOUND_0x6="4"/>

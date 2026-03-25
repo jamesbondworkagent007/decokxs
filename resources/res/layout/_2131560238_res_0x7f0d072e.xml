@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/fragment_wallet_recently_removed_coin_0"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C55230xfy
+        theme="@style/OKUITheme.Alternative.Web3"
+        id="@+id/searchBar"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginLeft="24dp"
+        layout_marginTop="10dp"
+        layout_marginRight="24dp"
+        hint="@string/pr_commonall_search_fieldtext_search"
+        layout_marginHorizontal="24dp"
+        NOT_FOUND_0x14="0"
+        NOT_FOUND_0x16="0"
+        NOT_FOUND_0x17="true"
+        NOT_FOUND_0x18="-3"/>
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/recyclerView"
+        scrollbars="horizontal"
+        layout_width="-1"
+        android:layout_height="0dp"
+        layout_marginTop="8dp"
+        overScrollMode="2"
+        NOT_FOUND_0x12="0"
+        NOT_FOUND_0x13="0"
+        NOT_FOUND_0x14="0"
+        NOT_FOUND_0x15="@+id/searchBar"/>
+    <o.C55173xeu
+        id="@+id/emptyLayout"
+        paddingLeft="16dp"
+        paddingRight="16dp"
+        visibility="2"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginBottom="16dp"
+        paddingHorizontal="16dp"
+        NOT_FOUND_0x11="7"
+        NOT_FOUND_0x12="0"
+        NOT_FOUND_0x13="0"
+        NOT_FOUND_0x14="0"
+        NOT_FOUND_0x15="@+id/searchBar"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

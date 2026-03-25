@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item state_selected="true">
+        <shape shape="0">
+            <solid color="@color/grey_g900"/>
+            <corners radius="60dp"/>
+        </shape>
+    </item>
+    <item>
+        <shape shape="0">
+            <solid color="@color/color_surface_structural_elevated_default"/>
+            <corners radius="60dp"/>
+        </shape>
+    </item>
+</selector>

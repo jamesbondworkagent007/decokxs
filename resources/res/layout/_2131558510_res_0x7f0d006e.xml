@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    tag="layout/activity_debug_event_detail_0"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <com.google.android.material.appbar.MaterialToolbar
+        id="@+id/toolbar"
+        layout_width="-1"
+        android:layout_height="?android:attr/actionBarSize"
+        NOT_FOUND_0xa="@drawable/_2131232347_res_0x7f08065b"
+        NOT_FOUND_0xb="Event detail"
+        NOT_FOUND_0xc="@style/TextAppearance.Title.20SP.Medium"/>
+    <TextView
+        textAppearance="@style/TextAppearance.Title.16SP.Semibold"
+        id="@+id/event_name"
+        padding="@dimen/padding_8dp"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        text="Event name: "/>
+    <TextView
+        textAppearance="@style/TextAppearance.Title.16SP.Medium"
+        id="@+id/event_channel"
+        padding="@dimen/padding_8dp"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        text="Event channel: "/>
+    <TextView
+        textAppearance="@style/TextAppearance.Title.16SP.Medium"
+        id="@+id/event_state"
+        padding="@dimen/padding_8dp"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        text="Event state: "/>
+    <TextView
+        textAppearance="@style/TextAppearance.Title.16SP.Medium"
+        id="@+id/event_parameters"
+        padding="@dimen/padding_8dp"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        text="Event parameters: "/>
+    <o.C5474Td
+        id="@+id/parameters_value"
+        background="@drawable/_2131234454_res_0x7f080e96"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_margin="@dimen/margin_16dp"/>
+</LinearLayout>

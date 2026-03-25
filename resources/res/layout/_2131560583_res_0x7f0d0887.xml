@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    gravity="0x10"
+    orientation="0"
+    id="@+id/item_layout"
+    tag="layout/item_im_highlight_setting_item_0"
+    background="?attr/selectableItemBackground"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    minHeight="50dp"
+    paddingStart="@dimen/common_page_edge_space"
+    paddingEnd="@dimen/common_page_edge_space">
+    <TextView
+        textColor="@color/SemanticNegative"
+        id="@+id/tv_title"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        style="@style/Label_1_Regular"/>
+</LinearLayout>

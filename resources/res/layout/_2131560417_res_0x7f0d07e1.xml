@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginLeft="@dimen/im_page_margin"
+    layout_marginRight="@dimen/im_page_margin"
+    layout_marginBottom="@dimen/margin_12dp"
+    layout_marginHorizontal="@dimen/im_page_margin">
+    <TextView
+        textColor="@color/ContentPrimary"
+        id="@+id/tv_section_header"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xd="@+id/see_all"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="0"
+        style="@style/Title_2_Bold"/>
+    <TextView
+        textColor="@color/ContentContrast"
+        id="@+id/see_all"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        text="@string/pr_message_planet_btn_see_all"
+        paddingEnd="@dimen/xxsm"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xd="@+id/tv_more"
+        NOT_FOUND_0xf="0"
+        style="@style/Label_2_Regular"/>
+    <ImageView
+        id="@+id/tv_more"
+        layout_width="20dp"
+        android:layout_height="20dp"
+        src="@drawable/_2131233513_res_0x7f080ae9"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x10="@color/ContentContrast"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

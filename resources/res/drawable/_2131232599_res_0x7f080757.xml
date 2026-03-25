@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape shape="1">
+            <solid color="@color/SurfacePrimary"/>
+            <size
+                height="48dp"
+                width="48dp"/>
+        </shape>
+    </item>
+    <item
+        gravity="0x11"
+        height="24dp"
+        width="24dp"
+        drawable="@drawable/_2131231735_res_0x7f0803f7"/>
+</layer-list>

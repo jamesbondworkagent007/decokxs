@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    tag="layout/ac_share_api_test_0"
+    fitsSystemWindows="true"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <com.google.android.material.appbar.AppBarLayout
+        id="@+id/appbar_layout"
+        background="@color/BackgroundLv1"
+        layout_width="-1"
+        android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar
+            id="@+id/toolbar"
+            background="@color/BackgroundLv1"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            text="Share API Test"/>
+    </com.google.android.material.appbar.AppBarLayout>
+    <com.google.android.material.tabs.TabLayout
+        id="@+id/tabs_layout"
+        layout_width="-1"
+        android:layout_height="wrap_content"/>
+    <androidx.viewpager.widget.ViewPager
+        id="@+id/vp_apis"
+        layout_width="-1"
+        android:layout_height="match_parent"/>
+</LinearLayout>

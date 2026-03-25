@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    gravity="0x10"
+    layout_width="-2"
+    android:layout_height="wrap_content">
+    <ImageView
+        layout_gravity="0x10"
+        id="@+id/iv_invest_risk_icon"
+        layout_width="@dimen/ok_dp_16"
+        android:layout_height="@dimen/ok_dp_16"
+        src="@drawable/_2131232676_res_0x7f0807a4"/>
+    <TextView
+        textSize="@dimen/sp_14"
+        textColor="@color/ContentPrimary"
+        layout_gravity="0x10"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        text="@string/pr_invest_placeorder_label_zap"
+        layout_marginStart="2dp"
+        style="@style/Label_2_Regular"/>
+    <o.C55239xgG
+        layout_gravity="0x10"
+        id="@+id/zapSwitch"
+        layout_width="@dimen/width_28dp"
+        android:layout_height="@dimen/height_16dp"
+        contentDescription="invest_v3_zap_switch"
+        layout_marginStart="@dimen/margin_8dp"/>
+</merge>

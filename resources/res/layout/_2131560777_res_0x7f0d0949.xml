@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    id="@+id/infoItem"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <TextView
+        textSize="@dimen/font_16"
+        textColor="@color/title_color"
+        id="@+id/tv_title"
+        paddingTop="5dp"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        text="title"/>
+    <TextView
+        textSize="@dimen/font_14"
+        textColor="@color/title_color"
+        id="@+id/tv_info"
+        paddingBottom="5dp"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        text="info"
+        textIsSelectable="true"/>
+</LinearLayout>

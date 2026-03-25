@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <ImageView
+        id="@+id/iv_style"
+        clickable="false"
+        layout_width="20dp"
+        android:layout_height="20dp"
+        layout_marginEnd="8dp"/>
+    <o.C57486yjN
+        id="@+id/tv_body"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="wrap_content"/>
+</merge>

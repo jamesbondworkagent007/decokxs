@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.gUB
+        id="@+id/ll_strategies"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginLeft="@dimen/margin_24dp"
+        layout_marginRight="@dimen/margin_24dp"
+        layout_marginHorizontal="@dimen/margin_24dp"/>
+    <TextView
+        textAppearance="@style/Label_3_Regular"
+        textColor="@color/SemanticNegative"
+        id="@+id/tv_error_message"
+        visibility="2"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginLeft="24dp"
+        layout_marginTop="@dimen/xxxsm"
+        layout_marginRight="24dp"
+        text="@string/pr_swaptrade_tee_error_fill_in_sell_parameters"
+        layout_marginHorizontal="24dp"/>
+    <TextView
+        textAppearance="@style/Label_2_Medium"
+        textColor="@color/ContentPrimary"
+        gravity="0x10"
+        id="@+id/btn_add_strategy"
+        background="@drawable/_2131231848_res_0x7f080468"
+        paddingLeft="@dimen/padding_20dp"
+        paddingTop="@dimen/padding_8dp"
+        paddingRight="@dimen/padding_20dp"
+        paddingBottom="@dimen/padding_8dp"
+        layout_width="-2"
+        android:layout_height="@dimen/height_36dp"
+        text="@string/pr_swaptrade_tee_btn_add_trigger"
+        drawablePadding="@dimen/padding_8dp"
+        layout_marginStart="@dimen/margin_4dp"
+        paddingHorizontal="@dimen/padding_20dp"
+        paddingVertical="@dimen/padding_8dp"
+        NOT_FOUND_0x16="@color/ContentPrimary"/>
+</merge>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    paddingLeft="24dp"
+    paddingRight="24dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingHorizontal="24dp">
+    <TextView
+        textSize="@dimen/text_size_16sp"
+        textColor="@color/ContentPrimary"
+        gravity="0x10"
+        id="@+id/tvRecommendTitle"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_12dp"
+        layout_marginBottom="@dimen/margin_4dp"
+        NOT_FOUND_0xd="@color/SemanticNegative"
+        NOT_FOUND_0xe="true"
+        NOT_FOUND_0xf="true"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x12="@+id/ivIcon"
+        NOT_FOUND_0x13="0"
+        NOT_FOUND_0x14="2"
+        NOT_FOUND_0x16="0"
+        NOT_FOUND_0x17="0"
+        style="@style/TextAppearance.Bold"/>
+    <ImageView
+        id="@+id/ivIcon"
+        layout_width="@dimen/width_20dp"
+        android:layout_height="@dimen/width_20dp"
+        src="@drawable/_2131232239_res_0x7f0805ef"
+        layout_marginStart="@dimen/margin_4dp"
+        NOT_FOUND_0x10="@+id/tvRecommendTitle"
+        NOT_FOUND_0x11="0"
+        NOT_FOUND_0x13="0"
+        NOT_FOUND_0x14="2"
+        NOT_FOUND_0x15="@+id/tvRecommendTitle"
+        NOT_FOUND_0x17="@+id/tvRecommendTitle"
+        NOT_FOUND_0x18="@color/SemanticNegative"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

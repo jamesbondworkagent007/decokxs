@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    background="@color/BasePrimary"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C54990xbW
+        id="@+id/filter"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x5="@dimen/margin_10dp"/>
+</LinearLayout>

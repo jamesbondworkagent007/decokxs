@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <View style="@style/WidgetDivisionLine.Margin"/>
+    <TextView
+        textAppearance="@style/TextAppearance.Text.14SP"
+        gravity="0x11"
+        id="@+id/tv_more"
+        background="?attr/selectableItemBackground"
+        paddingTop="14dp"
+        paddingBottom="14dp"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        text="@string/pr_fundingacct_link_viewmore"
+        paddingVertical="14dp"/>
+</LinearLayout>

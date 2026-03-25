@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <androidx.constraintlayout.widget.Group
+        id="@+id/header"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0xb="title,close"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        textAppearance="@style/OKTextFont.Regular"
+        textSize="16sp"
+        textColor="@color/color_content_static_subtle"
+        id="@+id/description"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginLeft="?attr/horizontalPaddingDimension"
+        layout_marginTop="16dp"
+        layout_marginRight="?attr/horizontalPaddingDimension"
+        layout_marginHorizontal="?attr/horizontalPaddingDimension"
+        NOT_FOUND_0xc="@+id/title"
+        NOT_FOUND_0xd="16dp"
+        NOT_FOUND_0xe="24sp"/>
+    <o.wYK
+        gravity="0x800003"
+        id="@+id/checkbox"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginLeft="?attr/horizontalPaddingDimension"
+        layout_marginTop="40dp"
+        layout_marginRight="?attr/horizontalPaddingDimension"
+        layout_marginHorizontal="?attr/horizontalPaddingDimension"
+        NOT_FOUND_0xc="@+id/description"
+        NOT_FOUND_0xf="-4"/>
+</merge>

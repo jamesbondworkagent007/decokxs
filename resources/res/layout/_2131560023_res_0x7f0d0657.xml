@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    id="@+id/ll_setting_fibo"
+    tag="layout/fragment_kline_right_fibo_0"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <TextView
+        textSize="@dimen/text_size_18sp"
+        textStyle="0x1"
+        textColor="@color/grey_g900"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_12dp"
+        layout_marginBottom="12dp"
+        text="@string/pr_trade_drawings_fib_retrace"
+        layout_marginStart="@dimen/margin_16dp"/>
+    <TextView
+        textSize="@dimen/text_size_12sp"
+        textColor="@color/grey_g400"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_12dp"
+        layout_marginBottom="12dp"
+        text="@string/pr_trade_drawings_levels_prices"
+        layout_marginStart="@dimen/margin_16dp"/>
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/rv_fibo"
+        scrollbars="0x200"
+        layout_width="-1"
+        android:layout_height="0dp"
+        layout_weight="1"/>
+    <o.C52794wYp
+        textSize="@dimen/text_size_16sp"
+        gravity="0x11"
+        id="@+id/btn_fibo_sure"
+        layout_width="-1"
+        android:layout_height="44dp"
+        layout_marginLeft="@dimen/margin_16dp"
+        layout_marginRight="@dimen/margin_16dp"
+        layout_marginBottom="@dimen/margin_20dp"
+        text="@string/pr_trade_drawings_confirm"
+        layout_marginHorizontal="@dimen/margin_16dp"
+        NOT_FOUND_0x12="44"
+        NOT_FOUND_0x13="0x101"/>
+</LinearLayout>

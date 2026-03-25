@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/view_invest_detail_item_0"
+    background="@drawable/_2131231143_res_0x7f0801a7"
+    paddingLeft="@dimen/padding_12dp"
+    paddingTop="@dimen/padding_10dp"
+    paddingRight="@dimen/padding_12dp"
+    paddingBottom="@dimen/padding_10dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingHorizontal="@dimen/padding_12dp"
+    paddingVertical="@dimen/padding_10dp">
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/invest_icon"
+        layout_width="@dimen/width_16dp"
+        android:layout_height="@dimen/height_16dp"
+        NOT_FOUND_0xf="@+id/invest_coin_name"
+        NOT_FOUND_0x12="0"
+        NOT_FOUND_0x14="@+id/invest_coin_name"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        textAppearance="@style/TextAppearance.Text.14SP.Medium"
+        textColor="@color/grey_g700"
+        id="@+id/invest_coin_name"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginStart="@dimen/margin_4dp"
+        NOT_FOUND_0x11="@+id/invest_icon"
+        NOT_FOUND_0x14="0"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        textAppearance="@style/TextAppearance.Text.14SP.Medium"
+        textColor="@color/grey_g900"
+        id="@+id/total_invest"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x14="0"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        textAppearance="@style/TextAppearance.Text.12SP.Regular"
+        textColor="@color/grey_g400"
+        id="@+id/invest_coin_detail"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_2dp"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x13="@+id/total_invest"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/activity_defi_wallet_custom_tx_detail_transaction_item_0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        orientation="0"
+        id="@+id/ll_title"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x12="0">
+        <TextView
+            textAppearance="@style/Label_2_Regular"
+            textColor="@color/ContentContrast"
+            id="@+id/tv_title"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            text="@string/pr_metax_detail_title_transation_data"/>
+        <androidx.appcompat.widget.AppCompatImageView
+            layout_gravity="0x10"
+            id="@+id/iv_arrow"
+            layout_width="@dimen/width_16dp"
+            android:layout_height="@dimen/height_16dp"
+            src="@drawable/_2131231637_res_0x7f080395"
+            tint="@color/ContentContrast"
+            layout_marginStart="@dimen/margin_4dp"/>
+    </LinearLayout>
+    <TextView
+        textAppearance="@style/Label_1_Regular"
+        textColor="@color/grey_g900"
+        id="@+id/tv_transaction_data"
+        visibility="2"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_4dp"
+        breakStrategy="0"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x10="@+id/ll_title"
+        NOT_FOUND_0x11="@+id/ll_title"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

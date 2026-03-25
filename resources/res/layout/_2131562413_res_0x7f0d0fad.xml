@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.AppCompatTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    textAppearance="@style/TextAppearance.Text.14SP.Regular"
+    textColor="@color/grey_g500"
+    id="@+id/desc"
+    tag="layout/trade_impl_smart_iceberg_explain_0"
+    paddingLeft="@dimen/padding_16dp"
+    paddingTop="@dimen/padding_20dp"
+    paddingRight="@dimen/padding_16dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    text="@string/pr_spotbot_placeorder_iconmodal_start_cond"
+    lineSpacingExtra="@dimen/dp_4"
+    paddingHorizontal="@dimen/padding_16dp"
+    lineHeight="20dp"/>

@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pr_account_cedefi_tab_desc_network">
+        <item quantity="one">Aktiverad på {num} nätverk</item>
+        <item quantity="other">Aktiverad på {num} nätverk</item>
+    </plurals>
+    <plurals name="pr_compliance_global_poa_label_files_uploaded">
+        <item quantity="one">{number} fil uppladdad</item>
+        <item quantity="other">{number} filer uppladdade</item>
+    </plurals>
+    <plurals name="pr_dcdbot_placeorder_toast_found_num_bot">
+        <item quantity="one">Hittade {number} produkt åt dig</item>
+        <item quantity="other">Hittade {number} produkter åt dig</item>
+    </plurals>
+    <plurals name="pr_im_invite_user_dialog_text_upgrade_find_out_single_error">
+        <item quantity="one">Vi har gjort några ändringar. Uppdatera din app för att se varför de inte kunde läggas till.</item>
+        <item quantity="other">Vi har gjort några ändringar. Uppdatera din app för att se varför de inte kunde läggas till.</item>
+    </plurals>
+    <plurals name="pr_invest_smartmoney_mid_alert_day">
+        <item quantity="one">{num} dag</item>
+        <item quantity="other">{num} dagar</item>
+    </plurals>
+    <plurals name="pr_invest_smartmoney_mid_alert_hour">
+        <item quantity="one">{num} timme</item>
+        <item quantity="other">{num} timmar</item>
+    </plurals>
+    <plurals name="pr_invest_smartmoney_mid_alert_minute">
+        <item quantity="one">{num} minut</item>
+        <item quantity="other">{num} minuter</item>
+    </plurals>
+    <plurals name="pr_invest_smartmoney_mid_alert_second">
+        <item quantity="one">{num}# sekund</item>
+        <item quantity="other">{num} sekunder</item>
+    </plurals>
+    <plurals name="pr_investutxo_bot_textarea_desc_potential_risk">
+        <item quantity="one">Du har valt 1 UTXO att låsa upp. Detta kommer att lägga till {numToken}, men kan också leda till förlust av tillgångar i denna UTXO. Kontrollera dina tillgångar innan du låser upp.</item>
+        <item quantity="other">Du har valt {num} UTXO:er att låsa upp. Detta kommer att lägga till {numToken}, men kan också leda till förlust av tillgångar i dessa UTXO:er. Kontrollera dina tillgångar innan du låser upp.</item>
+    </plurals>
+    <plurals name="pr_message_call_text_user_others_v2">
+        <item quantity="one">{user1}, {user2} och {num} annan</item>
+        <item quantity="other">{user1}, {user2} och {num} andra</item>
+    </plurals>
+    <plurals name="pr_message_chat_header_num_reactions">
+        <item quantity="one">{num} reaktion</item>
+        <item quantity="other">{num} reaktioner</item>
+    </plurals>
+    <plurals name="pr_message_chat_label_unread_message_pl">
+        <item quantity="one">Oläst meddelande</item>
+        <item quantity="other">Olästa meddelanden</item>
+    </plurals>
+    <plurals name="pr_message_competition_textarea_climbed_var_pl">
+        <item quantity="one">klättrade {num} placering</item>
+        <item quantity="other">klättrade {num} placeringar</item>
+    </plurals>
+    <plurals name="pr_message_competition_textarea_dropped_var_pl">
+        <item quantity="one">tappade {num} placering</item>
+        <item quantity="other">tappade {num} placeringar</item>
+    </plurals>
+    <plurals name="pr_message_competition_textarea_ends_in_num_days_var_pl">
+        <item quantity="one">{num} dag</item>
+        <item quantity="other">{num} dagar</item>
+    </plurals>
+    <plurals name="pr_message_competition_user_others_left">
+        <item quantity="one">{user} och {number} till har lämnat teamet.</item>
+        <item quantity="other">{user} och {number} andra har lämnat teamet.</item>
+    </plurals>
+    <plurals name="pr_message_group_admin_bulk_add_to_group_pl">
+        <item quantity="one">{user1} lade till {user2} och {number} annan till gruppen.</item>
+        <item quantity="other">{user1} lade till {user2} och {number} andra till gruppen.</item>
+    </plurals>
+    <plurals name="pr_message_group_alertbanner_review_plural_key">
+        <item quantity="one">Granska {num} begäran om att gå med</item>
+        <item quantity="other">Granska {num} begäranden om att gå med</item>
+    </plurals>
+    <plurals name="pr_message_group_bulk_add_admin_var_pl">
+        <item quantity="one">{admin} lade till {members} och {number} annan som administratör.</item>
+        <item quantity="other">{admin} lade till {members} och {number} andra som administratörer.</item>
+    </plurals>
+    <plurals name="pr_message_group_bulk_add_admin_you_pl">
+        <item quantity="one">{admin} lade till dig och {number} annan som administratör.</item>
+        <item quantity="other">{admin} lade till dig och {number} andra som administratörer.</item>
+    </plurals>
+    <plurals name="pr_message_group_bulk_remove_admin_you_pl">
+        <item quantity="one">{admin1} tog bort dig och {number} annan som administratör.</item>
+        <item quantity="other">{admin1} tog bort dig och {number} andra som administratörer.</item>
+    </plurals>
+    <plurals name="pr_message_group_chat_removed_from_group_pl">
+        <item quantity="one">Du har tagit bort {user} och {number} person till från gruppen.</item>
+        <item quantity="other">Du har tagit bort {user} och {number} andra från gruppen.</item>
+    </plurals>
+    <plurals name="pr_message_group_chat_removed_from_group_pl_var">
+        <item quantity="one">{admin} tog bort {user} och {number} person till från gruppen.</item>
+        <item quantity="other">{admin} tog bort {user} och {number} andra från gruppen.</item>
+    </plurals>
+    <plurals name="pr_message_group_dialog_header_remove_member_pl">
+        <item quantity="one">Ta bort denna medlem?</item>
+        <item quantity="other">Ta bort valda medlemmar?</item>
+    </plurals>
+    <plurals name="pr_message_group_label_num_already_here_pl">
+        <item quantity="one">{num} av dina kontakter finns redan här</item>
+        <item quantity="other">{num} av dina kontakter finns redan här</item>
+    </plurals>
+    <plurals name="pr_message_group_textarea_bulk_remove_admin_var_pl">
+        <item quantity="one">{admin1} tog bort {admin2} och {number} annan som administratör.</item>
+        <item quantity="other">{admin1} tog bort {admin2} och {number} andra som administratörer.</item>
+    </plurals>
+    <plurals name="pr_message_group_you_bulk_add_admin_pl">
+        <item quantity="one">Du lade till {members} och {number} annan som administratör.</item>
+        <item quantity="other">Du lade till {members} och {number} andra som administratörer.</item>
+    </plurals>
+    <plurals name="pr_message_group_you_bulk_add_to_group_pl">
+        <item quantity="one">Du lade till {users} och {number} annan till gruppen.</item>
+        <item quantity="other">Du lade till {users} och {number} andra till gruppen.</item>
+    </plurals>
+    <plurals name="pr_message_group_you_bulk_remove_admin_pl">
+        <item quantity="one">Du har tagit bort {admins} och ytterligare {number} person som administratörer.</item>
+        <item quantity="other">Du har tagit bort {admins} och ytterligare {number} personer som administratörer.</item>
+    </plurals>
+    <plurals name="pr_message_info_text_read_by_num_members">
+        <item quantity="one">Läst av {num} medlem</item>
+        <item quantity="other">Läst av {num} medlemmar</item>
+    </plurals>
+    <plurals name="pr_message_invite_user_dialog_text_cant_add_to_group_plural">
+        <item quantity="one">De kanske har integritetsinställningar på eller inte har lagt till dig igen. Vi har skickat en inbjudan istället till dem.</item>
+        <item quantity="other">De kanske har integritetsinställningar på, eller så har de inte lagt till dig igen. Vi har hoppade över en inbjudan istället.</item>
+    </plurals>
+    <plurals name="pr_message_notice_dialog_header_remove_num_notices_pl">
+        <item quantity="one">Ta bort {num} meddelande?</item>
+        <item quantity="other">Ta bort {num} meddelanden?</item>
+    </plurals>
+    <plurals name="pr_message_notice_textarea_removed_notice_pl">
+        <item quantity="one">Du har tagit bort ett meddelande.</item>
+        <item quantity="other">Du har tagit bort flera meddelanden.</item>
+    </plurals>
+    <plurals name="pr_message_notice_textarea_removed_notice_pl_var">
+        <item quantity="one">{user} tog bort ett meddelande.</item>
+        <item quantity="other">{user} tog bort flera meddelanden.</item>
+    </plurals>
+    <plurals name="pr_message_notice_toast_notice_removed_pl">
+        <item quantity="one">Meddelande borttaget</item>
+        <item quantity="other">Meddelanden borttagna</item>
+    </plurals>
+    <plurals name="pr_message_paid_group_bttmsheet_title_add_admin_pl">
+        <item quantity="one">Lägg till ny administratör?</item>
+        <item quantity="other">Lägg till nya administratörer?</item>
+    </plurals>
+    <plurals name="pr_message_planet_label_num_members_pl">
+        <item quantity="one">{num} medlem</item>
+        <item quantity="other">{num} medlemmar</item>
+    </plurals>
+    <plurals name="pr_message_share_desc_msg_cant_send_pl">
+        <item quantity="one">Din valda chatt kan inte ta emot ditt meddelande av följande skäl:</item>
+        <item quantity="other">Dina valda chattar kan inte ta emot ditt meddelande av följande skäl:</item>
+    </plurals>
+    <plurals name="pr_message_share_desc_some_cant_share_pl">
+        <item quantity="one">En chatt kunde dock inte ta emot ditt meddelande av följande skäl:</item>
+        <item quantity="other">Vissa chattar kunde dock inte ta emot ditt meddelande av följande skäl:</item>
+    </plurals>
+    <plurals name="pr_message_sticker_toast_sticker_removed_pl">
+        <item quantity="one">Etiketten borttagen</item>
+        <item quantity="other">Etiketterna borttagna</item>
+    </plurals>
+    <plurals name="pr_orbit_profile_label_followers_pl">
+        <item quantity="one">följare</item>
+        <item quantity="other">följare</item>
+    </plurals>
+    <plurals name="pr_orbit_profile_livestream_text_num_views">
+        <item quantity="one">{num} visning</item>
+        <item quantity="other">{num} visningar</item>
+    </plurals>
+    <plurals name="pr_orbit_profile_selectioncard_label_num_groups_pl">
+        <item quantity="one">{num} grupp</item>
+        <item quantity="other">{num} grupper</item>
+    </plurals>
+    <plurals name="pr_social_marketplace_feeds_num_followers">
+        <item quantity="one">{num} följare</item>
+        <item quantity="other">{num} följare</item>
+    </plurals>
+    <plurals name="pr_supportcenter_landing_recommendation_cards_plu">
+        <item quantity="one">Håll koll på detta</item>
+        <item quantity="other">{number} saker att hålla koll på</item>
+    </plurals>
+    <plurals name="pr_supportcenter_landing_tag_issue_count">
+        <item quantity="one">{number} problem</item>
+        <item quantity="other">{number} problem</item>
+    </plurals>
+    <plurals name="pr_swaptrade_1swap_notification_selected_pools_reselect">
+        <item quantity="one">Den pool du valde har för närvarande ingen likviditet. Välj fler pooler från OKX DEX för att få priser.</item>
+        <item quantity="other">De {num} poolerna du valde har för närvarande ingen likviditet. Välj fler pooler från OKX DEX för att få priser.</item>
+    </plurals>
+    <plurals name="pr_swaptrade_address_number">
+        <item quantity="one">{num} adress</item>
+        <item quantity="other">{num} adresser</item>
+    </plurals>
+    <plurals name="pr_swaptrade_alert_toast_turned_off">
+        <item quantity="one">Raderade aviseringar för {num} adress</item>
+        <item quantity="other">Raderade aviseringar för {num} adresser</item>
+    </plurals>
+    <plurals name="pr_swaptrade_alert_toast_turned_on">
+        <item quantity="one">Avisering har lagts till för {num} adress</item>
+        <item quantity="other">Avisering har lagts till för {num} adresser</item>
+    </plurals>
+    <plurals name="pr_swaptrade_bridge_dialog_this_transaction_requires_sign">
+        <item quantity="one">Denna transaktion kräver {num} signatur:</item>
+        <item quantity="other">Denna transaktion kräver {num} signaturer:</item>
+    </plurals>
+    <plurals name="pr_swaptrade_copytrade_30_days">
+        <item quantity="one">{num} dag</item>
+        <item quantity="other">{num} dagar</item>
+    </plurals>
+    <plurals name="pr_swaptrade_copytrade_reminder_renew_or_suspend_plural">
+        <item quantity="one">Smart-kontot löper ut om {numDays} dag. Förnya för att undvika avbrott i handeln.</item>
+        <item quantity="other">Smart-kontot löper ut om {numDays} dagar. Förnya för att undvika avbrott i handeln.</item>
+    </plurals>
+    <plurals name="pr_swaptrade_copytrade_status_hrs">
+        <item quantity="one">{num} timme</item>
+        <item quantity="other">{num} timmar</item>
+    </plurals>
+    <plurals name="pr_swaptrade_copytrade_status_mins">
+        <item quantity="one">{num} min</item>
+        <item quantity="other">{num} minuter</item>
+    </plurals>
+    <plurals name="pr_swaptrade_header_sources_selected">
+        <item quantity="one">{num} källa</item>
+        <item quantity="other">{num} källor</item>
+    </plurals>
+    <plurals name="pr_swaptrade_market_title_confirm_unfollow_all_tab_case">
+        <item quantity="one">Är du säker på att du vill sluta följa {num} adress från alla grupper?</item>
+        <item quantity="other">Är du säker på att du vill sluta följa {num} adresser från alla grupp?</item>
+    </plurals>
+    <plurals name="pr_swaptrade_market_title_total_tokens">
+        <item quantity="one">Totalt {num} token</item>
+        <item quantity="other">Totalt {num} tokens</item>
+    </plurals>
+    <plurals name="pr_swaptrade_market_title_unfollow_message">
+        <item quantity="one">Är du säker på att du vill sluta följa {num} adress från denna grupp?</item>
+        <item quantity="other">Är du säker på att du vill sluta följa {num} adresser från denna grupp?</item>
+    </plurals>
+    <plurals name="pr_swaptrade_smart_account_reminder_desc_renew_smart_account_days">
+        <item quantity="one">Smart-kontot upphör att gälla om {num} dag. Öppna ordrar avbryts när det upphör att gälla.</item>
+        <item quantity="other">Smart-kontot upphör att gälla om {num} dagar. Öppna ordrar avbryts när det upphör att gälla.</item>
+    </plurals>
+    <plurals name="pr_swaptrade_successfully_added_toast">
+        <item quantity="one">Har flyttats till {num} grupp</item>
+        <item quantity="other">Har flyttats till {num} grupper</item>
+    </plurals>
+    <plurals name="pr_swaptrade_toast_no_liquidity_provider_alert_pool">
+        <item quantity="one">Du har växlats över till en tredjepartsleverantör eftersom den valda poolen saknar likviditet. Välj en annan pool för att handla via OKX DEX-aggregatorn.</item>
+        <item quantity="other">Du har växlats över till en tredjepartsleverantör eftersom {num} valda pooler saknar likviditet. Välj poolerna igen för att handla via OKX DEX-aggregatorn.</item>
+    </plurals>
+    <plurals name="pr_swaptrade_token_detail_label_num_txn">
+        <item quantity="one">{num} txn</item>
+        <item quantity="other">{num} txns</item>
+    </plurals>
+    <plurals name="pr_swaptrade_tracker_textarea_activity">
+        <item quantity="one"># ny aktivitet</item>
+        <item quantity="other"># nya aktiviteter</item>
+    </plurals>
+    <plurals name="pr_trade_analysis_header_numd_pnl">
+        <item quantity="one">{num}D PnL</item>
+        <item quantity="other">{num}D PnL</item>
+    </plurals>
+    <plurals name="pr_trade_card_title_cumulative_perpetual_pnl_last">
+        <item quantity="one">Terminshandels-PnL (sista {number}dagen)</item>
+        <item quantity="other">Terminshandels-PnL (sista {number}dagarna)</item>
+    </plurals>
+    <plurals name="pr_trade_card_title_top_3_contracts_last_number_days">
+        <item quantity="one">Topp 3 terminer (senaste {number} dagen)</item>
+        <item quantity="other">Topp 3 terminskontrakt (senaste {number} dagarna)</item>
+    </plurals>
+    <plurals name="pr_trade_card_title_top_3_long_last_number_days">
+        <item quantity="one">Topp 3 långa terminer (senaste {number} dagen)</item>
+        <item quantity="other">Topp 3 långa terminer (senaste {number} dagarna)</item>
+    </plurals>
+    <plurals name="pr_trade_card_title_top_3_short_last_number_days">
+        <item quantity="one">Topp 3 korta terminer (senaste {number} dagen)</item>
+        <item quantity="other">Topp 3 korta terminer (senaste {number} dagarna)</item>
+    </plurals>
+    <plurals name="pr_trade_charts_num_bars">
+        <item quantity="one">{num} bar</item>
+        <item quantity="other">{num} bars</item>
+    </plurals>
+    <plurals name="pr_trade_discover_numd_ago">
+        <item quantity="one">{num}d sedan</item>
+        <item quantity="other">{num}d sedan</item>
+    </plurals>
+    <plurals name="pr_trade_discover_numh_ago">
+        <item quantity="one">{num}t sedan</item>
+        <item quantity="other">{num}t sedan</item>
+    </plurals>
+    <plurals name="pr_trade_discover_numm_ago">
+        <item quantity="one">{num}m sedan</item>
+        <item quantity="other">{num}m sedan</item>
+    </plurals>
+    <plurals name="pr_trade_discover_nums_ago">
+        <item quantity="one">{num}s sedan</item>
+        <item quantity="other">{num}s sedan</item>
+    </plurals>
+    <plurals name="pr_trade_feed_num_answered">
+        <item quantity="one">{num} röstade</item>
+        <item quantity="other">{num} röstade</item>
+    </plurals>
+    <plurals name="pr_trade_general_timeframe_days_variable">
+        <item quantity="one">{num} dag</item>
+        <item quantity="other">{num} dagar</item>
+    </plurals>
+    <plurals name="pr_trade_general_timeframe_days_variable_tian">
+        <item quantity="one">{num} dag</item>
+        <item quantity="other">{num} dagar</item>
+    </plurals>
+    <plurals name="pr_trade_general_timeframe_hours_update">
+        <item quantity="one">{num} timme</item>
+        <item quantity="other">{num} timmar</item>
+    </plurals>
+    <plurals name="pr_trade_general_timeframe_minutes_update">
+        <item quantity="one">{num} minut</item>
+        <item quantity="other">{num} minuter</item>
+    </plurals>
+    <plurals name="pr_trade_home_desc_num_hours">
+        <item quantity="one">{num} timme</item>
+        <item quantity="other">{num} timmar</item>
+    </plurals>
+    <plurals name="pr_trade_marketevents_header_num_related_posts">
+        <item quantity="one">{num} relaterat inlägg</item>
+        <item quantity="other">{num} relaterade inlägg</item>
+    </plurals>
+    <plurals name="pr_trade_marketevents_label_num_posts">
+        <item quantity="one">{num} inlägg</item>
+        <item quantity="other">{num} inlägg</item>
+    </plurals>
+    <plurals name="pr_trade_orbit_title_num_days">
+        <item quantity="one">{num} dag</item>
+        <item quantity="other">{num} dagar</item>
+    </plurals>
+    <plurals name="pr_trade_orbit_title_num_years">
+        <item quantity="one">{num} år</item>
+        <item quantity="other">{num} år</item>
+    </plurals>
+    <plurals name="pr_trade_tokenunlocks_countdown_numd">
+        <item quantity="one">{num}D</item>
+        <item quantity="other">{num}D</item>
+    </plurals>
+    <plurals name="pr_trade_tokenunlocks_num_days_ago">
+        <item quantity="one">{num} dag sedan</item>
+        <item quantity="other">{num} dagar sedan</item>
+    </plurals>
+    <plurals name="pr_wallet_approval_alert_subtitle_num_risk_new">
+        <item quantity="one">{count} riskabelt godkännande</item>
+        <item quantity="other">{count} riskabla godkännanden</item>
+    </plurals>
+    <plurals name="pr_wallet_approval_textbtn_hide_num_approval">
+        <item quantity="one">Visa mindre</item>
+        <item quantity="other">Visa mindre</item>
+    </plurals>
+    <plurals name="pr_wallet_approve_alert_risky_approvals">
+        <item quantity="one">{num} riskfyllt godkännande</item>
+        <item quantity="other">{num} riskfyllda godkännanden</item>
+    </plurals>
+    <plurals name="pr_wallet_connection_text_num_network">
+        <item quantity="one">1 nätverk</item>
+        <item quantity="other">{num} nätverk</item>
+    </plurals>
+    <plurals name="pr_wallet_connection_title_connected_to_num_networks">
+        <item quantity="one">Ansluten till ett nätverk</item>
+        <item quantity="other">Ansluten till {num} nätverk</item>
+    </plurals>
+    <plurals name="pr_wallet_function_emptystate_num_unavailable_hidden">
+        <item quantity="one">Kan inte konvertera {num} token.</item>
+        <item quantity="other">Kan inte konvertera {num} tokens.</item>
+    </plurals>
+    <plurals name="pr_wallet_function_label_num_swaps">
+        <item quantity="one">{num} token</item>
+        <item quantity="other">{num} tokens</item>
+    </plurals>
+    <plurals name="pr_wallet_function_notification_num_tokens_noquote">
+        <item quantity="one">Kan inte konvertera {num} token utan prisuppgifter.</item>
+        <item quantity="other">Kan inte konvertera {num} tokens utan prisuppgifter.</item>
+    </plurals>
+    <plurals name="pr_wallet_function_notification_title_num_tokens_converted">
+        <item quantity="one">{num} token konverterad</item>
+        <item quantity="other">{num} tokens konverterade</item>
+    </plurals>
+    <plurals name="pr_wallet_function_title_converting_num_tokens">
+        <item quantity="one">Konverterar {num} token</item>
+        <item quantity="other">Konverterar {num} tokens</item>
+    </plurals>
+    <plurals name="pr_wallet_multisend_alertbanner_desc_num_address_confirm">
+        <item quantity="one">Du har {num} mottagande adress att kontrollera</item>
+        <item quantity="other">Du har {num} mottagande adresser att kontrollera</item>
+    </plurals>
+    <plurals name="pr_wallet_multisend_input_num_transaction">
+        <item quantity="one">Inkluderar {num} transaktion</item>
+        <item quantity="other">Inkluderar {num} transaktioner</item>
+    </plurals>
+    <plurals name="pr_wallet_multisend_reminder_desc_current_scenario">
+        <item quantity="one">{num} icke stödd plånbok har dolts.</item>
+        <item quantity="other">{num} icke-stödda plånböcker har dolts.</item>
+    </plurals>
+    <plurals name="pr_wallet_search_desc_num_assets">
+        <item quantity="one">{num} tillgång</item>
+        <item quantity="other">{num} tillgångar</item>
+    </plurals>
+    <plurals name="pr_wallet_settings_reminder_desc_fail_check">
+        <item quantity="one">Skanningen har hittat {num} risk på din enhet.</item>
+        <item quantity="other">Skanningen har hittat {num} risker på din enhet.</item>
+    </plurals>
+    <plurals name="pr_wallet_subtitle_non_interactive_address">
+        <item quantity="one">{count} icke-interaktiv DApp</item>
+        <item quantity="other">{count} icke-interaktiva DAppar</item>
+    </plurals>
+</resources>

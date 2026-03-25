@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <ImageView
+        layout_gravity="0x11"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        src="@drawable/_2131232285_res_0x7f08061d"/>
+</FrameLayout>

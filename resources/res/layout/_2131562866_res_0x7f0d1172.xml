@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    focusable="true"
+    clickable="true"
+    layout_width="-2"
+    android:layout_height="wrap_content">
+    <ImageView
+        id="@+id/starLayer"
+        focusable="false"
+        clickable="false"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        src="@drawable/_2131232819_res_0x7f080833"
+        scaleType="7"
+        importantForAccessibility="2"/>
+    <com.airbnb.lottie.LottieAnimationView
+        id="@+id/star"
+        focusable="false"
+        clickable="false"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        scaleType="7"
+        NOT_FOUND_0x8="false"
+        NOT_FOUND_0x9="@android:color/transparent"
+        NOT_FOUND_0xa="support_rating_star.lottie"
+        NOT_FOUND_0xb="false"/>
+</FrameLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <root-path
+        name="ext_sd"
+        path="/storage/"/>
+    <external-cache-path
+        name="share"
+        path="share/"/>
+    <external-path
+        name="download"
+        path="Download/"/>
+    <external-cache-path
+        name="crop"
+        path="crop/"/>
+    <cache-path
+        name="tmp"
+        path="/"/>
+</paths>

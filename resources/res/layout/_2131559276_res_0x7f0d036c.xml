@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x10"
+    orientation="0"
+    paddingTop="20dp"
+    paddingBottom="20dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginStart="@dimen/xsm"
+    paddingVertical="20dp">
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/iv_chain_logo"
+        layout_width="32dp"
+        android:layout_height="32dp"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        textColor="@color/ContentPrimary"
+        id="@+id/tv_chain_name"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_weight="1"
+        layout_marginStart="@dimen/xxsm"
+        style="@style/Label_1_Medium"/>
+    <o.wYC
+        id="@+id/ic_selected"
+        visibility="2"
+        layout_width="24dp"
+        android:layout_height="24dp"
+        layout_marginStart="@dimen/xxsm"
+        NOT_FOUND_0xc="@drawable/_2131232885_res_0x7f080875"
+        NOT_FOUND_0xd="@color/ContentPrimary"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

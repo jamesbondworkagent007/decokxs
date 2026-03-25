@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o.wYK xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    textColor="@color/ContentSecondary"
+    id="@+id/chk_upload_agreement"
+    tag="layout/item_upload_log_checkbox_0"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginLeft="@dimen/margin_default"
+    layout_marginRight="@dimen/margin_default"
+    layout_marginHorizontal="@dimen/margin_default"
+    NOT_FOUND_0x8="-4"
+    style="@style/Body_3_Regular"/>

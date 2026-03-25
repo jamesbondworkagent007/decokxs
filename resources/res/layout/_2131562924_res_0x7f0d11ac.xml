@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    paddingTop="@dimen/margin_2dp"
+    paddingBottom="@dimen/margin_2dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    minHeight="24dp"
+    paddingVertical="@dimen/margin_2dp">
+    <TextView
+        textColor="@color/ContentContrast"
+        id="@+id/trade_with_title_tv"
+        tag="layout/view_trade_with_switch_view_0"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_centerVertical="true"
+        layout_alignParentStart="true"
+        style="@style/TextAppearance.Text.12SP.Regular"/>
+    <LinearLayout
+        gravity="0x10"
+        orientation="0"
+        tag="layout/view_trade_with_switch_view_1"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_alignParentEnd="true">
+        <TextView
+            textAppearance="@style/TextAppearance.Text.12SP"
+            textColor="@color/ContentPrimary"
+            ellipsize="3"
+            id="@+id/trade_with_text_tv"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            maxLines="1"
+            style="@style/TextAppearance.Text.12SP.Regular"/>
+        <ImageView
+            id="@+id/trade_with_iv_arrow"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            src="@drawable/_2131231589_res_0x7f080365"/>
+        <androidx.appcompat.widget.AppCompatImageView
+            id="@+id/arrow_icon"
+            visibility="2"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            src="@drawable/_2131231649_res_0x7f0803a1"
+            NOT_FOUND_0x13="@color/ContentPrimary"/>
+    </LinearLayout>
+</merge>

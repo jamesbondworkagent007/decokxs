@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/fragment_search_result_0"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C33546myW
+        id="@+id/smartRefreshLayout"
+        layout_width="-1"
+        android:layout_height="0dp"
+        layout_marginTop="@dimen/margin_16dp"
+        NOT_FOUND_0x7="0"
+        NOT_FOUND_0x8="0"
+        NOT_FOUND_0x9="true"
+        NOT_FOUND_0xa="false">
+        <androidx.recyclerview.widget.RecyclerView
+            orientation="1"
+            id="@+id/searchResultListView"
+            layout_width="-1"
+            android:layout_height="match_parent"
+            NOT_FOUND_0x6="androidx.recyclerview.widget.LinearLayoutManager"/>
+        <o.C33604mzb
+            id="@+id/refreshFooter"
+            layout_width="-1"
+            android:layout_height="wrap_content"/>
+    </o.C33546myW>
+</androidx.constraintlayout.widget.ConstraintLayout>

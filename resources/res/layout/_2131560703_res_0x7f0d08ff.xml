@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x11"
+    orientation="0"
+    paddingTop="@dimen/padding_18dp"
+    paddingBottom="@dimen/padding_18dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingVertical="@dimen/padding_18dp">
+    <o.C55258xgZ
+        id="@+id/segment_title"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_weight="1"
+        NOT_FOUND_0xf="@color/ContentPrimary"
+        NOT_FOUND_0x10="@dimen/text_size_16sp"
+        NOT_FOUND_0x11="@style/TextAppearance.Text"
+        NOT_FOUND_0x12="400"/>
+    <FrameLayout
+        id="@+id/setting_color_layout"
+        background="@drawable/_2131231014_res_0x7f080126"
+        visibility="2"
+        layout_width="@dimen/width_32dp"
+        android:layout_height="@dimen/height_32dp"
+        layout_marginStart="@dimen/margin_14dp"
+        layout_marginEnd="@dimen/margin_18dp">
+        <androidx.appcompat.widget.AppCompatImageView
+            layout_gravity="0x11"
+            id="@+id/setting_color_choose"
+            background="@drawable/_2131231224_res_0x7f0801f8"
+            layout_width="@dimen/width_20dp"
+            android:layout_height="@dimen/width_20dp"/>
+    </FrameLayout>
+    <o.C55249xgQ
+        layout_gravity="0x10"
+        id="@+id/setting_segment"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0xe="false"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

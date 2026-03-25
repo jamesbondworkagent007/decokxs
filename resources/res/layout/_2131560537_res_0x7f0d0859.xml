@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    background="@drawable/_2131231483_res_0x7f0802fb"
+    padding="@dimen/dp_8"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    backgroundTint="@color/ContainerSecondary">
+    <TextView
+        textAppearance="@style/TextAppearance.Text.14SP.Medium"
+        textColor="@color/ContentPrimary"
+        id="@+id/tv_path"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_margin="@dimen/dp_4"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xb="0"/>
+    <TextView
+        textColor="@color/ContentPrimary"
+        id="@+id/tv_url"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_margin="@dimen/dp_4"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xa="@+id/tv_path"/>
+    <TextView
+        textColor="@color/ContentPrimary"
+        id="@+id/tv_deeplink"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_margin="@dimen/dp_4"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xa="@+id/tv_url"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

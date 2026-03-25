@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/group_list"
+        paddingTop="@dimen/padding_12dp"
+        paddingBottom="@dimen/padding_32dp"
+        scrollbars="horizontal"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        overScrollMode="2"/>
+    <o.C55173xeu
+        id="@+id/error_view"
+        visibility="2"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x8="8"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="@string/pr_trade_mid_emptystate_desc_cant_load_desc"
+        NOT_FOUND_0xe="@string/pr_trade_mid_emptystate_btn_reload"
+        NOT_FOUND_0xf="@string/pr_trade_header_emptystate_title_something_wrong"/>
+    <o.C55113xdn
+        id="@+id/loading_view"
+        visibility="0"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="0"/>
+</merge>

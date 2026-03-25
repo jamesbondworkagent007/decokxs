@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    tag="layout/trade_impl_bot_guide_smart_portfolio_desc_0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.C55258xgZ
+        id="@+id/title"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        text="@string/pr_trade_bot_nav_title_what_is_smart_portfolio"
+        NOT_FOUND_0xa="2"
+        NOT_FOUND_0xb="@color/ContentPrimary"
+        NOT_FOUND_0xc="@dimen/text_size_18sp"
+        NOT_FOUND_0xd="700"/>
+    <o.C55258xgZ
+        id="@+id/tvDesc"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_16dp"
+        text="@string/pr_trade_bot_nav_desc_smart_portfolio_is_the"
+        NOT_FOUND_0xa="2"
+        NOT_FOUND_0xb="@color/ContentTertiary"
+        NOT_FOUND_0xc="@dimen/text_size_14sp"
+        NOT_FOUND_0xd="400"/>
+    <ImageView
+        id="@+id/ivDesc"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_8dp"
+        src="@drawable/_2131234160_res_0x7f080d70"
+        scaleType="fillCenter"
+        adjustViewBounds="true"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

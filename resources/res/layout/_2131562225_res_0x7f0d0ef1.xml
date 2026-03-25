@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    gravity="0x10"
+    orientation="0"
+    layout_width="-2"
+    android:layout_height="wrap_content"
+    layout_marginBottom="@dimen/margin_12dp"
+    paddingEnd="@dimen/margin_8dp">
+    <View
+        gravity="0x10"
+        layout_gravity="0x10"
+        id="@+id/tv_dot"
+        background="@color/ContentContrast"
+        layout_width="@dimen/height_2dp"
+        android:layout_height="@dimen/height_2dp"
+        layout_marginEnd="@dimen/xxxxsm"/>
+    <TextView
+        textColor="@color/ContentContrast"
+        id="@+id/tv_highlights_alerts_data"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        singleLine="false"
+        style="@style/Body_3"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

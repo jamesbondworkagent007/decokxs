@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.recyclerview.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+    id="@+id/top_recycler_view"
+    paddingLeft="@dimen/padding_24dp"
+    paddingTop="@dimen/padding_12dp"
+    paddingRight="@dimen/padding_24dp"
+    paddingBottom="@dimen/padding_32dp"
+    scrollbars="horizontal"
+    clipChildren="false"
+    clipToPadding="false"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    overScrollMode="2"
+    paddingHorizontal="@dimen/padding_24dp"/>

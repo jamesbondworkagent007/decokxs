@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    tag="layout/activity_search_relation_list_0"
+    fitsSystemWindows="true"
+    layout_width="-1"
+    android:layout_height="match_parent"
+    baselineAligned="false">
+    <androidx.fragment.app.FragmentContainerView
+        id="@+id/im_fragment_container"
+        layout_width="-1"
+        android:layout_height="0dp"
+        layout_weight="1"/>
+</LinearLayout>

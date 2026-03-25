@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View xmlns:android="http://schemas.android.com/apk/res/android"
+    tag="radius_16"
+    layout_width="-1"
+    android:layout_height="92dp"
+    layout_marginBottom="12dp"/>

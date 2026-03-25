@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:apps="http://schemas.android.com/apk/res-auto"
+    layout_width="-2"
+    android:layout_height="wrap_content">
+    <com.airbnb.lottie.LottieAnimationView
+        id="@+id/lottiePlaceholder"
+        layout_width="-1"
+        android:layout_height="match_parent"
+        NOT_FOUND_0x8="0"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="true"
+        NOT_FOUND_0xd="true"/>
+    <ImageView
+        id="@+id/imageView"
+        visibility="1"
+        layout_width="-1"
+        android:layout_height="match_parent"
+        scaleType="fitStart"
+        NOT_FOUND_0x8="0"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="0"/>
+    <CheckBox
+        id="@+id/checkbox"
+        background="@android:color/transparent"
+        padding="2dp"
+        visibility="2"
+        layout_width="24dp"
+        android:layout_height="24dp"
+        checked="false"
+        NOT_FOUND_0x8="0"
+        NOT_FOUND_0x9="0"
+        style="@style/CheckBox.StickerTick"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

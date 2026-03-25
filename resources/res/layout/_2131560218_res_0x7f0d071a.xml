@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/fragment_types_select_0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <TextView
+        textAppearance="@style/Label_2_Bold"
+        textColor="@color/ContentPrimary"
+        id="@+id/title_types"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        text="@string/pr_wallet_history_selection_all_types"
+        layout_marginStart="24dp"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x11="0"/>
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/types_list"
+        layout_width="@dimen/width_0dp"
+        android:layout_height="wrap_content"
+        layout_marginLeft="20dp"
+        layout_marginTop="20dp"
+        layout_marginRight="20dp"
+        layout_marginBottom="40dp"
+        layout_marginHorizontal="20dp"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x10="@+id/title_types"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

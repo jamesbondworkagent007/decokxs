@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    fitsSystemWindows="false"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        id="@+id/app_bar_container"
+        layout_width="-1"
+        android:layout_height="@dimen/appbar_height"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xf="0">
+        <o.wYC
+            id="@+id/btn_back"
+            background="?attr/selectableItemBackgroundBorderless"
+            paddingLeft="@dimen/sm"
+            paddingRight="@dimen/sm"
+            layout_width="-2"
+            android:layout_height="match_parent"
+            src="@drawable/_2131232348_res_0x7f08065c"
+            contentDescription="@string/pr_commonall_text_btn_back"
+            paddingHorizontal="@dimen/sm"
+            NOT_FOUND_0xd="0"/>
+        <ImageView
+            id="@+id/btn_edit"
+            background="?attr/selectableItemBackgroundBorderless"
+            paddingLeft="@dimen/sm"
+            paddingRight="@dimen/sm"
+            visibility="2"
+            layout_width="-2"
+            android:layout_height="match_parent"
+            src="@drawable/_2131232074_res_0x7f08054a"
+            contentDescription="@string/pr_commonall_resultpage_btn_edit"
+            paddingHorizontal="@dimen/sm"
+            NOT_FOUND_0xc="0"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <FrameLayout
+        id="@+id/fragment_container"
+        layout_width="-1"
+        android:layout_height="0dp"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="@+id/app_bar_container"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

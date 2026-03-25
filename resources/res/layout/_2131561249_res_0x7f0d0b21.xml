@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    tag="layout/layout_feedback_bounty_button_0"
+    background="@drawable/_2131232215_res_0x7f0805d7"
+    paddingLeft="24dp"
+    paddingTop="16dp"
+    paddingRight="24dp"
+    paddingBottom="16dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingHorizontal="24dp"
+    paddingVertical="16dp">
+    <TextView
+        textSize="@dimen/text_size_16sp"
+        textColor="@color/grey_g900"
+        id="@+id/title"
+        tag="binding_1"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginBottom="10dp"
+        fontFamily="@font/harmony_sans_bold"/>
+    <TextView
+        textSize="@dimen/text_size_14sp"
+        textColor="@color/grey_g400"
+        id="@+id/description"
+        tag="binding_2"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        fontFamily="@font/harmony_sans_regular"/>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="fundingRateCard" parent="">
+        <item name="android:layout_height">70dp</item>
+    </style>
+    <style name="fundingRateGrid" parent="">
+        <item name="android:columnCount">3</item>
+    </style>
+</resources>

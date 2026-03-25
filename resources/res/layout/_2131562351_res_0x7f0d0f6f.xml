@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/trade_impl_fragment_history_event_0"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C33546myW
+        id="@+id/his_event_smart_refresh"
+        background="@color/BasePrimary"
+        layout_width="-1"
+        android:layout_height="match_parent"
+        NOT_FOUND_0x6="false"
+        NOT_FOUND_0x7="false">
+        <androidx.recyclerview.widget.RecyclerView
+            id="@+id/his_event_recyclerview"
+            background="@color/BasePrimary"
+            layout_width="-1"
+            android:layout_height="match_parent"
+            overScrollMode="2"/>
+        <o.C33604mzb
+            layout_width="-1"
+            android:layout_height="wrap_content"/>
+    </o.C33546myW>
+</androidx.constraintlayout.widget.ConstraintLayout>

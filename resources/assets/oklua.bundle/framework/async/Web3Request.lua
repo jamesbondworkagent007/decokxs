@@ -1,0 +1,1 @@
+require("framework.async.OKRequest")Web3Request=Request:extend()function Web3Request:new(a,b,c)self:init(a,b,c)self:configIgnoreAuthorization()end;function Web3Request.GET(b,c)return Web3Request("GET",b,c)end;function Web3Request.POST(b,c)return Web3Request("POST",b,c)end;return Web3Request

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    paddingTop="8dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginEnd="@dimen/margin_8dp">
+    <o.wYS
+        ellipsize="3"
+        gravity="0x11"
+        id="@+id/mTvSelectType"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        maxLines="1"
+        singleLine="true"
+        NOT_FOUND_0xc="0dp"
+        NOT_FOUND_0xd="28"
+        style="@style/KlineSelectButtonStyle"/>
+    <ImageView
+        id="@+id/iv_select"
+        visibility="2"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        src="@drawable/_2131233252_res_0x7f0809e4"
+        layout_alignParentRight="true"/>
+</RelativeLayout>

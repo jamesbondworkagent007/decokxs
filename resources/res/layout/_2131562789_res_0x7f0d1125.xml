@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <TextView
+        textAppearance="@style/Body_2_Regular"
+        textColor="@color/color_content_static_subtle"
+        id="@+id/text1"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_16dp"
+        text="@string/pr_account_passkey_bottomsheet_desc1_not_access"/>
+    <TextView
+        textAppearance="@style/Body_2_Regular"
+        textColor="@color/color_content_static_subtle"
+        id="@+id/text2"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_16dp"
+        layout_marginBottom="@dimen/margin_24dp"
+        text="@string/pr_account_passkey_bottomsheet_desc_tryin_other_region"/>
+</LinearLayout>

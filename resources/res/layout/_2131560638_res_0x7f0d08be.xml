@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <TextView
+        textAppearance="@style/TextAppearance.Text.14SP.Regular"
+        textColor="@color/ContentPrimary"
+        id="@+id/tv_left_info"
+        visibility="2"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginStart="24dp"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0x10="0"/>
+    <o.C55251xgS
+        ellipsize="3"
+        id="@+id/tv_tag_info"
+        visibility="2"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        maxLines="1"
+        layout_marginStart="4dp"
+        NOT_FOUND_0xb="@+id/tv_left_info"
+        NOT_FOUND_0xe="@+id/tv_left_info"
+        NOT_FOUND_0x10="@+id/tv_left_info"
+        NOT_FOUND_0x11="-5"
+        NOT_FOUND_0x12="8"/>
+    <TextView
+        textColor="@color/ContentPrimary"
+        id="@+id/tv_right_info"
+        visibility="2"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        maxLines="1"
+        layout_marginStart="5dp"
+        layout_marginEnd="24dp"
+        NOT_FOUND_0xa="true"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="1"
+        NOT_FOUND_0xe="@+id/tv_tag_info"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x10="0"
+        style="@style/TextAppearance.Text.14SP.Regular"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

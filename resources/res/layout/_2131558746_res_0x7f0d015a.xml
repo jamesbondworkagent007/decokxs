@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="match_parent"
+    baselineAligned="false">
+    <o.C33537myN
+        id="@+id/appbar"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0xb="@color/grey_g900"
+        NOT_FOUND_0xc="@drawable/_2131232855_res_0x7f080857"
+        NOT_FOUND_0xd="true"
+        NOT_FOUND_0xe="true"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x11="0"
+        NOT_FOUND_0x12="0"
+        NOT_FOUND_0x13="false"
+        NOT_FOUND_0x14="true">
+        <o.wYC
+            layout_gravity="0x800053"
+            id="@+id/iv_debug_back"
+            background="?attr/selectableItemBackgroundBorderless"
+            visibility="2"
+            layout_width="24dp"
+            android:layout_height="24dp"
+            layout_marginBottom="8dp"
+            src="@drawable/_2131232489_res_0x7f0806e9"
+            layout_marginStart="50dp"/>
+    </o.C33537myN>
+    <FrameLayout
+        id="@+id/fl_web"
+        layout_width="-1"
+        android:layout_height="match_parent"/>
+</LinearLayout>

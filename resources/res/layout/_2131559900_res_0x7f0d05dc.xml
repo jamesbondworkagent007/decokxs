@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o.C55173xeu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/emptyView"
+    paddingTop="100dp"
+    layout_width="-1"
+    android:layout_height="match_parent"
+    NOT_FOUND_0x4="4"
+    NOT_FOUND_0x5="@string/pr_metax_wallet_text_no_result"/>

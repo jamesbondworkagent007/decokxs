@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    layout_width="-2"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatTextView
+        textAppearance="@style/LiteTextAppearance.ArrakisTan.14SP.Bold"
+        textColor="@color/positive"
+        gravity="0x800005"
+        id="@+id/tv_count_down"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        maxLines="1"
+        layout_marginEnd="@dimen/margin_16dp"/>
+</RelativeLayout>

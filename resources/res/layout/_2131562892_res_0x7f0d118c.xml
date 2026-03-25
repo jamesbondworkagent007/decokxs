@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/view_smart_iceberg_input_panel_0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.C55258xgZ
+        id="@+id/setting_title"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        textFontWeight="500"
+        NOT_FOUND_0x6="0"
+        NOT_FOUND_0x8="0"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xa="@color/okTradeG900"
+        NOT_FOUND_0xb="@dimen/text_size_14sp"
+        NOT_FOUND_0xc="@string/pr_tradeiceberg_placeorder_title_basic_info"/>
+    <o.C47988uAv
+        id="@+id/singleAmt"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="8dp"
+        NOT_FOUND_0x7="@+id/setting_title"
+        NOT_FOUND_0xd="@string/pr_tradeiceberg_placeorder_input_amt_per_order"
+        style="@style/OKTInputLayoutStyle_Bot"/>
+    <o.C47988uAv
+        id="@+id/singleNum"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="8dp"
+        NOT_FOUND_0x7="@+id/singleAmt"
+        NOT_FOUND_0xd="@string/pr_tradeiceberg_placeorder_input_order_num_per_time"
+        style="@style/OKTInputLayoutStyle_Bot"/>
+    <o.C47988uAv
+        id="@+id/totalAmt"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="8dp"
+        NOT_FOUND_0x7="@+id/singleNum"
+        NOT_FOUND_0xd="@string/pr_tradeiceberg_placeorder_input_total_amount"
+        style="@style/OKTInputLayoutStyle_Bot"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

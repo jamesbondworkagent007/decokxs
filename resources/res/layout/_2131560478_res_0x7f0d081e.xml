@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-2"
+    android:layout_height="wrap_content">
+    <TextView
+        id="@+id/text"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x5="0"
+        NOT_FOUND_0x7="0"
+        NOT_FOUND_0x8="0"/>
+    <ImageView
+        id="@+id/image"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="3dp"
+        layout_marginStart="@dimen/margin_4dp"
+        NOT_FOUND_0x5="0"
+        NOT_FOUND_0x6="@+id/text"
+        NOT_FOUND_0x8="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

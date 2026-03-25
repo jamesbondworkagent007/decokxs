@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/spot_dca_explain_fragment_0"
+    paddingTop="4dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    overScrollMode="2">
+    <LinearLayout
+        orientation="1"
+        descendantFocusability="2"
+        layout_width="-1"
+        android:layout_height="wrap_content">
+        <androidx.recyclerview.widget.RecyclerView
+            id="@+id/explain_rv"
+            layout_width="-1"
+            android:layout_height="match_parent"
+            overScrollMode="2"/>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    layout_width="-2"
+    android:layout_height="wrap_content">
+    <TextView
+        textColor="@color/ContentInverse"
+        gravity="0x11"
+        id="@+id/tv_pop_value"
+        background="@drawable/_2131231812_res_0x7f080444"
+        paddingLeft="@dimen/margin_6dp"
+        paddingTop="@dimen/xxxxxsm"
+        paddingRight="@dimen/margin_6dp"
+        paddingBottom="@dimen/xxxxxsm"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        text=""
+        paddingHorizontal="@dimen/margin_6dp"
+        paddingVertical="@dimen/xxxxxsm"
+        style="@style/Label_3_Regular"/>
+</LinearLayout>

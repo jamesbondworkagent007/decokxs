@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        left="-999dp"
+        right="-999dp">
+        <rotate
+            android:drawable="@drawable/_2131234163_res_0x7f080d73"
+            android:fromDegrees="90"/>
+    </item>
+</layer-list>

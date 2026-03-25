@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    tag="layout/layout_defi_history_select_chain_header_0"
+    background="@drawable/_2131231492_res_0x7f080304"
+    paddingLeft="16dp"
+    paddingRight="16dp"
+    layout_width="-1"
+    android:layout_height="match_parent"
+    paddingHorizontal="16dp">
+    <ImageView
+        layout_gravity="0x1"
+        background="@drawable/_2131232381_res_0x7f08067d"
+        layout_width="32dp"
+        android:layout_height="3dp"
+        layout_marginTop="6dp"
+        layout_marginBottom="2dp"/>
+    <TextView
+        textAppearance="@style/Title_2_Bold"
+        textColor="@color/ContentPrimary"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="20dp"
+        layout_marginBottom="19dp"
+        text="@string/pr_metax_wallet_send_bottomsheet_celect_chain"/>
+</LinearLayout>

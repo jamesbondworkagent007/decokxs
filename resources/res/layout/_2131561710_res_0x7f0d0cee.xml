@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o.C40499qYc xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C55244xgL
+        id="@+id/tabs"
+        layout_width="0dp"
+        android:layout_height="@dimen/dp_40"
+        NOT_FOUND_0x7="0"
+        NOT_FOUND_0x8="0"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="1"
+        NOT_FOUND_0xc="-6"/>
+    <o.C41387qpp
+        id="@+id/viewpager_wrapper"
+        tag="PAGER_WRAPPER_FAVORITES"
+        layout_width="-1"
+        android:layout_height="0dp"
+        NOT_FOUND_0x6="0"
+        NOT_FOUND_0x7="0"
+        NOT_FOUND_0x8="0"
+        NOT_FOUND_0x9="@+id/tabs">
+        <androidx.viewpager2.widget.ViewPager2
+            id="@+id/viewpager"
+            tag="PAGER_OPTIONS"
+            layout_width="-1"
+            android:layout_height="match_parent"
+            overScrollMode="2"/>
+    </o.C41387qpp>
+</o.C40499qYc>

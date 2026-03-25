@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o.C51485vns xmlns:android="http://schemas.android.com/apk/res/android"
+    id="@+id/type_full_layout"
+    tag="layout/trade_impl_fragment_bot_category_0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/type_recycler_view"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        overScrollMode="2"/>
+</o.C51485vns>

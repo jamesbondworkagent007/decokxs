@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C33537myN
+        id="@+id/topBar"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x4="true"
+        NOT_FOUND_0x5="@dimen/text_size_18sp"
+        NOT_FOUND_0x6="true"
+        NOT_FOUND_0x7="@drawable/_2131232348_res_0x7f08065c"
+        NOT_FOUND_0x8="false"
+        NOT_FOUND_0x9="true"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="false"/>
+    <o.C33546myW
+        id="@+id/refresh_container"
+        layout_width="-1"
+        android:layout_height="0dp"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="@+id/topBar">
+        <o.C33603mza
+            id="@+id/refresh_header"
+            layout_width="-1"
+            android:layout_height="wrap_content"/>
+        <o.C55237xgE
+            id="@+id/stateful_layout"
+            layout_width="-1"
+            android:layout_height="match_parent"
+            style="@style/StatefulLayout.Notification">
+            <androidx.recyclerview.widget.RecyclerView
+                id="@+id/recyclerView"
+                clipToPadding="false"
+                layout_width="-1"
+                android:layout_height="wrap_content"/>
+        </o.C55237xgE>
+        <o.C33604mzb
+            id="@+id/refresh_footer"
+            layout_width="-1"
+            android:layout_height="wrap_content"/>
+    </o.C33546myW>
+</androidx.constraintlayout.widget.ConstraintLayout>

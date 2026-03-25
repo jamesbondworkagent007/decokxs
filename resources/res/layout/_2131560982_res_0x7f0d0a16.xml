@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    gravity="0x10"
+    orientation="0"
+    tag="layout/item_wallet_debug_setting_0"
+    background="?attr/selectableItemBackground"
+    padding="16dp"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <TextView
+        id="@+id/tv_name"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_weight="1"
+        style="@style/TextAppearance.Title.16SP.Medium"/>
+    <TextView
+        id="@+id/tv_content"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginStart="4dp"
+        style="@style/TextAppearance.Text.12SP.Medium"/>
+    <ImageView
+        id="@+id/iv_arrow_right"
+        background="@drawable/_2131232357_res_0x7f080665"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginStart="4dp"/>
+</LinearLayout>

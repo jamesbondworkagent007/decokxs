@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <TextView
+        textAppearance="@style/TextAppearance.Text.14SP.Regular"
+        textColor="@color/grey_g900"
+        gravity="0x800003"
+        id="@+id/value_diff"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        lineSpacingExtra="4sp"
+        lineSpacingMultiplier="1.1"/>
+</LinearLayout>

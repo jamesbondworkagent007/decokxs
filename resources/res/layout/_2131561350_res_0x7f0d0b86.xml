@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x10"
+    orientation="0"
+    tag="layout/layout_item_multi_coin_approve_0"
+    background="@drawable/_2131233855_res_0x7f080c3f"
+    paddingLeft="16dp"
+    paddingTop="20dp"
+    paddingRight="16dp"
+    paddingBottom="20dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginTop="16dp"
+    paddingHorizontal="16dp"
+    paddingVertical="20dp">
+    <ImageView
+        id="@+id/iv_coin"
+        layout_width="32dp"
+        android:layout_height="32dp"/>
+    <TextView
+        textAppearance="@style/TextAppearance"
+        textSize="16sp"
+        textColor="@color/grey_g900"
+        id="@+id/tv_symbol"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        lineSpacingExtra="5dp"
+        layout_marginStart="8dp"/>
+    <TextView
+        textAppearance="@style/TextAppearance"
+        textSize="14sp"
+        textColor="@color/grey_g900"
+        gravity="0x800005"
+        id="@+id/tv_amount"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_weight="1"
+        lineSpacingExtra="5dp"
+        layout_marginStart="12dp"
+        layout_marginEnd="4dp"/>
+    <ImageView
+        layout_width="16dp"
+        android:layout_height="16dp"
+        src="@drawable/_2131232354_res_0x7f080662"
+        NOT_FOUND_0x16="@color/grey_g400"/>
+</LinearLayout>

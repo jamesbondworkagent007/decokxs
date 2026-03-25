@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatTextView
+        textAppearance="@style/Label_2_Regular"
+        textColor="@color/ContentContrast"
+        id="@+id/tv_title_txHash_order_info"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        text="@string/pr_swaptrade_tee_tab_labal_transaction_hash"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xf="0"/>
+    <o.C55390xiz
+        textAppearance="@style/Label_1_Regular"
+        textColor="@color/ContentPrimary"
+        id="@+id/tv_txHash_order_info"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="4dp"
+        maxLines="3"
+        layout_marginEnd="12dp"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="@+id/tv_title_txHash_order_info"
+        NOT_FOUND_0x10="1"
+        NOT_FOUND_0x11="0"
+        NOT_FOUND_0x12="-4"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/iv_copy_order_info"
+        layout_width="20dp"
+        android:layout_height="20dp"
+        layout_marginTop="4dp"
+        src="@drawable/_2131234345_res_0x7f080e29"
+        layout_marginStart="8dp"
+        NOT_FOUND_0xc="@+id/tv_txHash_order_info"
+        NOT_FOUND_0xe="@+id/tv_title_txHash_order_info"
+        NOT_FOUND_0x13="@color/ContentContrast"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

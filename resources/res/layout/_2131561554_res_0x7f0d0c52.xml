@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatTextView
+        textAppearance="@style/TextAppearance.Text.14SP.Regular"
+        textColor="@color/grey_g400"
+        ellipsize="3"
+        gravity="0x10"
+        id="@+id/title"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        lines="1"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xf="@+id/middle"
+        NOT_FOUND_0x11="0.2"
+        NOT_FOUND_0x13="0"
+        NOT_FOUND_0x14="0"/>
+    <View
+        id="@+id/middle"
+        layout_width="@dimen/margin_12dp"
+        android:layout_height="@dimen/margin_1dp"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xf="@+id/value"
+        NOT_FOUND_0x12="@+id/title"
+        NOT_FOUND_0x14="0"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        textSize="24sp"
+        textColor="@color/ContentBrand"
+        ellipsize="3"
+        gravity="0x800015"
+        id="@+id/value"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        lines="1"
+        autoSizeTextType="uniform"
+        autoSizeStepGranularity="@dimen/text_size_2sp"
+        autoSizeMinTextSize="@dimen/text_size_16sp"
+        autoSizeMaxTextSize="@dimen/text_size_24sp"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0x10="0.7"
+        NOT_FOUND_0x11="0.8"
+        NOT_FOUND_0x12="@+id/middle"
+        NOT_FOUND_0x14="0"/>
+</merge>

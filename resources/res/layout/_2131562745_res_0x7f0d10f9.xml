@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.flexbox.FlexboxLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/resource"
+    layout_width="-2"
+    android:layout_height="wrap_content"
+    layout_marginTop="@dimen/margin_14dp"
+    NOT_FOUND_0x4="@drawable/_2131232030_res_0x7f08051e"
+    NOT_FOUND_0x5="@drawable/_2131232031_res_0x7f08051f"
+    NOT_FOUND_0x6="0"
+    NOT_FOUND_0x7="1"
+    NOT_FOUND_0x8="0"
+    NOT_FOUND_0x9="0x2"/>

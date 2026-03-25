@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/tvContainer"
+    tag="layout/item_im_text_emoji_message_0"
+    layout_width="-2"
+    android:layout_height="wrap_content">
+    <TextView
+        textSize="16sp"
+        textColor="@color/ContentPrimary_Dark"
+        gravity="0x800005"
+        id="@+id/tv_content"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        lineSpacingExtra="3dp"
+        lineSpacingMultiplier="1"
+        fontFamily="@font/okx_sans_tab_regular"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

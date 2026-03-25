@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    paddingTop="4dp"
+    paddingBottom="4dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingVertical="4dp">
+    <TextView
+        textColor="@color/ContentContrast"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        text="@string/pr_spot_general_label_time"
+        layout_weight="1"
+        style="@style/Label_3_Regular"/>
+    <TextView
+        textColor="@color/ContentContrast"
+        gravity="0x800005"
+        id="@+id/deductAmtTitle"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_weight="1"
+        layout_marginStart="12dp"
+        style="@style/Label_3_Regular"/>
+</LinearLayout>

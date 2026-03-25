@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/item_layout"
+    paddingBottom="@dimen/xxxsm"
+    layout_width="-2"
+    android:layout_height="wrap_content"
+    paddingStart="@dimen/xxxxsm"
+    paddingEnd="@dimen/xxsm">
+    <o.C35893oHp
+        layout_gravity="0x11"
+        id="@+id/iv_avatar"
+        background="@android:color/transparent"
+        layout_width="@dimen/lg"
+        android:layout_height="@dimen/lg"
+        layout_marginTop="@dimen/dp_4"
+        layout_marginEnd="@dimen/xxxxsm"
+        NOT_FOUND_0x12="@+id/tv_member_name"
+        NOT_FOUND_0x13="0"
+        NOT_FOUND_0x14="0"
+        NOT_FOUND_0x16="0"/>
+    <TextView
+        textColor="@color/ContentContrast"
+        ellipsize="3"
+        gravity="0x11"
+        id="@+id/tv_member_name"
+        paddingTop="@dimen/xxxxsm"
+        layout_width="@dimen/lg"
+        android:layout_height="wrap_content"
+        maxLines="1"
+        textAlignment="4"
+        NOT_FOUND_0x13="@+id/iv_avatar"
+        NOT_FOUND_0x14="@+id/iv_avatar"
+        NOT_FOUND_0x15="@+id/iv_avatar"
+        style="@style/Label_4_Regular"/>
+    <ImageView
+        id="@+id/iv_close"
+        layout_width="@dimen/width_20dp"
+        android:layout_height="@dimen/width_20dp"
+        src="@drawable/_2131232443_res_0x7f0806bb"
+        contentDescription="@string/pr_message_btn_remove_contact"
+        NOT_FOUND_0x13="0"
+        NOT_FOUND_0x16="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

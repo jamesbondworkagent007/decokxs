@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <ImageView
+        id="@+id/upload_file_image"
+        layout_width="@dimen/file_icon_size"
+        android:layout_height="@dimen/file_icon_size"
+        src="@drawable/_2131232420_res_0x7f0806a4"
+        scaleType="fitStart"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="0"/>
+    <TextView
+        textColor="?attr/primaryTextColor"
+        id="@+id/upload_file_text"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginStart="@dimen/margin_16dp"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xb="@+id/upload_file_delete_icon"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="@+id/upload_file_image"
+        NOT_FOUND_0xf="0"
+        style="@style/TextAppearance.Text.16SP"/>
+    <ImageView
+        id="@+id/upload_file_delete_icon"
+        focusable="true"
+        clickable="true"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xc="1"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

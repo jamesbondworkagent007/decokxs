@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    tag="layout/trade_ui_fragment_my_bot_list_0"
+    background="@color/BasePrimary"
+    paddingTop="@dimen/margin_6dp"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <androidx.core.widget.NestedScrollView
+        layout_width="-1"
+        android:layout_height="wrap_content">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            layout_width="-1"
+            android:layout_height="wrap_content">
+            <o.C52006vxj
+                id="@+id/listFilter"
+                layout_width="-1"
+                android:layout_height="wrap_content"
+                NOT_FOUND_0xd="0"
+                NOT_FOUND_0xe="0"/>
+            <LinearLayout
+                orientation="0"
+                id="@+id/ll_bot_sort"
+                visibility="2"
+                layout_width="-2"
+                android:layout_height="wrap_content"
+                layout_marginTop="6dp"
+                paddingEnd="16dp"
+                NOT_FOUND_0xc="0"
+                NOT_FOUND_0xe="@+id/listFilter">
+                <androidx.appcompat.widget.AppCompatImageView
+                    layout_gravity="0x11"
+                    layout_width="20dp"
+                    android:layout_height="20dp"
+                    src="@drawable/_2131234070_res_0x7f080d16"/>
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+    <FrameLayout
+        id="@+id/flContainer"
+        layout_width="-1"
+        android:layout_height="match_parent"/>
+</LinearLayout>

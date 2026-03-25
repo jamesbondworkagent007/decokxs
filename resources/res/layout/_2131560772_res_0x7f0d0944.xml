@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C55113xdn
+        id="@+id/animationView"
+        layout_width="-1"
+        android:layout_height="0dp"
+        scaleType="7"
+        layout_weight="1"
+        NOT_FOUND_0xe="false"
+        NOT_FOUND_0xf="false"
+        NOT_FOUND_0x10="0"/>
+    <TextView
+        textColor="@color/ContentPrimary"
+        id="@+id/titleText"
+        paddingLeft="@dimen/margin_default"
+        paddingRight="@dimen/margin_default"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="8dp"
+        paddingHorizontal="@dimen/margin_default"
+        style="@style/Headline_5_Bold"/>
+    <TextView
+        textColor="@color/ContentTertiary"
+        ellipsize="3"
+        id="@+id/descriptionText"
+        paddingLeft="@dimen/margin_default"
+        paddingRight="@dimen/margin_default"
+        paddingBottom="22dp"
+        layout_width="-1"
+        android:layout_height="60dp"
+        layout_marginTop="10dp"
+        maxLines="4"
+        paddingHorizontal="@dimen/margin_default"
+        style="@style/Label_2_Regular"/>
+</LinearLayout>

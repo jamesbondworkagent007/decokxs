@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x1"
+    orientation="1"
+    layout_width="-2"
+    android:layout_height="wrap_content">
+    <o.tUQ
+        id="@+id/ivAvatar"
+        layout_width="60dp"
+        android:layout_height="60dp"
+        NOT_FOUND_0xa="2dp"
+        NOT_FOUND_0xb="2dp"
+        NOT_FOUND_0xc="20dp"
+        NOT_FOUND_0xd="20dp"/>
+    <TextView
+        textAppearance="@style/Label_3_Regular"
+        textColor="@color/ContentSecondary"
+        ellipsize="3"
+        gravity="0x11"
+        id="@+id/tvNickname"
+        layout_width="60dp"
+        android:layout_height="wrap_content"
+        layout_marginTop="8dp"
+        maxLines="1"/>
+</LinearLayout>

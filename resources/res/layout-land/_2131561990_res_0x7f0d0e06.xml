@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    layout_width="-2"
+    android:layout_height="match_parent">
+    <LinearLayout
+        layout_gravity="0x800003"
+        orientation="1"
+        id="@+id/mtrl_picker_header"
+        paddingLeft="@dimen/mtrl_calendar_header_content_padding"
+        paddingRight="@dimen/mtrl_calendar_header_content_padding"
+        paddingBottom="@dimen/mtrl_calendar_header_content_padding"
+        layout_width="-2"
+        android:layout_height="match_parent"
+        paddingStart="@dimen/mtrl_calendar_header_content_padding"
+        paddingEnd="@dimen/mtrl_calendar_header_content_padding"
+        style="?attr/materialCalendarHeaderLayout">
+        <FrameLayout
+            id="@+id/mtrl_picker_header_title_and_selection"
+            paddingLeft="@dimen/mtrl_calendar_header_text_padding"
+            focusable="true"
+            focusableInTouchMode="true"
+            layout_width="@dimen/mtrl_calendar_landscape_header_width"
+            android:layout_height="0dp"
+            layout_weight="1"
+            paddingStart="@dimen/mtrl_calendar_header_text_padding">
+            <include layout="@layout/_2131561993_res_0x7f0d0e09"/>
+            <include layout="@layout/_2131561992_res_0x7f0d0e08"/>
+        </FrameLayout>
+        <include layout="@layout/_2131561994_res_0x7f0d0e0a"/>
+    </LinearLayout>
+    <View
+        layout_gravity="0x800005"
+        layout_width="@dimen/mtrl_calendar_header_divider_thickness"
+        android:layout_height="match_parent"
+        style="?attr/materialCalendarHeaderDivider"/>
+</merge>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        id="@+id/container_multi_path"
+        layout_width="-1"
+        android:layout_height="wrap_content">
+        <com.google.android.flexbox.FlexboxLayout
+            id="@+id/route_panel_multi"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            NOT_FOUND_0x4="2"
+            NOT_FOUND_0x5="1"
+            NOT_FOUND_0x6="0"
+            NOT_FOUND_0x7="false"
+            NOT_FOUND_0x8="0"
+            NOT_FOUND_0x9="0"
+            NOT_FOUND_0xa="1"
+            NOT_FOUND_0xb="0"
+            NOT_FOUND_0xc="0"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</merge>

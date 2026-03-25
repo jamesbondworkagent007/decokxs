@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.C52794wYp
+        id="@+id/btn_load_more"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginLeft="@dimen/common_page_edge_space"
+        layout_marginTop="8dp"
+        layout_marginRight="@dimen/common_page_edge_space"
+        layout_marginBottom="@dimen/margin_24dp"
+        text="@string/pr_wallet_btn_general_show"
+        layout_marginHorizontal="@dimen/common_page_edge_space"
+        NOT_FOUND_0x9="36"
+        NOT_FOUND_0xa="0x102"/>
+</FrameLayout>

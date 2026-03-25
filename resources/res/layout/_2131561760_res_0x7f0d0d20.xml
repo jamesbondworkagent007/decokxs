@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/coordinator_layout"
+    layout_width="-1"
+    android:layout_height="match_parent"
+    layout_marginTop="16dp">
+    <com.google.android.material.appbar.AppBarLayout
+        orientation="1"
+        id="@+id/appBarLayout"
+        background="@null"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x11="0dp">
+        <androidx.fragment.app.FragmentContainerView
+            name="o.qNz"
+            id="@+id/fragment_history"
+            background="@null"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            NOT_FOUND_0x13="0x1"/>
+        <androidx.appcompat.widget.AppCompatTextView
+            textColor="@color/ContentPrimary"
+            gravity="0x10"
+            id="@+id/tv_popular_title"
+            paddingLeft="@dimen/margin_24dp"
+            paddingRight="@dimen/margin_24dp"
+            visibility="2"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            minHeight="@dimen/height_40dp"
+            text="@string/pr_market_input_hotitemsearch"
+            paddingHorizontal="@dimen/margin_24dp"
+            style="@style/Title_2_Bold"/>
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.fragment.app.FragmentContainerView
+        id="@+id/fragment_popular"
+        background="@null"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginBottom="24dp"
+        fillViewport="true"
+        NOT_FOUND_0x12="@string/appbar_scrolling_view_behavior"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

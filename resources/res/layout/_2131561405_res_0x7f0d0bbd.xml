@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C55173xeu
+        id="@+id/empty"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="32dp"
+        NOT_FOUND_0x4="6"
+        NOT_FOUND_0x5="@string/pr_trade_feed_emptystate_title_no_notifications_yet"/>
+</FrameLayout>

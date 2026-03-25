@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    textSize="16sp"
+    textColor="@color/ContentPrimary"
+    gravity="0x10"
+    id="@+id/add_more"
+    tag="layout/assetlist_add_button_0"
+    background="@drawable/_2131230922_res_0x7f0800ca"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    drawableTint="@color/ContentPrimary"/>

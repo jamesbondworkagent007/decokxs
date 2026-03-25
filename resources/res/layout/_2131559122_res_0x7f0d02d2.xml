@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    id="@+id/ll_container_base_bottom"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <ViewStub
+        id="@+id/scrollable_container"
+        layout="@layout/_2131559121_res_0x7f0d02d1"
+        layout_width="-1"
+        android:layout_height="wrap_content"/>
+    <ViewStub
+        id="@+id/normal_container"
+        layout="@layout/_2131559120_res_0x7f0d02d0"
+        layout_width="-1"
+        android:layout_height="wrap_content"/>
+    <FrameLayout
+        id="@+id/bottom_fix"
+        layout_width="-1"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

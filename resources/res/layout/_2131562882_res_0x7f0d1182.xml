@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <com.okinc.uilab.item.OKRegularCell
+        id="@+id/cell"
+        tag="layout/view_signal_bot_advance_item_select_0"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        minHeight="@dimen/height_56dp"
+        NOT_FOUND_0x5="0">
+        <androidx.appcompat.widget.AppCompatImageView
+            id="@+id/checkBox"
+            layout_width="-2"
+            android:layout_height="wrap_content"/>
+    </com.okinc.uilab.item.OKRegularCell>
+</merge>

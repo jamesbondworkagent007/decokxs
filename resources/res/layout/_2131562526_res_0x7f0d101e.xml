@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o.C55237xgE xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/signal_state_layout"
+    tag="layout/trade_ui_fragment_my_bot_signal_list_0"
+    layout_width="-1"
+    android:layout_height="match_parent"
+    NOT_FOUND_0x6="true">
+    <o.C33546myW
+        id="@+id/smart_refresh"
+        layout_width="-1"
+        android:layout_height="match_parent"
+        NOT_FOUND_0x7="false"
+        NOT_FOUND_0x8="true"
+        NOT_FOUND_0x9="true">
+        <o.C33603mza
+            layout_width="-1"
+            android:layout_height="wrap_content"/>
+        <androidx.recyclerview.widget.RecyclerView
+            id="@+id/listRcy"
+            descendantFocusability="0"
+            layout_width="-1"
+            android:layout_height="match_parent"
+            overScrollMode="2"/>
+        <o.C33604mzb
+            layout_width="-1"
+            android:layout_height="wrap_content"/>
+    </o.C33546myW>
+</o.C55237xgE>

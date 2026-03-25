@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    background="@drawable/_2131231470_res_0x7f0802ee"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginLeft="@dimen/margin_24dp"
+    layout_marginTop="8dp"
+    layout_marginRight="@dimen/margin_24dp"
+    layout_marginBottom="8dp"
+    layout_marginHorizontal="@dimen/margin_24dp"
+    layout_marginVertical="8dp">
+    <TextView
+        textAppearance="@style/TextAppearance.Black.16SP.Medium"
+        textSize="16sp"
+        textColor="@color/SemanticNegative"
+        id="@+id/tvContent"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="12dp"
+        layout_marginBottom="12dp"
+        text="@string/pr_wallet_mpc_btn_escape_more"
+        layout_marginVertical="12dp"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x12="@+id/arrow_pointer"
+        NOT_FOUND_0x13="2"
+        NOT_FOUND_0x15="0"
+        NOT_FOUND_0x16="0"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/arrow_pointer"
+        layout_width="20dp"
+        android:layout_height="20dp"
+        src="@drawable/_2131233694_res_0x7f080b9e"
+        layout_marginStart="8dp"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x11="0"
+        NOT_FOUND_0x14="@+id/tvContent"
+        NOT_FOUND_0x16="0"
+        NOT_FOUND_0x17="@color/SemanticNegative"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    paddingLeft="@dimen/dp_24"
+    paddingTop="@dimen/dp_32"
+    paddingRight="@dimen/dp_24"
+    paddingBottom="@dimen/dp_24"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingHorizontal="@dimen/dp_24">
+    <TextView
+        textColor="@color/ContentPrimary"
+        id="@+id/title"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        text="@string/lt_unipay_simple_recurring_text_performance"
+        NOT_FOUND_0xc="@+id/description"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0x10="0"
+        style="@style/Headline_5_Bold"/>
+    <TextView
+        textColor="@color/ContentSecondary"
+        id="@+id/description"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/dp_24"
+        text="@string/lt_unipay_simple_recurring_desc_performance"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="@+id/title"
+        style="@style/Body_2_Regular"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

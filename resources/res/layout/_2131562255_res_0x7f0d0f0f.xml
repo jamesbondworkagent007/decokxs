@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <TextView
+        textSize="@dimen/text_size_14sp"
+        textColor="@color/ContentPrimary"
+        id="@+id/spot_unit_title"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_marginLeft="@dimen/dp_24"
+        layout_marginTop="@dimen/dp_12"
+        layout_marginRight="@dimen/dp_24"
+        text="@string/pr_trade_markets_bttmsheet_title_trading_unit"
+        layout_marginHorizontal="@dimen/dp_24"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xf="0"/>
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/rv_trading_type_group"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginLeft="@dimen/dp_20"
+        layout_marginTop="@dimen/dp_4"
+        layout_marginRight="@dimen/dp_20"
+        layout_marginHorizontal="@dimen/dp_20"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="@+id/spot_unit_title"/>
+    <o.C52794wYp
+        id="@+id/btn_apply"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_marginLeft="24dp"
+        layout_marginTop="@dimen/dp_48"
+        layout_marginRight="24dp"
+        layout_marginBottom="16dp"
+        text="@string/pr_commonall_text_btn_confirm"
+        layout_marginHorizontal="24dp"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="@+id/rv_trading_type_group"
+        NOT_FOUND_0x10="52"
+        NOT_FOUND_0x11="0x101"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

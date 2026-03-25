@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginLeft="@dimen/ok_dp_24"
+    layout_marginRight="@dimen/ok_dp_24"
+    layout_marginHorizontal="@dimen/ok_dp_24">
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/news_content_rv"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x6="0"
+        NOT_FOUND_0x7="0"
+        NOT_FOUND_0x8="0"
+        NOT_FOUND_0x9="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

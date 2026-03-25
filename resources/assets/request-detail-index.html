@@ -1,0 +1,75 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta id="description" name="description" content="">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <meta name="MobileOptimized" content="375">
+    <link href="prism.css" rel="stylesheet" />
+</head>
+
+<style>
+    * {
+        font-family: Verdana-Italic;
+        font-size: 12px;
+    }
+
+    .title {
+        font-size: 18px;
+        font-family: PingFangTC-Semibold;
+    }
+</style>
+
+<body>
+    <div id="app">
+        <template v-if="info">
+            <div class="title">Info</div>
+            <pre><code class="language-json" >{{ info }}</code></pre>
+        </template>
+
+        <template v-if="reqBody">
+            <div class="title">ReqBody</div>
+            <pre><code class="language-json" >{{ reqBody }}</code></pre>
+        </template>
+
+        <template v-if="responseJSONData">
+            <div class="title">Response Data</div>
+            <pre><code class="language-json" >{{ responseJSONData }}</code></pre>
+        </template>
+
+        <template v-if="requestHeader">
+            <div class="title">Request Header</div>
+            <pre><code class="language-json" >{{ requestHeader }}</code></pre>
+        </template>
+
+        <template v-if="responseHeader">
+            <div class="title">Response Header</div>
+            <pre><code class="language-json" >{{ responseHeader }}</code></pre>
+        </template>
+
+        <template v-if="errorInfo">
+            <div class="title">Error Info</div>
+            <pre><code class="language-json" >{{ errorInfo }}</code></pre>
+        </template>
+
+        <template v-if="responseHTMLData">
+            <div class="title">Response Data</div>
+            <pre><code class="language-markup" >{{ responseHTMLData }}</code></pre>
+        </template>
+
+        <template v-if="responseImageData">
+            <div class="title">Response Image</div>
+            <div style="position: flex; width: 100%;">
+                <img :src="responseImageData" style="width: 100%;" />
+            </div>
+        </template>
+        
+    </div>
+</body>
+
+<script type="text/javascript" src="prism.js"></script>
+<script type="text/javascript" src="vue.min.js"></script>
+<script type="text/javascript" src="request-detail-index.js"></script>
+
+</html>

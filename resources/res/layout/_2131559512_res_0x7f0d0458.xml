@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x10"
+    orientation="0"
+    paddingLeft="@dimen/xxxsm"
+    paddingTop="@dimen/xxxxsm"
+    paddingRight="@dimen/xxxsm"
+    paddingBottom="@dimen/xxxxsm"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingHorizontal="@dimen/xxxsm"
+    paddingVertical="@dimen/xxxxsm">
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/iv_start_drawable"
+        layout_width="@dimen/xsm"
+        android:layout_height="@dimen/xsm"
+        layout_marginEnd="@dimen/xxxxxsm"/>
+    <TextView
+        textColor="@color/ContentContrast"
+        ellipsize="3"
+        gravity="0x800013"
+        id="@+id/tv_content"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        maxLines="1"
+        layout_weight="1"
+        style="@style/Label_3_Regular"/>
+    <com.airbnb.lottie.LottieAnimationView
+        layout_gravity="0x11"
+        id="@+id/iv_end_drawable"
+        visibility="0"
+        layout_width="@dimen/xsm"
+        android:layout_height="@dimen/xsm"
+        scaleType="fillCenter"
+        adjustViewBounds="true"
+        layout_centerInParent="true"
+        layout_marginStart="@dimen/xxxxxsm"
+        NOT_FOUND_0x16="true"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

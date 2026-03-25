@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-2"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/dexBoostIcon"
+        layout_width="16dp"
+        android:layout_height="16dp"
+        src="@drawable/_2131233533_res_0x7f080afd"
+        layout_marginStart="@dimen/margin_4dp"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xa="0"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        textSize="8sp"
+        id="@+id/dexBoostX"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        includeFontPadding="false"
+        layout_marginStart="12dp"
+        NOT_FOUND_0x7="0"
+        NOT_FOUND_0x9="@+id/dexBoostIcon"
+        style="@style/TextAppearance.Text.Bold"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        textSize="8sp"
+        id="@+id/dexBoostTag"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        includeFontPadding="false"
+        layout_marginStart="1dp"
+        NOT_FOUND_0x7="0"
+        NOT_FOUND_0x8="@+id/dexBoostX"
+        style="@style/TextAppearance.Text.Bold"/>
+</merge>

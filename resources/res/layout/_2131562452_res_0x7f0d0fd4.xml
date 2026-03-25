@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <ImageView
+        id="@+id/ccyColorIv"
+        background="@drawable/_2131233976_res_0x7f080cb8"
+        layout_width="10dp"
+        android:layout_height="10dp"
+        contentDescription="@null"
+        NOT_FOUND_0x8="0"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="0"/>
+    <TextView
+        textColor="@color/ContentPrimary"
+        id="@+id/ccyNameTv"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_marginStart="4dp"
+        layout_marginEnd="8dp"
+        NOT_FOUND_0xa="@+id/ccyRatioTv"
+        NOT_FOUND_0xb="@+id/ccyColorIv"
+        NOT_FOUND_0xd="0"
+        style="@style/TextAppearance.Text.12SP.Regular"/>
+    <TextView
+        textColor="@color/ContentPrimary"
+        id="@+id/ccyRatioTv"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xd="0"
+        style="@style/TextAppearance.Text.12SP.Regular"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

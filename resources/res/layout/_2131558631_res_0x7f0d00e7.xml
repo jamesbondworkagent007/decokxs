@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x1"
+    orientation="1"
+    id="@+id/main"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C52794wYp
+        id="@+id/btn_open_okface"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="200dp"
+        text="打开okface"
+        NOT_FOUND_0x10="32"
+        NOT_FOUND_0x11="0x101"
+        NOT_FOUND_0x12="-2"/>
+    <TextView
+        id="@+id/tv_result"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_50dp"/>
+    <o.wYK
+        id="@+id/cb_trigger_face_guard"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="50dp"
+        checked="false"
+        text="Enable 阿里人臉保鑣"/>
+    <TextView
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="20dp"
+        text="Subdomain Strategy:"/>
+    <RadioGroup
+        orientation="1"
+        id="@+id/rg_subdomain_strategy"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginLeft="16dp"
+        layout_marginTop="8dp"
+        layout_marginRight="16dp"
+        layout_marginHorizontal="16dp">
+        <RadioButton
+            id="@+id/rb_subdomain_none"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            text="None"/>
+        <RadioButton
+            id="@+id/rb_subdomain_auto"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            text="Auto"/>
+        <RadioButton
+            id="@+id/rb_subdomain_global"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            text="Global"/>
+        <RadioButton
+            id="@+id/rb_subdomain_subdomain"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            text="Subdomain"/>
+    </RadioGroup>
+    <LinearLayout
+        orientation="0"
+        id="@+id/ll_subdomain_site_input"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginLeft="16dp"
+        layout_marginTop="8dp"
+        layout_marginRight="16dp"
+        layout_marginHorizontal="16dp">
+        <TextView
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            text="Site: "/>
+        <EditText
+            id="@+id/et_subdomain_site"
+            layout_width="0dp"
+            android:layout_height="wrap_content"
+            hint="e.g. hk"
+            singleLine="true"
+            layout_weight="1"
+            inputType="0x1"/>
+    </LinearLayout>
+</LinearLayout>

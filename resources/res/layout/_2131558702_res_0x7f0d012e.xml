@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    tag="layout/activity_sticker_creation_container_0"
+    background="@android:color/transparent"
+    layout_width="-1"
+    android:layout_height="match_parent"/>

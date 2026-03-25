@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    gravity="0x10"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <View
+        background="@color/BorderPrimary"
+        layout_width="-1"
+        android:layout_height="@dimen/height_0.5dp"
+        layout_marginTop="8dp"/>
+    <TextView
+        textColor="@color/ContentContrast"
+        gravity="0x10"
+        layout_width="-2"
+        android:layout_height="@dimen/height_30dp"
+        layout_marginTop="8dp"
+        text="@string/pr_trade_favorites_title_hidden"
+        layout_marginStart="@dimen/dp24"
+        style="@style/Label_3_Regular"/>
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    baselineAligned="false"
+    paddingStart="24dp"
+    paddingEnd="24dp">
+    <TextView
+        textAppearance="@style/TextAppearance.Title.16SP.Medium"
+        textStyle="0x1"
+        textColor="@color/okTradeG900"
+        id="@+id/tv_title"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        text="@string/pr_message_forward_field_recipient"/>
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/rv_conversations"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="12dp"/>
+    <View
+        background="@color/okTradeG200"
+        layout_width="-1"
+        android:layout_height="0.5dp"
+        layout_marginTop="16dp"/>
+    <TextView
+        textAppearance="@style/TextAppearance.Headline.14SP"
+        textColor="@color/okTradeG500"
+        ellipsize="3"
+        id="@+id/tv_records"
+        paddingTop="16dp"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        maxLines="2"/>
+</LinearLayout>

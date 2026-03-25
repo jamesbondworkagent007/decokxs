@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/advanced_arrow_iv"
+        layout_width="@dimen/dp24"
+        android:layout_height="@dimen/dp24"
+        layout_marginTop="@dimen/margin_12dp"
+        src="@drawable/_2131231637_res_0x7f080395"
+        NOT_FOUND_0x5="0"
+        NOT_FOUND_0x6="0"
+        NOT_FOUND_0x7="0"
+        NOT_FOUND_0x8="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

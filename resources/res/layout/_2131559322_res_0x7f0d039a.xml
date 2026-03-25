@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    gravity="0x10"
+    orientation="0"
+    paddingLeft="12dp"
+    paddingTop="10dp"
+    paddingRight="12dp"
+    paddingBottom="10dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingHorizontal="12dp"
+    paddingVertical="10dp">
+    <androidx.appcompat.widget.AppCompatTextView
+        textColor="@color/ContentContrast"
+        id="@+id/tv_category"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        maxLines="1"
+        style="@style/Label_3_Regular"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

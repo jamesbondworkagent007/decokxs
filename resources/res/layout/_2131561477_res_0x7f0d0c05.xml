@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    paddingLeft="24dp"
+    paddingTop="16dp"
+    paddingRight="24dp"
+    paddingBottom="24dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingHorizontal="24dp">
+    <o.wYS
+        id="@+id/slippage_10"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_marginTop="16dp"
+        NOT_FOUND_0xb="@+id/slippage_20"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="36"/>
+    <o.wYS
+        id="@+id/slippage_20"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_marginStart="8dp"
+        NOT_FOUND_0xb="@+id/slippage_30"
+        NOT_FOUND_0xc="@+id/slippage_10"
+        NOT_FOUND_0xe="@+id/slippage_10"
+        NOT_FOUND_0xf="36"/>
+    <o.wYS
+        id="@+id/slippage_30"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_marginStart="8dp"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xc="@+id/slippage_20"
+        NOT_FOUND_0xe="@+id/slippage_10"
+        NOT_FOUND_0xf="36"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

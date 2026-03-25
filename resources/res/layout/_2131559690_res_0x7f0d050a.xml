@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="match_parent"
+    baselineAligned="false">
+    <TextView
+        textAppearance="@style/TextAppearance.Subtitle.12SP"
+        id="@+id/tv_intro"
+        paddingTop="@dimen/common_page_edge_space"
+        paddingBottom="@dimen/common_page_edge_space"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        paddingStart="@dimen/common_page_edge_space"
+        paddingEnd="@dimen/common_page_edge_space"/>
+    <View
+        background="@color/okTradeG100"
+        layout_width="-1"
+        android:layout_height="@dimen/height_0.5dp"
+        layout_marginStart="@dimen/common_page_edge_space"
+        layout_marginEnd="@dimen/common_page_edge_space"/>
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/rv_admin"
+        paddingTop="@dimen/common_page_edge_space"
+        layout_width="-1"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

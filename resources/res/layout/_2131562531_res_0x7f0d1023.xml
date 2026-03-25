@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    tag="layout/trade_ui_fragment_tactics_all_list_container2_0"
+    background="@color/BasePrimary"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.wQR
+        id="@+id/bot_filter"
+        paddingTop="@dimen/margin_8dp"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        paddingStart="@dimen/dp_6"
+        layout_marginEnd="8dp"/>
+    <FrameLayout
+        id="@+id/fl_container"
+        layout_width="-1"
+        android:layout_height="match_parent"/>
+</LinearLayout>

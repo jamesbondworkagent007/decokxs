@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <TextView
+        textAppearance="@style/TextAppearance.Title.16SP.Medium"
+        textSize="@dimen/sp_16"
+        gravity="0x10"
+        id="@+id/tv_title"
+        paddingLeft="@dimen/dp_16"
+        paddingRight="@dimen/dp_16"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="@dimen/dp_32"
+        paddingHorizontal="@dimen/dp_16"
+        NOT_FOUND_0x17="0"
+        style="@style/TextAppearance.Title.16SP.Medium"/>
+    <o.qII
+        layout_gravity="0x800055"
+        id="@+id/btn_scroll_up"
+        visibility="0"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginBottom="@dimen/height_80dp"
+        src="@drawable/_2131232248_res_0x7f0805f8"
+        scaleType="fitEnd"
+        tint="@color/okTradeBlack"
+        contentDescription="scroll_up"
+        layout_marginEnd="@dimen/margin_24dp"
+        backgroundTint="@color/white_background_color"
+        NOT_FOUND_0x12="@color/okTradeG100"
+        NOT_FOUND_0x13="@dimen/ok_dp_0.5"
+        NOT_FOUND_0x14="1"
+        NOT_FOUND_0x15="0"
+        NOT_FOUND_0x16="0"
+        NOT_FOUND_0x18="@color/ContentDisabled"/>
+</merge>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    background="@drawable/_2131231036_res_0x7f08013c"
+    paddingLeft="24dp"
+    paddingRight="24dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingHorizontal="24dp">
+    <TextView
+        textColor="@color/ContentSecondary"
+        gravity="0x800003"
+        id="@+id/tvBody"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="16dp"
+        layout_marginBottom="16dp"
+        text="@string/pr_message_paid_group_bttmsheet_desc_ready_to_join"
+        lineSpacingExtra="6sp"
+        layout_marginVertical="16dp"
+        style="@style/Body_3_Regular"/>
+    <o.C52794wYp
+        id="@+id/joinBtn"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="16dp"
+        layout_marginBottom="16dp"
+        layout_marginVertical="16dp"
+        NOT_FOUND_0xf="52"
+        NOT_FOUND_0x10="0x101"/>
+    <TextView
+        textColor="@color/ContentContrast"
+        gravity="0x11"
+        id="@+id/tvFooter"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginBottom="16dp"
+        text="@string/pr_message_paid_group_textarea_charge_monthly"
+        lineSpacingExtra="6sp"
+        style="@style/Label_3_Regular"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

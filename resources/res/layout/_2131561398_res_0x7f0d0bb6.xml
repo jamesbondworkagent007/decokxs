@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="0"
+    id="@+id/ll_wallet"
+    paddingLeft="@dimen/padding_24dp"
+    paddingTop="@dimen/padding_12dp"
+    paddingRight="@dimen/padding_24dp"
+    paddingBottom="@dimen/padding_12dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingHorizontal="@dimen/padding_24dp"
+    paddingVertical="@dimen/padding_12dp">
+    <o.wYC
+        layout_gravity="0x10"
+        id="@+id/ic_select"
+        visibility="2"
+        layout_width="24dp"
+        android:layout_height="24dp"
+        layout_marginEnd="12dp"/>
+    <TextView
+        textSize="@dimen/text_size_16sp"
+        textColor="@color/ContentPrimary"
+        layout_gravity="0x10"
+        id="@+id/tvReceiveAddressTitle"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        singleLine="true"
+        layout_weight="1"
+        style="@style/Label_1_Medium"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        layout_gravity="0x10"
+        id="@+id/ic_fold"
+        layout_width="@dimen/width_24dp"
+        android:layout_height="@dimen/height_24dp"
+        src="@drawable/_2131231654_res_0x7f0803a6"
+        tint="@color/ContentPrimary"
+        layout_marginStart="@dimen/margin_16dp"/>
+</LinearLayout>

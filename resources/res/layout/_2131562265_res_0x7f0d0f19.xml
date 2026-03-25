@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x10"
+    id="@+id/llParent"
+    paddingLeft="@dimen/padding_12dp"
+    paddingTop="@dimen/padding_8dp"
+    paddingRight="@dimen/padding_12dp"
+    paddingBottom="@dimen/padding_8dp"
+    layout_width="-2"
+    android:layout_height="wrap_content"
+    paddingHorizontal="@dimen/padding_12dp"
+    paddingVertical="@dimen/padding_8dp">
+    <com.google.android.material.imageview.ShapeableImageView
+        id="@+id/ivIcon"
+        layout_width="@dimen/width_16dp"
+        android:layout_height="@dimen/width_16dp"
+        layout_marginEnd="@dimen/margin_4dp"
+        NOT_FOUND_0x11="@style/CircleStyle"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        textAppearance="@style/Label_2_Medium"
+        textColor="@color/ContentPrimary"
+        ellipsize="3"
+        id="@+id/tvTitle"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        maxWidth="@dimen/width_200dp"
+        text="@string/pr_wallet_analysis_header_token"
+        maxLines="1"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    tag="layout/view_market_close_confirm_0"
+    layout_width="-1"
+    android:layout_height="match_parent"
+    paddingEnd="24dp">
+    <TextView
+        textSize="18sp"
+        textColor="@color/okTradeG900"
+        id="@+id/msg"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginStart="24dp"/>
+    <TextView
+        textSize="14sp"
+        textColor="@color/okTradeG700"
+        id="@+id/subMsg"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="8dp"
+        layout_marginStart="24dp"/>
+    <o.wYK
+        id="@+id/checkbox"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        text="@string/pr_options_alert_not_tips"/>
+</LinearLayout>

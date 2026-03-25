@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="match_parent"
+    contentDescription="web3_dex_settings_modal_container">
+    <o.C33537myN
+        id="@+id/appBar_state"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        contentDescription="web3_dex_settings_modal_topbar"
+        NOT_FOUND_0x5="@string/pr_swaptrade_meme_header_current_preset"
+        NOT_FOUND_0x6="true"
+        NOT_FOUND_0x7="@drawable/_2131231642_res_0x7f08039a"
+        NOT_FOUND_0x8="true"/>
+    <FrameLayout
+        id="@+id/container_meme_setting"
+        layout_width="-1"
+        android:layout_height="match_parent"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

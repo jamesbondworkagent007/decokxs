@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        layout_width="-1"
+        android:layout_height="wrap_content">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            orientation="1"
+            id="@+id/container_panel"
+            layout_width="-1"
+            android:layout_height="wrap_content">
+            <o.C25330iug
+                id="@+id/view_setting_meme"
+                layout_width="-1"
+                android:layout_height="wrap_content"
+                contentDescription="web3_dex_meme_setting_view"
+                NOT_FOUND_0xd="0"/>
+            <androidx.appcompat.widget.AppCompatTextView
+                textAppearance="@style/TextAppearance.Text.14SP.Regular"
+                textColor="@color/SemanticNotice"
+                id="@+id/tv_message_panel"
+                visibility="2"
+                layout_width="-1"
+                android:layout_height="wrap_content"
+                layout_marginTop="8dp"
+                NOT_FOUND_0xa="0"
+                NOT_FOUND_0xb="0"
+                NOT_FOUND_0xc="@+id/view_setting_meme"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <com.okinc.business.dexui.main.swap.trade.status.widget.MemeErrorNoticeView
+            id="@+id/error_view_mememode"
+            visibility="2"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            layout_marginTop="16dp"
+            layout_below="@+id/container_panel"/>
+    </RelativeLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View xmlns:android="http://schemas.android.com/apk/res/android"
+    background="?attr/wallet_switch_color_g200"
+    layout_width="-1"
+    android:layout_height="0.5dp"
+    layout_marginStart="16dp"
+    layout_marginEnd="16dp"/>

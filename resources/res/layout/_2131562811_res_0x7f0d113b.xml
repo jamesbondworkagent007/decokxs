@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="0"
+    tag="layout/view_invest_confirm_bottom_0"
+    layout_width="-1"
+    android:layout_height="44dp"
+    layout_margin="@dimen/margin_16dp">
+    <TextView
+        textAppearance="@style/TextAppearance.Text.16SP.Medium"
+        textStyle="0x1"
+        textColor="@color/ContentPrimary"
+        gravity="0x11"
+        id="@+id/btn_reset"
+        layout_width="0dp"
+        android:layout_height="match_parent"
+        text="@string/pr_investdeposit_midpopupslippage_btn_reset"
+        layout_weight="1"
+        layout_marginEnd="@dimen/margin_16dp"/>
+    <o.C52794wYp
+        gravity="0x11"
+        id="@+id/btn_ok"
+        layout_width="0dp"
+        android:layout_height="match_parent"
+        text="@string/pr_investdeposit_midpopupslippage_btn_confirm"
+        layout_weight="2"
+        NOT_FOUND_0xd="44"
+        NOT_FOUND_0xe="0x101"/>
+</LinearLayout>

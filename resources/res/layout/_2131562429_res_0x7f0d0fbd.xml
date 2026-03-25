@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.C55258xgZ
+        id="@+id/item_title"
+        tag="layout/trade_impl_view_advance_item_switch_0"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_18dp"
+        layout_marginBottom="@dimen/margin_18dp"
+        layout_marginEnd="@dimen/margin_24dp"
+        layout_marginVertical="@dimen/margin_18dp"
+        textFontWeight="500"
+        NOT_FOUND_0xf="@+id/warning"
+        NOT_FOUND_0x11="@+id/switch_button"
+        NOT_FOUND_0x12="0"
+        NOT_FOUND_0x14="0"
+        NOT_FOUND_0x15="2"
+        NOT_FOUND_0x16="@color/grey_g900"
+        NOT_FOUND_0x17="@dimen/text_size_16sp"/>
+    <o.C55239xgG
+        id="@+id/switch_button"
+        tag="layout/trade_impl_view_advance_item_switch_1"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0xe="@+id/item_title"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x14="@+id/item_title"
+        NOT_FOUND_0x18="-3"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        textAppearance="@style/TextAppearance.Text.Regular"
+        textSize="@dimen/text_size_12sp"
+        textColor="@color/orange_o700"
+        id="@+id/warning"
+        tag="layout/trade_impl_view_advance_item_switch_2"
+        paddingTop="@dimen/padding_6dp"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0x13="@+id/item_title"/>
+</merge>

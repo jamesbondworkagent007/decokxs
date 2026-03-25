@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <androidx.core.widget.NestedScrollView
+        layout_gravity="0x10"
+        id="@+id/multi_input_container"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        overScrollMode="2"
+        NOT_FOUND_0x14="0"
+        NOT_FOUND_0x15="0"
+        NOT_FOUND_0x16="0"
+        NOT_FOUND_0x17="0">
+        <androidx.appcompat.widget.LinearLayoutCompat
+            orientation="1"
+            id="@+id/layout_multi_input"
+            paddingLeft="16dp"
+            paddingRight="16dp"
+            layout_width="-1"
+            android:layout_height="match_parent"
+            paddingHorizontal="16dp">
+            <TextView
+                textAppearance="@style/TextAppearance.Text.14SP.Medium"
+                textColor="@color/ContentContrast"
+                id="@+id/tvTitle"
+                layout_width="-1"
+                android:layout_height="wrap_content"
+                layout_marginTop="@dimen/xxsm"
+                text="Invest with"/>
+            <o.C27349jtX
+                id="@+id/first_input_layout"
+                layout_width="-1"
+                android:layout_height="wrap_content"
+                layout_marginTop="@dimen/xsm"
+                NOT_FOUND_0x13="false"/>
+            <FrameLayout
+                layout_width="-1"
+                android:layout_height="32dp"
+                layout_marginTop="12dp"
+                layout_marginBottom="12dp"
+                layout_marginVertical="12dp">
+                <View
+                    layout_gravity="0x10"
+                    background="@color/BaseSecondary"
+                    layout_width="-1"
+                    android:layout_height="0.5dp"/>
+                <ImageView
+                    layout_gravity="0x11"
+                    layout_width="32dp"
+                    android:layout_height="32dp"
+                    src="@drawable/_2131232626_res_0x7f080772"
+                    scaleType="fitEnd"
+                    contentDescription="Plus Sign"/>
+            </FrameLayout>
+            <o.C27349jtX
+                id="@+id/second_input_layout"
+                layout_width="-1"
+                android:layout_height="wrap_content"
+                NOT_FOUND_0x13="false"/>
+            <View
+                layout_width="-1"
+                android:layout_height="24dp"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    tag="layout/activity_receive_coin_qr_code_0"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C33537myN
+        id="@+id/receive_coin_appbar"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x5="@color/BasePrimaryAlternative"
+        NOT_FOUND_0x6="@color/BasePrimaryAlternative"/>
+    <FrameLayout
+        id="@+id/receive_coin_flContent"
+        layout_width="-1"
+        android:layout_height="match_parent"/>
+</LinearLayout>

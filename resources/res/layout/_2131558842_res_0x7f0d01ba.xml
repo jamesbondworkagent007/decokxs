@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    tag="layout/bottom_sheet_bsc_select_payment_method_0"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <androidx.fragment.app.FragmentContainerView
+        id="@+id/selection_fragment_container"
+        background="@android:color/transparent"
+        fitsSystemWindows="false"
+        clipChildren="false"
+        clipToPadding="false"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginLeft="@dimen/dp_16"
+        layout_marginTop="@dimen/dp_0"
+        layout_marginRight="@dimen/dp_16"
+        layout_marginBottom="@dimen/dp_32"
+        layout_marginHorizontal="@dimen/dp_16"/>
+</FrameLayout>

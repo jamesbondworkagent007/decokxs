@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    paddingTop="@dimen/margin_16dp"
+    paddingBottom="@dimen/margin_16dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingVertical="@dimen/margin_16dp">
+    <View
+        id="@+id/line"
+        layout_width="-1"
+        android:layout_height="0.5dp"
+        layout_marginLeft="@dimen/margin_24dp"
+        layout_marginRight="@dimen/margin_24dp"
+        layout_marginHorizontal="@dimen/margin_24dp"
+        style="@style/WidgetDivisionLine"/>
+</FrameLayout>

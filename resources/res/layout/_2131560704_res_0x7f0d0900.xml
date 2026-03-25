@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x11"
+    orientation="0"
+    paddingTop="@dimen/padding_18dp"
+    paddingBottom="@dimen/padding_18dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingVertical="@dimen/padding_18dp">
+    <o.C55258xgZ
+        id="@+id/switch_title"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_weight="1"
+        layout_marginEnd="@dimen/margin_14dp"
+        NOT_FOUND_0xc="@color/ContentPrimary"
+        NOT_FOUND_0xd="@dimen/text_size_16sp"
+        NOT_FOUND_0xe="@style/TextAppearance.Text"
+        NOT_FOUND_0xf="400"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/redTips"
+        visibility="2"
+        layout_width="5dp"
+        android:layout_height="5dp"
+        src="@drawable/_2131232046_res_0x7f08052e"
+        layout_marginEnd="@dimen/dp_4"/>
+    <o.C55239xgG
+        id="@+id/switch_btn"
+        layout_width="-2"
+        android:layout_height="wrap_content"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x10"
+    orientation="0"
+    layout_width="-1"
+    android:layout_height="56dp"
+    foreground="?attr/selectableItemBackgroundBorderless">
+    <androidx.appcompat.widget.AppCompatTextView
+        textColor="@color/ContentPrimary"
+        ellipsize="3"
+        layout_gravity="0x10"
+        id="@+id/tv_group_name"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        text="@string/pr_trade_favorites_colheader_name"
+        lines="1"
+        layout_weight="1"
+        layout_marginStart="24dp"
+        layout_marginEnd="8dp"
+        NOT_FOUND_0xf="@dimen/text_size_10sp"
+        NOT_FOUND_0x10="1"
+        style="@style/Label_1_Regular"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/iv_select"
+        layout_width="@dimen/dp_24"
+        android:layout_height="@dimen/dp_24"
+        src="@drawable/_2131233852_res_0x7f080c3c"
+        layout_marginEnd="@dimen/dp_24"
+        NOT_FOUND_0x11="@color/market_selector_text_operation_primary"/>
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.C55173xeu
+        id="@+id/error_view"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_26dp"
+        layout_marginBottom="@dimen/margin_26dp"
+        layout_marginVertical="@dimen/margin_26dp"
+        NOT_FOUND_0xe="9"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x11="0"
+        NOT_FOUND_0x12="0"
+        NOT_FOUND_0x16="@string/pr_swaptrade_market_emptystate_btn_refresh"
+        NOT_FOUND_0x17="@string/pr_swaptrade_dev_token_emptystate_something_went_wrong"/>
+    <o.C55113xdn
+        layout_gravity="0x11"
+        id="@+id/loading_view"
+        visibility="2"
+        layout_width="60dp"
+        android:layout_height="60dp"
+        layout_marginTop="@dimen/xxxlg"
+        layout_marginBottom="@dimen/xxxlg"
+        layout_marginVertical="@dimen/xxxlg"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x11="0"
+        NOT_FOUND_0x12="0"
+        NOT_FOUND_0x13="true"
+        NOT_FOUND_0x14="true"
+        NOT_FOUND_0x15="@raw/_2131886126_res_0x7f12002e"/>
+    <androidx.recyclerview.widget.RecyclerView
+        orientation="1"
+        id="@+id/rv_rwa_statuses"
+        paddingTop="@dimen/xxxsm"
+        paddingBottom="@dimen/xxsm"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginLeft="@dimen/margin_default"
+        layout_marginRight="@dimen/margin_default"
+        layout_marginHorizontal="@dimen/margin_default"
+        NOT_FOUND_0xf="androidx.recyclerview.widget.LinearLayoutManager"/>
+</FrameLayout>

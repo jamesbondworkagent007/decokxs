@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/fragment_bot_lead_user_order_history_0"
+    background="@color/BasePrimary"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C33546myW
+        id="@+id/smart_refresh"
+        layout_width="-1"
+        android:layout_height="match_parent"
+        NOT_FOUND_0x7="0"
+        NOT_FOUND_0x8="0"
+        NOT_FOUND_0x9="true"
+        NOT_FOUND_0xa="true"
+        NOT_FOUND_0xb="true">
+        <o.C33603mza
+            layout_width="-1"
+            android:layout_height="wrap_content"/>
+        <androidx.recyclerview.widget.RecyclerView
+            id="@+id/recyclerview"
+            descendantFocusability="0"
+            layout_width="-1"
+            android:layout_height="match_parent"
+            overScrollMode="2"/>
+        <o.C33604mzb
+            layout_width="-1"
+            android:layout_height="wrap_content"/>
+    </o.C33546myW>
+</FrameLayout>

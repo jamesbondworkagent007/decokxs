@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/fragment_auth_reset_result_0"
+    background="@color/BasePrimary"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <com.okinc.auth.impl.widget.SimpleToolBar
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x7="0"/>
+    <o.C55178xez
+        id="@+id/resultPage"
+        layout_width="-1"
+        android:layout_height="match_parent"
+        NOT_FOUND_0x6="0"
+        NOT_FOUND_0x7="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

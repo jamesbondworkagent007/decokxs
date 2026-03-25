@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    textAppearance="@style/TextAppearance.Text.12SP"
+    gravity="0x11"
+    id="@+id/singleTextDynamicSelectViewTitle"
+    background="@color/window_background_color"
+    paddingTop="8dp"
+    paddingBottom="8dp"
+    layout_width="-1"
+    android:layout_height="match_parent"/>

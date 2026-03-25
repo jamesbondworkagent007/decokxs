@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/btn_copy_email"
+    tag="layout/view_copy_email_0"
+    background="@drawable/_2131231408_res_0x7f0802b0"
+    paddingLeft="@dimen/xxsm"
+    paddingTop="@dimen/xxxsm"
+    paddingRight="@dimen/xxsm"
+    paddingBottom="@dimen/xxxsm"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    contentDescription="@string/pr_supportcenter_accessibility_copy_email"
+    paddingHorizontal="@dimen/xxsm"
+    paddingVertical="@dimen/xxxsm">
+    <TextView
+        gravity="0x11"
+        layout_gravity="0x11"
+        id="@+id/txt_copy_email"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        drawablePadding="@dimen/xxxsm"
+        NOT_FOUND_0xf="@drawable/_2131231721_res_0x7f0803e9"
+        style="@style/Label_2_Bold"/>
+</FrameLayout>

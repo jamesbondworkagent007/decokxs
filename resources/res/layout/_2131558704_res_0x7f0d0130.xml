@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    id="@+id/frame_announcements_container"
+    tag="layout/activity_support_announcements_0"
+    background="@color/BasePrimary"
+    layout_width="-1"
+    android:layout_height="match_parent"/>

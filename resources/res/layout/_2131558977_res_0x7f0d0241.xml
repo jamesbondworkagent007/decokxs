@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o.C8133aww xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    paddingLeft="50dp"
+    paddingRight="50dp"
+    layout_width="-1"
+    android:layout_height="110dp"
+    paddingHorizontal="50dp"
+    NOT_FOUND_0xf="#99ff0000"
+    NOT_FOUND_0x10="#99000000"
+    NOT_FOUND_0x11="0"
+    NOT_FOUND_0x12="4dp">
+    <TextView
+        textSize="12sp"
+        textColor="#ffffff"
+        gravity="0x11"
+        id="@+id/tv_delete"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginBottom="24dp"
+        text="@string/delete_floating_window"
+        layout_alignParentBottom="true"
+        layout_centerHorizontal="true"/>
+    <ImageView
+        id="@+id/iv_delete"
+        layout_width="20dp"
+        android:layout_height="20dp"
+        layout_marginBottom="6dp"
+        src="0x7f0808e3"
+        layout_above="@+id/tv_delete"
+        layout_centerHorizontal="true"/>
+</o.C8133aww>

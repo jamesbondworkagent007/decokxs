@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/fragment_orbit_search_result_0"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C33537myN
+        id="@+id/appbar"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x6="true"
+        NOT_FOUND_0x7="@drawable/_2131232369_res_0x7f080671"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xf="true"/>
+    <o.C33546myW
+        id="@+id/smartRefreshLayout"
+        layout_width="-1"
+        android:layout_height="0dp"
+        layout_marginTop="@dimen/margin_16dp"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xa="@+id/appbar"
+        NOT_FOUND_0xc="false"
+        NOT_FOUND_0xd="true"
+        NOT_FOUND_0xe="false">
+        <androidx.recyclerview.widget.RecyclerView
+            orientation="1"
+            id="@+id/searchResultListView"
+            layout_width="-1"
+            android:layout_height="match_parent"
+            NOT_FOUND_0x8="androidx.recyclerview.widget.LinearLayoutManager"/>
+        <o.C33604mzb
+            id="@+id/refreshFooter"
+            layout_width="-1"
+            android:layout_height="wrap_content"/>
+    </o.C33546myW>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    paddingTop="@dimen/xxxsm"
+    paddingBottom="@dimen/xxxsm"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    minHeight="@dimen/dp_40"
+    paddingVertical="@dimen/xxxsm">
+    <TextView
+        textColor="@color/ContentPrimary"
+        ellipsize="3"
+        layout_gravity="0x10"
+        id="@+id/tvRewardName"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        text="@string/pr_invest_wallet_defi_label_total_rewards"
+        maxLines="1"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0x10="@+id/tvRewardValue"
+        NOT_FOUND_0x13="0"
+        NOT_FOUND_0x14="0"
+        NOT_FOUND_0x15="-2"
+        style="@style/Label_1_Regular"/>
+    <TextView
+        textColor="@color/ContentPrimary"
+        ellipsize="3"
+        gravity="0x800015"
+        id="@+id/tvRewardValue"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        maxLines="1"
+        layout_marginStart="@dimen/xsm"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x11="1"
+        NOT_FOUND_0x12="@+id/tvRewardName"
+        NOT_FOUND_0x14="0"
+        style="@style/Label_1_Regular"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

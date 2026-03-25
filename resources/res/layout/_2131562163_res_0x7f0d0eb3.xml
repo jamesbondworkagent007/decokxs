@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/rcv_pos_value"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        nestedScrollingEnabled="false"/>
+</LinearLayout>

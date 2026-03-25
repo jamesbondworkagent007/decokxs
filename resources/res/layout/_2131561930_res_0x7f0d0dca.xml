@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    gravity="0x1"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        orientation="0"
+        id="@+id/container"
+        background="@drawable/_2131234002_res_0x7f080cd2"
+        layout_width="-2"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        src="@drawable/_2131233046_res_0x7f080916"/>
+</LinearLayout>

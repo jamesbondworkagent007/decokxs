@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    background="@drawable/_2131231384_res_0x7f080298"
+    padding="@dimen/padding_12dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    minHeight="@dimen/height_48dp"
+    layout_marginStart="@dimen/margin_default"
+    layout_marginEnd="@dimen/margin_default">
+    <ImageView
+        id="@+id/startIcon"
+        padding="2dp"
+        layout_width="@dimen/width_24dp"
+        android:layout_height="@dimen/height_24dp"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x11="@color/color_content_static_inverse"/>
+    <com.google.android.material.textview.MaterialTextView
+        textAppearance="@style/Body_3_Regular"
+        textColor="@color/color_content_static_inverse"
+        gravity="0x10"
+        id="@+id/description"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        minHeight="@dimen/height_24dp"
+        layout_marginStart="@dimen/margin_8dp"
+        layout_marginEnd="@dimen/margin_8dp"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xd="@+id/endContainer"
+        NOT_FOUND_0xe="@+id/startIcon"
+        NOT_FOUND_0x10="@+id/startIcon"/>
+    <FrameLayout
+        id="@+id/endContainer"
+        layout_width="-2"
+        android:layout_height="0dp"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0x10="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

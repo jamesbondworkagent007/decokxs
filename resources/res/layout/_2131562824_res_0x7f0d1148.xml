@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    background="@color/neutral_20_dark"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <SurfaceView
+        id="@+id/surfaceView"
+        layout_width="-1"
+        android:layout_height="match_parent"/>
+    <View
+        id="@+id/shutterView"
+        background="@color/neutral_20_dark"
+        visibility="0"
+        layout_width="-1"
+        android:layout_height="match_parent"/>
+    <ProgressBar
+        layout_gravity="0x11"
+        id="@+id/loadingIndicator"
+        visibility="2"
+        layout_width="32dp"
+        android:layout_height="32dp"
+        indeterminateTint="@color/white"/>
+    <LinearLayout
+        gravity="0x800005"
+        layout_gravity="0x800035"
+        orientation="0"
+        id="@+id/topControlBar"
+        padding="8dp"
+        layout_width="-2"
+        android:layout_height="wrap_content">
+        <ImageView
+            id="@+id/btnEnlarge"
+            padding="6dp"
+            layout_width="32dp"
+            android:layout_height="32dp"
+            src="@drawable/_2131232085_res_0x7f080555"
+            tint="@android:color/white"
+            layout_marginEnd="8dp"/>
+        <ImageView
+            id="@+id/btnClose"
+            padding="6dp"
+            layout_width="32dp"
+            android:layout_height="32dp"
+            src="@drawable/_2131231675_res_0x7f0803bb"
+            tint="@android:color/white"/>
+    </LinearLayout>
+</FrameLayout>

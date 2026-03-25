@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/container"
+    tag="layout/activity_host_0"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <androidx.fragment.app.FragmentContainerView
+        name="androidx.navigation.fragment.NavHostFragment"
+        id="@+id/nav_host_fragment"
+        layout_width="-1"
+        android:layout_height="match_parent"
+        NOT_FOUND_0x5="true"
+        NOT_FOUND_0x6="0"
+        NOT_FOUND_0x7="0"
+        NOT_FOUND_0x8="0"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xa="@navigation/_2131755011_res_0x7f100003"/>
+</FrameLayout>

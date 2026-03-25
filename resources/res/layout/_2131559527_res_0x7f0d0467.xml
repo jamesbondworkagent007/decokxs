@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.hWF
+        id="@+id/view_order_address"
+        paddingLeft="16dp"
+        paddingRight="16dp"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        paddingHorizontal="16dp"/>
+    <o.hWF
+        id="@+id/view_order_address_receive"
+        paddingLeft="16dp"
+        paddingRight="16dp"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="24dp"
+        paddingHorizontal="16dp"/>
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/recycler_main_order"
+        paddingLeft="16dp"
+        paddingRight="16dp"
+        layout_width="-1"
+        android:layout_height="0dp"
+        layout_weight="1"
+        paddingHorizontal="16dp"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

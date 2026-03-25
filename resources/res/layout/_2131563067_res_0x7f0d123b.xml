@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <include
+        id="@+id/dailyYieldWidget"
+        visibility="2"
+        layout="@layout/_2131562989_res_0x7f0d11ed"/>
+    <include
+        id="@+id/collateralRatioWidget"
+        visibility="0"
+        layout="@layout/_2131562971_res_0x7f0d11db"/>
+    <include
+        id="@+id/receiveTokenWidget"
+        visibility="2"
+        layout="@layout/_2131563053_res_0x7f0d122d"/>
+    <include
+        id="@+id/remainingRepaymentWidget"
+        visibility="2"
+        layout="@layout/_2131560676_res_0x7f0d08e4"/>
+    <include
+        id="@+id/repayBorrowedWidget"
+        visibility="2"
+        layout="@layout/_2131560677_res_0x7f0d08e5"/>
+    <include
+        id="@+id/borrowReceiveTokenWidget"
+        visibility="2"
+        layout="@layout/_2131562968_res_0x7f0d11d8"/>
+</FrameLayout>

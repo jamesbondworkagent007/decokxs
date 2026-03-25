@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    gravity="0x11"
+    orientation="0"
+    background="@drawable/_2131233297_res_0x7f080a11"
+    layout_width="50dp"
+    android:layout_height="28dp">
+    <ImageView
+        id="@+id/ivReminderStatus"
+        layout_width="@dimen/width_16dp"
+        android:layout_height="@dimen/height_16dp"
+        src="@drawable/_2131233298_res_0x7f080a12"/>
+    <ImageView
+        id="@+id/ivCalendarStatus"
+        layout_width="@dimen/width_16dp"
+        android:layout_height="@dimen/height_16dp"
+        src="@drawable/_2131231570_res_0x7f080352"/>
+</LinearLayout>

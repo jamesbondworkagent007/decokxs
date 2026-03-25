@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    id="@+id/content_constraint_layout"
+    tag="layout/item_info_form_entry_0"
+    visibility="0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        gravity="0x10"
+        orientation="0"
+        visibility="0"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginBottom="16dp">
+        <TextView
+            textAppearance="@style/Label_1_Medium"
+            textSize="16sp"
+            textColor="@color/ContentPrimary"
+            id="@+id/title"
+            layout_width="0dp"
+            android:layout_height="wrap_content"
+            layout_weight="1"/>
+        <o.C52794wYp
+            id="@+id/add_more"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            singleLine="true"
+            drawablePadding="8dp"
+            layout_marginStart="10dp"
+            NOT_FOUND_0xf="32"
+            NOT_FOUND_0x10="0x101"
+            NOT_FOUND_0x11="-2"/>
+    </LinearLayout>
+    <o.C42224rKy
+        id="@+id/alertCard"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="wrap_content"/>
+    <o.C31695mAm
+        id="@+id/content_rv"
+        layout_width="-1"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

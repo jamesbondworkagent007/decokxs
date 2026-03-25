@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o.C40499qYc xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    paddingBottom="@dimen/dp_30"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    animateLayoutChanges="true">
+    <androidx.core.widget.NestedScrollView
+        layout_width="-1"
+        android:layout_height="match_parent"
+        NOT_FOUND_0x8="0">
+        <o.C40499qYc
+            orientation="1"
+            id="@+id/market_chart_marker_view_host"
+            layout_width="-1"
+            android:layout_height="wrap_content">
+            <androidx.fragment.app.FragmentContainerView
+                name="o.jJX"
+                id="@+id/fragment_container_chart"
+                layout_width="-1"
+                android:layout_height="wrap_content"
+                NOT_FOUND_0x7="@+id/tv_title"/>
+            <androidx.fragment.app.FragmentContainerView
+                name="o.jKe"
+                id="@+id/fragment_container_table"
+                layout_width="-1"
+                android:layout_height="wrap_content"
+                NOT_FOUND_0x7="@+id/fragment_container_chart"/>
+        </o.C40499qYc>
+    </androidx.core.widget.NestedScrollView>
+</o.C40499qYc>

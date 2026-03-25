@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/content_constraint_layout"
+    tag="layout/item_card_0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <ImageView
+        id="@+id/content_icon"
+        visibility="2"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        src="@drawable/_2131232619_res_0x7f08076b"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x11="0"/>
+    <TextView
+        id="@+id/cardContent_title"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginStart="@dimen/margin_8dp"
+        NOT_FOUND_0x9="true"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="@+id/content_icon"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x12="0dp"/>
+    <TextView
+        id="@+id/cardContent_subtitle"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_4dp"
+        lineSpacingExtra="?attr/contentLineSpacingExtra"
+        NOT_FOUND_0x9="true"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xe="@+id/cardContent_title"
+        NOT_FOUND_0xf="@+id/cardContent_title"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

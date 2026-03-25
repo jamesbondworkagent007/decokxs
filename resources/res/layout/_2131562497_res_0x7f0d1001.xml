@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/trade_ui_dialog_bot_guide_0"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C55172xet
+        layout_gravity="0x10"
+        id="@+id/progress_indicator"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_weight="1"
+        layout_marginStart="@dimen/dp24"
+        layout_marginEnd="16dp"
+        NOT_FOUND_0xc="@+id/close"
+        NOT_FOUND_0xf="@+id/close"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x12="@+id/close"/>
+    <o.wYC
+        id="@+id/close"
+        padding="12dp"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        tint="@color/okTradeG400"
+        layout_marginEnd="@dimen/margin_12dp"
+        tintMode="src_in"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0x12="0"
+        NOT_FOUND_0x15="@drawable/_2131232489_res_0x7f0806e9"/>
+    <androidx.viewpager2.widget.ViewPager2
+        id="@+id/vp"
+        layout_width="-1"
+        android:layout_height="0dp"
+        layout_marginTop="@dimen/dp_8"
+        NOT_FOUND_0xd="@+id/buttonBox"
+        NOT_FOUND_0x11="@+id/close"/>
+    <o.wYF
+        id="@+id/buttonBox"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0x13="52"
+        NOT_FOUND_0x14="5"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

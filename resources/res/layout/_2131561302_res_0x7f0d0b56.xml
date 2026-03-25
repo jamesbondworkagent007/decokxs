@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.C52794wYp
+        textColor="@color/white"
+        gravity="0x11"
+        id="@+id/reminder_continue"
+        layout_width="-1"
+        android:layout_height="52dp"
+        layout_marginBottom="@dimen/margin_44dp"
+        text="@string/pr_investdetails_bot_popuptitle_btn_confirm"
+        contentDescription="content_invest_reminder_bottom_btn"
+        textAllCaps="false"
+        layout_marginStart="@dimen/margin_24dp"
+        layout_marginEnd="@dimen/margin_24dp"
+        NOT_FOUND_0xc="40dp"
+        NOT_FOUND_0xd="52"
+        NOT_FOUND_0xe="0x101"
+        style="@style/Button.Primary"/>
+</LinearLayout>

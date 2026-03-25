@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    paddingLeft="24dp"
+    paddingTop="8dp"
+    paddingRight="24dp"
+    paddingBottom="20dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingHorizontal="24dp">
+    <TextView
+        textColor="@color/ContentPrimary"
+        id="@+id/tv_title"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="16dp"
+        NOT_FOUND_0x13="0"
+        NOT_FOUND_0x15="0"
+        style="@style/TextAppearance.Title.Bold.18SP"/>
+    <TextView
+        textColor="@color/ContentContrast"
+        id="@+id/tv_content"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="16dp"
+        layout_marginBottom="24dp"
+        NOT_FOUND_0x12="0"
+        NOT_FOUND_0x13="0"
+        NOT_FOUND_0x14="@+id/cap_and_floor_ll"
+        style="@style/Label_2_Regular"/>
+    <TextView
+        textAppearance="@style/Label_2_Regular"
+        textColor="@color/ContentPrimary"
+        id="@+id/tv_learn_more"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="8dp"
+        text="@string/pr_trade_general_link_learn_more"
+        drawablePadding="4dp"
+        drawableEnd="@drawable/_2131233696_res_0x7f080ba0"
+        NOT_FOUND_0x10="true"
+        NOT_FOUND_0x11="0"
+        NOT_FOUND_0x13="0"
+        NOT_FOUND_0x14="@+id/funding_fee_explain"/>
+</LinearLayout>

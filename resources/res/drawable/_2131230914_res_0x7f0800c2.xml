@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape shape="0">
+            <corners
+                topLeftRadius="@dimen/dp_22"
+                topRightRadius="@dimen/dp_22"
+                bottomLeftRadius="0dp"
+                bottomRightRadius="0dp"/>
+            <solid color="@android:color/transparent"/>
+        </shape>
+    </item>
+    <item>
+        <bitmap
+            src="@drawable/_2131233469_res_0x7f080abd"
+            tileMode="-1"/>
+    </item>
+</layer-list>

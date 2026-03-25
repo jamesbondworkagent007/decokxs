@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x11"
+    orientation="0"
+    background="@drawable/_2131233964_res_0x7f080cac"
+    paddingLeft="@dimen/margin_8dp"
+    paddingRight="@dimen/margin_8dp"
+    layout_width="-2"
+    android:layout_height="@dimen/height_36dp"
+    minWidth="72dp"
+    backgroundTint="@color/BackgroundLv2"
+    paddingHorizontal="@dimen/margin_8dp">
+    <androidx.appcompat.widget.AppCompatTextView
+        textColor="@color/grey_g900"
+        gravity="0x11"
+        id="@+id/coin_count"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        includeFontPadding="false"
+        layout_centerVertical="true"
+        drawableStart="@drawable/_2131232833_res_0x7f080841"
+        style="@style/TextAppearance.Text.12SP"/>
+    <ImageView
+        layout_width="12dp"
+        android:layout_height="12dp"
+        src="@drawable/_2131231647_res_0x7f08039f"
+        NOT_FOUND_0x10="@color/ContentContrast"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

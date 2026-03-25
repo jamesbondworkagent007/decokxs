@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    layout_width="-2"
+    android:layout_height="wrap_content"
+    layoutDirection="0">
+    <LinearLayout
+        gravity="0x1"
+        orientation="1"
+        id="@+id/cr_main_trade_btn_container"
+        layout_width="-2"
+        android:layout_height="wrap_content">
+        <FrameLayout
+            id="@+id/cr_main_trade_btn"
+            visibility="0"
+            layout_width="@dimen/dp_46"
+            android:layout_height="@dimen/dp_46">
+            <ImageView
+                id="@+id/bg_ellipse"
+                layout_width="@dimen/dp_46"
+                android:layout_height="@dimen/dp_46"
+                src="@drawable/_2131230965_res_0x7f0800f5"
+                scaleType="fillCenter"/>
+            <ImageView
+                id="@+id/cr_main_trade_tab"
+                padding="@dimen/dp_6"
+                layout_width="-1"
+                android:layout_height="match_parent"
+                src="@drawable/_2131234158_res_0x7f080d6e"
+                scaleType="fitStart"/>
+        </FrameLayout>
+    </LinearLayout>
+    <com.airbnb.lottie.LottieAnimationView
+        id="@+id/cr_trade_tab_anim"
+        visibility="0"
+        layout_width="@dimen/dp_46"
+        android:layout_height="@dimen/dp_46"
+        layoutDirection="0"/>
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    clipChildren="false"
+    clipToPadding="false"
+    layout_width="-2"
+    android:layout_height="wrap_content">
+    <TextView
+        textAppearance="@style/TextAppearance.Text.14SP"
+        textColor="@color/grey_g900_dark"
+        id="@+id/tv_popup_text"
+        paddingLeft="8dp"
+        paddingTop="12dp"
+        paddingRight="8dp"
+        paddingBottom="12dp"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        maxWidth="200dp"
+        paddingHorizontal="8dp"
+        paddingVertical="12dp"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

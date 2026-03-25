@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.wYK
+        gravity="0x800003"
+        id="@+id/checkbox_show_disclaimer"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="10dp"
+        text="@string/pr_trade_search_dialog_checkbox_do_not_show_again"
+        NOT_FOUND_0x6="0"
+        NOT_FOUND_0x7="0"
+        NOT_FOUND_0x8="0"
+        NOT_FOUND_0x9="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

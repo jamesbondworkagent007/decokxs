@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    gravity="0x1"
+    orientation="1"
+    layout_width="88dp"
+    android:layout_height="wrap_content"
+    layout_marginBottom="@dimen/margin_24dp"
+    layout_marginStart="@dimen/margin_8dp"
+    layout_marginEnd="@dimen/margin_8dp">
+    <ImageView
+        id="@+id/dapp_icon"
+        layout_width="44dp"
+        android:layout_height="44dp"
+        importantForAccessibility="2"/>
+    <TextView
+        textColor="@color/ContentPrimary"
+        ellipsize="3"
+        gravity="0x11"
+        id="@+id/dapp_name"
+        paddingTop="@dimen/padding_2dp"
+        paddingBottom="@dimen/padding_2dp"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_6dp"
+        maxLines="2"
+        paddingVertical="@dimen/padding_2dp"
+        style="@style/Label_3_Medium"/>
+</LinearLayout>

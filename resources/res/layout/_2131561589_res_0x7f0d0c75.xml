@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    textColor="@color/ContentContrast"
+    id="@+id/txt_member_count"
+    paddingLeft="@dimen/sm"
+    paddingTop="@dimen/xxsm"
+    paddingRight="@dimen/sm"
+    paddingBottom="@dimen/xxsm"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    text="@string/pr_message_group_label_member_count"
+    paddingHorizontal="@dimen/sm"
+    paddingVertical="@dimen/xxsm"
+    style="@style/Body_3"/>

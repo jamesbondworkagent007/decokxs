@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.C33537myN
+        id="@+id/topBar"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x4="true"
+        NOT_FOUND_0x5="@dimen/text_size_18sp"
+        NOT_FOUND_0x6="true"
+        NOT_FOUND_0x7="@drawable/_2131232348_res_0x7f08065c"
+        NOT_FOUND_0x8="false"
+        NOT_FOUND_0x9="true"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="false"/>
+    <FrameLayout
+        id="@+id/planet_search_feed_container"
+        layout_width="-1"
+        android:layout_height="match_parent"/>
+</LinearLayout>

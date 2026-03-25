@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    tag="layout/layout_bot_loss_insurance_explain_dialog_0"
+    paddingBottom="@dimen/margin_24dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginLeft="@dimen/margin_16dp"
+    layout_marginRight="@dimen/margin_16dp"
+    layout_marginHorizontal="@dimen/margin_16dp">
+    <TextView
+        textColor="@color/ContentSecondary"
+        id="@+id/tv_content"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        lineSpacingExtra="2dp"
+        style="@style/TextAppearance.Text.14SP.Regular"/>
+</FrameLayout>

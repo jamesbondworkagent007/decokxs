@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/rl_connect"
+    background="@drawable/_2131233982_res_0x7f080cbe"
+    padding="16dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginLeft="16dp"
+    layout_marginTop="16dp"
+    layout_marginRight="16dp"
+    layout_marginHorizontal="16dp">
+    <ImageView
+        id="@+id/iv_connect_icon"
+        layout_width="40dp"
+        android:layout_height="40dp"
+        layout_centerVertical="true"/>
+    <TextView
+        textAppearance="@style/Title_2_Medium"
+        textColor="@color/grey_g900"
+        id="@+id/tv_connect"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_centerVertical="true"
+        layout_marginStart="16dp"
+        layout_toEndOf="@+id/iv_connect_icon"
+        layout_alignParentEnd="true"
+        NOT_FOUND_0xf="@drawable/_2131232353_res_0x7f080661"
+        NOT_FOUND_0x10="@color/grey_g300"/>
+</RelativeLayout>

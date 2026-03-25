@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        state_pressed="true"
+        color="?attr/okcoin_lite_purple600_color"/>
+    <item color="?attr/okcoin_lite_gray400_color"/>
+</selector>

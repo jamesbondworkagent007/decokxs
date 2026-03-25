@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    gravity="0x800013"
+    id="@+id/ll_selection"
+    background="@drawable/_2131233753_res_0x7f080bd9"
+    paddingLeft="@dimen/xxxsm"
+    paddingTop="6dp"
+    paddingRight="@dimen/xxxsm"
+    paddingBottom="6dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    backgroundTint="@color/SurfacePrimary"
+    paddingHorizontal="@dimen/xxxsm"
+    paddingVertical="6dp">
+    <ImageView
+        id="@+id/iv_label_icon"
+        layout_width="@dimen/xsm"
+        android:layout_height="@dimen/xsm"
+        layout_marginEnd="@dimen/xxxsm"/>
+    <TextView
+        textColor="@color/ContentPrimary"
+        ellipsize="3"
+        id="@+id/tv_label_name"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_weight="1"
+        style="@style/Label_2_Regular"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/iv_expand"
+        visibility="2"
+        layout_width="16dp"
+        android:layout_height="16dp"
+        src="@drawable/_2131231647_res_0x7f08039f"
+        tint="@color/ContentContrast"
+        layout_marginStart="8dp"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

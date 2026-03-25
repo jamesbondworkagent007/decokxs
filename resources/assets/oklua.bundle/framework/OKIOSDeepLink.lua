@@ -1,0 +1,1 @@
+OKIOSDeepLink={_priveta_class_name="OKIOSDeepLink"}function OKIOSDeepLink:getDeepLinkParams()return self end;function OKIOSDeepLink:getDeepLinkType()return self end;function OKIOSDeepLink:getUrl()return self end;function OKIOSDeepLink:clearData()return self end

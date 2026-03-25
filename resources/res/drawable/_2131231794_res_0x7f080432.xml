@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item state_activated="true">
+        <shape>
+            <stroke
+                width="1dp"
+                color="@color/red_lv1"/>
+            <corners radius="4dp"/>
+        </shape>
+    </item>
+    <item state_selected="true">
+        <shape>
+            <stroke
+                width="1dp"
+                color="@color/blue_lv1"/>
+            <corners radius="4dp"/>
+        </shape>
+    </item>
+    <item state_selected="false">
+        <shape>
+            <stroke
+                width="1dp"
+                color="@color/okTradeG200"/>
+            <corners radius="4dp"/>
+        </shape>
+    </item>
+</selector>

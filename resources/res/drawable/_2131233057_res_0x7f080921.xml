@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        height="56dp"
+        width="56dp"
+        drawable="@drawable/_2131233812_res_0x7f080c14"/>
+    <item
+        gravity="0x11"
+        tint="@color/selector_primary_disable"
+        height="22dp"
+        width="22dp"
+        drawable="@drawable/_2131233766_res_0x7f080be6"/>
+</layer-list>

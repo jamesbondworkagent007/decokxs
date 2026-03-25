@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    tag="layout/trade_impl_fragment_signal_subs_selected_0"
+    background="@drawable/_2131231483_res_0x7f0802fb"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    backgroundTint="@color/BackgroundLv2">
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/subs_recycler_view"
+        paddingLeft="@dimen/padding_16dp"
+        paddingRight="@dimen/padding_16dp"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginBottom="@dimen/margin_48dp"
+        overScrollMode="2"
+        paddingHorizontal="@dimen/padding_16dp"/>
+</RelativeLayout>

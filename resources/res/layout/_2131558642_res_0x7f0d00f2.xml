@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    layout_width="-1"
+    android:layout_height="match_parent"
+    fillViewport="true">
+    <LinearLayout
+        orientation="1"
+        padding="16dp"
+        layout_width="-1"
+        android:layout_height="wrap_content">
+        <TextView
+            textSize="20sp"
+            textStyle="0x1"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            text="�� Passkey Key Store Debug"/>
+        <TextView
+            textSize="11sp"
+            id="@+id/passkey_key_format_desc"
+            background="#f5f5f5"
+            padding="8dp"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            layout_marginTop="8dp"
+            text="Storage Key Formats:\10┌─────────────────────────────────────────┐\10│ label:{uid}:{rpId}    → encrypted bundle│\10│ account:{credentialId}→ encrypted bundle│\10│ mapping:{uid}:{rpId}  → credentialId    │\10│ meta:{credentialId}   → metadata JSON   │\10└─────────────────────────────────────────┘"
+            textIsSelectable="true"
+            fontFamily="monospace"/>
+        <View
+            background="#cccccc"
+            layout_width="-1"
+            android:layout_height="1dp"
+            layout_marginTop="12dp"
+            layout_marginBottom="12dp"
+            layout_marginVertical="12dp"/>
+        <Button
+            id="@+id/passkey_refresh_button"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            text="�� Refresh"/>
+        <Button
+            id="@+id/passkey_delete_all_button"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            layout_marginTop="4dp"
+            text="��️ Delete ALL Keys"
+            backgroundTint="#ff5252"/>
+        <TextView
+            textSize="12sp"
+            textColor="#666666"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            layout_marginTop="8dp"
+            text="Stored Keys (long-press to select &amp; copy):"/>
+        <TextView
+            textSize="11sp"
+            id="@+id/passkey_output_view"
+            background="#f0f0f0"
+            padding="12dp"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            layout_marginTop="4dp"
+            lineSpacingExtra="2dp"
+            textIsSelectable="true"
+            fontFamily="monospace"/>
+        <LinearLayout
+            orientation="1"
+            id="@+id/passkey_list_container"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            layout_marginTop="8dp"/>
+    </LinearLayout>
+</ScrollView>

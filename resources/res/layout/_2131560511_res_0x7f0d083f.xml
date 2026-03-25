@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    gravity="0x10"
+    orientation="0"
+    id="@+id/rootView"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_margin="10dp">
+    <TextView
+        id="@+id/name"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        text="Enabl"
+        layout_weight="1"/>
+    <o.C55239xgG
+        id="@+id/okSwitch"
+        layout_width="-2"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

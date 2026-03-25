@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o.C55118xds xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.C52781wYc
+        id="@+id/header"
+        layout_width="-1"
+        android:layout_height="wrap_content"/>
+    <o.wXQ
+        id="@+id/new_header"
+        layout_width="-1"
+        android:layout_height="wrap_content"/>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        id="@+id/content"
+        layout_width="-1"
+        android:layout_height="0dp"
+        minHeight="@dimen/height_72dp"
+        layout_weight="1"/>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        id="@+id/footer"
+        layout_width="-1"
+        android:layout_height="wrap_content"/>
+</o.C55118xds>

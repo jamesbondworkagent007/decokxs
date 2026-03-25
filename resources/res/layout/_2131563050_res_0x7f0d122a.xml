@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="0"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <View
+        layout_gravity="0x800013"
+        id="@+id/left"
+        background="@color/okTradeG100"
+        visibility="2"
+        layout_width="0.5dp"
+        android:layout_height="@dimen/common_page_edge_space"/>
+    <FrameLayout
+        layout_width="-1"
+        android:layout_height="match_parent">
+        <TextView
+            textSize="12sp"
+            textColor="@color/widget_color_select_selector"
+            ellipsize="3"
+            gravity="0x11"
+            layout_gravity="0x11"
+            id="@+id/title"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            maxLines="1"
+            drawablePadding="3dp"
+            drawableEnd="@drawable/_2131234471_res_0x7f080ea7"
+            style="@style/TextAppearance.Silka"/>
+    </FrameLayout>
+    <View
+        layout_gravity="0x800015"
+        id="@+id/right"
+        background="@color/okTradeG100"
+        visibility="2"
+        layout_width="0.5dp"
+        android:layout_height="@dimen/common_page_edge_space"/>
+</merge>

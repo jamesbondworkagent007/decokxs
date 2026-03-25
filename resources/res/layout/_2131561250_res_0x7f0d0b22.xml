@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="0"
+    tag="layout/layout_feedback_bounty_slogan_0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <ImageView
+        layout_gravity="0x11"
+        id="@+id/image"
+        tag="binding_1"
+        layout_width="80dp"
+        android:layout_height="80dp"
+        scaleType="fitStart"
+        contentDescription="@null"
+        layout_marginEnd="8dp"/>
+    <TextView
+        textSize="@dimen/text_size_16sp"
+        textColor="@color/grey_g900"
+        layout_gravity="0x11"
+        id="@+id/text"
+        tag="binding_2"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        fontFamily="@font/harmony_sans_bold"/>
+</LinearLayout>

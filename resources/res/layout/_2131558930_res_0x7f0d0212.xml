@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/component_okcr_pill_category_0"
+    layout_width="-2"
+    android:layout_height="@dimen/dp_24"
+    paddingEnd="@dimen/dp_8">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        id="@+id/cl_pill"
+        background="@drawable/_2131230950_res_0x7f0800e6"
+        paddingLeft="@dimen/dp_8"
+        paddingTop="@dimen/dp_4"
+        paddingRight="@dimen/dp_8"
+        paddingBottom="@dimen/dp_4"
+        layout_width="-1"
+        android:layout_height="match_parent"
+        paddingHorizontal="@dimen/dp_8"
+        paddingVertical="@dimen/dp_4"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x10="0">
+        <TextView
+            textColor="@color/ContentPrimary"
+            id="@+id/tv_name"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            NOT_FOUND_0xd="0"
+            NOT_FOUND_0xe="0"
+            NOT_FOUND_0xf="0"
+            NOT_FOUND_0x10="0"
+            style="@style/Body_4"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

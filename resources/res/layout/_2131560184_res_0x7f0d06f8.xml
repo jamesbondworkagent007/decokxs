@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    paddingTop="12dp"
+    paddingBottom="4dp"
+    visibility="2"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.wYF
+        id="@+id/stranger_contact_banner_button_group"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x7="@string/pr_im_add_contact_btn_add_contact"
+        NOT_FOUND_0x8="@string/pr_im_add_contact_btn_block"
+        NOT_FOUND_0x9="14"/>
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    background="@color/BasePrimary"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C33537myN
+        id="@+id/indicator_list_ab"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x6="@string/pr_options_charts_indicators_setting"
+        NOT_FOUND_0x7="@color/oktemp_title_color"
+        NOT_FOUND_0x8="@drawable/_2131231642_res_0x7f08039a"/>
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/rcy_content"
+        scrollbars="horizontal"
+        layout_width="-1"
+        android:layout_height="match_parent"/>
+</LinearLayout>

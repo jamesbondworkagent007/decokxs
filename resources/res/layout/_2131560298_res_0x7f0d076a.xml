@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="48dp">
+    <TextView
+        textSize="@dimen/text_size_15sp"
+        textColor="@color/title_color"
+        id="@+id/tv_title"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_centerInParent="true"
+        layout_alignParentStart="true"/>
+    <o.C55239xgG
+        id="@+id/item_switch"
+        background="@drawable/_2131233716_res_0x7f080bb4"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_centerVertical="true"
+        layout_alignParentEnd="true"
+        NOT_FOUND_0xa="@color/transparent"
+        NOT_FOUND_0xb="@color/transparent"/>
+</RelativeLayout>

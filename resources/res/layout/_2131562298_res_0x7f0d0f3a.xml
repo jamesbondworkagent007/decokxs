@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/trade_bot_contract_grid_switch_direction_view_0"
+    scrollbars="horizontal"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        orientation="0"
+        layout_width="-2"
+        android:layout_height="wrap_content">
+        <o.C52794wYp
+            id="@+id/direction_long"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            NOT_FOUND_0x8="-1"
+            NOT_FOUND_0x9="32"
+            NOT_FOUND_0xa="0x104"/>
+        <o.C52794wYp
+            id="@+id/direction_short"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            layout_marginStart="@dimen/margin_8dp"
+            NOT_FOUND_0x8="-1"
+            NOT_FOUND_0x9="32"
+            NOT_FOUND_0xa="0x104"/>
+        <o.C52794wYp
+            theme="@style/OKTheme"
+            id="@+id/direction_neutral"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            layout_marginStart="@dimen/margin_8dp"
+            NOT_FOUND_0x8="-1"
+            NOT_FOUND_0x9="32"
+            NOT_FOUND_0xa="0x104"/>
+        <o.C52794wYp
+            id="@+id/direction_hedging"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            layout_marginStart="@dimen/margin_8dp"
+            NOT_FOUND_0x8="-1"
+            NOT_FOUND_0x9="32"
+            NOT_FOUND_0xa="0x104"/>
+    </LinearLayout>
+</HorizontalScrollView>

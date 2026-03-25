@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    background="@drawable/_2131231835_res_0x7f08045b"
+    paddingLeft="8dp"
+    paddingTop="12dp"
+    paddingRight="8dp"
+    paddingBottom="12dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingHorizontal="8dp"
+    paddingVertical="12dp">
+    <androidx.appcompat.widget.AppCompatTextView
+        textAppearance="@style/TextAppearance.Text.12SP.Regular"
+        textColor="@color/grey_g500"
+        id="@+id/tv_timeout_guide_meme"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x11="0"/>
+    <o.C52794wYp
+        id="@+id/okButton_transaction_meme"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="18dp"
+        text="@string/pr_swaptrade_modal_dialog_btn_reinitiate"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x10="@+id/tv_timeout_guide_meme"
+        NOT_FOUND_0x12="28"
+        NOT_FOUND_0x13="0x22"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

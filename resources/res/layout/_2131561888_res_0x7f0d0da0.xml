@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x11"
+    orientation="1"
+    background="@color/BasePrimary"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C55173xeu
+        layout_gravity="0x11"
+        id="@+id/empty_view"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0xc="6"
+        NOT_FOUND_0x10="@string/pr_p2p_placeholder_no_records"/>
+    <o.C52794wYp
+        id="@+id/btn_handle_empty"
+        focusable="true"
+        visibility="2"
+        clickable="true"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_24dp"
+        text="@string/pr_trade_btn_learn_more"
+        NOT_FOUND_0xd="36"
+        NOT_FOUND_0xe="0x102"
+        NOT_FOUND_0xf="-2"/>
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/activity_icloud_network_list_0"
+    background="@color/BasePrimaryAlternative"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C33537myN
+        id="@+id/appBar"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x7="true"
+        NOT_FOUND_0x8="true"
+        NOT_FOUND_0x9="@color/BasePrimaryAlternative"
+        NOT_FOUND_0x11="0"
+        NOT_FOUND_0x16="@color/BasePrimaryAlternative"/>
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/network_list"
+        layout_width="-1"
+        android:layout_height="match_parent"
+        layout_marginBottom="16dp"
+        NOT_FOUND_0xa="true"
+        NOT_FOUND_0xb="true"
+        NOT_FOUND_0xd="@+id/restore_wallet"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x10="@+id/appBar"/>
+    <o.wYF
+        id="@+id/restore_wallet"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x12="0"
+        NOT_FOUND_0x13="@string/pr_wallet_security_btn_restore_wallet"
+        NOT_FOUND_0x14="52"
+        NOT_FOUND_0x15="14"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

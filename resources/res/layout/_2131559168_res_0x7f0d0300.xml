@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/iv_risk_icon"
+        layout_width="20dp"
+        android:layout_height="20dp"
+        scaleType="7"
+        layout_marginEnd="@dimen/margin_4dp"/>
+    <TextView
+        textColor="@color/ContentPrimary"
+        id="@+id/tv_risk_title"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginBottom="@dimen/margin_4dp"
+        layout_toEndOf="@+id/iv_risk_icon"
+        style="@style/TextAppearance.Text.14SP.Bold"/>
+    <TextView
+        textSize="14sp"
+        textColor="@color/ContentContrast"
+        id="@+id/tv_risk_value"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_below="@+id/tv_risk_title"
+        layout_toEndOf="@+id/iv_risk_icon"
+        style="@style/Body_3"/>
+    <View
+        id="@+id/interval_view"
+        layout_width="-1"
+        android:layout_height="@dimen/height_24dp"
+        layout_below="@+id/tv_risk_value"/>
+</RelativeLayout>

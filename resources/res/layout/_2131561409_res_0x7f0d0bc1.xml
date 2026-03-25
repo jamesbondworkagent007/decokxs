@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C55052xcf
+        id="@+id/menuChip"
+        tag="layout/layout_ok_menu_chip_view_0"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x4="1.00x"
+        NOT_FOUND_0x5="-4"/>
+</merge>

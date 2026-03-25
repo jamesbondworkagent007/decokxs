@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    id="@+id/groupLayout"
+    tag="layout/fragment_bot_trade_container_0"
+    background="@color/BasePrimary"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C55249xgQ
+        id="@+id/botOrderTab"
+        background="@color/BasePrimary"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_8dp"
+        NOT_FOUND_0x8="true"
+        NOT_FOUND_0x9="-1"
+        NOT_FOUND_0xa="-3"/>
+    <View
+        id="@+id/tip_anchor"
+        layout_width="100dp"
+        android:layout_height="1dp"/>
+    <androidx.viewpager2.widget.ViewPager2
+        id="@+id/botOrderVp2"
+        layout_width="-1"
+        android:layout_height="match_parent"
+        overScrollMode="2"/>
+</LinearLayout>

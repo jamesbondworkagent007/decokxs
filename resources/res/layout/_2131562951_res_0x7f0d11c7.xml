@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.okinc.uilab.item.OKRegularCell xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/item_cell"
+    tag="layout/wallet_preferences_normal_item_0"
+    layout_width="-1"
+    android:layout_height="@dimen/dp_56">
+    <LinearLayout
+        gravity="0x10"
+        orientation="0"
+        layout_width="-2"
+        android:layout_height="wrap_content">
+        <ImageView
+            id="@+id/image_content"
+            visibility="2"
+            layout_width="@dimen/width_24dp"
+            android:layout_height="@dimen/height_24dp"/>
+        <o.C55068xcv
+            textAppearance="@style/Label_1_Regular"
+            textColor="@color/ContentContrast"
+            ellipsize="3"
+            id="@+id/additional_view"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            maxLines="1"
+            drawablePadding="8dp"/>
+    </LinearLayout>
+</com.okinc.uilab.item.OKRegularCell>

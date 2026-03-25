@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    textSize="14sp"
+    textColor="@color/ContentTertiary"
+    id="@+id/text"
+    tag="layout/item_table_card_item_text_0"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    NOT_FOUND_0x6="@drawable/_2131232045_res_0x7f08052d"
+    NOT_FOUND_0x7="@color/ContentTertiary"
+    style="@style/Body_3_Regular"/>

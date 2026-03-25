@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <TextView
+        textSize="@dimen/text_size_14sp"
+        textColor="@color/okTradeG900"
+        id="@+id/title"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginLeft="16dp"
+        layout_marginTop="16dp"
+        layout_marginRight="16dp"
+        text="@string/pr_trade_btn_surpasssed"
+        layout_marginHorizontal="16dp"/>
+    <TextView
+        textSize="@dimen/sp_14"
+        textColor="@color/okTradeG400"
+        id="@+id/des"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginLeft="16dp"
+        layout_marginTop="8dp"
+        layout_marginRight="16dp"
+        text="@string/pr_trade_pricesetting_subtitle_overpriced"
+        layout_marginHorizontal="16dp"/>
+</LinearLayout>

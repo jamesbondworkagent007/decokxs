@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    textColor="@color/ContentPrimary"
+    gravity="0x10"
+    id="@+id/choice"
+    tag="layout/item_quit_quistion_item_0"
+    background="@drawable/_2131231183_res_0x7f0801cf"
+    padding="16dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginTop="16dp"
+    minHeight="@dimen/height_48dp"
+    style="@style/Body_3"/>

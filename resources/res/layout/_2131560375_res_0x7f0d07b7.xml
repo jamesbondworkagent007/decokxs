@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o.C52794wYp xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/btn_chatbot_entry"
+    tag="layout/item_chatbot_entry_0"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginLeft="@dimen/sm"
+    layout_marginTop="@dimen/xsm"
+    layout_marginRight="@dimen/sm"
+    text="@string/pr_supportcenter_landingpage_btn_chat_with_us"
+    drawablePadding="@dimen/xxxsm"
+    drawableStart="@drawable/_2131232417_res_0x7f0806a1"
+    drawableTint="@color/ContentPrimary"
+    layout_marginHorizontal="@dimen/sm"
+    NOT_FOUND_0xc="52"
+    NOT_FOUND_0xd="0x104"/>

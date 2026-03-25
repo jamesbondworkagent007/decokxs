@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item state_focused="true">
+        <shape shape="0">
+            <solid color="@color/SurfacePrimary"/>
+            <stroke
+                width="1dp"
+                color="@color/BorderSelected"/>
+            <corners radius="8dp"/>
+        </shape>
+    </item>
+    <item>
+        <shape shape="0">
+            <solid color="@color/SurfacePrimary"/>
+            <corners radius="8dp"/>
+        </shape>
+    </item>
+</selector>

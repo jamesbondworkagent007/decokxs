@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="0"
+    id="@+id/input_suffix"
+    layout_width="-2"
+    android:layout_height="wrap_content">
+    <TextView
+        textAppearance="@style/TextAppearance.Text.15SP.Medium"
+        textColor="@color/ContentPrimary"
+        id="@+id/input_suffix_text"
+        layout_width="-2"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

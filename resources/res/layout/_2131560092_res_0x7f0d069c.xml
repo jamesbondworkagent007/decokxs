@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <com.okinc.auth.impl.widget.SimpleToolBar
+        id="@+id/appBar"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x4="0"
+        NOT_FOUND_0x5="@drawable/_2131231675_res_0x7f0803bb"/>
+    <include
+        id="@+id/stateConnecting"
+        layout="@layout/_2131561423_res_0x7f0d0bcf"/>
+    <include
+        id="@+id/stateConnected"
+        layout="@layout/_2131561422_res_0x7f0d0bce"/>
+</LinearLayout>

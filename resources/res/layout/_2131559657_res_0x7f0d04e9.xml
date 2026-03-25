@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    paddingLeft="@dimen/padding_24dp"
+    paddingRight="@dimen/padding_24dp"
+    paddingBottom="@dimen/padding_16dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingHorizontal="@dimen/padding_24dp">
+    <o.C55008xbo
+        theme="@style/OKUITheme.Alternative.Web3"
+        id="@+id/okif_wallet_name"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_8dp"
+        NOT_FOUND_0xf="44"
+        NOT_FOUND_0x10="@string/pr_metax_wallet_item_wallet_name"/>
+    <TextView
+        textAppearance="@style/Label_2_Regular"
+        textColor="@color/ContentContrast"
+        layout_gravity="0x800003"
+        id="@+id/tv_count_tip"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_8dp"
+        text="0/20"/>
+    <o.C52794wYp
+        gravity="0x11"
+        id="@+id/tv_confirm"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_24dp"
+        text="@string/pr_metax_dapps_modal_textbtn_confirm"
+        NOT_FOUND_0x11="52"
+        NOT_FOUND_0x12="0x101"/>
+</LinearLayout>

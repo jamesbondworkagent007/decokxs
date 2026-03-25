@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="0"
+    background="@drawable/_2131231850_res_0x7f08046a"
+    paddingLeft="12dp"
+    paddingTop="8dp"
+    paddingRight="12dp"
+    paddingBottom="8dp"
+    layout_width="-2"
+    android:layout_height="wrap_content"
+    paddingHorizontal="12dp"
+    paddingVertical="8dp">
+    <androidx.appcompat.widget.AppCompatImageView
+        layout_gravity="0x10"
+        id="@+id/iv_chain_logo"
+        visibility="2"
+        layout_width="16dp"
+        android:layout_height="16dp"
+        src="@drawable/_2131231958_res_0x7f0804d6"
+        layout_marginEnd="4dp"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        layout_gravity="0x10"
+        id="@+id/tv_chain_name"
+        visibility="2"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        style="@style/Label_2_Medium"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        layout_gravity="0x10"
+        id="@+id/iv_star"
+        visibility="2"
+        layout_width="18dp"
+        android:layout_height="18dp"
+        src="@drawable/_2131234088_res_0x7f080d28"
+        tint="@color/SemanticNotice"/>
+</merge>

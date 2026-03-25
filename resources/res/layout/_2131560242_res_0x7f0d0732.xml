@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    background="@color/BasePrimaryAlternative"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <View
+        id="@+id/status_bar"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="0dp"/>
+    <FrameLayout
+        id="@+id/container"
+        layout_width="-1"
+        android:layout_height="match_parent"/>
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x10"
+    orientation="0"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginLeft="@dimen/margin_24dp"
+    layout_marginRight="@dimen/margin_24dp"
+    layout_marginHorizontal="@dimen/margin_24dp">
+    <ImageView
+        id="@+id/add_icon"
+        background="@drawable/_2131231082_res_0x7f08016a"
+        padding="8dp"
+        layout_width="32dp"
+        android:layout_height="32dp"
+        layout_marginTop="@dimen/margin_16dp"
+        layout_marginBottom="@dimen/margin_16dp"
+        src="@drawable/_2131233687_res_0x7f080b97"
+        layout_marginVertical="@dimen/margin_16dp"
+        NOT_FOUND_0x13="@color/ContentPrimary"/>
+    <TextView
+        textAppearance="@style/Label_1_Medium"
+        textColor="@color/ContentPrimary"
+        ellipsize="3"
+        id="@+id/add_account_text"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        maxLines="1"
+        layout_marginStart="12dp"/>
+</LinearLayout>

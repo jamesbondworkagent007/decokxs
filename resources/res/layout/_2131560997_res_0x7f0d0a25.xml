@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <TextView
+        textAppearance="@style/Label_2_Regular"
+        textColor="?attr/wallet_switch_color_g400"
+        gravity="0x11"
+        layout_gravity="0x10"
+        id="@+id/root_wallet_name"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="8dp"
+        layout_marginBottom="8dp"
+        layout_marginStart="24dp"
+        layout_marginVertical="8dp"/>
+</FrameLayout>

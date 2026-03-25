@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/chunkList"
+        layout_width="-1"
+        android:layout_height="0dp"
+        NOT_FOUND_0x6="@+id/compressButton"
+        NOT_FOUND_0x9="0"/>
+    <o.C52794wYp
+        id="@+id/compressButton"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_margin="@dimen/ok_dp_16"
+        text="导出所有Segment文件"
+        NOT_FOUND_0x5="0"
+        NOT_FOUND_0x7="0"
+        NOT_FOUND_0x8="0"
+        NOT_FOUND_0xa="44"
+        NOT_FOUND_0xb="0x101"
+        NOT_FOUND_0xc="-2"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

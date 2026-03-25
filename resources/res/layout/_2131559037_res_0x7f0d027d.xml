@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <androidx.recyclerview.widget.RecyclerView
+        orientation="0"
+        id="@+id/rv_carousel_tokens"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x6="androidx.recyclerview.widget.LinearLayoutManager"/>
+    <View
+        layout_gravity="0x800013"
+        id="@+id/view_fading_edge_start"
+        background="@drawable/_2131231418_res_0x7f0802ba"
+        layout_width="60dp"
+        android:layout_height="match_parent"/>
+    <View
+        layout_gravity="0x800015"
+        id="@+id/view_fading_edge_end"
+        background="@drawable/_2131231417_res_0x7f0802b9"
+        layout_width="60dp"
+        android:layout_height="match_parent"/>
+</FrameLayout>

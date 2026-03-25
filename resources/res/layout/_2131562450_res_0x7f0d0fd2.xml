@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.C55258xgZ
+        id="@+id/trigger_title"
+        tag="layout/trade_impl_view_signal_bot_trigger_0"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginStart="@dimen/common_page_edge_space"
+        textFontWeight="700"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x13="0"
+        NOT_FOUND_0x14="@color/okTradeG900"
+        NOT_FOUND_0x15="@dimen/text_size_18sp"
+        NOT_FOUND_0x16="@string/pr_marketplace_signaldetails_title_signal_trigger_details"
+        NOT_FOUND_0x17="@style/TextAppearance.Text.Bold.18SP"/>
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/trigger_recycler_view"
+        tag="layout/trade_impl_view_signal_bot_trigger_1"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginLeft="@dimen/common_page_edge_space"
+        layout_marginTop="@dimen/margin_24dp"
+        layout_marginRight="@dimen/common_page_edge_space"
+        overScrollMode="2"
+        layout_marginHorizontal="@dimen/common_page_edge_space"
+        NOT_FOUND_0xf="@+id/trigger_title"/>
+    <o.C52794wYp
+        id="@+id/trigger_check_all"
+        tag="layout/trade_impl_view_signal_bot_trigger_2"
+        visibility="2"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_24dp"
+        text="@string/pr_trade_footer_btn_see_all"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="@+id/trigger_recycler_view"
+        NOT_FOUND_0x11="32"
+        NOT_FOUND_0x12="0x104"/>
+</merge>

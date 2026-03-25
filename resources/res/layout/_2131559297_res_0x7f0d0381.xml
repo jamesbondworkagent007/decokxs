@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x11"
+    orientation="0"
+    layout_width="-2"
+    android:layout_height="match_parent">
+    <TextView
+        textSize="14sp"
+        textColor="@color/color_tab_appv1"
+        id="@android:id/text1"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        style="@style/TextAppearance.Silka.MeDium"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/iv_caret_down"
+        visibility="2"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        src="@drawable/_2131231589_res_0x7f080365"
+        layout_marginStart="2dp"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="@+id/title"
+        NOT_FOUND_0xc="0"/>
+</LinearLayout>

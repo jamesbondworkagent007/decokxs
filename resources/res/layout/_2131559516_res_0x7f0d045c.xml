@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    layout_width="-2"
+    android:layout_height="wrap_content">
+    <ImageView
+        id="@+id/iv_from_coin"
+        background="@drawable/_2131231884_res_0x7f08048c"
+        layout_width="32dp"
+        android:layout_height="32dp"
+        src="@drawable/_2131231887_res_0x7f08048f"
+        scaleType="7"/>
+    <ImageView
+        id="@+id/iv_to_coin"
+        background="@drawable/_2131231884_res_0x7f08048c"
+        layout_width="32dp"
+        android:layout_height="32dp"
+        src="@drawable/_2131231887_res_0x7f08048f"
+        scaleType="7"
+        layout_marginStart="12dp"/>
+</FrameLayout>

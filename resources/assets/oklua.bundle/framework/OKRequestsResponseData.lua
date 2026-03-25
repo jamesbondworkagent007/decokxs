@@ -1,0 +1,1 @@
+OKRequestsResponseData=Object:extend()function OKRequestsResponseData:new()OKRequestsResponseData.super.new(self)end;function OKRequestsResponseData:new(a,b)OKRequestsResponseData.super.new(self)self.success=a;self.fail=b end

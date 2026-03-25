@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <com.okinc.uilab.item.OKRegularCell
+        id="@+id/cellAddMember"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0xf="@string/pr_message_call_btn_add_members">
+        <ImageView
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            src="@drawable/_2131231647_res_0x7f08039f"
+            importantForAccessibility="2"
+            NOT_FOUND_0xe="@color/color_content_static_default"/>
+    </com.okinc.uilab.item.OKRegularCell>
+    <View
+        id="@+id/divider"
+        background="@color/BorderPrimary"
+        layout_width="-1"
+        android:layout_height="@dimen/ok_dp_0.5"
+        layout_marginLeft="@dimen/margin_default"
+        layout_marginTop="@dimen/xxxsm"
+        layout_marginRight="@dimen/margin_default"
+        layout_marginBottom="@dimen/xxxsm"
+        layout_marginHorizontal="@dimen/margin_default"
+        layout_marginVertical="@dimen/xxxsm"
+        NOT_FOUND_0xd="@+id/cellAddMember"/>
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/list"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0xd="@+id/divider"/>
+</LinearLayout>

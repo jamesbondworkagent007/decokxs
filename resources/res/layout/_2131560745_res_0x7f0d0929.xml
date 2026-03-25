@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/item_multi_shared_thumbnail_layout"
+    tag="layout/item_multi_shared_thumbnail_0"
+    layout_width="-2"
+    android:layout_height="wrap_content">
+    <ImageView
+        id="@+id/iv_thumbnail"
+        layout_width="40dp"
+        android:layout_height="40dp"/>
+</FrameLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    id="@+id/fast_layout"
+    paddingTop="12dp"
+    paddingBottom="24dp"
+    visibility="2"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <TextView
+        textColor="@color/ContentPrimary"
+        layout_gravity="0x11"
+        id="@+id/more"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginLeft="24dp"
+        layout_marginRight="24dp"
+        text="@string/pr_social_planet_chips_post_add_position"
+        drawableEnd="@drawable/_2131231649_res_0x7f0803a1"
+        layout_marginHorizontal="24dp"
+        style="@style/Label_2_Regular"/>
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/rv_future"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="12dp"
+        overScrollMode="2"/>
+</LinearLayout>

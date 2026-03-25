@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/input_conditional_text_or_select_layout"
+    tag="layout/item_inputconditionaltextorselect_0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.C55008xbo
+        id="@+id/input_conditional_text_or_select_input_field"
+        layout_width="-1"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

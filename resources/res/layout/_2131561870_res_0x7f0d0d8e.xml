@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-2"
+    android:layout_height="wrap_content">
+    <View
+        layout_gravity="0x10"
+        background="@color/BorderPrimary"
+        layout_width="0.5dp"
+        android:layout_height="@dimen/dp_16"
+        layout_marginStart="@dimen/dp_12"
+        layout_marginEnd="12dp"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        textColor="@color/ContentPrimary"
+        gravity="0x11"
+        id="@+id/tv_period_filter"
+        layout_width="-1"
+        android:layout_height="30dp"
+        maxLines="1"
+        drawablePadding="4dp"
+        NOT_FOUND_0xb="@drawable/_2131231589_res_0x7f080365"
+        NOT_FOUND_0xc="@null"
+        style="@style/Label_3_Regular"/>
+</merge>

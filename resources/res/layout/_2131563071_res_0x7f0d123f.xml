@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    paddingLeft="@dimen/sm"
+    paddingTop="@dimen/sm"
+    paddingRight="@dimen/sm"
+    paddingBottom="@dimen/padding_20dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingHorizontal="@dimen/sm">
+    <TextView
+        textColor="@color/ContentContrast"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        text="@string/pr_invest_placeorder_label_price_range"
+        style="@style/Label_2_Regular"/>
+    <TextView
+        textColor="@color/ContentPrimary"
+        id="@+id/tvTokenPair"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="8dp"
+        style="@style/Label_1_Regular"/>
+    <LinearLayout
+        orientation="0"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="4dp">
+        <TextView
+            textColor="@color/ContentContrast"
+            ellipsize="3"
+            id="@+id/tvPricePair"
+            layout_width="0dp"
+            android:layout_height="wrap_content"
+            maxLines="1"
+            layout_weight="1"
+            style="@style/Label_2_Regular"/>
+        <o.C55251xgS
+            id="@+id/state"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            layout_marginStart="6dp"
+            NOT_FOUND_0x10="-3"
+            NOT_FOUND_0x11="7"/>
+    </LinearLayout>
+</LinearLayout>

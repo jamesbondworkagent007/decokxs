@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C57597ylS
+        id="@+id/appBar"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x4="@string/pr_copytrade_home_tab_header_feed"
+        NOT_FOUND_0x5="@drawable/_2131232348_res_0x7f08065c"/>
+    <androidx.fragment.app.FragmentContainerView
+        id="@+id/fragmentContainer"
+        layout_width="-1"
+        android:layout_height="match_parent"/>
+</LinearLayout>

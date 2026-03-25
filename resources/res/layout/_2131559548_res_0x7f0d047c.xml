@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="0"
+    id="@+id/speed_panel"
+    visibility="2"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C52794wYp
+        id="@+id/single_cancel_transaction"
+        visibility="2"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        text="@string/pr_swaptrade_list_tag_cancel_transaction"
+        layout_weight="1"
+        NOT_FOUND_0x9="52"
+        NOT_FOUND_0xa="0x104"/>
+    <o.C52794wYp
+        id="@+id/single_accelerate_transaction"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        text="@string/pr_swaptrade_list_tag_speed_up"
+        layout_weight="1"
+        layout_marginStart="12dp"
+        NOT_FOUND_0x9="52"
+        NOT_FOUND_0xa="0x101"/>
+    <o.C52794wYp
+        id="@+id/single_accelerate_cancel_transaction"
+        visibility="2"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        text="@string/pr_swaptrade_list_tag_speedup_cancellation"
+        layout_weight="1"
+        layout_marginEnd="12dp"
+        NOT_FOUND_0x9="52"
+        NOT_FOUND_0xa="0x104"/>
+</merge>

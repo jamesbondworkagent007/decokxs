@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/fragment_no_close_position_container_0"
+    background="@color/BasePrimary"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C55244xgL
+        id="@+id/ok_tabs"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="6dp"
+        NOT_FOUND_0x8="0"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="1"
+        NOT_FOUND_0xc="-6"/>
+    <androidx.viewpager2.widget.ViewPager2
+        id="@+id/view_pager"
+        layout_width="-1"
+        android:layout_height="0dp"
+        NOT_FOUND_0x6="0"
+        NOT_FOUND_0x7="0"
+        NOT_FOUND_0x8="0"
+        NOT_FOUND_0x9="@+id/ok_tabs"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

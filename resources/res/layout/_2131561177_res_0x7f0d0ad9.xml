@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x1"
+    orientation="1"
+    id="@+id/center_error"
+    paddingLeft="@dimen/padding_24dp"
+    paddingRight="@dimen/padding_24dp"
+    layout_width="-1"
+    android:layout_height="match_parent"
+    paddingHorizontal="@dimen/padding_24dp">
+    <ImageView
+        layout_width="86dp"
+        android:layout_height="86dp"
+        layout_marginTop="96dp"
+        src="@drawable/_2131233554_res_0x7f080b12"/>
+    <TextView
+        textSize="@dimen/text_size_16sp"
+        textColor="@color/grey_g900"
+        id="@+id/tv_title_error"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_4dp"
+        text="@string/intl_kycrevamp_error_title_load_failed"
+        style="@style/TextStyle.Body.Small.Medium"/>
+    <TextView
+        textSize="@dimen/text_size_12sp"
+        textColor="@color/grey_g400"
+        id="@+id/tv_error"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_10dp"
+        text="@string/intl_kycrevamp_error_label_check_network"/>
+    <o.C52794wYp
+        id="@+id/btn_retry"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_24dp"
+        minWidth="132dp"
+        text="@string/intl_kycrevamp_btn_reload"
+        NOT_FOUND_0xe="36"
+        NOT_FOUND_0xf="0x104"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

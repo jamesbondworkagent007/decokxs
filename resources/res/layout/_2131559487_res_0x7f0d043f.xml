@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="0"
+    id="@+id/popoverItemContainer"
+    paddingLeft="12dp"
+    paddingTop="8dp"
+    paddingRight="12dp"
+    paddingBottom="8dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingHorizontal="12dp"
+    paddingVertical="8dp">
+    <TextView
+        textAppearance="@style/OKTextFont.Regular"
+        textSize="16sp"
+        textColor="@color/ContentPrimary"
+        ellipsize="3"
+        id="@+id/tvPopoverItemText"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        maxLines="3"
+        layout_weight="1"/>
+</LinearLayout>

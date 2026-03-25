@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="18dp"
+    android:width="18dp"
+    android:viewportWidth="18"
+    android:viewportHeight="18">
+    <path
+        android:fillColor="?attr/wallet_switch_color_g900"
+        android:pathData="M9,18C13.9706,18 18,13.9706 18,9C18,4.0294 13.9706,0 9,0C4.0294,0 0,4.0294 0,9C0,13.9706 4.0294,18 9,18Z"/>
+    <path
+        android:fillColor="?attr/wallet_switch_color_primary_white"
+        android:pathData="M13.3756,7.5257C13.5074,7.3939 13.5074,7.1802 13.3756,7.0484L12.5801,6.2529C12.4483,6.1211 12.2346,6.1211 12.1028,6.2529L8.0744,10.2813C7.9866,10.3691 7.8441,10.3691 7.7562,10.2813L5.8975,8.4226C5.7657,8.2907 5.552,8.2907 5.4202,8.4225L4.6247,9.218C4.4929,9.3498 4.4929,9.5635 4.6247,9.6953L7.6767,12.7473C7.8085,12.8791 8.0222,12.8791 8.154,12.7473L13.3756,7.5257Z"/>
+</vector>

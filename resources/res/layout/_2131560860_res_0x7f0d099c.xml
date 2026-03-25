@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    textAppearance="@style/TextAppearance.Text.14SP.Medium"
+    textColor="@color/ContentPrimary"
+    id="@+id/title"
+    tag="layout/item_select_coin_title_0"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginTop="16dp"
+    layout_marginBottom="16dp"
+    includeFontPadding="false"
+    paddingStart="24dp"/>

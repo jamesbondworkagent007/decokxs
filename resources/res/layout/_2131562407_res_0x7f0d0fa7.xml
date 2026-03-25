@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/trade_impl_signal_bot_sign_select_dialog_0"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C33546myW
+        id="@+id/smartRefresh"
+        layout_width="-1"
+        android:layout_height="0dp"
+        NOT_FOUND_0x5="0"
+        NOT_FOUND_0x6="0"
+        NOT_FOUND_0x7="true"
+        NOT_FOUND_0x8="true"
+        NOT_FOUND_0x9="true">
+        <o.C33603mza
+            layout_width="-1"
+            android:layout_height="wrap_content"/>
+        <androidx.recyclerview.widget.RecyclerView
+            id="@+id/signListRv"
+            layout_width="-1"
+            android:layout_height="match_parent"
+            NOT_FOUND_0x4="androidx.recyclerview.widget.LinearLayoutManager"/>
+        <o.C33604mzb
+            layout_width="-1"
+            android:layout_height="wrap_content"/>
+    </o.C33546myW>
+</androidx.constraintlayout.widget.ConstraintLayout>

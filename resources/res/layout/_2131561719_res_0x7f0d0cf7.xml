@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o.C41381qpj xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.qSA
+        gravity="0x10"
+        id="@+id/sort_view"
+        layout_width="-1"
+        android:layout_height="30dp"
+        NOT_FOUND_0x7="0"/>
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/recycler_view"
+        layout_width="-1"
+        android:layout_height="0dp"
+        NOT_FOUND_0x4="com.okinc.okmarket.ui.market.quote.WrapContentLinearLayoutManager"
+        NOT_FOUND_0x5="0"
+        NOT_FOUND_0x6="@+id/sort_view"/>
+</o.C41381qpj>

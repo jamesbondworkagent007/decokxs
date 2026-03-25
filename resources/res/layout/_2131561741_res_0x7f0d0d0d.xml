@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.C55230xfy
+        id="@+id/search_view"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="8dp"
+        layout_marginBottom="8dp"
+        hint="@string/pr_trade_search_tab_search_pair_strategy_trader"
+        contentDescription="discoverSearchButton"
+        layout_marginVertical="8dp"
+        NOT_FOUND_0x8="0"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xa="false"
+        NOT_FOUND_0xb="false"
+        NOT_FOUND_0xc="-3"/>
+</FrameLayout>

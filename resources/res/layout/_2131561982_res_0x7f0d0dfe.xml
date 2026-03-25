@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    gravity="0x11"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <include layout="@layout/_2131561976_res_0x7f0d0df8"/>
+    <View
+        background="?attr/colorOnSurface"
+        layout_width="-1"
+        android:layout_height="1dp"/>
+    <include layout="@layout/_2131561981_res_0x7f0d0dfd"/>
+</LinearLayout>

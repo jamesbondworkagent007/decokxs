@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <TextView
+        textSize="14sp"
+        textColor="@color/ContentContrast"
+        id="@+id/tv_title"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x11="0"
+        NOT_FOUND_0x13="0"
+        style="@style/Label_2_Regular"/>
+    <ImageView
+        id="@+id/iv_coin"
+        layout_width="24dp"
+        android:layout_height="24dp"
+        layout_marginTop="8dp"
+        NOT_FOUND_0xd="@+id/tv_total_amount"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="2"
+        NOT_FOUND_0x11="0"
+        NOT_FOUND_0x12="@+id/tv_title"/>
+    <TextView
+        textSize="16sp"
+        textColor="@color/ContentBrand"
+        ellipsize="3"
+        id="@+id/tv_total_amount"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        singleLine="true"
+        textDirection="3"
+        layout_marginStart="6dp"
+        NOT_FOUND_0xa="true"
+        NOT_FOUND_0xb="@+id/iv_coin"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0x10="@+id/iv_coin"
+        NOT_FOUND_0x13="@+id/iv_coin"
+        style="@style/Label_1_Regular"/>
+</merge>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item state_selected="true">
+        <shape shape="0">
+            <corners radius="16dp"/>
+            <solid color="@color/ContainerSecondary"/>
+            <stroke
+                width="2dp"
+                color="@color/dapp_select_tab"/>
+        </shape>
+    </item>
+    <item>
+        <shape shape="0">
+            <corners radius="16dp"/>
+            <solid color="@color/ContainerSecondary"/>
+            <stroke
+                width="1dp"
+                color="@color/BorderPrimary"/>
+        </shape>
+    </item>
+</selector>

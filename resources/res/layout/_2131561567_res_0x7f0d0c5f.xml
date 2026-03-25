@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        orientation="1"
+        id="@+id/ll_permission_address"
+        paddingLeft="24dp"
+        paddingTop="16dp"
+        paddingRight="24dp"
+        paddingBottom="16dp"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        paddingHorizontal="24dp"
+        paddingVertical="16dp">
+        <TextView
+            textColor="@color/SemanticNegative"
+            id="@+id/headerTitle"
+            visibility="2"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            style="@style/TextAppearance.Text.14SP.Regular"/>
+        <TextView
+            textSize="16sp"
+            id="@+id/tvContentInfo"
+            visibility="2"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            layout_marginTop="8dp"
+            lineHeight="18dp"
+            style="@style/TextAppearance.Text.14SP.Regular"/>
+    </LinearLayout>
+</merge>

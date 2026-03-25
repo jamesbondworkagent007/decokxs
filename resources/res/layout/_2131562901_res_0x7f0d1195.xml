@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <TextView
+        textAppearance="@style/TextAppearance.Title.16SP.Semibold"
+        textColor="@color/okTradeG900"
+        id="@+id/tv_title1"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        text="@string/pr_trade_bot_spot_dropdown_arithmetic"/>
+    <TextView
+        textAppearance="@style/TextAppearance.Text.14SP.Medium"
+        textColor="@color/okTradeG700"
+        id="@+id/tv_content1"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_8dp"
+        text="@string/pr_trade_grid_alert_equal_diff"/>
+    <TextView
+        textAppearance="@style/TextAppearance.Title.16SP.Semibold"
+        textColor="@color/okTradeG900"
+        id="@+id/tv_title2"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_16dp"
+        text="@string/pr_trade_bot_spot_dropdown_geometric"/>
+    <TextView
+        textAppearance="@style/TextAppearance.Text.14SP.Medium"
+        textColor="@color/okTradeG700"
+        id="@+id/tv_content2"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_8dp"
+        text="@string/pr_trade_grid_alert_iso_metric"/>
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x10"
+    background="?attr/selectableItemBackground"
+    paddingLeft="@dimen/padding_24dp"
+    paddingTop="@dimen/padding_16dp"
+    paddingRight="@dimen/padding_24dp"
+    paddingBottom="@dimen/padding_16dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingHorizontal="@dimen/padding_24dp"
+    paddingVertical="@dimen/padding_16dp">
+    <androidx.appcompat.widget.AppCompatImageView
+        textAppearance="@style/TextAppearance.Title.18SP.Medium"
+        textColor="@color/ContentPrimary"
+        id="@+id/coin_icon"
+        layout_width="28dp"
+        android:layout_height="28dp"
+        NOT_FOUND_0x12="0"
+        NOT_FOUND_0x14="0"
+        NOT_FOUND_0x15="0"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        textAppearance="@style/TextAppearance.Text.15SP.Medium"
+        textColor="@color/ContentPrimary"
+        ellipsize="2"
+        id="@+id/coin_title"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        maxLines="1"
+        layout_weight="1"
+        layout_marginStart="@dimen/margin_12dp"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        id="@+id/item_select"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        drawableStart="@drawable/_2131233428_res_0x7f080a94"
+        layout_marginStart="@dimen/margin_4dp"
+        NOT_FOUND_0x12="0"
+        NOT_FOUND_0x13="0"
+        NOT_FOUND_0x15="0"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

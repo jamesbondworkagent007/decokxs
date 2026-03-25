@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    paddingTop="20dp"
+    paddingBottom="24dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    minHeight="200dp">
+    <o.C55254xgV
+        id="@+id/tab"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x9="false"
+        NOT_FOUND_0xa="36"/>
+    <androidx.viewpager2.widget.ViewPager2
+        id="@+id/pager"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="12dp"
+        overScrollMode="2"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

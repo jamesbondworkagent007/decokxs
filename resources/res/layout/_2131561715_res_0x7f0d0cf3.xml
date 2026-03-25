@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o.C41381qpj xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C55244xgL
+        id="@+id/tabs"
+        layout_width="0dp"
+        android:layout_height="@dimen/dp_40"
+        NOT_FOUND_0xd="@+id/img_filter"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x11="1"
+        NOT_FOUND_0x12="-6"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/img_filter"
+        padding="12dp"
+        layout_width="@dimen/dp_40"
+        android:layout_height="@dimen/dp_40"
+        foreground="?attr/selectableItemBackgroundBorderless"
+        src="@drawable/_2131233339_res_0x7f080a3b"
+        scaleType="fillCenter"
+        layout_marginEnd="@dimen/dp_12"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x13="@color/ContentPrimary"/>
+    <o.C41387qpp
+        id="@+id/viewpager_wrapper"
+        tag="PAGER_WRAPPER_FAVORITES"
+        layout_width="-1"
+        android:layout_height="0dp"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="@+id/tabs">
+        <androidx.viewpager2.widget.ViewPager2
+            id="@+id/viewpager"
+            tag="PAGER_SPOT"
+            layout_width="-1"
+            android:layout_height="match_parent"
+            overScrollMode="2"/>
+    </o.C41387qpp>
+</o.C41381qpj>

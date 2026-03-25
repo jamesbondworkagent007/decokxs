@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    gravity="0x10"
+    orientation="0"
+    padding="@dimen/tips_text_inner_padding"
+    layout_width="-2"
+    android:layout_height="wrap_content">
+    <TextView
+        textAppearance="@style/TextAppearance.Title.14SP"
+        textColor="@color/okTradeW900"
+        gravity="0x800013"
+        id="@+id/im_tips_message"
+        layout_width="-2"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        id="@+id/im_tips_close"
+        layout_width="16dp"
+        android:layout_height="16dp"
+        src="@drawable/_2131231675_res_0x7f0803bb"
+        contentDescription="@null"
+        layout_marginStart="8dp"/>
+</LinearLayout>

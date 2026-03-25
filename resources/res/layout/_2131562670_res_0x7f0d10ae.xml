@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    layout_width="-1"
+    android:layout_height="40dp">
+    <TextView
+        gravity="0x11"
+        id="@+id/tv_loader_name"
+        layout_width="-2"
+        android:layout_height="40dp"
+        layout_alignParentTop="true"
+        layout_centerHorizontal="true"
+        paddingStart="18dp"
+        style="@style/TextAppearance.Subtitle.16SP"/>
+    <ImageView
+        id="@+id/iv_fresh"
+        visibility="2"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        src="@drawable/_2131230907_res_0x7f0800bb"
+        layout_centerVertical="true"
+        layout_marginEnd="12dp"
+        layout_toStartOf="@+id/tv_loader_name"/>
+</RelativeLayout>

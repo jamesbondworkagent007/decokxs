@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x1"
+    orientation="1"
+    tag="layout/planet_dialog_link_x_fail_0"
+    paddingLeft="@dimen/padding_24dp"
+    paddingTop="@dimen/padding_8dp"
+    paddingRight="@dimen/padding_24dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingHorizontal="@dimen/padding_24dp">
+    <ImageView
+        layout_width="@dimen/height_56dp"
+        android:layout_height="@dimen/height_56dp"
+        src="@drawable/_2131233141_res_0x7f080975"
+        contentDescription="@null"/>
+    <TextView
+        textColor="@color/ContentPrimary"
+        id="@+id/title"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_8dp"
+        layout_marginBottom="@dimen/margin_8dp"
+        layout_marginVertical="@dimen/margin_8dp"
+        style="@style/Title_2_Bold"/>
+    <TextView
+        textColor="@color/ContentSecondary"
+        id="@+id/detail"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginBottom="@dimen/margin_24dp"
+        style="@style/Body_3_Regular"/>
+    <o.C52794wYp
+        id="@+id/ok"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_16dp"
+        layout_marginBottom="@dimen/margin_16dp"
+        text="@string/pr_commonall_text_btn_ok_passive"
+        layout_marginVertical="@dimen/margin_16dp"
+        NOT_FOUND_0x11="52"
+        NOT_FOUND_0x12="0x101"/>
+</LinearLayout>

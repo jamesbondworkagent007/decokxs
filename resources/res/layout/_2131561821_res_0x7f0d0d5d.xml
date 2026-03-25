@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.AppCompatTextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    enabled="false"
+    textColor="@color/market_selector_text_operation_primary"
+    gravity="0x11"
+    id="@+id/btn"
+    background="@drawable/_2131233476_res_0x7f080ac4"
+    paddingLeft="@dimen/dp_8"
+    paddingRight="@dimen/dp_8"
+    layout_width="-1"
+    android:layout_height="@dimen/dp_36"
+    paddingHorizontal="@dimen/dp_8"
+    NOT_FOUND_0xa="@dimen/text_size_14sp"
+    NOT_FOUND_0xb="12sp"
+    NOT_FOUND_0xc="1"
+    style="@style/Label_2_Regular"/>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    background="@color/BasePrimaryAlternative"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C33537myN
+        layout_width="-1"
+        android:layout_height="wrap_content"/>
+    <TextView
+        textAppearance="@style/Headline_4_Bold"
+        textColor="@color/ContentPrimary"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginLeft="24dp"
+        layout_marginTop="8dp"
+        layout_marginRight="24dp"
+        layout_marginBottom="16dp"
+        text="@string/pr_wallet_security_text_passwordmode"
+        layout_marginHorizontal="24dp"/>
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/rvContent"
+        scrollbars="horizontal"
+        layout_width="-1"
+        android:layout_height="match_parent"
+        overScrollMode="2"
+        NOT_FOUND_0xf="androidx.recyclerview.widget.LinearLayoutManager"/>
+</LinearLayout>

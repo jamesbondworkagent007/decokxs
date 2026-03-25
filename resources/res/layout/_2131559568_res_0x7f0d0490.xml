@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        orientation="1"
+        id="@+id/container_address_list"
+        descendantFocusability="1"
+        layout_width="-1"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        gravity="0x10"
+        orientation="0"
+        id="@+id/group_add"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/xxxsm"
+        layout_marginBottom="@dimen/sm">
+        <androidx.appcompat.widget.AppCompatTextView
+            textColor="@color/ContentPrimary"
+            id="@+id/tv_add_address"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            text="@string/pr_swaptrade_token_detail_desc_add_address"
+            style="@style/Label_3_Regular"/>
+        <o.wYC
+            id="@+id/ic_add_address"
+            layout_width="16dp"
+            android:layout_height="16dp"
+            layout_marginStart="@dimen/xxxxsm"
+            NOT_FOUND_0xb="@drawable/_2131233688_res_0x7f080b98"
+            NOT_FOUND_0xc="@color/ContentPrimary"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>

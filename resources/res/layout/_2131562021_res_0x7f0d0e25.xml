@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    textSize="@dimen/text_size_15sp"
+    textColor="@color/grey_g900"
+    tag="layout/ok_uilib_filter_drop_down_default_search_item_layout_0"
+    paddingTop="15dp"
+    paddingBottom="15dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginLeft="@dimen/padding_16dp"
+    layout_marginRight="@dimen/padding_16dp"
+    fontFamily="?attr/okMediumFont"
+    layout_marginHorizontal="@dimen/padding_16dp"
+    paddingVertical="15dp"/>

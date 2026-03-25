@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/ns_layout"
+    tag="layout/fg_new_share_api_test_0"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <LinearLayout
+        orientation="1"
+        id="@+id/share_content_layout"
+        padding="16dp"
+        layout_width="-1"
+        android:layout_height="match_parent">
+        <o.C52794wYp
+            id="@+id/btn_jsbridge_test"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            layout_marginTop="16dp"
+            layout_marginBottom="32dp"
+            text="JSBridge API Test"
+            NOT_FOUND_0xb="52"
+            NOT_FOUND_0xc="0x102"/>
+        <TextView
+            textAppearance="@style/TextAppearance.Title.18SP.Medium"
+            id="@+id/tv_share_text_title"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            text="Share Text Demo"/>
+        <o.C52794wYp
+            id="@+id/btn_share_text"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            layout_marginTop="16dp"
+            text="Share Text"
+            NOT_FOUND_0xb="52"
+            NOT_FOUND_0xc="0x101"/>
+        <TextView
+            textAppearance="@style/TextAppearance.Title.18SP.Medium"
+            id="@+id/tv_share_link_title"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            layout_marginTop="32dp"
+            text="Share Link Demo"/>
+        <o.C52794wYp
+            id="@+id/btn_share_link"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            layout_marginTop="16dp"
+            text="Share Link"
+            NOT_FOUND_0xb="52"
+            NOT_FOUND_0xc="0x101"/>
+        <TextView
+            textAppearance="@style/TextAppearance.Title.18SP.Medium"
+            id="@+id/tv_share_image_title"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            layout_marginTop="32dp"
+            text="Share Image Demo"/>
+        <o.C52794wYp
+            id="@+id/btn_share_image"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            layout_marginTop="16dp"
+            text="Share Image"
+            NOT_FOUND_0xb="52"
+            NOT_FOUND_0xc="0x101"/>
+        <TextView
+            textAppearance="@style/TextAppearance.Title.18SP.Medium"
+            id="@+id/tv_share_image_text_title"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            layout_marginTop="32dp"
+            text="Share Image and Text Demo"/>
+        <o.C52794wYp
+            id="@+id/btn_share_image_text"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            layout_marginTop="16dp"
+            text="Share Image with Text"
+            NOT_FOUND_0xb="52"
+            NOT_FOUND_0xc="0x101"/>
+        <TextView
+            textAppearance="@style/TextAppearance.Title.18SP.Medium"
+            id="@+id/tv_share_multi_image"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            layout_marginTop="32dp"
+            text="Share MultiImage"/>
+        <o.C52794wYp
+            id="@+id/btn_share_multi_image"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            layout_marginTop="16dp"
+            text="Share Multi Image"
+            NOT_FOUND_0xb="52"
+            NOT_FOUND_0xc="0x101"/>
+        <o.C52794wYp
+            id="@+id/btn_share_bitmap_with_fragment"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            layout_marginTop="16dp"
+            text="Share Bitmap with Fragment"
+            NOT_FOUND_0xb="52"
+            NOT_FOUND_0xc="0x101"/>
+        <o.C52794wYp
+            id="@+id/btn_share_bitmap_with_activity"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            layout_marginTop="16dp"
+            text="Share Bitmap with Activity"
+            NOT_FOUND_0xb="52"
+            NOT_FOUND_0xc="0x101"/>
+        <TextView
+            textAppearance="@style/TextAppearance.Title.18SP.Medium"
+            id="@+id/tv_share_custom_footer"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            layout_marginTop="32dp"
+            text="Share custom footer"/>
+        <o.C52794wYp
+            id="@+id/btn_share_custom_footer"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            layout_marginTop="16dp"
+            text="Share custom footer"
+            NOT_FOUND_0xb="52"
+            NOT_FOUND_0xc="0x101"/>
+        <TextView
+            textAppearance="@style/TextAppearance.Title.18SP.Medium"
+            id="@+id/tv_share_all_platforms"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            layout_marginTop="32dp"
+            text="Share All Platforms"/>
+        <o.C52794wYp
+            id="@+id/btn_share_all_platforms"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            layout_marginTop="16dp"
+            text="Share All Platforms"
+            NOT_FOUND_0xb="52"
+            NOT_FOUND_0xc="0x101"/>
+        <TextView
+            textAppearance="@style/TextAppearance.Title.18SP.Medium"
+            id="@+id/tv_embed_share_platforms"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            layout_marginTop="32dp"
+            text="Embeded share platforms"/>
+        <FrameLayout
+            id="@+id/embed_container"
+            layout_width="-1"
+            android:layout_height="wrap_content"/>
+        <o.C52794wYp
+            id="@+id/btn_update_share_config"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            layout_marginTop="16dp"
+            text="Update Share Config"
+            NOT_FOUND_0xb="52"
+            NOT_FOUND_0xc="0x101"/>
+        <TextView
+            textAppearance="@style/TextAppearance.Title.18SP.Medium"
+            id="@+id/tv_test_share_sms"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            layout_marginTop="32dp"
+            text="Test Share sms"/>
+        <com.okinc.uilab.edit.OKEditText
+            id="@+id/et_phone_number"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            hint="input phone number here to share sms"/>
+        <com.okinc.uilab.edit.OKEditText
+            id="@+id/et_sms_content"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            hint="this is default sms content , you can modified it"/>
+        <o.C52794wYp
+            id="@+id/btn_share_sms"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            layout_marginTop="16dp"
+            text="Share SMS"
+            NOT_FOUND_0xb="52"
+            NOT_FOUND_0xc="0x101"/>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

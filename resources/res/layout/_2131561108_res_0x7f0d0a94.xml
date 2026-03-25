@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <androidx.appcompat.widget.AppCompatTextView
+        textAppearance="@style/Title_1_Bold"
+        gravity="0x10"
+        id="@+id/title"
+        paddingLeft="@dimen/ok_dp_24"
+        paddingRight="@dimen/ok_dp_24"
+        layout_width="-2"
+        android:layout_height="52dp"
+        text="@string/pr_trade_tokenunlocks_header_unlock_events"
+        includeFontPadding="false"
+        paddingHorizontal="@dimen/ok_dp_24"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xe="0"/>
+    <include
+        id="@+id/unlock_event_card"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="@+id/title"
+        layout="@layout/_2131561128_res_0x7f0d0aa8"/>
+    <LinearLayout
+        gravity="0x10"
+        id="@+id/viewAll"
+        paddingLeft="@dimen/ok_dp_24"
+        paddingRight="@dimen/ok_dp_24"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/ok_dp_12"
+        paddingHorizontal="@dimen/ok_dp_24"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="@+id/unlock_event_card">
+        <TextView
+            textAppearance="@style/Label_2_Regular"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            text="@string/pr_commonall_button_text_view_all"/>
+        <androidx.appcompat.widget.AppCompatImageView
+            layout_width="@dimen/ok_dp_16"
+            android:layout_height="@dimen/ok_dp_16"
+            src="@drawable/_2131232354_res_0x7f080662"
+            NOT_FOUND_0xf="@color/okTradeG900"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    background="@drawable/_2131231009_res_0x7f080121"
+    layout_width="-1"
+    android:layout_height="86dp"
+    layout_marginLeft="@dimen/ok_dp_16"
+    layout_marginRight="@dimen/ok_dp_16"
+    layout_marginHorizontal="@dimen/ok_dp_16">
+    <ImageView
+        id="@+id/icon"
+        tag="icon"
+        layout_width="@dimen/width_24dp"
+        android:layout_height="@dimen/height_24dp"
+        src="@drawable/_2131232658_res_0x7f080792"
+        layout_marginStart="@dimen/ok_dp_16"
+        NOT_FOUND_0x11="0"
+        NOT_FOUND_0x16="0"
+        NOT_FOUND_0x18="0"/>
+    <TextView
+        textAppearance="@style/TextAppearance.Title.15SP.Medium"
+        id="@+id/title"
+        tag="Trading bot"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        text="@string/pr_pop_trademode_bot"
+        layout_marginStart="@dimen/ok_dp_12"
+        NOT_FOUND_0x12="@+id/subTitle"
+        NOT_FOUND_0x15="@+id/icon"
+        NOT_FOUND_0x18="0"
+        NOT_FOUND_0x19="2"/>
+    <TextView
+        textAppearance="@style/TextAppearance.Text.12SP"
+        ellipsize="3"
+        id="@+id/subTitle"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_marginTop="2dp"
+        text="@string/pr_trade_body_tradingbot_multistrategies"
+        maxLines="2"
+        layout_marginStart="@dimen/ok_dp_12"
+        layout_marginEnd="@dimen/dp_40"
+        NOT_FOUND_0x11="0"
+        NOT_FOUND_0x14="@+id/arrow"
+        NOT_FOUND_0x15="@+id/icon"
+        NOT_FOUND_0x17="@+id/title"/>
+    <View
+        id="@+id/arrow"
+        background="@drawable/_2131232353_res_0x7f080661"
+        layout_width="@dimen/height_14dp"
+        android:layout_height="@dimen/height_14dp"
+        layout_marginEnd="@dimen/ok_dp_16"
+        backgroundTint="@color/okTradeG300"
+        NOT_FOUND_0x11="0"
+        NOT_FOUND_0x13="0"
+        NOT_FOUND_0x18="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    gravity="0x11"
+    id="@+id/ll_selection"
+    background="@drawable/_2131233753_res_0x7f080bd9"
+    padding="@dimen/xxsm"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <TextView
+        ellipsize="3"
+        id="@+id/tv_protocol_name"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        maxLines="1"
+        style="@style/Label_2_Regular"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

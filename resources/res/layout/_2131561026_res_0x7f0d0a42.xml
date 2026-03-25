@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        orientation="1"
+        paddingLeft="?attr/horizontalPaddingDimension"
+        paddingRight="?attr/horizontalPaddingDimension"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/sm"
+        paddingHorizontal="?attr/horizontalPaddingDimension">
+        <androidx.appcompat.widget.AppCompatTextView
+            id="@+id/tv_type"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            text="@string/pr_swaptrade_token_detail_tab_type"
+            style="@style/Label_2_Bold"/>
+        <androidx.recyclerview.widget.RecyclerView
+            id="@+id/rv_type_selection_grid"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            layout_marginTop="@dimen/xsm"
+            layout_marginBottom="@dimen/sm"
+            overScrollMode="2"
+            NOT_FOUND_0xb="androidx.recyclerview.widget.GridLayoutManager"
+            NOT_FOUND_0xc="3"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.core.widget.NestedScrollView>

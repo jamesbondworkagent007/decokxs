@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.okinc.uilab.reminder.OKReminder xmlns:android="http://schemas.android.com/apk/res/android"
+    id="@+id/verify_identity_reminder"
+    visibility="2"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginTop="16dp"
+    minHeight="44dp"
+    layout_marginStart="@dimen/common_page_edge_space"
+    layout_marginEnd="@dimen/common_page_edge_space"/>

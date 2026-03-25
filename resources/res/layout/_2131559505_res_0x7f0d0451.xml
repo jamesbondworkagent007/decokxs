@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.okinc.uilab.item.OKRegularCell xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_gravity="0x800005"
+    id="@+id/filterTimeRegularCell"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatImageView
+        layout_gravity="0x800015"
+        id="@+id/icSelectedRadio"
+        visibility="0"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x5="@drawable/_2131232407_res_0x7f080697"
+        NOT_FOUND_0x6="@color/ContentPrimary"/>
+</com.okinc.uilab.item.OKRegularCell>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x1"
+    orientation="1"
+    paddingLeft="24dp"
+    paddingRight="24dp"
+    paddingBottom="24dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingHorizontal="24dp">
+    <TextView
+        textColor="@color/color_content_static_default"
+        id="@+id/tvTitle"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="20dp"
+        text="@string/pr_orbit_plus_header_has_ended"
+        style="@style/Headline_5_Bold"/>
+    <TextView
+        textColor="@color/color_content_static_subtle"
+        id="@+id/tvDesc"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="24dp"
+        text="@string/pr_orbit_plus_desc_renew_today"
+        style="@style/Body_2_Regular"/>
+    <o.C52794wYp
+        id="@+id/button_primary"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_40dp"
+        text="@string/pr_orbit_plus_btn_see_features"
+        NOT_FOUND_0xc="52"
+        NOT_FOUND_0xd="0x101"/>
+    <o.C52794wYp
+        id="@+id/button_secondary"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/dp_12"
+        text="@string/pr_orbit_plus_btn_dismiss"
+        NOT_FOUND_0xc="52"
+        NOT_FOUND_0xd="0x104"/>
+</LinearLayout>

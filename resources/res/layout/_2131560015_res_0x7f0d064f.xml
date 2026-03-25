@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o.C55237xgE xmlns:android="http://schemas.android.com/apk/res/android"
+    id="@+id/market_events_state_layout"
+    background="@color/BasePrimary"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.oQY
+        id="@+id/market_events_refresh_layout"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_10dp">
+        <androidx.recyclerview.widget.RecyclerView
+            id="@+id/market_events_recycler_view"
+            scrollbars="horizontal"
+            layout_width="-1"
+            android:layout_height="600dp"
+            layout_marginLeft="@dimen/margin_24dp"
+            layout_marginRight="@dimen/margin_24dp"
+            layout_marginHorizontal="@dimen/margin_24dp"/>
+    </o.oQY>
+</o.C55237xgE>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o.C42922rfZ xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/root_layout"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <ViewStub
+        id="@+id/sortStub"
+        layout="@layout/_2131559709_res_0x7f0d051d"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xf="0"/>
+    <o.C46796tdt
+        id="@+id/rv_list"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginBottom="8dp"
+        nestedScrollingEnabled="false"
+        NOT_FOUND_0xe="@+id/sort"/>
+    <FrameLayout
+        layout_gravity="0x11"
+        id="@+id/recommend_layout"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="match_parent"/>
+    <FrameLayout
+        id="@+id/reload_view"
+        background="@color/BasePrimary"
+        paddingTop="107dp"
+        paddingBottom="130dp"
+        layout_width="-1"
+        android:layout_height="wrap_content"/>
+    <FrameLayout
+        id="@+id/anim"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        minHeight="464dp"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xf="0"/>
+</o.C42922rfZ>

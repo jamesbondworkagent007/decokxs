@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    fitsSystemWindows="true"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <androidx.appcompat.widget.Toolbar
+        id="@+id/section_toolbar"
+        layout_width="-1"
+        android:layout_height="@dimen/appbar_height"
+        elevation="0dp"
+        NOT_FOUND_0xb="0dp"
+        NOT_FOUND_0xc="0dp"
+        NOT_FOUND_0xd="0dp">
+        <LinearLayout
+            gravity="0x11"
+            orientation="1"
+            layout_width="-1"
+            android:layout_height="match_parent">
+            <TextView
+                ellipsize="3"
+                id="@+id/toolbar_title"
+                layout_width="-2"
+                android:layout_height="wrap_content"
+                maxLines="1"
+                style="@style/TextAppearance.Title.16SP.Semibold"/>
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+    <View
+        background="@color/okTradeG100"
+        layout_width="-1"
+        android:layout_height="0.5dp"/>
+    <androidx.fragment.app.FragmentContainerView
+        id="@+id/section_broadcast_messages"
+        layout_width="-1"
+        android:layout_height="0dp"
+        layout_weight="1"/>
+</LinearLayout>

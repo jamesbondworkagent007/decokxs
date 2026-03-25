@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    textSize="16sp"
+    textColor="@color/ContentPrimary"
+    id="@+id/textView"
+    tag="layout/im_error_share_message_title_0"
+    layout_width="-2"
+    android:layout_height="wrap_content"
+    layout_marginTop="20dp"
+    layout_marginBottom="8dp"
+    style="@style/Label_1_Medium"/>

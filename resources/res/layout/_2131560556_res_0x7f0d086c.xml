@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    textAppearance="@style/TextAppearance.Bold"
+    textSize="16dp"
+    textColor="@color/grey_g900"
+    id="@+id/productTitle"
+    tag="layout/item_home_user_center_product_title_0"
+    paddingTop="8dp"
+    paddingBottom="8dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingVertical="8dp"/>

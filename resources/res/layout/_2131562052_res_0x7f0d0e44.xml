@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    textAppearance="@style/Label_2_Regular"
+    textColor="@color/ContentContrast"
+    id="@+id/tv_notification_settings_channel_title"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginLeft="@dimen/margin_24dp"
+    layout_marginTop="@dimen/margin_12dp"
+    layout_marginRight="@dimen/margin_24dp"
+    layout_marginHorizontal="@dimen/margin_24dp"/>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    background="@drawable/_2131233964_res_0x7f080cac"
+    padding="@dimen/padding_10dp"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/recommend_icon"
+        tag="layout/view_smart_recommend_0"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        src="@drawable/_2131232865_res_0x7f080861"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x11="0"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        textAppearance="@style/TextAppearance.Title.14SP.Bold"
+        textColor="@color/grey_g900"
+        id="@+id/recommend_title"
+        tag="layout/view_smart_recommend_1"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_marginStart="@dimen/margin_10dp"
+        layout_marginEnd="@dimen/margin_16dp"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xe="@+id/arrow_icon"
+        NOT_FOUND_0xf="@+id/recommend_icon"
+        NOT_FOUND_0x11="0"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/arrow_icon"
+        tag="layout/view_smart_recommend_2"
+        layout_width="20dp"
+        android:layout_height="20dp"
+        src="@drawable/_2131231588_res_0x7f080364"
+        tint="@color/ContentPrimary"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0x11="0"/>
+</merge>

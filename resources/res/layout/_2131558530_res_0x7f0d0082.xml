@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/activity_defi_wallet_connected_list_0"
+    background="@color/BasePrimary"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <LinearLayout
+        orientation="1"
+        layout_width="-1"
+        android:layout_height="match_parent"
+        layout_marginBottom="@dimen/margin_12dp"
+        layout_above="@+id/disconnectAllBtn">
+        <o.C33537myN
+            id="@+id/appBarContainer"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            NOT_FOUND_0x12="@string/pr_metax_top_title_connected_websites"
+            NOT_FOUND_0x13="true"
+            NOT_FOUND_0x14="true"
+            NOT_FOUND_0x15="0"
+            NOT_FOUND_0x16="0"
+            NOT_FOUND_0x17="0"
+            NOT_FOUND_0x1a="true"/>
+        <androidx.recyclerview.widget.RecyclerView
+            id="@+id/recyclerView"
+            clipToPadding="false"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            overScrollMode="2"/>
+    </LinearLayout>
+    <o.C52794wYp
+        textAppearance="@style/TextAppearance.Bold"
+        textSize="16sp"
+        gravity="0x11"
+        id="@+id/disconnectAllBtn"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginLeft="@dimen/margin_16dp"
+        layout_marginRight="@dimen/margin_16dp"
+        layout_marginBottom="@dimen/margin_28dp"
+        text="@string/pr_metax_footer_btn_disconnect_all"
+        layout_alignParentBottom="true"
+        layout_marginHorizontal="@dimen/margin_16dp"
+        NOT_FOUND_0x18="52"
+        NOT_FOUND_0x19="0x101"/>
+</RelativeLayout>

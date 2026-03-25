@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    gravity="0x10"
+    orientation="0"
+    tag="layout/item_defi_home_wallet_hidden_asset_header_0"
+    background="@color/BasePrimaryAlternative"
+    paddingLeft="24dp"
+    paddingRight="24dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    minHeight="32dp"
+    contentDescription="hiddenAssetHeader"
+    paddingHorizontal="24dp">
+    <androidx.appcompat.widget.AppCompatTextView
+        textSize="14sp"
+        textColor="@color/ContentContrast"
+        ellipsize="3"
+        id="@+id/title"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        maxLines="1"
+        layout_weight="1"
+        style="@style/Label_2_Medium"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/infoIcon"
+        layout_width="16dp"
+        android:layout_height="16dp"
+        src="@drawable/_2131231639_res_0x7f080397"
+        tint="@color/ContentContrast"
+        layout_marginStart="6dp"/>
+</LinearLayout>

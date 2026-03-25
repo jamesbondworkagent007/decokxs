@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bsc_input_balance_text">16sp</dimen>
+    <dimen name="bsc_input_container_height">172dp</dimen>
+    <dimen name="bsc_input_error_text">16sp</dimen>
+    <dimen name="bsc_input_text_height">68dp</dimen>
+</resources>

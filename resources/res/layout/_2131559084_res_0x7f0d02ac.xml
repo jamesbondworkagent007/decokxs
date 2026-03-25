@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o.C57429yiJ xmlns:android="http://schemas.android.com/apk/res/android"
+    id="@+id/dexSwapNetworkFee"
+    tag="layout/dex_contract_transaction_swap_network_fee_0"
+    layout_width="-1"
+    android:layout_height="wrap_content"/>

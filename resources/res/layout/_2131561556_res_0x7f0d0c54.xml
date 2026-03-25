@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/iv_icon"
+        layout_width="44dp"
+        android:layout_height="32dp"
+        paddingEnd="12dp"
+        NOT_FOUND_0x6="@+id/layout_title"
+        NOT_FOUND_0x8="@+id/layout_title"
+        NOT_FOUND_0x9="2"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xd="@+id/layout_title"/>
+    <o.C57488yjP
+        textAppearance="@style/TextAppearance.Medium"
+        gravity="0x1"
+        id="@+id/layout_title"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x7="0"
+        NOT_FOUND_0xa="@+id/iv_icon"
+        NOT_FOUND_0xd="0"/>
+    <o.C57488yjP
+        textAppearance="@style/TextAppearance.Regular"
+        gravity="0x1"
+        id="@+id/layout_sub_title"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x7="@+id/layout_title"
+        NOT_FOUND_0xb="@+id/layout_title"
+        NOT_FOUND_0xc="@+id/layout_title"/>
+</merge>

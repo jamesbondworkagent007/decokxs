@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    tag="layout/fragment_backup_check_mnemonic_0"
+    paddingLeft="@dimen/padding_16dp"
+    paddingRight="@dimen/padding_16dp"
+    layout_width="-1"
+    android:layout_height="match_parent"
+    paddingHorizontal="@dimen/padding_16dp">
+    <TextView
+        textAppearance="@style/TextAppearance.Bold"
+        textSize="28sp"
+        textColor="@color/ContentPrimary"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginLeft="@dimen/margin_8dp"
+        layout_marginTop="16dp"
+        layout_marginRight="@dimen/margin_8dp"
+        text="@string/pr_wallet_header_confirm_seed_phrase"
+        layout_marginHorizontal="@dimen/margin_8dp"/>
+    <com.okinc.web3.security.view.MnemonicCheckView
+        id="@+id/mnemonicCheckView"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginLeft="@dimen/margin_8dp"
+        layout_marginRight="@dimen/margin_8dp"
+        layout_marginHorizontal="@dimen/margin_8dp"/>
+    <Space
+        layout_width="-1"
+        android:layout_height="0dp"
+        layout_weight="1"/>
+    <o.C52794wYp
+        enabled="false"
+        id="@+id/complete"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginBottom="@dimen/margin_20dp"
+        text="@string/pr_commonall_modal_btn_done"
+        NOT_FOUND_0x13="52"
+        NOT_FOUND_0x14="0x101"/>
+</LinearLayout>

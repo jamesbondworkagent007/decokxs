@@ -1,0 +1,1 @@
+function OKCollectionViewLayout()if System:iOS()then return CollectionViewLayout()end;return FlexboxLayout()end;function OKCollectionViewAdapter()if System:iOS()then return CollectionViewAdapter()end;return FlexboxLayoutAdapter()end

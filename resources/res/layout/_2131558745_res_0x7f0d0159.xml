@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C33537myN
+        id="@+id/appBar"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xf="0"/>
+    <TextView
+        textAppearance="@style/Headline_4_Bold"
+        textSize="@dimen/text_size_28sp"
+        textColor="@color/ContentPrimary"
+        id="@+id/title"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_marginLeft="@dimen/margin_24dp"
+        layout_marginTop="@dimen/margin_16dp"
+        layout_marginRight="@dimen/margin_24dp"
+        text="@string/pr_wallet_release_select_header_receiving_address"
+        layout_marginHorizontal="@dimen/margin_24dp"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="@+id/appBar"/>
+    <FrameLayout
+        id="@+id/fragment_container"
+        layout_width="-1"
+        android:layout_height="0dp"
+        layout_marginTop="@dimen/margin_24dp"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xe="@+id/title"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

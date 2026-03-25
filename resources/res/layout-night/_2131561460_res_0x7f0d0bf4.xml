@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o.C45433sph xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/skeleton_view"
+    focusable="true"
+    clickable="true"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    scaleType="fillStart"
+    NOT_FOUND_0x6="true"
+    NOT_FOUND_0x7="intent_answer_dark.lottie"
+    NOT_FOUND_0x8="true"/>

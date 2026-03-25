@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/scroll_layout"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    fillViewport="true">
+    <FrameLayout
+        id="@+id/preview_layers_container"
+        background="@drawable/_2131231381_res_0x7f080295"
+        padding="1dp"
+        clipChildren="false"
+        clipToPadding="false"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginStart="24dp"
+        layout_marginEnd="24dp">
+        <ImageView
+            layout_gravity="0x11"
+            id="@+id/iv_preview"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            adjustViewBounds="true"/>
+    </FrameLayout>
+</androidx.core.widget.NestedScrollView>

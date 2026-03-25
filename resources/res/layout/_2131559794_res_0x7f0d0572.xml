@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o.C33546myW xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/smartRefreshLayout"
+    tag="layout/fragment_auto_earn_profit_list_0"
+    layout_width="-1"
+    android:layout_height="match_parent"
+    NOT_FOUND_0x8="true"
+    NOT_FOUND_0x9="true"
+    NOT_FOUND_0xa="false"
+    NOT_FOUND_0xb="false"
+    NOT_FOUND_0xc="false"
+    NOT_FOUND_0xd="false">
+    <o.C33603mza
+        layout_width="-1"
+        android:layout_height="wrap_content"/>
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/rvStakeList"
+        paddingBottom="16dp"
+        clipToPadding="true"
+        layout_width="-1"
+        android:layout_height="match_parent"
+        overScrollMode="2"
+        nestedScrollingEnabled="false"/>
+    <o.C33604mzb
+        layout_width="-1"
+        android:layout_height="wrap_content"/>
+</o.C33546myW>

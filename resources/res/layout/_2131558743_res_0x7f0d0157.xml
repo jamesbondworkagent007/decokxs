@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/activity_wallet_recently_removed_coin_0"
+    background="@color/BasePrimaryAlternative"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <include
+        id="@+id/appBar"
+        layout_width="-1"
+        android:layout_height="@dimen/appbar_height"
+        NOT_FOUND_0x8="0"
+        layout="@layout/_2131558762_res_0x7f0d016a"/>
+    <FrameLayout
+        id="@+id/fragmentContainer"
+        layout_width="-1"
+        android:layout_height="0dp"
+        layout_marginTop="8dp"
+        NOT_FOUND_0x6="0"
+        NOT_FOUND_0x7="@+id/appBar"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

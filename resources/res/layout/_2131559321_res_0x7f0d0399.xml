@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    gravity="0x10"
+    orientation="0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/ivAvatar"
+        layout_width="36dp"
+        android:layout_height="36dp"/>
+    <LinearLayout
+        orientation="1"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_weight="1"
+        layout_marginStart="12dp">
+        <androidx.appcompat.widget.AppCompatTextView
+            textAppearance="@style/Label_2_Regular"
+            textSize="12sp"
+            textColor="@color/ContentContrast"
+            id="@+id/tvUsername"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            maxLines="1"/>
+        <androidx.appcompat.widget.AppCompatTextView
+            textAppearance="@style/Label_3_Regular"
+            textSize="14sp"
+            textStyle="0x1"
+            textColor="@color/ContentContrast"
+            id="@+id/tvGainInfo"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            layout_marginTop="4dp"
+            maxLines="1"/>
+    </LinearLayout>
+</LinearLayout>

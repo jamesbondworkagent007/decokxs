@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    textAppearance="@style/TextAppearance.Text.14SP.Regular"
+    textColor="@color/ContentTertiary"
+    gravity="0x11"
+    layout_gravity="0x1"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    text="@string/pr_investdeposit_mid_text_no_interruption"
+    layout_marginStart="32dp"
+    layout_marginEnd="32dp"/>

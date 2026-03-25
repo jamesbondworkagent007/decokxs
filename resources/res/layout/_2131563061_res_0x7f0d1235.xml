@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.recyclerview.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+    id="@+id/recycler"
+    background="@drawable/_2131234467_res_0x7f080ea3"
+    scrollbars="horizontal"
+    layout_width="-1"
+    android:layout_height="match_parent"
+    overScrollMode="2"/>

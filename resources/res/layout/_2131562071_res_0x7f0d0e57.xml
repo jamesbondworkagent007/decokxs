@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    paddingLeft="@dimen/dp24"
+    paddingTop="@dimen/dp_4"
+    paddingRight="@dimen/dp24"
+    paddingBottom="@dimen/dp_32"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingHorizontal="@dimen/dp24">
+    <o.C52794wYp
+        id="@+id/btn_more"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        text="@string/pr_orbit_search_btn_show_more"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xa="44"
+        NOT_FOUND_0xb="0x104"/>
+</FrameLayout>

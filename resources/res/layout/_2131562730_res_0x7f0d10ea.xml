@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="0"
+    paddingLeft="@dimen/padding_12dp"
+    paddingTop="@dimen/padding_8dp"
+    paddingRight="@dimen/padding_12dp"
+    paddingBottom="@dimen/padding_8dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingHorizontal="@dimen/padding_12dp"
+    paddingVertical="@dimen/padding_8dp">
+    <View
+        tag="radius_16"
+        layout_width="-1"
+        android:layout_height="@dimen/height_72dp"/>
+</LinearLayout>

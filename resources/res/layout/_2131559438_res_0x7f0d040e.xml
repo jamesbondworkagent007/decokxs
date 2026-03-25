@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    background="@color/BasePrimary"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C57591ylM
+        layout_width="-1"
+        android:layout_height="0dp"/>
+    <LinearLayout
+        orientation="1"
+        id="@+id/content_layout"
+        layout_width="-1"
+        android:layout_height="match_parent">
+        <androidx.fragment.app.FragmentContainerView
+            id="@+id/fg_container"
+            layout_width="-1"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+</LinearLayout>

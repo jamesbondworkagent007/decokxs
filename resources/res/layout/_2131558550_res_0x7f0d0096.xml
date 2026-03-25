@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    tag="layout/activity_eos_account_0"
+    background="@color/BasePrimaryAlternative"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C33537myN
+        id="@+id/app_bar"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0xe="@string/pr_metax_receivefund_maintitle_open_account"/>
+    <o.C55008xbo
+        id="@+id/et_set_name"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="16dp"
+        hint="@string/pr_metax_receivefund_input_account_name"
+        layout_marginStart="16dp"
+        layout_marginEnd="16dp"
+        NOT_FOUND_0xf="44"
+        NOT_FOUND_0x10="@string/pr_metax_receivefund_field_set_account_name"/>
+    <o.C55254xgV
+        id="@+id/mTlEosTab"
+        layout_width="-1"
+        android:layout_height="wrap_content"/>
+    <View
+        background="@color/SurfacePrimary"
+        layout_width="-1"
+        android:layout_height="0.5dp"
+        layout_marginLeft="16dp"
+        layout_marginRight="16dp"
+        layout_marginHorizontal="16dp"/>
+    <o.C33547myX
+        id="@+id/mEosAccountViewPager"
+        layout_width="-1"
+        android:layout_height="0dp"
+        layout_weight="1"/>
+</LinearLayout>

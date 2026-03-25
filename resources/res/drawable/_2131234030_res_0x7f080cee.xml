@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke
+        width="@dimen/padding_2dp"
+        color="@color/defi_major_wallet_border"/>
+    <corners radius="@dimen/padding_8dp"/>
+</shape>

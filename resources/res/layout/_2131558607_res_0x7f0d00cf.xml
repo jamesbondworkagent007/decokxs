@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    tag="layout/activity_lite_limit_order_details_0"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C33537myN
+        id="@+id/title_bar"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x8="@string/lt_convert_transactiondetail_topnav_transaction_details"
+        NOT_FOUND_0x9="@color/grey_5"
+        NOT_FOUND_0xa="@drawable/_2131232682_res_0x7f0807aa"
+        NOT_FOUND_0xb="@color/primary_black"
+        NOT_FOUND_0xc="false"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x11="@color/primary_black"
+        NOT_FOUND_0x12="false"/>
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/lite_limit_detail_rv"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        overScrollMode="2"
+        layout_marginStart="@dimen/margin_24dp"
+        layout_marginEnd="@dimen/margin_24dp"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="@+id/title_bar"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

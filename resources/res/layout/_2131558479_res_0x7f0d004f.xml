@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    id="@+id/container"
+    tag="layout/activity_buy_sell_order_detail_0"
+    layout_width="-1"
+    android:layout_height="match_parent"/>

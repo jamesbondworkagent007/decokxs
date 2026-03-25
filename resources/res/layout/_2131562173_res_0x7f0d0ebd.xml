@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <ImageView
+        id="@+id/okxLogo"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginBottom="24dp"/>
+    <TextView
+        textAppearance="@style/Title_1_Medium"
+        textColor="@color/ContentPrimary_Dark"
+        ellipsize="3"
+        id="@+id/tvProfitTitle"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginBottom="2dp"
+        maxLines="1"
+        includeFontPadding="false"
+        autoSizeTextType="uniform"
+        autoSizeStepGranularity="1sp"
+        autoSizeMinTextSize="12sp"
+        autoSizeMaxTextSize="20sp"/>
+    <TextView
+        textAppearance="@style/Headline_3_Bold"
+        id="@+id/tvProfitRate"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        includeFontPadding="false"
+        autoSizeTextType="uniform"
+        autoSizeStepGranularity="1sp"
+        autoSizeMinTextSize="24sp"
+        autoSizeMaxTextSize="32sp"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

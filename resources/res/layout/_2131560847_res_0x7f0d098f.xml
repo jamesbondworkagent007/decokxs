@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <TextView
+        textAppearance="@style/Title_2_Bold"
+        textColor="@color/ContentPrimary"
+        gravity="0x800003"
+        layout_gravity="0x10"
+        id="@+id/root_wallet_name"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginLeft="@dimen/margin_24dp"
+        layout_marginTop="@dimen/margin_12dp"
+        layout_marginRight="@dimen/margin_24dp"
+        layout_marginBottom="@dimen/margin_12dp"
+        textAlignment="5"
+        layout_marginHorizontal="@dimen/margin_24dp"
+        layout_marginVertical="@dimen/margin_12dp"/>
+</FrameLayout>

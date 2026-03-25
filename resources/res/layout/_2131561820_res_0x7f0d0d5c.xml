@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x10"
+    orientation="0"
+    layout_width="-1"
+    android:layout_height="44dp"
+    foreground="?attr/selectableItemBackgroundBorderless">
+    <androidx.appcompat.widget.AppCompatImageView
+        layout_gravity="0x11"
+        id="@+id/checkbox"
+        layout_width="@dimen/dp_20"
+        android:layout_height="@dimen/dp_20"
+        src="@drawable/_2131232411_res_0x7f08069b"
+        scaleType="7"
+        layout_marginStart="@dimen/dp_24"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        textColor="@color/ContentPrimary"
+        layout_gravity="0x10"
+        id="@+id/tv_coin_base"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        text="@string/pr_commonall_filter_btn_select_all"
+        layout_marginStart="12dp"
+        style="@style/Label_2_Medium"/>
+    <Space
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_weight="1"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        textColor="@color/ContentContrast"
+        ellipsize="3"
+        layout_width="47dp"
+        android:layout_height="wrap_content"
+        text="@string/pr_trade_favorites_colheader_sort"
+        lines="1"
+        NOT_FOUND_0xf="@dimen/text_size_10sp"
+        NOT_FOUND_0x10="1"
+        style="@style/Label_3_Regular"/>
+</LinearLayout>

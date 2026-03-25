@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="36dp">
+    <o.C42992rgq
+        id="@+id/mRecycleTitle"
+        fadingEdgeLength="20dp"
+        layout_width="-1"
+        android:layout_height="match_parent"
+        requiresFadingEdge="0x1000"
+        NOT_FOUND_0x5="2"/>
+</LinearLayout>

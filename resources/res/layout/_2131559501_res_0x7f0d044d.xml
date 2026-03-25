@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatTextView
+        textColor="?attr/tradeFallDefault"
+        gravity="0x11"
+        id="@+id/tvTxTag"
+        background="@drawable/_2131231809_res_0x7f080441"
+        layout_width="@dimen/xsm"
+        android:layout_height="wrap_content"
+        minHeight="@dimen/xsm"
+        text="@string/pr_swaptrade_token_detail_label_sell"
+        maxLines="1"
+        layout_marginEnd="@dimen/margin_6dp"
+        style="@style/Label_3_Medium"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        textColor="@color/ContentDisabled"
+        ellipsize="3"
+        gravity="0x11"
+        id="@+id/tvAmount"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        minHeight="@dimen/xsm"
+        maxLines="1"
+        style="@style/Label_3_Regular"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

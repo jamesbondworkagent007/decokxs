@@ -1,0 +1,1 @@
+require("framework.framework")DataUtil=Object:extend()function DataUtil:getUTCTime()local a=os.time()local b=os.date("!*t",a)local c=b.year;local d=b.month;local e=b.day;local f=b.hour;local g=b.min;local h=b.sec;local i=os.time({year=c,month=d,day=e,hour=f,min=g,sec=h})return i end

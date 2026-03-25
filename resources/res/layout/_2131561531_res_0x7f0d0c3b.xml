@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/layout_wallet_tx_detail_address_list_copy_0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/rv_content"
+        visibility="0"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xd="0"/>
+    <o.C52794wYp
+        id="@+id/toBrowser"
+        focusable="true"
+        visibility="2"
+        clickable="true"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_8dp"
+        text="@string/pr_wallet_history_btn_more_add_explorer"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="@+id/rv_content"
+        NOT_FOUND_0xe="36"
+        NOT_FOUND_0xf="0x104"
+        NOT_FOUND_0x10="-2"/>
+    <ImageView
+        id="@+id/iv_view_all"
+        visibility="2"
+        layout_width="@dimen/width_16dp"
+        android:layout_height="@dimen/height_16dp"
+        layout_marginTop="@dimen/margin_4dp"
+        src="@drawable/_2131231654_res_0x7f0803a6"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="@+id/toBrowser"
+        NOT_FOUND_0x11="@color/ContentContrast"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

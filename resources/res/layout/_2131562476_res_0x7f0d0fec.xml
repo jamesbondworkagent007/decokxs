@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatTextView
+        textAppearance="@style/TextAppearance.Text.12SP.Regular"
+        textColor="@color/grey_g400"
+        id="@+id/remind_content"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        textAlignment="5"
+        lineHeight="20dp"/>
+    <com.okinc.uilab.reminder.OKReminder
+        id="@+id/reminder"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="wrap_content"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

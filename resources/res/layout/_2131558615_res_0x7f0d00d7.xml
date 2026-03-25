@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <com.okinc.auth.impl.widget.SimpleToolBar
+        id="@+id/appBar"
+        layout_width="-1"
+        android:layout_height="@dimen/appbar_height"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="@drawable/_2131231675_res_0x7f0803bb"
+        NOT_FOUND_0xd="@color/grey_g900"/>
+    <o.C55172xet
+        id="@+id/indicator"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginLeft="@dimen/margin_16dp"
+        layout_marginTop="24dp"
+        layout_marginRight="@dimen/margin_16dp"
+        layout_marginHorizontal="@dimen/margin_16dp"
+        NOT_FOUND_0xa="@+id/appBar"/>
+    <androidx.fragment.app.FragmentContainerView
+        name="androidx.navigation.fragment.NavHostFragment"
+        id="@+id/nav_host_fragment"
+        layout_width="-1"
+        android:layout_height="0dp"
+        NOT_FOUND_0x8="true"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xa="@+id/indicator"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

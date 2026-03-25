@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.C55244xgL
+        id="@+id/tab_markets"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="1"
+        NOT_FOUND_0xf="-5"/>
+    <androidx.viewpager2.widget.ViewPager2
+        id="@+id/vp_markets"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/dp_4"
+        overScrollMode="2"
+        NOT_FOUND_0xb="@+id/tab_markets"/>
+    <androidx.constraintlayout.widget.Group
+        id="@+id/group_content"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x7="tab_markets,vp_markets"/>
+    <o.C55173xeu
+        layout_gravity="0x11"
+        id="@+id/empty_view"
+        visibility="2"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/width_76dp"
+        NOT_FOUND_0x8="0"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xc="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

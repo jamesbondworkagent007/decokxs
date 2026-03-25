@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <androidx.appcompat.widget.AppCompatTextView
+        textColor="@color/ContentPrimary"
+        id="@+id/tv_title_tip"
+        paddingBottom="8dp"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        style="@style/Label_1_Bold"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        textColor="@color/ContentSecondary"
+        id="@+id/tv_content_tip"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        text="@string/pr_wallet_swap_toast_reserve_mainnet_token"
+        lineSpacingExtra="4dp"
+        style="@style/Body_3_Regular"/>
+    <LinearLayout
+        gravity="0x10"
+        orientation="0"
+        id="@+id/ll_container_showAgain"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="16dp">
+        <o.wYK
+            textColor="@color/ContentSecondary"
+            id="@+id/cb_reverse_gas_tip"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            checked="true"
+            text="@string/pr_swaptrade_modal_checkbox_dont_show_again"/>
+    </LinearLayout>
+</LinearLayout>

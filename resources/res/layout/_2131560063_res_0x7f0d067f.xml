@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    background="@color/BasePrimary"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/rv_selected_list"
+        paddingTop="12dp"
+        clipToPadding="false"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        paddingStart="@dimen/im_page_margin"
+        paddingEnd="@dimen/padding_8dp"
+        NOT_FOUND_0xb="@+id/rv_multi_select_member"
+        NOT_FOUND_0xd="0"/>
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/rv_multi_select_member"
+        clipToPadding="false"
+        layout_width="-1"
+        android:layout_height="0dp"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xc="@+id/rv_selected_list"/>
+    <o.C55173xeu
+        id="@+id/empty_view"
+        background="@color/BasePrimary"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x9="7"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xc="@+id/rv_selected_list"
+        NOT_FOUND_0xe="0.5"
+        NOT_FOUND_0xf="@string/pr_message_emptystate_no_results"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

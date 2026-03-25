@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <TextView
+        textAppearance="@style/Title_1_Bold"
+        textColor="@color/ContentPrimary"
+        id="@+id/title"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_marginEnd="@dimen/margin_default"
+        NOT_FOUND_0x6="0"
+        NOT_FOUND_0x8="@+id/iv_chevron"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xa="0"/>
+    <ImageView
+        id="@+id/iv_chevron"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x6="0"
+        NOT_FOUND_0x7="0"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="@drawable/_2131231654_res_0x7f0803a6"
+        NOT_FOUND_0xc="@color/ContentContrast"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

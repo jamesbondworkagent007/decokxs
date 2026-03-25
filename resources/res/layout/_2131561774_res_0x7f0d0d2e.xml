@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o.C40369qTh xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.qSZ
+        id="@+id/trade_coin_switch_view"
+        visibility="2"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        paddingStart="@dimen/dp24"
+        paddingEnd="@dimen/dp_12"
+        NOT_FOUND_0x12="0"
+        NOT_FOUND_0x14="0"/>
+    <com.okinc.uilab.reminder.OKReminder
+        id="@+id/market_search_spot_reminder"
+        paddingTop="@dimen/margin_8dp"
+        paddingBottom="@dimen/margin_8dp"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginLeft="@dimen/dp24"
+        layout_marginRight="@dimen/dp24"
+        layout_marginHorizontal="@dimen/dp24"
+        paddingVertical="@dimen/margin_8dp"
+        NOT_FOUND_0x11="0"
+        NOT_FOUND_0x12="0"
+        NOT_FOUND_0x13="@+id/trade_coin_switch_view"/>
+    <o.C40363qTb
+        gravity="0x10"
+        id="@+id/sort_view"
+        layout_width="-1"
+        android:layout_height="30dp"
+        NOT_FOUND_0x13="@+id/market_search_spot_reminder"/>
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/recycler_view"
+        paddingBottom="@dimen/dp_40"
+        clipToPadding="false"
+        layout_width="-1"
+        android:layout_height="0dp"
+        contentDescription="futures"
+        nestedScrollingEnabled="false"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x13="@+id/sort_view"/>
+</o.C40369qTh>

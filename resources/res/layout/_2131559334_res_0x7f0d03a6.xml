@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <View
+        id="@+id/header_skeleton"
+        tag="radius_4"
+        layout_width="-1"
+        android:layout_height="24dp"
+        layout_marginLeft="24dp"
+        layout_marginTop="16dp"
+        layout_marginRight="24dp"
+        layout_marginBottom="16dp"
+        layout_marginHorizontal="24dp"/>
+    <HorizontalScrollView
+        id="@+id/hsv_skeleton"
+        paddingTop="4dp"
+        scrollbars="horizontal"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginBottom="16dp"
+        layout_marginStart="24dp">
+        <LinearLayout
+            orientation="0"
+            layout_width="-2"
+            android:layout_height="wrap_content">
+            <include layout="@layout/_2131559314_res_0x7f0d0392"/>
+            <include layout="@layout/_2131559314_res_0x7f0d0392"/>
+            <include layout="@layout/_2131559314_res_0x7f0d0392"/>
+            <include layout="@layout/_2131559314_res_0x7f0d0392"/>
+            <include layout="@layout/_2131559314_res_0x7f0d0392"/>
+            <include layout="@layout/_2131559314_res_0x7f0d0392"/>
+            <include layout="@layout/_2131559314_res_0x7f0d0392"/>
+            <include layout="@layout/_2131559314_res_0x7f0d0392"/>
+        </LinearLayout>
+    </HorizontalScrollView>
+</LinearLayout>

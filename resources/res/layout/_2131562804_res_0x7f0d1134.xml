@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <Space
+        tag="layout/view_home_chart_status_0"
+        layout_width="-1"
+        android:layout_height="1dp"/>
+    <ViewStub
+        layout_gravity="0x11"
+        id="@+id/asset_failed_load"
+        tag="layout/view_home_chart_status_1"
+        layout="@layout/_2131560371_res_0x7f0d07b3"
+        layout_width="-1"
+        android:layout_height="match_parent"/>
+    <ViewStub
+        id="@+id/asset_loading"
+        tag="layout/view_home_chart_status_2"
+        layout="@layout/_2131560372_res_0x7f0d07b4"
+        layout_width="-2"
+        android:layout_height="wrap_content"/>
+</merge>

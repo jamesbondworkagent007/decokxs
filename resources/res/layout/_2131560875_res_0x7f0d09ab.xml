@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x11"
+    orientation="0"
+    id="@+id/recommend_show_more"
+    paddingTop="@dimen/xxsm"
+    paddingBottom="@dimen/xxsm"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginLeft="@dimen/sm"
+    layout_marginRight="@dimen/sm"
+    layout_marginHorizontal="@dimen/sm"
+    paddingVertical="@dimen/xxsm">
+    <TextView
+        textColor="@color/ContentPrimary"
+        layout_gravity="0x11"
+        id="@+id/show_more_tv"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        text="@string/pr_invest_defi_v2_tokens_list_btn_show_more"
+        style="@style/Label_2_Regular"/>
+    <ImageView
+        layout_gravity="0x11"
+        id="@+id/show_more_iv"
+        layout_width="16dp"
+        android:layout_height="16dp"
+        src="@drawable/_2131231637_res_0x7f080395"
+        layout_marginStart="@dimen/margin_4dp"
+        NOT_FOUND_0x10="@color/ContentPrimary"/>
+</LinearLayout>

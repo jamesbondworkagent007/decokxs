@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o.C19923gUi xmlns:android="http://schemas.android.com/apk/res/android"
+    id="@+id/buy_settings"
+    layout_width="-1"
+    android:layout_height="match_parent"
+    layout_marginLeft="24dp"
+    layout_marginRight="24dp"
+    layout_marginHorizontal="24dp"/>

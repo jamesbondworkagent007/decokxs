@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    background="@drawable/_2131231251_res_0x7f080213"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <TextView
+        textAppearance="@style/TextAppearance.Text.Bold.18SP"
+        textSize="@dimen/text_size_24sp"
+        textColor="@color/text_amplified"
+        id="@+id/tv_title"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginLeft="@dimen/margin_16dp"
+        layout_marginTop="28dp"
+        layout_marginRight="@dimen/margin_16dp"
+        text="@string/pr_investdeposit_bot_pop_nonft_certificate"
+        layout_marginHorizontal="@dimen/margin_16dp"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x10="0"/>
+    <ImageView
+        id="@+id/close_icon"
+        layout_width="24dp"
+        android:layout_height="24dp"
+        layout_marginTop="12dp"
+        src="@drawable/_2131232438_res_0x7f0806b6"
+        layout_marginEnd="@dimen/margin_14dp"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x11="@color/ContentContrast"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

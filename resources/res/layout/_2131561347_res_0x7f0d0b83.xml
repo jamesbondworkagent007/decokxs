@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    textAppearance="@style/TextAppearance"
+    textSize="16sp"
+    textColor="@color/grey_g700"
+    id="@+id/tv_label"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginTop="16dp"
+    layout_marginBottom="8dp"/>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    id="@+id/market_events_root"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        layout_gravity="0x1"
+        id="@+id/market_events_refresh_layout"
+        background="@drawable/_2131231411_res_0x7f0802b3"
+        paddingLeft="@dimen/padding_10dp"
+        paddingTop="@dimen/padding_6dp"
+        paddingRight="@dimen/padding_10dp"
+        paddingBottom="@dimen/padding_6dp"
+        visibility="2"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="42dp"
+        backgroundTint="@color/SurfacePressed_Dark"
+        paddingHorizontal="@dimen/padding_10dp"
+        paddingVertical="@dimen/padding_6dp">
+        <androidx.appcompat.widget.AppCompatImageView
+            layout_gravity="0x11"
+            layout_width="16dp"
+            android:layout_height="16dp"
+            src="@drawable/_2131233783_res_0x7f080bf7"
+            tint="@color/ContentPrimary_Dark"/>
+        <androidx.appcompat.widget.AppCompatTextView
+            textSize="@dimen/text_size_12sp"
+            textColor="@color/ContentPrimary_Dark"
+            layout_gravity="0x11"
+            id="@+id/market_events_refresh_num"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            layout_marginStart="@dimen/margin_6dp"
+            style="@style/Label_3_Regular"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</merge>

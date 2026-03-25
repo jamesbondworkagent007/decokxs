@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item state_checked="true">
+        <shape shape="0">
+            <corners
+                topLeftRadius="8dp"
+                bottomLeftRadius="8dp"/>
+            <solid color="@color/ContainerInverse"/>
+            <stroke
+                width="1dp"
+                color="@color/BorderPrimary"/>
+        </shape>
+    </item>
+    <item>
+        <shape shape="0">
+            <corners
+                topLeftRadius="8dp"
+                bottomLeftRadius="8dp"/>
+            <solid color="@color/SurfacePrimary"/>
+            <stroke
+                width="1dp"
+                color="@color/BorderPrimary"/>
+        </shape>
+    </item>
+</selector>

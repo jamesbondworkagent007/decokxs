@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.C55230xfy
+        textAppearance="@style/TextAppearance.Text.14SP"
+        textSize="@dimen/text_size_14sp"
+        textColor="@color/title_color"
+        textColorHint="@color/okTradeG300"
+        id="@+id/searchBar"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="8dp"
+        hint="@string/pr_trade_bots_recurring_modal_search"
+        NOT_FOUND_0xb="true"
+        NOT_FOUND_0xc="-3"/>
+    <TextView
+        textAppearance="@style/TextAppearance.Text.12SP.Regular"
+        textColor="@color/orange_o700"
+        id="@+id/tipTv"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="10dp"/>
+    <o.C52834waB
+        id="@+id/all"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="8dp"/>
+</LinearLayout>

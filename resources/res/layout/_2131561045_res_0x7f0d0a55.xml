@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.C55113xdn
+        id="@+id/loading_view"
+        layout_width="60dp"
+        android:layout_height="60dp"
+        layout_marginTop="@dimen/md"
+        layout_centerHorizontal="true"
+        NOT_FOUND_0x5="true"
+        NOT_FOUND_0x6="true"
+        NOT_FOUND_0x7="@raw/_2131886126_res_0x7f12002e"/>
+</RelativeLayout>

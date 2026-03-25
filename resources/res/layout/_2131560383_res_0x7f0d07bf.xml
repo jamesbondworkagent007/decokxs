@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    textAppearance="@style/Label_2_Bold"
+    textColor="@color/ContentPrimary"
+    gravity="0x10"
+    id="@+id/tvContent"
+    paddingLeft="@dimen/padding_24dp"
+    paddingRight="@dimen/padding_24dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    text="@string/pr_wallet_restorecloudwallet_text_noton_device"
+    drawablePadding="@dimen/padding_4dp"
+    drawableStart="@drawable/_2131234355_res_0x7f080e33"
+    paddingHorizontal="@dimen/padding_24dp"
+    NOT_FOUND_0xc="@color/ContentBrand"/>

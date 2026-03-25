@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    NOT_FOUND_0xc="@color/background_lv1"
+    NOT_FOUND_0xd="8dp">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        layout_width="-1"
+        android:layout_height="wrap_content">
+        <com.okinc.uilab.item.OKRegularCell
+            id="@+id/config_account"
+            paddingLeft="24dp"
+            paddingTop="16dp"
+            paddingRight="24dp"
+            paddingBottom="16dp"
+            layout_width="0dp"
+            android:layout_height="wrap_content"
+            minHeight="56dp"
+            paddingHorizontal="24dp"
+            paddingVertical="16dp"
+            NOT_FOUND_0xe="0"
+            NOT_FOUND_0xf="0"
+            NOT_FOUND_0x10="0"
+            NOT_FOUND_0x11="">
+            <ImageView
+                layout_gravity="0x11"
+                id="@+id/config_checked"
+                layout_width="20dp"
+                android:layout_height="20dp"
+                src="@drawable/_2131232291_res_0x7f080623"/>
+        </com.okinc.uilab.item.OKRegularCell>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

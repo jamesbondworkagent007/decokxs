@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.okinc.uilab.item.OKRegularCell xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/orc_parent"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    NOT_FOUND_0x5="@dimen/padding_24dp">
+    <o.C55390xiz
+        textSize="@dimen/text_size_14sp"
+        textColor="@color/ContentPrimary"
+        id="@+id/hlLink"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x6="1"/>
+</com.okinc.uilab.item.OKRegularCell>

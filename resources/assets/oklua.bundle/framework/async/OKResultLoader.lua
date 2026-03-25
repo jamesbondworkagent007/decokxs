@@ -1,0 +1,1 @@
+require("framework.async.OKAsyncLoader")ResultLoader=AsyncLoader:extend()function ResultLoader:setResultAndError(a,b)self._simResult=a;self._simError=b end;function ResultLoader:_startLoad()System:asyncDoInMain(function()self:notifyResult(self._simResult,self._simError)end)end

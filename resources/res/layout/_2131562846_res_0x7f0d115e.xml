@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o.C33624mzv xmlns:android="http://schemas.android.com/apk/res/android"
+    textAppearance="@style/TextAppearance.Text.14SP"
+    gravity="0x11"
+    id="@+id/emptyTextView"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginTop="60dp"
+    layout_marginBottom="100dp"
+    drawablePadding="12dp"/>

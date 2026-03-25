@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    layout_width="-1"
+    android:layout_height="match_parent"
+    layout_marginBottom="4dp">
+    <include
+        id="@+id/header_view"
+        layout_width="-1"
+        android:layout_height="74dp"
+        layout="@layout/_2131559213_res_0x7f0d032d"/>
+    <include
+        id="@+id/contet_view"
+        layout_width="-1"
+        android:layout_height="70dp"
+        layout_below="@+id/header_view"
+        layout="@layout/_2131559217_res_0x7f0d0331"/>
+</RelativeLayout>

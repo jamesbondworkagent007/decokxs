@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <androidx.recyclerview.widget.RecyclerView
+        orientation="1"
+        id="@+id/message_list"
+        layout_width="-1"
+        android:layout_height="match_parent"
+        NOT_FOUND_0x4="androidx.recyclerview.widget.LinearLayoutManager"/>
+</android.widget.LinearLayout>

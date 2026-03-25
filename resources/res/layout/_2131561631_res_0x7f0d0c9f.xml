@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    paddingBottom="@dimen/dp_24"
+    layout_width="-1"
+    android:layout_height="@dimen/dp_48">
+    <androidx.appcompat.widget.AppCompatTextView
+        textAppearance="@style/Label_2_Regular"
+        textSize="@dimen/sp_14"
+        textColor="@color/ContentPrimary"
+        id="@+id/viewMore"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        text="@string/pr_growth_general_btn_view_more"
+        drawableEnd="@drawable/_2131231649_res_0x7f0803a1"
+        NOT_FOUND_0xa="@color/ContentPrimary"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="0"
+        style="@style/Label_2_Regular"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

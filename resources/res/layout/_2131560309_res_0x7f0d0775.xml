@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    tag="layout/item_adjust_leverage_0"
+    layout_width="-2"
+    android:layout_height="match_parent">
+    <TextView
+        textAppearance="@style/TextAppearance.Title.12SP.Medium"
+        textColor="@color/trade_item_adjust_leverage_color"
+        gravity="0x11"
+        layout_gravity="0x11"
+        id="@+id/tv_content"
+        background="@drawable/_2131234156_res_0x7f080d6c"
+        layout_width="-2"
+        android:layout_height="28dp"
+        minWidth="48dp"/>
+</FrameLayout>

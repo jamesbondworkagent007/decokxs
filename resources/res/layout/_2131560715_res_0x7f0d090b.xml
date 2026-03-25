@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    id="@+id/ll_top_items_container"
+    tag="layout/item_list_picker_top_component_items_0"
+    layout_width="-1"
+    android:layout_height="wrap_content"/>

@@ -1,0 +1,92 @@
+<script language="JavaScript">
+
+    function generateRandom() {
+      return Math.floor((1 + Math.random()) * 0x10000)
+        .toString(16)
+        .substring(1);
+    }
+
+
+    // This only works if `open` and `send` are called in a synchronous way
+    // That is, after calling `open`, there must be no other call to `open` or
+    // `send` from another place of the code until the matching `send` is called.
+    requestID = null;
+    XMLHttpRequest.prototype.reallyOKOpen = XMLHttpRequest.prototype.open;
+    XMLHttpRequest.prototype.open = function(method, url, async, user, password) {
+        var signed_url = url;
+        var useDoh = interception.shouldIntercept(signed_url);
+        if (useDoh) {
+            requestID = generateRandom()
+            if(method != "GET") {
+                var prefix = "";
+                if (signed_url.indexOf("?") == signed_url.length - 1) {
+                    prefix = "";
+                } else if (signed_url.indexOf("?") > 0) {
+                    prefix = "&";
+                } else {
+                    prefix = "?";
+                }
+                signed_url = signed_url + prefix + "AJAXINTERCEPT" + requestID;
+            }
+        } else {
+            requestID = null;
+        }
+        this.reallyOKOpen(method, signed_url , async, user, password);
+    };
+    XMLHttpRequest.prototype.reallyOKSend = XMLHttpRequest.prototype.send;
+    XMLHttpRequest.prototype.send = function(body) {
+        if (requestID != null) {
+            if(body instanceof FormData) {
+               var objData = {};
+               for(var pair of body.entries()) {
+                   if(pair[1] instanceof File) {
+                        objData[pair[0]] = pair[1].name + "_file_tag";
+                    }else {
+                        objData[pair[0]] = pair[1];
+                    }
+                }
+                var result = JSON.stringify(objData);
+                interception.customAjaxFileName(requestID, result);
+            }else {
+               interception.customAjax(requestID, body);
+            }
+        }
+        this.reallyOKSend(body);
+    };
+
+
+    function handleRequest(url, method, body) {
+      let requestId = null;
+      let useDoh = interception.shouldIntercept(url);
+
+      if (useDoh) {
+        requestId = generateRandom();
+        if (method.toUpperCase() !== "GET") {
+          url += (url.includes("?") ? "&" : "?") + "AJAXINTERCEPT" + requestId;
+        }
+      }
+
+      if (requestId) {
+        if (body instanceof FormData) {
+          let objData = {};
+          for (let [key, value] of body.entries()) {
+            objData[key] =
+              value instanceof File ? value.name + "_file_tag" : value;
+          }
+          interception.customAjaxFileName(requestId, JSON.stringify(objData));
+        } else {
+          interception.customAjax(requestId, body);
+        }
+      }
+
+      return { url, requestId };
+    }
+
+    const originalFetch = window.fetch;
+    window.fetch = async function (url, options = {}) {
+        let method = options.method || "GET";
+        let { url: modifiedUrl } = handleRequest(url, method, options.body);
+        return originalFetch(modifiedUrl, options);
+    };
+
+</script>

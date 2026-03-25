@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    scrollbarThumbVertical="@color/line_light"
+    background="@drawable/_2131231381_res_0x7f080295"
+    padding="1dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginLeft="@dimen/margin_16dp"
+    layout_marginRight="@dimen/margin_16dp"
+    fillViewport="true"
+    layout_marginHorizontal="@dimen/margin_16dp">
+    <o.C34932nll
+        orientation="1"
+        id="@+id/preview_container"
+        background="@color/BasePrimary_Dark"
+        layout_width="-1"
+        android:layout_height="wrap_content">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            id="@+id/preview_content"
+            layout_width="-1"
+            android:layout_height="match_parent">
+            <androidx.fragment.app.FragmentContainerView
+                name="o.nlg"
+                id="@+id/fragment_container"
+                layout_width="-1"
+                android:layout_height="wrap_content"
+                NOT_FOUND_0xd="true"
+                NOT_FOUND_0xf="@+id/foot_view"
+                NOT_FOUND_0x10="0"
+                NOT_FOUND_0x11="0"
+                NOT_FOUND_0x12="0"/>
+            <o.C49352umt
+                id="@+id/foot_view"
+                layout_width="-1"
+                android:layout_height="wrap_content"
+                NOT_FOUND_0xc="market_feed_detail"
+                NOT_FOUND_0xe="0"
+                NOT_FOUND_0x10="0"
+                NOT_FOUND_0x11="0"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </o.C34932nll>
+</ScrollView>

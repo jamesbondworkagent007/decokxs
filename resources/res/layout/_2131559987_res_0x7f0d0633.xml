@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.okinc.uilab.banner.OKAlertBanner xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/joinCallBanner"
+    visibility="2"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    NOT_FOUND_0x4="1"
+    NOT_FOUND_0x5="@string/pr_message_vip_call_banner_join_ongoing_call"
+    NOT_FOUND_0x6="1"/>

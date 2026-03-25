@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o.wXI xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginLeft="@dimen/margin_24dp"
+    layout_marginTop="@dimen/margin_24dp"
+    layout_marginRight="@dimen/margin_24dp"
+    layout_marginBottom="@dimen/margin_16dp"
+    layout_marginHorizontal="@dimen/margin_24dp"
+    NOT_FOUND_0x7="3"/>

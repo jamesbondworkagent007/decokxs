@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    background="#000000"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <FrameLayout
+        layout_width="-1"
+        android:layout_height="0dp"
+        layout_weight="1">
+        <androidx.camera.view.PreviewView
+            id="@+id/preview_view"
+            layout_width="-1"
+            android:layout_height="match_parent"
+            NOT_FOUND_0xa="1"
+            NOT_FOUND_0xb="1"/>
+        <ImageView
+            id="@+id/photo_preview"
+            visibility="2"
+            layout_width="-1"
+            android:layout_height="match_parent"
+            scaleType="6"
+            contentDescription="@null"/>
+        <TextureView
+            layout_gravity="0x11"
+            id="@+id/video_playback"
+            visibility="2"
+            layout_width="-1"
+            android:layout_height="match_parent"/>
+    </FrameLayout>
+    <include
+        id="@+id/capture_controls"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout="@layout/_2131561414_res_0x7f0d0bc6"/>
+</LinearLayout>

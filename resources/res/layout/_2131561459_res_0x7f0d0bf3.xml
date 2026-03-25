@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    id="@+id/error_layout"
+    background="@color/BasePrimary"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C55173xeu
+        layout_gravity="0x11"
+        id="@+id/no_network"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x6="@drawable/_2131233554_res_0x7f080b12"
+        NOT_FOUND_0x7="@string/pr_message_empty_network_error_des_try_again"
+        NOT_FOUND_0x8="@string/pr_message_empty_network_error_btn_reload"
+        NOT_FOUND_0x9="@string/pr_message_empty_network_error_title"/>
+</FrameLayout>

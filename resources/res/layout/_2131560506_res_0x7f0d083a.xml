@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    textAppearance="@style/TextAppearance.Text.14SP"
+    gravity="0x11"
+    id="@+id/tv_empty_entry"
+    tag="layout/item_empty_entry_0"
+    paddingTop="36dp"
+    paddingBottom="36dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    drawablePadding="8dp"
+    paddingStart="@dimen/common_page_edge_space"
+    paddingEnd="@dimen/common_page_edge_space"/>

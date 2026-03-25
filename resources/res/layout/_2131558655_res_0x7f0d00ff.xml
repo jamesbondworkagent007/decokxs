@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    id="@+id/activity_root_layout"
+    layout_width="-1"
+    android:layout_height="match_parent"
+    baselineAligned="false">
+    <o.C33537myN
+        id="@+id/app_bar"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x8="true"
+        NOT_FOUND_0x9="@dimen/text_size_18sp"
+        NOT_FOUND_0xa="true"
+        NOT_FOUND_0xb="@drawable/_2131232348_res_0x7f08065c"
+        NOT_FOUND_0xc="false"
+        NOT_FOUND_0xd="true"
+        NOT_FOUND_0xe="@font/okx_sans_tab_bold"
+        NOT_FOUND_0x11="false"/>
+    <o.C55244xgL
+        id="@+id/tabs_layout"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="12dp"
+        contentDescription="notification_tabs_layout"
+        NOT_FOUND_0xf="1"
+        NOT_FOUND_0x10="-5"/>
+    <androidx.viewpager.widget.ViewPager
+        id="@+id/vp_fragments"
+        layout_width="-1"
+        android:layout_height="0dp"
+        layout_weight="1"
+        contentDescription="notification_viewpager"/>
+</LinearLayout>

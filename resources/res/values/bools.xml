@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="abc_action_bar_embed_tabs">true</bool>
+    <bool name="abc_config_actionMenuItemAllCaps">true</bool>
+    <bool name="enable_system_alarm_service_default">false</bool>
+    <bool name="enable_system_foreground_service_default">true</bool>
+    <bool name="enable_system_job_service_default">true</bool>
+    <bool name="market_calendar_day_enable_after_today">true</bool>
+    <bool name="market_calendar_day_extra_bg_enable">false</bool>
+    <bool name="market_calendar_day_extra_enable">false</bool>
+    <bool name="market_calendar_day_out_of_bounds_disable">false</bool>
+    <bool name="market_calendar_day_today_indicator_enable">false</bool>
+    <bool name="market_calendar_enable_horizontal_divider">true</bool>
+    <bool name="market_calendar_horizontal_divider_edge_bottom">true</bool>
+    <bool name="market_calendar_horizontal_divider_edge_inner">true</bool>
+    <bool name="market_calendar_horizontal_divider_edge_top">true</bool>
+    <bool name="market_calendar_vertical_divider_edge_inner">false</bool>
+    <bool name="market_calendar_vertical_divider_edge_left">false</bool>
+    <bool name="market_calendar_vertical_divider_edge_right">false</bool>
+    <bool name="mtrl_btn_textappearance_all_caps">true</bool>
+    <bool name="workmanager_test_configuration">false</bool>
+</resources>

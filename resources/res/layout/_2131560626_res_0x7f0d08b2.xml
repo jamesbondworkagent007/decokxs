@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="0"
+    id="@+id/content_constraint_layout"
+    tag="layout/item_input_card_choice_item_0"
+    background="@drawable/_2131231183_res_0x7f0801cf"
+    padding="20dp"
+    clickable="true"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    minHeight="48dp">
+    <ImageView
+        layout_gravity="0x10"
+        id="@+id/iamge"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginEnd="12dp"/>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        layout_gravity="0x10"
+        orientation="1"
+        id="@+id/content_list"
+        layout_width="-1"
+        android:layout_height="wrap_content"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

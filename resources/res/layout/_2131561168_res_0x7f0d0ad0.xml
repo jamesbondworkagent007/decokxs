@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    paddingLeft="24dp"
+    paddingRight="24dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingHorizontal="24dp">
+    <TextView
+        textAppearance="@style/Headline_5_Bold"
+        textSize="@dimen/text_size_24sp"
+        textColor="@color/ContentPrimary"
+        gravity="0x1"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="8dp"
+        text="@string/pr_trade_cedefi_header_select_how_authorize_trades"/>
+    <TextView
+        textAppearance="@style/Body_2_Regular"
+        textSize="@dimen/text_size_16sp"
+        textColor="@color/ContentPrimary"
+        gravity="0x1"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_16dp"
+        layout_marginBottom="@dimen/margin_24dp"
+        text="@string/pr_trade_cedefi_desc_select_how_authorize_trades"/>
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    gravity="0x10"
+    orientation="0"
+    tag="layout/item_creator_centre_earnings_history_header_0"
+    paddingLeft="24dp"
+    paddingTop="12dp"
+    paddingRight="24dp"
+    paddingBottom="12dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingHorizontal="24dp"
+    paddingVertical="12dp">
+    <TextView
+        textColor="@color/color_content_static_default"
+        id="@+id/tvHistoryTitle"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        text="@string/pr_orbit_creatorcenter_header_history"
+        layout_weight="1"
+        style="@style/Title_2_Bold"/>
+    <ImageView
+        id="@+id/ivFilter"
+        visibility="2"
+        layout_width="16dp"
+        android:layout_height="16dp"
+        src="@drawable/_2131232227_res_0x7f0805e3"/>
+</LinearLayout>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <script src="https://ca.turing.captcha.qcloud.com/TCaptcha-global.js"></script>
+</head>
+
+<body>
+</body>
+
+<script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const captchaId = urlParams.get('captchaId');
+    const userLanguage = urlParams.get('userLanguage');
+    const isDarkMode = urlParams.get('isDarkMode');
+    const enableDarkMode = isDarkMode == 'true' ? 'force' : false;
+
+    const options = {
+        "needFeedBack": false,
+        "userLanguage": userLanguage,
+        "loading": false,
+        "enableDarkMode": enableDarkMode,
+        "ready": onLoadFinished
+    };
+
+    try {
+        const captcha = new TencentCaptcha(captchaId, callback, options);
+        captcha.show();
+    } catch (error) {
+        loadErrorCallback(captchaId);
+    }
+
+    function onLoadFinished(res) {
+        window.jsBridge.onLoadFinished();
+    }
+
+    function callback(res) {
+        if (res.ret === 0 && res.errorCode == null){
+            const result = { result: 'success', randstr: res.randstr, ticket: res.ticket };
+            window.jsBridge.onSuccess(JSON.stringify(result));
+        } else if (res.ret === 2) {
+            window.jsBridge.onCancel();
+        } else {
+            const result = { result: 'error', errorCode: res.errorCode, errorMessage: res.errorMessage };
+            window.jsBridge.onError(JSON.stringify(result));
+        }
+    }
+
+    function loadErrorCallback(captchaId) {
+      callback({
+          ret: -1,
+          errorCode: 1001,
+          errorMessage: 'fail to load tencent captcha js',
+      });
+    }
+</script>
+
+</html>

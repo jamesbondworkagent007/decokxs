@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o.jWP xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    background="@drawable/_2131231979_res_0x7f0804eb"
+    layout_width="40dp"
+    android:layout_height="40dp">
+    <ImageView
+        id="@+id/iv_logo"
+        layout_width="24dp"
+        android:layout_height="24dp"
+        src="@drawable/_2131231917_res_0x7f0804ad"
+        layout_centerInParent="true"
+        NOT_FOUND_0x6="0"
+        NOT_FOUND_0x7="0"
+        NOT_FOUND_0x8="0"/>
+</o.jWP>

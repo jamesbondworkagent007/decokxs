@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    paddingTop="16dp"
+    paddingBottom="16dp"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C49352umt
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x7="test"
+        NOT_FOUND_0x8="follow system theme"/>
+    <o.C49352umt
+        theme="@style/FootViewFixedTheme"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="16dp"
+        NOT_FOUND_0x7="test"
+        NOT_FOUND_0x8="FootViewFixedTheme(Day)"/>
+    <o.C49352umt
+        theme="@style/FootViewFixedTheme.Inverse"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="16dp"
+        NOT_FOUND_0x7="test"
+        NOT_FOUND_0x8="FootViewFixedTheme.Inverse(Night)"
+        NOT_FOUND_0x9="custom footer title"/>
+</LinearLayout>

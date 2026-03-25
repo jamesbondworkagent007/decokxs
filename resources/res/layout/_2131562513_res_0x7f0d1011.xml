@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/bottom_layout"
+    tag="layout/trade_ui_dialog_titlebar_line_0"
+    background="@drawable/_2131231036_res_0x7f08013c"
+    paddingTop="3dp"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <TextView
+        textColor="@color/grey_g900"
+        ellipsize="3"
+        gravity="0x800013"
+        id="@+id/title"
+        layout_width="0dp"
+        android:layout_height="50dp"
+        maxLines="1"
+        layout_marginStart="@dimen/margin_16dp"
+        NOT_FOUND_0x10="@+id/close"
+        NOT_FOUND_0x11="0"
+        NOT_FOUND_0x13="0"
+        style="@style/TextAppearance.Title.Bold.18SP"/>
+    <ImageView
+        id="@+id/close"
+        layout_width="-2"
+        android:layout_height="0dp"
+        src="@drawable/_2131232441_res_0x7f0806b9"
+        paddingStart="@dimen/margin_12dp"
+        paddingEnd="@dimen/padding_16dp"
+        NOT_FOUND_0xe="@+id/title"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x13="@+id/title"
+        NOT_FOUND_0x14="@color/ContentContrast"/>
+    <View
+        id="@+id/line"
+        background="@color/grey_g100"
+        layout_width="-1"
+        android:layout_height="@dimen/ok_dp_0.5"
+        NOT_FOUND_0x12="@+id/title"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

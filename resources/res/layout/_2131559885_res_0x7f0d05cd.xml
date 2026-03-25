@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/layout"
+    tag="layout/fragment_dapp_new_web_0"
+    background="@color/BasePrimary"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <com.okinc.business.defi.dapp.view.DappBrowserMultiModeToolbar
+        id="@+id/top"
+        layout_width="-1"
+        android:layout_height="@dimen/dp_52"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xc="0"/>
+    <ProgressBar
+        id="@+id/progress"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="2dp"
+        max="100"
+        progressTint="@color/grey_g900"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="@+id/top"
+        style="?android:attr/progressBarStyleHorizontal"/>
+    <View
+        id="@+id/divider"
+        background="@color/grey_g100"
+        layout_width="-1"
+        android:layout_height="0.5dp"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="@+id/progress"/>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        id="@+id/container"
+        tag="binding_1"
+        layout_width="-1"
+        android:layout_height="0dp"
+        NOT_FOUND_0x8="0"
+        NOT_FOUND_0xb="@+id/divider">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            id="@+id/layout_web"
+            layout_width="-1"
+            android:layout_height="0dp"
+            NOT_FOUND_0x8="0"
+            NOT_FOUND_0xc="0"/>
+        <include layout="@layout/_2131561203_res_0x7f0d0af3"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

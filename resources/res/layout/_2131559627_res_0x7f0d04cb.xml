@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    id="@+id/menu_container"
+    background="@drawable/_2131231074_res_0x7f080162"
+    layout_width="-2"
+    android:layout_height="wrap_content"
+    layout_marginLeft="@dimen/dp24"
+    layout_marginRight="@dimen/dp24"
+    layout_marginHorizontal="@dimen/dp24"/>

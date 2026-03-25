@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/fragment_bot_lead_signalbot_state_page_0"
+    background="@color/BasePrimary"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C33546myW
+        id="@+id/smart_refresh"
+        layout_width="-1"
+        android:layout_height="match_parent"
+        NOT_FOUND_0x6="true"
+        NOT_FOUND_0x7="true"
+        NOT_FOUND_0x8="false">
+        <o.C33603mza
+            layout_width="-1"
+            android:layout_height="wrap_content"/>
+        <androidx.recyclerview.widget.RecyclerView
+            id="@+id/rv"
+            layout_width="-1"
+            android:layout_height="match_parent"
+            overScrollMode="2"/>
+        <o.C33604mzb
+            layout_width="-1"
+            android:layout_height="wrap_content"/>
+    </o.C33546myW>
+</androidx.appcompat.widget.LinearLayoutCompat>

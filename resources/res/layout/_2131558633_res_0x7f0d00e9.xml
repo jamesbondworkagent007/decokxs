@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    tag="layout/activity_oksupport_toolbox_0"
+    background="@color/BasePrimary"
+    fitsSystemWindows="true"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <com.google.android.material.appbar.MaterialToolbar
+        id="@+id/toolbar"
+        background="@color/BaseSecondary"
+        layout_width="-1"
+        android:layout_height="?attr/actionBarSize"
+        NOT_FOUND_0x8="@drawable/_2131233693_res_0x7f080b9d"
+        NOT_FOUND_0xa="OKSupport Debug Tools"/>
+    <com.google.android.material.tabs.TabLayout
+        id="@+id/tabs_tools"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x9="0"/>
+    <androidx.viewpager2.widget.ViewPager2
+        id="@+id/pager_tools"
+        layout_width="-1"
+        android:layout_height="0dp"
+        layout_weight="1"/>
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/item_layout"
+    background="?attr/selectableItemBackground"
+    paddingLeft="@dimen/padding_24dp"
+    paddingTop="@dimen/padding_12dp"
+    paddingRight="@dimen/padding_24dp"
+    paddingBottom="@dimen/padding_12dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingHorizontal="@dimen/padding_24dp"
+    paddingVertical="@dimen/padding_12dp">
+    <include
+        id="@+id/member_basic_info"
+        visibility="0"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x12="@+id/checkbox"
+        NOT_FOUND_0x14="0"
+        NOT_FOUND_0x15="0"
+        layout="@layout/_2131560284_res_0x7f0d075c"/>
+    <o.wYK
+        id="@+id/checkbox"
+        background="@android:color/transparent"
+        focusable="false"
+        focusableInTouchMode="false"
+        clickable="false"
+        layout_width="@dimen/width_24dp"
+        android:layout_height="@dimen/height_24dp"
+        checked="false"
+        layout_marginStart="@dimen/margin_16dp"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x11="0"
+        NOT_FOUND_0x13="@+id/member_basic_info"
+        NOT_FOUND_0x15="0"
+        style="@style/CheckBox.IMCircleTick"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        layout_width="-1"
+        android:layout_height="wrap_content">
+        <o.C46478tVv
+            id="@+id/coinSelect"
+            layout_width="0dp"
+            android:layout_height="wrap_content"
+            layout_marginLeft="16dp"
+            layout_marginRight="16dp"
+            layout_marginHorizontal="16dp"
+            NOT_FOUND_0xc="@+id/sortIcon"
+            NOT_FOUND_0xd="0"
+            NOT_FOUND_0xe="0"/>
+        <ImageView
+            id="@+id/sortIcon"
+            layout_width="20dp"
+            android:layout_height="20dp"
+            src="@drawable/_2131234070_res_0x7f080d16"
+            contentDescription="@null"
+            layout_marginEnd="@dimen/margin_default"
+            NOT_FOUND_0xa="0"
+            NOT_FOUND_0xb="0"
+            NOT_FOUND_0xe="0"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <o.C33546myW
+        id="@+id/smartRefresh"
+        layout_width="-1"
+        android:layout_height="match_parent">
+        <o.C33603mza
+            layout_width="-1"
+            android:layout_height="wrap_content"/>
+        <androidx.recyclerview.widget.RecyclerView
+            id="@+id/recyclerView"
+            layout_width="-1"
+            android:layout_height="match_parent"/>
+        <o.C33604mzb
+            layout_width="-1"
+            android:layout_height="wrap_content"/>
+    </o.C33546myW>
+</LinearLayout>

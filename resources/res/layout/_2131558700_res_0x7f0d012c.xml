@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C33537myN
+        id="@+id/app_bar"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x6="true"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xf="0"/>
+    <androidx.recyclerview.widget.RecyclerView
+        orientation="1"
+        id="@+id/recycler_view"
+        layout_width="-1"
+        android:layout_height="0dp"
+        overScrollMode="2"
+        NOT_FOUND_0x9="androidx.recyclerview.widget.LinearLayoutManager"
+        NOT_FOUND_0xa="@string/appbar_scrolling_view_behavior"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="@+id/app_bar"/>
+    <o.C55173xeu
+        id="@+id/errorView"
+        visibility="2"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x7="@style/TextAppearance.Silka.EmptyStatusSubTitle"
+        NOT_FOUND_0x8="7"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="@+id/app_bar"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

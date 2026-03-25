@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    background="@color/BaseSecondary"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <androidx.core.widget.NestedScrollView
+        scrollbars="horizontal"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginBottom="@dimen/margin_20dp"
+        fadeScrollbars="false">
+        <LinearLayout
+            orientation="1"
+            layout_width="-1"
+            android:layout_height="wrap_content">
+            <o.C27224jrE
+                id="@+id/univ3_assets_view"
+                paddingLeft="@dimen/padding_16dp"
+                paddingRight="@dimen/padding_16dp"
+                paddingBottom="@dimen/margin_16dp"
+                layout_width="-1"
+                android:layout_height="wrap_content"
+                paddingHorizontal="@dimen/padding_16dp"/>
+            <o.C27224jrE
+                id="@+id/univ3_earnfee_view"
+                paddingLeft="@dimen/padding_16dp"
+                paddingRight="@dimen/padding_16dp"
+                layout_width="-1"
+                android:layout_height="wrap_content"
+                layout_marginBottom="@dimen/margin_24dp"
+                paddingHorizontal="@dimen/padding_16dp"/>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</FrameLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    tag="layout/sheet_contract_double_adjust_leverage_0"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <androidx.core.widget.NestedScrollView
+        id="@+id/scroll_content"
+        layout_width="-1"
+        android:layout_height="0dp"
+        fillViewport="true"
+        layout_weight="1">
+        <LinearLayout
+            orientation="1"
+            id="@+id/contract_lever_root_layout"
+            layout_width="-1"
+            android:layout_height="wrap_content">
+            <FrameLayout
+                id="@+id/fl_long"
+                layout_width="-1"
+                android:layout_height="wrap_content"/>
+            <FrameLayout
+                id="@+id/fl_short"
+                layout_width="-1"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <o.C52794wYp
+        enabled="false"
+        textAppearance="@style/TextAppearance.Text.Medium.16SP"
+        gravity="0x11"
+        id="@+id/confirmBtn"
+        paddingTop="@dimen/ok_dp_12"
+        paddingBottom="@dimen/ok_dp_12"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginLeft="@dimen/ok_dp_24"
+        layout_marginTop="16dp"
+        layout_marginRight="@dimen/ok_dp_24"
+        layout_marginBottom="@dimen/margin_20dp"
+        text="@string/pr_margin_btn_change_leverage_confirm"
+        layout_marginHorizontal="@dimen/ok_dp_24"
+        paddingVertical="@dimen/ok_dp_12"
+        NOT_FOUND_0x13="@+id/hintText"
+        NOT_FOUND_0x14="44"
+        NOT_FOUND_0x15="0x101"/>
+</LinearLayout>

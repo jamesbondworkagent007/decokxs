@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item state_enabled="false">
+        <shape shape="0">
+            <stroke
+                width="@dimen/btn_outline_stroke_width"
+                color="@color/widget_disable_color"/>
+            <corners radius="@dimen/btn_default_radius"/>
+        </shape>
+    </item>
+    <item state_pressed="true">
+        <shape shape="0">
+            <corners radius="@dimen/btn_default_radius"/>
+            <stroke
+                width="@dimen/btn_outline_stroke_width"
+                color="@color/grey_g900"/>
+        </shape>
+    </item>
+    <item>
+        <shape shape="0">
+            <corners radius="@dimen/btn_default_radius"/>
+            <stroke
+                width="@dimen/btn_outline_stroke_width"
+                color="@color/grey_g900"/>
+        </shape>
+    </item>
+</selector>

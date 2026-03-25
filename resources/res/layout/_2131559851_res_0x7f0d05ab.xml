@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/selection_content"
+    tag="layout/fragment_choose_network_dialog_0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <com.okinc.uilab.list.OKAnchorSelection
+        id="@+id/anchorSelection"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x4="1"
+        NOT_FOUND_0x5="@layout/_2131560378_res_0x7f0d07ba"/>
+</FrameLayout>

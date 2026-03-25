@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x11"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginLeft="@dimen/margin_24dp"
+    layout_marginRight="@dimen/margin_24dp"
+    layout_marginBottom="37dp"
+    layout_marginHorizontal="@dimen/margin_24dp">
+    <com.airbnb.lottie.LottieAnimationView
+        id="@+id/iconLottieView"
+        layout_width="136dp"
+        android:layout_height="136dp"
+        layout_marginTop="20dp"/>
+    <TextView
+        textAppearance="@style/Headline_5_Bold"
+        textSize="24sp"
+        textColor="@color/ContentPrimary"
+        gravity="0x11"
+        id="@+id/title"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="24dp"
+        text="@string/pr_trade_cedefi_header_continue_on_another_device"
+        NOT_FOUND_0xe="@dimen/text_size_28sp"/>
+    <TextView
+        textAppearance="@style/Body_2_Regular"
+        textSize="16sp"
+        textColor="@color/ContentSecondary"
+        gravity="0x11"
+        id="@+id/desc"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="16dp"
+        text="@string/pr_trade_cedefi_desc_continue_on_another_device"
+        NOT_FOUND_0xe="@dimen/text_size_28sp"/>
+    <o.C52794wYp
+        id="@+id/continueButton"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="48dp"
+        text="@string/pr_commonall_text_btn_ok_passive"
+        NOT_FOUND_0xf="52"
+        NOT_FOUND_0x10="0x101"/>
+</LinearLayout>

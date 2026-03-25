@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.hYA
+        id="@+id/view_from_child_order"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginLeft="24dp"
+        layout_marginTop="48dp"
+        layout_marginRight="24dp"
+        layout_marginHorizontal="24dp"/>
+    <o.hYA
+        id="@+id/view_to_child_order"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginLeft="24dp"
+        layout_marginTop="24dp"
+        layout_marginRight="24dp"
+        layout_marginHorizontal="24dp"/>
+    <View
+        id="@+id/line_order_address"
+        background="@color/grey_g100"
+        layout_width="-1"
+        android:layout_height="1dp"
+        layout_marginTop="48dp"/>
+    <o.C24285iau
+        id="@+id/view_main_order"
+        paddingLeft="24dp"
+        paddingRight="24dp"
+        layout_width="-1"
+        android:layout_height="0dp"
+        layout_marginTop="32dp"
+        layout_weight="1"
+        paddingHorizontal="24dp"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/container"
+    padding="@dimen/padding_4dp"
+    layout_width="@dimen/width_28dp"
+    android:layout_height="28dp">
+    <o.wYC
+        id="@+id/icon"
+        layout_width="-1"
+        android:layout_height="match_parent"/>
+    <com.airbnb.lottie.LottieAnimationView
+        id="@+id/lottieView"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="match_parent"
+        NOT_FOUND_0x5="true"/>
+</FrameLayout>

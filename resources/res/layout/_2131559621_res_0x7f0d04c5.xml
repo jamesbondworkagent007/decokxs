@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/selection_content"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <com.okinc.uilab.list.OKAnchorSelection
+        id="@+id/anchorSelection"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        contentDescription="web3_defi_filters_dialog"
+        NOT_FOUND_0x4="@layout/_2131560522_res_0x7f0d084a"/>
+</FrameLayout>

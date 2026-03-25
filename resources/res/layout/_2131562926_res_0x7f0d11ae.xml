@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="0"
+    layout_width="-1"
+    android:layout_height="match_parent"
+    NOT_FOUND_0x11="999dp"
+    NOT_FOUND_0x12="0dp">
+    <LinearLayout
+        gravity="0x11"
+        orientation="0"
+        id="@+id/layout_button"
+        background="@color/brand_exchange_feature_primary_inverse_default"
+        paddingLeft="16dp"
+        paddingRight="16dp"
+        layout_width="-1"
+        android:layout_height="match_parent"
+        minWidth="56dp"
+        paddingHorizontal="16dp">
+        <ImageView
+            layout_gravity="0x10"
+            id="@+id/icon"
+            layout_width="24dp"
+            android:layout_height="24dp"
+            src="@drawable/_2131232418_res_0x7f0806a2"/>
+        <TextView
+            textColor="@color/btn_secondary_text_selector"
+            ellipsize="3"
+            gravity="0x800013"
+            id="@+id/title"
+            visibility="2"
+            layout_width="-2"
+            android:layout_height="match_parent"
+            maxLines="1"
+            layout_marginStart="@dimen/xxxsm"
+            style="@style/Label_2_Bold"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

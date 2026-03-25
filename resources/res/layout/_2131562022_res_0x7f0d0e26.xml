@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    gravity="0x11"
+    orientation="1"
+    tag="layout/ok_uilib_filter_drop_down_search_empty_layout_0"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <ImageView
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        src="@drawable/_2131233583_res_0x7f080b2f"/>
+    <TextView
+        id="@+id/tv_no_search"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_14dp"/>
+</LinearLayout>

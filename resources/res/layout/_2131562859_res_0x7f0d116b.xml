@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    gravity="0x11"
+    orientation="0"
+    tag="layout/view_pie_distribute_0"
+    layout_width="-2"
+    android:layout_height="wrap_content">
+    <o.C53195wgs
+        id="@+id/pie_circle"
+        layout_width="@dimen/width_16dp"
+        android:layout_height="@dimen/height_16dp"/>
+    <LinearLayout
+        orientation="0"
+        id="@+id/show_coin_layout"
+        layout_width="-2"
+        android:layout_height="wrap_content"/>
+    <View
+        id="@+id/remain_icon"
+        background="@drawable/_2131234144_res_0x7f080d60"
+        layout_width="@dimen/ok_dp_12"
+        android:layout_height="@dimen/ok_dp_12"
+        layout_marginStart="@dimen/margin_10dp"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        textAppearance="@style/TextAppearance.Text.12SP.Regular"
+        textColor="@color/grey_g700"
+        id="@+id/remain_num"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginStart="@dimen/margin_2dp"/>
+</LinearLayout>

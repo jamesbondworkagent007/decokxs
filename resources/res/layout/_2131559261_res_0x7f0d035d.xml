@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C55244xgL
+        id="@+id/tab_strategies"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/xxxsm"
+        NOT_FOUND_0x7="0"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xa="0"/>
+    <TextView
+        id="@+id/dummy_tab_shimmer"
+        paddingTop="-4dp"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_marginStart="@dimen/margin_default"
+        NOT_FOUND_0x6="@+id/tab_strategies"
+        NOT_FOUND_0x7="@+id/tab_strategies"
+        NOT_FOUND_0x8="0"
+        NOT_FOUND_0x9="@+id/tab_strategies"
+        NOT_FOUND_0xa="@+id/tab_strategies"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

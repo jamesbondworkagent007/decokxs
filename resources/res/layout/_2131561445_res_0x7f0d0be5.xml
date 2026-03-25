@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o.C35884oHg xmlns:android="http://schemas.android.com/apk/res/android"
+    layout_gravity="0x800003"
+    id="@+id/reactionsView"
+    tag="layout/layout_reaction_container_0"
+    layout_width="-2"
+    android:layout_height="wrap_content"/>

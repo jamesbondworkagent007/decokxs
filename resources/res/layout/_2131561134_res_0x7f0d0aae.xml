@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x10"
+    layout_width="-2"
+    android:layout_height="wrap_content">
+    <o.C55251xgS
+        gravity="0x10"
+        orientation="0"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        text="@string/pr_wallet_account_tag_backed_up"
+        layout_marginStart="@dimen/margin_6dp"
+        NOT_FOUND_0x6="-4"
+        NOT_FOUND_0x7="4"/>
+</LinearLayout>

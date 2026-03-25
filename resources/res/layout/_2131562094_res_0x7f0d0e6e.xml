@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x1"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <androidx.viewpager2.widget.ViewPager2
+        id="@+id/view_pager"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_8dp"/>
+    <o.wXO
+        id="@+id/slider"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_20dp"
+        NOT_FOUND_0xd="-5"
+        NOT_FOUND_0xe="0"/>
+    <o.C52794wYp
+        id="@+id/button_close"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginLeft="@dimen/margin_default"
+        layout_marginTop="@dimen/margin_40dp"
+        layout_marginRight="@dimen/margin_default"
+        layout_marginBottom="@dimen/margin_16dp"
+        text="@string/pr_commonall_enterfield_btn_close"
+        layout_marginHorizontal="@dimen/margin_default"
+        NOT_FOUND_0xb="52"
+        NOT_FOUND_0xc="0x103"/>
+</LinearLayout>

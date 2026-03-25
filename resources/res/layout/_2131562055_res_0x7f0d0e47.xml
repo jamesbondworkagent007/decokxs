@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    paddingLeft="@dimen/padding_16dp"
+    paddingTop="@dimen/padding_10dp"
+    paddingRight="@dimen/padding_16dp"
+    paddingBottom="@dimen/padding_10dp"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    paddingHorizontal="@dimen/padding_16dp"
+    paddingVertical="@dimen/padding_10dp">
+    <o.C55251xgS
+        textColor="@color/ContentSecondary"
+        layout_gravity="0x11"
+        id="@+id/tv_title"
+        paddingLeft="@dimen/padding_12dp"
+        paddingTop="@dimen/padding_6dp"
+        paddingRight="@dimen/padding_12dp"
+        paddingBottom="@dimen/padding_6dp"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        textAlignment="4"
+        paddingHorizontal="@dimen/padding_12dp"
+        paddingVertical="@dimen/padding_6dp"
+        NOT_FOUND_0xc="-1"
+        NOT_FOUND_0xd="-3"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="6"
+        style="@style/Label_2_Regular"/>
+</FrameLayout>

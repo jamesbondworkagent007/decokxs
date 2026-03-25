@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C55113xdn
+        layout_gravity="0x11"
+        id="@+id/loading_view"
+        visibility="2"
+        layout_width="60dp"
+        android:layout_height="60dp"
+        NOT_FOUND_0x8="true"
+        NOT_FOUND_0x9="true"
+        NOT_FOUND_0xa="@raw/_2131886126_res_0x7f12002e"/>
+    <o.C55173xeu
+        id="@+id/error_view"
+        background="@color/BasePrimary"
+        paddingTop="96dp"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x7="2"
+        NOT_FOUND_0xb="@string/pr_swaptrade_market_emptystate_btn_refresh"
+        NOT_FOUND_0xc="@string/pr_swaptrade_market_empty_subtitle_network_error"/>
+    <include
+        id="@+id/signal_card"
+        visibility="2"
+        layout_width="-1"
+        android:layout_height="match_parent"
+        layout="@layout/_2131559431_res_0x7f0d0407"/>
+</FrameLayout>

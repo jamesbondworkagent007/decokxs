@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <FrameLayout
+        id="@+id/flContent"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x3="true"
+        NOT_FOUND_0x4="0"
+        NOT_FOUND_0x5="0"
+        NOT_FOUND_0x6="0"
+        NOT_FOUND_0x7="0"
+        NOT_FOUND_0x8="@layout/_2131560813_res_0x7f0d096d"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

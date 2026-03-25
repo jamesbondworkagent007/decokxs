@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.C27532jwv
+        layout_gravity="0x800015"
+        id="@+id/zapSwitchView"
+        visibility="2"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginEnd="@dimen/sm"/>
+    <o.C27446jvO
+        layout_gravity="0x800015"
+        id="@+id/countDownView"
+        visibility="2"
+        layout_width="20dp"
+        android:layout_height="20dp"
+        layout_marginEnd="@dimen/sm"
+        NOT_FOUND_0x6="15"/>
+</merge>

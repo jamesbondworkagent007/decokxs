@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C55173xeu
+        layout_gravity="0x11"
+        id="@+id/errorView"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x4="8"
+        NOT_FOUND_0x5="@string/pr_growth_homepage_mid_subtitle_network_anomaly"
+        NOT_FOUND_0x6="@string/pr_growth_homepage_mid_btn_refresh"/>
+</FrameLayout>

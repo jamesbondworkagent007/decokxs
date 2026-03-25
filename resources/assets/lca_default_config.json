@@ -1,0 +1,46 @@
+{
+  "collectedVideoConfig":{
+    "bitrate":1000000,
+    "resolutionHeight":640,
+    "resolutionWidth":480,
+    "fps":30
+  },
+  "ovalParameters":{
+    "farOvalWidthScreenRatio":0.56,
+    "farOvalHeightRatio":1.5,
+    "faceOvalWidthScreenRatio":0.85,
+    "faceOvalHeightRatio":1.5
+  },
+  "faceDetectionConfig":{
+    "faceDetectionScoreThreshold":0.7,
+    "initialFaceDistanceThresholdMax":0.5,
+    "initialFaceDistanceThresholdMin":0.95,
+    "freshFaceDistanceThresholdMax":0.75,
+    "freshFaceDistanceThresholdMin":0.95,
+    "ovalFitTimeout":60000,
+    "farHoldDuration":600,
+    "onHoldThresholdMaxRatio":0.85,
+    "onHoldThresholdMinRatio":1.1,
+    "positionTopThreshold": 0.08,
+    "positionBottomThreshold": 0.05,
+    "notFrontalFaceHeadTiltAngelThreshold": 30,
+    "notFrontalFaceHeadPitchAngelThreshold": 35,
+    "notFrontalFaceEyeDistanceRatioThreshold": 0.1,
+    "freshnessQcDelayDuration": 200,
+    "colorFlashingTimeout": 15000
+  },
+  "faceQcConfig":{
+    "faceQcOkThreshold":0.3,
+    "faceQcBlockThreshold":0.5,
+    "faceQcBlurThreshold":0.5,
+    "faceQcBrightThreshold":0.9,
+    "faceQcDarkThreshold":0.8
+  },
+  "freshnessQcConfig":{
+    "faceQcOkThreshold":0.00001,
+    "faceQcBlockThreshold":1,
+    "faceQcBlurThreshold":1,
+    "faceQcBrightThreshold":1,
+    "faceQcDarkThreshold":1
+  }
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        height="24dp"
+        width="24dp">
+        <inset
+            drawable="@drawable/_2131234087_res_0x7f080d27"
+            inset="4dp"/>
+    </item>
+</layer-list>

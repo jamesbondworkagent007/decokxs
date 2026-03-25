@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    gravity="0x1"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <ImageView
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="96dp"
+        src="@drawable/_2131234461_res_0x7f080e9d"/>
+    <TextView
+        textAppearance="@style/TextAppearance.Text.12SP"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/margin_10dp"
+        text="@string/pr_metax_status_placeholder_no_data"/>
+</LinearLayout>

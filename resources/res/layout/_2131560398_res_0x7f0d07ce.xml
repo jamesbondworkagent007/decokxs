@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x10"
+    layout_gravity="0x10"
+    id="@+id/item_root_layout"
+    paddingLeft="@dimen/dp_24"
+    paddingTop="@dimen/dp_12"
+    paddingRight="@dimen/dp_24"
+    paddingBottom="@dimen/dp_12"
+    clipChildren="false"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    foreground="?attr/selectableItemBackground"
+    baselineAligned="true"
+    minHeight="@dimen/width_60dp"
+    elevation="0dp"
+    paddingHorizontal="@dimen/dp_24"
+    paddingVertical="@dimen/dp_12">
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/iv_icon"
+        layout_width="@dimen/dp_32"
+        android:layout_height="@dimen/dp_32"
+        scaleType="6"
+        NOT_FOUND_0x15="0"
+        NOT_FOUND_0x18="0"
+        NOT_FOUND_0x19="0"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/iv_chain_coin"
+        visibility="2"
+        layout_width="@dimen/dp_14"
+        android:layout_height="@dimen/dp_14"
+        scaleType="6"
+        translationX="2dp"
+        translationY="2dp"
+        NOT_FOUND_0x15="@+id/iv_icon"
+        NOT_FOUND_0x16="@+id/iv_icon"/>
+    <o.C42982rgg
+        id="@+id/crypto_layout"
+        clipChildren="false"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_marginStart="8dp"
+        NOT_FOUND_0x15="0"
+        NOT_FOUND_0x16="0"
+        NOT_FOUND_0x17="@+id/iv_icon"
+        NOT_FOUND_0x19="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

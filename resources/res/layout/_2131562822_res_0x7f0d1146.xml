@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o.C55021xcA xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/crypto_cell"
+    tag="layout/view_legacy_crypto_list_item_sell_0"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginLeft="@dimen/margin_4dp"
+    layout_marginTop="@dimen/dp_8"
+    layout_marginRight="@dimen/margin_4dp"
+    layout_marginBottom="@dimen/dp_8"
+    layout_marginHorizontal="@dimen/margin_4dp"
+    layout_marginVertical="@dimen/dp_8"
+    NOT_FOUND_0xa="1"
+    NOT_FOUND_0xb="1"
+    NOT_FOUND_0xc="1"/>

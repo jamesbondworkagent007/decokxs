@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        layout_gravity="0x10"
+        orientation="0"
+        id="@+id/ll_header_info"
+        visibility="2"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginBottom="@dimen/margin_8dp">
+        <TextView
+            textAppearance="@style/Label_2_Regular"
+            id="@+id/tv_header_title"
+            layout_width="-2"
+            android:layout_height="wrap_content"/>
+        <o.C55251xgS
+            id="@+id/tag_header"
+            layout_width="-2"
+            android:layout_height="wrap_content"
+            layout_marginStart="6dp"
+            NOT_FOUND_0xa="-4"
+            NOT_FOUND_0xb="6"/>
+        <ImageView
+            layout_gravity="0x10"
+            id="@+id/iv_header_icon"
+            visibility="2"
+            layout_width="14dp"
+            android:layout_height="14dp"
+            src="@drawable/_2131232939_res_0x7f0808ab"
+            layout_marginStart="4dp"/>
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/list"
+        layout_width="-1"
+        android:layout_height="wrap_content"/>
+</merge>

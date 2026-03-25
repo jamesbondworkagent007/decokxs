@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    background="@color/BasePrimaryAlternative"
+    fitsSystemWindows="true"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C33537myN
+        id="@+id/app_bar"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x8="true"
+        NOT_FOUND_0x9="@color/BasePrimaryAlternative"
+        NOT_FOUND_0xa="false"/>
+    <FrameLayout
+        layout_width="-1"
+        android:layout_height="match_parent">
+        <FrameLayout
+            id="@+id/content"
+            visibility="2"
+            layout_width="-1"
+            android:layout_height="match_parent"/>
+        <FrameLayout
+            id="@+id/fl_error_container"
+            visibility="2"
+            layout_width="-1"
+            android:layout_height="match_parent">
+            <o.C55173xeu
+                layout_gravity="0x11"
+                id="@+id/error_view"
+                layout_width="-1"
+                android:layout_height="wrap_content"/>
+        </FrameLayout>
+        <include
+            id="@+id/loading_view"
+            visibility="2"
+            layout="@layout/_2131561536_res_0x7f0d0c40"/>
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    layout_width="-2"
+    android:layout_height="wrap_content">
+    <androidx.cardview.widget.CardView
+        id="@+id/cardview"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        translationY="1dp"
+        NOT_FOUND_0x8="@color/ContainerContrast"
+        NOT_FOUND_0x9="@dimen/dp_8"
+        NOT_FOUND_0xa="0dp"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xe="0"/>
+    <View
+        layout_gravity="0x1"
+        id="@+id/v_triangle"
+        background="@drawable/_2131232799_res_0x7f08081f"
+        layout_width="10dp"
+        android:layout_height="6dp"
+        backgroundTint="@color/ContainerContrast"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="@+id/cardview"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

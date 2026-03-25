@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o.C54990xbW xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    contentDescription="web3_defi_filters_list"
+    NOT_FOUND_0x3="@dimen/xxsm"
+    NOT_FOUND_0x4="-4"/>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/bot_spot_dca_edit_start_condition_0"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C52701wVd
+        id="@+id/selectionGroup"
+        tag="binding_1"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x9="0">
+        <o.C52702wVe
+            id="@+id/instantTrigger"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            NOT_FOUND_0xa="@string/pr_dcabot_placeorder_dropdown_instant"/>
+        <o.C52702wVe
+            id="@+id/rsiTrigger"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            NOT_FOUND_0xa="@string/pr_spotbot_placeorder_dropdown_rsi14"/>
+        <include
+            id="@+id/rsiLayout"
+            visibility="2"
+            layout_width="-1"
+            android:layout_height="wrap_content"
+            layout_marginLeft="@dimen/dp24"
+            layout_marginRight="@dimen/dp24"
+            layout_marginBottom="44dp"
+            layout_marginHorizontal="@dimen/dp24"
+            layout="@layout/_2131562400_res_0x7f0d0fa0"/>
+    </o.C52701wVd>
+</androidx.constraintlayout.widget.ConstraintLayout>

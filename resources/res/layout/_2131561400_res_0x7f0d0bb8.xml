@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    tag="layout/layout_multi_sign_list_0"
+    paddingBottom="16dp"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <TextView
+        textAppearance="@style/TextAppearance.Medium"
+        textSize="14sp"
+        textColor="@color/ContentPrimary"
+        id="@+id/tv_title"
+        paddingLeft="24dp"
+        paddingRight="24dp"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        paddingHorizontal="24dp"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x11="0"/>
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/rv_input"
+        scrollbars="horizontal"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="12dp"
+        overScrollMode="2"
+        NOT_FOUND_0xe="androidx.recyclerview.widget.LinearLayoutManager"
+        NOT_FOUND_0x10="@+id/tv_title"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

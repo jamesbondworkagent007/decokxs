@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <TextView
+        textAppearance="@style/TextAppearance.Text.Bold.16SP"
+        textColor="@color/okTradeG900"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        text="@string/pr_fdcabot_placeorder_drawertitle_sync_mode"/>
+    <TextView
+        textAppearance="@style/TextAppearance.Text.14SP.Regular"
+        textColor="@color/okTradeG700"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/dp_8"
+        text="@string/pr_fdcabot_placeorder_tooltips_synchronous_mode"
+        lineSpacingExtra="2dp"/>
+    <TextView
+        textAppearance="@style/TextAppearance.Text.Bold.16SP"
+        textColor="@color/okTradeG900"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/ok_dp_16"
+        text="@string/pr_fdcabot_placeorder_drawertitle_async_mode"/>
+    <TextView
+        textAppearance="@style/TextAppearance.Text.14SP.Regular"
+        textColor="@color/okTradeG700"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/dp_8"
+        text="@string/pr_fdcabot_placeorder_tooltips_asynchronous_mode"
+        lineSpacingExtra="2dp"/>
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    paddingLeft="24dp"
+    paddingTop="16dp"
+    paddingRight="24dp"
+    paddingBottom="16dp"
+    layout_width="-1"
+    android:layout_height="match_parent"
+    paddingHorizontal="24dp"
+    paddingVertical="16dp">
+    <o.C52794wYp
+        id="@+id/btn_edit"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        text="@string/pr_swaptrade_copytrade_tab_btn_edit_strategy"
+        NOT_FOUND_0xc="52"
+        NOT_FOUND_0xd="0x101"/>
+    <o.C52794wYp
+        id="@+id/btn_stop"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        layout_marginTop="12dp"
+        text="@string/pr_swaptrade_copytrade_tab_btn_stop_strategy"
+        NOT_FOUND_0xc="52"
+        NOT_FOUND_0xd="0x104"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="0"
+    layout_width="-2"
+    android:layout_height="wrap_content">
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/mRecyclerViePop"
+        background="@drawable/_2131233989_res_0x7f080cc5"
+        paddingTop="16dp"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        paddingStart="16dp"
+        paddingEnd="16dp"/>
+    <View
+        id="@+id/space_view"
+        layout_width="54dp"
+        android:layout_height="match_parent"/>
+</LinearLayout>

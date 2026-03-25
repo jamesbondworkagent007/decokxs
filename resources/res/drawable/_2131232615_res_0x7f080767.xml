@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape shape="0">
+            <solid color="#33000000"/>
+        </shape>
+    </item>
+    <item
+        gravity="0x11"
+        height="20dp"
+        width="20dp"
+        drawable="@drawable/_2131232614_res_0x7f080766"
+        left="5dp"
+        top="5dp"
+        right="5dp"
+        bottom="5dp"/>
+</layer-list>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    tag="layout/activity_feedback_history_0"
+    background="@color/white_background_color"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <o.C33537myN
+        textAppearance="@style/TextAppearance.Title.18SP"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x8="@string/pr_supportcenter_bountyfeedbackhistory_header_history"
+        NOT_FOUND_0x9="true"/>
+    <com.google.android.material.tabs.TabLayout
+        id="@+id/tab"
+        style="@style/TabLayout.FeedbackHistory"/>
+    <View
+        background="@color/list_divider_color"
+        layout_width="-1"
+        android:layout_height="2px"/>
+    <o.C33542myS
+        id="@+id/viewpager"
+        layout_width="-1"
+        android:layout_height="match_parent"
+        overScrollMode="2"/>
+</LinearLayout>

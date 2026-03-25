@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="0"
+    id="@+id/input_lable"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <TextView
+        id="@+id/input_lable_text"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_weight="1"/>
+    <TextView
+        id="@+id/input_lable_cta"
+        layout_width="-2"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

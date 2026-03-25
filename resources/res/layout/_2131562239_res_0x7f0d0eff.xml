@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="1"
+    id="@+id/shimmer_container"
+    layout_width="-1"
+    android:layout_height="match_parent">
+    <include layout="@layout/_2131562238_res_0x7f0d0efe"/>
+    <include layout="@layout/_2131562238_res_0x7f0d0efe"/>
+    <include layout="@layout/_2131562238_res_0x7f0d0efe"/>
+</LinearLayout>

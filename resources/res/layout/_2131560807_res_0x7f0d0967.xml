@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="0x11"
+    orientation="1"
+    id="@+id/progress_stepper_container"
+    tag="layout/item_progress_stepper_0"
+    paddingTop="16dp"
+    paddingBottom="16dp"
+    layout_width="-2"
+    android:layout_height="wrap_content"
+    paddingVertical="16dp">
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/stepper_recycler_view"
+        scrollbars="horizontal"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        overScrollMode="2"/>
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    id="@+id/vip_section_root"
+    visibility="2"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <TextView
+        textColor="@color/vip_color"
+        gravity="0x10"
+        id="@+id/tv_section_title"
+        paddingLeft="@dimen/common_page_edge_space"
+        paddingTop="@dimen/sm"
+        paddingRight="@dimen/common_page_edge_space"
+        paddingBottom="@dimen/sm"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        text="@string/pr_message_vip_question_here_when_you_need_us"
+        drawablePadding="4dp"
+        paddingHorizontal="@dimen/common_page_edge_space"
+        paddingVertical="@dimen/sm"
+        NOT_FOUND_0x10="@drawable/_2131231658_res_0x7f0803aa"
+        NOT_FOUND_0x11="@color/ContentContrast"
+        style="@style/Label_1_Regular"/>
+    <TextView
+        textColor="@color/ContentTertiary"
+        id="@+id/tv_section_description"
+        paddingLeft="@dimen/common_page_edge_space"
+        paddingRight="@dimen/common_page_edge_space"
+        paddingBottom="@dimen/sm"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        paddingHorizontal="@dimen/common_page_edge_space"
+        style="@style/Body_3_Regular"/>
+    <View
+        background="@color/BorderPrimary"
+        layout_width="-1"
+        android:layout_height="@dimen/dp_0.5"/>
+</LinearLayout>

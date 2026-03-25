@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/btnSmartAccount"
+    background="@drawable/_2131231473_res_0x7f0802f1"
+    layout_width="-1"
+    android:layout_height="40dp"
+    layout_marginLeft="@dimen/margin_24dp"
+    layout_marginRight="@dimen/margin_24dp"
+    layout_marginBottom="@dimen/margin_12dp"
+    layout_marginHorizontal="@dimen/margin_24dp">
+    <androidx.appcompat.widget.AppCompatTextView
+        textAppearance="@style/Label_2_Regular"
+        textColor="@color/ContentTertiary"
+        ellipsize="3"
+        id="@+id/tvSmartAccount"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        text="@string/pr_wallet_account_tab_btn_manage_sa"
+        maxLines="1"
+        layout_marginStart="@dimen/margin_12dp"
+        NOT_FOUND_0x10="true"
+        NOT_FOUND_0x11="0"
+        NOT_FOUND_0x13="@+id/ivSmartAccount"
+        NOT_FOUND_0x14="0"
+        NOT_FOUND_0x15="0"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/ivSmartAccount"
+        layout_width="16dp"
+        android:layout_height="16dp"
+        src="@drawable/_2131233696_res_0x7f080ba0"
+        layout_marginEnd="@dimen/margin_12dp"
+        NOT_FOUND_0x11="0"
+        NOT_FOUND_0x12="0"
+        NOT_FOUND_0x15="0"
+        NOT_FOUND_0x16="@color/ContentTertiary"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

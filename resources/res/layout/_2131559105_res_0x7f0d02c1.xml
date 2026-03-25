@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    layout_marginTop="@dimen/xsm"
+    layout_marginBottom="@dimen/xsm"
+    layout_marginVertical="@dimen/xsm">
+    <ImageView
+        id="@+id/iv_label"
+        layout_width="@dimen/sm"
+        android:layout_height="@dimen/sm"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xf="0"/>
+    <TextView
+        textSize="14sp"
+        textColor="@color/ContentPrimary"
+        gravity="0x10"
+        id="@+id/tv_label_title"
+        layout_width="-2"
+        android:layout_height="wrap_content"
+        layout_marginStart="@dimen/xxsm"
+        NOT_FOUND_0xc="@+id/iv_label"
+        NOT_FOUND_0xf="0"
+        style="@style/Body_3"/>
+    <TextView
+        textColor="@color/ContentTertiary"
+        id="@+id/tv_label_subtitle"
+        layout_width="0dp"
+        android:layout_height="wrap_content"
+        layout_marginTop="@dimen/xxxxsm"
+        layout_marginStart="@dimen/xxsm"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="@+id/iv_label"
+        NOT_FOUND_0xe="@+id/tv_label_title"
+        style="@style/Body_3_Regular"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o.C54984xbQ xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    ellipsize="3"
+    id="@+id/selectItem"
+    tag="layout/trade_ui_item_chip_selection_0"
+    layout_width="-2"
+    android:layout_height="wrap_content"
+    maxLines="1"
+    NOT_FOUND_0x6="false"
+    NOT_FOUND_0x7="4"
+    NOT_FOUND_0x8="-5"/>

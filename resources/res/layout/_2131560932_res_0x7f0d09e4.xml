@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="1"
+    tag="layout/item_thinking_indicator_message_0"
+    layout_width="-1"
+    android:layout_height="wrap_content">
+    <o.C35955oJx
+        textColor="@color/ContentContrast"
+        paddingLeft="@dimen/xsm"
+        paddingTop="@dimen/xsm"
+        paddingRight="@dimen/xsm"
+        paddingBottom="@dimen/xsm"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        text="@string/pr_message_otc_loading_working_on_it"
+        paddingHorizontal="@dimen/xsm"
+        paddingVertical="@dimen/xsm"
+        NOT_FOUND_0xc="true"
+        NOT_FOUND_0xd="@color/SemanticHighlight"
+        NOT_FOUND_0xe="2500"
+        style="@style/Label_2_Regular"/>
+</LinearLayout>

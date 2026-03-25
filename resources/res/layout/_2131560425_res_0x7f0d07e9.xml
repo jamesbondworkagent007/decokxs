@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/footer_container"
+    tag="layout/item_cta_button_0"
+    layout_width="-1"
+    android:layout_height="wrap_content"
+    NOT_FOUND_0x5="0">
+    <o.C52794wYp
+        enabled="false"
+        id="@+id/cta_button"
+        layout_width="-1"
+        android:layout_height="wrap_content"
+        NOT_FOUND_0x5="0"
+        NOT_FOUND_0x6="0"
+        NOT_FOUND_0x7="0"
+        NOT_FOUND_0x8="0"
+        NOT_FOUND_0x9="52"
+        NOT_FOUND_0xa="0x101"
+        NOT_FOUND_0xb="-2"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
