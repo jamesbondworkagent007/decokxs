@@ -1,0 +1,35 @@
+package aws.sdk.kotlin.services.rekognition.serde;
+
+import kotlin.Unit;
+import kotlin.jvm.functions.Function2;
+import kotlin.jvm.internal.FunctionReferenceImpl;
+import kotlin.jvm.internal.Intrinsics;
+import o.C30157lO;
+import o.C9304bT;
+import o.InterfaceC5106Ey;
+import org.jetbrains.annotations.NotNull;
+
+/* JADX INFO: loaded from: classes21.dex */
+public final /* synthetic */ class CreateStreamProcessorOperationSerializerKt$serializeCreateStreamProcessorOperationBody$1$9$1 extends FunctionReferenceImpl implements Function2<InterfaceC5106Ey, C9304bT, Unit> {
+    public static final CreateStreamProcessorOperationSerializerKt$serializeCreateStreamProcessorOperationBody$1$9$1 INSTANCE = new CreateStreamProcessorOperationSerializerKt$serializeCreateStreamProcessorOperationBody$1$9$1();
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public CreateStreamProcessorOperationSerializerKt$serializeCreateStreamProcessorOperationBody$1$9$1() {
+        super(2, C30157lO.class, "serializeStreamProcessorSettingsDocument", "serializeStreamProcessorSettingsDocument(Laws/smithy/kotlin/runtime/serde/Serializer;Laws/sdk/kotlin/services/rekognition/model/StreamProcessorSettings;)V", 1);
+    }
+
+    /* JADX DEBUG: Method arguments types fixed to match base method, original types: [java.lang.Object, java.lang.Object] */
+    /* JADX DEBUG: Return type fixed from 'java.lang.Object' to match base method */
+    @Override // kotlin.jvm.functions.Function2
+    public /* bridge */ /* synthetic */ Unit invoke(InterfaceC5106Ey interfaceC5106Ey, C9304bT c9304bT) {
+        invoke2(interfaceC5106Ey, c9304bT);
+        return Unit.INSTANCE;
+    }
+
+    /* JADX INFO: renamed from: invoke, reason: avoid collision after fix types in other method */
+    public final void invoke2(@NotNull InterfaceC5106Ey interfaceC5106Ey, @NotNull C9304bT c9304bT) {
+        Intrinsics.checkNotNullParameter(interfaceC5106Ey, "");
+        Intrinsics.checkNotNullParameter(c9304bT, "");
+        C30157lO.copydefault(interfaceC5106Ey, c9304bT);
+    }
+}

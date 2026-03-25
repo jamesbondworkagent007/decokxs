@@ -1,0 +1,35 @@
+package aws.sdk.kotlin.services.cognitoidentityprovider.serde;
+
+import kotlin.Unit;
+import kotlin.jvm.functions.Function2;
+import kotlin.jvm.internal.FunctionReferenceImpl;
+import kotlin.jvm.internal.Intrinsics;
+import o.DevicePolicyManagerInternal;
+import o.HdmiPortInfo;
+import o.InterfaceC5106Ey;
+import org.jetbrains.annotations.NotNull;
+
+/* JADX INFO: loaded from: classes21.dex */
+public final /* synthetic */ class CreateUserPoolClientOperationSerializerKt$serializeCreateUserPoolClientOperationBody$1$20$1 extends FunctionReferenceImpl implements Function2<InterfaceC5106Ey, DevicePolicyManagerInternal, Unit> {
+    public static final CreateUserPoolClientOperationSerializerKt$serializeCreateUserPoolClientOperationBody$1$20$1 INSTANCE = new CreateUserPoolClientOperationSerializerKt$serializeCreateUserPoolClientOperationBody$1$20$1();
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public CreateUserPoolClientOperationSerializerKt$serializeCreateUserPoolClientOperationBody$1$20$1() {
+        super(2, HdmiPortInfo.class, "serializeTokenValidityUnitsTypeDocument", "serializeTokenValidityUnitsTypeDocument(Laws/smithy/kotlin/runtime/serde/Serializer;Laws/sdk/kotlin/services/cognitoidentityprovider/model/TokenValidityUnitsType;)V", 1);
+    }
+
+    /* JADX DEBUG: Method arguments types fixed to match base method, original types: [java.lang.Object, java.lang.Object] */
+    /* JADX DEBUG: Return type fixed from 'java.lang.Object' to match base method */
+    @Override // kotlin.jvm.functions.Function2
+    public /* bridge */ /* synthetic */ Unit invoke(InterfaceC5106Ey interfaceC5106Ey, DevicePolicyManagerInternal devicePolicyManagerInternal) {
+        invoke2(interfaceC5106Ey, devicePolicyManagerInternal);
+        return Unit.INSTANCE;
+    }
+
+    /* JADX INFO: renamed from: invoke, reason: avoid collision after fix types in other method */
+    public final void invoke2(@NotNull InterfaceC5106Ey interfaceC5106Ey, @NotNull DevicePolicyManagerInternal devicePolicyManagerInternal) {
+        Intrinsics.checkNotNullParameter(interfaceC5106Ey, "");
+        Intrinsics.checkNotNullParameter(devicePolicyManagerInternal, "");
+        HdmiPortInfo.copydefault(interfaceC5106Ey, devicePolicyManagerInternal);
+    }
+}
