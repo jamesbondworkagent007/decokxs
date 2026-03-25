@@ -1,0 +1,69 @@
+package com.welie.blessed;
+
+import com.ibm.icu.text.DateFormat;
+import org.spongycastle.crypto.tls.CipherSuite;
+
+/* JADX INFO: loaded from: classes17.dex */
+public enum GattStatus {
+    SUCCESS(0),
+    INVALID_HANDLE(1),
+    READ_NOT_PERMITTED(2),
+    WRITE_NOT_PERMITTED(3),
+    INVALID_PDU(4),
+    INSUFFICIENT_AUTHENTICATION(5),
+    REQUEST_NOT_SUPPORTED(6),
+    INVALID_OFFSET(7),
+    INSUFFICIENT_AUTHORIZATION(8),
+    PREPARE_QUEUE_FULL(9),
+    ATTRIBUTE_NOT_FOUND(10),
+    ATTRIBUTE_NOT_LONG(11),
+    INSUFFICIENT_ENCRYPTION_KEY_SIZE(12),
+    INVALID_ATTRIBUTE_VALUE_LENGTH(13),
+    UNLIKELY_ERROR(14),
+    INSUFFICIENT_ENCRYPTION(15),
+    UNSUPPORTED_GROUP_TYPE(16),
+    INSUFFICIENT_RESOURCES(17),
+    DATABASE_OUT_OF_SYNC(18),
+    VALUE_NOT_ALLOWED(19),
+    TOO_SHORT(127),
+    NO_RESOURCES(128),
+    INTERNAL_ERROR(129),
+    WRONG_STATE(130),
+    DB_FULL(DateFormat.RELATIVE_SHORT),
+    BUSY(CipherSuite.TLS_RSA_WITH_CAMELLIA_256_CBC_SHA),
+    ERROR(CipherSuite.TLS_DH_DSS_WITH_CAMELLIA_256_CBC_SHA),
+    CMD_STARTED(134),
+    ILLEGAL_PARAMETER(135),
+    PENDING(CipherSuite.TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA),
+    AUTHORIZATION_FAILED(CipherSuite.TLS_DH_anon_WITH_CAMELLIA_256_CBC_SHA),
+    MORE(138),
+    INVALID_CFG(CipherSuite.TLS_PSK_WITH_3DES_EDE_CBC_SHA),
+    SERVICE_STARTED(CipherSuite.TLS_PSK_WITH_AES_128_CBC_SHA),
+    ENCRYPTED_NO_MITM(CipherSuite.TLS_PSK_WITH_AES_256_CBC_SHA),
+    NOT_ENCRYPTED(CipherSuite.TLS_DHE_PSK_WITH_RC4_128_SHA),
+    CONNECTION_CONGESTED(CipherSuite.TLS_DHE_PSK_WITH_3DES_EDE_CBC_SHA),
+    DUPLICATE_REGISTRATION(CipherSuite.TLS_DHE_PSK_WITH_AES_128_CBC_SHA),
+    ALREADY_OPEN(CipherSuite.TLS_DHE_PSK_WITH_AES_256_CBC_SHA),
+    CANCEL(CipherSuite.TLS_RSA_PSK_WITH_RC4_128_SHA),
+    CCCD_CFG_ERROR(253),
+    PROCEDURE_IN_PROGRESS(254),
+    VALUE_OUT_OF_RANGE(255),
+    CONNECTION_CANCELLED(256),
+    FAILURE_REGISTERING_CLIENT(257),
+    UNKNOWN_STATUS_CODE(65535);
+
+    public final int value;
+
+    GattStatus(int i) {
+        this.value = i;
+    }
+
+    public static GattStatus fromValue(int i) {
+        for (GattStatus gattStatus : values()) {
+            if (gattStatus.value == i) {
+                return gattStatus;
+            }
+        }
+        return UNKNOWN_STATUS_CODE;
+    }
+}
