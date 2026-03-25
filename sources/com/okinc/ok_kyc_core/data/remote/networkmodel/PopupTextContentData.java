@@ -1,0 +1,259 @@
+package com.okinc.ok_kyc_core.data.remote.networkmodel;
+
+import android.os.Parcel;
+import android.os.Parcelable;
+import kotlin.jvm.internal.DefaultConstructorMarker;
+import kotlin.jvm.internal.Intrinsics;
+import kotlinx.serialization.KSerializer;
+import kotlinx.serialization.Serializable;
+import kotlinx.serialization.descriptors.SerialDescriptor;
+import kotlinx.serialization.encoding.CompositeEncoder;
+import kotlinx.serialization.internal.BooleanSerializer;
+import kotlinx.serialization.internal.SerializationConstructorMarker;
+import kotlinx.serialization.internal.StringSerializer;
+import org.jetbrains.annotations.NotNull;
+
+/* JADX INFO: loaded from: classes9.dex */
+@Serializable
+public final class PopupTextContentData implements Parcelable {
+    private ButtonDialogData dialog;
+    private final LinkTextStyle style;
+    private final String text;
+    private final Boolean underline;
+    public static final Companion Companion = new Companion(null);
+    public static final int $stable = 8;
+    public static final Parcelable.Creator<PopupTextContentData> CREATOR = new Creator();
+
+    public static final class Creator implements Parcelable.Creator<PopupTextContentData> {
+        /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+        /* JADX DEBUG: Method merged with bridge method: createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object; */
+        /* JADX WARN: Can't rename method to resolve collision */
+        @Override // android.os.Parcelable.Creator
+        public final PopupTextContentData createFromParcel(Parcel parcel) {
+            Boolean boolValueOf;
+            Intrinsics.checkNotNullParameter(parcel, "");
+            String string = parcel.readString();
+            LinkTextStyle linkTextStyleCreateFromParcel = parcel.readInt() == 0 ? null : LinkTextStyle.CREATOR.createFromParcel(parcel);
+            if (parcel.readInt() == 0) {
+                boolValueOf = null;
+            } else {
+                boolValueOf = Boolean.valueOf(parcel.readInt() != 0);
+            }
+            return new PopupTextContentData(string, linkTextStyleCreateFromParcel, boolValueOf, parcel.readInt() != 0 ? ButtonDialogData.CREATOR.createFromParcel(parcel) : null);
+        }
+
+        /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+        /* JADX DEBUG: Method merged with bridge method: newArray(I)[Ljava/lang/Object; */
+        /* JADX WARN: Can't rename method to resolve collision */
+        @Override // android.os.Parcelable.Creator
+        public final PopupTextContentData[] newArray(int i) {
+            return new PopupTextContentData[i];
+        }
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public PopupTextContentData() {
+        this((String) null, (LinkTextStyle) null, (Boolean) null, (ButtonDialogData) null, 15, (DefaultConstructorMarker) null);
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public static /* synthetic */ PopupTextContentData copy$default(PopupTextContentData popupTextContentData, String str, LinkTextStyle linkTextStyle, Boolean bool, ButtonDialogData buttonDialogData, int i, Object obj) {
+        if ((i & 1) != 0) {
+            str = popupTextContentData.text;
+        }
+        if ((i & 2) != 0) {
+            linkTextStyle = popupTextContentData.style;
+        }
+        if ((i & 4) != 0) {
+            bool = popupTextContentData.underline;
+        }
+        if ((i & 8) != 0) {
+            buttonDialogData = popupTextContentData.dialog;
+        }
+        return popupTextContentData.copy(str, linkTextStyle, bool, buttonDialogData);
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final String component1() {
+        return this.text;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final LinkTextStyle component2() {
+        return this.style;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final Boolean component3() {
+        return this.underline;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final ButtonDialogData component4() {
+        return this.dialog;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final PopupTextContentData copy(String str, LinkTextStyle linkTextStyle, Boolean bool, ButtonDialogData buttonDialogData) {
+        return new PopupTextContentData(str, linkTextStyle, bool, buttonDialogData);
+    }
+
+    @Override // android.os.Parcelable
+    public final int describeContents() {
+        return 0;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (!(obj instanceof PopupTextContentData)) {
+            return false;
+        }
+        PopupTextContentData popupTextContentData = (PopupTextContentData) obj;
+        return Intrinsics.EZpvd((Object) this.text, (Object) popupTextContentData.text) && Intrinsics.EZpvd(this.style, popupTextContentData.style) && Intrinsics.EZpvd(this.underline, popupTextContentData.underline) && Intrinsics.EZpvd(this.dialog, popupTextContentData.dialog);
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final ButtonDialogData getDialog() {
+        return this.dialog;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final LinkTextStyle getStyle() {
+        return this.style;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final String getText() {
+        return this.text;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final Boolean getUnderline() {
+        return this.underline;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public int hashCode() {
+        String str = this.text;
+        int iHashCode = str == null ? 0 : str.hashCode();
+        LinkTextStyle linkTextStyle = this.style;
+        int iHashCode2 = linkTextStyle == null ? 0 : linkTextStyle.hashCode();
+        Boolean bool = this.underline;
+        int iHashCode3 = bool == null ? 0 : bool.hashCode();
+        ButtonDialogData buttonDialogData = this.dialog;
+        return (((((iHashCode * 31) + iHashCode2) * 31) + iHashCode3) * 31) + (buttonDialogData != null ? buttonDialogData.hashCode() : 0);
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final void setDialog(ButtonDialogData buttonDialogData) {
+        this.dialog = buttonDialogData;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public String toString() {
+        return "PopupTextContentData(text=" + this.text + ", style=" + this.style + ", underline=" + this.underline + ", dialog=" + this.dialog + ")";
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    @Override // android.os.Parcelable
+    public final void writeToParcel(@NotNull Parcel parcel, int i) {
+        Intrinsics.checkNotNullParameter(parcel, "");
+        parcel.writeString(this.text);
+        LinkTextStyle linkTextStyle = this.style;
+        if (linkTextStyle == null) {
+            parcel.writeInt(0);
+        } else {
+            parcel.writeInt(1);
+            linkTextStyle.writeToParcel(parcel, i);
+        }
+        Boolean bool = this.underline;
+        if (bool == null) {
+            parcel.writeInt(0);
+        } else {
+            parcel.writeInt(1);
+            parcel.writeInt(bool.booleanValue() ? 1 : 0);
+        }
+        ButtonDialogData buttonDialogData = this.dialog;
+        if (buttonDialogData == null) {
+            parcel.writeInt(0);
+        } else {
+            parcel.writeInt(1);
+            buttonDialogData.writeToParcel(parcel, i);
+        }
+    }
+
+    public static final class Companion {
+        /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+        private Companion() {
+        }
+
+        /* JADX DEBUG: Can't inline method, not implemented redirect type for insn: 0x0000: CONSTRUCTOR  A[MD:():void (m)] call: com.okinc.ok_kyc_core.data.remote.networkmodel.PopupTextContentData.Companion.<init>():void type: THIS */
+        /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+        public /* synthetic */ Companion(DefaultConstructorMarker defaultConstructorMarker) {
+            this();
+        }
+
+        public final KSerializer<PopupTextContentData> serializer() {
+            return PopupTextContentData$$serializer.INSTANCE;
+        }
+    }
+
+    public /* synthetic */ PopupTextContentData(int i, String str, LinkTextStyle linkTextStyle, Boolean bool, ButtonDialogData buttonDialogData, SerializationConstructorMarker serializationConstructorMarker) {
+        if ((i & 1) == 0) {
+            this.text = null;
+        } else {
+            this.text = str;
+        }
+        if ((i & 2) == 0) {
+            this.style = null;
+        } else {
+            this.style = linkTextStyle;
+        }
+        if ((i & 4) == 0) {
+            this.underline = Boolean.TRUE;
+        } else {
+            this.underline = bool;
+        }
+        if ((i & 8) == 0) {
+            this.dialog = null;
+        } else {
+            this.dialog = buttonDialogData;
+        }
+    }
+
+    public static final /* synthetic */ void write$Self$OKCompliance_ok_compliance_impl(PopupTextContentData popupTextContentData, CompositeEncoder compositeEncoder, SerialDescriptor serialDescriptor) {
+        if (compositeEncoder.shouldEncodeElementDefault(serialDescriptor, 0) || popupTextContentData.text != null) {
+            compositeEncoder.encodeNullableSerializableElement(serialDescriptor, 0, StringSerializer.INSTANCE, popupTextContentData.text);
+        }
+        if (compositeEncoder.shouldEncodeElementDefault(serialDescriptor, 1) || popupTextContentData.style != null) {
+            compositeEncoder.encodeNullableSerializableElement(serialDescriptor, 1, LinkTextStyle$$serializer.INSTANCE, popupTextContentData.style);
+        }
+        if (compositeEncoder.shouldEncodeElementDefault(serialDescriptor, 2) || !Intrinsics.EZpvd(popupTextContentData.underline, Boolean.TRUE)) {
+            compositeEncoder.encodeNullableSerializableElement(serialDescriptor, 2, BooleanSerializer.INSTANCE, popupTextContentData.underline);
+        }
+        if (!compositeEncoder.shouldEncodeElementDefault(serialDescriptor, 3) && popupTextContentData.dialog == null) {
+            return;
+        }
+        compositeEncoder.encodeNullableSerializableElement(serialDescriptor, 3, ButtonDialogData$$serializer.INSTANCE, popupTextContentData.dialog);
+    }
+
+    public PopupTextContentData(String str, LinkTextStyle linkTextStyle, Boolean bool, ButtonDialogData buttonDialogData) {
+        this.text = str;
+        this.style = linkTextStyle;
+        this.underline = bool;
+        this.dialog = buttonDialogData;
+    }
+
+    /* JADX DEBUG: Can't inline method, not implemented redirect type for insn: 0x0016: CONSTRUCTOR 
+  (wrap:java.lang.String:?: TERNARY null = ((wrap:int:0x0000: ARITH (r6v0 int) & (1 int) A[WRAPPED]) != (0 int)) ? (null java.lang.String) : (r2v0 java.lang.String))
+  (wrap:com.okinc.ok_kyc_core.data.remote.networkmodel.LinkTextStyle:?: TERNARY null = ((wrap:int:0x0006: ARITH (r6v0 int) & (2 int) A[WRAPPED]) != (0 int)) ? (null com.okinc.ok_kyc_core.data.remote.networkmodel.LinkTextStyle) : (r3v0 com.okinc.ok_kyc_core.data.remote.networkmodel.LinkTextStyle))
+  (wrap:java.lang.Boolean:?: TERNARY null = ((wrap:int:0x000b: ARITH (r6v0 int) & (4 int) A[WRAPPED]) != (0 int)) ? (wrap:java.lang.Boolean:0x000f: SGET  A[WRAPPED] java.lang.Boolean.TRUE java.lang.Boolean) : (r4v0 java.lang.Boolean))
+  (wrap:com.okinc.ok_kyc_core.data.remote.networkmodel.ButtonDialogData:?: TERNARY null = ((wrap:int:0x0011: ARITH (r6v0 int) & (8 int) A[WRAPPED]) != (0 int)) ? (null com.okinc.ok_kyc_core.data.remote.networkmodel.ButtonDialogData) : (r5v0 com.okinc.ok_kyc_core.data.remote.networkmodel.ButtonDialogData))
+ A[MD:(java.lang.String, com.okinc.ok_kyc_core.data.remote.networkmodel.LinkTextStyle, java.lang.Boolean, com.okinc.ok_kyc_core.data.remote.networkmodel.ButtonDialogData):void (m)] (LINE:1966) call: com.okinc.ok_kyc_core.data.remote.networkmodel.PopupTextContentData.<init>(java.lang.String, com.okinc.ok_kyc_core.data.remote.networkmodel.LinkTextStyle, java.lang.Boolean, com.okinc.ok_kyc_core.data.remote.networkmodel.ButtonDialogData):void type: THIS */
+    public /* synthetic */ PopupTextContentData(String str, LinkTextStyle linkTextStyle, Boolean bool, ButtonDialogData buttonDialogData, int i, DefaultConstructorMarker defaultConstructorMarker) {
+        this((i & 1) != 0 ? null : str, (i & 2) != 0 ? null : linkTextStyle, (i & 4) != 0 ? Boolean.TRUE : bool, (i & 8) != 0 ? null : buttonDialogData);
+    }
+}

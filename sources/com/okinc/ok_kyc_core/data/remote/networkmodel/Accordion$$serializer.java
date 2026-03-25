@@ -1,0 +1,561 @@
+package com.okinc.ok_kyc_core.data.remote.networkmodel;
+
+import java.util.List;
+import kotlin.jvm.internal.Intrinsics;
+import kotlinx.serialization.KSerializer;
+import kotlinx.serialization.UnknownFieldException;
+import kotlinx.serialization.builtins.BuiltinSerializersKt;
+import kotlinx.serialization.descriptors.SerialDescriptor;
+import kotlinx.serialization.encoding.CompositeDecoder;
+import kotlinx.serialization.encoding.CompositeEncoder;
+import kotlinx.serialization.encoding.Decoder;
+import kotlinx.serialization.encoding.Encoder;
+import kotlinx.serialization.internal.BooleanSerializer;
+import kotlinx.serialization.internal.FloatSerializer;
+import kotlinx.serialization.internal.GeneratedSerializer;
+import kotlinx.serialization.internal.PluginGeneratedSerialDescriptor;
+import kotlinx.serialization.internal.SerializationConstructorMarker;
+import kotlinx.serialization.internal.StringSerializer;
+import org.jetbrains.annotations.NotNull;
+
+/* JADX INFO: loaded from: classes9.dex */
+public final /* synthetic */ class Accordion$$serializer implements GeneratedSerializer<Accordion> {
+    public static final int $stable;
+    public static final Accordion$$serializer INSTANCE;
+    private static final SerialDescriptor descriptor;
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    private Accordion$$serializer() {
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    @Override // kotlinx.serialization.KSerializer, kotlinx.serialization.SerializationStrategy, kotlinx.serialization.DeserializationStrategy
+    public final SerialDescriptor getDescriptor() {
+        return descriptor;
+    }
+
+    static {
+        Accordion$$serializer accordion$$serializer = new Accordion$$serializer();
+        INSTANCE = accordion$$serializer;
+        $stable = 8;
+        PluginGeneratedSerialDescriptor pluginGeneratedSerialDescriptor = new PluginGeneratedSerialDescriptor("accordion", accordion$$serializer, 14);
+        pluginGeneratedSerialDescriptor.addElement("sectionTitle", false);
+        pluginGeneratedSerialDescriptor.addElement("contentList", true);
+        pluginGeneratedSerialDescriptor.addElement("sectionTitleStyle", false);
+        pluginGeneratedSerialDescriptor.addElement("contentListStyle", false);
+        pluginGeneratedSerialDescriptor.addElement("isCollapsed", true);
+        pluginGeneratedSerialDescriptor.addElement("backgroundStyle", true);
+        pluginGeneratedSerialDescriptor.addElement("contentListType", false);
+        pluginGeneratedSerialDescriptor.addElement("id", true);
+        pluginGeneratedSerialDescriptor.addElement("required", true);
+        pluginGeneratedSerialDescriptor.addElement("version", false);
+        pluginGeneratedSerialDescriptor.addElement("value", false);
+        pluginGeneratedSerialDescriptor.addElement("isHidden", true);
+        pluginGeneratedSerialDescriptor.addElement("bottomMargin", false);
+        pluginGeneratedSerialDescriptor.addElement("leftMargin", false);
+        descriptor = pluginGeneratedSerialDescriptor;
+    }
+
+    /* JADX DEBUG: Class process forced to load method for inline: com.okinc.ok_kyc_core.data.remote.networkmodel.Accordion.access$get$childSerializers$cp():kotlinx.serialization.KSerializer[] */
+    @Override // kotlinx.serialization.internal.GeneratedSerializer
+    public final KSerializer<?>[] childSerializers() {
+        KSerializer[] kSerializerArr = Accordion.$childSerializers;
+        StringSerializer stringSerializer = StringSerializer.INSTANCE;
+        KSerializer nullable = BuiltinSerializersKt.getNullable(stringSerializer);
+        KSerializer kSerializer = kSerializerArr[1];
+        TextStyleData$$serializer textStyleData$$serializer = TextStyleData$$serializer.INSTANCE;
+        KSerializer nullable2 = BuiltinSerializersKt.getNullable(textStyleData$$serializer);
+        KSerializer nullable3 = BuiltinSerializersKt.getNullable(textStyleData$$serializer);
+        BooleanSerializer booleanSerializer = BooleanSerializer.INSTANCE;
+        KSerializer nullable4 = BuiltinSerializersKt.getNullable(booleanSerializer);
+        KSerializer nullable5 = BuiltinSerializersKt.getNullable(stringSerializer);
+        KSerializer nullable6 = BuiltinSerializersKt.getNullable(stringSerializer);
+        KSerializer nullable7 = BuiltinSerializersKt.getNullable(stringSerializer);
+        KSerializer nullable8 = BuiltinSerializersKt.getNullable(booleanSerializer);
+        KSerializer nullable9 = BuiltinSerializersKt.getNullable(stringSerializer);
+        KSerializer nullable10 = BuiltinSerializersKt.getNullable(stringSerializer);
+        KSerializer nullable11 = BuiltinSerializersKt.getNullable(booleanSerializer);
+        FloatSerializer floatSerializer = FloatSerializer.INSTANCE;
+        return new KSerializer[]{nullable, kSerializer, nullable2, nullable3, nullable4, nullable5, nullable6, nullable7, nullable8, nullable9, nullable10, nullable11, BuiltinSerializersKt.getNullable(floatSerializer), BuiltinSerializersKt.getNullable(floatSerializer)};
+    }
+
+    /* JADX DEBUG: Method merged with bridge method: deserialize(Lkotlinx/serialization/encoding/Decoder;)Ljava/lang/Object; */
+    @Override // kotlinx.serialization.DeserializationStrategy
+    public final Accordion deserialize(@NotNull Decoder decoder) {
+        TextStyleData textStyleData;
+        String str;
+        Boolean bool;
+        Boolean bool2;
+        String str2;
+        Float f;
+        String str3;
+        Boolean bool3;
+        String str4;
+        String str5;
+        List list;
+        TextStyleData textStyleData2;
+        String str6;
+        Float f2;
+        int i;
+        KSerializer[] kSerializerArr;
+        String str7;
+        TextStyleData textStyleData3;
+        String str8;
+        String str9;
+        Boolean bool4;
+        String str10;
+        List list2;
+        KSerializer[] kSerializerArr2;
+        String str11;
+        TextStyleData textStyleData4;
+        String str12;
+        String str13;
+        Boolean bool5;
+        List list3;
+        String str14;
+        String str15;
+        String str16;
+        Intrinsics.checkNotNullParameter(decoder, "");
+        SerialDescriptor serialDescriptor = descriptor;
+        CompositeDecoder compositeDecoderBeginStructure = decoder.beginStructure(serialDescriptor);
+        KSerializer[] kSerializerArr3 = Accordion.$childSerializers;
+        int i2 = 10;
+        int i3 = 9;
+        String str17 = null;
+        if (compositeDecoderBeginStructure.decodeSequentially()) {
+            StringSerializer stringSerializer = StringSerializer.INSTANCE;
+            String str18 = (String) compositeDecoderBeginStructure.decodeNullableSerializableElement(serialDescriptor, 0, stringSerializer, null);
+            List list4 = (List) compositeDecoderBeginStructure.decodeSerializableElement(serialDescriptor, 1, kSerializerArr3[1], null);
+            TextStyleData$$serializer textStyleData$$serializer = TextStyleData$$serializer.INSTANCE;
+            TextStyleData textStyleData5 = (TextStyleData) compositeDecoderBeginStructure.decodeNullableSerializableElement(serialDescriptor, 2, textStyleData$$serializer, null);
+            TextStyleData textStyleData6 = (TextStyleData) compositeDecoderBeginStructure.decodeNullableSerializableElement(serialDescriptor, 3, textStyleData$$serializer, null);
+            BooleanSerializer booleanSerializer = BooleanSerializer.INSTANCE;
+            Boolean bool6 = (Boolean) compositeDecoderBeginStructure.decodeNullableSerializableElement(serialDescriptor, 4, booleanSerializer, null);
+            String str19 = (String) compositeDecoderBeginStructure.decodeNullableSerializableElement(serialDescriptor, 5, stringSerializer, null);
+            String str20 = (String) compositeDecoderBeginStructure.decodeNullableSerializableElement(serialDescriptor, 6, stringSerializer, null);
+            String str21 = (String) compositeDecoderBeginStructure.decodeNullableSerializableElement(serialDescriptor, 7, stringSerializer, null);
+            Boolean bool7 = (Boolean) compositeDecoderBeginStructure.decodeNullableSerializableElement(serialDescriptor, 8, booleanSerializer, null);
+            String str22 = (String) compositeDecoderBeginStructure.decodeNullableSerializableElement(serialDescriptor, 9, stringSerializer, null);
+            String str23 = (String) compositeDecoderBeginStructure.decodeNullableSerializableElement(serialDescriptor, 10, stringSerializer, null);
+            Boolean bool8 = (Boolean) compositeDecoderBeginStructure.decodeNullableSerializableElement(serialDescriptor, 11, booleanSerializer, null);
+            FloatSerializer floatSerializer = FloatSerializer.INSTANCE;
+            list = list4;
+            str3 = str18;
+            f = (Float) compositeDecoderBeginStructure.decodeNullableSerializableElement(serialDescriptor, 12, floatSerializer, null);
+            str2 = str23;
+            f2 = (Float) compositeDecoderBeginStructure.decodeNullableSerializableElement(serialDescriptor, 13, floatSerializer, null);
+            textStyleData2 = textStyleData6;
+            bool3 = bool8;
+            str = str22;
+            str4 = str21;
+            str6 = str20;
+            str5 = str19;
+            bool2 = bool7;
+            bool = bool6;
+            textStyleData = textStyleData5;
+            i = 16383;
+        } else {
+            int i4 = 13;
+            int i5 = 0;
+            boolean z = true;
+            String str24 = null;
+            TextStyleData textStyleData7 = null;
+            Boolean bool9 = null;
+            String str25 = null;
+            Float f3 = null;
+            Boolean bool10 = null;
+            Float f4 = null;
+            TextStyleData textStyleData8 = null;
+            String str26 = null;
+            String str27 = null;
+            Boolean bool11 = null;
+            List list5 = null;
+            String str28 = null;
+            while (z) {
+                int iDecodeElementIndex = compositeDecoderBeginStructure.decodeElementIndex(serialDescriptor);
+                switch (iDecodeElementIndex) {
+                    case -1:
+                        kSerializerArr = kSerializerArr3;
+                        str7 = str24;
+                        textStyleData3 = textStyleData8;
+                        str8 = str26;
+                        str9 = str27;
+                        bool4 = bool11;
+                        str10 = str28;
+                        list2 = list5;
+                        z = false;
+                        str27 = str9;
+                        bool11 = bool4;
+                        kSerializerArr3 = kSerializerArr;
+                        str26 = str8;
+                        list5 = list2;
+                        i4 = 13;
+                        i2 = 10;
+                        i3 = 9;
+                        textStyleData8 = textStyleData3;
+                        str28 = str10;
+                        str24 = str7;
+                        break;
+                    case 0:
+                        kSerializerArr2 = kSerializerArr3;
+                        str11 = str24;
+                        textStyleData4 = textStyleData8;
+                        str12 = str26;
+                        str13 = str27;
+                        bool5 = bool11;
+                        String str29 = str28;
+                        list3 = list5;
+                        str14 = (String) compositeDecoderBeginStructure.decodeNullableSerializableElement(serialDescriptor, 0, StringSerializer.INSTANCE, str29);
+                        i5 |= 1;
+                        str15 = str14;
+                        str16 = str12;
+                        textStyleData8 = textStyleData4;
+                        str26 = str16;
+                        str27 = str13;
+                        bool11 = bool5;
+                        kSerializerArr3 = kSerializerArr2;
+                        str24 = str11;
+                        list5 = list3;
+                        i4 = 13;
+                        i2 = 10;
+                        i3 = 9;
+                        str28 = str15;
+                        break;
+                    case 1:
+                        str11 = str24;
+                        textStyleData4 = textStyleData8;
+                        str12 = str26;
+                        str13 = str27;
+                        bool5 = bool11;
+                        kSerializerArr2 = kSerializerArr3;
+                        i5 |= 2;
+                        str14 = str28;
+                        list3 = (List) compositeDecoderBeginStructure.decodeSerializableElement(serialDescriptor, 1, kSerializerArr3[1], list5);
+                        str15 = str14;
+                        str16 = str12;
+                        textStyleData8 = textStyleData4;
+                        str26 = str16;
+                        str27 = str13;
+                        bool11 = bool5;
+                        kSerializerArr3 = kSerializerArr2;
+                        str24 = str11;
+                        list5 = list3;
+                        i4 = 13;
+                        i2 = 10;
+                        i3 = 9;
+                        str28 = str15;
+                        break;
+                    case 2:
+                        str7 = str24;
+                        str9 = str27;
+                        bool4 = bool11;
+                        TextStyleData textStyleData9 = textStyleData8;
+                        str8 = str26;
+                        textStyleData3 = (TextStyleData) compositeDecoderBeginStructure.decodeNullableSerializableElement(serialDescriptor, 2, TextStyleData$$serializer.INSTANCE, textStyleData9);
+                        i5 |= 4;
+                        kSerializerArr = kSerializerArr3;
+                        str10 = str28;
+                        list2 = list5;
+                        str27 = str9;
+                        bool11 = bool4;
+                        kSerializerArr3 = kSerializerArr;
+                        str26 = str8;
+                        list5 = list2;
+                        i4 = 13;
+                        i2 = 10;
+                        i3 = 9;
+                        textStyleData8 = textStyleData3;
+                        str28 = str10;
+                        str24 = str7;
+                        break;
+                    case 3:
+                        str11 = str24;
+                        str16 = str26;
+                        str13 = str27;
+                        bool5 = bool11;
+                        textStyleData7 = (TextStyleData) compositeDecoderBeginStructure.decodeNullableSerializableElement(serialDescriptor, 3, TextStyleData$$serializer.INSTANCE, textStyleData7);
+                        i5 |= 8;
+                        kSerializerArr2 = kSerializerArr3;
+                        textStyleData4 = textStyleData8;
+                        str15 = str28;
+                        list3 = list5;
+                        textStyleData8 = textStyleData4;
+                        str26 = str16;
+                        str27 = str13;
+                        bool11 = bool5;
+                        kSerializerArr3 = kSerializerArr2;
+                        str24 = str11;
+                        list5 = list3;
+                        i4 = 13;
+                        i2 = 10;
+                        i3 = 9;
+                        str28 = str15;
+                        break;
+                    case 4:
+                        str16 = str26;
+                        str13 = str27;
+                        str11 = str24;
+                        bool5 = (Boolean) compositeDecoderBeginStructure.decodeNullableSerializableElement(serialDescriptor, 4, BooleanSerializer.INSTANCE, bool11);
+                        i5 |= 16;
+                        kSerializerArr2 = kSerializerArr3;
+                        textStyleData4 = textStyleData8;
+                        str15 = str28;
+                        list3 = list5;
+                        textStyleData8 = textStyleData4;
+                        str26 = str16;
+                        str27 = str13;
+                        bool11 = bool5;
+                        kSerializerArr3 = kSerializerArr2;
+                        str24 = str11;
+                        list5 = list3;
+                        i4 = 13;
+                        i2 = 10;
+                        i3 = 9;
+                        str28 = str15;
+                        break;
+                    case 5:
+                        str16 = str26;
+                        str13 = str27;
+                        str24 = (String) compositeDecoderBeginStructure.decodeNullableSerializableElement(serialDescriptor, 5, StringSerializer.INSTANCE, str24);
+                        i5 |= 32;
+                        kSerializerArr2 = kSerializerArr3;
+                        str11 = str24;
+                        textStyleData4 = textStyleData8;
+                        bool5 = bool11;
+                        str15 = str28;
+                        list3 = list5;
+                        textStyleData8 = textStyleData4;
+                        str26 = str16;
+                        str27 = str13;
+                        bool11 = bool5;
+                        kSerializerArr3 = kSerializerArr2;
+                        str24 = str11;
+                        list5 = list3;
+                        i4 = 13;
+                        i2 = 10;
+                        i3 = 9;
+                        str28 = str15;
+                        break;
+                    case 6:
+                        str16 = str26;
+                        str13 = (String) compositeDecoderBeginStructure.decodeNullableSerializableElement(serialDescriptor, 6, StringSerializer.INSTANCE, str27);
+                        i5 |= 64;
+                        kSerializerArr2 = kSerializerArr3;
+                        str11 = str24;
+                        textStyleData4 = textStyleData8;
+                        bool5 = bool11;
+                        str15 = str28;
+                        list3 = list5;
+                        textStyleData8 = textStyleData4;
+                        str26 = str16;
+                        str27 = str13;
+                        bool11 = bool5;
+                        kSerializerArr3 = kSerializerArr2;
+                        str24 = str11;
+                        list5 = list3;
+                        i4 = 13;
+                        i2 = 10;
+                        i3 = 9;
+                        str28 = str15;
+                        break;
+                    case 7:
+                        str16 = (String) compositeDecoderBeginStructure.decodeNullableSerializableElement(serialDescriptor, 7, StringSerializer.INSTANCE, str26);
+                        i5 |= 128;
+                        kSerializerArr2 = kSerializerArr3;
+                        str11 = str24;
+                        textStyleData4 = textStyleData8;
+                        str13 = str27;
+                        bool5 = bool11;
+                        str15 = str28;
+                        list3 = list5;
+                        textStyleData8 = textStyleData4;
+                        str26 = str16;
+                        str27 = str13;
+                        bool11 = bool5;
+                        kSerializerArr3 = kSerializerArr2;
+                        str24 = str11;
+                        list5 = list3;
+                        i4 = 13;
+                        i2 = 10;
+                        i3 = 9;
+                        str28 = str15;
+                        break;
+                    case 8:
+                        bool9 = (Boolean) compositeDecoderBeginStructure.decodeNullableSerializableElement(serialDescriptor, 8, BooleanSerializer.INSTANCE, bool9);
+                        i5 |= 256;
+                        kSerializerArr2 = kSerializerArr3;
+                        str11 = str24;
+                        textStyleData4 = textStyleData8;
+                        str16 = str26;
+                        str13 = str27;
+                        bool5 = bool11;
+                        str15 = str28;
+                        list3 = list5;
+                        textStyleData8 = textStyleData4;
+                        str26 = str16;
+                        str27 = str13;
+                        bool11 = bool5;
+                        kSerializerArr3 = kSerializerArr2;
+                        str24 = str11;
+                        list5 = list3;
+                        i4 = 13;
+                        i2 = 10;
+                        i3 = 9;
+                        str28 = str15;
+                        break;
+                    case 9:
+                        str17 = (String) compositeDecoderBeginStructure.decodeNullableSerializableElement(serialDescriptor, i3, StringSerializer.INSTANCE, str17);
+                        i5 |= 512;
+                        kSerializerArr2 = kSerializerArr3;
+                        str11 = str24;
+                        textStyleData4 = textStyleData8;
+                        str16 = str26;
+                        str13 = str27;
+                        bool5 = bool11;
+                        str15 = str28;
+                        list3 = list5;
+                        textStyleData8 = textStyleData4;
+                        str26 = str16;
+                        str27 = str13;
+                        bool11 = bool5;
+                        kSerializerArr3 = kSerializerArr2;
+                        str24 = str11;
+                        list5 = list3;
+                        i4 = 13;
+                        i2 = 10;
+                        i3 = 9;
+                        str28 = str15;
+                        break;
+                    case 10:
+                        str25 = (String) compositeDecoderBeginStructure.decodeNullableSerializableElement(serialDescriptor, i2, StringSerializer.INSTANCE, str25);
+                        i5 |= 1024;
+                        kSerializerArr2 = kSerializerArr3;
+                        str11 = str24;
+                        textStyleData4 = textStyleData8;
+                        str16 = str26;
+                        str13 = str27;
+                        bool5 = bool11;
+                        str15 = str28;
+                        list3 = list5;
+                        textStyleData8 = textStyleData4;
+                        str26 = str16;
+                        str27 = str13;
+                        bool11 = bool5;
+                        kSerializerArr3 = kSerializerArr2;
+                        str24 = str11;
+                        list5 = list3;
+                        i4 = 13;
+                        i2 = 10;
+                        i3 = 9;
+                        str28 = str15;
+                        break;
+                    case 11:
+                        i5 |= 2048;
+                        kSerializerArr2 = kSerializerArr3;
+                        str11 = str24;
+                        bool10 = (Boolean) compositeDecoderBeginStructure.decodeNullableSerializableElement(serialDescriptor, 11, BooleanSerializer.INSTANCE, bool10);
+                        textStyleData4 = textStyleData8;
+                        str16 = str26;
+                        str13 = str27;
+                        bool5 = bool11;
+                        str15 = str28;
+                        list3 = list5;
+                        textStyleData8 = textStyleData4;
+                        str26 = str16;
+                        str27 = str13;
+                        bool11 = bool5;
+                        kSerializerArr3 = kSerializerArr2;
+                        str24 = str11;
+                        list5 = list3;
+                        i4 = 13;
+                        i2 = 10;
+                        i3 = 9;
+                        str28 = str15;
+                        break;
+                    case 12:
+                        f3 = (Float) compositeDecoderBeginStructure.decodeNullableSerializableElement(serialDescriptor, 12, FloatSerializer.INSTANCE, f3);
+                        i5 |= 4096;
+                        kSerializerArr2 = kSerializerArr3;
+                        str11 = str24;
+                        textStyleData4 = textStyleData8;
+                        str16 = str26;
+                        str13 = str27;
+                        bool5 = bool11;
+                        str15 = str28;
+                        list3 = list5;
+                        textStyleData8 = textStyleData4;
+                        str26 = str16;
+                        str27 = str13;
+                        bool11 = bool5;
+                        kSerializerArr3 = kSerializerArr2;
+                        str24 = str11;
+                        list5 = list3;
+                        i4 = 13;
+                        i2 = 10;
+                        i3 = 9;
+                        str28 = str15;
+                        break;
+                    case 13:
+                        i5 |= 8192;
+                        kSerializerArr2 = kSerializerArr3;
+                        str11 = str24;
+                        f4 = (Float) compositeDecoderBeginStructure.decodeNullableSerializableElement(serialDescriptor, i4, FloatSerializer.INSTANCE, f4);
+                        textStyleData4 = textStyleData8;
+                        str16 = str26;
+                        str13 = str27;
+                        bool5 = bool11;
+                        str15 = str28;
+                        list3 = list5;
+                        textStyleData8 = textStyleData4;
+                        str26 = str16;
+                        str27 = str13;
+                        bool11 = bool5;
+                        kSerializerArr3 = kSerializerArr2;
+                        str24 = str11;
+                        list5 = list3;
+                        i4 = 13;
+                        i2 = 10;
+                        i3 = 9;
+                        str28 = str15;
+                        break;
+                    default:
+                        throw new UnknownFieldException(iDecodeElementIndex);
+                }
+            }
+            String str30 = str24;
+            TextStyleData textStyleData10 = textStyleData8;
+            String str31 = str26;
+            String str32 = str27;
+            String str33 = str28;
+            List list6 = list5;
+            textStyleData = textStyleData10;
+            str = str17;
+            bool = bool11;
+            bool2 = bool9;
+            str2 = str25;
+            f = f3;
+            str3 = str33;
+            bool3 = bool10;
+            str4 = str31;
+            str5 = str30;
+            list = list6;
+            textStyleData2 = textStyleData7;
+            str6 = str32;
+            f2 = f4;
+            i = i5;
+        }
+        compositeDecoderBeginStructure.endStructure(serialDescriptor);
+        return new Accordion(i, str3, list, textStyleData, textStyleData2, bool, str5, str6, str4, bool2, str, str2, bool3, f, f2, (SerializationConstructorMarker) null);
+    }
+
+    /* JADX DEBUG: Method merged with bridge method: serialize(Lkotlinx/serialization/encoding/Encoder;Ljava/lang/Object;)V */
+    @Override // kotlinx.serialization.SerializationStrategy
+    public final void serialize(@NotNull Encoder encoder, @NotNull Accordion accordion) {
+        Intrinsics.checkNotNullParameter(encoder, "");
+        Intrinsics.checkNotNullParameter(accordion, "");
+        SerialDescriptor serialDescriptor = descriptor;
+        CompositeEncoder compositeEncoderBeginStructure = encoder.beginStructure(serialDescriptor);
+        Accordion.write$Self$OKCompliance_ok_compliance_impl(accordion, compositeEncoderBeginStructure, serialDescriptor);
+        compositeEncoderBeginStructure.endStructure(serialDescriptor);
+    }
+}

@@ -1,0 +1,82 @@
+package com.okinc.share.platforms;
+
+import com.okinc.share.bean.ShortLinkResp;
+import kotlin.Unit;
+import kotlin.coroutines.Continuation;
+import kotlin.coroutines.jvm.internal.SuspendLambda;
+import kotlin.jvm.functions.Function2;
+import kotlinx.coroutines.channels.ProducerScope;
+import o.APK;
+import o.AQB;
+import o.AQF;
+import o.C49129uii;
+import o.C56391yDq;
+import o.C56442yFn;
+
+/* JADX INFO: loaded from: classes11.dex */
+public final class SharePlatformHub$RustSharePlatformHubImpl$createShortLink$2 extends SuspendLambda implements Function2<ProducerScope<? super ShortLinkResp>, Continuation<? super Unit>, Object> {
+    final /* synthetic */ AQB $request;
+    private /* synthetic */ Object L$0;
+    int label;
+    final /* synthetic */ C49129uii.ActionBar this$0;
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public SharePlatformHub$RustSharePlatformHubImpl$createShortLink$2(C49129uii.ActionBar actionBar, AQB aqb, Continuation<? super SharePlatformHub$RustSharePlatformHubImpl$createShortLink$2> continuation) {
+        super(2, continuation);
+        this.this$0 = actionBar;
+        this.$request = aqb;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    @Override // kotlin.coroutines.jvm.internal.BaseContinuationImpl
+    public final Continuation<Unit> create(Object obj, Continuation<?> continuation) {
+        SharePlatformHub$RustSharePlatformHubImpl$createShortLink$2 sharePlatformHub$RustSharePlatformHubImpl$createShortLink$2 = new SharePlatformHub$RustSharePlatformHubImpl$createShortLink$2(this.this$0, this.$request, continuation);
+        sharePlatformHub$RustSharePlatformHubImpl$createShortLink$2.L$0 = obj;
+        return sharePlatformHub$RustSharePlatformHubImpl$createShortLink$2;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    /* JADX DEBUG: Method merged with bridge method: invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; */
+    @Override // kotlin.jvm.functions.Function2
+    public final Object invoke(ProducerScope<? super ShortLinkResp> producerScope, Continuation<? super Unit> continuation) {
+        return ((SharePlatformHub$RustSharePlatformHubImpl$createShortLink$2) create(producerScope, continuation)).invokeSuspend(Unit.INSTANCE);
+    }
+
+    @Override // kotlin.coroutines.jvm.internal.BaseContinuationImpl
+    public final Object invokeSuspend(Object obj) throws Throwable {
+        ProducerScope producerScope;
+        Object objCopydefault = C56442yFn.copydefault();
+        int i = this.label;
+        if (i == 0) {
+            C56391yDq.AEQbTJ(obj);
+            producerScope = (ProducerScope) this.L$0;
+            APK apk = this.this$0.copydefault;
+            AQB aqb = this.$request;
+            this.L$0 = producerScope;
+            this.label = 1;
+            obj = apk.copydefault(aqb, this);
+            if (obj == objCopydefault) {
+                return objCopydefault;
+            }
+        } else {
+            if (i != 1) {
+                if (i != 2) {
+                    throw new IllegalStateException("call to 'resume' before 'invoke' with coroutine");
+                }
+                C56391yDq.AEQbTJ(obj);
+                return Unit.INSTANCE;
+            }
+            producerScope = (ProducerScope) this.L$0;
+            C56391yDq.AEQbTJ(obj);
+        }
+        AQF aqf = (AQF) obj;
+        ShortLinkResp shortLinkResp = new ShortLinkResp(aqf.EZpvd(), aqf.KWHzl());
+        this.L$0 = null;
+        this.label = 2;
+        if (producerScope.send(shortLinkResp, this) == objCopydefault) {
+            return objCopydefault;
+        }
+        return Unit.INSTANCE;
+    }
+}

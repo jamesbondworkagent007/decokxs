@@ -1,0 +1,112 @@
+package com.okinc.okex.lite.home.bean;
+
+import com.google.android.exoplayer2.text.ttml.TtmlNode;
+import java.util.List;
+import kotlin.jvm.internal.Intrinsics;
+import kotlinx.serialization.KSerializer;
+import kotlinx.serialization.UnknownFieldException;
+import kotlinx.serialization.builtins.BuiltinSerializersKt;
+import kotlinx.serialization.descriptors.SerialDescriptor;
+import kotlinx.serialization.encoding.CompositeDecoder;
+import kotlinx.serialization.encoding.CompositeEncoder;
+import kotlinx.serialization.encoding.Decoder;
+import kotlinx.serialization.encoding.Encoder;
+import kotlinx.serialization.internal.GeneratedSerializer;
+import kotlinx.serialization.internal.IntSerializer;
+import kotlinx.serialization.internal.PluginGeneratedSerialDescriptor;
+import org.jetbrains.annotations.NotNull;
+
+/* JADX INFO: loaded from: classes23.dex */
+public final /* synthetic */ class LiteHomeOnboardingCardData$$serializer implements GeneratedSerializer<LiteHomeOnboardingCardData> {
+    public static final int $stable;
+    public static final LiteHomeOnboardingCardData$$serializer INSTANCE;
+    private static final SerialDescriptor descriptor;
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    private LiteHomeOnboardingCardData$$serializer() {
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    @Override // kotlinx.serialization.KSerializer, kotlinx.serialization.SerializationStrategy, kotlinx.serialization.DeserializationStrategy
+    public final SerialDescriptor getDescriptor() {
+        return descriptor;
+    }
+
+    static {
+        LiteHomeOnboardingCardData$$serializer liteHomeOnboardingCardData$$serializer = new LiteHomeOnboardingCardData$$serializer();
+        INSTANCE = liteHomeOnboardingCardData$$serializer;
+        $stable = 8;
+        PluginGeneratedSerialDescriptor pluginGeneratedSerialDescriptor = new PluginGeneratedSerialDescriptor("com.okinc.okex.lite.home.bean.LiteHomeOnboardingCardData", liteHomeOnboardingCardData$$serializer, 3);
+        pluginGeneratedSerialDescriptor.addElement(TtmlNode.TAG_LAYOUT, false);
+        pluginGeneratedSerialDescriptor.addElement("onboardingCard", false);
+        pluginGeneratedSerialDescriptor.addElement("headerButtons", true);
+        descriptor = pluginGeneratedSerialDescriptor;
+    }
+
+    @Override // kotlinx.serialization.internal.GeneratedSerializer
+    public final KSerializer<?>[] childSerializers() {
+        return new KSerializer[]{IntSerializer.INSTANCE, BuiltinSerializersKt.getNullable(OnboardingCardInfo$$serializer.INSTANCE), BuiltinSerializersKt.getNullable(LiteHomeOnboardingCardData.$childSerializers[2])};
+    }
+
+    /* JADX DEBUG: Method merged with bridge method: deserialize(Lkotlinx/serialization/encoding/Decoder;)Ljava/lang/Object; */
+    @Override // kotlinx.serialization.DeserializationStrategy
+    public final LiteHomeOnboardingCardData deserialize(@NotNull Decoder decoder) {
+        int i;
+        int i2;
+        List list;
+        OnboardingCardInfo onboardingCardInfo;
+        Intrinsics.checkNotNullParameter(decoder, "");
+        SerialDescriptor serialDescriptor = descriptor;
+        CompositeDecoder compositeDecoderBeginStructure = decoder.beginStructure(serialDescriptor);
+        KSerializer[] kSerializerArr = LiteHomeOnboardingCardData.$childSerializers;
+        if (compositeDecoderBeginStructure.decodeSequentially()) {
+            int iDecodeIntElement = compositeDecoderBeginStructure.decodeIntElement(serialDescriptor, 0);
+            OnboardingCardInfo onboardingCardInfo2 = (OnboardingCardInfo) compositeDecoderBeginStructure.decodeNullableSerializableElement(serialDescriptor, 1, OnboardingCardInfo$$serializer.INSTANCE, null);
+            list = (List) compositeDecoderBeginStructure.decodeNullableSerializableElement(serialDescriptor, 2, kSerializerArr[2], null);
+            i = iDecodeIntElement;
+            i2 = 7;
+            onboardingCardInfo = onboardingCardInfo2;
+        } else {
+            List list2 = null;
+            OnboardingCardInfo onboardingCardInfo3 = null;
+            int iDecodeIntElement2 = 0;
+            int i3 = 0;
+            boolean z = true;
+            while (z) {
+                int iDecodeElementIndex = compositeDecoderBeginStructure.decodeElementIndex(serialDescriptor);
+                if (iDecodeElementIndex == -1) {
+                    z = false;
+                } else if (iDecodeElementIndex == 0) {
+                    iDecodeIntElement2 = compositeDecoderBeginStructure.decodeIntElement(serialDescriptor, 0);
+                    i3 |= 1;
+                } else if (iDecodeElementIndex == 1) {
+                    onboardingCardInfo3 = (OnboardingCardInfo) compositeDecoderBeginStructure.decodeNullableSerializableElement(serialDescriptor, 1, OnboardingCardInfo$$serializer.INSTANCE, onboardingCardInfo3);
+                    i3 |= 2;
+                } else {
+                    if (iDecodeElementIndex != 2) {
+                        throw new UnknownFieldException(iDecodeElementIndex);
+                    }
+                    list2 = (List) compositeDecoderBeginStructure.decodeNullableSerializableElement(serialDescriptor, 2, kSerializerArr[2], list2);
+                    i3 |= 4;
+                }
+            }
+            i = iDecodeIntElement2;
+            i2 = i3;
+            list = list2;
+            onboardingCardInfo = onboardingCardInfo3;
+        }
+        compositeDecoderBeginStructure.endStructure(serialDescriptor);
+        return new LiteHomeOnboardingCardData(i2, i, onboardingCardInfo, list, null);
+    }
+
+    /* JADX DEBUG: Method merged with bridge method: serialize(Lkotlinx/serialization/encoding/Encoder;Ljava/lang/Object;)V */
+    @Override // kotlinx.serialization.SerializationStrategy
+    public final void serialize(@NotNull Encoder encoder, @NotNull LiteHomeOnboardingCardData liteHomeOnboardingCardData) {
+        Intrinsics.checkNotNullParameter(encoder, "");
+        Intrinsics.checkNotNullParameter(liteHomeOnboardingCardData, "");
+        SerialDescriptor serialDescriptor = descriptor;
+        CompositeEncoder compositeEncoderBeginStructure = encoder.beginStructure(serialDescriptor);
+        LiteHomeOnboardingCardData.KWHzl(liteHomeOnboardingCardData, compositeEncoderBeginStructure, serialDescriptor);
+        compositeEncoderBeginStructure.endStructure(serialDescriptor);
+    }
+}

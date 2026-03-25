@@ -1,0 +1,119 @@
+package com.okinc.trade.arch.ui;
+
+import kotlin.Unit;
+import kotlin.coroutines.Continuation;
+import kotlin.coroutines.jvm.internal.SuspendLambda;
+import kotlin.jvm.functions.Function2;
+import o.InterfaceC49369unJ;
+import o.InterfaceC56560yJx;
+import o.yHR;
+
+/* JADX INFO: Add missing generic type declarations: [T] */
+/* JADX INFO: loaded from: classes11.dex */
+public final class IUiRetrievable$withUiState$19<T> extends SuspendLambda implements Function2<T, Continuation<? super Unit>, Object> {
+    final /* synthetic */ yHR<A, B, C, D, E, F, Continuation<? super Unit>, Object> $block;
+    final /* synthetic */ InterfaceC56560yJx<T, A> $prop1;
+    final /* synthetic */ InterfaceC56560yJx<T, B> $prop2;
+    final /* synthetic */ InterfaceC56560yJx<T, C> $prop3;
+    final /* synthetic */ InterfaceC56560yJx<T, D> $prop4;
+    final /* synthetic */ InterfaceC56560yJx<T, E> $prop5;
+    final /* synthetic */ InterfaceC56560yJx<T, F> $prop6;
+    /* synthetic */ Object L$0;
+    int label;
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    /* JADX DEBUG: Multi-variable search result rejected for r1v0, resolved type: o.yHR<? super A, ? super B, ? super C, ? super D, ? super E, ? super F, ? super kotlin.coroutines.Continuation<? super kotlin.Unit>, ? extends java.lang.Object> */
+    /* JADX DEBUG: Multi-variable search result rejected for r2v0, resolved type: o.yJx<T, ? extends A> */
+    /* JADX DEBUG: Multi-variable search result rejected for r3v0, resolved type: o.yJx<T, ? extends B> */
+    /* JADX DEBUG: Multi-variable search result rejected for r4v0, resolved type: o.yJx<T, ? extends C> */
+    /* JADX DEBUG: Multi-variable search result rejected for r5v0, resolved type: o.yJx<T, ? extends D> */
+    /* JADX DEBUG: Multi-variable search result rejected for r6v0, resolved type: o.yJx<T, ? extends E> */
+    /* JADX DEBUG: Multi-variable search result rejected for r7v0, resolved type: o.yJx<T, ? extends F> */
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    /* JADX WARN: Multi-variable type inference failed */
+    public IUiRetrievable$withUiState$19(yHR<? super A, ? super B, ? super C, ? super D, ? super E, ? super F, ? super Continuation<? super Unit>, ? extends Object> yhr, InterfaceC56560yJx<T, ? extends A> interfaceC56560yJx, InterfaceC56560yJx<T, ? extends B> interfaceC56560yJx2, InterfaceC56560yJx<T, ? extends C> interfaceC56560yJx3, InterfaceC56560yJx<T, ? extends D> interfaceC56560yJx4, InterfaceC56560yJx<T, ? extends E> interfaceC56560yJx5, InterfaceC56560yJx<T, ? extends F> interfaceC56560yJx6, Continuation<? super IUiRetrievable$withUiState$19> continuation) {
+        super(2, continuation);
+        this.$block = yhr;
+        this.$prop1 = interfaceC56560yJx;
+        this.$prop2 = interfaceC56560yJx2;
+        this.$prop3 = interfaceC56560yJx3;
+        this.$prop4 = interfaceC56560yJx4;
+        this.$prop5 = interfaceC56560yJx5;
+        this.$prop6 = interfaceC56560yJx6;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    @Override // kotlin.coroutines.jvm.internal.BaseContinuationImpl
+    public final Continuation<Unit> create(Object obj, Continuation<?> continuation) {
+        IUiRetrievable$withUiState$19 iUiRetrievable$withUiState$19 = new IUiRetrievable$withUiState$19(this.$block, this.$prop1, this.$prop2, this.$prop3, this.$prop4, this.$prop5, this.$prop6, continuation);
+        iUiRetrievable$withUiState$19.L$0 = obj;
+        return iUiRetrievable$withUiState$19;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    /* JADX DEBUG: Method arguments types fixed to match base method, original types: [java.lang.Object, java.lang.Object] */
+    @Override // kotlin.jvm.functions.Function2
+    public /* bridge */ /* synthetic */ Object invoke(Object obj, Continuation<? super Unit> continuation) {
+        return invoke((InterfaceC49369unJ) obj, (Continuation) continuation);
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    /* JADX WARN: Incorrect types in method signature: (TT;Lkotlin/coroutines/Continuation<-Lkotlin/Unit;>;)Ljava/lang/Object; */
+    public final Object invoke(InterfaceC49369unJ interfaceC49369unJ, Continuation continuation) {
+        return ((IUiRetrievable$withUiState$19) create(interfaceC49369unJ, continuation)).invokeSuspend(Unit.INSTANCE);
+    }
+
+    /* JADX WARN: Type inference incomplete: some casts might be missing */
+    /*  JADX ERROR: JadxRuntimeException in pass: ModVisitor
+        jadx.core.utils.exceptions.JadxRuntimeException: Can't change immutable type java.lang.Object to com.okinc.trade.arch.ui.IUiRetrievable$withUiState$19<T> for r11v1 'this'  java.lang.Object
+        	at jadx.core.dex.instructions.args.SSAVar.setType(SSAVar.java:114)
+        	at jadx.core.dex.instructions.args.RegisterArg.setType(RegisterArg.java:52)
+        	at jadx.core.dex.visitors.ModVisitor.removeCheckCast(ModVisitor.java:417)
+        	at jadx.core.dex.visitors.ModVisitor.replaceStep(ModVisitor.java:152)
+        	at jadx.core.dex.visitors.ModVisitor.visit(ModVisitor.java:96)
+        */
+    @Override // kotlin.coroutines.jvm.internal.BaseContinuationImpl
+    public final java.lang.Object invokeSuspend(java.lang.Object r12) {
+        /*
+            r11 = this;
+            java.lang.Object r0 = o.C56437yFi.OLrzqt()
+            int r1 = r11.label
+            r2 = 1
+            if (r1 == 0) goto L17
+            if (r1 != r2) goto Lf
+            o.C56391yDq.AEQbTJ(r12)
+            goto L4e
+        Lf:
+            java.lang.IllegalStateException r12 = new java.lang.IllegalStateException
+            java.lang.String r0 = "call to 'resume' before 'invoke' with coroutine"
+            r12.<init>(r0)
+            throw r12
+        L17:
+            o.C56391yDq.AEQbTJ(r12)
+            java.lang.Object r12 = r11.L$0
+            o.unJ r12 = (o.InterfaceC49369unJ) r12
+            o.yHR<A, B, C, D, E, F, kotlin.coroutines.Continuation<? super kotlin.Unit>, java.lang.Object> r3 = r11.$block
+            o.yJx<T, A> r1 = r11.$prop1
+            java.lang.Object r4 = r1.get(r12)
+            o.yJx<T, B> r1 = r11.$prop2
+            java.lang.Object r5 = r1.get(r12)
+            o.yJx<T, C> r1 = r11.$prop3
+            java.lang.Object r6 = r1.get(r12)
+            o.yJx<T, D> r1 = r11.$prop4
+            java.lang.Object r7 = r1.get(r12)
+            o.yJx<T, E> r1 = r11.$prop5
+            java.lang.Object r8 = r1.get(r12)
+            o.yJx<T, F> r1 = r11.$prop6
+            java.lang.Object r9 = r1.get(r12)
+            r11.label = r2
+            r10 = r11
+            java.lang.Object r12 = r3.invoke(r4, r5, r6, r7, r8, r9, r10)
+            if (r12 != r0) goto L4e
+            return r0
+        L4e:
+            kotlin.Unit r12 = kotlin.Unit.INSTANCE
+            return r12
+        */
+        throw new UnsupportedOperationException("Method not decompiled: com.okinc.trade.arch.ui.IUiRetrievable$withUiState$19.invokeSuspend(java.lang.Object):java.lang.Object");
+    }
+}

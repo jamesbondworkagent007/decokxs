@@ -1,0 +1,214 @@
+package com.okinc.okpaymentapi.data.remote.model.management;
+
+import android.os.Parcel;
+import android.os.Parcelable;
+import kotlin.jvm.internal.DefaultConstructorMarker;
+import kotlin.jvm.internal.Intrinsics;
+import kotlinx.serialization.KSerializer;
+import kotlinx.serialization.Serializable;
+import kotlinx.serialization.descriptors.SerialDescriptor;
+import kotlinx.serialization.encoding.CompositeEncoder;
+import kotlinx.serialization.internal.SerializationConstructorMarker;
+import org.jetbrains.annotations.NotNull;
+
+/* JADX INFO: loaded from: classes10.dex */
+@Serializable
+public final class SellerReceiptAccount implements Parcelable {
+    private String accountNo;
+    private String id;
+    private boolean isSelected;
+    public static final Companion Companion = new Companion(null);
+    public static final int $stable = 8;
+    public static final Parcelable.Creator<SellerReceiptAccount> CREATOR = new Creator();
+
+    public static final class Creator implements Parcelable.Creator<SellerReceiptAccount> {
+        /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+        /* JADX DEBUG: Method merged with bridge method: createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object; */
+        /* JADX WARN: Can't rename method to resolve collision */
+        @Override // android.os.Parcelable.Creator
+        public final SellerReceiptAccount createFromParcel(Parcel parcel) {
+            Intrinsics.checkNotNullParameter(parcel, "");
+            return new SellerReceiptAccount(parcel.readString(), parcel.readString(), parcel.readInt() != 0);
+        }
+
+        /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+        /* JADX DEBUG: Method merged with bridge method: newArray(I)[Ljava/lang/Object; */
+        /* JADX WARN: Can't rename method to resolve collision */
+        @Override // android.os.Parcelable.Creator
+        public final SellerReceiptAccount[] newArray(int i) {
+            return new SellerReceiptAccount[i];
+        }
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public SellerReceiptAccount() {
+        this((String) null, (String) null, false, 7, (DefaultConstructorMarker) null);
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public static /* synthetic */ SellerReceiptAccount copy$default(SellerReceiptAccount sellerReceiptAccount, String str, String str2, boolean z, int i, Object obj) {
+        if ((i & 1) != 0) {
+            str = sellerReceiptAccount.id;
+        }
+        if ((i & 2) != 0) {
+            str2 = sellerReceiptAccount.accountNo;
+        }
+        if ((i & 4) != 0) {
+            z = sellerReceiptAccount.isSelected;
+        }
+        return sellerReceiptAccount.copy(str, str2, z);
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final String component1() {
+        return this.id;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final String component2() {
+        return this.accountNo;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final boolean component3() {
+        return this.isSelected;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final SellerReceiptAccount copy(@NotNull String str, @NotNull String str2, boolean z) {
+        Intrinsics.checkNotNullParameter(str, "");
+        Intrinsics.checkNotNullParameter(str2, "");
+        return new SellerReceiptAccount(str, str2, z);
+    }
+
+    @Override // android.os.Parcelable
+    public final int describeContents() {
+        return 0;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (!(obj instanceof SellerReceiptAccount)) {
+            return false;
+        }
+        SellerReceiptAccount sellerReceiptAccount = (SellerReceiptAccount) obj;
+        return Intrinsics.EZpvd((Object) this.id, (Object) sellerReceiptAccount.id) && Intrinsics.EZpvd((Object) this.accountNo, (Object) sellerReceiptAccount.accountNo) && this.isSelected == sellerReceiptAccount.isSelected;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final String getAccountNo() {
+        return this.accountNo;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final String getId() {
+        return this.id;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public int hashCode() {
+        return (((this.id.hashCode() * 31) + this.accountNo.hashCode()) * 31) + Boolean.hashCode(this.isSelected);
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final boolean isSelected() {
+        return this.isSelected;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final void setAccountNo(@NotNull String str) {
+        Intrinsics.checkNotNullParameter(str, "");
+        this.accountNo = str;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final void setId(@NotNull String str) {
+        Intrinsics.checkNotNullParameter(str, "");
+        this.id = str;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final void setSelected(boolean z) {
+        this.isSelected = z;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public String toString() {
+        return "SellerReceiptAccount(id=" + this.id + ", accountNo=" + this.accountNo + ", isSelected=" + this.isSelected + ")";
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    @Override // android.os.Parcelable
+    public final void writeToParcel(@NotNull Parcel parcel, int i) {
+        Intrinsics.checkNotNullParameter(parcel, "");
+        parcel.writeString(this.id);
+        parcel.writeString(this.accountNo);
+        parcel.writeInt(this.isSelected ? 1 : 0);
+    }
+
+    public static final class Companion {
+        /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+        private Companion() {
+        }
+
+        /* JADX DEBUG: Can't inline method, not implemented redirect type for insn: 0x0000: CONSTRUCTOR  A[MD:():void (m)] call: com.okinc.okpaymentapi.data.remote.model.management.SellerReceiptAccount.Companion.<init>():void type: THIS */
+        /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+        public /* synthetic */ Companion(DefaultConstructorMarker defaultConstructorMarker) {
+            this();
+        }
+
+        public final KSerializer<SellerReceiptAccount> serializer() {
+            return SellerReceiptAccount$$serializer.INSTANCE;
+        }
+    }
+
+    public /* synthetic */ SellerReceiptAccount(int i, String str, String str2, boolean z, SerializationConstructorMarker serializationConstructorMarker) {
+        if ((i & 1) == 0) {
+            this.id = "";
+        } else {
+            this.id = str;
+        }
+        if ((i & 2) == 0) {
+            this.accountNo = "";
+        } else {
+            this.accountNo = str2;
+        }
+        if ((i & 4) == 0) {
+            this.isSelected = false;
+        } else {
+            this.isSelected = z;
+        }
+    }
+
+    public static final /* synthetic */ void write$Self$OKPayments_ok_payment_api(SellerReceiptAccount sellerReceiptAccount, CompositeEncoder compositeEncoder, SerialDescriptor serialDescriptor) {
+        if (compositeEncoder.shouldEncodeElementDefault(serialDescriptor, 0) || !Intrinsics.EZpvd((Object) sellerReceiptAccount.id, (Object) "")) {
+            compositeEncoder.encodeStringElement(serialDescriptor, 0, sellerReceiptAccount.id);
+        }
+        if (compositeEncoder.shouldEncodeElementDefault(serialDescriptor, 1) || !Intrinsics.EZpvd((Object) sellerReceiptAccount.accountNo, (Object) "")) {
+            compositeEncoder.encodeStringElement(serialDescriptor, 1, sellerReceiptAccount.accountNo);
+        }
+        if (compositeEncoder.shouldEncodeElementDefault(serialDescriptor, 2) || sellerReceiptAccount.isSelected) {
+            compositeEncoder.encodeBooleanElement(serialDescriptor, 2, sellerReceiptAccount.isSelected);
+        }
+    }
+
+    public SellerReceiptAccount(@NotNull String str, @NotNull String str2, boolean z) {
+        Intrinsics.checkNotNullParameter(str, "");
+        Intrinsics.checkNotNullParameter(str2, "");
+        this.id = str;
+        this.accountNo = str2;
+        this.isSelected = z;
+    }
+
+    /* JADX DEBUG: Can't inline method, not implemented redirect type for insn: 0x0011: CONSTRUCTOR 
+  (wrap:java.lang.String:?: TERNARY null = ((wrap:int:0x0000: ARITH (r5v0 int) & (1 int) A[WRAPPED]) != (0 int)) ? ("") : (r2v0 java.lang.String))
+  (wrap:java.lang.String:?: TERNARY null = ((wrap:int:0x0007: ARITH (r5v0 int) & (2 int) A[WRAPPED]) != (0 int)) ? ("") : (r3v0 java.lang.String))
+  (wrap:boolean:?: TERNARY null = ((wrap:int:0x000c: ARITH (r5v0 int) & (4 int) A[WRAPPED]) != (0 int)) ? false : (r4v0 boolean))
+ A[MD:(java.lang.String, java.lang.String, boolean):void (m)] (LINE:125) call: com.okinc.okpaymentapi.data.remote.model.management.SellerReceiptAccount.<init>(java.lang.String, java.lang.String, boolean):void type: THIS */
+    public /* synthetic */ SellerReceiptAccount(String str, String str2, boolean z, int i, DefaultConstructorMarker defaultConstructorMarker) {
+        this((i & 1) != 0 ? "" : str, (i & 2) != 0 ? "" : str2, (i & 4) != 0 ? false : z);
+    }
+}

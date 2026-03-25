@@ -1,0 +1,27 @@
+package com.okinc.okimcore.extension;
+
+import android.content.Context;
+import android.net.Uri;
+import kotlin.coroutines.Continuation;
+import kotlin.coroutines.jvm.internal.ContinuationImpl;
+import o.sFB;
+import org.jetbrains.annotations.NotNull;
+
+/* JADX INFO: loaded from: classes10.dex */
+public final class UriExtKt$compressToJpg$1 extends ContinuationImpl {
+    public int label;
+    public /* synthetic */ Object result;
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public UriExtKt$compressToJpg$1(Continuation<? super UriExtKt$compressToJpg$1> continuation) {
+        super(continuation);
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    @Override // kotlin.coroutines.jvm.internal.BaseContinuationImpl
+    public final Object invokeSuspend(@NotNull Object obj) {
+        this.result = obj;
+        this.label |= Integer.MIN_VALUE;
+        return sFB.AEQbTJ((Uri) null, (Context) null, 0, false, (Continuation<? super Uri>) this);
+    }
+}
