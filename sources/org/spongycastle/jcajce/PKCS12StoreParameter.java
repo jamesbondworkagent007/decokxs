@@ -1,0 +1,45 @@
+package org.spongycastle.jcajce;
+
+import java.io.OutputStream;
+import java.security.KeyStore;
+
+/* JADX INFO: loaded from: classes25.dex */
+public class PKCS12StoreParameter implements KeyStore.LoadStoreParameter {
+    private final boolean forDEREncoding;
+    private final OutputStream out;
+    private final KeyStore.ProtectionParameter protectionParameter;
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public OutputStream getOutputStream() {
+        return this.out;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    @Override // java.security.KeyStore.LoadStoreParameter
+    public KeyStore.ProtectionParameter getProtectionParameter() {
+        return this.protectionParameter;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public boolean isForDEREncoding() {
+        return this.forDEREncoding;
+    }
+
+    public PKCS12StoreParameter(OutputStream outputStream, char[] cArr) {
+        this(outputStream, cArr, false);
+    }
+
+    public PKCS12StoreParameter(OutputStream outputStream, KeyStore.ProtectionParameter protectionParameter) {
+        this(outputStream, protectionParameter, false);
+    }
+
+    public PKCS12StoreParameter(OutputStream outputStream, char[] cArr, boolean z) {
+        this(outputStream, new KeyStore.PasswordProtection(cArr), z);
+    }
+
+    public PKCS12StoreParameter(OutputStream outputStream, KeyStore.ProtectionParameter protectionParameter, boolean z) {
+        this.out = outputStream;
+        this.protectionParameter = protectionParameter;
+        this.forDEREncoding = z;
+    }
+}

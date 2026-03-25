@@ -1,0 +1,34 @@
+package org.spongycastle.asn1.x509;
+
+import org.spongycastle.asn1.ASN1Object;
+import org.spongycastle.asn1.ASN1ObjectIdentifier;
+import org.spongycastle.asn1.ASN1Primitive;
+
+/* JADX INFO: loaded from: classes25.dex */
+public class CertPolicyId extends ASN1Object {
+    private ASN1ObjectIdentifier id;
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    @Override // org.spongycastle.asn1.ASN1Object, org.spongycastle.asn1.ASN1Encodable
+    public ASN1Primitive toASN1Primitive() {
+        return this.id;
+    }
+
+    private CertPolicyId(ASN1ObjectIdentifier aSN1ObjectIdentifier) {
+        this.id = aSN1ObjectIdentifier;
+    }
+
+    public static CertPolicyId getInstance(Object obj) {
+        if (obj instanceof CertPolicyId) {
+            return (CertPolicyId) obj;
+        }
+        if (obj != null) {
+            return new CertPolicyId(ASN1ObjectIdentifier.getInstance(obj));
+        }
+        return null;
+    }
+
+    public String getId() {
+        return this.id.getId();
+    }
+}

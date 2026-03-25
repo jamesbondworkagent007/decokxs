@@ -1,0 +1,39 @@
+package org.spongycastle.crypto.params;
+
+import org.spongycastle.util.Arrays;
+
+/* JADX INFO: loaded from: classes25.dex */
+public class DHValidationParameters {
+    private int counter;
+    private byte[] seed;
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public int getCounter() {
+        return this.counter;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public byte[] getSeed() {
+        return this.seed;
+    }
+
+    public DHValidationParameters(byte[] bArr, int i) {
+        this.seed = bArr;
+        this.counter = i;
+    }
+
+    public boolean equals(Object obj) {
+        if (!(obj instanceof DHValidationParameters)) {
+            return false;
+        }
+        DHValidationParameters dHValidationParameters = (DHValidationParameters) obj;
+        if (dHValidationParameters.counter != this.counter) {
+            return false;
+        }
+        return Arrays.areEqual(this.seed, dHValidationParameters.seed);
+    }
+
+    public int hashCode() {
+        return this.counter ^ Arrays.hashCode(this.seed);
+    }
+}

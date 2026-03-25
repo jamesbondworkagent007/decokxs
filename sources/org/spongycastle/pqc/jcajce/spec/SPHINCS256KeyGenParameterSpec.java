@@ -1,0 +1,23 @@
+package org.spongycastle.pqc.jcajce.spec;
+
+import java.security.spec.AlgorithmParameterSpec;
+
+/* JADX INFO: loaded from: classes25.dex */
+public class SPHINCS256KeyGenParameterSpec implements AlgorithmParameterSpec {
+    public static final String SHA3_256 = "SHA3-256";
+    public static final String SHA512_256 = "SHA512-256";
+    private final String treeHash;
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public String getTreeDigest() {
+        return this.treeHash;
+    }
+
+    public SPHINCS256KeyGenParameterSpec() {
+        this("SHA512-256");
+    }
+
+    public SPHINCS256KeyGenParameterSpec(String str) {
+        this.treeHash = str;
+    }
+}

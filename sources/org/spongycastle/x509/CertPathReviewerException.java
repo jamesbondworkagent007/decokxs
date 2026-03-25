@@ -1,0 +1,61 @@
+package org.spongycastle.x509;
+
+import java.security.cert.CertPath;
+import org.spongycastle.i18n.ErrorBundle;
+import org.spongycastle.i18n.LocalizedException;
+
+/* JADX INFO: loaded from: classes25.dex */
+public class CertPathReviewerException extends LocalizedException {
+    private CertPath certPath;
+    private int index;
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public CertPath getCertPath() {
+        return this.certPath;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public int getIndex() {
+        return this.index;
+    }
+
+    public CertPathReviewerException(ErrorBundle errorBundle, Throwable th) {
+        super(errorBundle, th);
+        this.index = -1;
+        this.certPath = null;
+    }
+
+    public CertPathReviewerException(ErrorBundle errorBundle) {
+        super(errorBundle);
+        this.index = -1;
+        this.certPath = null;
+    }
+
+    public CertPathReviewerException(ErrorBundle errorBundle, Throwable th, CertPath certPath, int i) {
+        super(errorBundle, th);
+        this.index = -1;
+        this.certPath = null;
+        if (certPath == null || i == -1) {
+            throw new IllegalArgumentException();
+        }
+        if (i < -1 || i >= certPath.getCertificates().size()) {
+            throw new IndexOutOfBoundsException();
+        }
+        this.certPath = certPath;
+        this.index = i;
+    }
+
+    public CertPathReviewerException(ErrorBundle errorBundle, CertPath certPath, int i) {
+        super(errorBundle);
+        this.index = -1;
+        this.certPath = null;
+        if (certPath == null || i == -1) {
+            throw new IllegalArgumentException();
+        }
+        if (i < -1 || i >= certPath.getCertificates().size()) {
+            throw new IndexOutOfBoundsException();
+        }
+        this.certPath = certPath;
+        this.index = i;
+    }
+}
