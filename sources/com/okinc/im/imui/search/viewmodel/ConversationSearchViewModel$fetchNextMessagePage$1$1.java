@@ -1,0 +1,92 @@
+package com.okinc.im.imui.search.viewmodel;
+
+import com.okinc.im.imui.search.viewmodel.ConversationSearchViewModel;
+import java.util.List;
+import kotlin.Result;
+import kotlin.Unit;
+import kotlin.coroutines.Continuation;
+import kotlin.coroutines.jvm.internal.SuspendLambda;
+import kotlin.jvm.functions.Function2;
+import kotlinx.coroutines.CoroutineScope;
+import o.C56391yDq;
+import o.C56442yFn;
+import o.sQY;
+
+/* JADX INFO: loaded from: classes8.dex */
+public final class ConversationSearchViewModel$fetchNextMessagePage$1$1 extends SuspendLambda implements Function2<CoroutineScope, Continuation<? super Unit>, Object> {
+    final /* synthetic */ ConversationSearchViewModel.StateListAnimator $searchParams;
+    private /* synthetic */ Object L$0;
+    int label;
+    final /* synthetic */ ConversationSearchViewModel this$0;
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public ConversationSearchViewModel$fetchNextMessagePage$1$1(ConversationSearchViewModel conversationSearchViewModel, ConversationSearchViewModel.StateListAnimator stateListAnimator, Continuation<? super ConversationSearchViewModel$fetchNextMessagePage$1$1> continuation) {
+        super(2, continuation);
+        this.this$0 = conversationSearchViewModel;
+        this.$searchParams = stateListAnimator;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    @Override // kotlin.coroutines.jvm.internal.BaseContinuationImpl
+    public final Continuation<Unit> create(Object obj, Continuation<?> continuation) {
+        ConversationSearchViewModel$fetchNextMessagePage$1$1 conversationSearchViewModel$fetchNextMessagePage$1$1 = new ConversationSearchViewModel$fetchNextMessagePage$1$1(this.this$0, this.$searchParams, continuation);
+        conversationSearchViewModel$fetchNextMessagePage$1$1.L$0 = obj;
+        return conversationSearchViewModel$fetchNextMessagePage$1$1;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    /* JADX DEBUG: Method merged with bridge method: invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; */
+    @Override // kotlin.jvm.functions.Function2
+    public final Object invoke(CoroutineScope coroutineScope, Continuation<? super Unit> continuation) {
+        return ((ConversationSearchViewModel$fetchNextMessagePage$1$1) create(coroutineScope, continuation)).invokeSuspend(Unit.INSTANCE);
+    }
+
+    @Override // kotlin.coroutines.jvm.internal.BaseContinuationImpl
+    public final Object invokeSuspend(Object obj) throws Throwable {
+        Object objM7377constructorimpl;
+        ConversationSearchViewModel conversationSearchViewModel;
+        Object objCopydefault = C56442yFn.copydefault();
+        int i = this.label;
+        try {
+        } catch (Throwable th) {
+            Result.Application application = Result.Companion;
+            objM7377constructorimpl = Result.m7377constructorimpl(C56391yDq.EZpvd(th));
+        }
+        if (i == 0) {
+            C56391yDq.AEQbTJ(obj);
+            conversationSearchViewModel = this.this$0;
+            ConversationSearchViewModel.StateListAnimator stateListAnimator = this.$searchParams;
+            Result.Application application2 = Result.Companion;
+            this.L$0 = conversationSearchViewModel;
+            this.label = 1;
+            obj = conversationSearchViewModel.AEQbTJ(stateListAnimator, (Continuation<? super List<sQY>>) this);
+            if (obj == objCopydefault) {
+                return objCopydefault;
+            }
+        } else {
+            if (i != 1) {
+                if (i != 2) {
+                    throw new IllegalStateException("call to 'resume' before 'invoke' with coroutine");
+                }
+                C56391yDq.AEQbTJ(obj);
+                objM7377constructorimpl = Result.m7377constructorimpl(Unit.INSTANCE);
+                Result.m7380exceptionOrNullimpl(objM7377constructorimpl);
+                return Unit.INSTANCE;
+            }
+            conversationSearchViewModel = (ConversationSearchViewModel) this.L$0;
+            C56391yDq.AEQbTJ(obj);
+        }
+        List list = (List) obj;
+        if (true ^ list.isEmpty()) {
+            this.L$0 = null;
+            this.label = 2;
+            if (conversationSearchViewModel.OLrzqt((List<sQY>) list, (Continuation<? super Unit>) this) == objCopydefault) {
+                return objCopydefault;
+            }
+        }
+        objM7377constructorimpl = Result.m7377constructorimpl(Unit.INSTANCE);
+        Result.m7380exceptionOrNullimpl(objM7377constructorimpl);
+        return Unit.INSTANCE;
+    }
+}

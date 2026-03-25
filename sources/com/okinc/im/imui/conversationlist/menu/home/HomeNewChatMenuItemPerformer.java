@@ -1,0 +1,96 @@
+package com.okinc.im.imui.conversationlist.menu.home;
+
+import android.content.Context;
+import android.graphics.drawable.Drawable;
+import android.os.Parcel;
+import android.os.Parcelable;
+import com.okinc.im.imui.conversation.message.menu.api.IMenuItemPerformer;
+import com.okinc.im.menu.IMMenuItem;
+import kotlin.jvm.internal.DefaultConstructorMarker;
+import kotlin.jvm.internal.Intrinsics;
+import o.ActivityC37293orB;
+import o.C33070mpX;
+import o.C35399nuc;
+import o.C52761wXj;
+import org.jetbrains.annotations.NotNull;
+
+/* JADX INFO: loaded from: classes18.dex */
+public class HomeNewChatMenuItemPerformer implements IMenuItemPerformer {
+    public static final Parcelable.Creator<HomeNewChatMenuItemPerformer> CREATOR = new Creator();
+    public final boolean AEQbTJ;
+
+    public static final class Creator implements Parcelable.Creator<HomeNewChatMenuItemPerformer> {
+        /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+        /* JADX DEBUG: Method merged with bridge method: createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object; */
+        /* JADX WARN: Can't rename method to resolve collision */
+        @Override // android.os.Parcelable.Creator
+        public final HomeNewChatMenuItemPerformer createFromParcel(Parcel parcel) {
+            Intrinsics.checkNotNullParameter(parcel, "");
+            return new HomeNewChatMenuItemPerformer(parcel.readInt() != 0);
+        }
+
+        /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+        /* JADX DEBUG: Method merged with bridge method: newArray(I)[Ljava/lang/Object; */
+        /* JADX WARN: Can't rename method to resolve collision */
+        @Override // android.os.Parcelable.Creator
+        public final HomeNewChatMenuItemPerformer[] newArray(int i) {
+            return new HomeNewChatMenuItemPerformer[i];
+        }
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public HomeNewChatMenuItemPerformer() {
+        this(false, 1, null);
+    }
+
+    @Override // android.os.Parcelable
+    public int describeContents() {
+        return 0;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    @Override // android.os.Parcelable
+    public void writeToParcel(@NotNull Parcel parcel, int i) {
+        Intrinsics.checkNotNullParameter(parcel, "");
+        parcel.writeInt(this.AEQbTJ ? 1 : 0);
+    }
+
+    public HomeNewChatMenuItemPerformer(boolean z) {
+        this.AEQbTJ = z;
+    }
+
+    /* JADX DEBUG: Can't inline method, not implemented redirect type for insn: 0x0005: CONSTRUCTOR 
+  (wrap:boolean:?: TERNARY null = ((wrap:int:0x0000: ARITH (r2v0 int) & (1 int) A[WRAPPED]) != (0 int)) ? false : (r1v0 boolean))
+ A[MD:(boolean):void (m)] (LINE:15) call: com.okinc.im.imui.conversationlist.menu.home.HomeNewChatMenuItemPerformer.<init>(boolean):void type: THIS */
+    public /* synthetic */ HomeNewChatMenuItemPerformer(boolean z, int i, DefaultConstructorMarker defaultConstructorMarker) {
+        this((i & 1) != 0 ? false : z);
+    }
+
+    @Override // com.okinc.im.imui.conversation.message.menu.api.IMenuItemPerformer
+    public CharSequence EZpvd() {
+        return C33070mpX.AYXKKw(C35399nuc.LoaderManager.RAQtXZ);
+    }
+
+    @Override // com.okinc.im.imui.conversation.message.menu.api.IMenuItemPerformer
+    public Drawable copydefault() {
+        Drawable drawableKWHzl = C33070mpX.KWHzl(C52761wXj.TaskDescription.Qsauvs);
+        if (drawableKWHzl == null) {
+            return null;
+        }
+        drawableKWHzl.setTint(C33070mpX.copydefault(C52761wXj.Activity.fdOvFl));
+        return drawableKWHzl;
+    }
+
+    @Override // com.okinc.im.imui.conversation.message.menu.api.IMenuItemPerformer
+    public void AEQbTJ(@NotNull Context context) {
+        Intrinsics.checkNotNullParameter(context, "");
+        if (this.AEQbTJ) {
+            context.startActivity(ActivityC37293orB.Companion.copydefault(context));
+        }
+    }
+
+    @Override // com.okinc.im.imui.conversation.message.menu.api.IMenuItemPerformer
+    public IMMenuItem AEQbTJ() {
+        return IMMenuItem.NEW_CHAT;
+    }
+}
