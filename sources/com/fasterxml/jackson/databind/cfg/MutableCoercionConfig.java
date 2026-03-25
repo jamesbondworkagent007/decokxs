@@ -1,0 +1,30 @@
+package com.fasterxml.jackson.databind.cfg;
+
+import java.io.Serializable;
+
+/* JADX INFO: loaded from: classes21.dex */
+public class MutableCoercionConfig extends CoercionConfig implements Serializable {
+    private static final long serialVersionUID = 1;
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public MutableCoercionConfig setAcceptBlankAsEmpty(Boolean bool) {
+        this._acceptBlankAsEmpty = bool;
+        return this;
+    }
+
+    public MutableCoercionConfig() {
+    }
+
+    public MutableCoercionConfig(MutableCoercionConfig mutableCoercionConfig) {
+        super(mutableCoercionConfig);
+    }
+
+    public MutableCoercionConfig copy() {
+        return new MutableCoercionConfig(this);
+    }
+
+    public MutableCoercionConfig setCoercion(CoercionInputShape coercionInputShape, CoercionAction coercionAction) {
+        this._coercionsByShape[coercionInputShape.ordinal()] = coercionAction;
+        return this;
+    }
+}

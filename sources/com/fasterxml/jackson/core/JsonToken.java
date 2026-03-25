@@ -1,0 +1,104 @@
+package com.fasterxml.jackson.core;
+
+import kotlinx.serialization.json.internal.AbstractJsonLexerKt;
+
+/* JADX INFO: loaded from: classes21.dex */
+public enum JsonToken {
+    NOT_AVAILABLE(null, -1),
+    START_OBJECT("{", 1),
+    END_OBJECT("}", 2),
+    START_ARRAY("[", 3),
+    END_ARRAY("]", 4),
+    FIELD_NAME(null, 5),
+    VALUE_EMBEDDED_OBJECT(null, 12),
+    VALUE_STRING(null, 6),
+    VALUE_NUMBER_INT(null, 7),
+    VALUE_NUMBER_FLOAT(null, 8),
+    VALUE_TRUE("true", 9),
+    VALUE_FALSE("false", 10),
+    VALUE_NULL(AbstractJsonLexerKt.NULL, 11);
+
+    final int _id;
+    final boolean _isBoolean;
+    final boolean _isNumber;
+    final boolean _isScalar;
+    final boolean _isStructEnd;
+    final boolean _isStructStart;
+    final String _serialized;
+    final byte[] _serializedBytes;
+    final char[] _serializedChars;
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final byte[] asByteArray() {
+        return this._serializedBytes;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final char[] asCharArray() {
+        return this._serializedChars;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final String asString() {
+        return this._serialized;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final int id() {
+        return this._id;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final boolean isBoolean() {
+        return this._isBoolean;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final boolean isNumeric() {
+        return this._isNumber;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final boolean isScalarValue() {
+        return this._isScalar;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final boolean isStructEnd() {
+        return this._isStructEnd;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public final boolean isStructStart() {
+        return this._isStructStart;
+    }
+
+    JsonToken(String str, int i) {
+        boolean z = false;
+        if (str == null) {
+            this._serialized = null;
+            this._serializedChars = null;
+            this._serializedBytes = null;
+        } else {
+            this._serialized = str;
+            char[] charArray = str.toCharArray();
+            this._serializedChars = charArray;
+            int length = charArray.length;
+            this._serializedBytes = new byte[length];
+            for (int i2 = 0; i2 < length; i2++) {
+                this._serializedBytes[i2] = (byte) this._serializedChars[i2];
+            }
+        }
+        this._id = i;
+        this._isBoolean = i == 10 || i == 9;
+        this._isNumber = i == 7 || i == 8;
+        boolean z2 = i == 1 || i == 3;
+        this._isStructStart = z2;
+        boolean z3 = i == 2 || i == 4;
+        this._isStructEnd = z3;
+        if (!z2 && !z3 && i != 5 && i != -1) {
+            z = true;
+        }
+        this._isScalar = z;
+    }
+}

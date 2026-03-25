@@ -1,0 +1,141 @@
+package com.fasterxml.jackson.databind.cfg;
+
+import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.annotation.JsonInclude;
+import com.fasterxml.jackson.annotation.JsonSetter;
+import com.fasterxml.jackson.databind.introspect.VisibilityChecker;
+import java.io.Serializable;
+import java.util.HashMap;
+import java.util.Map;
+import o.VU;
+
+/* JADX INFO: loaded from: classes21.dex */
+public class ConfigOverrides implements Serializable {
+    private static final long serialVersionUID = 1;
+    protected JsonInclude.Value _defaultInclusion;
+    protected Boolean _defaultLeniency;
+    protected Boolean _defaultMergeable;
+    protected JsonSetter.Value _defaultSetterInfo;
+    protected Map<Class<?>, MutableConfigOverride> _overrides;
+    protected VisibilityChecker<?> _visibilityChecker;
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public JsonInclude.Value getDefaultInclusion() {
+        return this._defaultInclusion;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public Boolean getDefaultLeniency() {
+        return this._defaultLeniency;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public Boolean getDefaultMergeable() {
+        return this._defaultMergeable;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public JsonSetter.Value getDefaultSetterInfo() {
+        return this._defaultSetterInfo;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public VisibilityChecker<?> getDefaultVisibility() {
+        return this._visibilityChecker;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public void setDefaultInclusion(JsonInclude.Value value) {
+        this._defaultInclusion = value;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public void setDefaultLeniency(Boolean bool) {
+        this._defaultLeniency = bool;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public void setDefaultMergeable(Boolean bool) {
+        this._defaultMergeable = bool;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public void setDefaultSetterInfo(JsonSetter.Value value) {
+        this._defaultSetterInfo = value;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 0 */
+    public void setDefaultVisibility(VisibilityChecker<?> visibilityChecker) {
+        this._visibilityChecker = visibilityChecker;
+    }
+
+    public ConfigOverrides() {
+        this(null, JsonInclude.Value.empty(), JsonSetter.Value.empty(), VisibilityChecker.Std.defaultInstance(), null, null);
+    }
+
+    public ConfigOverrides(Map<Class<?>, MutableConfigOverride> map, JsonInclude.Value value, JsonSetter.Value value2, VisibilityChecker<?> visibilityChecker, Boolean bool, Boolean bool2) {
+        this._overrides = map;
+        this._defaultInclusion = value;
+        this._defaultSetterInfo = value2;
+        this._visibilityChecker = visibilityChecker;
+        this._defaultMergeable = bool;
+        this._defaultLeniency = bool2;
+    }
+
+    @Deprecated
+    public ConfigOverrides(Map<Class<?>, MutableConfigOverride> map, JsonInclude.Value value, JsonSetter.Value value2, VisibilityChecker<?> visibilityChecker, Boolean bool) {
+        this(map, value, value2, visibilityChecker, bool, null);
+    }
+
+    public ConfigOverrides copy() {
+        Map<Class<?>, MutableConfigOverride> map_newMap;
+        if (this._overrides == null) {
+            map_newMap = null;
+        } else {
+            map_newMap = _newMap();
+            for (Map.Entry<Class<?>, MutableConfigOverride> entry : this._overrides.entrySet()) {
+                map_newMap.put(entry.getKey(), entry.getValue().copy());
+            }
+        }
+        return new ConfigOverrides(map_newMap, this._defaultInclusion, this._defaultSetterInfo, this._visibilityChecker, this._defaultMergeable, this._defaultLeniency);
+    }
+
+    public VU findOverride(Class<?> cls) {
+        Map<Class<?>, MutableConfigOverride> map = this._overrides;
+        if (map == null) {
+            return null;
+        }
+        return map.get(cls);
+    }
+
+    public MutableConfigOverride findOrCreateOverride(Class<?> cls) {
+        if (this._overrides == null) {
+            this._overrides = _newMap();
+        }
+        MutableConfigOverride mutableConfigOverride = this._overrides.get(cls);
+        if (mutableConfigOverride != null) {
+            return mutableConfigOverride;
+        }
+        MutableConfigOverride mutableConfigOverride2 = new MutableConfigOverride();
+        this._overrides.put(cls, mutableConfigOverride2);
+        return mutableConfigOverride2;
+    }
+
+    public JsonFormat.Value findFormatDefaults(Class<?> cls) {
+        MutableConfigOverride mutableConfigOverride;
+        JsonFormat.Value format;
+        Map<Class<?>, MutableConfigOverride> map = this._overrides;
+        if (map != null && (mutableConfigOverride = map.get(cls)) != null && (format = mutableConfigOverride.getFormat()) != null) {
+            return !format.hasLenient() ? format.withLenient(this._defaultLeniency) : format;
+        }
+        Boolean bool = this._defaultLeniency;
+        if (bool == null) {
+            return JsonFormat.Value.empty();
+        }
+        return JsonFormat.Value.forLeniency(bool.booleanValue());
+    }
+
+    public Map<Class<?>, MutableConfigOverride> _newMap() {
+        return new HashMap();
+    }
+}
